@@ -1,0 +1,36 @@
+# Written by tools/optimize.py. Do not hand-edit.
+#
+# Derived artifacts, not sources. cache/sources/ is never modified; its hashes
+# are the drift signal that decides releases.
+#
+# output_sha256 is committed so a rebuild on another machine can be proven
+# byte-identical. If it moves without a profile or source change, determinism
+# has regressed. The PyMuPDF version is recorded because a different MuPDF may
+# legitimately encode differently; see rule 12.
+
+density_threshold_mb_per_page: 0.25
+optimized:
+  afh:
+    output_bytes: 94866669
+    output_sha256: 6d3355493c8cb618c86f4c689a6c07b806bebfa9e734a85265be1dd231d327b2
+    pages: 406
+    source_bytes: 273248888
+    source_sha256: 90dda95dcbe992bd798f1932b02b5a02d620d8344565c0516a6917f29dea1f8d
+  aviation-instructor:
+    output_bytes: 45207182
+    output_sha256: 0f9e993591edaa5289ea8941b065a848ab3520fc15dcb4beda49df018ef14a13
+    pages: 228
+    source_bytes: 145105853
+    source_sha256: 8a3c2cc0133d5d0231ff42589b55b49d995f604c21c16dffe688db1beccbaf73
+  seaplane:
+    output_bytes: 7228232
+    output_sha256: 24607cb861e9886eaa4eb8891b7a2eb7e06510d78187447462568384167f41e6
+    pages: 32
+    source_bytes: 39566470
+    source_sha256: 91208b292d3af79136aaf3e632c20a623e8c8033c480492c653a9699ff1e44c4
+profile:
+  dpi_target: 150
+  dpi_threshold: 200
+  name: tablet-150
+  quality: 80
+pymupdf: 1.28.2

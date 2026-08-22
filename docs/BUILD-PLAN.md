@@ -333,7 +333,21 @@ Two documents dominate:
 
 AFH and AIH together are 418 MB, 55 percent of the corpus for 12 percent of the pages. At roughly 0.65 MB per page against a 0.06 MB per page corpus median, both are carrying images at far higher resolution than a tablet can display. They are the entire problem, and they are also the two most important documents for the Private and Commercial crosswalks, so dropping them is not attractive.
 
-This makes image downsampling in `optimize` load-bearing rather than contingent, and it needs to be settled before Phase 5 rather than discovered there. Ghostscript at 150 to 200 dpi is the obvious lever. Re-measure after the interpretations and the CFR land.
+**Resolved in 1.2 by `tools/optimize.py`.** Downsampling images above 200 dpi to 150 dpi at quality 80, applied only to documents denser than 0.25 MB/page:
+
+| Document | Before | After | Ratio |
+|---|---|---|---|
+| Airplane Flying Handbook | 260.6 MB | 90.5 MB | 35% |
+| Aviation Instructor's Handbook | 138.4 MB | 43.1 MB | 31% |
+| Seaplane Handbook | 37.7 MB | 6.9 MB | 18% |
+
+**Corpus 766 MB to 470 MB, saving 296 MB.** The hard fail passes. The 350 MB warn line does not, and headroom is thin with the CFR, interpretations, and generated pages still to come.
+
+The threshold is empirically placed, not guessed. Below it returns collapse: IFH recompresses to 95 percent of its size and takes 100 seconds to do it, because its bulk is text and vector art rather than oversized images. A 30 percent minimum-saving floor discards any result that does not earn its quality loss.
+
+Ghostscript was not needed. PyMuPDF's `rewrite_images` did the work, so no second imaging binary has to exist identically on both platforms. Output is byte-reproducible: PyMuPDF writes a random second trailer `/ID` on every save, which is correct per the PDF spec and fatal for rule 8, so both halves are pinned to a value derived from the source hash. Two runs from a cold cache produced an identical `manifest/optimize.lock.yaml`.
+
+If more headroom is needed later, dropping `dpi_target` to 120 roughly halves these three again.
 
 ---
 

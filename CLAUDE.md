@@ -100,6 +100,7 @@ pdflight/
 ├── manifest/
 │   ├── sources.yaml
 │   ├── sources.lock.yaml       # CI-written
+│   ├── optimize.lock.yaml      # tool-written, proves optimize is reproducible
 │   └── cfr.yaml
 ├── crosswalk/                  # empty in Phase 1
 ├── anchors/
@@ -125,6 +126,7 @@ pdflight/
 │   ├── fetch.py
 │   ├── discover_interps.py
 │   ├── verify_interps.py
+│   ├── optimize.py             # image downsampling, keeps the size budget
 │   └── vendor_fonts.py         # one-time font vendoring, --check in the suite
 ├── tests/
 ├── docs/
@@ -441,7 +443,9 @@ Full detail in `docs/BUILD-PLAN.md` sections 3, 4, 6, 7.
 
 ## 9. Toolchain
 
-Python 3.12. PyMuPDF for assembly, links, page counts, and all text extraction (AGPL is fine, this repo is open source). qpdf for linearize and object repair. pdfcpu for validation. Typst for generated pages. Ghostscript only if the size budget is breached.
+Python 3.12. PyMuPDF for assembly, links, page counts, all text extraction, and image downsampling (AGPL is fine, this repo is open source). qpdf for linearize and object repair. pdfcpu for validation. Typst for generated pages.
+
+**No Ghostscript.** The size budget was breached in 1.2, at 766 MB against a 500 MB hard fail, which is the condition that was supposed to bring Ghostscript in. PyMuPDF's own `rewrite_images` closed the gap instead, taking the corpus to 470 MB, so no second imaging binary has to be installed identically on Windows and `ubuntu-latest`. See rule 12 and `tools/optimize.py`.
 
 **No poppler.** PyMuPDF `get_text()` covers Phase 3 extraction, so `pdftotext` is never needed, and `pdfinfo` was poppler's only remaining job. Two extractors disagree on whitespace and column reading order, FAA handbooks are heavily multi-column, and Phase 3 resolves anchors by regex over extracted text. Two extractors means anchors resolve differently on Windows than on `ubuntu-latest`. One extractor, everywhere. See rule 12.
 

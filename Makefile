@@ -11,7 +11,7 @@ PYTHON ?= python
 
 .DEFAULT_GOAL := help
 .PHONY: help setup fetch fetch-check fetch-update discover-interps \
-        verify-interps fonts fonts-check test clean
+        verify-interps optimize optimize-check fonts fonts-check test clean
 
 help:
 	@echo "PDFlight targets"
@@ -22,6 +22,8 @@ help:
 	@echo "  fetch-update      Pull changed sources and rewrite manifest/sources.lock.yaml"
 	@echo "  discover-interps  Resolve yearless interpretations against the cached index"
 	@echo "  verify-interps    Verify dated interpretations against the Chief Counsel library"
+	@echo "  optimize          Recompress oversized sources into cache/optimized/"
+	@echo "  optimize-check    Verify optimized artifacts against optimize.lock.yaml"
 	@echo "  fonts-check       Verify vendored fonts against theme/fonts/fonts.lock.json"
 	@echo "  fonts             Re-vendor fonts from the pinned upstream releases"
 	@echo "  test              Run the test suite"
@@ -47,6 +49,12 @@ discover-interps:
 
 verify-interps:
 	$(PYTHON) tools/verify_interps.py
+
+optimize:
+	$(PYTHON) tools/optimize.py
+
+optimize-check:
+	$(PYTHON) tools/optimize.py --check
 
 fonts-check:
 	$(PYTHON) tools/vendor_fonts.py --check
