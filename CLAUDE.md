@@ -222,6 +222,12 @@ https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/
 
 Reading a year off the index is verification. Trying years until one returns 200 is invention. The line is whether the year came from a source or from the tool.
 
+**The FAA index this assumed is gone.** Checked in 1.4: the `Data/interps/{year}/` directory listing returns 403, the `interpretations/index.cfm` search endpoint returns 500 and is retired, and the `drs.faa.gov` REST API returns 403 even with browser headers. The interpretations moved to the Dynamic Regulatory System, which is a JavaScript application with no scriptable index. The PDF URL pattern above still resolves, so verification of dated entries is unaffected; only discovery is.
+
+Candidate URLs therefore come from outside the tool, a DRS session or a search index, recorded in `cache/interps-index.json`. `discover_interps.py` never invents one. What it does is the part rule 2 actually cares about: it fetches each candidate and reads the addressee, date, and subject off page one, so a year is only ever adopted from the document. A candidate whose page one names someone else is rejected.
+
+**Five dated entries also need discovery.** A6 Crowe 2013, A10 Bell 2009, B4 MacPherson 2014, B5 Winton 2014, and B6 Levy 2005 return 404 at the documented pattern. The library has used more than one filename convention, exactly as anticipated. Their surname and year are known; only the filename is not.
+
 **Build the index once, then resolve locally.** Do not issue a request per candidate.
 
 1. Locate the index root. Confirm the per-year listing shape against 2009, where five V-rated entries exist to cross-check.
@@ -238,6 +244,8 @@ Once the index exists, the URL pattern above is unnecessary for every entry, not
 Yearless entries needing discovery: B3 Bobertz, C2 Theriault, C3 Kortokrax, C4 Walker, D1 Collins, D2 Kuhn, D3 Cazares, D4 Bell, E3 Gilberti, E4 Ludwig, F3 Bell, G2 Grannis. Twelve.
 
 **Note on B3 Bobertz**: marked V in an earlier draft despite having no year. A citation cannot be confirmed and yearless at once. Treat the V as unreliable and run it through discovery like the rest.
+
+**Note on G1 Mangiamele, and the count.** This file contradicts itself. The twelve listed above exclude G1, and the id-scheme section below asserts twice that Mangiamele appears twice in 2009, using `interp:mangiamele-2009-instructor-type-rating` as its worked example. But the section 7 table cell for G1 reads "Mangiamele, instructor letter" with no year in it. The table is the candidate list, so the tooling follows the table and **the real count of yearless entries is thirteen, not twelve**. Do not settle this by rereading the prose. Discovery settles it from the document, and the table gets the year written in once it does.
 
 ### Interpretation id scheme
 
@@ -339,7 +347,7 @@ Theme applies to generated pages only. Source FAA PDFs stay untouched on white. 
 
 Thirty-four selected. **V** means name, year, and topic confirmed. **C** means unverified, must pass `verify_interps.py` before entering the manifest.
 
-**Twelve entries carry no year** and must go through `discover_interps.py` first: B3, C2, C3, C4, D1, D2, D3, D4, E3, E4, F3, G2. B3 Bobertz is marked V below but has no year, which is contradictory. Treat it as C.
+**Thirteen entries carry no year** and must go through `discover_interps.py` first: B3, C2, C3, C4, D1, D2, D3, D4, E3, E4, F3, **G1**, G2. An earlier draft said twelve and omitted G1; see the note in 4.4. B3 Bobertz is marked V below but has no year, which is contradictory. Treat it as C.
 
 The topic column is a working description, not the document's subject line. Ids and slugs come from the fetched document.
 
