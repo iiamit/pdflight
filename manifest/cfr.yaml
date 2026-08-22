@@ -1,0 +1,14 @@
+# Which CFR titles and parts get typeset in-file. Consumed by Phase 2.
+#
+# Built from eCFR XML, not fetched as PDFs. The FAA does not publish a usable
+# single PDF of 14 CFR.
+#
+# Request at part level. A whole-title request returns everything and times out.
+# One HTTP call per part, cached by (part, date).
+
+title_14:
+  parts: [1, 43, 45, 47, 48, 61, 67, 68, 71, 73, 91, 103, 105, 119, 135]
+  excluded: [97, 121]    # 97 is TERPS procedures. 121 is roughly 1,800 pages, out of scope.
+
+title_49:
+  parts: [830]           # NTSB accident reporting

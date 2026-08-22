@@ -656,7 +656,6 @@ Every C-rated entry gets verified against the Chief Counsel index before it ente
 
 ## Open items
 
-1. **Repo name.** `pdflight` assumed throughout. Confirm before I write the manifest paths.
-2. **Sixteen interpretation citations** need verification (section 15). Mechanical, roughly two hours, and it belongs in phase 1 rather than at first build.
+1. **Sixteen interpretation citations** need verification (section 15). Twelve of them carry no year and go through `discover_interps.py` first. Mechanical, and it belongs in phase 1 rather than at first build.
 
-Everything else is decided. Next concrete step is phase 1: `manifest/sources.yaml`, the fetcher, and the lock file.
+Everything else is decided. Phase 1.1 is complete. Next concrete step is deliverable 1.3, the fetcher, then 1.2, the manifest.

@@ -1,0 +1,16 @@
+# Written by tools/fetch.py. Do not hand-edit.
+#
+# Holds content-derived fields only: resolved_url, sha256, bytes, pages,
+# content_type, faa_number, faa_number_source, revision_date.
+#
+# sha256 is the only load-bearing change signal. Every other field is
+# informational, nullable, and never fails a build.
+#
+# fetched_at updates only when sha256 changes. Volatile validators (etag,
+# last_modified, last-checked timestamp) live in state/check.json, which is
+# gitignored. A diff in this file must mean the content changed, because the
+# release job uses that diff to decide whether to cut a release.
+#
+# Empty until Phase 1 deliverable 1.3.
+
+{}

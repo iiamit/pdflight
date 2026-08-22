@@ -1,0 +1,31 @@
+# Rule 9: never commit source PDFs or the output PDF. GitHub rejects files over
+# 100 MB in-repo. Sources live in cache/ and the Actions cache. Output goes to
+# Releases, where the per-file limit is 2 GB.
+
+cache/
+build/
+state/
+
+*.pdf
+
+# Vendored fonts are build inputs under rule 8 and must stay tracked.
+# No pattern above matches them today; this is here so a future *.ttf or
+# theme/** rule cannot silently drop them. See CLAUDE.md section 6.
+!theme/fonts/
+!theme/fonts/**
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+.venv/
+venv/
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

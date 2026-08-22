@@ -1,0 +1,37 @@
+[project]
+name = "pdflight"
+version = "0.1.0"
+description = "Hyperlinked, offline FAA reference PDF. Build pipeline and crosswalk."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{ name = "iiamit" }]
+
+# Rule 12: prefer Python wheels over external binaries. PyMuPDF is the single
+# text extractor and page counter for every phase. There is no poppler here on
+# purpose; two extractors disagree on whitespace and column order, which would
+# make anchors resolve differently on Windows than on ubuntu-latest.
+dependencies = [
+    "pymupdf>=1.24,<2",
+    "pyyaml>=6.0,<7",
+    "httpx>=0.27,<1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<9"]
+
+[project.urls]
+Homepage = "https://github.com/iiamit/pdflight"
+Source = "https://github.com/iiamit/pdflight"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# tools/ is a directory of entry-point scripts, not an importable package.
+packages = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

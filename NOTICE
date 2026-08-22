@@ -1,0 +1,64 @@
+PDFlight
+========
+
+Source material
+---------------
+
+The publications compiled by this project are works of the United States
+Government, produced by the Federal Aviation Administration and the National
+Transportation Safety Board. Under 17 U.S.C. 105 they are not subject to
+copyright protection in the United States. They are reproduced here unaltered.
+
+PDFlight adds no original content. No summaries, no mnemonics, no annotations.
+The compilation consists of the source documents, generated navigation pages,
+and a link layer connecting them.
+
+
+This is not an official FAA product
+-----------------------------------
+
+PDFlight is an unofficial compilation. It is not produced, reviewed, endorsed,
+or approved by the Federal Aviation Administration or by any other agency of
+the United States Government. No agency has verified its accuracy or currency.
+
+Do not rely on this document for operational or legal purposes. Verify against
+the official FAA sources before acting on anything in it. Every included
+document carries its revision and currency date, and the colophon lists the
+source and retrieval date for each one.
+
+Regulatory text is reproduced from the Electronic Code of Federal Regulations.
+The eCFR is an editorial compilation and is not the official legal edition of
+the Code of Federal Regulations.
+
+Legal interpretations issued by the FAA Office of the Chief Counsel respond to
+the specific facts presented by the person who requested them. They are not
+regulations and do not necessarily apply to other circumstances.
+
+
+Trademarks and third-party material
+-----------------------------------
+
+PDFlight is not affiliated with any commercial provider of aviation reference
+material and does not reuse any such provider's taxonomy, menu structure, or
+naming.
+
+No manufacturer avionics documentation, pilot operating handbook, or other
+non-government material is included or redistributed.
+
+
+Fonts
+-----
+
+Inter, copyright the Inter Project Authors.
+JetBrains Mono, copyright the JetBrains Mono Project Authors.
+
+Both are licensed under the SIL Open Font License, version 1.1. The full text
+of each license is vendored at theme/fonts/OFL-Inter.txt and
+theme/fonts/OFL-JetBrainsMono.txt.
+
+
+Build code
+----------
+
+The build code, templates, and crosswalk are licensed under the MIT License.
+See LICENSE.

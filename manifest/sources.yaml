@@ -1,0 +1,34 @@
+# PDFlight source manifest. Hand-edited. Schema in CLAUDE.md section 4.2.
+#
+#   - id: phak
+#     title: Pilot's Handbook of Aeronautical Knowledge
+#     landing_url: https://www.faa.gov/...      # authoritative FAA page
+#     url: https://www.faa.gov/....pdf          # last known direct link
+#     section: handbooks                        # standards|handbooks|aim|regs|ac|interps|guides
+#     order: 1                                  # sort within section
+#     optional: false
+#     parts:                                    # multi-file sources only, ordered
+#       - url: https://www.faa.gov/....pdf
+#     addenda:
+#       - url: https://www.faa.gov/....pdf
+#         append: true
+#
+# landing_url is authoritative. url is a cache hint. FAA PDF filenames carry
+# edition letters and change without notice, so when url 404s the fetcher
+# reports every .pdf candidate found on landing_url and stops. It never
+# substitutes automatically and never rewrites this file unattended.
+#
+# faa_number is NOT in this schema. It is derived at fetch time into
+# sources.lock.yaml, is nullable and informational, and is never a key.
+# `id` is the identifier. See rule 2a.
+#
+# menu_page is NOT in this schema. Menu layout does not exist until Phase 4.
+# `section` plus `order` carries the same intent and survives a redesign.
+#
+# Interpretation ids are three-part: interp:{surname}-{year}-{topic-slug}.
+# Two-part ids collide; Mangiamele appears twice in 2009.
+#
+# Populated in Phase 1 deliverable 1.2. Every URL is verified with a live
+# request before it enters this file. Nothing is guessed. See rules 1 and 2.
+
+[]

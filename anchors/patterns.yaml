@@ -1,0 +1,30 @@
+# How to find each anchor in each source document. Empty in Phase 1.
+#
+# Anchor refs are logical, never page numbers:
+#   phak:ch15:airspace-class-b
+#   afh:ch09:stabilized-approach
+#   14cfr:91.155
+#   49cfr:830.5
+#   aim:4-3-3
+#   ac:61-65K:para-14
+#   acs:PA.I.B.K1
+#   interp:mangiamele-2009-expense-sharing
+#
+# Resolution priority (CLAUDE.md section 8):
+#   1. native destinations for anything generated. Deterministic, zero maintenance.
+#   2. source PDF outline match. Most FAA handbooks and ACs ship with bookmarks.
+#   3. regex over extracted page text with an expected ordinal.
+#   4. pinned page number with `pinned: true`, which warns on every run.
+#
+# Shape:
+#   phak:ch15:airspace-class-b:
+#     strategy: outline
+#     match: "Class B Airspace"
+#     fallback:
+#       strategy: regex
+#       pattern: '^Class B Airspace'
+#       ordinal: 1
+#
+# Populated in Phase 3.
+
+{}

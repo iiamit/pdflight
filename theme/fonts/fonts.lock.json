@@ -1,0 +1,93 @@
+{
+  "comment": "Vendored build inputs. Rule 8: fonts must not be fetched at build time.",
+  "families": {
+    "Inter": {
+      "faces": [
+        {
+          "bytes": 411640,
+          "file": "Inter-Regular.ttf",
+          "member": "extras/ttf/Inter-Regular.ttf",
+          "sha256": "40d692fce188e4471e2b3cba937be967878f631ad3ebbbdcd587687c7ebe0c82",
+          "style": "normal",
+          "weight": 400
+        },
+        {
+          "bytes": 417300,
+          "file": "Inter-Medium.ttf",
+          "member": "extras/ttf/Inter-Medium.ttf",
+          "sha256": "97ad806f526e41546d46365bb3a393145f75b7b1568913db74549ad8b8dba872",
+          "style": "normal",
+          "weight": 500
+        },
+        {
+          "bytes": 419744,
+          "file": "Inter-SemiBold.ttf",
+          "member": "extras/ttf/Inter-SemiBold.ttf",
+          "sha256": "78a843fade9d4612a5567302fb595b56976eb5fcebf4fea5a5912d638bafcde3",
+          "style": "normal",
+          "weight": 600
+        },
+        {
+          "bytes": 420428,
+          "file": "Inter-Bold.ttf",
+          "member": "extras/ttf/Inter-Bold.ttf",
+          "sha256": "288316099b1e0a47a4716d159098005eef7c0066921f34e3200393dbdb01947f",
+          "style": "normal",
+          "weight": 700
+        },
+        {
+          "bytes": 417388,
+          "file": "Inter-Italic.ttf",
+          "member": "extras/ttf/Inter-Italic.ttf",
+          "sha256": "bbc051dd204b5019a1aa0bc0ae2aa8a05ab13e7a3f979fa357631dc7feb6833a",
+          "style": "italic",
+          "weight": 400
+        }
+      ],
+      "license": {
+        "file": "OFL-Inter.txt",
+        "member": "LICENSE.txt",
+        "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      },
+      "source": {
+        "asset": "Inter-4.1.zip",
+        "asset_sha256": "9883fdd4a49d4fb66bd8177ba6625ef9a64aa45899767dde3d36aa425756b11e",
+        "repo": "rsms/inter",
+        "tag": "v4.1",
+        "url": "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip"
+      }
+    },
+    "JetBrains Mono": {
+      "faces": [
+        {
+          "bytes": 273900,
+          "file": "JetBrainsMono-Regular.ttf",
+          "member": "fonts/ttf/JetBrainsMono-Regular.ttf",
+          "sha256": "a0bf60ef0f83c5ed4d7a75d45838548b1f6873372dfac88f71804491898d138f",
+          "style": "normal",
+          "weight": 400
+        },
+        {
+          "bytes": 273860,
+          "file": "JetBrainsMono-Medium.ttf",
+          "member": "fonts/ttf/JetBrainsMono-Medium.ttf",
+          "sha256": "31c92d01a8a08528b718a43addf0ad3df0af2ca4b7b3290a452f70f358e14d3d",
+          "style": "normal",
+          "weight": 500
+        }
+      ],
+      "license": {
+        "file": "OFL-JetBrainsMono.txt",
+        "member": "OFL.txt",
+        "sha256": "30f0c136e3c88e422d0791acd97238870f9054a9729bc34cf2ff0d4ed8cac4ad"
+      },
+      "source": {
+        "asset": "JetBrainsMono-2.304.zip",
+        "asset_sha256": "6f6376c6ed2960ea8a963cd7387ec9d76e3f629125bc33d1fdcd7eb7012f7bbf",
+        "repo": "JetBrains/JetBrainsMono",
+        "tag": "v2.304",
+        "url": "https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip"
+      }
+    }
+  }
+}

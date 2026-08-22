@@ -1,0 +1,97 @@
+# PDFlight theme tokens.
+#
+# Lifted verbatim from iiamit/iamit.org, assets/css/aviation.css. Token names
+# match the CSS custom properties so drift between the site and this file is
+# visible by inspection.
+#
+# Applies to generated pages only. Source FAA PDFs stay untouched on white.
+# Do not invert them; it looks broken and inflates file size.
+
+[color]
+bg          = "#0A0D14"   # --bg
+bg_2        = "#0F141D"   # --bg-2
+bg_3        = "#151B26"   # --bg-3
+hair        = "#FFFFFF12" # --hair,   rgba(255,255,255,0.07)
+hair_2      = "#FFFFFF24" # --hair-2, rgba(255,255,255,0.14)
+ink         = "#EEF2F7"   # --ink
+ink_2       = "#AAB3C0"   # --ink-2
+ink_3       = "#6F7886"   # --ink-3
+ink_4       = "#485061"   # --ink-4
+signal      = "#FFB168"   # --signal, ACTIONS AND LIVE SIGNALS ONLY
+signal_2    = "#FFC68F"   # --signal-2, hover lift
+signal_dim  = "#FFB16829"
+signal_glow = "#FFB1688C"
+
+[type]
+sans = "Inter"
+mono = "JetBrains Mono"
+base = 10.5
+
+# Amber is for actions and live signals only. In print that means link targets,
+# section rules, the live dot, and emphasis. Body is ink, secondary is ink_2,
+# labels are ink_3. Do not tint pages amber.
+#
+# One deliberate deviation: 14 CFR body text is Inter at 10.5pt, not mono.
+# Twenty-five hundred pages of monospace is unreadable on a tablet. Mono stays
+# on section numbers, running headers, menu chrome, and ident blocks.
+
+# ---------------------------------------------------------------------------
+# Vendored faces.
+#
+# Fonts are build inputs, so rule 8 governs them. A build-time fetch or a system
+# install means the binary differs between machines, subsetting yields different
+# bytes, and the PDF hash changes with no content change.
+#
+# Static instances only, never variable. Inter's variable font subsets
+# unpredictably through Typst into PDF.
+#
+# Typst must be configured to fail on a missing face. Never synthesize a weight
+# or a slant.
+#
+# Hashes for every file live in theme/fonts/fonts.lock.json, which also records
+# the upstream repo, release tag, asset, and member path for each one.
+# ---------------------------------------------------------------------------
+
+[[font.face]]
+family = "Inter"
+file   = "Inter-Regular.ttf"
+weight = 400
+style  = "normal"
+
+[[font.face]]
+family = "Inter"
+file   = "Inter-Medium.ttf"
+weight = 500
+style  = "normal"
+
+[[font.face]]
+family = "Inter"
+file   = "Inter-SemiBold.ttf"
+weight = 600
+style  = "normal"
+
+[[font.face]]
+family = "Inter"
+file   = "Inter-Bold.ttf"
+weight = 700
+style  = "normal"
+
+# Mandatory, not decorative. eCFR XML uses <I> for citations and defined terms,
+# so Phase 2 needs a real italic rather than a synthesized oblique.
+[[font.face]]
+family = "Inter"
+file   = "Inter-Italic.ttf"
+weight = 400
+style  = "italic"
+
+[[font.face]]
+family = "JetBrains Mono"
+file   = "JetBrainsMono-Regular.ttf"
+weight = 400
+style  = "normal"
+
+[[font.face]]
+family = "JetBrains Mono"
+file   = "JetBrainsMono-Medium.ttf"
+weight = 500
+style  = "normal"
