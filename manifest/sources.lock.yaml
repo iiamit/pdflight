@@ -1,16 +1,71 @@
 # Written by tools/fetch.py. Do not hand-edit.
 #
-# Holds content-derived fields only: resolved_url, sha256, bytes, pages,
-# content_type, faa_number, faa_number_source, revision_date.
-#
-# sha256 is the only load-bearing change signal. Every other field is
-# informational, nullable, and never fails a build.
+# Holds content-derived fields only. sha256 is the only load-bearing change
+# signal; every other field is informational, nullable, and never fails a build.
 #
 # fetched_at updates only when sha256 changes. Volatile validators (etag,
 # last_modified, last-checked timestamp) live in state/check.json, which is
 # gitignored. A diff in this file must mean the content changed, because the
 # release job uses that diff to decide whether to cut a release.
-#
-# Empty until Phase 1 deliverable 1.3.
 
-{}
+sources:
+  ifh:
+    bytes: 68414993
+    content_type: application/pdf
+    faa_number: FAA-H-8083-15B
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T13:47:32Z'
+    pages: 371
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/FAA-H-8083-15B.pdf
+    revision_date: null
+    sha256: 15cbf13fef6bf9810ad38d1f5bbff318133554a6ca118c4474bc1760ad9059d5
+  ifh.addendum.0:
+    bytes: 704458
+    content_type: application/pdf
+    faa_number: FAA-H-8083-15B
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T13:47:32Z'
+    pages: 3
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/ifh_addendum.pdf
+    revision_date: April 2015
+    sha256: 78e39ec631b3fe23b2bde6c5667b2f808724bdbbfb804fc141dfe2887a210dc2
+  phak:
+    bytes: 77598564
+    content_type: application/pdf
+    faa_number: FAA-H-8083-25C
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T13:47:29Z'
+    pages: 522
+    resolved_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf
+    revision_date: null
+    sha256: 247929cace0ab56b376e683eba540cc4c8f39f199ab35414e8b604e24f395cb7
+  phak.addendum.0:
+    bytes: 263376
+    content_type: application/pdf
+    faa_number: FAA-H-8083-25C
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T13:47:29Z'
+    pages: 5
+    resolved_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/PHAK_Addendum_(MOSAIC).pdf
+    revision_date: null
+    sha256: 1670b8454eb22c644a723b3f61a94daff3857c0d94710d6b5961fe29c0999b63
+  weight-balance:
+    bytes: 14879984
+    content_type: application/pdf
+    faa_number: FAA-H-8083-1B
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T13:47:33Z'
+    pages: 114
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/FAA-H-8083-1.pdf
+    revision_date: null
+    sha256: 84015042cdf8f4ab46cfec8a55fd47e9c96cbe95b423f0f6cab14e4425079a10
+  weight-balance.addendum.0:
+    bytes: 167693
+    content_type: application/pdf
+    faa_number: FAA-H-8083-1B
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T13:47:33Z'
+    pages: 2
+    resolved_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/Weight_Balance_HB_Addendum_(MOSAIC).pdf
+    revision_date: null
+    sha256: c212f795d07b1afd374b57b01f7daf8badb0a7c4da71c6ad9bf1ec27a790421e

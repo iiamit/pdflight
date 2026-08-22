@@ -260,6 +260,8 @@ Slug is 2 to 4 words, lowercase, hyphenated, drawn from the subject line of the 
 
 **Every `FAA-H-` number below is unverified.** Edition letters were written from memory and are a starting point for lookup, not a claim. Resolve each from its FAA landing page and extract the real number from the fetched document. Rule 2a applies.
 
+Worked example from the 1.3 seed set, which is why the rule is worth the trouble: the Weight and Balance Handbook is served at `FAA-H-8083-1.pdf`, with no edition letter in the filename, but the document's own metadata reports **FAA-H-8083-1B**. A filename is not a citation. PHAK resolved to 8083-25C from its first page and IFH to 8083-15B from metadata, both matching the guesses above, but that is luck rather than evidence.
+
 **Handbooks**: PHAK (8083-25C), AFH (8083-3C), IFH (8083-15B), IPH (8083-16B), Risk Management (8083-2), Aviation Weather (8083-28), Weight and Balance (8083-1B), Aviation Instructor's (8083-9B), Seaplane (8083-23), Plane Sense.
 
 **Standards**: Private Airplane ACS, Instrument Airplane ACS, Commercial Airplane ACS, ATP and Type Rating ACS, Flight Instructor Airplane ACS, Flight Instructor Instrument PTS.

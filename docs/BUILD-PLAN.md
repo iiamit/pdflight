@@ -316,6 +316,8 @@ The site loads Inter and JetBrains Mono from Google Fonts, weights 400/500/600/7
 
 **Size budget**: hard fail above 500 MB, warn above 350 MB. Realistic estimate is 250 to 400 MB, dominated by the image-heavy handbooks.
 
+**Measured, Phase 1.3 seed set.** Three of the ten handbooks, with addenda, are 161 MB and 1,017 pages before any optimization: PHAK 77.6 MB / 522 pp, IFH 68.4 MB / 371 pp, Weight and Balance 14.9 MB / 114 pp. Extrapolating the remaining seven handbooks and adding standards, the AIM, Advisory Circulars, interpretations, and the typeset CFR puts the raw total near the top of the estimate and past the 350 MB warn line. The 500 MB hard fail is not comfortably clear. Treat image downsampling in `optimize` as required rather than contingent, and measure again once the full corpus is in the lock.
+
 ---
 
 ## 7. GitHub Actions

@@ -34,9 +34,33 @@ def test_a_well_formed_entry_validates():
     assert M.validate([GOOD])
 
 
-def test_the_committed_manifest_parses():
-    # Empty in Phase 1, but it must always be valid YAML and a valid list.
-    assert M.load_sources() == []
+def test_the_committed_manifest_parses_and_validates():
+    # load_sources validates on the way in, so this failing means the committed
+    # manifest is malformed. Asserts shape, never a fixed entry count.
+    entries = M.load_sources()
+    assert isinstance(entries, list)
+    for entry in entries:
+        assert entry["landing_url"].startswith("https://")
+        assert entry["section"] in M.SECTIONS
+        assert "faa_number" not in entry, "rule 2a: derived, never authored"
+
+
+def test_committed_manifest_has_unique_target_keys():
+    keys = [key for entry in M.load_sources() for key, _ in M.targets(entry)]
+    assert len(keys) == len(set(keys)), "target keys must be unique"
+
+
+def test_committed_manifest_urls_are_all_faa_gov():
+    # Rule 3: FAA and NTSB material only. Nothing else gets fetched.
+    allowed = ("www.faa.gov", "www.ntsb.gov", "www.ecfr.gov")
+    import urllib.parse
+
+    for entry in M.load_sources():
+        urls = [entry.get("landing_url")]
+        urls += [url for _key, url in M.targets(entry)]
+        for url in filter(None, urls):
+            host = urllib.parse.urlparse(url).netloc
+            assert host in allowed, f"{entry['id']}: unexpected host {host}"
 
 
 def test_duplicate_ids_are_rejected():

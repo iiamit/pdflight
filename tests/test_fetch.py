@@ -306,9 +306,9 @@ def test_revision_date_never_comes_from_moddate():
     # A PDF whose only date is in its metadata must yield a null revision_date.
     # /ModDate changes on re-encoding with no content change, which is the same
     # false-drift defect already fixed in fetched_at.
-    import fitz
+    import pymupdf
 
-    document = fitz.open()
+    document = pymupdf.open()
     document.new_page().insert_text((72, 72), "No date on this page", fontsize=12)
     document.set_metadata({"modDate": "D:20260101000000Z",
                            "creationDate": "D:20260101000000Z"})

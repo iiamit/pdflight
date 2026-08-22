@@ -268,12 +268,12 @@ def extract_metadata(data):
     and a page count of None rather than failing the run.
     """
     try:
-        import fitz
-    except ImportError:
+        import pymupdf
+    except ImportError:  # pragma: no cover
         return None, None, None, None
 
     try:
-        document = fitz.open(stream=data, filetype="pdf")
+        document = pymupdf.open(stream=data, filetype="pdf")
     except Exception:
         return None, None, None, None
 

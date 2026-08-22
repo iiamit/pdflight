@@ -91,9 +91,9 @@ def workspace(tmp_path):
 
 def make_pdf(lines=("FAA-H-8083-25C", "Pilot's Handbook"), pages=1):
     """A real PDF, so metadata extraction is tested against a real parser."""
-    import fitz
+    import pymupdf
 
-    document = fitz.open()
+    document = pymupdf.open()
     for number in range(max(1, pages)):
         page = document.new_page()
         if number == 0:

@@ -30,5 +30,45 @@
 #
 # Populated in Phase 1 deliverable 1.2. Every URL is verified with a live
 # request before it enters this file. Nothing is guessed. See rules 1 and 2.
+#
+# The three entries below are the seed set CLAUDE.md section 4 calls for:
+# build the fetcher against three hand-entered sources before pointing it at
+# the full corpus. Every URL here returned 200 with application/pdf on a live
+# request, and every landing_url returned 200 text/html.
+#
+# Two landing_url values that looked obvious were checked and returned 404, so
+# those entries fall back to the Aviation Handbooks index, which is verified.
+# Nothing was authored from a pattern.
 
-[]
+- id: phak
+  title: Pilot's Handbook of Aeronautical Knowledge
+  landing_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak
+  url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf
+  section: handbooks
+  order: 1
+  optional: false
+  addenda:
+    - url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/PHAK_Addendum_(MOSAIC).pdf
+      append: true
+
+- id: ifh
+  title: Instrument Flying Handbook
+  landing_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation
+  url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/FAA-H-8083-15B.pdf
+  section: handbooks
+  order: 3
+  optional: false
+  addenda:
+    - url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/ifh_addendum.pdf
+      append: true
+
+- id: weight-balance
+  title: Aircraft Weight and Balance Handbook
+  landing_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation
+  url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/FAA-H-8083-1.pdf
+  section: handbooks
+  order: 7
+  optional: false
+  addenda:
+    - url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/Weight_Balance_HB_Addendum_(MOSAIC).pdf
+      append: true
