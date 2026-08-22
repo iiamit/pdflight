@@ -1,0 +1,21 @@
+# Rules 8 and 12: a checkout must be byte-identical on Windows and on
+# ubuntu-latest. Anything hashed into a lock file breaks otherwise.
+#
+# Without this, core.autocrlf rewrites LF to CRLF when checking out on Windows.
+# The vendored OFL texts then differ from the blobs git stored, their sha256
+# stops matching theme/fonts/fonts.lock.json, and the font test fails. It fails
+# only on Windows, which is the worst shape for a bug: green in CI, red on the
+# maintainer's machine. A fresh clone caught this one.
+
+* text=auto eol=lf
+
+# Vendored build inputs are hashed. Git must not rewrite a single byte of them,
+# including the license texts.
+theme/fonts/** -text
+
+*.ttf binary
+*.otf binary
+*.pdf binary
+
+# The Makefile is tab-sensitive. Never let a filter touch it.
+Makefile -text

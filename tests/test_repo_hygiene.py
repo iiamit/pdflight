@@ -50,3 +50,23 @@ def test_vendored_fonts_are_not_ignored():
             ["git", "check-ignore", "-q", f"theme/fonts/{name}"], cwd=ROOT,
         )
         assert result.returncode == 1, f"theme/fonts/{name} must stay tracked"
+
+
+def test_hashed_build_inputs_are_exempt_from_eol_conversion():
+    """Guards the defect a fresh clone caught.
+
+    core.autocrlf rewrites LF to CRLF at checkout on Windows. That changes the
+    bytes of the vendored OFL texts, so their sha256 no longer matches
+    fonts.lock.json, and the font test fails on Windows while passing on
+    ubuntu-latest. theme/fonts/** must be marked -text so git leaves it alone.
+    """
+    for name in ("OFL-Inter.txt", "OFL-JetBrainsMono.txt", "Inter-Regular.ttf"):
+        result = subprocess.run(
+            ["git", "check-attr", "text", "--", f"theme/fonts/{name}"],
+            cwd=ROOT, capture_output=True, check=True,
+        )
+        value = result.stdout.decode("utf-8").strip().rsplit(":", 1)[-1].strip()
+        assert value == "unset", (
+            f"theme/fonts/{name} has text={value}, expected unset. "
+            "Hashed build inputs must never be line-ending converted."
+        )
