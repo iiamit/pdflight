@@ -120,9 +120,12 @@ pdflight/
 │       └── fonts.lock.json             # SHA-256 per TTF
 ├── templates/                  # empty in Phase 1
 ├── tools/
+│   ├── _http.py                # shared client: backoff, UA, conditional GET
+│   ├── _manifest.py            # manifest schema and deterministic lock IO
 │   ├── fetch.py
 │   ├── discover_interps.py
-│   └── verify_interps.py
+│   ├── verify_interps.py
+│   └── vendor_fonts.py         # one-time font vendoring, --check in the suite
 ├── tests/
 ├── docs/
 │   ├── BUILD-PLAN.md
@@ -437,6 +440,19 @@ Python 3.12. PyMuPDF for assembly, links, page counts, and all text extraction (
 **No poppler.** PyMuPDF `get_text()` covers Phase 3 extraction, so `pdftotext` is never needed, and `pdfinfo` was poppler's only remaining job. Two extractors disagree on whitespace and column reading order, FAA handbooks are heavily multi-column, and Phase 3 resolves anchors by regex over extracted text. Two extractors means anchors resolve differently on Windows than on `ubuntu-latest`. One extractor, everywhere. See rule 12.
 
 Size budget: warn above 350 MB, hard fail above 500 MB.
+
+**Exit codes.** Every tool in `tools/` uses the same convention, so CI and the
+Makefile can tell outcomes apart without parsing stderr.
+
+| Code | Meaning |
+|---|---|
+| 0 | Success |
+| 1 | A check failed as designed. Drift detected, hash mismatch, verification mismatch. Expected and actionable, not a crash |
+| 2 | Usage error. Reserved, because `argparse` already exits 2 on a bad flag |
+| 69 | Not implemented yet. `EX_UNAVAILABLE` from `sysexits.h` |
+
+A tool that is not built yet must exit 69, never 0. Silent success in a partial
+pipeline is worse than a loud failure.
 
 ---
 

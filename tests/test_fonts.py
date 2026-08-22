@@ -104,6 +104,23 @@ FONT_FETCH = re.compile(
 )
 
 
+def test_vendor_tool_check_mode_agrees():
+    # The tool that produced the lock must also validate it, offline.
+    import subprocess
+    import sys as _sys
+
+    result = subprocess.run(
+        [_sys.executable, "tools/vendor_fonts.py", "--check"],
+        cwd=ROOT, capture_output=True,
+    )
+    assert result.returncode == 0, result.stdout.decode("utf-8", "replace")
+
+
+# tools/vendor_fonts.py is the one place allowed to reach upstream. It is a
+# one-time vendoring tool, deliberately not part of any build target.
+VENDORING_TOOL = "vendor_fonts.py"
+
+
 def test_no_font_is_fetched_at_build_time():
     offenders = []
     for directory in ("templates", "tools"):
@@ -111,7 +128,21 @@ def test_no_font_is_fetched_at_build_time():
         if not base.is_dir():
             continue
         for path in base.rglob("*"):
-            if path.is_file() and path.suffix in (".typ", ".py"):
-                if FONT_FETCH.search(path.read_text(encoding="utf-8")):
-                    offenders.append(str(path.relative_to(ROOT)))
+            if not path.is_file() or path.suffix not in (".typ", ".py"):
+                continue
+            if path.name == VENDORING_TOOL:
+                continue
+            if FONT_FETCH.search(path.read_text(encoding="utf-8")):
+                offenders.append(str(path.relative_to(ROOT)))
     assert not offenders, f"fonts must never be fetched at build time: {offenders}"
+
+
+def test_vendoring_tool_is_not_wired_into_any_build_target():
+    # make fonts is a manual escape hatch. Nothing in the build may depend on it.
+    makefile = (ROOT / "Makefile").read_text(encoding="utf-8")
+    recipes = [line for line in makefile.splitlines() if line.startswith("\t")]
+    wired = [r for r in recipes if VENDORING_TOOL in r and "--check" not in r]
+    assert len(wired) == 1, (
+        "vendor_fonts.py without --check should appear in exactly one recipe, "
+        f"the manual `fonts` target. Found: {wired}"
+    )

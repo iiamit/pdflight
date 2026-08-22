@@ -1,5 +1,5 @@
 {
-  "comment": "Vendored build inputs. Rule 8: fonts must not be fetched at build time.",
+  "comment": "Vendored build inputs. Rule 8: fonts are never fetched at build time. Regenerate with tools/vendor_fonts.py.",
   "families": {
     "Inter": {
       "faces": [

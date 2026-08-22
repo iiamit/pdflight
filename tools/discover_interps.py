@@ -7,7 +7,13 @@ Specified in CLAUDE.md section 4.4.
 
 import sys
 
-SPEC = """tools/discover_interps.py is Phase 1 deliverable 1.4 and is not implemented.
+# Exit code convention, CLAUDE.md section 9. 69 is EX_UNAVAILABLE from
+# sysexits.h. Not 2, which argparse already uses for a usage error: a caller
+# must be able to tell "this tool is not built yet" from "you passed a bad
+# flag" without parsing stderr.
+EXIT_NOT_IMPLEMENTED = 69
+
+SPEC = """tools/discover_interps.py is Phase 1 deliverable 1.4 and is NOT IMPLEMENTED.
 
 Twelve of the thirty-four selected interpretations carry no year, so their URL
 cannot be constructed. Rule 2 forbids inventing one. Discovery resolves them
@@ -39,7 +45,7 @@ D2 Kuhn, D3 Cazares, D4 Bell, E3 Gilberti, E4 Ludwig, F3 Bell, G2 Grannis.
 
 def main(argv):
     sys.stderr.write(SPEC)
-    return 2
+    return EXIT_NOT_IMPLEMENTED
 
 
 if __name__ == "__main__":
