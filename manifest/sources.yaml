@@ -31,17 +31,74 @@
 # Populated in Phase 1 deliverable 1.2. Every URL is verified with a live
 # request before it enters this file. Nothing is guessed. See rules 1 and 2.
 #
-# The three entries below are the seed set CLAUDE.md section 4 calls for:
-# build the fetcher against three hand-entered sources before pointing it at
-# the full corpus. Every URL here returned 200 with application/pdf on a live
-# request, and every landing_url returned 200 text/html.
 #
-# Two landing_url values that looked obvious were checked and returned 404, so
-# those entries fall back to the Aviation Handbooks index, which is verified.
-# Nothing was authored from a pattern.
+# CORPUS STATUS, deliverable 1.2. Thirty-four entries: 6 standards,
+# 10 handbooks, the AIM, and 17 Advisory Circulars. Regulations come from
+# eCFR in Phase 2 and are not fetched here. Interpretations land in 1.4.
+#
+# Every url below returned 200 with %PDF- magic bytes on a live request, and
+# every landing_url returned 200 text/html. Nothing was authored from a
+# pattern; two landing_url values that looked obvious returned 404 when
+# checked, so those entries fall back to the verified index page.
+
+# ---------------------------------------------------------------------------
+# Standards. ACS and PTS, from the FAA airman testing library.
+# -----------------------------------------------------------------------
+
+- id: acs-private-airplane
+  title: Private Pilot for Airplane Category ACS
+  landing_url: https://www.faa.gov/training_testing/testing/acs
+  url: https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf
+  section: standards
+  order: 1
+  optional: false
+
+- id: acs-instrument-airplane
+  title: Instrument Rating Airplane ACS
+  landing_url: https://www.faa.gov/training_testing/testing/acs
+  url: https://www.faa.gov/training_testing/testing/acs/instrument_rating_airplane_acs_8.pdf
+  section: standards
+  order: 2
+  optional: false
+
+- id: acs-commercial-airplane
+  title: Commercial Pilot for Airplane Category ACS
+  landing_url: https://www.faa.gov/training_testing/testing/acs
+  url: https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf
+  section: standards
+  order: 3
+  optional: false
+
+- id: acs-atp-airplane
+  title: Airline Transport Pilot and Type Rating for Airplane Category ACS
+  landing_url: https://www.faa.gov/training_testing/testing/acs
+  url: https://www.faa.gov/training_testing/testing/acs/atp_airplane_acs_11.pdf
+  section: standards
+  order: 4
+  optional: false
+
+- id: acs-cfi-airplane
+  title: Flight Instructor for Airplane Category ACS
+  landing_url: https://www.faa.gov/training_testing/testing/acs
+  url: https://www.faa.gov/training_testing/testing/acs/cfi_airplane_acs_25.pdf
+  section: standards
+  order: 5
+  optional: false
+
+- id: pts-cfi-instrument
+  title: Flight Instructor Instrument Practical Test Standards for Airplane
+  landing_url: https://www.faa.gov/training_testing/testing/acs
+  url: https://www.faa.gov/training_testing/testing/acs/cfi_instrument_pts_9.pdf
+  section: standards
+  order: 6
+  optional: false
+
+# ---------------------------------------------------------------------------
+# Handbooks.
+# -------------------------------------------------------------------------
 
 - id: phak
-  title: Pilot's Handbook of Aeronautical Knowledge
+  title: 'Pilot''s Handbook of Aeronautical Knowledge'
   landing_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak
   url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf
   section: handbooks
@@ -49,6 +106,17 @@
   optional: false
   addenda:
     - url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/PHAK_Addendum_(MOSAIC).pdf
+      append: true
+
+- id: afh
+  title: Airplane Flying Handbook
+  landing_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/airplane_handbook
+  url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/00_afh_full.pdf
+  section: handbooks
+  order: 2
+  optional: false
+  addenda:
+    - url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/AFH_Addendum_(MOSAIC).pdf
       append: true
 
 - id: ifh
@@ -61,6 +129,34 @@
   addenda:
     - url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/ifh_addendum.pdf
       append: true
+    - url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/ifh_addendum_b.pdf
+      append: true
+    - url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/ifh_errata.pdf
+      append: true
+
+- id: iph
+  title: Instrument Procedures Handbook
+  landing_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook
+  url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/FAA-H-8083-16B.pdf
+  section: handbooks
+  order: 4
+  optional: false
+
+- id: risk-management
+  title: Risk Management Handbook
+  landing_url: https://www.faa.gov/regulationspolicies/handbooksmanuals/risk-management-handbook-faa-h-8083-2a
+  url: https://www.faa.gov/sites/faa.gov/files/2022-06/risk_management_handbook_2A.pdf
+  section: handbooks
+  order: 5
+  optional: false
+
+- id: aviation-weather
+  title: Aviation Weather Handbook
+  landing_url: https://www.faa.gov/regulationspolicies/handbooksmanuals/aviation/faa-h-8083-28-aviation-weather-handbook
+  url: https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf
+  section: handbooks
+  order: 6
+  optional: false
 
 - id: weight-balance
   title: Aircraft Weight and Balance Handbook
@@ -72,3 +168,184 @@
   addenda:
     - url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/Weight_Balance_HB_Addendum_(MOSAIC).pdf
       append: true
+
+- id: aviation-instructor
+  title: 'Aviation Instructor''s Handbook'
+  landing_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/aviation_instructors_handbook
+  url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/aviation_instructors_handbook/aviation_instructors_handbook.pdf
+  section: handbooks
+  order: 8
+  optional: false
+
+- id: seaplane
+  title: Seaplane, Skiplane, and Float/Ski Equipped Helicopter Operations Handbook
+  landing_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/seaplane_handbook
+  url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/seaplane_handbook/faa-h-8083-23-3.pdf
+  section: handbooks
+  order: 9
+  optional: false
+
+- id: plane-sense
+  title: 'Plane Sense: General Aviation Information'
+  landing_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation
+  url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/faa-h-8083-19A.pdf
+  section: handbooks
+  order: 10
+  optional: false
+
+# ---------------------------------------------------------------------------
+# AIM. A single consolidated PDF, so no parts list is needed.
+# -----------------------------------------------------------------------
+
+- id: aim
+  title: Aeronautical Information Manual, Basic with Changes 1, 2 and 3
+  landing_url: https://www.faa.gov/air_traffic/publications/
+  url: https://www.faa.gov/air_traffic/publications/media/AIM_Basic_w_Chg_1_and_2_and_3_dtd_7-9-26_FINAL.pdf
+  section: aim
+  order: 1
+  optional: false
+
+# ---------------------------------------------------------------------------
+# Advisory Circulars. Every one confirmed Active in the FAA AC index.
+#
+# AC 00-6 and AC 00-45 are NOT here. Both are cancelled: 00-6B on
+# 2022-12-22, noted "All ACs dealing with weather have been consolidated",
+# and 00-45E on 2007-10-01. Their replacement, FAA-H-8083-28B, is in the
+# corpus above, so CLAUDE.md 4.2 says drop them.
+# -----------------------------------------------------------------------
+
+- id: ac-120-76e
+  title: AC 120-76E, Authorization for Use of Electronic Flight Bags
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1042829
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-76E_FAA_Web.pdf
+  section: ac
+  order: 1
+  optional: false
+
+- id: ac-20-105c
+  title: AC 20-105C, Reciprocating Engine Power-Loss Accident Prevention and Trend Monitori
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1042347
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-105C_Ed_Upd_(7-2-24).pdf
+  section: ac
+  order: 2
+  optional: false
+
+- id: ac-43-9d
+  title: AC 43-9D, Maintenance Records and FAA Form 8130-3 Return to Service
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1044416
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_43-9D_Ed_Upd.pdf
+  section: ac
+  order: 3
+  optional: false
+
+- id: ac-43-13-1b
+  title: AC 43.13-1B, Acceptable Methods, Techniques, and Practices - Aircraft Inspection an
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/99861
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_43.13-1B_CHG_1_Ed_Upd_FAA.pdf
+  section: ac
+  order: 4
+  optional: false
+
+- id: ac-43-13-2b
+  title: AC 43.13-2B, Acceptable Methods, Techniques, and Practices - Aircraft Alterations
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/74417
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC%2043.13-2B.pdf
+  section: ac
+  order: 5
+  optional: false
+
+- id: ac-61-107b
+  title: AC 61-107B, Aircraft Operations at Altitudes Above 25,000 Feet Mean Sea Level or M
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1020859
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-107B_CHG_1_FAA.pdf
+  section: ac
+  order: 6
+  optional: false
+
+- id: ac-61-142
+  title: AC 61-142, Sharing Aircraft Operating Expenses in Accordance with 14 CFR § 61.113
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1037214
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-142_Ed_Upd.pdf
+  section: ac
+  order: 7
+  optional: false
+
+- id: ac-61-65k
+  title: 'AC 61-65K, Certification: Pilots and Flight and Ground Instructors'
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1044476
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-65K.pdf
+  section: ac
+  order: 8
+  optional: false
+
+- id: ac-61-67c
+  title: AC 61-67C, Stall and Spin Awareness Training with Change 1 & 2
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1028760
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-67C_Chg_2.pdf
+  section: ac
+  order: 9
+  optional: false
+
+- id: ac-61-98e
+  title: AC 61-98E, Currency Requirements and Guidance for the Flight Review and Instrumen
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1043281
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-98E.pdf
+  section: ac
+  order: 10
+  optional: false
+
+- id: ac-90-48e
+  title: AC 90-48E, Pilots’ Role in Collision Avoidance
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1041368
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-48E.pdf
+  section: ac
+  order: 11
+  optional: false
+
+- id: ac-90-66c
+  title: AC 90-66C, Non-Towered Airport Flight Operations
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1041885
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-66C.pdf
+  section: ac
+  order: 12
+  optional: false
+
+- id: ac-91-67a
+  title: AC 91-67A, Minimum Equipment Requirements for General Aviation Operations Under 1
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1042212
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-67A.pdf
+  section: ac
+  order: 13
+  optional: false
+
+- id: ac-91-73b
+  title: AC 91-73B, Parts 91 and 135 Single Pilot, Flight School Procedures During Taxi Op
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1020226
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-73B_Editorial_Update.pdf
+  section: ac
+  order: 14
+  optional: false
+
+- id: ac-91-74b
+  title: 'AC 91-74B, Pilot Guide: Flight In Icing Conditions'
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1028388
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf
+  section: ac
+  order: 15
+  optional: false
+
+- id: ac-91-78a
+  title: AC 91-78A, Use of Electronic Flight Bags
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1042512
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-78A.pdf
+  section: ac
+  order: 16
+  optional: false
+
+- id: ac-91-92
+  title: AC 91-92, Pilot’s Guide to a Preflight Briefing
+  landing_url: https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1036892
+  url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-92_Ed_Upd_(3-19-25).pdf
+  section: ac
+  order: 17
+  optional: false

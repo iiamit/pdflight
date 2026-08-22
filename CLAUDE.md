@@ -262,13 +262,17 @@ Slug is 2 to 4 words, lowercase, hyphenated, drawn from the subject line of the 
 
 Worked example from the 1.3 seed set, which is why the rule is worth the trouble: the Weight and Balance Handbook is served at `FAA-H-8083-1.pdf`, with no edition letter in the filename, but the document's own metadata reports **FAA-H-8083-1B**. A filename is not a citation. PHAK resolved to 8083-25C from its first page and IFH to 8083-15B from metadata, both matching the guesses above, but that is luck rather than evidence.
 
-**Handbooks**: PHAK (8083-25C), AFH (8083-3C), IFH (8083-15B), IPH (8083-16B), Risk Management (8083-2), Aviation Weather (8083-28), Weight and Balance (8083-1B), Aviation Instructor's (8083-9B), Seaplane (8083-23), Plane Sense.
+**Handbooks**, with the numbers **as extracted in 1.2**, not as guessed: PHAK (8083-25C), AFH (8083-3C), IFH (8083-15B), IPH (8083-16B), Risk Management (**null**, see below), Aviation Weather (**8083-28B**), Weight and Balance (8083-1B), Aviation Instructor's (8083-9B), Seaplane (8083-23), Plane Sense (**8083-19A**).
+
+Seven of ten matched the guess. Three did not, and each is a different failure mode. Aviation Weather is **8083-28B**, a revision letter the guess omitted. Plane Sense has a number at all, **FAA-H-8083-19A**, where the guess had only a name. Risk Management extracts to null: its FAA landing page titles it **FAA-H-8083-2A**, but the document itself does not state a number in a form the extractor trusts, so the lock records null rather than copying the page title. That is rule 2a behaving correctly. Do not hand-author it.
 
 **Standards**: Private Airplane ACS, Instrument Airplane ACS, Commercial Airplane ACS, ATP and Type Rating ACS, Flight Instructor Airplane ACS, Flight Instructor Instrument PTS.
 
 **AIM**: current change, from the FAA ATpubs page. Revises on a 56-day cycle.
 
-**Advisory Circulars**, all subject to the cancellation check in 4.2. AC 00-6 and 00-45 are the ones to check first, since FAA-H-8083-28 may supersede both: 00-6, 00-45, 20-105, 43-9, 43.13-1B, 43.13-2B, 61-65, 61-67, 61-98, 61-107, 61-142, 90-48, 90-66, 91-67, 91-73, 91-74, 91-78, 91-92, 120-76.
+**Advisory Circulars**, seventeen, each confirmed **Active** in the FAA AC index during 1.2, at the revision the index lists: 20-105C, 43-9D, 43.13-1B, 43.13-2B, 61-65K, 61-67C, 61-98E, 61-107B, 61-142, 90-48E, 90-66C, 91-67A, 91-73B, 91-74B, 91-78A, 91-92, 120-76E.
+
+**AC 00-6 and AC 00-45 were dropped.** The suspicion in the original list was correct. AC 00-6B was cancelled 2022-12-22, with the FAA cancellation note reading "All ACs dealing with weather have been consolidated," and AC 00-45E was cancelled 2007-10-01 with no successor revision in the Active list. Their replacement, FAA-H-8083-28B, is in the corpus, so 4.2 says drop them. Nineteen became seventeen. Do not re-add either without a fresh status check.
 
 **Regulations**: built from eCFR, not fetched as PDFs. See section 8.
 

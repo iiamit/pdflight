@@ -316,7 +316,24 @@ The site loads Inter and JetBrains Mono from Google Fonts, weights 400/500/600/7
 
 **Size budget**: hard fail above 500 MB, warn above 350 MB. Realistic estimate is 250 to 400 MB, dominated by the image-heavy handbooks.
 
-**Measured, Phase 1.3 seed set.** Three of the ten handbooks, with addenda, are 161 MB and 1,017 pages before any optimization: PHAK 77.6 MB / 522 pp, IFH 68.4 MB / 371 pp, Weight and Balance 14.9 MB / 114 pp. Extrapolating the remaining seven handbooks and adding standards, the AIM, Advisory Circulars, interpretations, and the typeset CFR puts the raw total near the top of the estimate and past the 350 MB warn line. The 500 MB hard fail is not comfortably clear. Treat image downsampling in `optimize` as required rather than contingent, and measure again once the full corpus is in the lock.
+**Measured, Phase 1.2, whole corpus in the lock. The budget is blown.**
+
+Forty targets: 6 standards, 10 handbooks, the AIM, 17 Advisory Circulars, all addenda. **766 MB and 5,455 pages**, before the 34 interpretations, before the typeset CFR, before a single generated page.
+
+That is 1.5x the 500 MB hard fail and 2.2x the 350 MB warn line. The "250 to 400 MB realistic estimate" above is wrong by roughly a factor of two.
+
+Two documents dominate:
+
+| Document | Size | Pages | MB per page |
+|---|---|---|---|
+| Airplane Flying Handbook | 273.2 MB | 406 | 0.67 |
+| Aviation Instructor's Handbook | 145.1 MB | 228 | 0.64 |
+| Pilot's Handbook | 77.6 MB | 522 | 0.15 |
+| Everything else, 37 targets | 270 MB | 4,299 | 0.06 |
+
+AFH and AIH together are 418 MB, 55 percent of the corpus for 12 percent of the pages. At roughly 0.65 MB per page against a 0.06 MB per page corpus median, both are carrying images at far higher resolution than a tablet can display. They are the entire problem, and they are also the two most important documents for the Private and Commercial crosswalks, so dropping them is not attractive.
+
+This makes image downsampling in `optimize` load-bearing rather than contingent, and it needs to be settled before Phase 5 rather than discovered there. Ghostscript at 150 to 200 dpi is the obvious lever. Re-measure after the interpretations and the CFR land.
 
 ---
 

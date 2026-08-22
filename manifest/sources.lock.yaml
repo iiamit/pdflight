@@ -9,6 +9,276 @@
 # release job uses that diff to decide whether to cut a release.
 
 sources:
+  ac-120-76e:
+    bytes: 493861
+    content_type: application/pdf
+    faa_number: AC 120-76E
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:33Z'
+    pages: 37
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-76E_FAA_Web.pdf
+    revision_date: 6/12/24
+    sha256: e24fb2f2e491571af0ff25c24d60b127d9fa62126a669fcb5989b7406e7c30f9
+  ac-20-105c:
+    bytes: 480341
+    content_type: application/pdf
+    faa_number: AC 20-105C
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:33Z'
+    pages: 16
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-105C_Ed_Upd_(7-2-24).pdf
+    revision_date: 12/18/23
+    sha256: fc775de4ee22c52972c886bbcd7e4ec5983606a31a38989c4c9522c68adcf60f
+  ac-43-13-1b:
+    bytes: 29962967
+    content_type: application/pdf
+    faa_number: AC 43.13
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:35Z'
+    pages: 756
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_43.13-1B_CHG_1_Ed_Upd_FAA.pdf
+    revision_date: 9/8/98
+    sha256: 5f6626b91a273434e89f1df0b4e612c56165113278cb27942432f34732b9adaa
+  ac-43-13-2b:
+    bytes: 6354304
+    content_type: application/pdf
+    faa_number: AC 43.13
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:35Z'
+    pages: 137
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC%2043.13-2B.pdf
+    revision_date: 3/3/08
+    sha256: 9ce449f603cf1dccddc5397414a9f33544e7eb8d9f7d3325af560f32115a5b2a
+  ac-43-9d:
+    bytes: 659014
+    content_type: application/pdf
+    faa_number: AC 43-9D
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:33Z'
+    pages: 24
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_43-9D_Ed_Upd.pdf
+    revision_date: 9/22/25
+    sha256: 9fe26941dda2f5bd8781ff3c6e477f7dcb0eab272de09fa4a96302979a09aae2
+  ac-61-107b:
+    bytes: 730734
+    content_type: application/pdf
+    faa_number: AC 61-107B
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:35Z'
+    pages: 52
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-107B_CHG_1_FAA.pdf
+    revision_date: 9/9/15
+    sha256: f72288cc92448ddee1c35c03cee0db0164ecd2ee7df0343fe542e3cc1005bbbf
+  ac-61-142:
+    bytes: 391794
+    content_type: application/pdf
+    faa_number: AC 61-142
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:35Z'
+    pages: 13
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-142_Ed_Upd.pdf
+    revision_date: 2/25/20
+    sha256: a98b3727a08f6bc76825081bf1e730287e3c6ebaf8b54bf29f38c2477bccf4c2
+  ac-61-65k:
+    bytes: 743328
+    content_type: application/pdf
+    faa_number: AC 61-65K
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:35Z'
+    pages: 60
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-65K.pdf
+    revision_date: 11/14/25
+    sha256: 34c255d17ffa65c4a2454343c9ab8dfc2a9069e782ecb72a8d53d287e290b2c9
+  ac-61-67c:
+    bytes: 361347
+    content_type: application/pdf
+    faa_number: AC 61-67C
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:35Z'
+    pages: 23
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-67C_Chg_2.pdf
+    revision_date: 1/6/16
+    sha256: ffc33e3b2e957c7296eab5b3ce750ab68701e1d54eee49c09b48f6d611102e49
+  ac-61-98e:
+    bytes: 659577
+    content_type: application/pdf
+    faa_number: AC 61-98E
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:35Z'
+    pages: 48
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_61-98E.pdf
+    revision_date: 10/30/24
+    sha256: 9e9f9338cb359a1af7db64d88e015b96b53835764f7d074a32b42c53de15cde2
+  ac-90-48e:
+    bytes: 594791
+    content_type: application/pdf
+    faa_number: AC 90-48E
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:36Z'
+    pages: 17
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-48E.pdf
+    revision_date: 10/20/22
+    sha256: 8cb12c4ad6f976d004f9bab9b6ce40956c49ef4cf8db3ff06f44934e4402a4b4
+  ac-90-66c:
+    bytes: 1970280
+    content_type: application/pdf
+    faa_number: AC 90-66C
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:36Z'
+    pages: 28
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-66C.pdf
+    revision_date: 6/6/23
+    sha256: 3ced94d15f8e79835a848a9db3ffe3341b635f96bfb7d3375d6412b4b4a113e0
+  ac-91-67a:
+    bytes: 2651348
+    content_type: application/pdf
+    faa_number: AC 91-67A
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:36Z'
+    pages: 67
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-67A.pdf
+    revision_date: 10/16/23
+    sha256: b687d69b86c7e77c872583eabde55344f7633982bd5c5807e3d845e10b780f79
+  ac-91-73b:
+    bytes: 465838
+    content_type: application/pdf
+    faa_number: AC 91-73B
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:36Z'
+    pages: 17
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-73B_Editorial_Update.pdf
+    revision_date: 7/30/12
+    sha256: 34d4bd2e751c124c26fa2754eb54131aff366677b8ca49f2dbb8a46d2eb5982e
+  ac-91-74b:
+    bytes: 1105674
+    content_type: application/pdf
+    faa_number: AC 91-74B
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:36Z'
+    pages: 63
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-74B.pdf
+    revision_date: 10/8/15
+    sha256: 0df1666a5cd03ca2201f5eb5f5095a5457b753cb79454143f0d4b9cfdf160725
+  ac-91-78a:
+    bytes: 323883
+    content_type: application/pdf
+    faa_number: AC 91-78A
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:36Z'
+    pages: 5
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-78A.pdf
+    revision_date: 2/23/24
+    sha256: 3b3b46467ad13b69e39aedc8fbdac109805945cda24669e93ebfae0c68840a93
+  ac-91-92:
+    bytes: 548090
+    content_type: application/pdf
+    faa_number: AC 91-92
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:36Z'
+    pages: 21
+    resolved_url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_91-92_Ed_Upd_(3-19-25).pdf
+    revision_date: 3/15/21
+    sha256: 56e888897da05f99f687ed06ef8a6491e8300b86955b432c3ddc7c29e705da66
+  acs-atp-airplane:
+    bytes: 896396
+    content_type: application/pdf
+    faa_number: FAA-S-ACS-11A
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:04Z'
+    pages: 84
+    resolved_url: https://www.faa.gov/training_testing/testing/acs/atp_airplane_acs_11.pdf
+    revision_date: November 2023
+    sha256: ed2d5a2ba31de3ed00b9f8f6f60b255573df96879ddc851f7597093a13e9705a
+  acs-cfi-airplane:
+    bytes: 1101684
+    content_type: application/pdf
+    faa_number: FAA-S-ACS-25
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:04Z'
+    pages: 111
+    resolved_url: https://www.faa.gov/training_testing/testing/acs/cfi_airplane_acs_25.pdf
+    revision_date: November 2023
+    sha256: 67f98971c8cb53b5e8a7869c9a3b43424070ab1c5b2594492f24f8b823d41caf
+  acs-commercial-airplane:
+    bytes: 982710
+    content_type: application/pdf
+    faa_number: FAA-S-ACS-7B
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:04Z'
+    pages: 86
+    resolved_url: https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf
+    revision_date: November 2023
+    sha256: 98422e80f3f72cc39be2daba6e3c4dc5d87417e735ccb50be4c2b6c9a36f0341
+  acs-instrument-airplane:
+    bytes: 549526
+    content_type: application/pdf
+    faa_number: FAA-S-ACS-8C
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:04Z'
+    pages: 40
+    resolved_url: https://www.faa.gov/training_testing/testing/acs/instrument_rating_airplane_acs_8.pdf
+    revision_date: November 2023
+    sha256: 5facdf8fdb8ed8c85991f2440d5ba2ea50c0c996d5c02c3d9a9fa5dfa5011864
+  acs-private-airplane:
+    bytes: 716798
+    content_type: application/pdf
+    faa_number: FAA-S-ACS-6C
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:04Z'
+    pages: 87
+    resolved_url: https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf
+    revision_date: November 2023
+    sha256: 46ed6625723b0b7f37b3274cdb5170519f88baf28aec1f925286ef24909ea824
+  afh:
+    bytes: 273248888
+    content_type: application/pdf
+    faa_number: FAA-H-8083-3C
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:18Z'
+    pages: 406
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/airplane_handbook/00_afh_full.pdf
+    revision_date: null
+    sha256: 90dda95dcbe992bd798f1932b02b5a02d620d8344565c0516a6917f29dea1f8d
+  afh.addendum.0:
+    bytes: 197928
+    content_type: application/pdf
+    faa_number: FAA-H-8083-3C
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:18Z'
+    pages: 4
+    resolved_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/AFH_Addendum_(MOSAIC).pdf
+    revision_date: null
+    sha256: 9970b94215d752d1496e77b6c0233d592220ecc262f8d9c951f079f7587e3fcd
+  aim:
+    bytes: 43343724
+    content_type: application/pdf
+    faa_number: null
+    faa_number_source: null
+    fetched_at: '2026-08-22T14:54:33Z'
+    pages: 918
+    resolved_url: https://www.faa.gov/air_traffic/publications/media/AIM_Basic_w_Chg_1_and_2_and_3_dtd_7-9-26_FINAL.pdf
+    revision_date: null
+    sha256: 8b11e7a168e1ef9ea16853b8ab7b3353f01490dffb51f2736a0a72e6278f8ff5
+  aviation-instructor:
+    bytes: 145105853
+    content_type: application/pdf
+    faa_number: FAA-H-8083-9B
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:28Z'
+    pages: 228
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/aviation_instructors_handbook/aviation_instructors_handbook.pdf
+    revision_date: null
+    sha256: 8a3c2cc0133d5d0231ff42589b55b49d995f604c21c16dffe688db1beccbaf73
+  aviation-weather:
+    bytes: 18515580
+    content_type: application/pdf
+    faa_number: FAA-H-8083-28B
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:22Z'
+    pages: 514
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/FAA-H-8083-28B.pdf
+    revision_date: null
+    sha256: 2a87e4a5613e2a8e060aaf83a95dfc55b61b0e576f5b783df9fdcebe62da62c3
   ifh:
     bytes: 68414993
     content_type: application/pdf
@@ -29,6 +299,36 @@ sources:
     resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/ifh_addendum.pdf
     revision_date: April 2015
     sha256: 78e39ec631b3fe23b2bde6c5667b2f808724bdbbfb804fc141dfe2887a210dc2
+  ifh.addendum.1:
+    bytes: 17224
+    content_type: application/pdf
+    faa_number: FAA-H-8083-15B
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:18Z'
+    pages: 1
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/ifh_addendum_b.pdf
+    revision_date: November 2019
+    sha256: 67ffd25010fcaf178aa82cbce2e75b15244679acc17ff2ba3b019c823274882b
+  ifh.addendum.2:
+    bytes: 15756
+    content_type: application/pdf
+    faa_number: FAA-H-8083-25A
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:18Z'
+    pages: 1
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/ifh_errata.pdf
+    revision_date: null
+    sha256: 00a749c8422ab54d640ffd75821e549bf80df54f36e564b0c1d867f9f7a42c1b
+  iph:
+    bytes: 37061406
+    content_type: application/pdf
+    faa_number: FAA-H-8083-16B
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:20Z'
+    pages: 312
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/instrument_procedures_handbook/FAA-H-8083-16B.pdf
+    revision_date: null
+    sha256: 67bee284221e2748c426a99793c332fe9f57018b9858f77b911675c814a03e91
   phak:
     bytes: 77598564
     content_type: application/pdf
@@ -49,6 +349,46 @@ sources:
     resolved_url: https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/PHAK_Addendum_(MOSAIC).pdf
     revision_date: null
     sha256: 1670b8454eb22c644a723b3f61a94daff3857c0d94710d6b5961fe29c0999b63
+  plane-sense:
+    bytes: 15472904
+    content_type: application/pdf
+    faa_number: FAA-H-8083-19A
+    faa_number_source: firstpage
+    fetched_at: '2026-08-22T14:54:31Z'
+    pages: 100
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/faa-h-8083-19A.pdf
+    revision_date: null
+    sha256: 990f7e153f81b21d0d6eb0997a1d8e30918f8d0ec44cfe3912617fd83a4eb37b
+  pts-cfi-instrument:
+    bytes: 564377
+    content_type: application/pdf
+    faa_number: FAA-S-8081-9E
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:04Z'
+    pages: 50
+    resolved_url: https://www.faa.gov/training_testing/testing/acs/cfi_instrument_pts_9.pdf
+    revision_date: November 2023
+    sha256: 914e574bd152d69d0deeb8c8f5991f8536ffc7ddc2af50721e39e546ba123d80
+  risk-management:
+    bytes: 15344860
+    content_type: application/pdf
+    faa_number: null
+    faa_number_source: null
+    fetched_at: '2026-08-22T14:54:21Z'
+    pages: 80
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/2022-06/risk_management_handbook_2A.pdf
+    revision_date: null
+    sha256: 519443a598eedd34c1824ad2ea482f393af0b80e52649e33c0e24a351e4c78bf
+  seaplane:
+    bytes: 39566470
+    content_type: application/pdf
+    faa_number: FAA-H-8083-23
+    faa_number_source: metadata
+    fetched_at: '2026-08-22T14:54:30Z'
+    pages: 32
+    resolved_url: https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/seaplane_handbook/faa-h-8083-23-3.pdf
+    revision_date: null
+    sha256: 91208b292d3af79136aaf3e632c20a623e8c8033c480492c653a9699ff1e44c4
   weight-balance:
     bytes: 14879984
     content_type: application/pdf
