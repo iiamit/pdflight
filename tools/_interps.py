@@ -69,6 +69,21 @@ def load(path=CLAUDE):
     return entries
 
 
+DEFERRED_LINE = re.compile(r"DEFERRED-REVIEW:\s*([A-G0-9,\s]+)")
+
+
+def deferred(path=CLAUDE):
+    """Refs with a confirmed document whose subject contradicts the table.
+
+    Declared in CLAUDE.md section 7 so the spec stays normative and the state
+    cannot rot in a side file nobody reads.
+    """
+    match = DEFERRED_LINE.search(path.read_text(encoding="utf-8"))
+    if not match:
+        return set()
+    return {r.strip().upper() for r in match.group(1).split(",") if r.strip()}
+
+
 def dated(entries):
     return [e for e in entries if e["year"]]
 

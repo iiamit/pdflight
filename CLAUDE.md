@@ -422,6 +422,27 @@ The topic column is a working description, not the document's subject line. Ids 
 
 **Deferred**, carried in the manifest with `optional: true` so enabling one is a flag flip: C5 Pratte, D5 Levy, E5 Coleal, F4 Weiss, F5 Duncan, G3 Fickbohm, G4 Hicks.
 
+### Deferred pending review
+
+A different thing from the backfill above. These refs have a **confirmed
+document whose page one names the right addressee, but whose subject is not the
+topic this table claims**. Rule 2 forbids adopting an interpretation that merely
+looks similar, so none of them ships until a human resolves the conflict. Either
+the topic column is wrong, or the letter is, or there is a second letter to the
+same person that has not surfaced.
+
+Tools read this list. A ref named here is reported separately by
+`discover_interps.py` rather than counted as open, so it stays visible without
+blocking the run.
+
+| Ref | Filed as | Page one actually reads as |
+|---|---|---|
+| C4 | Night takeoff and landing currency, full stop | logging pilot-in-command time |
+| D2 | Alternate airport planning under 91.169 | crediting flight time under 61.129(a)(4) |
+| G2 | CFI logging PIC while instructing | logging cross-country time (2016); the exceptions in 11.91(e) (2017) |
+
+`DEFERRED-REVIEW: C4, D2, G2`
+
 ---
 
 ## 8. Phase 2 preview, for context only

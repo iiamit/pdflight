@@ -272,3 +272,40 @@ def test_a_memo_still_gates_on_the_surname():
 def test_a_letter_is_not_misread_as_a_memorandum():
     assert I.extract(GLENN)["kind"] == "letter"
     assert I.extract(GLENN)["excerpt"] is None
+
+
+# ---------------------------------------------------------------------------
+# deferred pending review
+# ---------------------------------------------------------------------------
+
+def test_deferred_refs_are_declared_in_claude_md():
+    """Refs whose confirmed document contradicts the topic column.
+
+    Right addressee, wrong subject. Rule 2 forbids adopting an interpretation
+    that merely looks similar, so these wait for a human rather than shipping
+    or being silently dropped.
+    """
+    assert I.deferred() == {"C4", "D2", "G2"}
+
+
+def test_every_deferred_ref_exists_in_the_table(entries):
+    refs = {e["ref"] for e in entries}
+    assert I.deferred() <= refs, "a deferred ref must name a real candidate"
+
+
+def test_deferred_refs_are_not_counted_as_open():
+    text = (ROOT / "docs" / "INTERPS-CANDIDATES.md").read_text(encoding="utf-8")
+    unresolved = text.split("## Still unresolved")[1].split("## How to")[0]
+    for ref in I.deferred():
+        assert "(%s," % ref not in unresolved, (
+            "%s is deferred, not open; it needs a decision, not a URL" % ref)
+
+
+def test_the_deferred_section_shows_the_conflict():
+    text = (ROOT / "docs" / "INTERPS-CANDIDATES.md").read_text(encoding="utf-8")
+    block = text.split("## Deferred pending review")[1].split("## Still")[0]
+    # Each deferred ref must show what the document actually says, so the
+    # conflict is reviewable without refetching anything.
+    for ref in I.deferred():
+        assert "| %s |" % ref in block
+    assert "forbids adopting an interpretation that merely looks similar" in block

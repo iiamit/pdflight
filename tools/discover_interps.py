@@ -144,6 +144,10 @@ topic similarity, which would be rule 2 with extra steps.
 
 {rows}
 
+## Deferred pending review
+
+{deferred}
+
 ## Still unresolved
 
 {unresolved}
@@ -193,11 +197,29 @@ def cell(value):
     return str(value).replace("|", r"\|")
 
 
-def write_candidates(entries, results, path=CANDIDATES):
-    rows, unresolved = [], []
+def write_candidates(entries, results, path=CANDIDATES, deferred_refs=None):
+    deferred_refs = deferred_refs or set()
+    rows, unresolved, deferred_rows = [], [], []
     for entry in entries:
         found = results.get(entry["ref"], [])
         confirmed = [r for r in found if r["ok"]]
+
+        # A deferred ref has a confirmed document whose subject contradicts the
+        # table. It is neither resolved nor open; it needs a human decision, so
+        # it gets its own section instead of inflating either count.
+        if entry["ref"].upper() in deferred_refs:
+            for record in confirmed:
+                detail = record["subject"] or record["gist"] or record["excerpt"]
+                deferred_rows.append("| %s | %s | %s | %s | %s |" % (
+                    entry["ref"], cell(entry["topic"][:44]),
+                    cell((record["years"] or ["?"])[-1]), cell(detail),
+                    record["url"]))
+            if not confirmed:
+                deferred_rows.append(
+                    "| %s | %s | - | no confirmed candidate | - |"
+                    % (entry["ref"], cell(entry["topic"][:44])))
+            continue
+
         if not confirmed:
             reason = ("no candidate URL seeded" if not found
                       else "; ".join(r["note"] for r in found)[:120])
@@ -217,14 +239,31 @@ def write_candidates(entries, results, path=CANDIDATES):
                 cell(detail), record["url"]))
         rows.append("")
 
-    summary = ("**%d candidate(s) need discovery. %d resolved, %d still open.**"
-               % (len(entries), len(entries) - len(unresolved), len(unresolved)))
+    n_deferred = len([e for e in entries if e["ref"].upper() in deferred_refs])
+    resolved = len(entries) - len(unresolved) - n_deferred
+    summary = ("**%d candidate(s) need discovery. %d resolved, %d deferred "
+               "pending review, %d still open.**"
+               % (len(entries), resolved, n_deferred, len(unresolved)))
+
+    if deferred_rows:
+        deferred_block = (
+            "These have a confirmed document naming the right addressee, but a "
+            "subject that is not the topic CLAUDE.md section 7 claims. Rule 2 "
+            "forbids adopting an interpretation that merely looks similar, so "
+            "none of them ships until the conflict is resolved by hand. Either "
+            "the topic column is wrong, the letter is, or a second letter to "
+            "the same person has not surfaced.\n\n"
+            "| Ref | Filed as | Year | Page one actually reads as | URL |\n"
+            "|---|---|---|---|---|\n" + "\n".join(deferred_rows))
+    else:
+        deferred_block = "None."
 
     pathlib.Path(path).parent.mkdir(parents=True, exist_ok=True)
     with io.open(path, "w", encoding="utf-8", newline="\n") as handle:
         handle.write(TEMPLATE.format(
             summary=summary,
             rows="\n".join(rows) or "None resolved yet.",
+            deferred=deferred_block,
             unresolved="\n".join(unresolved) or "None."))
     return len(unresolved)
 
@@ -293,9 +332,12 @@ def run(argv, client_factory=None, claude_path=I.CLAUDE, index_path=I.INDEX_CACH
             entry["ref"], entry["surname"], len(records), len(good),
             "" if urls else "  (none seeded)"))
 
-    open_count = write_candidates(targets, results, candidates_path)
-    out.write("\n%d needing discovery, %d still open. Wrote %s\n" % (
-        len(targets), open_count, pathlib.Path(candidates_path).name))
+    deferred_refs = I.deferred(claude_path)
+    open_count = write_candidates(targets, results, candidates_path, deferred_refs)
+    n_deferred = len([e for e in targets if e["ref"].upper() in deferred_refs])
+    out.write("\n%d needing discovery, %d deferred pending review, %d still "
+              "open. Wrote %s\n" % (len(targets), n_deferred, open_count,
+                                    pathlib.Path(candidates_path).name))
     return EXIT_UNRESOLVED if open_count else EXIT_OK
 
 

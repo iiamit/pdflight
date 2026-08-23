@@ -62,18 +62,65 @@ PROFILE = {
     "quality": 80,
 }
 
-TRAILER_ID = re.compile(rb"(/ID\s*\[\s*<)([0-9A-Fa-f]{32})(>\s*<)([0-9A-Fa-f]{32})(>)")
+# A PDF string is written either as hex, <AB12...>, or as a literal, (...),
+# and both forms are legal for either half of /ID. Matching only hex is the
+# defect this pattern exists to avoid.
+PDF_STRING = rb"(?:<[0-9A-Fa-f]*>|\((?:\\.|[^()\\])*\))"
+TRAILER_ID = re.compile(rb"/ID\s*\[\s*" + PDF_STRING + rb"\s*" + PDF_STRING +
+                        rb"\s*\]")
+
+
+def digest_for(seed):
+    return hashlib.sha256(seed.encode("utf-8")).hexdigest()[:32].upper()
 
 
 def pin_id(data, seed):
     """Force both trailer /ID halves to a content-derived constant.
 
-    Length preserving, so no cross-reference offset moves.
+    Necessary even though set_id runs first. Per the PDF spec the second /ID
+    element is the *changing* identifier, and MuPDF regenerates it on every
+    write no matter what the document carried. When those random bytes happen
+    to be mostly printable it writes them as a literal string rather than hex,
+    which is about one save in twenty. An earlier hex-only pattern matched
+    nothing on exactly those runs, so the random ID survived and the output
+    differed from an otherwise byte-identical rebuild. That is a rule 8
+    failure that only shows up intermittently, which is the worst kind.
+
+    Rewriting is scoped to the trailer, after the last `trailer` keyword. The
+    trailer is reached by parsing forward from the xref table rather than by
+    an absolute offset, so changing its length moves nothing that any
+    cross-reference entry points at. Outside a trailer the substitution is
+    length preserving, which is safe anywhere.
     """
-    digest = hashlib.sha256(seed.encode("utf-8")).hexdigest()[:32].upper().encode()
-    replaced = TRAILER_ID.sub(
-        lambda m: m.group(1) + digest + m.group(3) + digest + m.group(5), data)
-    return replaced
+    pinned = digest_for(seed).encode()
+    replacement = b"/ID[<" + pinned + b"><" + pinned + b">]"
+
+    cut = data.rfind(b"trailer")
+    if cut == -1:
+        # No classic trailer, so /ID may live in an xref stream object whose
+        # length must not change. Only touch an equal-length hex pair.
+        exact = re.compile(rb"(/ID\s*\[\s*<)([0-9A-Fa-f]{32})(>\s*<)"
+                           rb"([0-9A-Fa-f]{32})(>)")
+        return exact.sub(
+            lambda m: m.group(1) + pinned + m.group(3) + pinned + m.group(5),
+            data)
+
+    return data[:cut] + TRAILER_ID.sub(replacement, data[cut:])
+
+
+def set_id(document, seed):
+    """Pin the trailer /ID on the document itself, before it is written.
+
+    xref -1 is the trailer. Setting the key here means MuPDF emits our value
+    rather than generating one, so the output does not depend on which string
+    form it would have chosen.
+    """
+    pinned = digest_for(seed)
+    try:
+        document.xref_set_key(-1, "ID", "[<%s><%s>]" % (pinned, pinned))
+        return True
+    except Exception:
+        return False
 
 
 def profile_seed(source_sha):
@@ -94,9 +141,12 @@ def recompress(data, source_sha):
         )
         # Strip dates and producer strings; they are not content.
         document.set_metadata({})
+        set_id(document, profile_seed(source_sha))
         out = document.tobytes(garbage=4, deflate=True, clean=True)
     finally:
         document.close()
+    # Belt and braces: if the writer regenerated an ID anyway, and it came out
+    # in hex form, normalise it here too.
     return pin_id(out, profile_seed(source_sha))
 
 

@@ -3,7 +3,7 @@
 Written by `tools/discover_interps.py`. Do not hand-edit; edits are overwritten.
 Selections belong in `manifest/sources.yaml`.
 
-**18 candidate(s) need discovery. 12 resolved, 6 still open.**
+**18 candidate(s) need discovery. 9 resolved, 3 deferred pending review, 6 still open.**
 
 ## Why this file exists
 
@@ -51,12 +51,6 @@ topic similarity, which would be rule 2 with extra steps.
 |---|---|---|---|---|---|
 | 2006 | letter | Mr. Kortokrax | - | 800 Independence Ave., SW. Washington, DC 20591 This is in response to your request for a legal interpretation of 14 CFR §61.57 concerning pilot in command, recent flight experience. We agree that a properly rated instructor and a student a | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/2006/Kortokrax_2006_Legal_Interpretation.pdf |
 
-### C4 Walker, Night takeoff and landing currency, full stop
-
-| Year | Kind | Addressee | FAA date | Subject, or excerpt for a memo | URL |
-|---|---|---|---|---|---|
-| 2011 | letter | Mr. Walker | May 21, 2009 | This responds to your request for a legal interpretation dated August 11, 2011. Your letter requests clarification concerning the logging of pilot-in-command (PIC) time under · 14 CFR 61.Sl(e). Your letter presents a scenario in which Pilot | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/2011/Walker_2011_Legal_Interpretation.pdf |
-
 ### D1 Collins, Procedure turn required or not
 
 | Year | Kind | Addressee | FAA date | Subject, or excerpt for a memo | URL |
@@ -64,24 +58,11 @@ topic similarity, which would be rule 2 with extra steps.
 | 2012 | letter | Mr. Collins | August 7, 2008 | Office of the Chief Counsel 800 Independence Ave., S.W. Washington, o.c. 20591 This is in response to your request for a legal interpretation dated March 26, 2012. In your request, you asked whether a certified flight instructor (CFI) may l | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/2012/Collins_2012_Legal_Interpretation.pdf |
 | 2013 | letter | Mr. Collins | April 7, 2013 | Office of the Chief Counsel · 800 Independence Ave., S.W. Washington, D.C. 20591 This responds to your request for a legal interpretation emailed Jvfarch 5, 2013 and amended April 7, 2013. Your letter requests reconsideration of an issue th | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/2013/Collins-2_2013_Legal_Interpretation.pdf |
 
-### D2 Kuhn, Alternate airport planning under 91.169
-
-| Year | Kind | Addressee | FAA date | Subject, or excerpt for a memo | URL |
-|---|---|---|---|---|---|
-| 2014 | letter | Mr. Kuhn | October 10, 2013 | Office of the Chief Counsel 800 Independence Ave., S.W. Washington, D.C. 20591 Tius letter responds to your request for a legal interpretation of 14 C.F.R. § 61.129 dated October 10, 2013. You asked several questions concerning crediting re | https://www.faa.gov/media/12386 |
-
 ### F3 Bell, Definition of "operate," when a flight begins
 
 | Year | Kind | Addressee | FAA date | Subject, or excerpt for a memo | URL |
 |---|---|---|---|---|---|
 | 1999 | letter | Mr. Bell | January 13, 1999 | Mr. George L. Thompson has asked me to respond to your letter of January 8, 1999, in which you requested his opinion regarding a proposed flight operation. In your letter, you asked whether a pipeline patrol operation, wherein the aircraft  | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/1999/Bell_1999_Legal_Interpretation.pdf |
-
-### G2 Grannis, CFI logging PIC while instructing
-
-| Year | Kind | Addressee | FAA date | Subject, or excerpt for a memo | URL |
-|---|---|---|---|---|---|
-| 2016 | letter | Mr. Grannis | - | Clarification of Requirements for Logging Cross-country Time to meet aeronautical | https://www.faa.gov/media/11516 |
-| 2017 | letter | Mr. Grannis | - | Clarification of the Exceptions in 14 CFR § 11.9. l(e) | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/2017/Grannis_2017_Legal_Interpretation.pdf |
 
 ### A6 Crowe, Logging PIC toward added category or class requires sole occupancy
 
@@ -107,6 +88,17 @@ topic similarity, which would be rule 2 with extra steps.
 |---|---|---|---|---|---|
 | 2014 | letter | Mr. Winton | February 12, 2014 | Office of the Chief Counsel 800 Independence Ave., S.W. Washington, D.C. 20591 This letter responds to your request for legal interpretation sent to my office on February 12, 2014. You have asked several questions regarding expense-sharing  | https://www.faa.gov/media/12566 |
 
+
+## Deferred pending review
+
+These have a confirmed document naming the right addressee, but a subject that is not the topic CLAUDE.md section 7 claims. Rule 2 forbids adopting an interpretation that merely looks similar, so none of them ships until the conflict is resolved by hand. Either the topic column is wrong, the letter is, or a second letter to the same person has not surfaced.
+
+| Ref | Filed as | Year | Page one actually reads as | URL |
+|---|---|---|---|---|
+| C4 | Night takeoff and landing currency, full sto | 2011 | This responds to your request for a legal interpretation dated August 11, 2011. Your letter requests clarification concerning the logging of pilot-in-command (PIC) time under · 14 CFR 61.Sl(e). Your letter presents a scenario in which Pilot | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/2011/Walker_2011_Legal_Interpretation.pdf |
+| D2 | Alternate airport planning under 91.169 | 2014 | Office of the Chief Counsel 800 Independence Ave., S.W. Washington, D.C. 20591 Tius letter responds to your request for a legal interpretation of 14 C.F.R. § 61.129 dated October 10, 2013. You asked several questions concerning crediting re | https://www.faa.gov/media/12386 |
+| G2 | CFI logging PIC while instructing | 2016 | Clarification of Requirements for Logging Cross-country Time to meet aeronautical | https://www.faa.gov/media/11516 |
+| G2 | CFI logging PIC while instructing | 2017 | Clarification of the Exceptions in 14 CFR § 11.9. l(e) | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/2017/Grannis_2017_Legal_Interpretation.pdf |
 
 ## Still unresolved
 

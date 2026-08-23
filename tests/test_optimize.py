@@ -7,6 +7,7 @@ never spent for no gain.
 
 import hashlib
 import io
+import re
 import pathlib
 import sys
 
@@ -58,6 +59,33 @@ def test_pin_id_is_length_preserving(sample):
     raw = O.recompress(sample, "a" * 64)
     assert len(O.pin_id(raw, "seed")) == len(raw), (
         "changing /ID length would move every cross-reference offset")
+
+
+def test_pin_id_handles_a_literal_string_id():
+    """The intermittent rule 8 failure this exists to prevent.
+
+    Per the PDF spec the second /ID element is the changing identifier, and
+    MuPDF regenerates it on every write. When those random bytes happen to be
+    mostly printable it emits a literal string, (...), rather than hex. About
+    one save in twenty. A hex-only pattern matched nothing on exactly those
+    runs, the random ID survived, and an otherwise byte-identical rebuild
+    differed. Intermittent, so it passed 19 times out of 20.
+    """
+    trailer = (
+        b"trailer\n<</Size 8/Root 1 0 R/ID[<" + b"A" * 32
+        + rb'>(K\f@=MQA\250\276L,)]>>' + b"\nstartxref\n0\n%%EOF\n")
+    pinned = O.pin_id(trailer, "seed")
+    halves = re.search(rb"/ID\s*\[\s*<([0-9A-Fa-f]{32})>\s*<([0-9A-Fa-f]{32})>\s*\]",
+                       pinned)
+    assert halves, "a literal-string /ID must still be pinned: %r" % pinned[:120]
+    assert halves.group(1) == halves.group(2)
+
+
+def test_recompression_is_reproducible_across_many_runs(sample):
+    # One run proves nothing when the failure rate is one in twenty.
+    digests = {hashlib.sha256(O.recompress(sample, "a" * 64)).hexdigest()
+               for _ in range(25)}
+    assert len(digests) == 1, "recompression must not vary between runs"
 
 
 def test_pin_id_collapses_two_differing_ids():
