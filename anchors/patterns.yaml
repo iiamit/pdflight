@@ -1,30 +1,387 @@
-# How to find each anchor in each source document. Empty in Phase 1.
+# How to find each anchor in each source document.
 #
-# Anchor refs are logical, never page numbers:
-#   phak:ch15:airspace-class-b
-#   afh:ch09:stabilized-approach
-#   14cfr:91.155
-#   49cfr:830.5
-#   aim:4-3-3
-#   ac:61-65K:para-14
-#   acs:PA.I.B.K1
-#   interp:mangiamele-2009-expense-sharing
+# Anchor refs are logical, never page numbers. Resolution priority is set in
+# CLAUDE.md section 8 and implemented in tools/resolve.py:
 #
-# Resolution priority (CLAUDE.md section 8):
-#   1. native destinations for anything generated. Deterministic, zero maintenance.
-#   2. source PDF outline match. Most FAA handbooks and ACs ship with bookmarks.
-#   3. regex over extracted page text with an expected ordinal.
-#   4. pinned page number with `pinned: true`, which warns on every run.
+#   1. native   already a destination in a generated PDF. Every CFR section.
+#   2. outline  a normalised bookmark title. Works for 30 of 40 documents.
+#   3. regex    extracted page text with an ordinal. Needed where the outline
+#               is missing or is tagged-PDF noise.
+#   4. pinned   a literal page number. Warns every run.
 #
-# Shape:
-#   phak:ch15:airspace-class-b:
-#     strategy: outline
-#     match: "Class B Airspace"
-#     fallback:
-#       strategy: regex
-#       pattern: '^Class B Airspace'
-#       ordinal: 1
+# Generated from observed evidence, then committed. Every pattern here matched
+# when it was written; `make resolve` fails if one stops matching.
 #
-# Populated in Phase 3.
+# PHAK and IFH use regex rather than outline on purpose. PHAK's 7,689 bookmarks
+# are tagged-PDF structure, not headings, and IFH has no outline at all. Both
+# expose a standalone "Chapter N" line on each chapter opening page, and
+# contents pages are excluded by the indexer so those lines cannot match the
+# table of contents instead.
 
-{}
+# phak: regex, because its outline is tagged-PDF structure noise
+phak:ch01:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+1\s*$'
+  ordinal: 1
+phak:ch02:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+2\s*$'
+  ordinal: 1
+phak:ch03:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+3\s*$'
+  ordinal: 1
+phak:ch04:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+4\s*$'
+  ordinal: 1
+phak:ch05:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+5\s*$'
+  ordinal: 1
+phak:ch06:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+6\s*$'
+  ordinal: 1
+phak:ch07:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+7\s*$'
+  ordinal: 1
+phak:ch08:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+8\s*$'
+  ordinal: 1
+phak:ch09:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+9\s*$'
+  ordinal: 1
+phak:ch10:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+10\s*$'
+  ordinal: 1
+phak:ch11:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+11\s*$'
+  ordinal: 1
+phak:ch12:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+12\s*$'
+  ordinal: 1
+phak:ch13:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+13\s*$'
+  ordinal: 1
+phak:ch14:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+14\s*$'
+  ordinal: 1
+phak:ch15:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+15\s*$'
+  ordinal: 1
+phak:ch16:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+16\s*$'
+  ordinal: 1
+phak:ch17:
+  doc: phak
+  strategy: regex
+  pattern: '^\s*Chapter\s+17\s*$'
+  ordinal: 1
+
+# ifh: regex, because it ships no outline at all
+ifh:ch01:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*Chapter\s+1\s*$'
+  ordinal: 1
+ifh:ch02:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*Chapter\s+2\s*$'
+  ordinal: 1
+ifh:ch03:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*Chapter\s+3\s*$'
+  ordinal: 1
+ifh:ch04:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*Chapter\s+4\s*$'
+  ordinal: 1
+ifh:ch05:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*Chapter\s+5\s*$'
+  ordinal: 1
+ifh:ch08:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*Chapter\s+8\s*$'
+  ordinal: 1
+ifh:ch09:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*Chapter\s+9\s*$'
+  ordinal: 1
+ifh:ch10:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*Chapter\s+10\s*$'
+  ordinal: 1
+ifh:ch11:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*Chapter\s+11\s*$'
+  ordinal: 1
+
+# afh: outline match, draft suffix deliberately excluded
+afh:ch01:
+  doc: afh
+  strategy: outline
+  match: '02 - AFH Chapter 1'
+  ordinal: 1
+afh:ch02:
+  doc: afh
+  strategy: outline
+  match: '03 - AFH Chapter 2'
+  ordinal: 1
+afh:ch03:
+  doc: afh
+  strategy: outline
+  match: '04 - AFH Chapter 3'
+  ordinal: 1
+afh:ch04:
+  doc: afh
+  strategy: outline
+  match: '05 - AFH Chapter 4'
+  ordinal: 1
+afh:ch05:
+  doc: afh
+  strategy: outline
+  match: '06 - AFH Chapter 5'
+  ordinal: 1
+afh:ch06:
+  doc: afh
+  strategy: outline
+  match: '07 - AFH Chapter 6'
+  ordinal: 1
+afh:ch07:
+  doc: afh
+  strategy: outline
+  match: '08 - AFH Chapter 7'
+  ordinal: 1
+afh:ch08:
+  doc: afh
+  strategy: outline
+  match: '09 - AFH Chapter 8'
+  ordinal: 1
+afh:ch09:
+  doc: afh
+  strategy: outline
+  match: '10 - AFH Chapter 9'
+  ordinal: 1
+afh:ch10:
+  doc: afh
+  strategy: outline
+  match: '11 - AFH Chapter 10'
+  ordinal: 1
+afh:ch11:
+  doc: afh
+  strategy: outline
+  match: '12 - AFH Chapter 11'
+  ordinal: 1
+afh:ch12:
+  doc: afh
+  strategy: outline
+  match: '13 - AFH Chapter 12'
+  ordinal: 1
+afh:ch13:
+  doc: afh
+  strategy: outline
+  match: '14 - AFH Chapter 13'
+  ordinal: 1
+afh:ch14:
+  doc: afh
+  strategy: outline
+  match: '15 - AFH Chapter 14'
+  ordinal: 1
+afh:ch15:
+  doc: afh
+  strategy: outline
+  match: '16 - AFH Chapter 15'
+  ordinal: 1
+afh:ch16:
+  doc: afh
+  strategy: outline
+  match: '17 - AFH Chapter 16'
+  ordinal: 1
+afh:ch17:
+  doc: afh
+  strategy: outline
+  match: '18 - AFH Chapter 17'
+  ordinal: 1
+afh:ch18:
+  doc: afh
+  strategy: outline
+  match: '19 - AFH Chapter 18'
+  ordinal: 1
+
+# ac-61-65k: outline match
+ac:61-65K:1-purpose-of-this-advisory-circular-ac-this:
+  doc: ac-61-65k
+  strategy: outline
+  match: '1 PURPOSE OF THIS ADVISORY CIRCULAR (AC). This AC provides guidance for pilot and instructor applicants, pilot'
+  ordinal: 1
+ac:61-65K:2-audience-the-primary-audience-for-this-ac:
+  doc: ac-61-65k
+  strategy: outline
+  match: '2 AUDIENCE. The primary audience for this AC is all flight instructors, ground instructors, and Designated Pil'
+  ordinal: 1
+ac:61-65K:3-safety-message-safety-is-the-number-one-go:
+  doc: ac-61-65k
+  strategy: outline
+  match: '3 SAFETY MESSAGE. Safety is the number one goal of all airmen and instructors. This AC is an aviation safety r'
+  ordinal: 1
+ac:61-65K:4-where-you-can-find-this-ac-you-can-find-th:
+  doc: ac-61-65k
+  strategy: outline
+  match: '4 WHERE YOU CAN FIND THIS AC. You can find this AC on the Federal Aviation Administration’s (FAA) website at h'
+  ordinal: 1
+ac:61-65K:5-what-this-ac-cancels-ac-61-65j-certificati:
+  doc: ac-61-65k
+  strategy: outline
+  match: '5 WHAT THIS AC CANCELS. AC 61-65J, Certification: Pilots and Flight and Ground Instructors, dated October 30, '
+  ordinal: 1
+ac:61-65K:6-related-reading-material-current-editions:
+  doc: ac-61-65k
+  strategy: outline
+  match: '6 RELATED READING MATERIAL (current editions):'
+  ordinal: 1
+ac:61-65K:7-summary-of-changes-see-appendix-b-summary:
+  doc: ac-61-65k
+  strategy: outline
+  match: '7 SUMMARY OF CHANGES. See Appendix B, Summary of Changes in Revision K, for changes from this AC’s previous ed'
+  ordinal: 1
+ac:61-65K:8-pilot-training-and-testing-title-14-cfr-pa:
+  doc: ac-61-65k
+  strategy: outline
+  match: '8 PILOT TRAINING AND TESTING. Title 14 CFR part 61 contains eligibility, aeronautical knowledge, flight profic'
+  ordinal: 1
+
+# acs-private-airplane: outline match
+acs:PA:area-of-operation-i-preflight-preparation:
+  doc: acs-private-airplane
+  strategy: outline
+  match: 'Area of Operation I. Preflight Preparation'
+  ordinal: 1
+acs:PA:area-of-operation-ii-preflight-procedures:
+  doc: acs-private-airplane
+  strategy: outline
+  match: 'Area of Operation II. Preflight Procedures'
+  ordinal: 1
+acs:PA:area-of-operation-iii-airport-and-seaplane-b:
+  doc: acs-private-airplane
+  strategy: outline
+  match: 'Area of Operation III. Airport and Seaplane Base Operations'
+  ordinal: 1
+acs:PA:area-of-operation-iv-takeoffs-landings-and-g:
+  doc: acs-private-airplane
+  strategy: outline
+  match: 'Area of Operation IV. Takeoffs, Landings, and Go-Arounds'
+  ordinal: 1
+acs:PA:area-of-operation-v-performance-maneuvers-an:
+  doc: acs-private-airplane
+  strategy: outline
+  match: 'Area of Operation V. Performance Maneuvers and Ground Reference Maneuvers'
+  ordinal: 1
+acs:PA:area-of-operation-vi-navigation:
+  doc: acs-private-airplane
+  strategy: outline
+  match: 'Area of Operation VI. Navigation'
+  ordinal: 1
+
+# aviation-weather: outline match
+awh:1-introduction:
+  doc: aviation-weather
+  strategy: outline
+  match: '1 Introduction'
+  ordinal: 1
+awh:2-aviation-weather-service-program:
+  doc: aviation-weather
+  strategy: outline
+  match: '2 Aviation Weather Service Program'
+  ordinal: 1
+awh:3-overview-of-aviation-weather-information:
+  doc: aviation-weather
+  strategy: outline
+  match: '3 Overview of Aviation Weather Information'
+  ordinal: 1
+awh:4-the-earth-s-atmosphere:
+  doc: aviation-weather
+  strategy: outline
+  match: '4 The Earth’s Atmosphere'
+  ordinal: 1
+awh:5-heat-and-temperature:
+  doc: aviation-weather
+  strategy: outline
+  match: '5 Heat and Temperature'
+  ordinal: 1
+awh:6-water-vapor:
+  doc: aviation-weather
+  strategy: outline
+  match: '6 Water Vapor'
+  ordinal: 1
+
+# Regulations: native destinations from the Phase 2 CFR build.
+# No pattern is needed; the ref itself is the label.
+14cfr:61.51:
+  doc: cfr
+  strategy: native
+14cfr:61.57:
+  doc: cfr
+  strategy: native
+14cfr:91.155:
+  doc: cfr
+  strategy: native
+14cfr:91.205:
+  doc: cfr
+  strategy: native
+14cfr:91.213:
+  doc: cfr
+  strategy: native
+14cfr:91.185:
+  doc: cfr
+  strategy: native
+14cfr:61.113:
+  doc: cfr
+  strategy: native
+49cfr:830.5:
+  doc: cfr
+  strategy: native
+
+# A pinned anchor, kept deliberately so the warning path stays exercised.
+# Plane Sense has no outline, and this cover page carries no stable phrase to
+# match on. Pinned anchors warn on every run and do not survive a repagination.
+plane-sense:cover:
+  doc: plane-sense
+  strategy: pinned
+  pinned: true
+  page: 1

@@ -11,7 +11,7 @@ PYTHON ?= python
 
 .DEFAULT_GOAL := help
 .PHONY: help setup fetch fetch-check fetch-update discover-interps \
-        verify-interps cfr cfr-check optimize optimize-check fonts         fonts-check test clean
+        verify-interps index resolve resolve-check cfr cfr-check optimize         optimize-check fonts         fonts-check test clean
 
 help:
 	@echo "PDFlight targets"
@@ -22,6 +22,9 @@ help:
 	@echo "  fetch-update      Pull changed sources and rewrite manifest/sources.lock.yaml"
 	@echo "  discover-interps  Resolve yearless interpretations against the cached index"
 	@echo "  verify-interps    Verify dated interpretations against the Chief Counsel library"
+	@echo "  index             Extract outlines and page text into the anchor index"
+	@echo "  resolve           Resolve anchor refs to pages, write anchors.lock.json"
+	@echo "  resolve-check     Resolve and report moved or unresolved anchors"
 	@echo "  cfr               Build 14 CFR and 49 CFR from eCFR into a typeset PDF"
 	@echo "  cfr-check         Compare eCFR amendment dates against manifest/cfr.lock.yaml"
 	@echo "  optimize          Recompress oversized sources into cache/optimized/"
@@ -51,6 +54,15 @@ discover-interps:
 
 verify-interps:
 	$(PYTHON) tools/verify_interps.py
+
+index:
+	$(PYTHON) tools/index.py
+
+resolve:
+	$(PYTHON) tools/resolve.py
+
+resolve-check:
+	$(PYTHON) tools/resolve.py --check
 
 cfr:
 	$(PYTHON) tools/cfr_build.py

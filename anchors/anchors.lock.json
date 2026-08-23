@@ -1,1 +1,443 @@
-{}
+{
+  "_note": "Written by tools/resolve.py. Committed so a page move shows up as a diff. Do not hand-edit.",
+  "anchors": {
+    "14cfr:61.113": {
+      "doc": "cfr",
+      "evidence": "sec-61-113",
+      "page": 175,
+      "strategy": "native"
+    },
+    "14cfr:61.51": {
+      "doc": "cfr",
+      "evidence": "sec-61-51",
+      "page": 109,
+      "strategy": "native"
+    },
+    "14cfr:61.57": {
+      "doc": "cfr",
+      "evidence": "sec-61-57",
+      "page": 118,
+      "strategy": "native"
+    },
+    "14cfr:91.155": {
+      "doc": "cfr",
+      "evidence": "sec-91-155",
+      "page": 292,
+      "strategy": "native"
+    },
+    "14cfr:91.185": {
+      "doc": "cfr",
+      "evidence": "sec-91-185",
+      "page": 306,
+      "strategy": "native"
+    },
+    "14cfr:91.205": {
+      "doc": "cfr",
+      "evidence": "sec-91-205",
+      "page": 309,
+      "strategy": "native"
+    },
+    "14cfr:91.213": {
+      "doc": "cfr",
+      "evidence": "sec-91-213",
+      "page": 314,
+      "strategy": "native"
+    },
+    "49cfr:830.5": {
+      "doc": "cfr",
+      "evidence": "sec-830-5",
+      "page": 627,
+      "strategy": "native"
+    },
+    "ac:61-65K:1-purpose-of-this-advisory-circular-ac-this": {
+      "doc": "ac-61-65k",
+      "evidence": "1 PURPOSE OF THIS ADVISORY CIRCULAR (AC). This AC provides guidance for pilot and instructor applicants, pilots, flight ",
+      "page": 4,
+      "strategy": "outline"
+    },
+    "ac:61-65K:2-audience-the-primary-audience-for-this-ac": {
+      "doc": "ac-61-65k",
+      "evidence": "2 AUDIENCE. The primary audience for this AC is all flight instructors, ground instructors, and Designated Pilot Examine",
+      "page": 4,
+      "strategy": "outline"
+    },
+    "ac:61-65K:3-safety-message-safety-is-the-number-one-go": {
+      "doc": "ac-61-65k",
+      "evidence": "3 SAFETY MESSAGE. Safety is the number one goal of all airmen and instructors. This AC is an aviation safety resource th",
+      "page": 4,
+      "strategy": "outline"
+    },
+    "ac:61-65K:4-where-you-can-find-this-ac-you-can-find-th": {
+      "doc": "ac-61-65k",
+      "evidence": "4 WHERE YOU CAN FIND THIS AC. You can find this AC on the Federal Aviation Administration’s (FAA) website at https://www",
+      "page": 4,
+      "strategy": "outline"
+    },
+    "ac:61-65K:5-what-this-ac-cancels-ac-61-65j-certificati": {
+      "doc": "ac-61-65k",
+      "evidence": "5 WHAT THIS AC CANCELS. AC 61-65J, Certification: Pilots and Flight and Ground Instructors, dated October 30, 2024, is c",
+      "page": 4,
+      "strategy": "outline"
+    },
+    "ac:61-65K:6-related-reading-material-current-editions": {
+      "doc": "ac-61-65k",
+      "evidence": "6 RELATED READING MATERIAL (current editions):",
+      "page": 4,
+      "strategy": "outline"
+    },
+    "ac:61-65K:7-summary-of-changes-see-appendix-b-summary": {
+      "doc": "ac-61-65k",
+      "evidence": "7 SUMMARY OF CHANGES. See Appendix B, Summary of Changes in Revision K, for changes from this AC’s previous edition.",
+      "page": 5,
+      "strategy": "outline"
+    },
+    "ac:61-65K:8-pilot-training-and-testing-title-14-cfr-pa": {
+      "doc": "ac-61-65k",
+      "evidence": "8 PILOT TRAINING AND TESTING. Title 14 CFR part 61 contains eligibility, aeronautical knowledge, flight proficiency, and",
+      "page": 5,
+      "strategy": "outline"
+    },
+    "acs:PA:area-of-operation-i-preflight-preparation": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation I. Preflight Preparation",
+      "page": 10,
+      "strategy": "outline"
+    },
+    "acs:PA:area-of-operation-ii-preflight-procedures": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation II. Preflight Procedures",
+      "page": 19,
+      "strategy": "outline"
+    },
+    "acs:PA:area-of-operation-iii-airport-and-seaplane-b": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation III. Airport and Seaplane Base Operations",
+      "page": 24,
+      "strategy": "outline"
+    },
+    "acs:PA:area-of-operation-iv-takeoffs-landings-and-g": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation IV. Takeoffs, Landings, and Go-Arounds",
+      "page": 26,
+      "strategy": "outline"
+    },
+    "acs:PA:area-of-operation-v-performance-maneuvers-an": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation V. Performance Maneuvers and Ground Reference Maneuvers",
+      "page": 44,
+      "strategy": "outline"
+    },
+    "acs:PA:area-of-operation-vi-navigation": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation VI. Navigation",
+      "page": 46,
+      "strategy": "outline"
+    },
+    "afh:ch01": {
+      "doc": "afh",
+      "evidence": "02 - AFH Chapter 1 (Draft 4)",
+      "page": 22,
+      "strategy": "outline"
+    },
+    "afh:ch02": {
+      "doc": "afh",
+      "evidence": "03 - AFH Chapter 2 (Draft 3)",
+      "page": 38,
+      "strategy": "outline"
+    },
+    "afh:ch03": {
+      "doc": "afh",
+      "evidence": "04 - AFH Chapter 3 (Draft 3)",
+      "page": 62,
+      "strategy": "outline"
+    },
+    "afh:ch04": {
+      "doc": "afh",
+      "evidence": "05 - AFH Chapter 4",
+      "page": 87,
+      "strategy": "outline"
+    },
+    "afh:ch05": {
+      "doc": "afh",
+      "evidence": "06 - AFH Chapter 5 (Draft 5)",
+      "page": 106,
+      "strategy": "outline"
+    },
+    "afh:ch06": {
+      "doc": "afh",
+      "evidence": "07 - AFH Chapter 6",
+      "page": 133,
+      "strategy": "outline"
+    },
+    "afh:ch07": {
+      "doc": "afh",
+      "evidence": "08 - AFH Chapter 7",
+      "page": 147,
+      "strategy": "outline"
+    },
+    "afh:ch08": {
+      "doc": "afh",
+      "evidence": "09 - AFH Chapter 8 (Draft 3)",
+      "page": 165,
+      "strategy": "outline"
+    },
+    "afh:ch09": {
+      "doc": "afh",
+      "evidence": "10 - AFH Chapter 9 (Draft 5)",
+      "page": 172,
+      "strategy": "outline"
+    },
+    "afh:ch10": {
+      "doc": "afh",
+      "evidence": "11 - AFH Chapter 10 (Draft 2)",
+      "page": 210,
+      "strategy": "outline"
+    },
+    "afh:ch11": {
+      "doc": "afh",
+      "evidence": "12 - AFH Chapter 11 (Draft 5)",
+      "page": 218,
+      "strategy": "outline"
+    },
+    "afh:ch12": {
+      "doc": "afh",
+      "evidence": "13 - AFH Chapter 12 (Draft 4)",
+      "page": 232,
+      "strategy": "outline"
+    },
+    "afh:ch13": {
+      "doc": "afh",
+      "evidence": "14 - AFH Chapter 13 (Draft 5)",
+      "page": 250,
+      "strategy": "outline"
+    },
+    "afh:ch14": {
+      "doc": "afh",
+      "evidence": "15 - AFH Chapter 14 (Draft 2)",
+      "page": 287,
+      "strategy": "outline"
+    },
+    "afh:ch15": {
+      "doc": "afh",
+      "evidence": "16 - AFH Chapter 15 (Draft 3)",
+      "page": 295,
+      "strategy": "outline"
+    },
+    "afh:ch16": {
+      "doc": "afh",
+      "evidence": "17 - AFH Chapter 16 (Draft 5)",
+      "page": 310,
+      "strategy": "outline"
+    },
+    "afh:ch17": {
+      "doc": "afh",
+      "evidence": "18 - AFH Chapter 17 (Draft 5)",
+      "page": 335,
+      "strategy": "outline"
+    },
+    "afh:ch18": {
+      "doc": "afh",
+      "evidence": "19 - AFH Chapter 18 (Draft 3)",
+      "page": 350,
+      "strategy": "outline"
+    },
+    "awh:1-introduction": {
+      "doc": "aviation-weather",
+      "evidence": "1 Introduction",
+      "page": 16,
+      "strategy": "outline"
+    },
+    "awh:2-aviation-weather-service-program": {
+      "doc": "aviation-weather",
+      "evidence": "2 Aviation Weather Service Program",
+      "page": 18,
+      "strategy": "outline"
+    },
+    "awh:3-overview-of-aviation-weather-information": {
+      "doc": "aviation-weather",
+      "evidence": "3 Overview of Aviation Weather Information",
+      "page": 24,
+      "strategy": "outline"
+    },
+    "awh:4-the-earth-s-atmosphere": {
+      "doc": "aviation-weather",
+      "evidence": "4 The Earth’s Atmosphere",
+      "page": 61,
+      "strategy": "outline"
+    },
+    "awh:5-heat-and-temperature": {
+      "doc": "aviation-weather",
+      "evidence": "5 Heat and Temperature",
+      "page": 67,
+      "strategy": "outline"
+    },
+    "awh:6-water-vapor": {
+      "doc": "aviation-weather",
+      "evidence": "6 Water Vapor",
+      "page": 80,
+      "strategy": "outline"
+    },
+    "ifh:ch01": {
+      "doc": "ifh",
+      "evidence": "Chapter 1",
+      "page": 20,
+      "strategy": "regex"
+    },
+    "ifh:ch02": {
+      "doc": "ifh",
+      "evidence": "Chapter 2",
+      "page": 52,
+      "strategy": "regex"
+    },
+    "ifh:ch03": {
+      "doc": "ifh",
+      "evidence": "Chapter 3",
+      "page": 68,
+      "strategy": "regex"
+    },
+    "ifh:ch04": {
+      "doc": "ifh",
+      "evidence": "Chapter 4",
+      "page": 78,
+      "strategy": "regex"
+    },
+    "ifh:ch05": {
+      "doc": "ifh",
+      "evidence": "Chapter 5",
+      "page": 96,
+      "strategy": "regex"
+    },
+    "ifh:ch08": {
+      "doc": "ifh",
+      "evidence": "Chapter 8",
+      "page": 224,
+      "strategy": "regex"
+    },
+    "ifh:ch09": {
+      "doc": "ifh",
+      "evidence": "Chapter 9",
+      "page": 244,
+      "strategy": "regex"
+    },
+    "ifh:ch10": {
+      "doc": "ifh",
+      "evidence": "Chapter 10",
+      "page": 292,
+      "strategy": "regex"
+    },
+    "ifh:ch11": {
+      "doc": "ifh",
+      "evidence": "Chapter 11",
+      "page": 326,
+      "strategy": "regex"
+    },
+    "phak:ch01": {
+      "doc": "phak",
+      "evidence": "Chapter 1",
+      "page": 16,
+      "strategy": "regex"
+    },
+    "phak:ch02": {
+      "doc": "phak",
+      "evidence": "Chapter 2",
+      "page": 40,
+      "strategy": "regex"
+    },
+    "phak:ch03": {
+      "doc": "phak",
+      "evidence": "Chapter 3",
+      "page": 72,
+      "strategy": "regex"
+    },
+    "phak:ch04": {
+      "doc": "phak",
+      "evidence": "Chapter 4",
+      "page": 88,
+      "strategy": "regex"
+    },
+    "phak:ch05": {
+      "doc": "phak",
+      "evidence": "Chapter 5",
+      "page": 98,
+      "strategy": "regex"
+    },
+    "phak:ch06": {
+      "doc": "phak",
+      "evidence": "Chapter 6",
+      "page": 149,
+      "strategy": "regex"
+    },
+    "phak:ch07": {
+      "doc": "phak",
+      "evidence": "Chapter 7",
+      "page": 161,
+      "strategy": "regex"
+    },
+    "phak:ch08": {
+      "doc": "phak",
+      "evidence": "Chapter 8",
+      "page": 203,
+      "strategy": "regex"
+    },
+    "phak:ch09": {
+      "doc": "phak",
+      "evidence": "Chapter 9",
+      "page": 231,
+      "strategy": "regex"
+    },
+    "phak:ch10": {
+      "doc": "phak",
+      "evidence": "Chapter 10",
+      "page": 245,
+      "strategy": "regex"
+    },
+    "phak:ch11": {
+      "doc": "phak",
+      "evidence": "Chapter 11",
+      "page": 257,
+      "strategy": "regex"
+    },
+    "phak:ch12": {
+      "doc": "phak",
+      "evidence": "Chapter 12",
+      "page": 285,
+      "strategy": "regex"
+    },
+    "phak:ch13": {
+      "doc": "phak",
+      "evidence": "Chapter 13",
+      "page": 311,
+      "strategy": "regex"
+    },
+    "phak:ch14": {
+      "doc": "phak",
+      "evidence": "Chapter 14",
+      "page": 335,
+      "strategy": "regex"
+    },
+    "phak:ch15": {
+      "doc": "phak",
+      "evidence": "Chapter 15",
+      "page": 376,
+      "strategy": "regex"
+    },
+    "phak:ch16": {
+      "doc": "phak",
+      "evidence": "Chapter 16",
+      "page": 388,
+      "strategy": "regex"
+    },
+    "phak:ch17": {
+      "doc": "phak",
+      "evidence": "Chapter 17",
+      "page": 423,
+      "strategy": "regex"
+    },
+    "plane-sense:cover": {
+      "doc": "plane-sense",
+      "evidence": "pinned by hand",
+      "page": 1,
+      "strategy": "pinned"
+    }
+  }
+}

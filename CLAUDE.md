@@ -127,6 +127,8 @@ pdflight/
 │   ├── _manifest.py            # manifest schema and deterministic lock IO
 │   ├── _cfr.py                 # eCFR XML to intermediate tree, then Typst
 │   ├── cfr_build.py            # Phase 2: regulations to a typeset PDF
+│   ├── index.py                # Phase 3: outlines and page text, scored
+│   ├── resolve.py              # Phase 3: refs to pages, anchors.lock.json
 │   ├── fetch.py
 │   ├── discover_interps.py
 │   ├── verify_interps.py
@@ -481,9 +483,21 @@ Emit Typst with a label per section, then compile. **Only labelled `heading` ele
 **Anchor resolution**, priority order:
 
 1. Native destinations for anything generated. Deterministic.
-2. Source PDF outline match. FAA handbooks ship with bookmarks. Normalize the title (case fold, strip punctuation, collapse whitespace) and match.
+2. Source PDF outline match. Normalize the title (case fold, strip punctuation, collapse whitespace) and match.
 3. Regex over extracted page text with an expected ordinal.
 4. Pinned page number with `pinned: true`, which emits a warning every run.
+
+**"FAA handbooks ship with bookmarks. This covers most anchors" is measured, and it holds for 30 of 40 documents but fails on the two that matter most.**
+
+| Document | Reality |
+|---|---|
+| PHAK | 7,689 bookmarks, all worthless. Top level is source filenames like `03_phak_ch1.pdf`, then "Structure Bookmarks", "Document", "Article". Tagged-PDF structure leaking in from a per-chapter assembly. |
+| IFH | No outline at all, 371 pages, and central to the Instrument crosswalk. |
+| AFH | Outline titles are production filenames with a draft number, `02 - AFH Chapter 1 (Draft 4)`. They resolve today and break on re-issue, so match on the prefix. |
+| Advisory Circulars | Excellent. 5 to 7 entries per page, one per numbered paragraph, exactly the granularity `ac:61-65K:para-14` wants. |
+| Plane Sense, Seaplane | No outline. Both do have a text layer, so regex works. |
+
+Two consequences. **Presence is not usability**, so `tools/index.py` scores every outline and marks the structural-noise case; density alone is the wrong test and rejects every AC. And **strategy 3 carries far more weight than the plan assumed**, so contents pages must be excluded: IFH lists every chapter title on page 12, and AFH's contents pages use no dot leaders, so both need detecting or the whole handbook anchors to its own table of contents.
 
 **Crosswalk bootstrap**. Every ACS Area of Operation carries a References line listing supporting documents. Parse it to seed document-level targets at `confidence: auto`, then refine to section level by hand. Order: Private, Instrument, Commercial, CFI, CFII, ATP.
 
