@@ -11,7 +11,7 @@ PYTHON ?= python
 
 .DEFAULT_GOAL := help
 .PHONY: help setup fetch fetch-check fetch-update discover-interps \
-        verify-interps crosswalk build assemble link outline validate menus         index         resolve resolve-check cfr cfr-check         optimize         optimize-check fonts         fonts-check test clean
+        verify-interps crosswalk crosswalk-stats review build assemble link         outline validate menus         index         resolve resolve-check cfr cfr-check         optimize         optimize-check fonts         fonts-check test clean
 
 help:
 	@echo "PDFlight targets"
@@ -23,6 +23,8 @@ help:
 	@echo "  discover-interps  Resolve yearless interpretations against the cached index"
 	@echo "  verify-interps    Verify dated interpretations against the Chief Counsel library"
 	@echo "  crosswalk         Seed the crosswalk from ACS References lines"
+	@echo "  crosswalk-stats   Crosswalk verification progress by certificate"
+	@echo "  review            Print the next Tasks to verify (CERT=private AREA=I)"
 	@echo "  build             Full build: menus, assemble, link, outline, validate"
 	@echo "  assemble          Concatenate the corpus in canonical order"
 	@echo "  link              Stamp navigation and rewrite anchors to absolute pages"
@@ -64,6 +66,16 @@ verify-interps:
 
 crosswalk:
 	$(PYTHON) tools/bootstrap_crosswalk.py
+
+crosswalk-stats:
+	$(PYTHON) tools/crosswalk_review.py --stats
+
+CERT ?= private
+AREA ?=
+LIMIT ?= 6
+
+review:
+	$(PYTHON) tools/crosswalk_review.py --certificate $(CERT)         $(if $(AREA),--area $(AREA),) --limit $(LIMIT)
 
 build: menus assemble link outline validate
 

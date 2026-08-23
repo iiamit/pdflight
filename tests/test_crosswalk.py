@@ -204,3 +204,89 @@ def test_every_element_has_at_least_one_target():
             by_element.setdefault(row["source_ref"], 0)
             by_element[row["source_ref"]] += 1
         assert all(count >= 1 for count in by_element.values())
+
+
+# ---------------------------------------------------------------------------
+# citation linking, Phase 6 into the PDF
+# ---------------------------------------------------------------------------
+
+def test_every_citation_form_on_a_references_line_is_found():
+    import link as L
+
+    line = ("R eferences: 14 CFR parts 61, 68, 91; AC 91-92; AIM; "
+            "FAA-H-8083-2, FAA-H-8083-25")
+    found = {ref for _s, _e, ref in L.citations_in(line)}
+    assert "14cfr:part-61" in found
+    assert "14cfr:part-68" in found
+    assert "14cfr:part-91" in found, "each part gets its own link, not one vague jump"
+    assert "ac:91-92" in found
+    assert "aim" in found
+    assert "handbook:8083-2" in found
+    assert "handbook:8083-25" in found
+
+
+def test_a_citation_span_covers_only_its_own_token():
+    import link as L
+
+    line = "14 CFR parts 61, 68, 91"
+    spans = {ref: line[s:e] for s, e, ref in L.citations_in(line)}
+    assert spans["14cfr:part-61"] == "61"
+    assert spans["14cfr:part-91"] == "91"
+
+
+def test_a_singular_part_reference_parses():
+    import link as L
+
+    found = {ref for _s, _e, ref in L.citations_in("14 CFR part 91; AIM")}
+    assert found == {"14cfr:part-91", "aim"}
+
+
+def test_a_line_with_no_citation_yields_nothing():
+    import link as L
+
+    assert not list(L.citations_in("The applicant demonstrates understanding of:"))
+
+
+def test_a_target_outside_the_corpus_resolves_to_nothing():
+    """Part 93 is cited by the ACS and is not in cfr.yaml.
+
+    It must degrade to no link rather than to a wrong page.
+    """
+    import link as L
+
+    resolve = L.build_resolver({"part-14-91": 4354}, {}, [])
+    assert resolve("14cfr:part-91") == 4354
+    assert resolve("14cfr:part-93") is None
+
+
+# ---------------------------------------------------------------------------
+# the review worklist
+# ---------------------------------------------------------------------------
+
+def test_task_grouping_collapses_elements():
+    import crosswalk_review as CR
+
+    assert CR.task_of("PA.I.B.K3b") == "PA.I.B"
+    assert CR.task_of("IR.VII.A.S1") == "IR.VII.A"
+
+
+@pytest.mark.skipif(not list(CROSSWALK.glob("*.csv")),
+                    reason="run make crosswalk")
+def test_the_worklist_counts_tasks_not_rows():
+    # 26,075 rows is not the number of decisions; Private is 61 Tasks.
+    import crosswalk_review as CR
+
+    stats = {row["certificate"]: row for row in CR.summarize(["private"])}
+    assert stats["private"]["tasks"] < 100
+    assert stats["private"]["rows"] > 4000
+
+
+@pytest.mark.skipif(not list(CROSSWALK.glob("*.csv")),
+                    reason="run make crosswalk")
+def test_verified_tasks_drop_out_of_the_worklist():
+    import crosswalk_review as CR
+
+    tasks = CR.worklist("private", {}, limit=3)
+    assert tasks, "nothing to review, but no task is verified yet"
+    for _task, block in tasks:
+        assert any(row["confidence"] == "auto" for row in block["rows"])

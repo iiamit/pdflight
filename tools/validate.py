@@ -114,11 +114,14 @@ def run(argv, final=FINAL, offsets_path=OFFSETS, absolute=ABSOLUTE,
 
     covered, defined, per_cert = set(), set(), []
     for name, document_id, _prefix in BC.CERTIFICATES:
-        path = M.ROOT / "crosswalk" / ("%s.csv" % name)
-        if not path.is_file():
+        # Not `path`. That name holds the built PDF, and shadowing it here made
+        # gate 8 measure the last crosswalk CSV instead: it reported 1.1 MB for
+        # a 475 MB file and would have passed a 2 GB one.
+        csv_path = M.ROOT / "crosswalk" / ("%s.csv" % name)
+        if not csv_path.is_file():
             continue
         rows = set()
-        with io.open(path, encoding="utf-8", newline="") as handle:
+        with io.open(csv_path, encoding="utf-8", newline="") as handle:
             import csv as _csv
 
             for row in _csv.DictReader(handle):

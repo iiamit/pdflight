@@ -28,6 +28,7 @@ import argparse
 import io
 import json
 import pathlib
+import re
 import sys
 
 import _manifest as M
@@ -118,6 +119,114 @@ def draw_stamp(page, menu_page, doc_page, pymupdf):
         drawn.append(label)
         x += width + 4.0
     return drawn
+
+
+# Citation forms that appear in an ACS References line.
+CITE_HANDBOOK = re.compile(r"FAA-H-(\d{4}-\d+)[A-Z]?")
+CITE_AC = re.compile(r"\bAC\s+(\d{1,3}[-.]\d+[A-Z]?)")
+CITE_AIM = re.compile(r"\bAIM\b")
+CITE_CFR = re.compile(r"14\s+CFR\s+parts?\s+([\d,\s]*\d)")
+CFR_NUMBER = re.compile(r"\d+")
+
+
+def page_lines(page):
+    """Words grouped into lines, with a reconstructed string per line."""
+    grouped = {}
+    for word in page.get_text("words"):
+        grouped.setdefault(round(word[1], 1), []).append(word)
+
+    lines = []
+    for key in sorted(grouped):
+        words = sorted(grouped[key], key=lambda w: w[0])
+        text, spans, cursor = "", [], 0
+        for word in words:
+            if text:
+                text += " "
+                cursor += 1
+            spans.append((cursor, cursor + len(word[4]), word))
+            text += word[4]
+            cursor += len(word[4])
+        lines.append((text, spans))
+    return lines
+
+
+def rect_for_span(spans, start, end, pymupdf):
+    """Union of the word rectangles overlapping a character span."""
+    boxes = [word for begin, finish, word in spans
+             if begin < end and finish > start]
+    if not boxes:
+        return None
+    rect = pymupdf.Rect(boxes[0][:4])
+    for word in boxes[1:]:
+        rect |= pymupdf.Rect(word[:4])
+    return rect
+
+
+def citations_in(text):
+    """Yield (start, end, target_ref) for every citation on a line."""
+    for match in CITE_HANDBOOK.finditer(text):
+        yield match.start(), match.end(), "handbook:%s" % match.group(1)
+    for match in CITE_AC.finditer(text):
+        yield match.start(), match.end(), "ac:%s" % match.group(1).lower()
+    for match in CITE_AIM.finditer(text):
+        yield match.start(), match.end(), "aim"
+    for match in CITE_CFR.finditer(text):
+        # Each part number gets its own link, so "14 CFR parts 61, 68, 91"
+        # becomes three targets rather than one vague jump.
+        base = match.start(1)
+        for number in CFR_NUMBER.finditer(match.group(1)):
+            yield (base + number.start(), base + number.end(),
+                   "14cfr:part-%s" % number.group(0))
+
+
+def link_citations(page, resolver, pymupdf):
+    """Turn every recognised citation on the page into a GoTo link."""
+    added = 0
+    for text, spans in page_lines(page):
+        if not ("FAA-H-" in text or "CFR" in text or "AC " in text
+                or "AIM" in text):
+            continue
+        for start, end, ref in citations_in(text):
+            target = resolver(ref)
+            if target is None:
+                continue
+            rect = rect_for_span(spans, start, end, pymupdf)
+            if rect is None:
+                continue
+            page.insert_link({"kind": pymupdf.LINK_GOTO, "from": rect,
+                              "page": target - 1})
+            added += 1
+    return added
+
+
+def build_resolver(mapping, lock, entries):
+    """Map a citation token onto an absolute page.
+
+    Handbook numbers are matched without their revision letter, because an ACS
+    cites FAA-H-8083-25 while the document reports FAA-H-8083-25C.
+    """
+    import bootstrap_crosswalk as BC
+    import menus as menus_tool
+
+    handbooks = BC.handbook_index(lock)
+    circulars = BC.ac_index(entries)
+
+    def resolve(ref):
+        if ref.startswith("handbook:"):
+            ident = handbooks.get(ref.split(":", 1)[1])
+            return mapping.get(menus_tool.label_for_doc(ident)) if ident else None
+        if ref.startswith("ac:"):
+            base = re.sub(r"[a-z]$", "", ref.split(":", 1)[1])
+            ident = circulars.get(base)
+            return mapping.get(menus_tool.label_for_doc(ident)) if ident else None
+        if ref == "aim":
+            ident = next((e["id"] for e in entries if e["section"] == "aim"), None)
+            return mapping.get(menus_tool.label_for_doc(ident)) if ident else None
+        if ref.startswith("14cfr:part-"):
+            return mapping.get("part-14-%s" % ref.rsplit("-", 1)[-1])
+        return mapping.get(ref)
+
+    return resolve
 
 
 def write_named_destinations(document, mapping, pymupdf):
@@ -267,6 +376,30 @@ def run(argv, assembled=ASSEMBLED, offsets_path=OFFSETS, output=LINKED,
     mapping = destination_map(
         offsets, resolved, M.ROOT / "build" / "cfr" / "cfr.pdf",
         M.ROOT / "build" / "menus" / "menus.pdf", pymupdf)
+
+    # --- crosswalk links ----------------------------------------------------
+    # The crosswalk records element -> target. The PDF surfaces that at the
+    # References line, which is where the citation physically appears and where
+    # a reader would tap. Putting four or five separate rectangles on a single
+    # element code would be unusable, and the code carries no citation text.
+    lock_for_links = M.load_lock()
+    resolver = build_resolver(mapping, lock_for_links, entries)
+    citation_links, citation_pages = 0, 0
+    for entry in entries:
+        if entry["section"] != "standards":
+            continue
+        record = offsets.get(entry["id"])
+        if not record:
+            continue
+        for index in range(record["pages"]):
+            number = record["start"] + index - 1
+            if number >= document.page_count:
+                break
+            added = link_citations(document.load_page(number), resolver, pymupdf)
+            if added:
+                citation_pages += 1
+                citation_links += added
+
     written = write_named_destinations(document, mapping, pymupdf)
 
     document.save(str(output), garbage=3, deflate=True)
@@ -276,6 +409,8 @@ def run(argv, assembled=ASSEMBLED, offsets_path=OFFSETS, output=LINKED,
     out.write("stamped %d page(s), %d navigation page(s) exempt\n"
               % (stamped, exempt))
     out.write("rebuilt %d named destination(s) destroyed by assembly\n" % written)
+    out.write("%d crosswalk citation link(s) across %d ACS page(s)\n"
+              % (citation_links, citation_pages))
     out.write("%s: %.1f MB\n" % (pathlib.Path(output).name, size / 1048576))
     return EXIT_PROBLEM if dropped else EXIT_OK
 

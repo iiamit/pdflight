@@ -195,3 +195,27 @@ def test_every_manifest_document_has_a_menu_offset():
     missing = [e["id"] for e in M.load_sources()
                if (e["id"] + "__menu") not in offsets]
     assert not missing, "no menu page recorded for: %s" % missing
+
+
+# ---------------------------------------------------------------------------
+# the validator must measure the thing it claims to measure
+# ---------------------------------------------------------------------------
+
+@pytest.mark.skipif(not FINAL.is_file(), reason="run make build")
+def test_size_gate_measures_the_pdf_not_a_csv():
+    """Gate 8 once reported 1.1 MB for a 475 MB file.
+
+    A loop added for gate 3 reassigned `path`, so gate 8 stat'd the last
+    crosswalk CSV instead of the build. It would have passed a 2 GB file.
+    A validator that misreports is worse than no validator.
+    """
+    import validate as V
+
+    out = io.StringIO()
+    V.run([], out=out)
+    line = next(row for row in out.getvalue().splitlines()
+                if row.startswith("8 "))
+    reported = float(line.split("PASS")[-1].split()[0])
+    actual = FINAL.stat().st_size / 1048576
+    assert abs(reported - actual) < 1.0, (
+        "gate 8 reported %.1f MB, file is %.1f MB" % (reported, actual))
