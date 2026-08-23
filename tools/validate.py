@@ -106,10 +106,45 @@ def run(argv, final=FINAL, offsets_path=OFFSETS, absolute=ABSOLUTE,
                "%d link(s) checked, %d dangling" % (total_links, len(dangling)))
 
     # 3 -- crosswalk coverage ------------------------------------------------
-    crosswalk = list((M.ROOT / "crosswalk").glob("*.csv"))
+    # A data check, not a PDF one. The question is whether every element the
+    # ACS defines has at least one row pointing somewhere, which is answerable
+    # from the source documents and the CSVs without opening the build.
+    import bootstrap_crosswalk as BC
+    import index as IX
+
+    covered, defined, per_cert = set(), set(), []
+    for name, document_id, _prefix in BC.CERTIFICATES:
+        path = M.ROOT / "crosswalk" / ("%s.csv" % name)
+        if not path.is_file():
+            continue
+        rows = set()
+        with io.open(path, encoding="utf-8", newline="") as handle:
+            import csv as _csv
+
+            for row in _csv.DictReader(handle):
+                rows.add(row["source_ref"])
+        covered |= rows
+
+        record = IX.load_index(document_id)
+        if record:
+            skip = set(record.get("toc_pages") or [])
+            text = "\n".join(
+                page for number, page in enumerate(record["page_text"], 1)
+                if number not in skip)
+            found = set(BC.ELEMENT.findall(text))
+            defined |= found
+            per_cert.append((name, len(found - rows)))
+
+    uncovered = defined - covered
+    worst = sorted(per_cert, key=lambda pair: -pair[1])[:1]
     result.add(3, "every ACS element has an outbound link",
-               "UNAVAILABLE" if not crosswalk else "PASS",
-               "crosswalk is Phase 6; no rows authored yet")
+               "PASS" if not uncovered else "FAIL",
+               "%d element(s) across %d certificate(s)"
+               % (len(defined), len(per_cert)) if not uncovered
+               else "%d of %d uncovered, worst %s with %d"
+                    % (len(uncovered), len(defined),
+                       worst[0][0] if worst else "-",
+                       worst[0][1] if worst else 0))
 
     # 4 -- reachability ------------------------------------------------------
     import menus as menus_tool

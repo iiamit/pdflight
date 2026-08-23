@@ -11,7 +11,7 @@ PYTHON ?= python
 
 .DEFAULT_GOAL := help
 .PHONY: help setup fetch fetch-check fetch-update discover-interps \
-        verify-interps build assemble link outline validate menus index         resolve resolve-check cfr cfr-check         optimize         optimize-check fonts         fonts-check test clean
+        verify-interps crosswalk build assemble link outline validate menus         index         resolve resolve-check cfr cfr-check         optimize         optimize-check fonts         fonts-check test clean
 
 help:
 	@echo "PDFlight targets"
@@ -22,6 +22,7 @@ help:
 	@echo "  fetch-update      Pull changed sources and rewrite manifest/sources.lock.yaml"
 	@echo "  discover-interps  Resolve yearless interpretations against the cached index"
 	@echo "  verify-interps    Verify dated interpretations against the Chief Counsel library"
+	@echo "  crosswalk         Seed the crosswalk from ACS References lines"
 	@echo "  build             Full build: menus, assemble, link, outline, validate"
 	@echo "  assemble          Concatenate the corpus in canonical order"
 	@echo "  link              Stamp navigation and rewrite anchors to absolute pages"
@@ -60,6 +61,9 @@ discover-interps:
 
 verify-interps:
 	$(PYTHON) tools/verify_interps.py
+
+crosswalk:
+	$(PYTHON) tools/bootstrap_crosswalk.py
 
 build: menus assemble link outline validate
 

@@ -103,7 +103,7 @@ pdflight/
 │   ├── optimize.lock.yaml      # tool-written, proves optimize is reproducible
 │   ├── cfr.lock.yaml           # tool-written, per-part eCFR amendment dates
 │   └── cfr.yaml
-├── crosswalk/                  # empty in Phase 1
+├── crosswalk/                  # one CSV per certificate, Phase 6
 ├── anchors/
 │   ├── patterns.yaml           # empty in Phase 1
 │   └── anchors.lock.json
@@ -135,6 +135,7 @@ pdflight/
 │   ├── link.py                 # Phase 5: nav stamps, absolute anchors
 │   ├── outline.py              # Phase 5: three-level bookmark tree
 │   ├── validate.py             # Phase 5: the validation gates
+│   └── bootstrap_crosswalk.py  # Phase 6: ACS References to crosswalk rows
 │   ├── fetch.py
 │   ├── discover_interps.py
 │   ├── verify_interps.py

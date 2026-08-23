@@ -209,7 +209,9 @@ phak:ch15:airspace-class-b:
 
 ### Crosswalk
 
-One CSV per certificate. Roughly 3,000 to 5,000 rows total.
+One CSV per certificate. ~~Roughly 3,000 to 5,000 rows total.~~ **Measured: 26,075 rows at `confidence: auto`** across five certificates, from 5,493 ACS elements. The estimate was five to eight times low, because it counted refined section-level links rather than the document-level cross product the bootstrap produces: every element inherits every document its Task's References line names, which averages four to five targets each.
+
+The schema carries a sixth column beyond the five below. Section 11 requires the element's full text stored alongside its code, because the FAA renumbers ACS codes on revision and a crosswalk keyed only by code breaks by id rather than by page.
 
 ```csv
 source_ref,target_ref,relation,confidence,note
