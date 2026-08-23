@@ -496,6 +496,16 @@ Every one of these fails the build.
 
 Warnings, non-fatal but reported in the PR comment: any pinned anchor, any crosswalk row still at `confidence: auto`, any source older than 24 months.
 
+### What the first full build changed about these gates
+
+**Gate 2 nearly passed for the wrong reason.** `insert_pdf` does not carry named destinations, so assembly destroyed all 1,009 of them: 42 from the generated pages, 967 from the CFR build. Nothing looked broken, because every link is a page-number `/GoTo` and 16,648 of them resolved cleanly. Only gate 4, which asks whether a document is reachable *by name*, caught it. `tools/link.py` now rebuilds the `/Dests` name tree by hand, sorted, since readers binary-search it.
+
+**Gate 5 needs an exemption to mean anything.** "Every page carries a persistent nav stamp" cannot include the cover, the menus, and the colophon: a `[menu]` link on the menu is noise. The 39 navigation pages are exempt by design, the exemption is recorded in the offsets, and the gate checks that set rather than guessing.
+
+**Gate 10 is about authored pages, not generated ones.** The distinction is authored versus reproduced. Source PDFs are unaltered under rule 4 and FAA text cites `asrs.arc.nasa.gov`. The CFR pages are typeset here but their words are the regulation, and 14 CFR incorporates standards by reference, printing `www.archives.gov`, `rtca.org` and `icao.int`. Stripping those would alter the law to satisfy a gate. The gate now covers only the 39 pages PDFlight writes.
+
+**Gates 7 and 9 report UNAVAILABLE.** pdfcpu is not installed, and a byte-identical rebuild cannot be checked inside a single run at roughly 17 minutes per build. Both state the reason rather than passing quietly, because a gate that silently skips reads as green.
+
 ---
 
 ## 10. Reader compatibility

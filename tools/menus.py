@@ -193,6 +193,34 @@ def render(entries, lock, cfr_lock, cfr_pages):
                    'Government and is not subject to copyright protection in '
                    'the United States.]')
 
+    # The regulations are generated rather than fetched, so they have no
+    # manifest entry and would otherwise be the only 629 pages in the volume
+    # with no per-document menu to return to. The nav stamp needs a target.
+    out.append("#pagebreak()")
+    out.append("#target[]<docmenu-cfr>")
+    out.append('#section-label("%s", "Regulations")' %
+               next(n for n, k, _ in SECTIONS if k == "regs"))
+    out.append('#page-title[Title 14 and 49 CFR]')
+    out.append(ident_block([
+        ("14 cfr parts", ", ".join(sorted(
+            (k.rsplit("-", 1)[-1] for k in cfr_lock if k.startswith("title-14")),
+            key=lambda s: (len(s), s)))),
+        ("49 cfr parts", ", ".join(sorted(
+            k.rsplit("-", 1)[-1] for k in cfr_lock if k.startswith("title-49")))),
+        ("current", cfr_current),
+        ("pages", "%d generated from eCFR XML" % cfr_pages),
+        ("sections", "%d, each a named destination" % sum(
+            (e.get("sections") or 0) for e in cfr_lock.values())),
+    ]))
+    out.append("#v(18pt)")
+    out.append('#align(left)[#primary-button(<menu-main>, "Return to the '
+               'main menu")]')
+    out.append("#v(1fr)")
+    out.append('#text(font: sans, size: 8.5pt, fill: ink-3)[Reproduced from '
+               'the Electronic Code of Federal Regulations, which is an '
+               'editorial compilation and not the official legal edition of '
+               'the CFR.]')
+
     # --- colophon -----------------------------------------------------------
     out.append("#pagebreak()")
     out.append("#target[]<colophon>")

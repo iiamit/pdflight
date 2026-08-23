@@ -131,6 +131,10 @@ pdflight/
 │   ├── index.py                # Phase 3: outlines and page text, scored
 │   ├── resolve.py              # Phase 3: refs to pages, anchors.lock.json
 │   ├── menus.py                # Phase 4: cover, menus, colophon
+│   ├── assemble.py             # Phase 5: canonical order, page offsets
+│   ├── link.py                 # Phase 5: nav stamps, absolute anchors
+│   ├── outline.py              # Phase 5: three-level bookmark tree
+│   ├── validate.py             # Phase 5: the validation gates
 │   ├── fetch.py
 │   ├── discover_interps.py
 │   ├── verify_interps.py
