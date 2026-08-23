@@ -11,7 +11,7 @@ PYTHON ?= python
 
 .DEFAULT_GOAL := help
 .PHONY: help setup fetch fetch-check fetch-update discover-interps \
-        verify-interps index resolve resolve-check cfr cfr-check optimize         optimize-check fonts         fonts-check test clean
+        verify-interps menus index resolve resolve-check cfr cfr-check         optimize         optimize-check fonts         fonts-check test clean
 
 help:
 	@echo "PDFlight targets"
@@ -22,6 +22,7 @@ help:
 	@echo "  fetch-update      Pull changed sources and rewrite manifest/sources.lock.yaml"
 	@echo "  discover-interps  Resolve yearless interpretations against the cached index"
 	@echo "  verify-interps    Verify dated interpretations against the Chief Counsel library"
+	@echo "  menus             Render cover, main menu, per-document menus, colophon"
 	@echo "  index             Extract outlines and page text into the anchor index"
 	@echo "  resolve           Resolve anchor refs to pages, write anchors.lock.json"
 	@echo "  resolve-check     Resolve and report moved or unresolved anchors"
@@ -54,6 +55,9 @@ discover-interps:
 
 verify-interps:
 	$(PYTHON) tools/verify_interps.py
+
+menus:
+	$(PYTHON) tools/menus.py
 
 index:
 	$(PYTHON) tools/index.py

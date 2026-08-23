@@ -121,7 +121,8 @@ pdflight/
 │       ├── OFL-JetBrainsMono.txt
 │       └── fonts.lock.json             # SHA-256 per TTF
 ├── templates/
-│   └── cfr.typ                 # CFR typesetting, Phase 2
+│   ├── cfr.typ                 # CFR typesetting, Phase 2
+│   └── menu.typ                # cover, menus, colophon, Phase 4
 ├── tools/
 │   ├── _http.py                # shared client: backoff, UA, conditional GET
 │   ├── _manifest.py            # manifest schema and deterministic lock IO
@@ -129,6 +130,7 @@ pdflight/
 │   ├── cfr_build.py            # Phase 2: regulations to a typeset PDF
 │   ├── index.py                # Phase 3: outlines and page text, scored
 │   ├── resolve.py              # Phase 3: refs to pages, anchors.lock.json
+│   ├── menus.py                # Phase 4: cover, menus, colophon
 │   ├── fetch.py
 │   ├── discover_interps.py
 │   ├── verify_interps.py
@@ -329,6 +331,8 @@ Idioms to carry into the PDF, all lifted from the site:
 - **Status strip** as the running header. Mono 11px, 0.08em tracking, uppercase, `ink_3`, 1px `hair_2` separators, glowing amber dot: `● PDFLIGHT | v2026.09.1 | AIM 2026-4 | 14 CFR CURRENT 2026-08-28 | 7412 PP`. Does the currency disclosure and the branding in one element.
 - **Brand mark** `pdflight_` with an amber underscore, mono 14px, weight 500. Static, not blinking.
 - **Section numbering** `01 · STANDARDS` style: mono 11px, 0.2em tracking, uppercase, `ink_3`, preceded by an 18px amber rule at 0.7 opacity.
+
+**The menu sections listed in this file omit the AIM.** The six named are STANDARDS, HANDBOOKS, REGULATIONS, ADVISORY CIRCULARS, INTERPRETATIONS, GUIDES, but `aim` is a first-class value in the 4.2 schema and the canonical page order puts it between the handbooks and 14 CFR. Filing an 918-page core reference under GUIDES would be worse than renumbering, so Phase 4 gives it `03 · AERONAUTICAL INFORMATION MANUAL` and shifts REGULATIONS to 04, ADVISORY CIRCULARS to 05, INTERPRETATIONS to 06, GUIDES to 07. Seven sections, not six. Say so if you would rather it went elsewhere.
 - **Headings** Inter 600, -0.025em tracking, trailing period: `Handbooks.` `Regulations.`
 - **Chips** 100px radius, 1px `hair_2`, mono 11px, for per-document revision and page count. `revision_date` is nullable and usually empty, so the chip must render without it.
 - **Ident block** two-column mono grid with uppercase `ink_3` labels, reused for the colophon source table.
