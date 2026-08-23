@@ -101,6 +101,7 @@ pdflight/
 │   ├── sources.yaml
 │   ├── sources.lock.yaml       # CI-written
 │   ├── optimize.lock.yaml      # tool-written, proves optimize is reproducible
+│   ├── cfr.lock.yaml           # tool-written, per-part eCFR amendment dates
 │   └── cfr.yaml
 ├── crosswalk/                  # empty in Phase 1
 ├── anchors/
@@ -119,10 +120,13 @@ pdflight/
 │       ├── OFL-Inter.txt
 │       ├── OFL-JetBrainsMono.txt
 │       └── fonts.lock.json             # SHA-256 per TTF
-├── templates/                  # empty in Phase 1
+├── templates/
+│   └── cfr.typ                 # CFR typesetting, Phase 2
 ├── tools/
 │   ├── _http.py                # shared client: backoff, UA, conditional GET
 │   ├── _manifest.py            # manifest schema and deterministic lock IO
+│   ├── _cfr.py                 # eCFR XML to intermediate tree, then Typst
+│   ├── cfr_build.py            # Phase 2: regulations to a typeset PDF
 │   ├── fetch.py
 │   ├── discover_interps.py
 │   ├── verify_interps.py
@@ -455,7 +459,24 @@ Do not start these without checking in.
 - `GET /api/versioner/v1/versions/title-14.json` for section-level history
 - `GET /api/versioner/v1/full/{date}/title-14.xml?part=61` for content
 
-Request at **part level**. A whole-title request returns everything and times out. Parse the eCFR DTD (`DIV3` part, `DIV5` subpart, `DIV8` section) into intermediate JSON, emit Typst with a label per section, compile. Typst labels become PDF named destinations, so `14cfr:91.155` resolves with zero text matching. Expect 2,200 to 2,800 pages and 8 to 15 MB.
+Request at **part level**. A whole-title request returns everything and times out.
+
+**The DTD mapping below was wrong and is corrected here.** Both this file and BUILD-PLAN said "`DIV3` part, `DIV5` subpart, `DIV8` section". A part-level request actually returns:
+
+| Element | Meaning |
+|---|---|
+| `DIV5 TYPE="PART"` | the part |
+| `DIV6 TYPE="SUBPART"` | the subpart |
+| `DIV8 TYPE="SECTION"` | the section |
+| `DIV9 TYPE="APPENDIX"` | an appendix, which neither plan mentioned |
+
+`DIV3` never appears. A parser written to the documented mapping finds nothing.
+
+Two more things the plan did not anticipate. Sections keep tables inside an **untyped `<DIV>`**, and 91.155, the basic VFR weather minimums, is one of them; skipping unrecognised DIVs drops that table while the page count still looks plausible. And `sup`/`sub` are lowercase in the real XML.
+
+Emit Typst with a label per section, then compile. **Only labelled `heading` elements export PDF named destinations.** A labelled block, a labelled helper returning a sequence, a labelled figure, and labelled content all silently produce nothing, verified against Typst 0.15. Since that export is the whole reason the regulations are generated rather than fetched, every structural level is a `heading` and styling lives in `show` rules.
+
+**Measured, not estimated: 629 pages and 4.6 MB for 849 sections across 16 parts.** The 2,200 to 2,800 page and 8 to 15 MB estimate was high by roughly four times, because it assumed looser typesetting than Inter at 10.5pt gives. The build is byte-reproducible: two runs from a warm cache produce an identical `.typ` and an identical PDF.
 
 **Anchor resolution**, priority order:
 
@@ -472,7 +493,7 @@ Full detail in `docs/BUILD-PLAN.md` sections 3, 4, 6, 7.
 
 ## 9. Toolchain
 
-Python 3.12. PyMuPDF for assembly, links, page counts, all text extraction, and image downsampling (AGPL is fine, this repo is open source). qpdf for linearize and object repair. pdfcpu for validation. Typst for generated pages.
+Python 3.12. PyMuPDF for assembly, links, page counts, all text extraction, and image downsampling (AGPL is fine, this repo is open source). Typst for generated pages, pinned at 0.15. qpdf for linearize and object repair. pdfcpu for validation.
 
 **No Ghostscript.** The size budget was breached in 1.2, at 766 MB against a 500 MB hard fail, which is the condition that was supposed to bring Ghostscript in. PyMuPDF's own `rewrite_images` closed the gap instead, taking the corpus to 470 MB, so no second imaging binary has to be installed identically on Windows and `ubuntu-latest`. See rule 12 and `tools/optimize.py`.
 

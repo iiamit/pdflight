@@ -156,14 +156,14 @@ title_49:
 `tools/cfr_build.py`:
 
 1. Fetch XML per part.
-2. Parse the eCFR DTD structure (`DIV3` part, `DIV5` subpart, `DIV8` section) into an intermediate JSON tree.
+2. Parse the eCFR DTD structure into an intermediate JSON tree. **The mapping here was wrong**: it is `DIV5` PART, `DIV6` SUBPART, `DIV8` SECTION, `DIV9` APPENDIX, and `DIV3` never appears. Tables live inside untyped `<DIV>` wrappers. See CLAUDE.md section 8.
 3. Emit Typst with a label per section: `<sec-91-155>`.
 4. Compile to PDF. Typst labels become PDF named destinations, so `14cfr:91.155` resolves deterministically with zero text matching.
 5. Generate a per-part index page and a Part 61/91 section-number quick jump table.
 
 Typeset in Inter at 10.5pt, not mono. Two thousand-plus pages of monospace is unreadable on a tablet. Mono stays on headings, section numbers, and all menu chrome, which keeps the theme intact.
 
-Expect roughly 2,200 to 2,800 pages and 8 to 15 MB. Text-only PDFs compress well.
+~~Expect roughly 2,200 to 2,800 pages and 8 to 15 MB.~~ **Measured: 629 pages and 4.6 MB**, 849 sections across 16 parts, at Inter 10.5pt. The estimate was high by about four times. Text-only PDFs do compress well, and this one is a rounding error against the 470 MB source corpus.
 
 ---
 

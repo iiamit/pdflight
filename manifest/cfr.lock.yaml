@@ -1,0 +1,91 @@
+# Written by tools/cfr_build.py. Do not hand-edit.
+#
+# One entry per CFR part, keyed title-part. `amended_on` is the eCFR amendment
+# date the XML was pulled for, and `sha256` is of that XML. A diff here means
+# the regulations changed, which is a release signal exactly like a diff in
+# sources.lock.yaml.
+#
+# `sections` is the count of named destinations that part contributes. If it
+# drops without an amendment, the parser broke.
+
+parts:
+  title-14-part-1:
+    amended_on: '2026-08-17'
+    bytes: 68163
+    sections: 3
+    sha256: cc6170ce2483160f72ffd3cd715586b5bb6a218467d5d7c7942b5491fabdbf57
+  title-14-part-103:
+    amended_on: '2026-08-17'
+    bytes: 13144
+    sections: 13
+    sha256: 890ae2ef74441b3c24f17029ff3217011b54121170d0af2b39dc8c16c87cfd76
+  title-14-part-105:
+    amended_on: '2026-08-17'
+    bytes: 31253
+    sections: 17
+    sha256: 18e2a6db3e783d7e57a454e6e57a8c9da76e9b092e9581825f3e052449eb04b3
+  title-14-part-119:
+    amended_on: '2026-08-17'
+    bytes: 85120
+    sections: 32
+    sha256: c18880c113f78ee76e4ab770f4b2a476c965c1a36149ca40789e13907772adde
+  title-14-part-135:
+    amended_on: '2026-08-17'
+    bytes: 673764
+    sections: 200
+    sha256: bd7263fa20d1931cbdaf7375b34bcbd0b2d37392e917d44270e29885c286acd8
+  title-14-part-43:
+    amended_on: '2026-08-17'
+    bytes: 84788
+    sections: 13
+    sha256: c64ce2c15164f999ca38d82b4ffad079807e48ff53056ee4f8eec8c1a0c8dcb5
+  title-14-part-45:
+    amended_on: '2026-08-17'
+    bytes: 31858
+    sections: 14
+    sha256: 067e9544c9e52f98cc789d8f012f41f4b868bf1acb102ba387f4c4eded455624
+  title-14-part-47:
+    amended_on: '2026-08-17'
+    bytes: 68368
+    sections: 32
+    sha256: 73b8ee2a618510327745aceaa639a3d2f2c9d9ed4754d0bfd6ab46d1c0b815fd
+  title-14-part-48:
+    amended_on: '2026-08-17'
+    bytes: 22936
+    sections: 15
+    sha256: 796df9ec18cca2b8f175917f643963456edde7eaed64eff489d4e19a551a7005
+  title-14-part-61:
+    amended_on: '2026-08-17'
+    bytes: 640036
+    sections: 149
+    sha256: 7846ec601596015e356d92b3d9fb1db9829edee641df568ae0c2a2373d17a86d
+  title-14-part-67:
+    amended_on: '2026-08-17'
+    bytes: 60603
+    sections: 36
+    sha256: f1f6522ccb75abf22e2854df2ebe24a83cd1623aa9a99d8834c7194bb353373d
+  title-14-part-68:
+    amended_on: '2026-08-17'
+    bytes: 16080
+    sections: 6
+    sha256: dd1169d47a22e384630d909bc8889ab047b24b4b21f880cdb629ee5df9e5527a
+  title-14-part-71:
+    amended_on: '2026-08-17'
+    bytes: 29486
+    sections: 15
+    sha256: b0ab8bd7dcb4a41a29390e1cf9551b2f664c28b671157d6769ad5aaa15615046
+  title-14-part-73:
+    amended_on: '2026-08-17'
+    bytes: 12201
+    sections: 11
+    sha256: 7c660fdd872a56461f51e8c5e39e63d6112c788a55a9adbc5b07d917dfca284f
+  title-14-part-91:
+    amended_on: '2026-08-17'
+    bytes: 806524
+    sections: 287
+    sha256: 714c2aee96afac7502dc68031185ede95e93d3b0803cfcf6801e8384c97673c2
+  title-49-part-830:
+    amended_on: '2026-08-19'
+    bytes: 15921
+    sections: 6
+    sha256: 8316e1b498cccf4a9119c529379ae809ca6a32bb67ca8ff85b6849dc1ad8325c
