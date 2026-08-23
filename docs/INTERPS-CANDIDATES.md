@@ -3,7 +3,7 @@
 Written by `tools/discover_interps.py`. Do not hand-edit; edits are overwritten.
 Selections belong in `manifest/sources.yaml`.
 
-**18 candidate(s) need discovery. 1 resolved, 17 still open.**
+**18 candidate(s) need discovery. 2 resolved, 16 still open.**
 
 ## Why this file exists
 
@@ -33,16 +33,21 @@ topic similarity, which would be rule 2 with extra steps.
 
 ## Candidates
 
+### B3 Bobertz, No common purpose without independent reason to travel
+
+| Year | Kind | Addressee | FAA date | Subject, or excerpt for a memo | URL |
+|---|---|---|---|---|---|
+| 2009 | memorandum | - | - | Federal Aviation Administration Memor~yg, MAY 1 s 2009 Date: To: From: Prepared by: Subject: Don Bobertz, Attorney, Office of the Regional Counsel, Western Pacific ~n, A W | https://www.faa.gov/media/14451 |
+
 ### C3 Kortokrax, Instrument currency, approaches, holding, tracking
 
-| Year | Addressee | FAA date | Request dated | Subject as printed | URL |
+| Year | Kind | Addressee | FAA date | Subject, or excerpt for a memo | URL |
 |---|---|---|---|---|---|
-| 2006 | Mr. Kortokrax | - | - | - | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/2006/Kortokrax_2006_Legal_Interpretation.pdf |
+| 2006 | letter | Mr. Kortokrax | - | - | https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations/Data/interps/2006/Kortokrax_2006_Legal_Interpretation.pdf |
 
 
 ## Still unresolved
 
-- **Bobertz no year** (B3, No common purpose without independent reason to tr): no candidate URL seeded
 - **Theriault no year** (C2, Flight review scope and content): no candidate URL seeded
 - **Walker no year** (C4, Night takeoff and landing currency, full stop): no candidate URL seeded
 - **Collins no year** (D1, Procedure turn required or not): no candidate URL seeded
@@ -62,10 +67,37 @@ topic similarity, which would be rule 2 with extra steps.
 
 ## How to resolve one
 
-1. Find the letter in DRS: <https://drs.faa.gov/browse/LEGAL_INTERPRETATIONS/doctypeDetails>
-2. Add its PDF URL to `cache/interps-index.json` under the table ref.
-3. Run `make discover-interps`. The tool fetches it and prints the addressee,
-   date, and subject it actually found.
-4. If that is the right letter, add it to `manifest/sources.yaml` with a
+**A DRS link will not work as a seed.** `drs.faa.gov/browse/...` URLs are
+routes into a JavaScript application, not files. Every one of them returns the
+same 22 KB page shell, and the DRS API refuses scripted clients outright. The
+tool fetches such a seed, sees it is not a PDF, and rejects it.
+
+A DRS record is still worth having, because its document identifier carries the
+year. `FAA000000000LEGALINTPR` **`2009`** `010PDF.0001` is a 2009 document, and
+a year from a source is exactly what rule 2 requires. It just is not a URL.
+
+The seed has to be a real PDF on `www.faa.gov`, and there are two hosting
+schemes in play:
+
+| Scheme | Example |
+|---|---|
+| Year tree | `.../Data/interps/2006/Kortokrax_2006_Legal_Interpretation.pdf` |
+| Media id | `https://www.faa.gov/media/14451` |
+
+The second is not derivable from anything. B3 Bobertz lives there, which is why
+its year-tree URL 404s even though the year was right.
+
+So:
+
+1. Take the year from the DRS identifier if you have it.
+2. Find the actual PDF URL, by search or from the DRS viewer's own download link.
+3. `python tools/discover_interps.py --seed <REF> <URL>`
+4. The tool fetches it and prints what page one actually says. A candidate that
+   names someone else is rejected; nothing is adopted on topic similarity.
+5. If it is the right document, add it to `manifest/sources.yaml` with a
    three-part id: `interp:{surname}-{year}-{topic-slug}`, the slug drawn
-   from the subject line printed here rather than from the topic column.
+   from the subject or excerpt printed above rather than from the topic column.
+
+Memoranda print an excerpt instead of an addressee and subject. Their header
+extracts as a block of labels followed by a block of values, so the fields do
+not line up and any confident parse of them would be wrong. Read the excerpt.

@@ -107,6 +107,8 @@ DEAR = re.compile(r"\bDear\s+((?:Mr\.|Ms\.|Mrs\.|Dr\.|Captain|Capt\.)?\s*"
 
 SUBJECT = re.compile(r"(?:Re|RE|Subject|SUBJECT)\s*[:.]\s*(.{5,200})")
 
+MEMO = re.compile(r"\bMemorandum\b|\bMemor[a-z~]{0,6}\b\s*,?\s*[A-Z]{3}", re.I)
+
 
 def read_first_page(data):
     """Return (text, page_count) or (None, None) if it will not parse."""
@@ -172,11 +174,36 @@ def extract(text):
 
     dear = DEAR.search(head)
     subject = SUBJECT.search(head)
+
+    # Not everything in the library is a letter to an outside requester. Some
+    # are internal memoranda to an FAA attorney, with a To/From/Subject header
+    # and no salutation. B3 Bobertz is one.
+    #
+    # A memo header extracts as a block of labels followed by a block of values
+    # ("Date: To: From: Prepared by: Subject: Don Bobertz, Attorney, ..."), so
+    # the labels do not sit next to their values and positional parsing reads
+    # the wrong field. Rather than report a confident wrong answer, memoranda
+    # get a verbatim excerpt for a human to read. The surname match still gates
+    # acceptance, so a memo cannot be adopted for the wrong person.
+    kind = "memorandum" if MEMO.search(head[:400]) else "letter"
+    if kind == "memorandum":
+        return {
+            "addressee": None,
+            "kind": kind,
+            "date": letter_date,
+            "request_date": request_date,
+            "subject": None,
+            "excerpt": " ".join(head[:180].split()),
+            "years": sorted(set(YEAR_TOKEN.findall(head))),
+        }
+
     return {
         "addressee": " ".join(dear.group(1).split()) if dear else None,
+        "kind": kind,
         "date": letter_date,
         "request_date": request_date,
         "subject": " ".join(subject.group(1).split())[:200] if subject else None,
+        "excerpt": None,
         "years": sorted(set(YEAR_TOKEN.findall(head))),
     }
 

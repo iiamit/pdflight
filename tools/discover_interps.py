@@ -70,8 +70,9 @@ def save_index(candidates, path=I.INDEX_CACHE):
 def inspect(client, entry, url, cache_root):
     """Fetch one candidate and read its page one. Never selects."""
     record = {"url": url, "status": None, "ok": False, "note": "",
-              "addressee": None, "date": None, "request_date": None,
-              "subject": None, "years": [], "pages": None}
+              "addressee": None, "kind": None, "date": None,
+              "request_date": None, "subject": None, "excerpt": None,
+              "years": [], "pages": None}
     try:
         reply = client.get(url)
     except FetchError as exc:
@@ -149,13 +150,40 @@ topic similarity, which would be rule 2 with extra steps.
 
 ## How to resolve one
 
-1. Find the letter in DRS: <https://drs.faa.gov/browse/LEGAL_INTERPRETATIONS/doctypeDetails>
-2. Add its PDF URL to `cache/interps-index.json` under the table ref.
-3. Run `make discover-interps`. The tool fetches it and prints the addressee,
-   date, and subject it actually found.
-4. If that is the right letter, add it to `manifest/sources.yaml` with a
+**A DRS link will not work as a seed.** `drs.faa.gov/browse/...` URLs are
+routes into a JavaScript application, not files. Every one of them returns the
+same 22 KB page shell, and the DRS API refuses scripted clients outright. The
+tool fetches such a seed, sees it is not a PDF, and rejects it.
+
+A DRS record is still worth having, because its document identifier carries the
+year. `FAA000000000LEGALINTPR` **`2009`** `010PDF.0001` is a 2009 document, and
+a year from a source is exactly what rule 2 requires. It just is not a URL.
+
+The seed has to be a real PDF on `www.faa.gov`, and there are two hosting
+schemes in play:
+
+| Scheme | Example |
+|---|---|
+| Year tree | `.../Data/interps/2006/Kortokrax_2006_Legal_Interpretation.pdf` |
+| Media id | `https://www.faa.gov/media/14451` |
+
+The second is not derivable from anything. B3 Bobertz lives there, which is why
+its year-tree URL 404s even though the year was right.
+
+So:
+
+1. Take the year from the DRS identifier if you have it.
+2. Find the actual PDF URL, by search or from the DRS viewer's own download link.
+3. `python tools/discover_interps.py --seed <REF> <URL>`
+4. The tool fetches it and prints what page one actually says. A candidate that
+   names someone else is rejected; nothing is adopted on topic similarity.
+5. If it is the right document, add it to `manifest/sources.yaml` with a
    three-part id: `interp:{{surname}}-{{year}}-{{topic-slug}}`, the slug drawn
-   from the subject line printed here rather than from the topic column.
+   from the subject or excerpt printed above rather than from the topic column.
+
+Memoranda print an excerpt instead of an addressee and subject. Their header
+extracts as a block of labels followed by a block of values, so the fields do
+not line up and any confident parse of them would be wrong. Read the excerpt.
 """
 
 
@@ -179,13 +207,14 @@ def write_candidates(entries, results, path=CANDIDATES):
             continue
         rows.append("### %s %s, %s\n" % (
             entry["ref"], entry["surname"], entry["topic"]))
-        rows.append("| Year | Addressee | FAA date | Request dated | Subject as printed | URL |")
+        rows.append("| Year | Kind | Addressee | FAA date | Subject, or excerpt for a memo | URL |")
         rows.append("|---|---|---|---|---|---|")
         for record in confirmed:
+            detail = record["subject"] or record["excerpt"]
             rows.append("| %s | %s | %s | %s | %s | %s |" % (
-                cell((record["years"] or ["?"])[-1]), cell(record["addressee"]),
-                cell(record["date"]), cell(record["request_date"]),
-                cell(record["subject"]), record["url"]))
+                cell((record["years"] or ["?"])[-1]), cell(record["kind"]),
+                cell(record["addressee"]), cell(record["date"]),
+                cell(detail), record["url"]))
         rows.append("")
 
     summary = ("**%d candidate(s) need discovery. %d resolved, %d still open.**"

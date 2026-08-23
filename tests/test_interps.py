@@ -240,3 +240,35 @@ def test_committed_candidate_doc_lists_the_dead_index():
     text = (ROOT / "docs" / "INTERPS-CANDIDATES.md").read_text(encoding="utf-8")
     assert "drs.faa.gov" in text
     assert "403" in text and "500" in text
+
+MEMO = (
+    "Federal Aviation Administration Memor~yg, MAY 1 s 2009 "
+    "Date: To: From: Prepared by: Subject: "
+    "Don Bobertz, Attorney, Office of the Regional Counsel, Western Pacific"
+)
+
+
+def test_a_memorandum_is_not_given_a_fabricated_addressee():
+    """B3 Bobertz is an internal memo, not a letter to a requester.
+
+    Its header extracts as a block of labels then a block of values, so the
+    labels do not sit next to their values. An earlier version read "Prepared
+    by: Subject:" positionally and reported the addressee as "Subject". A
+    verbatim excerpt is worth more than a confident wrong field.
+    """
+    found = I.extract(MEMO)
+    assert found["kind"] == "memorandum"
+    assert found["addressee"] is None
+    assert found["subject"] is None
+    assert "Don Bobertz" in found["excerpt"]
+    assert "2009" in found["years"]
+
+
+def test_a_memo_still_gates_on_the_surname():
+    assert I.surname_matches("Bobertz", None, MEMO)
+    assert not I.surname_matches("Kortokrax", None, MEMO)
+
+
+def test_a_letter_is_not_misread_as_a_memorandum():
+    assert I.extract(GLENN)["kind"] == "letter"
+    assert I.extract(GLENN)["excerpt"] is None
