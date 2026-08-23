@@ -71,7 +71,7 @@ def inspect(client, entry, url, cache_root):
     """Fetch one candidate and read its page one. Never selects."""
     record = {"url": url, "status": None, "ok": False, "note": "",
               "addressee": None, "kind": None, "date": None,
-              "request_date": None, "subject": None, "excerpt": None,
+              "request_date": None, "subject": None, "gist": None, "excerpt": None,
               "years": [], "pages": None}
     try:
         reply = client.get(url)
@@ -210,7 +210,7 @@ def write_candidates(entries, results, path=CANDIDATES):
         rows.append("| Year | Kind | Addressee | FAA date | Subject, or excerpt for a memo | URL |")
         rows.append("|---|---|---|---|---|---|")
         for record in confirmed:
-            detail = record["subject"] or record["excerpt"]
+            detail = record["subject"] or record["gist"] or record["excerpt"]
             rows.append("| %s | %s | %s | %s | %s | %s |" % (
                 cell((record["years"] or ["?"])[-1]), cell(record["kind"]),
                 cell(record["addressee"]), cell(record["date"]),

@@ -193,9 +193,20 @@ def extract(text):
             "date": letter_date,
             "request_date": request_date,
             "subject": None,
-            "excerpt": " ".join(head[:180].split()),
+            "gist": None,
+            "excerpt": " ".join(head[:240].split()),
             "years": sorted(set(YEAR_TOKEN.findall(head))),
         }
+
+    # Most letters carry no "Re:" line. What they do carry is an opening that
+    # states the question, so fall back to the text right after the salutation.
+    # Without this, the candidate table is blank exactly where a human needs to
+    # judge whether a document matches the topic it was filed under.
+    gist = None
+    if dear:
+        tail = head[dear.end():]
+        tail = re.sub(r"\s+", " ", tail).strip()
+        gist = tail[:240] or None
 
     return {
         "addressee": " ".join(dear.group(1).split()) if dear else None,
@@ -203,6 +214,7 @@ def extract(text):
         "date": letter_date,
         "request_date": request_date,
         "subject": " ".join(subject.group(1).split())[:200] if subject else None,
+        "gist": gist,
         "excerpt": None,
         "years": sorted(set(YEAR_TOKEN.findall(head))),
     }
