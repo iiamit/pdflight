@@ -1,0 +1,1568 @@
+{
+ "PA.IX.A.K1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "why": "AFH 18 Emergency Descents lists the triggering conditions; PHAK 7 Aircraft Systems covers pressurization and the powerplant fire case",
+  "confidence": "high"
+ },
+ "PA.IX.A.K2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Descents gives the immediate action items",
+  "confidence": "high"
+ },
+ "PA.IX.A.K3": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "why": "AFH 18 Emergency Descents covers descent airspeed; PHAK 9 covers where airspeed limitations are published in the AFM/POH",
+  "confidence": "medium"
+ },
+ "PA.IX.A.K4": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch11"
+  ],
+  "why": "AFH 18 Emergency Descents; PHAK 11 Aircraft Performance for the performance limits that bound the descent",
+  "confidence": "medium"
+ },
+ "PA.IX.A.R1": {
+  "anchors": [
+   "afh:ch18",
+   "risk-management:ch03"
+  ],
+  "why": "AFH 18 Basic Safety Concepts and Terrain Types weigh altitude, wind, and terrain; RMH 3 identifies the associated hazards",
+  "confidence": "medium"
+ },
+ "PA.IX.A.R2": {
+  "anchors": [
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 14 Airport Operations carries the collision avoidance and scanning discussion; RMH 3 covers identifying hazards",
+  "confidence": "low"
+ },
+ "PA.IX.A.R3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Descents specifies the configuration for the descent",
+  "confidence": "medium"
+ },
+ "PA.IX.A.R4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08",
+   "risk-management:ch06"
+  ],
+  "why": "PHAK 2 Aeronautical Decision-Making covers situational awareness; RMH 8 ADM in Flight covers in-flight distraction and task prioritization; RMH 6 Threat and Error Management",
+  "confidence": "high"
+ },
+ "PA.IX.A.S1": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "why": "AFH 3 Basic Flight Maneuvers covers clearing the area before a maneuver",
+  "confidence": "low"
+ },
+ "PA.IX.A.S2": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "why": "AFH 18 Emergency Descents gives airspeed and configuration; PHAK 9 covers using the AFM/POH emergency section",
+  "confidence": "medium"
+ },
+ "PA.IX.A.S3": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch02"
+  ],
+  "why": "AFH 18 Emergency Descents covers the recovery; PHAK 2 covers dividing attention and maintaining situational awareness",
+  "confidence": "low"
+ },
+ "PA.IX.A.S4": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch05"
+  ],
+  "why": "AFH 18 Emergency Descents prescribes the bank; PHAK 5 Aerodynamics of Flight explains load factor in a banked descent",
+  "confidence": "high"
+ },
+ "PA.IX.A.S5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Descents covers airspeed control and the level off",
+  "confidence": "medium"
+ },
+ "PA.IX.A.S6": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Procedures works from the manufacturer emergency checklist",
+  "confidence": "medium"
+ },
+ "PA.IX.A.S7": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch14"
+  ],
+  "why": "AFH 18 covers declaring the emergency; PHAK 14 covers radio communication procedure",
+  "confidence": "low"
+ },
+ "PA.IX.A.S8": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "why": "PHAK 2 Aeronautical Decision-Making defines SRM and CRM; RMH 8 applies decision making in flight",
+  "confidence": "high"
+ },
+ "PA.IX.B.K1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Landings gives the immediate action items",
+  "confidence": "high"
+ },
+ "PA.IX.B.K2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "parent heading; AFH 18 Emergency Landings is where glide airspeed is treated",
+  "confidence": "medium"
+ },
+ "PA.IX.B.K2a": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch03"
+  ],
+  "why": "AFH 18 Emergency Landings uses best glide for reach; AFH 3 Basic Flight Maneuvers defines best glide speed and glide ratio",
+  "confidence": "high"
+ },
+ "PA.IX.B.K2b": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "why": "AFH 3 Basic Flight Maneuvers distinguishes best glide speed from minimum sink speed",
+  "confidence": "high"
+ },
+ "PA.IX.B.K2c": {
+  "anchors": [
+   "afh:ch03",
+   "afh:ch18"
+  ],
+  "why": "AFH 3 covers wind effect on glide distance; AFH 18 applies it to selecting a landing area",
+  "confidence": "high"
+ },
+ "PA.IX.B.K3": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch11",
+   "phak:ch12"
+  ],
+  "why": "AFH 18 Terrain Types and Basic Safety Concepts; PHAK 11 Aircraft Performance for density altitude effects on the glide; PHAK 12 Weather Theory for wind and atmospheric conditions",
+  "confidence": "low"
+ },
+ "PA.IX.B.K4": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "why": "AFH 9 Approaches and Landings defines the stabilized approach; AFH 4 Energy Management covers altitude and airspeed control",
+  "confidence": "high"
+ },
+ "PA.IX.B.K5": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "why": "PHAK 9 carries the Emergency Locator Transmitter section, including the 91.207 inspection and battery requirements",
+  "confidence": "high"
+ },
+ "PA.IX.B.K6": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Landings covers notifying ATC and the assistance available",
+  "confidence": "low"
+ },
+ "PA.IX.B.R1": {
+  "anchors": [
+   "afh:ch18",
+   "risk-management:ch03"
+  ],
+  "why": "AFH 18 Basic Safety Concepts and Terrain Types; RMH 3 identifying hazards",
+  "confidence": "medium"
+ },
+ "PA.IX.B.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Landings covers planning and revising the flightpath to the selected area",
+  "confidence": "medium"
+ },
+ "PA.IX.B.R3": {
+  "anchors": [
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 14 Airport Operations carries the collision avoidance and scanning discussion; RMH 3 covers identifying hazards",
+  "confidence": "low"
+ },
+ "PA.IX.B.R4": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Landings covers configuring for the forced landing",
+  "confidence": "medium"
+ },
+ "PA.IX.B.R5": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch18"
+  ],
+  "why": "AFH 5 Maintaining Aircraft Control covers stall, spin, and LOC-I at low altitude; AFH 18 covers the low altitude forced landing",
+  "confidence": "high"
+ },
+ "PA.IX.B.R6": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08",
+   "risk-management:ch06"
+  ],
+  "why": "PHAK 2 Aeronautical Decision-Making covers situational awareness; RMH 8 ADM in Flight covers in-flight distraction and task prioritization; RMH 6 Threat and Error Management",
+  "confidence": "high"
+ },
+ "PA.IX.B.S1": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch03"
+  ],
+  "why": "AFH 18 Emergency Landings and AFH 3 best glide airspeed",
+  "confidence": "high"
+ },
+ "PA.IX.B.S2": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "why": "AFH 18 Emergency Landings; PHAK 9 covers the AFM/POH emergency configuration",
+  "confidence": "medium"
+ },
+ "PA.IX.B.S3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Terrain Types and Basic Safety Concepts cover selecting a landing area",
+  "confidence": "high"
+ },
+ "PA.IX.B.S4": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Landings covers planning and flying the pattern to the area",
+  "confidence": "high"
+ },
+ "PA.IX.B.S5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Landings covers the final preparation before touchdown",
+  "confidence": "medium"
+ },
+ "PA.IX.B.S6": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Procedures works from the manufacturer emergency checklist",
+  "confidence": "medium"
+ },
+ "PA.IX.C.K1": {
+  "anchors": [
+   "phak:ch07",
+   "afh:ch18"
+  ],
+  "why": "PHAK 7 Aircraft Systems covers the powerplant and its failure modes; AFH 18 Abnormal Engine Instrument Indication covers recognition",
+  "confidence": "high"
+ },
+ "PA.IX.C.K1a": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.IX.C.K1b": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.IX.C.K1c": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.IX.C.K1d": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.IX.C.K2": {
+  "anchors": [
+   "phak:ch07",
+   "afh:ch18"
+  ],
+  "why": "parent heading; PHAK 7 Aircraft Systems and AFH 18 System Malfunctions",
+  "confidence": "medium"
+ },
+ "PA.IX.C.K2a": {
+  "anchors": [
+   "phak:ch07",
+   "afh:ch18"
+  ],
+  "why": "PHAK 7 Aircraft Systems covers the electrical system; AFH 18 System Malfunctions covers the electrical failure response",
+  "confidence": "high"
+ },
+ "PA.IX.C.K2b": {
+  "anchors": [
+   "phak:ch08",
+   "phak:ch07"
+  ],
+  "why": "PHAK 8 Flight Instruments covers vacuum/pressure driven gyros and their failure signatures; PHAK 7 covers the vacuum system itself",
+  "confidence": "high"
+ },
+ "PA.IX.C.K2c": {
+  "anchors": [
+   "phak:ch08"
+  ],
+  "why": "PHAK 8 Flight Instruments covers the pitot-static system and blockage errors",
+  "confidence": "high"
+ },
+ "PA.IX.C.K2d": {
+  "anchors": [
+   "phak:ch08"
+  ],
+  "why": "PHAK 8 Flight Instruments covers electronic flight deck displays and their failure modes",
+  "confidence": "high"
+ },
+ "PA.IX.C.K2e": {
+  "anchors": [
+   "afh:ch12",
+   "phak:ch07"
+  ],
+  "why": "AFH 12 Transition to Complex Airplanes covers gear and flap malfunctions; PHAK 7 covers the landing gear and flap systems",
+  "confidence": "high"
+ },
+ "PA.IX.C.K2f": {
+  "anchors": [
+   "phak:ch06",
+   "afh:ch18"
+  ],
+  "why": "PHAK 6 Flight Controls covers trim systems; AFH 18 Flight Control Malfunction/Failure covers the runaway or inoperative trim case",
+  "confidence": "high"
+ },
+ "PA.IX.C.K3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 In-Flight Fire covers causes and the smoke and fire remedies",
+  "confidence": "high"
+ },
+ "PA.IX.C.K4": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "why": "PHAK 7 Aircraft Systems covers supplemental oxygen and deice/anti-ice systems",
+  "confidence": "high"
+ },
+ "PA.IX.C.K5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Door Opening In-Flight",
+  "confidence": "high"
+ },
+ "PA.IX.C.R1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "why": "AFH 18 System Malfunctions is checklist driven; PHAK 9 covers the AFM/POH abnormal and emergency procedures sections",
+  "confidence": "medium"
+ },
+ "PA.IX.C.R2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08",
+   "risk-management:ch06"
+  ],
+  "why": "PHAK 2 Aeronautical Decision-Making covers situational awareness; RMH 8 ADM in Flight covers in-flight distraction and task prioritization; RMH 6 Threat and Error Management",
+  "confidence": "high"
+ },
+ "PA.IX.C.R3": {
+  "anchors": [
+   "risk-management:ch06",
+   "afh:ch05"
+  ],
+  "why": "RMH 6 Threat and Error Management defines the undesired aircraft state; AFH 5 covers recovering from it",
+  "confidence": "high"
+ },
+ "PA.IX.C.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "why": "AFH 5 Maintaining Aircraft Control covers startle and surprise response",
+  "confidence": "high"
+ },
+ "PA.IX.C.S1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 System Malfunctions covers the response to each simulated failure",
+  "confidence": "high"
+ },
+ "PA.IX.C.S2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Procedures works from the manufacturer emergency checklist",
+  "confidence": "medium"
+ },
+ "PA.IX.D.K1": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "why": "PHAK 9 carries the Emergency Locator Transmitter section covering 91.207 operation, inspection, and battery limits",
+  "confidence": "high"
+ },
+ "PA.IX.D.K2": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch02"
+  ],
+  "why": "AFH 18 In-Flight Fire covers using the extinguisher before purging the cabin; PHAK 2 lists extinguisher location and operation in the passenger briefing",
+  "confidence": "high"
+ },
+ "PA.IX.D.K3": {
+  "anchors": [
+   "phak:ch02"
+  ],
+  "why": "parent heading; PHAK 2 risk checklists ask about clothing, water, and survival gear for remote and overwater legs",
+  "confidence": "medium"
+ },
+ "PA.IX.D.K3a": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 2 survival gear questions for the environment flown; RMH 3 identifying environmental hazards",
+  "confidence": "low"
+ },
+ "PA.IX.D.K3b": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 2 survival gear over remote terrain; RMH 3 identifying terrain hazards",
+  "confidence": "low"
+ },
+ "PA.IX.D.K3c": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 2 asks specifically about flight over water; RMH 3 identifying the hazard",
+  "confidence": "low"
+ },
+ "PA.IX.D.K4": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch17"
+  ],
+  "why": "AFH 18 Emergency Response Systems covers ballistic parachute deployment; AFH 17 covers the ballistic parachute as fitted to LSA",
+  "confidence": "high"
+ },
+ "PA.IX.D.K5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Response Systems covers the autoland system",
+  "confidence": "high"
+ },
+ "PA.IX.D.R1": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 2 risk checklist on clothing, water, and shelter; RMH 3 identifying the associated risk",
+  "confidence": "low"
+ },
+ "PA.IX.D.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Response Systems covers when deploying the parachute is the right choice",
+  "confidence": "high"
+ },
+ "PA.IX.D.R3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Response Systems covers autoland activation",
+  "confidence": "high"
+ },
+ "PA.IX.D.S1": {
+  "anchors": [
+   "phak:ch02"
+  ],
+  "why": "PHAK 2 risk checklists drive the equipment and personal gear selection",
+  "confidence": "low"
+ },
+ "PA.IX.D.S2": {
+  "anchors": [
+   "phak:ch02",
+   "afh:ch02"
+  ],
+  "why": "PHAK 2 gives the passenger briefing covering extinguisher, exits, and emergency gear; AFH 2 Ground Operations covers the pre-takeoff briefing",
+  "confidence": "high"
+ },
+ "PA.IX.D.S3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Emergency Response Systems covers the ballistic parachute deployment procedure",
+  "confidence": "high"
+ },
+ "PA.IX.E.K1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers the factors that affect VMC",
+  "confidence": "high"
+ },
+ "PA.IX.E.K2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Terms and Definitions covers VMC, VYSE, VXSE, and VSSE and their airspeed indicator markings",
+  "confidence": "high"
+ },
+ "PA.IX.E.K3": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "why": "AFH 13 Performance and Limitations covers accelerate/stop distance; PHAK 11 covers reading it from the performance charts",
+  "confidence": "high"
+ },
+ "PA.IX.E.R1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Rejected Takeoff covers engine failure before VMC",
+  "confidence": "high"
+ },
+ "PA.IX.E.R2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Rejected Takeoff covers the configuration during the abort",
+  "confidence": "medium"
+ },
+ "PA.IX.E.R3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08",
+   "risk-management:ch06"
+  ],
+  "why": "PHAK 2 Aeronautical Decision-Making covers situational awareness; RMH 8 ADM in Flight covers in-flight distraction and task prioritization; RMH 6 Threat and Error Management",
+  "confidence": "high"
+ },
+ "PA.IX.E.S1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Rejected Takeoff covers closing the throttles promptly",
+  "confidence": "high"
+ },
+ "PA.IX.E.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Rejected Takeoff covers directional control and braking during the abort",
+  "confidence": "high"
+ },
+ "PA.IX.F.K1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers the factors that affect VMC",
+  "confidence": "high"
+ },
+ "PA.IX.F.K2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Terms and Definitions covers VMC, VYSE, VXSE, and VSSE and their airspeed indicator markings",
+  "confidence": "high"
+ },
+ "PA.IX.F.K3": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "why": "AFH 13 Performance and Limitations covers accelerate/stop and accelerate/go; PHAK 11 covers the performance charts they come from",
+  "confidence": "high"
+ },
+ "PA.IX.F.K4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers identify, verify, feather, secure",
+  "confidence": "high"
+ },
+ "PA.IX.F.K5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers drag reduction and the zero sideslip control input",
+  "confidence": "high"
+ },
+ "PA.IX.F.K6": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Multiengine Training Considerations covers simulated feathering and zero thrust",
+  "confidence": "high"
+ },
+ "PA.IX.F.R1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Low Altitude Engine Failure Scenarios covers failure after liftoff",
+  "confidence": "high"
+ },
+ "PA.IX.F.R2": {
+  "anchors": [
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 14 Airport Operations carries the collision avoidance and scanning discussion; RMH 3 covers identifying hazards",
+  "confidence": "low"
+ },
+ "PA.IX.F.R3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers gear, flap, and propeller configuration",
+  "confidence": "high"
+ },
+ "PA.IX.F.R4": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch05"
+  ],
+  "why": "AFH 13 Spin Awareness and Stalls and Low Altitude Engine Failure Scenarios; AFH 5 covers LOC-I and stall/spin",
+  "confidence": "high"
+ },
+ "PA.IX.F.R5": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08",
+   "risk-management:ch06"
+  ],
+  "why": "PHAK 2 Aeronautical Decision-Making covers situational awareness; RMH 8 ADM in Flight covers in-flight distraction and task prioritization; RMH 6 Threat and Error Management",
+  "confidence": "high"
+ },
+ "PA.IX.F.S1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Low Altitude Engine Failure Scenarios covers recognition and control",
+  "confidence": "high"
+ },
+ "PA.IX.F.S10": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 engine-inoperative procedures are run from the emergency checklist",
+  "confidence": "medium"
+ },
+ "PA.IX.F.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 covers establishing VYSE, and VXSE when obstructions are a factor",
+  "confidence": "high"
+ },
+ "PA.IX.F.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers drag reduction by gear and flap retraction",
+  "confidence": "high"
+ },
+ "PA.IX.F.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Multiengine Training Considerations covers simulated feathering and zero thrust",
+  "confidence": "high"
+ },
+ "PA.IX.F.S5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers the zero sideslip bank and rudder combination and trim",
+  "confidence": "high"
+ },
+ "PA.IX.F.S6": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Operation of Systems covers monitoring the operating engine",
+  "confidence": "medium"
+ },
+ "PA.IX.F.S7": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Performance and Limitations covers single-engine climb capability and the decision to return or land",
+  "confidence": "high"
+ },
+ "PA.IX.F.S8": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers securing the inoperative engine",
+  "confidence": "high"
+ },
+ "PA.IX.F.S9": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers holding heading and VYSE",
+  "confidence": "medium"
+ },
+ "PA.IX.G.K1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers the factors that affect VMC",
+  "confidence": "high"
+ },
+ "PA.IX.G.K2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Terms and Definitions covers VMC, VYSE, VXSE, and VSSE and their airspeed indicator markings",
+  "confidence": "high"
+ },
+ "PA.IX.G.K3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers identify, verify, feather, secure",
+  "confidence": "high"
+ },
+ "PA.IX.G.K4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers drag reduction and zero sideslip",
+  "confidence": "high"
+ },
+ "PA.IX.G.K5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Multiengine Training Considerations covers applicant and evaluator roles during simulated feathering",
+  "confidence": "high"
+ },
+ "PA.IX.G.R1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Failure During Flight and Engine Inoperative Approach and Landing",
+  "confidence": "high"
+ },
+ "PA.IX.G.R2": {
+  "anchors": [
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 14 Airport Operations carries the collision avoidance and scanning discussion; RMH 3 covers identifying hazards",
+  "confidence": "low"
+ },
+ "PA.IX.G.R3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Approach and Landing covers configuration timing",
+  "confidence": "high"
+ },
+ "PA.IX.G.R4": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch05"
+  ],
+  "why": "AFH 13 Spin Awareness and Stalls; AFH 5 covers LOC-I in low altitude maneuvering",
+  "confidence": "high"
+ },
+ "PA.IX.G.R5": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08",
+   "risk-management:ch06"
+  ],
+  "why": "PHAK 2 Aeronautical Decision-Making covers situational awareness; RMH 8 ADM in Flight covers in-flight distraction and task prioritization; RMH 6 Threat and Error Management",
+  "confidence": "high"
+ },
+ "PA.IX.G.R6": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Go-Around covers the single-engine go-around and why it may not be available",
+  "confidence": "high"
+ },
+ "PA.IX.G.S1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Failure During Flight covers prompt recognition and control",
+  "confidence": "high"
+ },
+ "PA.IX.G.S10": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 engine-inoperative procedures are run from the emergency checklist",
+  "confidence": "medium"
+ },
+ "PA.IX.G.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers setting the controls, reducing drag, and simulated feathering",
+  "confidence": "high"
+ },
+ "PA.IX.G.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Engine Inoperative Flight Principles covers the zero sideslip control combination and trim",
+  "confidence": "high"
+ },
+ "PA.IX.G.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 engine-inoperative procedures are run from the emergency checklist",
+  "confidence": "medium"
+ },
+ "PA.IX.G.S5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "why": "AFH 13 Operation of Systems covers monitoring the operating engine",
+  "confidence": "medium"
+ },
+ "PA.IX.G.S6": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch09"
+  ],
+  "why": "AFH 13 Engine Inoperative Approach and Landing; AFH 9 defines the stabilized approach",
+  "confidence": "high"
+ },
+ "PA.IX.G.S7": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch09"
+  ],
+  "why": "AFH 13 Engine Inoperative Approach and Landing; AFH 9 covers roundout and touchdown control",
+  "confidence": "high"
+ },
+ "PA.IX.G.S8": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch09"
+  ],
+  "why": "AFH 13 Engine Inoperative Approach and Landing; AFH 9 covers touchdown point and runway alignment",
+  "confidence": "high"
+ },
+ "PA.IX.G.S9": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch09"
+  ],
+  "why": "AFH 13 Engine Inoperative Approach and Landing; AFH 9 Crosswind Approach and Landing covers drift correction",
+  "confidence": "high"
+ },
+ "PA.VIII.A.K1": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "parent heading; IFH 5 and PHAK 8 are the flight instrument chapters",
+  "confidence": "high"
+ },
+ "PA.VIII.A.K1a": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "IFH 5 Flight Instruments and PHAK 8 Flight Instruments cover instrument limitations and errors",
+  "confidence": "high"
+ },
+ "PA.VIII.A.K1b": {
+  "anchors": [
+   "ifh:ch06",
+   "phak:ch08"
+  ],
+  "why": "IFH 6 covers the attitude indicator and how control and performance instruments show attitude; PHAK 8 covers the gyroscopic instruments",
+  "confidence": "high"
+ },
+ "PA.VIII.A.K1c": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "IFH 5 and PHAK 8 cover the construction and operating principle of each instrument",
+  "confidence": "high"
+ },
+ "PA.VIII.A.K1d": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 covers cross-check, scanning techniques, and common cross-check errors",
+  "confidence": "high"
+ },
+ "PA.VIII.A.R1": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch17"
+  ],
+  "why": "IFH 3 Human Factors and PHAK 17 Aeromedical Factors cover spatial disorientation, fatigue, and stress",
+  "confidence": "high"
+ },
+ "PA.VIII.A.R2": {
+  "anchors": [
+   "ifh:ch11"
+  ],
+  "why": "IFH 11 Emergency Operations covers recognizing a deteriorating situation and getting help",
+  "confidence": "low"
+ },
+ "PA.VIII.A.R3": {
+  "anchors": [
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 14 Airport Operations carries the collision avoidance and scanning discussion; RMH 3 covers identifying hazards",
+  "confidence": "low"
+ },
+ "PA.VIII.A.R4": {
+  "anchors": [
+   "ifh:ch03",
+   "risk-management:ch08"
+  ],
+  "why": "IFH 3 Human Factors covers disorientation and attention management; RMH 8 ADM in Flight covers distraction and task prioritization",
+  "confidence": "high"
+ },
+ "PA.VIII.A.R5": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 Common Cross-Check Errors names fixation, omission, and emphasis",
+  "confidence": "high"
+ },
+ "PA.VIII.A.R6": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 fundamental skills are cross-check, instrument interpretation, and aircraft control",
+  "confidence": "high"
+ },
+ "PA.VIII.A.R7": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "IFH 6 covers pitch, bank, and power control by instrument reference; IFH 7 applies it to the basic maneuvers",
+  "confidence": "high"
+ },
+ "PA.VIII.A.R8": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "IFH 6 Trim Control and Airplane Trim; IFH 7 covers trimming through the basic maneuvers",
+  "confidence": "high"
+ },
+ "PA.VIII.A.S1": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch06"
+  ],
+  "why": "IFH 7 Straight-and-Level Flight; IFH 6 supplies the cross-check and interpretation",
+  "confidence": "high"
+ },
+ "PA.VIII.A.S2": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "why": "IFH 7 Straight-and-Level Flight covers holding altitude, heading, and airspeed",
+  "confidence": "high"
+ },
+ "PA.VIII.B.K1": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "parent heading; IFH 5 and PHAK 8 are the flight instrument chapters",
+  "confidence": "high"
+ },
+ "PA.VIII.B.K1a": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "IFH 5 Flight Instruments and PHAK 8 Flight Instruments cover instrument limitations and errors",
+  "confidence": "high"
+ },
+ "PA.VIII.B.K1b": {
+  "anchors": [
+   "ifh:ch06",
+   "phak:ch08"
+  ],
+  "why": "IFH 6 covers the attitude indicator and how control and performance instruments show attitude; PHAK 8 covers the gyroscopic instruments",
+  "confidence": "high"
+ },
+ "PA.VIII.B.K1c": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "IFH 5 and PHAK 8 cover the construction and operating principle of each instrument",
+  "confidence": "high"
+ },
+ "PA.VIII.B.K1d": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 covers cross-check, scanning techniques, and common cross-check errors",
+  "confidence": "high"
+ },
+ "PA.VIII.B.R1": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch17"
+  ],
+  "why": "IFH 3 Human Factors and PHAK 17 Aeromedical Factors cover spatial disorientation, fatigue, and stress",
+  "confidence": "high"
+ },
+ "PA.VIII.B.R2": {
+  "anchors": [
+   "ifh:ch11"
+  ],
+  "why": "IFH 11 Emergency Operations covers recognizing a deteriorating situation and getting help",
+  "confidence": "low"
+ },
+ "PA.VIII.B.R3": {
+  "anchors": [
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 14 Airport Operations carries the collision avoidance and scanning discussion; RMH 3 covers identifying hazards",
+  "confidence": "low"
+ },
+ "PA.VIII.B.R4": {
+  "anchors": [
+   "ifh:ch03",
+   "risk-management:ch08"
+  ],
+  "why": "IFH 3 Human Factors covers disorientation and attention management; RMH 8 ADM in Flight covers distraction and task prioritization",
+  "confidence": "high"
+ },
+ "PA.VIII.B.R5": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 Common Cross-Check Errors names fixation, omission, and emphasis",
+  "confidence": "high"
+ },
+ "PA.VIII.B.R6": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 fundamental skills are cross-check, instrument interpretation, and aircraft control",
+  "confidence": "high"
+ },
+ "PA.VIII.B.R7": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "IFH 6 covers pitch, bank, and power control by instrument reference; IFH 7 applies it to the basic maneuvers",
+  "confidence": "high"
+ },
+ "PA.VIII.B.R8": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "IFH 6 Trim Control and Airplane Trim; IFH 7 covers trimming through the basic maneuvers",
+  "confidence": "high"
+ },
+ "PA.VIII.B.S1": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch06"
+  ],
+  "why": "IFH 7 covers entering the climb with pitch and power on a heading; IFH 6 supplies the cross-check",
+  "confidence": "high"
+ },
+ "PA.VIII.B.S2": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "why": "IFH 7 Straight Climbs and Descents and Constant Airspeed Climb",
+  "confidence": "high"
+ },
+ "PA.VIII.B.S3": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "why": "IFH 7 Leveling Off covers the level off and holding the assigned altitude",
+  "confidence": "high"
+ },
+ "PA.VIII.C.K1": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "parent heading; IFH 5 and PHAK 8 are the flight instrument chapters",
+  "confidence": "high"
+ },
+ "PA.VIII.C.K1a": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "IFH 5 Flight Instruments and PHAK 8 Flight Instruments cover instrument limitations and errors",
+  "confidence": "high"
+ },
+ "PA.VIII.C.K1b": {
+  "anchors": [
+   "ifh:ch06",
+   "phak:ch08"
+  ],
+  "why": "IFH 6 covers the attitude indicator and how control and performance instruments show attitude; PHAK 8 covers the gyroscopic instruments",
+  "confidence": "high"
+ },
+ "PA.VIII.C.K1c": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "IFH 5 and PHAK 8 cover the construction and operating principle of each instrument",
+  "confidence": "high"
+ },
+ "PA.VIII.C.K1d": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 covers cross-check, scanning techniques, and common cross-check errors",
+  "confidence": "high"
+ },
+ "PA.VIII.C.R1": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch17"
+  ],
+  "why": "IFH 3 Human Factors and PHAK 17 Aeromedical Factors cover spatial disorientation, fatigue, and stress",
+  "confidence": "high"
+ },
+ "PA.VIII.C.R2": {
+  "anchors": [
+   "ifh:ch11"
+  ],
+  "why": "IFH 11 Emergency Operations covers recognizing a deteriorating situation and getting help",
+  "confidence": "low"
+ },
+ "PA.VIII.C.R3": {
+  "anchors": [
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 14 Airport Operations carries the collision avoidance and scanning discussion; RMH 3 covers identifying hazards",
+  "confidence": "low"
+ },
+ "PA.VIII.C.R4": {
+  "anchors": [
+   "ifh:ch03",
+   "risk-management:ch08"
+  ],
+  "why": "IFH 3 Human Factors covers disorientation and attention management; RMH 8 ADM in Flight covers distraction and task prioritization",
+  "confidence": "high"
+ },
+ "PA.VIII.C.R5": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 Common Cross-Check Errors names fixation, omission, and emphasis",
+  "confidence": "high"
+ },
+ "PA.VIII.C.R6": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 fundamental skills are cross-check, instrument interpretation, and aircraft control",
+  "confidence": "high"
+ },
+ "PA.VIII.C.R7": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "IFH 6 covers pitch, bank, and power control by instrument reference; IFH 7 applies it to the basic maneuvers",
+  "confidence": "high"
+ },
+ "PA.VIII.C.R8": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "IFH 6 Trim Control and Airplane Trim; IFH 7 covers trimming through the basic maneuvers",
+  "confidence": "high"
+ },
+ "PA.VIII.C.S1": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch06"
+  ],
+  "why": "IFH 7 covers entering the descent with pitch and power on a heading; IFH 6 supplies the cross-check",
+  "confidence": "high"
+ },
+ "PA.VIII.C.S2": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "why": "IFH 7 Straight Climbs and Descents covers constant airspeed descents",
+  "confidence": "high"
+ },
+ "PA.VIII.C.S3": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "why": "IFH 7 Leveling Off",
+  "confidence": "high"
+ },
+ "PA.VIII.D.K1": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "parent heading; IFH 5 and PHAK 8 are the flight instrument chapters",
+  "confidence": "high"
+ },
+ "PA.VIII.D.K1a": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "IFH 5 Flight Instruments and PHAK 8 Flight Instruments cover instrument limitations and errors",
+  "confidence": "high"
+ },
+ "PA.VIII.D.K1b": {
+  "anchors": [
+   "ifh:ch06",
+   "phak:ch08"
+  ],
+  "why": "IFH 6 covers the attitude indicator and how control and performance instruments show attitude; PHAK 8 covers the gyroscopic instruments",
+  "confidence": "high"
+ },
+ "PA.VIII.D.K1c": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "why": "IFH 5 and PHAK 8 cover the construction and operating principle of each instrument",
+  "confidence": "high"
+ },
+ "PA.VIII.D.K1d": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 covers cross-check, scanning techniques, and common cross-check errors",
+  "confidence": "high"
+ },
+ "PA.VIII.D.R1": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch17"
+  ],
+  "why": "IFH 3 Human Factors and PHAK 17 Aeromedical Factors cover spatial disorientation, fatigue, and stress",
+  "confidence": "high"
+ },
+ "PA.VIII.D.R2": {
+  "anchors": [
+   "ifh:ch11"
+  ],
+  "why": "IFH 11 Emergency Operations covers recognizing a deteriorating situation and getting help",
+  "confidence": "low"
+ },
+ "PA.VIII.D.R3": {
+  "anchors": [
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 14 Airport Operations carries the collision avoidance and scanning discussion; RMH 3 covers identifying hazards",
+  "confidence": "low"
+ },
+ "PA.VIII.D.R4": {
+  "anchors": [
+   "ifh:ch03",
+   "risk-management:ch08"
+  ],
+  "why": "IFH 3 Human Factors covers disorientation and attention management; RMH 8 ADM in Flight covers distraction and task prioritization",
+  "confidence": "high"
+ },
+ "PA.VIII.D.R5": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 Common Cross-Check Errors names fixation, omission, and emphasis",
+  "confidence": "high"
+ },
+ "PA.VIII.D.R6": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 fundamental skills are cross-check, instrument interpretation, and aircraft control",
+  "confidence": "high"
+ },
+ "PA.VIII.D.R7": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "IFH 6 covers pitch, bank, and power control by instrument reference; IFH 7 applies it to the basic maneuvers",
+  "confidence": "high"
+ },
+ "PA.VIII.D.R8": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "IFH 6 Trim Control and Airplane Trim; IFH 7 covers trimming through the basic maneuvers",
+  "confidence": "high"
+ },
+ "PA.VIII.D.S1": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "why": "IFH 7 Establishing A Standard Rate Turn and the turn indicators used to roll out on a heading",
+  "confidence": "high"
+ },
+ "PA.VIII.E.K1": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch03"
+  ],
+  "why": "AFH 5 Maintaining Aircraft Control covers upset prevention and its causal factors; IFH 3 Human Factors covers the physiological ones",
+  "confidence": "high"
+ },
+ "PA.VIII.E.K1a": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.VIII.E.K1b": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.VIII.E.K1c": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.VIII.E.K1d": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.VIII.E.K2": {
+  "anchors": [
+   "ifh:ch07",
+   "afh:ch05"
+  ],
+  "why": "IFH 7 Unusual Attitudes and Recoveries gives the instrument recovery procedure; AFH 5 covers upset recovery",
+  "confidence": "high"
+ },
+ "PA.VIII.E.K3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "why": "AFH 18 Inadvertent VFR Flight Into IMC covers regaining VMC",
+  "confidence": "high"
+ },
+ "PA.VIII.E.K4": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "why": "RMH 7 Automation and Flight Path Management",
+  "confidence": "high"
+ },
+ "PA.VIII.E.R1": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch03"
+  ],
+  "why": "AFH 5 covers the situations that lead to LOC-I; IFH 3 Human Factors covers task saturation and spatial disorientation",
+  "confidence": "high"
+ },
+ "PA.VIII.E.R10": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "IFH 6 aircraft control by instrument reference; IFH 7 Unusual Attitude Recovery Protection",
+  "confidence": "high"
+ },
+ "PA.VIII.E.R2": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.VIII.E.R3": {
+  "anchors": [
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK 14 Airport Operations carries the collision avoidance and scanning discussion; RMH 3 covers identifying hazards",
+  "confidence": "low"
+ },
+ "PA.VIII.E.R4": {
+  "anchors": [
+   "ifh:ch03",
+   "risk-management:ch08"
+  ],
+  "why": "IFH 3 Human Factors covers disorientation and attention management; RMH 8 ADM in Flight covers distraction and task prioritization",
+  "confidence": "high"
+ },
+ "PA.VIII.E.R5": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "why": "IFH 6 instrument interpretation and scanning technique",
+  "confidence": "high"
+ },
+ "PA.VIII.E.R6": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ },
+ "PA.VIII.E.R7": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "why": "AFH 5 covers the operating envelope and exceeding it; PHAK 5 Aerodynamics of Flight covers load factor and the Vg diagram",
+  "confidence": "high"
+ },
+ "PA.VIII.E.R8": {
+  "anchors": [
+   "ifh:ch07",
+   "afh:ch05"
+  ],
+  "why": "IFH 7 Common Errors Leading to Unusual Attitudes; AFH 5 covers control input errors during recovery",
+  "confidence": "high"
+ },
+ "PA.VIII.E.R9": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "why": "IFH 7 Unusual Attitudes and Recoveries covers distinguishing nose-high from nose-low",
+  "confidence": "high"
+ },
+ "PA.VIII.E.S1": {
+  "anchors": [
+   "ifh:ch07",
+   "afh:ch05"
+  ],
+  "why": "IFH 7 Unusual Attitudes and Recoveries gives the nose-high and nose-low control and power sequence; AFH 5 covers the recovery",
+  "confidence": "high"
+ },
+ "PA.VIII.E.S2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "why": "PHAK 2 Aeronautical Decision-Making defines SRM and CRM; RMH 8 applies decision making in flight",
+  "confidence": "high"
+ },
+ "PA.VIII.F.K1": {
+  "anchors": [
+   "ifh:ch02",
+   "phak:ch14"
+  ],
+  "why": "IFH 2 The Air Traffic Control System covers requesting and following instructions; PHAK 14 covers radio procedure and frequency selection",
+  "confidence": "high"
+ },
+ "PA.VIII.F.K2": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "why": "IFH 9 Navigation Systems covers the equipment and its displays; PHAK 16 Navigation covers following bearings, radials, and courses",
+  "confidence": "high"
+ },
+ "PA.VIII.F.K3": {
+  "anchors": [
+   "ifh:ch02",
+   "ifh:ch01"
+  ],
+  "why": "IFH 2 The Air Traffic Control System and IFH 1 The National Airspace System cover the facilities and the services they provide",
+  "confidence": "high"
+ },
+ "PA.VIII.F.R1": {
+  "anchors": [
+   "ifh:ch11"
+  ],
+  "why": "IFH 11 Emergency Operations covers recognizing a deteriorating situation and getting help",
+  "confidence": "low"
+ },
+ "PA.VIII.F.R2": {
+  "anchors": [
+   "risk-management:ch07",
+   "phak:ch02"
+  ],
+  "why": "RMH 7 Automation and Flight Path Management; PHAK 2 covers using all available resources as part of SRM",
+  "confidence": "high"
+ },
+ "PA.VIII.F.S1": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch09"
+  ],
+  "why": "IFH 6 fundamental skills cover dividing attention while holding control; IFH 9 covers managing the navigation equipment",
+  "confidence": "medium"
+ },
+ "PA.VIII.F.S2": {
+  "anchors": [
+   "ifh:ch02"
+  ],
+  "why": "IFH 2 The Air Traffic Control System covers complying with clearances and instructions",
+  "confidence": "medium"
+ },
+ "PA.VIII.F.S3": {
+  "anchors": [],
+  "why": "element is archived, no chapter applies",
+  "confidence": "high"
+ }
+}

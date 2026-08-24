@@ -352,6 +352,17 @@ def button_label(ref):
     lead = LEADING_NUMBER.match(tail)
     if lead:
         return "%s c%s" % (base, lead.group(1).lstrip("0") or "0")
+
+    # A topic anchor, which is how the seaplane handbook is anchored because
+    # it has no outline. Falling through to the bare handbook number gave all
+    # 33 of its anchors the same chip, so that chip's destination was
+    # arbitrary. The topic is the FAA's own section heading, so naming the
+    # chip after it invents nothing. These run wider than a chapter label and
+    # will often overflow the inline buttons, which is what the crosswalk page
+    # is for.
+    words = [w for w in tail.replace("_", "-").split("-") if w]
+    if words:
+        return " ".join(w.capitalize() for w in words)
     return base
 
 

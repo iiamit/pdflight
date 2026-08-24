@@ -77,15 +77,36 @@ def load_rows(certificate, root=CROSSWALK):
 
 
 def load_proposals(directory):
-    out = {}
-    for name, certificate in PROPOSALS.items():
-        path = pathlib.Path(directory) / ("%s.result.json" % name)
-        if not path.is_file():
-            continue
-        with io.open(path, encoding="utf-8") as handle:
-            out[name] = (certificate, json.load(handle))
-    return out
+    """Find each packet's result file.
 
+    Proposals live under `crosswalk/proposals/`, split by which pass produced
+    them, because the two passes reused the same packet names and a flat copy
+    silently overwrote the CFR results for instrument-a and instrument-b with
+    the handbook ones. The combined Commercial, ATP and CFI packets carry both
+    `sections` and `anchors` in one file, so both tools read both directories.
+    """
+    root = pathlib.Path(directory)
+    places = [root, root / "cfr", root / "handbook"]
+    out = {}
+    for name, certificate in sorted(PROPOSALS.items()):
+        for place in places:
+            path = place / ("%s.result.json" % name)
+            if not path.is_file():
+                continue
+            with io.open(path, encoding="utf-8") as handle:
+                try:
+                    payload = json.load(handle)
+                except ValueError as error:
+                    payload = {"__error__": str(error)}
+            if name in out:
+                # A later directory only supplements; it never replaces.
+                merged = dict(out[name][1])
+                for code, entry in payload.items():
+                    merged.setdefault(code, {}).update(entry)
+                out[name] = (certificate, merged)
+            else:
+                out[name] = (certificate, payload)
+    return out
 
 def validate(proposals, inventory, rows_by_cert):
     """Return (accepted, report). Nothing invalid survives."""

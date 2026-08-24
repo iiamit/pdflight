@@ -1,0 +1,587 @@
+{
+  "PA.X.A.K1": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH chapter 13 Transition to Multiengine Airplanes is the only chapter that develops the factors affecting VMC",
+    "confidence": "high"
+  },
+  "PA.X.A.K2": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 defines the multiengine V-speeds including VMC red line and VYSE blue line",
+    "confidence": "high"
+  },
+  "PA.X.A.K3": {
+    "anchors": ["afh:ch13", "afh:ch18"],
+    "why": "chapter 13 gives the identify, verify, feather, secure sequence; chapter 18 Emergency Procedures covers powerplant failure generally",
+    "confidence": "high"
+  },
+  "PA.X.A.K4": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers drag reduction, propeller feathering and the zero sideslip bank and rudder combination",
+    "confidence": "high"
+  },
+  "PA.X.A.K5": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers feathering, securing, unfeathering and airstart of the inoperative engine",
+    "confidence": "high"
+  },
+  "PA.X.A.R1": {
+    "anchors": ["afh:ch13", "afh:ch18"],
+    "why": "engine failure in cruise for a twin is chapter 13; chapter 18 treats powerplant failure risk",
+    "confidence": "medium"
+  },
+  "PA.X.A.R2": {
+    "anchors": ["phak:ch14"],
+    "why": "PHAK chapter 14 Airport Operations carries the collision avoidance and see-and-avoid scanning material",
+    "confidence": "low"
+  },
+  "PA.X.A.R3": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers engine-inoperative configuration, gear, flaps and cowl flaps",
+    "confidence": "medium"
+  },
+  "PA.X.A.R4": {
+    "anchors": ["afh:ch05", "afh:ch13"],
+    "why": "chapter 5 Upset Prevention and Recovery Training covers stall and spin awareness; chapter 13 covers low altitude engine-out control loss",
+    "confidence": "medium"
+  },
+  "PA.X.A.R5": {
+    "anchors": ["phak:ch02", "risk-management:ch06"],
+    "why": "PHAK chapter 2 ADM covers situational awareness, task management and distraction; RMH chapter 6 Threat and Error Management covers error trapping",
+    "confidence": "medium"
+  },
+  "PA.X.A.S1": {
+    "anchors": ["afh:ch13", "afh:ch18"],
+    "why": "chapter 13 gives the engine failure recognition and control sequence; chapter 18 gives emergency procedure discipline",
+    "confidence": "high"
+  },
+  "PA.X.A.S2": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 details setting engine controls, identify and verify, and feathering the correct propeller",
+    "confidence": "high"
+  },
+  "PA.X.A.S3": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers the bank plus rudder combination for zero sideslip and best engine-out performance",
+    "confidence": "high"
+  },
+  "PA.X.A.S4": {
+    "anchors": ["afh:ch13", "afh:ch18"],
+    "why": "troubleshooting the cause of powerplant failure is in chapter 13 for twins and chapter 18 generally",
+    "confidence": "medium"
+  },
+  "PA.X.A.S5": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers securing the failed engine and monitoring the operating engine",
+    "confidence": "high"
+  },
+  "PA.X.A.S6": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers unfeathering and engine restart procedures",
+    "confidence": "medium"
+  },
+  "PA.X.A.S7": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers holding altitude, airspeed and heading on one engine; the tolerance itself is an ACS value",
+    "confidence": "low"
+  },
+  "PA.X.A.S8": {
+    "anchors": [],
+    "why": "checklist completion is a generic skill with no chapter more right than the whole handbook",
+    "confidence": "high"
+  },
+  "PA.X.B.K1": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 contrasts VMC with stall speed and lists the certification factors that set VMC",
+    "confidence": "high"
+  },
+  "PA.X.B.K2": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 defines VMC, VYSE and VSSE and their markings",
+    "confidence": "high"
+  },
+  "PA.X.B.K3": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 explains asymmetric thrust and rudder authority as the cause of directional control loss below VMC",
+    "confidence": "high"
+  },
+  "PA.X.B.K4": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 contains the VMC demonstration entry and recovery procedure",
+    "confidence": "high"
+  },
+  "PA.X.B.R1": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 specifies the configuration required for the VMC demonstration",
+    "confidence": "medium"
+  },
+  "PA.X.B.R2": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers engine-inoperative maneuvering hazards",
+    "confidence": "high"
+  },
+  "PA.X.B.R3": {
+    "anchors": ["phak:ch02", "risk-management:ch06"],
+    "why": "PHAK chapter 2 ADM covers situational awareness and task prioritization; RMH chapter 6 covers threat and error management",
+    "confidence": "medium"
+  },
+  "PA.X.B.S1": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 lists the VMC demonstration setup configuration",
+    "confidence": "high"
+  },
+  "PA.X.B.S1a": {
+    "anchors": ["afh:ch13"],
+    "why": "the gear-retracted item of the VMC demonstration setup is in chapter 13",
+    "confidence": "medium"
+  },
+  "PA.X.B.S1b": {
+    "anchors": ["afh:ch13"],
+    "why": "the takeoff flap item of the VMC demonstration setup is in chapter 13",
+    "confidence": "medium"
+  },
+  "PA.X.B.S1c": {
+    "anchors": ["afh:ch13"],
+    "why": "the cowl flap item of the VMC demonstration setup is in chapter 13",
+    "confidence": "medium"
+  },
+  "PA.X.B.S1d": {
+    "anchors": ["afh:ch13"],
+    "why": "the takeoff trim item of the VMC demonstration setup is in chapter 13",
+    "confidence": "medium"
+  },
+  "PA.X.B.S1e": {
+    "anchors": ["afh:ch13"],
+    "why": "the high rpm propeller item of the VMC demonstration setup is in chapter 13",
+    "confidence": "medium"
+  },
+  "PA.X.B.S1f": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 explains reducing the critical engine to idle with the propeller windmilling for the demonstration",
+    "confidence": "medium"
+  },
+  "PA.X.B.S1g": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 specifies maximum available power on the operating engine for the demonstration",
+    "confidence": "medium"
+  },
+  "PA.X.B.S2": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 gives the single-engine climb attitude and entry speed near VSSE",
+    "confidence": "high"
+  },
+  "PA.X.B.S3": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 explains the 5 degree bank toward the operating engine",
+    "confidence": "high"
+  },
+  "PA.X.B.S4": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 gives the one knot per second deceleration with increasing rudder during the VMC demonstration",
+    "confidence": "high"
+  },
+  "PA.X.B.S5": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 gives the recovery cues, first loss of directional control, stall warning or buffet",
+    "confidence": "high"
+  },
+  "PA.X.B.S6": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 gives the simultaneous power reduction and angle of attack decrease recovery",
+    "confidence": "high"
+  },
+  "PA.X.B.S7": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers heading control through the VMC demonstration recovery",
+    "confidence": "low"
+  },
+  "PA.X.B.S8": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers reapplying power and accelerating to VSSE or VYSE after recovery",
+    "confidence": "high"
+  },
+  "PA.X.C.K1": {
+    "anchors": ["afh:ch13", "ifh:ch11"],
+    "why": "chapter 13 gives the engine failure procedure for twins; IFH chapter 11 Emergency Operations covers engine failure while flying by reference to instruments",
+    "confidence": "medium"
+  },
+  "PA.X.C.R1": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers misidentification of the failed engine and the verify step",
+    "confidence": "high"
+  },
+  "PA.X.C.R2": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers single-engine service ceiling and drift-down performance",
+    "confidence": "high"
+  },
+  "PA.X.C.R3": {
+    "anchors": ["afh:ch05", "afh:ch13"],
+    "why": "chapter 5 covers stall and spin upset prevention; chapter 13 covers low altitude engine-out control loss",
+    "confidence": "medium"
+  },
+  "PA.X.C.R4": {
+    "anchors": ["phak:ch02", "risk-management:ch06"],
+    "why": "PHAK chapter 2 ADM covers situational awareness and task management; RMH chapter 6 covers threat and error management",
+    "confidence": "medium"
+  },
+  "PA.X.C.R5": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers crossfeed and fuel management with an engine inoperative",
+    "confidence": "medium"
+  },
+  "PA.X.C.S1": {
+    "anchors": ["afh:ch13", "afh:ch18"],
+    "why": "chapter 13 gives engine failure recognition for twins; chapter 18 gives the aircraft control priority",
+    "confidence": "medium"
+  },
+  "PA.X.C.S10": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers the engine-inoperative operating limitations and loss of control avoidance",
+    "confidence": "medium"
+  },
+  "PA.X.C.S11": {
+    "anchors": ["phak:ch02", "risk-management:ch06"],
+    "why": "PHAK chapter 2 ADM defines single-pilot resource management; RMH chapter 6 covers crew threat and error management",
+    "confidence": "medium"
+  },
+  "PA.X.C.S2": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 gives set controls, reduce drag, identify, verify and feather or simulate zero thrust",
+    "confidence": "high"
+  },
+  "PA.X.C.S3": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 establishes VYSE as the best engine-inoperative airspeed and covers trimming",
+    "confidence": "high"
+  },
+  "PA.X.C.S4": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers the bank and rudder combination for zero sideslip",
+    "confidence": "high"
+  },
+  "PA.X.C.S5": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers the securing sequence verified against the checklist",
+    "confidence": "medium"
+  },
+  "PA.X.C.S6": {
+    "anchors": ["afh:ch13", "afh:ch18"],
+    "why": "cause troubleshooting for powerplant failure is in chapter 13 for twins and chapter 18 generally",
+    "confidence": "medium"
+  },
+  "PA.X.C.S7": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers monitoring the operating engine and making power and cooling adjustments",
+    "confidence": "medium"
+  },
+  "PA.X.C.S8": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers holding altitude, airspeed and heading on one engine; the tolerance is an ACS value",
+    "confidence": "low"
+  },
+  "PA.X.C.S9": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers assessing single-engine performance capability and choosing a landing site",
+    "confidence": "medium"
+  },
+  "PA.X.D.K1": {
+    "anchors": ["afh:ch13", "ifh:ch10"],
+    "why": "chapter 13 covers the engine-inoperative approach; IFH chapter 10 IFR Flight covers instrument approach procedures",
+    "confidence": "medium"
+  },
+  "PA.X.D.R1": {
+    "anchors": ["afh:ch13", "afh:ch09"],
+    "why": "chapter 13 covers engine failure on approach for twins; chapter 9 Approaches and Landings covers the approach and landing phase",
+    "confidence": "medium"
+  },
+  "PA.X.D.R2": {
+    "anchors": ["phak:ch14"],
+    "why": "PHAK chapter 14 Airport Operations carries collision avoidance and traffic pattern conflict material",
+    "confidence": "low"
+  },
+  "PA.X.D.R3": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers engine-inoperative approach configuration and the drag penalty of early gear and flap extension",
+    "confidence": "medium"
+  },
+  "PA.X.D.R4": {
+    "anchors": ["afh:ch05", "afh:ch13"],
+    "why": "chapter 5 covers stall and spin upset prevention; chapter 13 covers low altitude engine-out control loss",
+    "confidence": "medium"
+  },
+  "PA.X.D.R5": {
+    "anchors": ["phak:ch02", "risk-management:ch06"],
+    "why": "PHAK chapter 2 ADM covers situational awareness and task prioritization; RMH chapter 6 covers threat and error management",
+    "confidence": "medium"
+  },
+  "PA.X.D.R6": {
+    "anchors": ["afh:ch13", "afh:ch09"],
+    "why": "chapter 13 covers the single-engine go-around decision; chapter 9 covers the go-around and rejected landing",
+    "confidence": "medium"
+  },
+  "PA.X.D.S1": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 gives engine failure recognition and aircraft control priority for twins",
+    "confidence": "medium"
+  },
+  "PA.X.D.S10": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers engine-inoperative operating limitations and loss of control avoidance",
+    "confidence": "medium"
+  },
+  "PA.X.D.S11": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH chapter 10 IFR Flight covers aircraft approach categories and circling minimums",
+    "confidence": "medium"
+  },
+  "PA.X.D.S12": {
+    "anchors": ["afh:ch09", "afh:ch13"],
+    "why": "chapter 9 Approaches and Landings covers the landing; chapter 13 covers the single-engine landing",
+    "confidence": "medium"
+  },
+  "PA.X.D.S13": {
+    "anchors": [],
+    "why": "checklist completion is a generic skill with no chapter more right than the whole handbook",
+    "confidence": "high"
+  },
+  "PA.X.D.S2": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 gives set controls, reduce drag, identify, verify and simulate feathering with zero thrust",
+    "confidence": "high"
+  },
+  "PA.X.D.S3": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers the bank and rudder combination for zero sideslip and trimming",
+    "confidence": "high"
+  },
+  "PA.X.D.S4": {
+    "anchors": ["afh:ch13", "afh:ch18"],
+    "why": "chapter 13 gives the twin engine-out procedure; chapter 18 covers emergency procedure and checklist discipline",
+    "confidence": "medium"
+  },
+  "PA.X.D.S5": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers monitoring the operating engine and systems during single-engine flight",
+    "confidence": "medium"
+  },
+  "PA.X.D.S6": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH chapter 10 IFR Flight covers requesting and complying with an approach clearance",
+    "confidence": "medium"
+  },
+  "PA.X.D.S7": {
+    "anchors": ["afh:ch13"],
+    "why": "chapter 13 covers holding altitude, airspeed and heading on one engine; the tolerance is an ACS value",
+    "confidence": "low"
+  },
+  "PA.X.D.S8": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH chapter 10 covers descent planning to MDA or DA/DH and the position needed for a normal landing",
+    "confidence": "medium"
+  },
+  "PA.X.D.S9": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH chapter 10 covers final approach segment course and glidepath tracking tolerances",
+    "confidence": "medium"
+  },
+  "PA.XI.A.K1": {
+    "anchors": ["phak:ch17", "afh:ch11", "aim:ch08-s01"],
+    "why": "PHAK chapter 17 Aeromedical Factors and AIM 8-1 Fitness for Flight cover rods, cones and dark adaptation; AFH chapter 11 Night Operations applies it",
+    "confidence": "high"
+  },
+  "PA.XI.A.K2": {
+    "anchors": ["aim:ch02-s01", "aim:ch02-s02", "afh:ch11"],
+    "why": "AIM 2-1 Airport Lighting Aids covers runway, taxiway and pilot controlled lighting; AIM 2-2 covers obstruction lighting; AFH chapter 11 summarizes airport lighting for night flight",
+    "confidence": "high"
+  },
+  "PA.XI.A.K3": {
+    "anchors": ["afh:ch11"],
+    "why": "AFH chapter 11 Night Operations lists the airplane lighting and equipment needed for night flight",
+    "confidence": "medium"
+  },
+  "PA.XI.A.K4": {
+    "anchors": ["afh:ch11"],
+    "why": "AFH chapter 11 covers flashlights and other personal equipment for night flight",
+    "confidence": "high"
+  },
+  "PA.XI.A.K5": {
+    "anchors": ["afh:ch11", "phak:ch17"],
+    "why": "AFH chapter 11 covers night orientation, chart reading and preserving night vision; PHAK chapter 17 covers the underlying night vision physiology",
+    "confidence": "medium"
+  },
+  "PA.XI.A.K6": {
+    "anchors": ["afh:ch11", "aim:ch04-s03"],
+    "why": "AFH chapter 11 covers night taxi technique; AIM 4-3 Airport Operations covers taxi procedures and clearances",
+    "confidence": "medium"
+  },
+  "PA.XI.A.K7": {
+    "anchors": ["afh:ch11"],
+    "why": "AFH chapter 11 explains reading traffic position and direction from position and anticollision lights",
+    "confidence": "high"
+  },
+  "PA.XI.A.K8": {
+    "anchors": ["phak:ch17", "afh:ch11"],
+    "why": "PHAK chapter 17 covers visual illusions and spatial disorientation; AFH chapter 11 covers the night specific illusions",
+    "confidence": "high"
+  },
+  "PA.XI.A.R1": {
+    "anchors": ["afh:ch11", "phak:ch14"],
+    "why": "AFH chapter 11 covers night collision avoidance and scanning; PHAK chapter 14 Airport Operations covers see and avoid",
+    "confidence": "medium"
+  },
+  "PA.XI.A.R2": {
+    "anchors": ["phak:ch02", "risk-management:ch06"],
+    "why": "PHAK chapter 2 ADM covers situational awareness and task prioritization; RMH chapter 6 covers threat and error management",
+    "confidence": "medium"
+  },
+  "PA.XI.A.R3": {
+    "anchors": ["phak:ch17", "afh:ch11"],
+    "why": "PHAK chapter 17 covers illusions and dark adaptation; AFH chapter 11 covers their effect across the phases of a night flight",
+    "confidence": "high"
+  },
+  "PA.XI.A.R4": {
+    "anchors": ["phak:ch14", "aim:ch04-s03"],
+    "why": "PHAK chapter 14 Airport Operations covers runway incursion avoidance; AIM 4-3 covers airport surface operations and hold short procedures",
+    "confidence": "medium"
+  },
+  "PA.XI.A.R5": {
+    "anchors": ["risk-management:ch02"],
+    "why": "RMH chapter 2 Personal Minimums covers setting limits beyond bare regulatory currency",
+    "confidence": "low"
+  },
+  "PA.XI.A.R6": {
+    "anchors": ["afh:ch11"],
+    "why": "AFH chapter 11 covers night weather considerations such as unseen cloud and deteriorating visibility",
+    "confidence": "low"
+  },
+  "PA.XI.A.R7": {
+    "anchors": ["phak:ch09"],
+    "why": "PHAK chapter 9 Flight Manuals and Other Documents covers inoperative equipment and the minimum equipment list",
+    "confidence": "medium"
+  },
+  "PA.XII.A.K1": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 Ground Operations covers engine shutdown, parking, securing and postflight inspection",
+    "confidence": "high"
+  },
+  "PA.XII.A.K2": {
+    "anchors": ["afh:ch02", "phak:ch09"],
+    "why": "AFH chapter 2 covers noting discrepancies at postflight; PHAK chapter 9 covers maintenance records and required documents",
+    "confidence": "medium"
+  },
+  "PA.XII.A.R1": {
+    "anchors": ["phak:ch02"],
+    "why": "PHAK chapter 2 ADM covers distraction and task management on the ground as well as in flight",
+    "confidence": "low"
+  },
+  "PA.XII.A.R2": {
+    "anchors": [],
+    "why": "archived element with no text to map",
+    "confidence": "high"
+  },
+  "PA.XII.A.R3": {
+    "anchors": [],
+    "why": "airport specific security procedures are local and not covered by any cited handbook chapter",
+    "confidence": "high"
+  },
+  "PA.XII.A.R4": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 Ground Operations covers ramp safety around a running or recently shut down airplane",
+    "confidence": "low"
+  },
+  "PA.XII.A.S1": {
+    "anchors": [],
+    "why": "archived element with no text to map",
+    "confidence": "high"
+  },
+  "PA.XII.A.S2": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 covers selecting a parking area and ramp safety considerations",
+    "confidence": "high"
+  },
+  "PA.XII.A.S3": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 covers the after landing, shutdown and securing checklists",
+    "confidence": "low"
+  },
+  "PA.XII.A.S4": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 covers the postflight inspection and recording discrepancies and servicing needs",
+    "confidence": "medium"
+  },
+  "PA.XII.A.S5": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 covers tie-down, control locks and securing the airplane",
+    "confidence": "high"
+  },
+  "PA.XII.B.K1": {
+    "anchors": [],
+    "why": "no cited handbook has a seaplane chapter; mooring is covered by the Seaplane Operations handbook, which is not in the anchor list",
+    "confidence": "high"
+  },
+  "PA.XII.B.K2": {
+    "anchors": [],
+    "why": "docking is seaplane specific and not covered by any chapter in the cited handbooks",
+    "confidence": "high"
+  },
+  "PA.XII.B.K3": {
+    "anchors": [],
+    "why": "anchoring is seaplane specific and not covered by any chapter in the cited handbooks",
+    "confidence": "high"
+  },
+  "PA.XII.B.K4": {
+    "anchors": [],
+    "why": "beaching and ramping are seaplane specific and not covered by any chapter in the cited handbooks",
+    "confidence": "high"
+  },
+  "PA.XII.B.K5": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 Ground Operations covers postflight inspection and recording discrepancies, which applies regardless of gear type",
+    "confidence": "medium"
+  },
+  "PA.XII.B.R1": {
+    "anchors": ["phak:ch02"],
+    "why": "PHAK chapter 2 ADM covers distraction and task management",
+    "confidence": "low"
+  },
+  "PA.XII.B.R2": {
+    "anchors": [],
+    "why": "archived element with no text to map",
+    "confidence": "high"
+  },
+  "PA.XII.B.R3": {
+    "anchors": [],
+    "why": "seaplane base security procedures are local and not covered by any cited handbook chapter",
+    "confidence": "high"
+  },
+  "PA.XII.B.R4": {
+    "anchors": [],
+    "why": "disembarking on a dock or beach is seaplane specific and not covered by any cited handbook chapter",
+    "confidence": "high"
+  },
+  "PA.XII.B.S1": {
+    "anchors": [],
+    "why": "anchor selection, scope and holding are seaplane specific and absent from the cited handbooks",
+    "confidence": "high"
+  },
+  "PA.XII.B.S2": {
+    "anchors": [],
+    "why": "dock, buoy and beach approach technique is seaplane specific and absent from the cited handbooks",
+    "confidence": "high"
+  },
+  "PA.XII.B.S3": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 covers the after landing and securing checklists",
+    "confidence": "low"
+  },
+  "PA.XII.B.S4": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 covers postflight inspection and documenting discrepancies and servicing requirements",
+    "confidence": "medium"
+  },
+  "PA.XII.B.S5": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH chapter 2 covers securing an airplane on land, which is the amphibious case; the waterborne case is not in the cited handbooks",
+    "confidence": "low"
+  }
+}

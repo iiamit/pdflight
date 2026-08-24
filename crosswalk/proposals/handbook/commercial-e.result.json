@@ -1,0 +1,1360 @@
+{
+  "CA.V.A.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Steep turns are an AFH ch10 Performance Maneuver.",
+    "confidence": "high"
+  },
+  "CA.V.A.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05"
+    ],
+    "why": "Parent heading. PHAK ch5 Aerodynamics is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "CA.V.A.K2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "phak:ch05"
+    ],
+    "why": "Coordinated flight is taught in AFH ch3; the underlying aerodynamics are PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.A.K2b": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch10"
+    ],
+    "why": "Overbanking tendency is the differential lift explained in PHAK ch5 and countered in the ch10 steep turn.",
+    "confidence": "high"
+  },
+  "CA.V.A.K2c": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05"
+    ],
+    "why": "Maneuvering speed and its variation with weight are in PHAK ch5 Aerodynamics.",
+    "confidence": "high"
+  },
+  "CA.V.A.K2d": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "Load factor is PHAK ch5; accelerated stalls are AFH ch5 Upset Prevention and Recovery.",
+    "confidence": "high"
+  },
+  "CA.V.A.K2e": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05"
+    ],
+    "why": "Rate and radius of turn are in PHAK ch5 Aerodynamics.",
+    "confidence": "high"
+  },
+  "CA.V.A.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Dividing attention between control and orientation is part of the maneuver chapter; the attention management itself is Threat and Error Management.",
+    "confidence": "low"
+  },
+  "CA.V.A.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "CA.V.A.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "CA.V.A.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "CA.V.A.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "phak:ch05"
+    ],
+    "why": "Coordinated flight is taught in AFH ch3; the yaw and adverse aerodynamics are PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.A.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "CA.V.A.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "The steep turn entry speed is AFH ch10; the Va limit behind it is PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.A.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 50 degree bank 360 degree steep turn is the AFH ch10 maneuver.",
+    "confidence": "high"
+  },
+  "CA.V.A.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Reversing the steep turn is part of the AFH ch10 maneuver description.",
+    "confidence": "high"
+  },
+  "CA.V.A.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The altitude, airspeed, bank, and rollout tolerances are the AFH ch10 steep turn standard.",
+    "confidence": "high"
+  },
+  "CA.V.B.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch10"
+    ],
+    "why": "The steep spiral is the descent used to reach an emergency landing site, so AFH ch18 as well as ch10.",
+    "confidence": "high"
+  },
+  "CA.V.B.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch07"
+    ],
+    "why": "Constant radius about a point is the ch10 steep spiral built on the ch7 ground reference technique.",
+    "confidence": "high"
+  },
+  "CA.V.B.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Wind effect on ground track is the subject of AFH ch7 Ground Reference Maneuvers.",
+    "confidence": "high"
+  },
+  "CA.V.B.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Dividing attention between control and orientation is part of the maneuver chapter; the attention management itself is Threat and Error Management.",
+    "confidence": "low"
+  },
+  "CA.V.B.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "CA.V.B.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "CA.V.B.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "CA.V.B.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "phak:ch05"
+    ],
+    "why": "Coordinated flight is taught in AFH ch3; the yaw and adverse aerodynamics are PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.B.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Correcting for wind around the reference point is AFH ch7 Ground Reference Maneuvers.",
+    "confidence": "high"
+  },
+  "CA.V.B.R7": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "phak:ch05"
+    ],
+    "why": "Airspeed and airframe limits come from the flight manual (PHAK ch9); the load factor behind them is PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.B.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "CA.V.B.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Selecting an altitude for three full turns is part of the AFH ch10 steep spiral.",
+    "confidence": "high"
+  },
+  "CA.V.B.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 60 degree bank limit and constant radius are the AFH ch10 steep spiral standard.",
+    "confidence": "high"
+  },
+  "CA.V.B.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch07"
+    ],
+    "why": "Wind drift correction to hold a constant radius is the ch10 maneuver on ch7 technique.",
+    "confidence": "high"
+  },
+  "CA.V.B.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch03"
+    ],
+    "why": "Dividing attention across control, traffic, and ground track, with the scan from AFH ch3.",
+    "confidence": "high"
+  },
+  "CA.V.B.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The airspeed, rollout, and 1,500 foot AGL floor are the AFH ch10 steep spiral standard.",
+    "confidence": "high"
+  },
+  "CA.V.C.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Chandelles are an AFH ch10 Performance Maneuver.",
+    "confidence": "high"
+  },
+  "CA.V.C.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05"
+    ],
+    "why": "Parent heading. PHAK ch5 Aerodynamics is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "CA.V.C.K2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "phak:ch05"
+    ],
+    "why": "Coordinated flight is taught in AFH ch3; the underlying aerodynamics are PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.C.K2b": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch10"
+    ],
+    "why": "Overbanking tendency is the differential lift explained in PHAK ch5 and countered in the ch10 chandelle.",
+    "confidence": "high"
+  },
+  "CA.V.C.K2c": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05"
+    ],
+    "why": "Maneuvering speed and its variation with weight are in PHAK ch5 Aerodynamics.",
+    "confidence": "high"
+  },
+  "CA.V.C.K2d": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Accelerated stalls are AFH ch5 Upset Prevention and Recovery, with the load factor in PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.C.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch06"
+    ],
+    "why": "Maximum performance climb configuration is the ch10 chandelle entry, drawing on the ch6 climb.",
+    "confidence": "high"
+  },
+  "CA.V.C.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch04"
+    ],
+    "why": "Pitch control through a continuously decreasing airspeed is the chandelle, and the concept is ch4 Energy Management.",
+    "confidence": "high"
+  },
+  "CA.V.C.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Dividing attention between control and orientation is part of the maneuver chapter; the attention management itself is Threat and Error Management.",
+    "confidence": "low"
+  },
+  "CA.V.C.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "CA.V.C.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "CA.V.C.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "CA.V.C.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "phak:ch05"
+    ],
+    "why": "Coordinated flight is taught in AFH ch3; the yaw and adverse aerodynamics are PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.C.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04"
+    ],
+    "why": "AFH ch4 Energy Management is the altitude and airspeed tradeoff chapter.",
+    "confidence": "high"
+  },
+  "CA.V.C.R7": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch10"
+    ],
+    "why": "Rate and radius of turn are PHAK ch5; their use to reverse direction in a confined area is the ch10 chandelle.",
+    "confidence": "low"
+  },
+  "CA.V.C.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "CA.V.C.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 1,500 foot AGL floor is part of the AFH ch10 chandelle standard.",
+    "confidence": "high"
+  },
+  "CA.V.C.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Entry configuration, power, and airspeed are the AFH ch10 chandelle setup.",
+    "confidence": "high"
+  },
+  "CA.V.C.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 30 degree entry bank is the AFH ch10 chandelle standard.",
+    "confidence": "high"
+  },
+  "CA.V.C.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch04"
+    ],
+    "why": "The climbing turn to the 90 degree point with decaying airspeed is the chandelle, flown on ch4 energy management.",
+    "confidence": "high"
+  },
+  "CA.V.C.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The constant rate rollout from the 90 to the 180 degree point is the AFH ch10 chandelle.",
+    "confidence": "high"
+  },
+  "CA.V.C.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch05"
+    ],
+    "why": "Completing the rollout just above stall speed is the ch10 standard, with the stall margin in AFH ch5.",
+    "confidence": "high"
+  },
+  "CA.V.C.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch03"
+    ],
+    "why": "Resuming straight and level with minimum altitude loss is the ch10 recovery on ch3 technique.",
+    "confidence": "high"
+  },
+  "CA.V.D.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Lazy eights are an AFH ch10 Performance Maneuver.",
+    "confidence": "high"
+  },
+  "CA.V.D.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch03"
+    ],
+    "why": "The lazy eight aerodynamics and coordination are described in AFH ch10, built on ch3 coordinated flight.",
+    "confidence": "high"
+  },
+  "CA.V.D.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "phak:ch11"
+    ],
+    "why": "Airspeed limits come from the flight manual (PHAK ch9); the performance envelope is PHAK ch11.",
+    "confidence": "low"
+  },
+  "CA.V.D.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The phase-by-phase description from entry to recovery is the AFH ch10 lazy eight.",
+    "confidence": "high"
+  },
+  "CA.V.D.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Dividing attention between control and orientation is part of the maneuver chapter; the attention management itself is Threat and Error Management.",
+    "confidence": "low"
+  },
+  "CA.V.D.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "CA.V.D.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "CA.V.D.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "CA.V.D.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "phak:ch05"
+    ],
+    "why": "Coordinated flight is taught in AFH ch3; the yaw and adverse aerodynamics are PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.D.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04"
+    ],
+    "why": "AFH ch4 Energy Management is the altitude and airspeed tradeoff chapter.",
+    "confidence": "high"
+  },
+  "CA.V.D.R7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Accelerated stalls are AFH ch5 Upset Prevention and Recovery, with the load factor in PHAK ch5.",
+    "confidence": "high"
+  },
+  "CA.V.D.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "CA.V.D.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 1,500 foot AGL floor is part of the AFH ch10 lazy eight standard.",
+    "confidence": "high"
+  },
+  "CA.V.D.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Entry configuration, power, and airspeed are the AFH ch10 lazy eight setup.",
+    "confidence": "high"
+  },
+  "CA.V.D.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch03"
+    ],
+    "why": "Coordination throughout the maneuver is the ch10 standard on ch3 technique.",
+    "confidence": "high"
+  },
+  "CA.V.D.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Parent heading. The AFH ch10 lazy eight carries the tolerances listed below it.",
+    "confidence": "low"
+  },
+  "CA.V.D.S5a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 30 degree maximum bank at the steepest point is the AFH ch10 lazy eight standard.",
+    "confidence": "high"
+  },
+  "CA.V.D.S5b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch04"
+    ],
+    "why": "Continuously changing pitch, roll rate, and airspeed is what defines the lazy eight, and ch4 is the energy tradeoff.",
+    "confidence": "high"
+  },
+  "CA.V.D.S5c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The altitude tolerance at the 180 degree point is the AFH ch10 lazy eight standard.",
+    "confidence": "high"
+  },
+  "CA.V.D.S5d": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The airspeed tolerance at the 180 degree point is the AFH ch10 lazy eight standard.",
+    "confidence": "high"
+  },
+  "CA.V.D.S5e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The heading tolerance at the 180 degree point is the AFH ch10 lazy eight standard.",
+    "confidence": "high"
+  },
+  "CA.V.D.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Continuing through symmetrical loops and recovering is the AFH ch10 lazy eight.",
+    "confidence": "high"
+  },
+  "CA.V.E.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Eights on pylons are an AFH ch7 Ground Reference Maneuver.",
+    "confidence": "high"
+  },
+  "CA.V.E.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch03"
+    ],
+    "why": "The pylon aerodynamics are AFH ch7; coordinated versus uncoordinated flight is ch3.",
+    "confidence": "high"
+  },
+  "CA.V.E.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Pivotal altitude and what changes it are the core of the AFH ch7 eights on pylons.",
+    "confidence": "high"
+  },
+  "CA.V.E.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Wind effect on ground track is the subject of AFH ch7 Ground Reference Maneuvers.",
+    "confidence": "high"
+  },
+  "CA.V.E.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "The phase-by-phase description from entry to recovery is the AFH ch7 eights on pylons.",
+    "confidence": "high"
+  },
+  "CA.V.E.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "risk-management:ch06"
+    ],
+    "why": "Dividing attention between control and orientation is part of the maneuver chapter; the attention management itself is Threat and Error Management.",
+    "confidence": "low"
+  },
+  "CA.V.E.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "CA.V.E.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "CA.V.E.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "CA.V.E.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch03"
+    ],
+    "why": "Slips and skids while holding a pylon are the ch7 error; coordinated flight is taught in ch3.",
+    "confidence": "high"
+  },
+  "CA.V.E.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04"
+    ],
+    "why": "AFH ch4 Energy Management is the altitude and airspeed tradeoff chapter.",
+    "confidence": "high"
+  },
+  "CA.V.E.R7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "AFH ch18 Emergency Procedures covers the emergency landing considerations for low altitude work.",
+    "confidence": "high"
+  },
+  "CA.V.E.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "CA.V.E.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Computing the approximate pivotal altitude is the AFH ch7 eights on pylons.",
+    "confidence": "high"
+  },
+  "CA.V.E.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Pylon selection and spacing are described in the AFH ch7 maneuver.",
+    "confidence": "high"
+  },
+  "CA.V.E.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Entry direction, position, altitude, and airspeed are the AFH ch7 eights on pylons setup.",
+    "confidence": "high"
+  },
+  "CA.V.E.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "The 40 degree bank limit is the AFH ch7 eights on pylons standard.",
+    "confidence": "high"
+  },
+  "CA.V.E.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Holding the line-of-sight reference on the pylon is the defining skill in AFH ch7.",
+    "confidence": "high"
+  },
+  "CA.V.E.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch03"
+    ],
+    "why": "Dividing attention between control and outside references, with the scan from AFH ch3.",
+    "confidence": "high"
+  },
+  "CA.V.E.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Holding pylon position by adjusting pivotal altitude without slipping or skidding is the AFH ch7 maneuver.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "PHAK ch16 Navigation is the pilotage and dead reckoning chapter.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch08"
+    ],
+    "why": "Magnetic compass errors are in PHAK ch8 Flight Instruments.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Reading topography off a sectional is part of PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Parent heading. PHAK ch16 Navigation is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "CA.VI.A.K4a": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Route selection is covered in PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K4b": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16",
+      "phak:ch15"
+    ],
+    "why": "Altitude selection is PHAK ch16 planning against the PHAK ch15 airspace structure.",
+    "confidence": "low"
+  },
+  "CA.VI.A.K4c": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Checkpoint selection is covered in PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K5": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Parent heading. PHAK ch16 Navigation is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "CA.VI.A.K5a": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Determining heading, speed, and course is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K5b": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "The wind triangle and wind correction angle are in PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K5c": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Time, speed, and distance computation is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K5d": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11"
+    ],
+    "why": "True airspeed and density altitude are PHAK ch11 Aircraft Performance.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11"
+    ],
+    "why": "Cruise power setting selection comes off the PHAK ch11 performance tables.",
+    "confidence": "high"
+  },
+  "CA.VI.A.K7": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Comparing planned against actual and revising en route is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "CA.VI.A.R2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "CA.VI.A.R3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "risk-management:ch04"
+    ],
+    "why": "Fuel and power consumption against plan is PHAK ch11; the margin decision is Risk Management ch4.",
+    "confidence": "low"
+  },
+  "CA.VI.A.S1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "The navigation log is described in PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.S2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Pilotage is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.S3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Dead reckoning against precomputed headings and times is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.S4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch08"
+    ],
+    "why": "Using the magnetic direction indicator, including turns to headings, is PHAK ch8 Flight Instruments.",
+    "confidence": "high"
+  },
+  "CA.VI.A.S5": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Verifying position against the planned route is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.S6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Checkpoint timing and revised ETA are PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.A.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "Holding altitude and heading is AFH ch3 Basic Flight Maneuvers.",
+    "confidence": "high"
+  },
+  "CA.VI.B.K1": {
+    "sections": [],
+    "anchors": [
+      "aim:ch01-s01",
+      "phak:ch16"
+    ],
+    "why": "AIM 1-1 Navigation Aids covers VOR identification, checks, and service volumes; PHAK ch16 is the pilot technique.",
+    "confidence": "high"
+  },
+  "CA.VI.B.K2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch01-s02",
+      "phak:ch16"
+    ],
+    "why": "AIM 1-2 Performance-Based Navigation and RNAV covers GPS equipment, databases, and RAIM.",
+    "confidence": "high"
+  },
+  "CA.VI.B.K3": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s05",
+      "aim:ch04-s01"
+    ],
+    "why": "AIM 4-5 Surveillance Systems and 4-1 Services Available to Pilots cover radar advisories to VFR aircraft.",
+    "confidence": "high"
+  },
+  "CA.VI.B.K4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s05"
+    ],
+    "why": "Transponder modes and ADS-B are described in AIM 4-5 Surveillance Systems.",
+    "confidence": "high"
+  },
+  "CA.VI.B.R1": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch07"
+    ],
+    "why": "Risk Management ch7 is Automation and Flight Path Management.",
+    "confidence": "high"
+  },
+  "CA.VI.B.R2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "CA.VI.B.R3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16",
+      "aim:ch01-s02"
+    ],
+    "why": "System limitations are split between the PHAK ch16 equipment description and the AIM 1-2 RNAV requirements.",
+    "confidence": "low"
+  },
+  "CA.VI.B.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch01-s01",
+      "aim:ch01-s02"
+    ],
+    "why": "Signal loss is covered as failure indications in AIM 1-1 and as RAIM loss in AIM 1-2, not as a single topic.",
+    "confidence": "low"
+  },
+  "CA.VI.B.R5": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch07"
+    ],
+    "why": "EFB risk falls under Automation and Flight Path Management. Nothing in the inventory names the EFB.",
+    "confidence": "low"
+  },
+  "CA.VI.B.S1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Operating an airborne navigation receiver is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.B.S2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Position determination from the navigation system is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.B.S3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Intercepting and tracking a course, radial, or bearing is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.B.S4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16",
+      "aim:ch01-s01"
+    ],
+    "why": "Station and waypoint passage indications are in PHAK ch16 and AIM 1-1.",
+    "confidence": "high"
+  },
+  "CA.VI.B.S5": {
+    "sections": [],
+    "anchors": [
+      "aim:ch01-s01"
+    ],
+    "why": "Failure and interference indications are described in AIM 1-1 Navigation Aids, though not as a procedure.",
+    "confidence": "low"
+  },
+  "CA.VI.B.S6": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02",
+      "aim:ch04-s01"
+    ],
+    "why": "AIM 4-2 phraseology and AIM 4-1 Services Available to Pilots cover radar service communication.",
+    "confidence": "high"
+  },
+  "CA.VI.B.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "Holding altitude and heading is AFH ch3 Basic Flight Maneuvers.",
+    "confidence": "high"
+  },
+  "CA.VI.C.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Selecting and navigating to an alternate is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.C.K2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch05-s05",
+      "risk-management:ch08"
+    ],
+    "why": "AIM 5-5 Pilot/Controller Roles and Responsibilities frames deviating from a clearance; the decision itself is Risk Management ch8.",
+    "confidence": "low"
+  },
+  "CA.VI.C.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "CA.VI.C.R2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "CA.VI.C.R3": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch08"
+    ],
+    "why": "Risk Management ch8 Aeronautical Decision-Making in Flight is the divert decision.",
+    "confidence": "high"
+  },
+  "CA.VI.C.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14",
+      "phak:ch16"
+    ],
+    "why": "Judging a suitable airport is PHAK ch14 Airport Operations against the PHAK ch16 route picture. The Seaplane handbook is not on this Task's References line.",
+    "confidence": "low"
+  },
+  "CA.VI.C.R5": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch07",
+      "aim:ch04-s01"
+    ],
+    "why": "Risk Management ch7 covers using automation as a resource; AIM 4-1 covers what ATC can provide.",
+    "confidence": "high"
+  },
+  "CA.VI.C.S1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Choosing a divert destination and route is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.C.S2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Estimating heading, groundspeed, time, and fuel in flight is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.C.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "Holding altitude and heading is AFH ch3 Basic Flight Maneuvers.",
+    "confidence": "high"
+  },
+  "CA.VI.C.S4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch13",
+      "aim:ch07-s01"
+    ],
+    "why": "PHAK ch13 Aviation Weather Services and AIM 7-1 Meteorology cover in-flight weather updates.",
+    "confidence": "high"
+  },
+  "CA.VI.C.S5": {
+    "sections": [],
+    "anchors": [
+      "phak:ch13",
+      "risk-management:ch07"
+    ],
+    "why": "Datalink weather products are PHAK ch13; managing the display is Risk Management ch7.",
+    "confidence": "low"
+  },
+  "CA.VI.C.S6": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch08"
+    ],
+    "why": "Acting promptly on the divert decision is Risk Management ch8.",
+    "confidence": "high"
+  },
+  "CA.VI.D.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "PHAK ch16 Navigation carries the lost procedures and position fixing methods.",
+    "confidence": "high"
+  },
+  "CA.VI.D.K2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch06-s02",
+      "aim:ch04-s01"
+    ],
+    "why": "AIM 6-2 Emergency Services Available to Pilots and AIM 4-1 cover radar assistance to a lost aircraft.",
+    "confidence": "high"
+  },
+  "CA.VI.D.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "CA.VI.D.R2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "CA.VI.D.R3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Waypoint timing feeds the dead reckoning position in PHAK ch16, but no chapter treats the recording itself.",
+    "confidence": "low"
+  },
+  "CA.VI.D.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch06-s03",
+      "risk-management:ch08"
+    ],
+    "why": "AIM 6-3 Distress and Urgency Procedures is when to declare; Risk Management ch8 is the decision.",
+    "confidence": "high"
+  },
+  "CA.VI.D.S1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Position determination when lost is PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.D.S2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16",
+      "afh:ch03"
+    ],
+    "why": "Climbing for reception and visibility is the PHAK ch16 lost procedure, flown on AFH ch3 technique.",
+    "confidence": "low"
+  },
+  "CA.VI.D.S3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch16"
+    ],
+    "why": "Identifying prominent landmarks is pilotage in PHAK ch16 Navigation.",
+    "confidence": "high"
+  },
+  "CA.VI.D.S4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch06-s02",
+      "aim:ch04-s01"
+    ],
+    "why": "AIM 6-2 and AIM 4-1 cover contacting ATC for assistance.",
+    "confidence": "high"
+  },
+  "CA.VI.D.S5": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch08"
+    ],
+    "why": "Choosing a course of action is Risk Management ch8 Aeronautical Decision-Making in Flight.",
+    "confidence": "high"
+  }
+}

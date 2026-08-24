@@ -53,11 +53,23 @@ CERTIFICATES = [
 AREA = re.compile(r"^Area of Operation\s+([IVX]+)\.\s+(.+?)\s*$", re.MULTILINE)
 TASK = re.compile(r"^Task\s+([A-Z])\.\s+(.+?)\s*$", re.MULTILINE)
 
-# The drop-cap artefact: "eferences:" then a lone "R" then the list.
-REFERENCES = re.compile(r"^eferences:\s*\n\s*R\s*\n(.+?)$", re.MULTILINE)
-
 STOP = re.compile(r"^(?:bjective:|ote:|Knowledge:|Risk|Skills:|Task\s+[A-Z]\.|"
                   r"Area of Operation)", re.MULTILINE)
+
+# The drop-cap artefact: "eferences:" then a lone "R" then the list.
+#
+# The list runs until the next label, not to the end of the line. A References
+# line long enough to wrap put its tail on the following line, and `(.+?)$`
+# under MULTILINE stopped at the first newline and dropped it. 65 of the 276
+# Tasks wrap, and the citations that lived on the continuation line were
+# silently missing from the crosswalk: PHAK was absent from 17 ATP Tasks and 7
+# Instrument ones, and the CFI weather Task did not cite the Aviation Weather
+# Handbook at all. Nothing failed, because a shorter list is still a valid
+# list, which is why this survived every gate.
+REFERENCES = re.compile(
+    r"^eferences:\s*\n\s*R\s*\n(.+?)(?=^(?:bjective:|ote:|Knowledge:|Risk|"
+    r"Skills:|Task\s+[A-Z]\.|Area of Operation)|\Z)",
+    re.MULTILINE | re.DOTALL)
 
 CFR_PARTS = re.compile(r"14 CFR (?:parts?|Part)\s+([\d,\s and]+)")
 # The revision letter must be optional and outside the capture group. A closing
@@ -188,8 +200,10 @@ def parse_acs(record, prefix, handbooks, acs, aim_id):
         if not reference_line:
             tasks_without_refs.append("Task %s. %s" % (letter, title[:40]))
             continue
+        # The capture may now span several lines, and a citation can be split
+        # across the break, so collapse the whitespace before parsing.
         targets, unmet = parse_references(
-            reference_line.group(1), handbooks, acs, aim_id)
+            " ".join(reference_line.group(1).split()), handbooks, acs, aim_id)
         unmet_all.update(unmet)
 
         for code_match in codes.finditer(block):

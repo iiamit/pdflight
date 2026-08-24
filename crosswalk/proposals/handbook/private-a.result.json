@@ -1,0 +1,1850 @@
+{
+ "PA.I.A.K1": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "high",
+  "why": "chapter 1 Introduction to Flying covers pilot certification, currency, and logbook recordkeeping"
+ },
+ "PA.I.A.K2": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "medium",
+  "why": "chapter 1 describes certificate privileges and limitations by certificate level"
+ },
+ "PA.I.A.K3": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "medium",
+  "why": "chapter 1 medical certification section covers classes, duration, and privileges"
+ },
+ "PA.I.A.K4": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "medium",
+  "why": "chapter 1 lists the personal documents a pilot must hold and carry"
+ },
+ "PA.I.A.K5": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "low",
+  "why": "chapter 1 medical certification discussion includes BasicMed under part 68"
+ },
+ "PA.I.A.R1": {
+  "anchors": [
+   "risk-management:ch02"
+  ],
+  "confidence": "medium",
+  "why": "the personal minimums chapter separates legal currency from actual proficiency"
+ },
+ "PA.I.A.R2": {
+  "anchors": [
+   "risk-management:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "why": "personal minimums for unfamiliar aircraft, and the automation chapter for unfamiliar flight displays"
+ },
+ "PA.I.A.S1": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "low",
+  "why": "chapter 1 sets out the PIC qualification requirements the scenario applies"
+ },
+ "PA.I.B.K1": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "chapter 9 Flight Manuals and Other Documents is the airworthiness and aircraft records chapter"
+ },
+ "PA.I.B.K1a": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "chapter 9 covers required aircraft certificates, where they are displayed, and their duration"
+ },
+ "PA.I.B.K1b": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "chapter 9 covers annual, 100-hour, and other required inspections and maintenance record entries"
+ },
+ "PA.I.B.K1c": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "chapter 9 covers airworthiness directives and compliance recordkeeping"
+ },
+ "PA.I.B.K1d": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "chapter 9 covers special flight permits and how they are obtained"
+ },
+ "PA.I.B.K1e": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "chapter 9 assigns owner, operator, and PIC responsibility for airworthiness"
+ },
+ "PA.I.B.K2": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "chapter 9 covers preventive maintenance a certificated pilot may perform and log"
+ },
+ "PA.I.B.K3": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "chapter 9 covers required instruments and equipment for day and night VFR"
+ },
+ "PA.I.B.K3a": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "chapter 9 covers the decision path for flight with inoperative equipment"
+ },
+ "PA.I.B.K3b": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "chapter 9 describes the minimum equipment list and its approval"
+ },
+ "PA.I.B.K3c": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "low",
+  "why": "chapter 9 discusses the kinds of operation equipment list alongside the MEL"
+ },
+ "PA.I.B.K3d": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "chapter 9 covers placarding and discrepancy records for inoperative items"
+ },
+ "PA.I.B.K4": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "chapter 9 covers standard and special airworthiness certificates and their limitations"
+ },
+ "PA.I.B.R1": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "chapter 9 gives the preflight determination path for equipment found inoperative"
+ },
+ "PA.I.B.S1": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "chapter 9 shows where the airworthiness and registration certificates live in the aircraft"
+ },
+ "PA.I.B.S2": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "chapter 9 gives the inspection and AD checks that establish airworthiness"
+ },
+ "PA.I.B.S3": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "chapter 9 gives the procedure for operating with inoperative equipment"
+ },
+ "PA.I.C.K1": {
+  "anchors": [
+   "phak:ch13",
+   "aviation-weather:ch02"
+  ],
+  "confidence": "high",
+  "why": "chapter 13 Aviation Weather Services and the AWH service program chapter list NWS and Flight Service sources"
+ },
+ "PA.I.C.K2": {
+  "anchors": [
+   "phak:ch13",
+   "aviation-weather:ch03"
+  ],
+  "confidence": "high",
+  "why": "both chapters catalogue the observation, analysis, and forecast products available for preflight"
+ },
+ "PA.I.C.K2a": {
+  "anchors": [
+   "phak:ch13",
+   "aviation-weather:ch03"
+  ],
+  "confidence": "medium",
+  "why": "METAR, SPECI, and PIREP formats and decoding appear in both overview chapters"
+ },
+ "PA.I.C.K2b": {
+  "anchors": [
+   "phak:ch13"
+  ],
+  "confidence": "medium",
+  "why": "chapter 13 covers surface analysis and graphical weather charts"
+ },
+ "PA.I.C.K2c": {
+  "anchors": [
+   "phak:ch13"
+  ],
+  "confidence": "medium",
+  "why": "chapter 13 covers terminal aerodrome forecast format and decoding"
+ },
+ "PA.I.C.K2d": {
+  "anchors": [
+   "phak:ch13",
+   "aviation-weather:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the graphical forecasts for aviation product is described in these overview chapters"
+ },
+ "PA.I.C.K2e": {
+  "anchors": [
+   "phak:ch13"
+  ],
+  "confidence": "medium",
+  "why": "chapter 13 covers the winds and temperatures aloft forecast"
+ },
+ "PA.I.C.K2f": {
+  "anchors": [
+   "phak:ch13"
+  ],
+  "confidence": "low",
+  "why": "chapter 13 lists the convective outlook among forecast products"
+ },
+ "PA.I.C.K2g": {
+  "anchors": [
+   "phak:ch13"
+  ],
+  "confidence": "medium",
+  "why": "chapter 13 covers AIRMET, SIGMET, and convective SIGMET advisories"
+ },
+ "PA.I.C.K3": {
+  "anchors": [
+   "phak:ch12",
+   "aviation-weather:ch04"
+  ],
+  "confidence": "high",
+  "why": "weather theory and the atmosphere chapters carry the meteorology behind VFR planning"
+ },
+ "PA.I.C.K3a": {
+  "anchors": [
+   "phak:ch12",
+   "aviation-weather:ch04"
+  ],
+  "confidence": "high",
+  "why": "atmospheric composition, pressure, and stability are the subject of both chapters"
+ },
+ "PA.I.C.K3b": {
+  "anchors": [
+   "phak:ch12"
+  ],
+  "confidence": "medium",
+  "why": "chapter 12 covers wind patterns, windshear, and mountain wave"
+ },
+ "PA.I.C.K3c": {
+  "anchors": [
+   "phak:ch12",
+   "aviation-weather:ch05"
+  ],
+  "confidence": "high",
+  "why": "the AWH heat and temperature chapter is exactly this element"
+ },
+ "PA.I.C.K3d": {
+  "anchors": [
+   "phak:ch12",
+   "aviation-weather:ch06"
+  ],
+  "confidence": "high",
+  "why": "the AWH water vapor chapter covers moisture, humidity, and precipitation"
+ },
+ "PA.I.C.K3e": {
+  "anchors": [
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "chapter 12 covers air mass classification and frontal formation"
+ },
+ "PA.I.C.K3f": {
+  "anchors": [
+   "phak:ch12",
+   "aviation-weather:ch06"
+  ],
+  "confidence": "medium",
+  "why": "cloud types and formation follow from the water vapor and weather theory chapters"
+ },
+ "PA.I.C.K3g": {
+  "anchors": [
+   "phak:ch12"
+  ],
+  "confidence": "medium",
+  "why": "chapter 12 covers turbulence types, causes, and intensity reporting"
+ },
+ "PA.I.C.K3h": {
+  "anchors": [
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "chapter 12 covers thunderstorm life cycle and microburst windshear"
+ },
+ "PA.I.C.K3i": {
+  "anchors": [
+   "phak:ch12"
+  ],
+  "confidence": "medium",
+  "why": "chapter 12 covers structural icing types and freezing level"
+ },
+ "PA.I.C.K3j": {
+  "anchors": [
+   "phak:ch12",
+   "aviation-weather:ch06"
+  ],
+  "confidence": "medium",
+  "why": "fog and mist formation follow the dewpoint and saturation material in these chapters"
+ },
+ "PA.I.C.K3k": {
+  "anchors": [
+   "phak:ch12",
+   "aviation-weather:ch06"
+  ],
+  "confidence": "low",
+  "why": "frost formation is covered with deposition and saturation"
+ },
+ "PA.I.C.K3l": {
+  "anchors": [
+   "phak:ch12"
+  ],
+  "confidence": "medium",
+  "why": "chapter 12 covers restrictions to visibility from smoke, haze, and other obscurations"
+ },
+ "PA.I.C.K4": {
+  "anchors": [
+   "phak:ch13"
+  ],
+  "confidence": "medium",
+  "why": "chapter 13 covers datalink and flight deck displays of weather including their latency"
+ },
+ "PA.I.C.R1": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "medium",
+  "why": "the in-flight decision-making chapter frames go/no-go and continue/divert"
+ },
+ "PA.I.C.R1a": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "medium",
+  "why": "the in-flight decision-making chapter covers when diversion is the right call"
+ },
+ "PA.I.C.R1b": {
+  "anchors": [
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "why": "the personal minimums chapter is the source for personal weather minimums"
+ },
+ "PA.I.C.R1c": {
+  "anchors": [
+   "phak:ch12",
+   "risk-management:ch08"
+  ],
+  "confidence": "medium",
+  "why": "weather theory for the hazard itself and the ADM chapter for acting on the forecast"
+ },
+ "PA.I.C.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "parent heading with no content of its own, the subelements carry the mapping"
+ },
+ "PA.I.C.R2a": {
+  "anchors": [
+   "phak:ch13"
+  ],
+  "confidence": "low",
+  "why": "chapter 13 covers onboard weather equipment and its limitations"
+ },
+ "PA.I.C.R2b": {
+  "anchors": [
+   "phak:ch13",
+   "aviation-weather:ch03"
+  ],
+  "confidence": "medium",
+  "why": "both chapters state the valid times and limitations of reports and forecasts"
+ },
+ "PA.I.C.R2c": {
+  "anchors": [
+   "phak:ch13",
+   "aim:ch07-s01"
+  ],
+  "confidence": "medium",
+  "why": "AIM 7-1 meteorology covers inflight weather advisory broadcast and request services"
+ },
+ "PA.I.C.S1": {
+  "anchors": [
+   "phak:ch13",
+   "aim:ch07-s01"
+  ],
+  "confidence": "medium",
+  "why": "briefing types and how to request them are in AIM 7-1 and PHAK chapter 13"
+ },
+ "PA.I.C.S2": {
+  "anchors": [
+   "phak:ch12"
+  ],
+  "confidence": "medium",
+  "why": "the K3a through K3l conditions all come from weather theory"
+ },
+ "PA.I.C.S3": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "medium",
+  "why": "the in-flight decision-making chapter supplies the go/no-go framework"
+ },
+ "PA.I.D.K1": {
+  "anchors": [
+   "phak:ch16",
+   "phak:ch15"
+  ],
+  "confidence": "medium",
+  "why": "chapter 16 Navigation covers route and checkpoint selection, chapter 15 covers airspace along the route"
+ },
+ "PA.I.D.K1a": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "chapter 16 introduces electronic flight bag use in cross-country planning"
+ },
+ "PA.I.D.K2": {
+  "anchors": [
+   "phak:ch16",
+   "phak:ch15"
+  ],
+  "confidence": "medium",
+  "why": "chapter 16 covers altitude selection and wind effect, chapter 15 gives VFR cruising altitudes"
+ },
+ "PA.I.D.K3": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "chapter 16 carries the flight computer and navigation log computations"
+ },
+ "PA.I.D.K3a": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "chapter 16 works time, course, distance, heading, true airspeed, and groundspeed problems"
+ },
+ "PA.I.D.K3b": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "medium",
+  "why": "chapter 16 covers ETA computation and conversion to UTC"
+ },
+ "PA.I.D.K3c": {
+  "anchors": [
+   "phak:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "medium",
+  "why": "chapter 16 computes fuel burn on the nav log, chapter 11 supplies the cruise fuel flow data"
+ },
+ "PA.I.D.K4": {
+  "anchors": [
+   "phak:ch16",
+   "aim:ch05-s01"
+  ],
+  "confidence": "medium",
+  "why": "AIM 5-1 preflight gives the VFR flight plan form field by field"
+ },
+ "PA.I.D.K5": {
+  "anchors": [
+   "aim:ch05-s01",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-1 covers filing, activating, and closing a VFR flight plan"
+ },
+ "PA.I.D.K6": {
+  "anchors": [
+   "aim:ch05-s06"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-6 national security and interception procedures is the intercept reference"
+ },
+ "PA.I.D.R1": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the hazard identification chapter covers the pilot element of PAVE"
+ },
+ "PA.I.D.R2": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the hazard identification chapter covers the aircraft element of PAVE"
+ },
+ "PA.I.D.R3": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the hazard identification chapter covers the environment element of PAVE"
+ },
+ "PA.I.D.R4": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the hazard identification chapter covers external pressures in PAVE"
+ },
+ "PA.I.D.R5": {
+  "anchors": [
+   "aim:ch04-s01",
+   "aim:ch05-s05"
+  ],
+  "confidence": "medium",
+  "why": "AIM 4-1 states what services are and are not provided, AIM 5-5 splits pilot and controller responsibility"
+ },
+ "PA.I.D.R6": {
+  "anchors": [
+   "phak:ch16",
+   "risk-management:ch04"
+  ],
+  "confidence": "low",
+  "why": "chapter 16 for the reserve computation, the assessing risk chapter for margin"
+ },
+ "PA.I.D.R7": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "why": "the automation and flight path management chapter covers reliance on electronic devices"
+ },
+ "PA.I.D.S1": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "medium",
+  "why": "chapter 16 walks a complete cross-country plan to a fuel stop"
+ },
+ "PA.I.D.S2": {
+  "anchors": [
+   "phak:ch16",
+   "aim:ch09-s01"
+  ],
+  "confidence": "medium",
+  "why": "AIM 9-1 lists the chart products and the Chart Supplement, chapter 16 shows their use in planning"
+ },
+ "PA.I.D.S3": {
+  "anchors": [
+   "phak:ch16",
+   "aim:ch05-s01"
+  ],
+  "confidence": "medium",
+  "why": "navigation log construction in chapter 16 and flight plan filing in AIM 5-1"
+ },
+ "PA.I.D.S4": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "chapter 16 covers recomputing fuel after a diversion or route change"
+ },
+ "PA.I.D.S5": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "chapter 16 is where electronic flight bag use is introduced"
+ },
+ "PA.I.E.K1": {
+  "anchors": [
+   "phak:ch15",
+   "aim:ch03"
+  ],
+  "confidence": "high",
+  "why": "chapter 15 Airspace and AIM chapter 3 define each class and its entry, equipment, and weather requirements"
+ },
+ "PA.I.E.K2": {
+  "anchors": [
+   "phak:ch16",
+   "aim:ch09-s01"
+  ],
+  "confidence": "medium",
+  "why": "sectional chart symbology is introduced in chapter 16 and in the AIM chart types section"
+ },
+ "PA.I.E.K3": {
+  "anchors": [
+   "phak:ch15",
+   "aim:ch03-s04",
+   "aim:ch03-s05"
+  ],
+  "confidence": "high",
+  "why": "AIM 3-4 special use airspace and 3-5 other airspace areas cover SUA, SFRA, and TFRs"
+ },
+ "PA.I.E.K4": {
+  "anchors": [
+   "phak:ch15",
+   "aim:ch04-s04"
+  ],
+  "confidence": "medium",
+  "why": "special VFR clearance requirements are in AIM 4-4 and in the airspace chapter"
+ },
+ "PA.I.E.R1": {
+  "anchors": [
+   "phak:ch15"
+  ],
+  "confidence": "medium",
+  "why": "chapter 15 sets out the risks tied to each airspace class and type"
+ },
+ "PA.I.E.S1": {
+  "anchors": [
+   "phak:ch15"
+  ],
+  "confidence": "high",
+  "why": "chapter 15 carries the basic VFR weather minimums table by airspace class"
+ },
+ "PA.I.E.S2": {
+  "anchors": [
+   "phak:ch15",
+   "aim:ch03-s02"
+  ],
+  "confidence": "medium",
+  "why": "AIM 3-2 controlled airspace gives the communication and equipment requirements per class"
+ },
+ "PA.I.E.S3": {
+  "anchors": [
+   "phak:ch15",
+   "aim:ch03-s04"
+  ],
+  "confidence": "medium",
+  "why": "AIM 3-4 covers operating rules for special use airspace and restricted areas"
+ },
+ "PA.I.F.K1": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "chapter 11 Aircraft Performance is built around reading performance charts and tables"
+ },
+ "PA.I.F.K2": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "chapter 11 enumerates the factors that affect airplane performance"
+ },
+ "PA.I.F.K2a": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "chapter 11 covers density altitude, pressure, temperature, and humidity effects"
+ },
+ "PA.I.F.K2b": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "why": "chapter 11 notes that chart values assume a proficient pilot and new airframe"
+ },
+ "PA.I.F.K2c": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "medium",
+  "why": "chapter 11 covers flap, gear, and power configuration effects on performance"
+ },
+ "PA.I.F.K2d": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "medium",
+  "why": "chapter 11 covers runway surface, slope, and obstacle effects on takeoff and landing"
+ },
+ "PA.I.F.K2e": {
+  "anchors": [
+   "phak:ch10",
+   "weight-balance:ch02"
+  ],
+  "confidence": "high",
+  "why": "chapter 10 covers CG effects on performance, W and B chapter 2 gives the underlying theory"
+ },
+ "PA.I.F.K2f": {
+  "anchors": [
+   "phak:ch10",
+   "weight-balance:ch01"
+  ],
+  "confidence": "high",
+  "why": "chapter 10 Weight and Balance and W and B chapter 1 weight and balance control"
+ },
+ "PA.I.F.K3": {
+  "anchors": [
+   "phak:ch04",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "chapter 4 Principles of Flight and chapter 5 Aerodynamics of Flight carry the aerodynamics"
+ },
+ "PA.I.F.R1": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "medium",
+  "why": "chapter 11 warns about interpolation and chart assumptions"
+ },
+ "PA.I.F.R2": {
+  "anchors": [
+   "phak:ch09",
+   "phak:ch11"
+  ],
+  "confidence": "medium",
+  "why": "AFM limitations are in chapter 9, their performance consequences in chapter 11"
+ },
+ "PA.I.F.R3": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "medium",
+  "why": "chapter 11 explains why an aged airframe rarely meets book numbers"
+ },
+ "PA.I.F.S1": {
+  "anchors": [
+   "phak:ch10",
+   "weight-balance:ch05"
+  ],
+  "confidence": "high",
+  "why": "W and B chapter 5 works single-engine loading problems, PHAK chapter 10 gives the method"
+ },
+ "PA.I.F.S2": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "chapter 11 demonstrates use of takeoff, climb, cruise, and landing charts"
+ },
+ "PA.I.G.K1": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "chapter 7 Aircraft Systems is the systems chapter"
+ },
+ "PA.I.G.K1a": {
+  "anchors": [
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "why": "chapter 6 Flight Controls covers aileron, elevator, and rudder"
+ },
+ "PA.I.G.K1b": {
+  "anchors": [
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "why": "chapter 6 covers flaps, trim, spoilers, and other secondary controls"
+ },
+ "PA.I.G.K1c": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "chapter 7 covers reciprocating engines, ignition, induction, and propellers"
+ },
+ "PA.I.G.K1d": {
+  "anchors": [
+   "phak:ch07",
+   "phak:ch03"
+  ],
+  "confidence": "medium",
+  "why": "landing gear appears in the systems chapter and in chapter 3 aircraft construction"
+ },
+ "PA.I.G.K1e": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "chapter 7 covers fuel, oil, and hydraulic systems"
+ },
+ "PA.I.G.K1f": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "chapter 7 covers the electrical system, alternator, bus, and circuit protection"
+ },
+ "PA.I.G.K1g": {
+  "anchors": [
+   "phak:ch08",
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "why": "electronic flight displays and navigation avionics are described in chapter 8, installation in chapter 7"
+ },
+ "PA.I.G.K1h": {
+  "anchors": [
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "chapter 8 Flight Instruments covers pitot-static, vacuum, and gyroscopic instruments"
+ },
+ "PA.I.G.K1i": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "medium",
+  "why": "chapter 7 covers heating, ventilation, and cabin environmental systems"
+ },
+ "PA.I.G.K1j": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "medium",
+  "why": "chapter 7 covers deicing boots, weeping wing, and anti-ice equipment"
+ },
+ "PA.I.G.K1k": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "water rudders are seaplane specific and none of the cited handbooks has a chapter on them"
+ },
+ "PA.I.G.K1l": {
+  "anchors": [
+   "phak:ch07",
+   "phak:ch17"
+  ],
+  "confidence": "medium",
+  "why": "chapter 7 covers oxygen system hardware, chapter 17 covers the physiological requirement"
+ },
+ "PA.I.G.K2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 18 Emergency Procedures covers recognising and handling system failures"
+ },
+ "PA.I.G.R1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 18 covers indications that a system has failed"
+ },
+ "PA.I.G.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 18 gives the procedures for managing a failure in flight"
+ },
+ "PA.I.G.R3": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "the automation and flight path management chapter covers monitoring automated systems"
+ },
+ "PA.I.G.S1": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "why": "chapter 7 describes normal operation of the systems listed in K1a through K1l"
+ },
+ "PA.I.G.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "generic checklist completion, the whole handbook is no worse a target than any chapter"
+ },
+ "PA.I.H.K1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "why": "chapter 17 Aeromedical Factors and AIM 8-1 Fitness for Flight are the two aeromedical references"
+ },
+ "PA.I.H.K1a": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "why": "both cover hypoxia types, symptoms, and corrective action"
+ },
+ "PA.I.H.K1b": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "why": "both cover hyperventilation recognition and recovery"
+ },
+ "PA.I.H.K1c": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "why": "both cover middle ear and sinus block on climb and descent"
+ },
+ "PA.I.H.K1d": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "why": "both cover vestibular illusions and spatial disorientation"
+ },
+ "PA.I.H.K1e": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "medium",
+  "why": "both cover motion sickness causes and mitigation"
+ },
+ "PA.I.H.K1f": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "why": "both cover carbon monoxide poisoning from exhaust leaks into cabin heat"
+ },
+ "PA.I.H.K1g": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "medium",
+  "why": "both cover stress and its effect on pilot performance"
+ },
+ "PA.I.H.K1h": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "medium",
+  "why": "both cover acute and chronic fatigue"
+ },
+ "PA.I.H.K1i": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "medium",
+  "why": "both cover dehydration, heat stress, and nutrition"
+ },
+ "PA.I.H.K1j": {
+  "anchors": [
+   "phak:ch17"
+  ],
+  "confidence": "low",
+  "why": "chapter 17 covers hypothermia among environmental physiological hazards"
+ },
+ "PA.I.H.K1k": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "why": "both cover visual illusions on approach and at night"
+ },
+ "PA.I.H.K1l": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "why": "both give the wait times for flight after scuba diving"
+ },
+ "PA.I.H.K2": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "medium",
+  "why": "both restate the alcohol and drug rules that apply to flight crew"
+ },
+ "PA.I.H.K3": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "why": "both cover the performance effects of alcohol, drugs, and over-the-counter medication"
+ },
+ "PA.I.H.K4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "chapter 2 Aeronautical Decision-Making covers ADM, CRM, and SRM, with the in-flight ADM chapter"
+ },
+ "PA.I.H.R1": {
+  "anchors": [
+   "phak:ch17"
+  ],
+  "confidence": "medium",
+  "why": "chapter 17 frames the aeromedical conditions as in-flight risks"
+ },
+ "PA.I.H.R2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "the five hazardous attitudes and their antidotes are in the ADM material"
+ },
+ "PA.I.H.R3": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch02"
+  ],
+  "confidence": "medium",
+  "why": "threat and error management covers distraction, task saturation, and lost situational awareness"
+ },
+ "PA.I.H.R4": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "medium",
+  "why": "the threat and error management chapter covers confirmation and expectation bias"
+ },
+ "PA.I.H.S1": {
+  "anchors": [
+   "phak:ch17"
+  ],
+  "confidence": "medium",
+  "why": "chapter 17 pairs each condition in K1a through K1l with cause and corrective action"
+ },
+ "PA.I.H.S2": {
+  "anchors": [
+   "risk-management:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "the personal minimums chapter and the ADM chapter carry self-assessment and IMSAFE"
+ },
+ "PA.I.I.K1": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "water surface characteristics are seaplane material and none of the cited handbooks has a seaplane chapter"
+ },
+ "PA.I.I.K1a": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "seaplane operating area assessment is not covered by a chapter in the cited handbooks"
+ },
+ "PA.I.I.K1b": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "protected and unprotected water is seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.K1c": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "surface wind on water is seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.K1d": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "water current assessment is seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.K1e": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "floating debris hazards are seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.K1f": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "sandbars, islands, and shoals are seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.K1g": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "vessel traffic and wakes are seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.K1h": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "area specific water characteristics are not covered by a chapter in the cited handbooks"
+ },
+ "PA.I.I.K1i": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "wave direction and height are seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.K2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "float and hull construction is seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.K3": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "porpoising and skipping are seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.K4": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "low",
+  "why": "AIM 9-1 describes the Chart Supplement and chart products where seaplane bases are listed"
+ },
+ "PA.I.I.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "seaplane base operating restrictions are not covered by a chapter in the cited handbooks"
+ },
+ "PA.I.I.K6": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "marine right-of-way and sailing rules are not FAA handbook material in the cited set"
+ },
+ "PA.I.I.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "marine navigation aids are not covered by a chapter in the cited handbooks"
+ },
+ "PA.I.I.K8": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "naval vessel protection zones are not covered by a chapter in the cited handbooks"
+ },
+ "PA.I.I.K9": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "no wake zones are not covered by a chapter in the cited handbooks"
+ },
+ "PA.I.I.R1": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "local water conditions are seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "marine traffic is seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "marine right-of-way and sailing rules are not in the cited handbooks"
+ },
+ "PA.I.I.R4": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "seaplane base services are not covered by a chapter in the cited handbooks"
+ },
+ "PA.I.I.S1": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "water surface assessment is seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "seaplane base restrictions are not covered by a chapter in the cited handbooks"
+ },
+ "PA.I.I.S3": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "marine navigation aids are not covered by a chapter in the cited handbooks"
+ },
+ "PA.I.I.S4": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "marine right-of-way and steering rules are not in the cited handbooks"
+ },
+ "PA.I.I.S5": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "float and hull effects on performance are seaplane material not in the cited handbooks"
+ },
+ "PA.I.I.S6": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "porpoising and skipping correction is seaplane material not in the cited handbooks"
+ },
+ "PA.II.A.K1": {
+  "anchors": [
+   "risk-management:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "medium",
+  "why": "personal minimums and the IMSAFE self-assessment in the ADM chapter"
+ },
+ "PA.II.A.K2": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "chapter 9 gives the records and certificates that establish the airplane is airworthy"
+ },
+ "PA.II.A.K3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 Ground Operations is the visual preflight inspection chapter"
+ },
+ "PA.II.A.K3a": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 walks the preflight inspection item by item"
+ },
+ "PA.II.A.K3b": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 explains why each preflight item is checked"
+ },
+ "PA.II.A.K3c": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 describes the defects a visual inspection is meant to find"
+ },
+ "PA.II.A.K3d": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "the regulatory side of preflight, inspections and documents, is in chapter 9"
+ },
+ "PA.II.A.K4": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the hazard identification chapter covers weather, terrain, route, and obstruction hazards"
+ },
+ "PA.II.A.R1": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the hazard identification chapter covers the pilot element of PAVE"
+ },
+ "PA.II.A.R2": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the hazard identification chapter covers the aircraft element of PAVE"
+ },
+ "PA.II.A.R3": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the hazard identification chapter covers the environment element of PAVE"
+ },
+ "PA.II.A.R4": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "medium",
+  "why": "the hazard identification chapter covers external pressures in PAVE"
+ },
+ "PA.II.A.R5": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "aviation security is not covered by a chapter in the cited handbooks"
+ },
+ "PA.II.A.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 covers checklist-based preflight inspection"
+ },
+ "PA.II.A.S2": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "the physical inspection in AFH chapter 2 with the conformity and records check in PHAK chapter 9"
+ },
+ "PA.II.A.S3": {
+  "anchors": [
+   "risk-management:ch02"
+  ],
+  "confidence": "medium",
+  "why": "the personal minimums chapter supplies the self-assessment standard"
+ },
+ "PA.II.A.S4": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "low",
+  "why": "the hazard identification chapter frames continuing environmental assessment"
+ },
+ "PA.II.B.K1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 covers the passenger briefing and safety belt and harness use before taxi"
+ },
+ "PA.II.B.K2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 covers checklist discipline on the ground"
+ },
+ "PA.II.B.K3": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "chapter 16 covers currency of navigation databases and chart data"
+ },
+ "PA.II.B.K4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 covers securing loose items in the cabin before flight"
+ },
+ "PA.II.B.R1": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "medium",
+  "why": "the automation and flight path management chapter covers reliance on systems and devices"
+ },
+ "PA.II.B.R2": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "medium",
+  "why": "chapter 9 covers the consequences of dispatching with inoperative equipment"
+ },
+ "PA.II.B.R3": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "why": "the threat and error management chapter covers cockpit distraction"
+ },
+ "PA.II.B.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 covers securing items before engine start"
+ },
+ "PA.II.B.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 lists the elements of a passenger briefing including propeller avoidance"
+ },
+ "PA.II.B.S3": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "medium",
+  "why": "the automation chapter covers programming and managing flight deck automation"
+ },
+ "PA.II.B.S4": {
+  "anchors": [
+   "risk-management:ch08",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "the in-flight ADM chapter and the PHAK ADM chapter carry SRM and CRM"
+ },
+ "PA.II.C.K1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 covers engine starting in cold, hot, and flooded conditions"
+ },
+ "PA.II.C.K2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 covers starting with external power and hand propping cautions"
+ },
+ "PA.II.C.K3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 covers starter duty cycle and other starting limitations"
+ },
+ "PA.II.C.K4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 covers engine fire on start and the aborted start response"
+ },
+ "PA.II.C.R1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 covers propeller danger area and clearing the area before start"
+ },
+ "PA.II.C.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 covers positioning the airplane for start relative to wind, structures, and people"
+ },
+ "PA.II.C.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 covers the before start and start checklists"
+ },
+ "PA.II.D.K1": {
+  "anchors": [
+   "phak:ch14",
+   "aim:ch09-s01"
+  ],
+  "confidence": "medium",
+  "why": "chapter 14 Airport Operations for the airport diagram, AIM 9-1 for the Chart Supplement"
+ },
+ "PA.II.D.K2": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 Airport Operations carries taxi clearance and hold short phraseology"
+ },
+ "PA.II.D.K3": {
+  "anchors": [
+   "phak:ch14",
+   "aim:ch02-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 2-3 Airport Marking Aids and Signs is the definitive markings and signs reference"
+ },
+ "PA.II.D.K4": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "chapter 14 covers the wind sock, tetrahedron, and segmented circle"
+ },
+ "PA.II.D.K5": {
+  "anchors": [
+   "afh:ch11",
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 11 Night Operations covers aircraft lights, AIM 4-3 covers their use on the movement area"
+ },
+ "PA.II.D.K6": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 Ground Operations is the taxi procedures chapter"
+ },
+ "PA.II.D.K6a": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "medium",
+  "why": "AIM 4-3 covers hot spots and taxi route planning before moving"
+ },
+ "PA.II.D.K6b": {
+  "anchors": [
+   "phak:ch14",
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-2 radio phraseology and chapter 14 towered and nontowered communication procedures"
+ },
+ "PA.II.D.K6c": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "medium",
+  "why": "AIM 4-3 covers runway entry, crossing, and hold short instructions"
+ },
+ "PA.II.D.K6d": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 11 covers night taxi technique and lighting use"
+ },
+ "PA.II.D.K6e": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "why": "AIM 4-3 covers low visibility surface operations and SMGCS"
+ },
+ "PA.II.D.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "why": "the threat and error management chapter covers distraction during ground operations"
+ },
+ "PA.II.D.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "medium",
+  "why": "the threat and error management chapter covers expectation bias in clearance readback"
+ },
+ "PA.II.D.R3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 covers reacting to a taxi route or runway change"
+ },
+ "PA.II.D.R4": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 and AIM 4-3 both cover runway incursion avoidance"
+ },
+ "PA.II.D.S1": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "medium",
+  "why": "AIM 4-2 covers correct readback technique"
+ },
+ "PA.II.D.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 covers using the airport diagram while taxiing"
+ },
+ "PA.II.D.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 gives the control positioning diagram for quartering head and tail winds"
+ },
+ "PA.II.D.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 covers the taxi checklist"
+ },
+ "PA.II.D.S5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 calls for a brake check as the airplane begins to roll"
+ },
+ "PA.II.D.S6": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 covers taxi speed control with throttle rather than brakes"
+ },
+ "PA.II.D.S7": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 for compliance in practice, chapter 14 for the markings and signals themselves"
+ },
+ "PA.II.D.S8": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch02-s03"
+  ],
+  "confidence": "medium",
+  "why": "AIM 2-3 defines the hold position marking, AFH chapter 2 covers stopping short of it"
+ },
+ "PA.II.E.K1": {
+  "anchors": [
+   "phak:ch14",
+   "aim:ch09-s01"
+  ],
+  "confidence": "low",
+  "why": "airport information resources generalise to seaplane bases, though neither is seaplane specific"
+ },
+ "PA.II.E.K2": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "why": "AIM 4-3 taxi clearances apply where a seaplane base shares a towered airport"
+ },
+ "PA.II.E.K3": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "chapter 14 covers airport markings and lights, the seaplane base part is not covered"
+ },
+ "PA.II.E.K4": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "chapter 14 covers wind direction indicators"
+ },
+ "PA.II.E.K5": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 11 Night Operations covers airplane position and anti-collision lighting"
+ },
+ "PA.II.E.K6": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "parent heading for seaplane sailing procedures, which the cited handbooks do not cover"
+ },
+ "PA.II.E.K6a": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "flight deck activity while sailing is seaplane material not in the cited handbooks"
+ },
+ "PA.II.E.K6b": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "low",
+  "why": "AIM 4-2 radio phraseology applies at towered and nontowered facilities generally"
+ },
+ "PA.II.E.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "why": "the threat and error management chapter covers distraction during surface operations"
+ },
+ "PA.II.E.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "porpoising and skipping are seaplane material not in the cited handbooks"
+ },
+ "PA.II.E.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "low visibility sailing is seaplane material not in the cited handbooks"
+ },
+ "PA.II.E.R4": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "vessel and marine hazards are not covered by a chapter in the cited handbooks"
+ },
+ "PA.II.E.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "why": "the threat and error management chapter covers expectation bias in clearance readback"
+ },
+ "PA.II.E.S1": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "low",
+  "why": "AIM 4-2 covers correct readback technique"
+ },
+ "PA.II.E.S10": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "the amphibious land taxi elements referred back to Task D are AFH chapter 2 ground operations"
+ },
+ "PA.II.E.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "seaplane base diagrams are not covered by a chapter in the cited handbooks"
+ },
+ "PA.II.E.S3": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "chapter 14 covers airport markings and signals, the seaplane base part is not covered"
+ },
+ "PA.II.E.S4": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "departing a dock, buoy, or ramp is seaplane material not in the cited handbooks"
+ },
+ "PA.II.E.S5": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "seaplane taxi checklists are not covered by a chapter in the cited handbooks"
+ },
+ "PA.II.E.S6": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "water rudder and flap positioning for sailing is seaplane material not in the cited handbooks"
+ },
+ "PA.II.E.S7": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "idle, plow, and step taxi technique is seaplane material not in the cited handbooks"
+ },
+ "PA.II.E.S8": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "sailing course planning is seaplane material not in the cited handbooks"
+ },
+ "PA.II.E.S9": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "marine right-of-way rules are not covered by a chapter in the cited handbooks"
+ },
+ "PA.II.F.K1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 covers the before takeoff check and engine runup"
+ },
+ "PA.II.F.K1a": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH chapter 2 explains the purpose of each runup and pretakeoff item"
+ },
+ "PA.II.F.K1b": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 covers magneto drop, carburetor heat, and other malfunction indications"
+ },
+ "PA.II.F.K1c": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 ties the pretakeoff check to confirming safe operating condition"
+ },
+ "PA.II.F.R1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 covers looking outside while running the pretakeoff check"
+ },
+ "PA.II.F.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "why": "the threat and error management chapter covers late changes issued by ATC"
+ },
+ "PA.II.F.R3": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "medium",
+  "why": "chapter 14 Airport Operations carries the wake turbulence avoidance material"
+ },
+ "PA.II.F.R4": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch18"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 6 Takeoffs and Departure Climbs and chapter 18 Emergency Procedures cover powerplant failure after takeoff"
+ },
+ "PA.II.F.S1": {
+  "anchors": [
+   "phak:ch11",
+   "afh:ch06"
+  ],
+  "confidence": "medium",
+  "why": "chapter 11 supplies the takeoff performance data, AFH chapter 6 the departure planning"
+ },
+ "PA.II.F.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 covers the before takeoff checklist"
+ },
+ "PA.II.F.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 covers positioning in the runup area for wind and prop blast"
+ },
+ "PA.II.F.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH chapter 2 covers dividing attention during the pretakeoff check"
+ },
+ "PA.II.F.S5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "medium",
+  "why": "AFH chapter 2 covers verifying engine parameters and configuration before takeoff"
+ }
+}

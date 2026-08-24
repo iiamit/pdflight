@@ -1,0 +1,872 @@
+{
+  "FI.I.A.K1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "AIH ch2 is the human behavior chapter; no CFR part is listed for this Task",
+    "confidence": "high"
+  },
+  "FI.I.A.K1a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Definitions of human behavior open AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.K1b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Instructor and learner relationship is treated in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.K1c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Motivation is covered in AIH ch2 human behavior",
+    "confidence": "high"
+  },
+  "FI.I.A.K1d": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Human needs hierarchy is in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.K1e": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Defense mechanisms are enumerated in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.K2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Learner emotional reactions are part of AIH ch2 human behavior",
+    "confidence": "high"
+  },
+  "FI.I.A.K2a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Anxiety and stress in the learner are covered in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.K2b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Impatience is one of the learner reactions in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.K2c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Worry and lack of interest are learner reactions in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.K2d": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02", "phak:ch17"],
+    "why": "AIH ch2 covers discomfort and fatigue as learning obstacles; PHAK ch17 aeromedical factors covers fatigue and dehydration",
+    "confidence": "high"
+  },
+  "FI.I.A.K2e": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Apathy from inadequate instruction is a learner reaction in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.K3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Teaching the adult learner sits at the end of AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.K4": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch04"],
+    "why": "AIH ch4 is the effective communication chapter",
+    "confidence": "high"
+  },
+  "FI.I.A.K4a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch04"],
+    "why": "Basic elements of communication are the opening of AIH ch4",
+    "confidence": "high"
+  },
+  "FI.I.A.K4b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch04"],
+    "why": "Barriers to effective communication are listed in AIH ch4",
+    "confidence": "high"
+  },
+  "FI.I.A.K4c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch04"],
+    "why": "Developing communication skills closes AIH ch4",
+    "confidence": "high"
+  },
+  "FI.I.A.R1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Recognizing and accommodating human behavior is the subject of AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.R2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch04"],
+    "why": "Barriers to communication are in AIH ch4",
+    "confidence": "high"
+  },
+  "FI.I.A.S1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02", "aviation-instructor:ch03"],
+    "why": "Motivation is in AIH ch2; its effect on learning is in ch3",
+    "confidence": "high"
+  },
+  "FI.I.A.S2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Instructor responses to learner reactions are in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.S2a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Serious abnormal emotional behavior is addressed in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.S2b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02"],
+    "why": "Defense mechanisms and how to handle them are in AIH ch2",
+    "confidence": "high"
+  },
+  "FI.I.A.S3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch04"],
+    "why": "Applying communication skills in instruction is AIH ch4",
+    "confidence": "high"
+  },
+  "FI.I.B.K1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Definitions of learning open AIH ch3, the learning process",
+    "confidence": "high"
+  },
+  "FI.I.B.K10": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Types of practice are covered in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K11": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03", "aviation-instructor:ch06"],
+    "why": "Learning process ch3 introduces knowledge of results; the evaluation versus critique distinction is developed in ch6 assessment",
+    "confidence": "low"
+  },
+  "FI.I.B.K12": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03", "aviation-instructor:ch09"],
+    "why": "Fixation and inattention are learning-process topics in ch3; managing distractions in the cockpit is ch9",
+    "confidence": "low"
+  },
+  "FI.I.B.K13": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Errors, slips, and mistakes are treated in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K14": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Memory is part of the learning process in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K14a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Sensory memory is described in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K14b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Short-term and long-term memory are described in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K14c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "How usage affects memory is part of AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K14d": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Theories of forgetting are in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K15": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Retention of learning is in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K16": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Transfer of learning is in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Learning theory is the core of AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K2a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Behaviorism is described in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K2b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Cognitive theory is described in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Perceptions and insight are in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K4": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Acquiring knowledge is in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K5": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Laws of learning are in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K6": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Domains of learning are in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K6a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Cognitive domain is in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K6b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Affective domain is in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K6c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Psychomotor domain is in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K7": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Characteristics of learning are in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K8": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03", "aviation-instructor:ch05"],
+    "why": "SBT is introduced as a learning approach in ch3 and applied as a teaching method in ch5",
+    "confidence": "low"
+  },
+  "FI.I.B.K9": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Acquiring skill knowledge is in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K9a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Stages of skill acquisition are in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K9b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Knowledge of results is in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K9c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "How to develop skills is in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.K9d": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Learning plateaus are in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.R1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03", "aviation-instructor:ch08"],
+    "why": "Obstacles to learning are in ch3; providing adequate instruction is an instructor responsibility in ch8",
+    "confidence": "low"
+  },
+  "FI.I.B.R2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02", "aviation-instructor:ch03"],
+    "why": "Motivation is in ch2 human behavior; its effect on the learning process is in ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.R3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03", "aviation-instructor:ch09"],
+    "why": "Errors are defined in ch3; correcting learner errors in flight is ch9",
+    "confidence": "low"
+  },
+  "FI.I.B.S1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Applying learning theory to instruction is AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.S2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03"],
+    "why": "Obstacles that undermine learning are in AIH ch3",
+    "confidence": "high"
+  },
+  "FI.I.B.S3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch03", "aviation-instructor:ch09"],
+    "why": "Workload management and distraction are learning-process topics in ch3, applied in flight instruction technique in ch9",
+    "confidence": "low"
+  },
+  "FI.I.C.K1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "AIH ch5 is the teaching process chapter",
+    "confidence": "high"
+  },
+  "FI.I.C.K10": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "AIH ch7 is planning instructional activity",
+    "confidence": "high"
+  },
+  "FI.I.C.K10a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "Blocks of learning are in AIH ch7",
+    "confidence": "high"
+  },
+  "FI.I.C.K10b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "Training syllabus is in AIH ch7",
+    "confidence": "high"
+  },
+  "FI.I.C.K10c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "Lesson plans are in AIH ch7",
+    "confidence": "high"
+  },
+  "FI.I.C.K1a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "The teaching process steps are in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K1b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Essential teaching skills are in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "Course of training and its objectives are defined in AIH ch7",
+    "confidence": "high"
+  },
+  "FI.I.C.K3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05", "aviation-instructor:ch07"],
+    "why": "Lesson preparation is a teaching-process step in ch5 and a planning product in ch7",
+    "confidence": "low"
+  },
+  "FI.I.C.K3a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "Training objectives and completion standards are set in AIH ch7 planning",
+    "confidence": "low"
+  },
+  "FI.I.C.K3b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "Performance-based objectives are defined in AIH ch7",
+    "confidence": "low"
+  },
+  "FI.I.C.K3c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "Use of the ACS in building a curriculum is discussed in AIH ch7",
+    "confidence": "low"
+  },
+  "FI.I.C.K3d": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "Decision-based objectives are defined in AIH ch7",
+    "confidence": "low"
+  },
+  "FI.I.C.K4": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Organization of material is a teaching-process topic in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K5": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Training delivery methods are in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K5a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "The lecture method is in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K5b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Discussion method is in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K5c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Guided discussion is in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K5d": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Cooperative or group learning is in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K5e": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Demonstration-performance method is in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K5f": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Drill and practice is in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K6": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "E-learning is covered among delivery methods in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K7": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Instructional aids and training technologies are in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K7a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Characteristics of effective instructional aids are in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K7b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Reasons for using instructional aids are in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K7c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Guidelines for using instructional aids are in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K7d": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Types of instructional aids are in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.K8": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch09"],
+    "why": "Integrated flight instruction is a flight instruction technique in AIH ch9",
+    "confidence": "high"
+  },
+  "FI.I.C.K9": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Problem-based instruction is a teaching method in AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.R1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch05"],
+    "why": "Choosing among teaching methods is AIH ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.S1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07", "aviation-instructor:ch05"],
+    "why": "Lesson plan construction is ch7; the teaching methods it uses are ch5",
+    "confidence": "high"
+  },
+  "FI.I.C.S1a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07"],
+    "why": "Ground lesson plan format and content are in AIH ch7",
+    "confidence": "high"
+  },
+  "FI.I.C.S1b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch07", "aviation-instructor:ch09"],
+    "why": "Lesson plan construction is ch7; maneuver introduction technique is ch9",
+    "confidence": "low"
+  },
+  "FI.I.D.K1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "AIH ch6 is the assessment chapter",
+    "confidence": "high"
+  },
+  "FI.I.D.K2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Traditional assessment is defined in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Authentic assessment is defined in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K3a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Learner-centered assessment is in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K3b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Maneuver and procedure grades are in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K3c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06", "aviation-instructor:ch10"],
+    "why": "Assessment methods are ch6; assessing risk management during flight instruction is ch10",
+    "confidence": "low"
+  },
+  "FI.I.D.K4": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Choosing an assessment method is in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K5": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Purposes and types of critique are in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K6": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Oral assessment and questioning are in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K6a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Characteristics of effective questions are in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K6b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Question types to avoid are listed in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K6c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Answering learner questions is in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.K7": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06", "aviation-instructor:ch09"],
+    "why": "Assessment principles are ch6; assessing piloting ability in flight draws on ch9 technique",
+    "confidence": "low"
+  },
+  "FI.I.D.R1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Delivering a critique or assessment is in AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.D.S1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch06"],
+    "why": "Applying assessment methods is AIH ch6",
+    "confidence": "high"
+  },
+  "FI.I.E.K1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "AIH ch8 covers instructor responsibilities and professionalism",
+    "confidence": "high"
+  },
+  "FI.I.E.K1a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Helping learners is an instructor responsibility in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.K1b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Providing adequate instruction is in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.K1c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Training to established standards is in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.K1d": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Emphasizing the positive is in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.K1e": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Minimizing learner frustration is in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.K2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Flight instructor responsibilities including supervision are in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.K3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Instructor qualifications and professionalism are in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.K4": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Professional development is in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.K5": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Instructor ethics and conduct are in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.R1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Failure to fulfill instructor responsibilities is addressed in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.R2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "Professionalism is the second half of AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.E.S1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch08"],
+    "why": "The K1 through K5 material this skill is graded against lives in AIH ch8",
+    "confidence": "high"
+  },
+  "FI.I.F.K1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10", "aviation-instructor:ch01"],
+    "why": "AIH ch10 teaches practical risk management during flight instruction; ch1 covers risk management and SRM fundamentals",
+    "confidence": "high"
+  },
+  "FI.I.F.K2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch01", "aviation-instructor:ch10"],
+    "why": "Risk management tools are introduced in AIH ch1 and applied to instruction in ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.K2a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch01", "risk-management:ch03"],
+    "why": "PAVE is in AIH ch1; RMH ch3 covers identifying hazards with the same categories",
+    "confidence": "low"
+  },
+  "FI.I.F.K2b": {
+    "sections": [],
+    "anchors": ["risk-management:ch04", "aviation-instructor:ch01"],
+    "why": "Flight risk assessment tools belong to RMH ch4 assessing risk; AIH ch1 introduces them for instructors",
+    "confidence": "low"
+  },
+  "FI.I.F.K3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "When and how to introduce risk management to a learner is AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.K4": {
+    "sections": [],
+    "anchors": [],
+    "why": "Element text was not captured, so no chapter can be chosen without guessing",
+    "confidence": "low"
+  },
+  "FI.I.F.K5": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Managing risk during flight instruction is the subject of AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.K5a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Common flight instruction risks are enumerated in AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.K5b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Best practices for instructional risk management are in AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.K5c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10", "aviation-instructor:ch09"],
+    "why": "Takeoff and landing instruction risks are called out in ch10; the underlying technique is ch9",
+    "confidence": "low"
+  },
+  "FI.I.F.K6": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch01", "phak:ch02", "risk-management:ch08"],
+    "why": "AIH ch1 covers SRM and CRM for instructors, PHAK ch2 is the ADM chapter, RMH ch8 is ADM in flight",
+    "confidence": "high"
+  },
+  "FI.I.F.R1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Hazards of providing flight instruction are enumerated in AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.R2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10", "risk-management:ch06"],
+    "why": "Loss of situational awareness while instructing is ch10; RMH ch6 threat and error management covers the underlying mechanism",
+    "confidence": "low"
+  },
+  "FI.I.F.R3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch02", "phak:ch02"],
+    "why": "Human behavior and hazardous attitudes are in AIH ch2; PHAK ch2 lists the five hazardous attitudes and antidotes",
+    "confidence": "high"
+  },
+  "FI.I.F.S1": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10", "aviation-instructor:ch05"],
+    "why": "Teaching risk management by scenario is ch10; SBT as a delivery method is ch5",
+    "confidence": "high"
+  },
+  "FI.I.F.S2": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Identifying and mitigating instructional risk is AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.S2a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Supervision and timely intervention are covered in AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.S2b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10", "aviation-instructor:ch02"],
+    "why": "Instructor response to learner state is ch10; anxiety and fatigue as learner reactions are ch2",
+    "confidence": "high"
+  },
+  "FI.I.F.S2c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Maintaining situational awareness while instructing is AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.S3": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10", "aviation-instructor:ch09"],
+    "why": "Modeling safety practices is ch10; the flight instruction techniques used to model them are ch9",
+    "confidence": "high"
+  },
+  "FI.I.F.S3a": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Collision avoidance while instructing is a named instructional risk in AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.S3b": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Avoiding unnecessary distraction while instructing is in AIH ch10",
+    "confidence": "high"
+  },
+  "FI.I.F.S3c": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch09"],
+    "why": "Coordinated flight as a demonstrated technique is AIH ch9",
+    "confidence": "low"
+  },
+  "FI.I.F.S3d": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch09"],
+    "why": "Positive exchange of flight controls is a flight instruction technique in AIH ch9",
+    "confidence": "high"
+  },
+  "FI.I.F.S3e": {
+    "sections": [],
+    "anchors": ["aviation-instructor:ch10"],
+    "why": "Continuous awareness of aircraft state and position while instructing is AIH ch10",
+    "confidence": "high"
+  }
+}

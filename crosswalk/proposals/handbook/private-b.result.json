@@ -1,0 +1,147 @@
+{
+  "PA.III.A.K1": {
+    "anchors": ["phak:ch14", "aim:ch09-s01"],
+    "why": "PHAK ch14 Airport Operations covers radio communications and where facility frequencies are published; AIM 9-1 Types of Charts Available covers the Chart Supplement and sectional panels that list them",
+    "confidence": "high"
+  },
+  "PA.III.A.K2": {
+    "anchors": ["aim:ch04-s02", "phak:ch14"],
+    "why": "AIM 4-2 is Radio Communications Phraseology and Techniques; PHAK ch14 Airport Operations teaches basic ATC communication procedure",
+    "confidence": "high"
+  },
+  "PA.III.A.K3": {
+    "anchors": ["aim:ch04-s03", "phak:ch14"],
+    "why": "ATC traffic control light signals are tabulated in AIM 4-3 Airport Operations and repeated in PHAK ch14",
+    "confidence": "high"
+  },
+  "PA.III.A.K4": {
+    "anchors": ["aim:ch04-s01", "phak:ch14"],
+    "why": "AIM 4-1 Services Available to Pilots covers transponder and ADS-B Out operation and code assignment; PHAK ch14 covers transponder use with ATC",
+    "confidence": "high"
+  },
+  "PA.III.A.K5": {
+    "anchors": ["aim:ch06-s04", "phak:ch14"],
+    "why": "AIM 6-4 is Two-way Radio Communications Failure; PHAK ch14 covers lost communication procedure and light signal acknowledgment",
+    "confidence": "high"
+  },
+  "PA.III.A.K6": {
+    "anchors": ["phak:ch14", "phak:ch07"],
+    "why": "PHAK ch14 covers the radio and audio panel equipment involved; PHAK ch07 Aircraft Systems covers the electrical and avionics failures that silence it",
+    "confidence": "low"
+  },
+  "PA.III.A.K7": {
+    "anchors": ["aim:ch04-s01", "phak:ch14"],
+    "why": "AIM 4-1 covers radar traffic information service and terminal radar service for VFR aircraft; PHAK ch14 covers radar assistance to VFR pilots",
+    "confidence": "high"
+  },
+  "PA.III.A.K8": {
+    "anchors": ["aim:ch07-s07"],
+    "why": "AIM 7-7 Safety, Accident, and Hazard Reports states the NTSB Part 830 immediate notification and reporting requirements",
+    "confidence": "high"
+  },
+  "PA.III.A.K9": {
+    "anchors": ["aim:ch02-s01", "phak:ch14"],
+    "why": "AIM 2-1 Airport Lighting Aids includes the Runway Status Light System; PHAK ch14 covers runway lighting the pilot sees",
+    "confidence": "high"
+  },
+  "PA.III.A.R1": {
+    "anchors": ["risk-management:ch06", "phak:ch02"],
+    "why": "RMH ch6 Threat and Error Management treats miscommunication as a communication error to trap; PHAK ch02 ADM covers communication as a resource management skill",
+    "confidence": "low"
+  },
+  "PA.III.A.R2": {
+    "anchors": ["aim:ch06-s03", "risk-management:ch08"],
+    "why": "AIM 6-3 Distress and Urgency Procedures covers when and how to declare an emergency; RMH ch8 Aeronautical Decision-Making in Flight covers making that call in the air",
+    "confidence": "high"
+  },
+  "PA.III.A.R3": {
+    "anchors": [],
+    "why": "element is archived, nothing to map",
+    "confidence": "high"
+  },
+  "PA.III.A.R4": {
+    "anchors": ["aim:ch04-s02"],
+    "why": "AIM 4-2 prescribes standard phraseology and explains the hazard created by nonstandard transmissions",
+    "confidence": "high"
+  },
+  "PA.III.A.S1": {
+    "anchors": ["phak:ch14"],
+    "why": "PHAK ch14 Airport Operations covers selecting and tuning the correct frequency for the facility in use",
+    "confidence": "low"
+  },
+  "PA.III.A.S2": {
+    "anchors": ["aim:ch04-s02"],
+    "why": "AIM 4-2 is the phraseology and technique reference this element cites by name",
+    "confidence": "high"
+  },
+  "PA.III.A.S3": {
+    "anchors": ["aim:ch04-s02", "aim:ch05-s05"],
+    "why": "AIM 4-2 covers contact and readback procedure; AIM 5-5 Pilot/Controller Roles and Responsibilities sets the duty to comply with ATC instructions",
+    "confidence": "high"
+  },
+  "PA.III.B.K1": {
+    "anchors": ["aim:ch04-s03", "afh:ch08", "phak:ch14"],
+    "why": "AIM 4-3 covers towered and nontowered airport operations, AFH ch8 Airport Traffic Patterns covers flying them, PHAK ch14 gives the ground school treatment",
+    "confidence": "high"
+  },
+  "PA.III.B.K2": {
+    "anchors": ["afh:ch08", "aim:ch04-s03"],
+    "why": "AFH ch8 Airport Traffic Patterns covers pattern entry and selection; AIM 4-3 gives runway and pattern selection at nontowered fields",
+    "confidence": "high"
+  },
+  "PA.III.B.K3": {
+    "anchors": [],
+    "why": "right-of-way rules are 14 CFR 91.113 and no single chapter covers them better than the whole handbook",
+    "confidence": "high"
+  },
+  "PA.III.B.K4": {
+    "anchors": ["aim:ch04-s01", "phak:ch13"],
+    "why": "AIM 4-1 covers ATIS and automated airport information services; PHAK ch13 Aviation Weather Services covers ASOS and AWOS broadcasts",
+    "confidence": "high"
+  },
+  "PA.III.B.R1": {
+    "anchors": ["afh:ch08", "aim:ch04-s03"],
+    "why": "AFH ch8 covers see-and-avoid and clearing turns in the pattern; AIM 4-3 covers the self-announce and traffic advisory practice that prevents pattern conflicts",
+    "confidence": "low"
+  },
+  "PA.III.B.R2": {
+    "anchors": ["risk-management:ch06", "phak:ch02"],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task saturation, and loss of situational awareness; PHAK ch02 ADM covers task prioritization and SRM",
+    "confidence": "high"
+  },
+  "PA.III.B.R3": {
+    "anchors": ["aim:ch07-s04", "phak:ch12"],
+    "why": "AIM 7-4 is Wake Turbulence; PHAK ch12 Weather Theory covers wind shear and microbursts near the airport",
+    "confidence": "high"
+  },
+  "PA.III.B.S1": {
+    "anchors": ["aim:ch02-s03", "aim:ch02-s01", "phak:ch14"],
+    "why": "AIM 2-3 is Airport Marking Aids and Signs, AIM 2-1 is Airport Lighting Aids, PHAK ch14 covers runway and taxiway identification",
+    "confidence": "high"
+  },
+  "PA.III.B.S2": {
+    "anchors": ["afh:ch08", "aim:ch04-s03"],
+    "why": "AFH ch8 gives the recommended traffic pattern procedures; AIM 4-3 gives recommended entry, departure, and sequencing",
+    "confidence": "high"
+  },
+  "PA.III.B.S3": {
+    "anchors": ["afh:ch07", "afh:ch08"],
+    "why": "AFH ch7 Ground Reference Maneuvers teaches wind drift correction to hold a ground track, applied to the rectangular course in AFH ch8",
+    "confidence": "high"
+  },
+  "PA.III.B.S4": {
+    "anchors": ["afh:ch08"],
+    "why": "AFH ch8 Airport Traffic Patterns covers keeping the runway in sight and oriented on each leg",
+    "confidence": "high"
+  },
+  "PA.III.B.S5": {
+    "anchors": ["afh:ch08", "afh:ch04"],
+    "why": "AFH ch8 sets pattern altitude and airspeed; AFH ch4 Energy Management covers holding altitude and airspeed to tolerance",
+    "confidence": "high"
+  },
+  "PA.III.B.S6": {
+    "anchors": ["afh:ch08", "aim:ch04-s03"],
+    "why": "AFH ch8 covers spacing and sequencing behind other traffic; AIM 4-3 covers traffic advisory practice and pattern sequencing",
+    "confidence": "high"
+  }
+}

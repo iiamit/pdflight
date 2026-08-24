@@ -496,12 +496,26 @@ def test_button_labels_name_the_target():
     assert L.button_label("something-unknown") is None
 
 
-def test_no_button_label_is_wider_than_the_margin_allows():
-    widest = max((L.button_label(r) for r in
-                  ("14cfr:91.119", "phak:ch15", "aim:ch03-s02",
-                   "risk-management:ch02", "aviation-weather:ch05")), key=len)
-    assert L.button_width(widest) < 45.0, (
-        "%r is %.1fpt, too wide to sit inline" % (widest, L.button_width(widest)))
+def test_a_chapter_label_stays_narrow_enough_to_sit_inline():
+    """Chapter and section labels have to fit beside the element text.
+
+    Topic labels are deliberately exempt. The seaplane handbook has no
+    outline, so its anchors are named after its own section headings, and
+    "Glassy Water Landing" cannot be shortened without either inventing an
+    abbreviation or making 33 anchors share one chip. Those overflow to the
+    crosswalk page, which is what it is for.
+    """
+    for ref in ("14cfr:91.119", "phak:ch15", "aim:ch03-s02",
+                "risk-management:ch02", "aviation-weather:ch05"):
+        label = L.button_label(ref)
+        assert L.button_width(label) < 45.0, (
+            "%r is %.1fpt, too wide to sit inline"
+            % (label, L.button_width(label)))
+
+
+def test_a_topic_anchor_is_named_after_its_own_heading():
+    assert L.button_label("seaplane:glassy-water-landing") == "Glassy Water Landing"
+    assert L.button_label("seaplane:amphibious-gear") == "Amphibious Gear"
 
 
 def test_a_button_that_would_cross_the_margin_is_dropped_not_overprinted():

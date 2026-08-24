@@ -1,0 +1,648 @@
+{
+  "IR.V.A.K1": {
+    "anchors": ["ifh:ch09", "aim:ch01-s01"],
+    "why": "IFH Chapter 9 Navigation Systems covers VOR and NDB orientation, course determination and equipment tests; AIM Section 1 Navigation Aids covers the ground facilities and their service volumes",
+    "confidence": "high"
+  },
+  "IR.V.A.K2": {
+    "anchors": ["ifh:ch09", "aim:ch01-s02", "iph:ch06"],
+    "why": "IFH Chapter 9 covers GPS, WAAS and RAIM; AIM Section 2 PBN and RNAV covers satellite navigation use; IPH Chapter 6 Airborne Navigation Databases covers appropriate database use",
+    "confidence": "high"
+  },
+  "IR.V.A.R1": {
+    "anchors": ["risk-management:ch07", "ifh:ch05"],
+    "why": "Risk Management Chapter 7 is Automation and Flight Path Management; IFH Chapter 5 Flight Instruments covers the autopilot and flight director being managed",
+    "confidence": "high"
+  },
+  "IR.V.A.R2": {
+    "anchors": ["ifh:ch03", "risk-management:ch06"],
+    "why": "IFH Chapter 3 Human Factors covers spatial disorientation and loss of situational awareness; Risk Management Chapter 6 Threat and Error Management covers distraction and task prioritization",
+    "confidence": "high"
+  },
+  "IR.V.A.R3": {
+    "anchors": ["ifh:ch09", "aim:ch01-s01", "aim:ch01-s02"],
+    "why": "IFH Chapter 9 and the AIM Navigation Aids and PBN sections state service volumes, signal limits and RNAV system limitations",
+    "confidence": "high"
+  },
+  "IR.V.A.S1": {
+    "anchors": ["ifh:ch09", "aim:ch01-s01"],
+    "why": "IFH Chapter 9 covers tuning, identifying and accuracy checks; AIM Navigation Aids gives the identification and monitoring requirements",
+    "confidence": "high"
+  },
+  "IR.V.A.S10": {
+    "anchors": ["risk-management:ch08", "phak:ch02"],
+    "why": "Risk Management Chapter 8 is Aeronautical Decision-Making in Flight; PHAK Chapter 2 defines SRM and CRM",
+    "confidence": "high"
+  },
+  "IR.V.A.S2": {
+    "anchors": ["ifh:ch09"],
+    "why": "IFH Chapter 9 covers position determination relative to a facility or waypoint",
+    "confidence": "high"
+  },
+  "IR.V.A.S3": {
+    "anchors": ["ifh:ch09"],
+    "why": "IFH Chapter 9 covers course selection and orientation before intercept",
+    "confidence": "high"
+  },
+  "IR.V.A.S4": {
+    "anchors": ["ifh:ch09"],
+    "why": "IFH Chapter 9 covers intercept angles inbound to and outbound from a facility",
+    "confidence": "high"
+  },
+  "IR.V.A.S5": {
+    "anchors": ["ifh:ch06", "ifh:ch07"],
+    "why": "IFH Chapter 6 Airplane Attitude Instrument Flying covers the cross-check and control-and-performance method that holds these tolerances; Chapter 7 Airplane Basic Flight Maneuvers covers straight-and-level, turns and airspeed control on instruments",
+    "confidence": "high"
+  },
+  "IR.V.A.S6": {
+    "anchors": ["ifh:ch09"],
+    "why": "IFH Chapter 9 covers CDI interpretation, wind correction and DME arc tracking",
+    "confidence": "high"
+  },
+  "IR.V.A.S7": {
+    "anchors": ["ifh:ch09", "ifh:ch11"],
+    "why": "IFH Chapter 9 covers failure flags and integrity annunciations; Chapter 11 Emergency Operations covers reporting equipment failure to ATC",
+    "confidence": "medium"
+  },
+  "IR.V.A.S8": {
+    "anchors": ["ifh:ch05", "risk-management:ch07"],
+    "why": "IFH Chapter 5 Flight Instruments is where the MFD and electronic flight display presentations are described; Automation and Flight Path Management covers using them for situational awareness",
+    "confidence": "high"
+  },
+  "IR.V.A.S9": {
+    "anchors": ["ifh:ch05", "risk-management:ch07"],
+    "why": "IFH Chapter 5 covers autopilot and flight director modes; Risk Management Chapter 7 covers selecting and monitoring them during course intercepts",
+    "confidence": "high"
+  },
+
+  "IR.V.B.K1": {
+    "anchors": ["aim:ch05-s02", "aim:ch05-s03", "aim:ch05-s04"],
+    "why": "AIM Section 2 Departure Procedures covers DPs and climb gradients, Section 3 En Route Procedures covers ATC routes, Section 4 Arrival Procedures covers STARs and their constraints",
+    "confidence": "high"
+  },
+  "IR.V.B.K2": {
+    "anchors": ["aim:ch05-s05", "aim:ch04-s01", "aim:ch04-s02"],
+    "why": "AIM Pilot/Controller Roles and Responsibilities, plus Services Available to Pilots and Radio Communications Phraseology and Techniques",
+    "confidence": "high"
+  },
+  "IR.V.B.R1": {
+    "anchors": ["aim:ch04-s04", "aim:ch05-s05"],
+    "why": "AIM ATC Clearances and Aircraft Separation and Pilot/Controller Roles cover compliance with clearances and published procedures",
+    "confidence": "medium"
+  },
+  "IR.V.B.R2": {
+    "anchors": ["aim:ch04-s05"],
+    "why": "AIM Section 5 Surveillance Systems covers radar, ADS-B and traffic advisory service limitations",
+    "confidence": "high"
+  },
+  "IR.V.B.R3": {
+    "anchors": ["aim:ch05-s05"],
+    "why": "AIM Pilot/Controller Roles states the see and avoid responsibility in VMC regardless of flight plan",
+    "confidence": "high"
+  },
+  "IR.V.B.S1": {
+    "anchors": ["aim:ch01-s01", "aim:ch04-s02"],
+    "why": "AIM Navigation Aids for selecting and identifying navigation facilities; Radio Communications Phraseology for the communication facilities",
+    "confidence": "medium"
+  },
+  "IR.V.B.S10": {
+    "anchors": ["risk-management:ch08"],
+    "why": "Risk Management Chapter 8 covers aeronautical decision-making and resource management in flight",
+    "confidence": "medium"
+  },
+  "IR.V.B.S2": {
+    "anchors": [],
+    "why": "Generic checklist discipline; no chapter of a handbook this Task cites is more specific than the handbook as a whole",
+    "confidence": "high"
+  },
+  "IR.V.B.S3": {
+    "anchors": ["aim:ch09-s01"],
+    "why": "AIM Section 1 Types of Charts Available is the chart and publication currency section",
+    "confidence": "high"
+  },
+  "IR.V.B.S4": {
+    "anchors": ["aim:ch04-s02", "aim:ch04-s04"],
+    "why": "AIM Radio Communications Phraseology and Techniques plus ATC Clearances cover establishing contact and complying with instructions",
+    "confidence": "high"
+  },
+  "IR.V.B.S5": {
+    "anchors": ["aim:ch05-s03"],
+    "why": "AIM En Route Procedures covers course, radial and bearing interception along an assigned route; IFH Chapter 9 would fit better but this Task does not cite the IFH",
+    "confidence": "low"
+  },
+  "IR.V.B.S6": {
+    "anchors": ["aim:ch05-s02", "aim:ch05-s04"],
+    "why": "AIM Departure and Arrival Procedures define compliance with charted DP and STAR constraints",
+    "confidence": "medium"
+  },
+  "IR.V.B.S7": {
+    "anchors": [],
+    "why": "Tolerance standard whose natural targets are IFH Chapters 6 and 7, which this Task does not cite; no AFH, AIM or Risk Management chapter fits better than the handbook",
+    "confidence": "high"
+  },
+  "IR.V.B.S8": {
+    "anchors": ["aim:ch07-s01"],
+    "why": "AIM Section 1 Meteorology covers in-flight weather sources and hazardous weather advisories",
+    "confidence": "high"
+  },
+  "IR.V.B.S9": {
+    "anchors": ["aim:ch07-s01"],
+    "why": "AIM Meteorology covers FIS-B and data link weather displays and their currency limits",
+    "confidence": "high"
+  },
+
+  "IR.VI.A.K1": {
+    "anchors": ["iph:ch04", "ifh:ch10", "aim:ch05-s04"],
+    "why": "IPH Chapter 4 Approaches covers nonprecision approach construction and LP versus LNAV guidance, IFH Chapter 10 covers flying the approach, AIM Arrival Procedures covers approach clearances and minimums",
+    "confidence": "high"
+  },
+  "IR.VI.A.K2": {
+    "anchors": ["iph:ch04", "iph:ch06", "aim:ch01-s02"],
+    "why": "IPH Approaches and Airborne Navigation Databases cover RNAV approach modes and annunciations; AIM PBN and RNAV covers the system indications",
+    "confidence": "medium"
+  },
+  "IR.VI.A.K3": {
+    "anchors": ["ifh:ch09", "aim:ch01-s01", "aim:ch01-s02"],
+    "why": "IFH Chapter 9 Navigation Systems plus the AIM Navigation Aids and PBN sections cover the ground-based and satellite systems used for nonprecision approaches",
+    "confidence": "high"
+  },
+  "IR.VI.A.K4": {
+    "anchors": ["afh:ch09", "afh:ch04"],
+    "why": "AFH Chapter 9 Approaches and Landings defines the stabilized approach; AFH Chapter 4 Energy Management covers altitude and airspeed control",
+    "confidence": "high"
+  },
+  "IR.VI.A.R1": {
+    "anchors": ["iph:ch04", "risk-management:ch06"],
+    "why": "IPH Approaches sets the procedure to be flown; Threat and Error Management covers deviation as an error to trap",
+    "confidence": "medium"
+  },
+  "IR.VI.A.R2": {
+    "anchors": ["ifh:ch09"],
+    "why": "IFH Chapter 9 covers frequency selection and identification of the approach navaid",
+    "confidence": "low"
+  },
+  "IR.VI.A.R3": {
+    "anchors": ["risk-management:ch07"],
+    "why": "Risk Management Chapter 7 is Automation and Flight Path Management",
+    "confidence": "high"
+  },
+  "IR.VI.A.R4": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Chapter 9 Approaches and Landings covers configuration through the approach and the go-around",
+    "confidence": "medium"
+  },
+  "IR.VI.A.R5": {
+    "anchors": ["afh:ch09", "iph:ch04"],
+    "why": "AFH Approaches and Landings defines stabilized approach criteria; IPH Approaches covers descent rate limits on the final segment",
+    "confidence": "medium"
+  },
+  "IR.VI.A.R6": {
+    "anchors": ["aim:ch07-s01", "risk-management:ch03"],
+    "why": "AIM Meteorology covers deteriorating conditions and reports; Risk Management Chapter 3 covers weather as an environmental hazard",
+    "confidence": "medium"
+  },
+  "IR.VI.A.R7": {
+    "anchors": ["iph:ch04", "aim:ch05-s04"],
+    "why": "IPH Approaches and AIM Arrival Procedures state the visual reference requirement for descent below MDA",
+    "confidence": "medium"
+  },
+  "IR.VI.A.S1": {
+    "anchors": ["iph:ch04", "ifh:ch10"],
+    "why": "IPH Chapter 4 covers nonprecision approach procedures; IFH Chapter 10 covers conducting them in IFR flight",
+    "confidence": "high"
+  },
+  "IR.VI.A.S10": {
+    "anchors": ["iph:ch04", "aim:ch05-s04"],
+    "why": "IPH Approaches covers approach categories and inoperative components; AIM Arrival Procedures covers the minimums adjustment",
+    "confidence": "medium"
+  },
+  "IR.VI.A.S11": {
+    "anchors": ["afh:ch09", "ifh:ch07"],
+    "why": "AFH Approaches and Landings covers the stabilized descent; IFH Chapter 7 Airplane Basic Flight Maneuvers covers constant-rate descents and level-off on instruments",
+    "confidence": "medium"
+  },
+  "IR.VI.A.S12": {
+    "anchors": ["iph:ch04"],
+    "why": "IPH Approaches covers the final approach segment, the VDP and the missed approach point",
+    "confidence": "low"
+  },
+  "IR.VI.A.S13": {
+    "anchors": ["iph:ch04", "aim:ch05-s04"],
+    "why": "IPH Approaches and AIM Arrival Procedures list the visual references required to continue for landing",
+    "confidence": "medium"
+  },
+  "IR.VI.A.S14": {
+    "anchors": ["ifh:ch05", "risk-management:ch07"],
+    "why": "IFH Chapter 5 describes MFD and electronic display presentations; Automation and Flight Path Management covers monitoring with them",
+    "confidence": "high"
+  },
+  "IR.VI.A.S15": {
+    "anchors": ["risk-management:ch08"],
+    "why": "Risk Management Chapter 8 covers in-flight decision-making and resource management",
+    "confidence": "medium"
+  },
+  "IR.VI.A.S2": {
+    "anchors": ["aim:ch04-s02"],
+    "why": "AIM Radio Communications Phraseology and Techniques covers approach-phase phraseology",
+    "confidence": "high"
+  },
+  "IR.VI.A.S3": {
+    "anchors": ["ifh:ch09", "aim:ch01-s01"],
+    "why": "IFH Chapter 9 covers tuning, identifying and status checks; AIM Navigation Aids covers NAVAID monitoring and NOTAM status",
+    "confidence": "high"
+  },
+  "IR.VI.A.S4": {
+    "anchors": ["aim:ch04-s04"],
+    "why": "AIM ATC Clearances and Aircraft Separation covers clearance compliance",
+    "confidence": "medium"
+  },
+  "IR.VI.A.S5": {
+    "anchors": ["ifh:ch11", "ifh:ch05"],
+    "why": "IFH Chapter 11 Emergency Operations covers instrument failure recognition and partial panel response; Chapter 5 Flight Instruments covers the errors and failure indications themselves",
+    "confidence": "high"
+  },
+  "IR.VI.A.S6": {
+    "anchors": ["aim:ch04-s04", "aim:ch05-s05"],
+    "why": "AIM ATC Clearances and Pilot/Controller Roles both state the duty to advise ATC when unable to comply",
+    "confidence": "medium"
+  },
+  "IR.VI.A.S7": {
+    "anchors": [],
+    "why": "Generic checklist completion; no cited chapter is more specific than the handbook",
+    "confidence": "high"
+  },
+  "IR.VI.A.S8": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers approach configuration and airspeed selection",
+    "confidence": "medium"
+  },
+  "IR.VI.A.S9": {
+    "anchors": ["ifh:ch06", "ifh:ch07"],
+    "why": "IFH Chapter 6 Airplane Attitude Instrument Flying covers the cross-check that holds altitude, heading and airspeed; Chapter 7 Basic Flight Maneuvers covers tracking courses and bearings within tolerance",
+    "confidence": "high"
+  },
+
+  "IR.VI.B.K1": {
+    "anchors": ["ifh:ch10", "aim:ch05-s04"],
+    "why": "IFH Chapter 10 covers precision approach procedures and required descent rates; AIM Arrival Procedures covers inoperative component minimums adjustment",
+    "confidence": "high"
+  },
+  "IR.VI.B.K2": {
+    "anchors": ["ifh:ch05", "ifh:ch09"],
+    "why": "IFH Chapter 5 Flight Instruments covers display modes, annunciations and the flight director; Chapter 9 covers ILS and LPV guidance presentation",
+    "confidence": "high"
+  },
+  "IR.VI.B.K3": {
+    "anchors": ["ifh:ch09", "aim:ch01-s01", "aim:ch01-s02"],
+    "why": "IFH Chapter 9 plus AIM Navigation Aids and PBN and RNAV cover equipment, tests, interference and signal integrity",
+    "confidence": "high"
+  },
+  "IR.VI.B.K4": {
+    "anchors": ["afh:ch09", "afh:ch04"],
+    "why": "AFH Approaches and Landings defines the stabilized approach; AFH Energy Management covers altitude and airspeed control",
+    "confidence": "high"
+  },
+  "IR.VI.B.R1": {
+    "anchors": ["ifh:ch10", "risk-management:ch06"],
+    "why": "IFH Chapter 10 sets the approach as cleared; Threat and Error Management covers deviation as an error to trap",
+    "confidence": "medium"
+  },
+  "IR.VI.B.R2": {
+    "anchors": ["ifh:ch09"],
+    "why": "IFH Chapter 9 covers localizer and glideslope frequency selection and identification",
+    "confidence": "low"
+  },
+  "IR.VI.B.R3": {
+    "anchors": ["risk-management:ch07"],
+    "why": "Risk Management Chapter 7 is Automation and Flight Path Management",
+    "confidence": "high"
+  },
+  "IR.VI.B.R4": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers configuration through approach and go-around",
+    "confidence": "medium"
+  },
+  "IR.VI.B.R5": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings defines stabilized approach criteria and excessive descent rate",
+    "confidence": "medium"
+  },
+  "IR.VI.B.R6": {
+    "anchors": ["aim:ch07-s01", "risk-management:ch03"],
+    "why": "AIM Meteorology covers deteriorating conditions and reports; Risk Management Chapter 3 covers weather as an environmental hazard",
+    "confidence": "medium"
+  },
+  "IR.VI.B.R7": {
+    "anchors": ["ifh:ch10", "aim:ch05-s04"],
+    "why": "IFH Chapter 10 and AIM Arrival Procedures state the visual reference requirement at DA/DH",
+    "confidence": "medium"
+  },
+  "IR.VI.B.S1": {
+    "anchors": ["ifh:ch10", "ifh:ch09"],
+    "why": "IFH Chapter 10 covers conducting the precision approach; Chapter 9 covers the ILS and LPV guidance used",
+    "confidence": "high"
+  },
+  "IR.VI.B.S10": {
+    "anchors": ["aim:ch05-s04", "ifh:ch10"],
+    "why": "AIM Arrival Procedures covers inoperative components and approach category minimums; IFH Chapter 10 covers applying them",
+    "confidence": "medium"
+  },
+  "IR.VI.B.S11": {
+    "anchors": ["ifh:ch10", "ifh:ch07"],
+    "why": "IFH Chapter 10 covers computing the descent rate at glidepath intercept; Chapter 7 Basic Flight Maneuvers covers establishing and holding a constant-rate descent",
+    "confidence": "high"
+  },
+  "IR.VI.B.S12": {
+    "anchors": ["afh:ch09", "ifh:ch10"],
+    "why": "AFH Approaches and Landings defines the stabilized final approach; IFH Chapter 10 covers tracking guidance from FAF to DA/DH",
+    "confidence": "medium"
+  },
+  "IR.VI.B.S13": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH Chapter 10 covers the missed approach decision at DA/DH",
+    "confidence": "medium"
+  },
+  "IR.VI.B.S14": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers the transition to a normal landing approach",
+    "confidence": "high"
+  },
+  "IR.VI.B.S15": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers the visual flight path to the aiming point and the touchdown zone",
+    "confidence": "high"
+  },
+  "IR.VI.B.S16": {
+    "anchors": ["ifh:ch05", "risk-management:ch07"],
+    "why": "IFH Chapter 5 describes MFD presentations; Automation and Flight Path Management covers monitoring with them",
+    "confidence": "high"
+  },
+  "IR.VI.B.S17": {
+    "anchors": ["risk-management:ch08"],
+    "why": "Risk Management Chapter 8 covers in-flight decision-making and resource management",
+    "confidence": "medium"
+  },
+  "IR.VI.B.S2": {
+    "anchors": ["aim:ch04-s02"],
+    "why": "AIM Radio Communications Phraseology and Techniques covers approach-phase phraseology",
+    "confidence": "high"
+  },
+  "IR.VI.B.S3": {
+    "anchors": ["ifh:ch09", "aim:ch01-s01"],
+    "why": "IFH Chapter 9 covers tuning and identifying the localizer; AIM Navigation Aids covers ILS status and monitoring",
+    "confidence": "high"
+  },
+  "IR.VI.B.S4": {
+    "anchors": ["aim:ch04-s04"],
+    "why": "AIM ATC Clearances and Aircraft Separation covers clearance compliance",
+    "confidence": "medium"
+  },
+  "IR.VI.B.S5": {
+    "anchors": ["ifh:ch11", "ifh:ch05"],
+    "why": "IFH Chapter 11 Emergency Operations covers instrument failure recognition and partial panel response; Chapter 5 covers the failure indications themselves",
+    "confidence": "high"
+  },
+  "IR.VI.B.S6": {
+    "anchors": ["aim:ch04-s04", "aim:ch05-s05"],
+    "why": "AIM ATC Clearances and Pilot/Controller Roles cover advising ATC when unable to comply",
+    "confidence": "medium"
+  },
+  "IR.VI.B.S7": {
+    "anchors": [],
+    "why": "Generic checklist completion; no cited chapter is more specific than the handbook",
+    "confidence": "high"
+  },
+  "IR.VI.B.S8": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers approach configuration and airspeed selection",
+    "confidence": "medium"
+  },
+  "IR.VI.B.S9": {
+    "anchors": ["ifh:ch06", "ifh:ch07"],
+    "why": "IFH Chapter 6 Airplane Attitude Instrument Flying covers the cross-check that holds altitude, heading and airspeed; Chapter 7 Basic Flight Maneuvers covers tracking courses within tolerance",
+    "confidence": "high"
+  },
+
+  "IR.VI.C.K1": {
+    "anchors": ["iph:ch04", "ifh:ch10", "aim:ch05-s04"],
+    "why": "IPH Chapter 4 covers missed approach segment design, IFH Chapter 10 covers flying it, AIM Arrival Procedures covers missed approach clearance handling",
+    "confidence": "high"
+  },
+  "IR.VI.C.R1": {
+    "anchors": ["aim:ch04-s04", "risk-management:ch06"],
+    "why": "AIM ATC Clearances covers compliance; Threat and Error Management covers deviation as an error to trap",
+    "confidence": "medium"
+  },
+  "IR.VI.C.R2": {
+    "anchors": ["iph:ch03", "ifh:ch10"],
+    "why": "IPH Chapter 3 Arrivals covers holding and diversion decisions; IFH Chapter 10 covers electing to fly the approach again",
+    "confidence": "medium"
+  },
+  "IR.VI.C.R3": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers configuration through approach and go-around",
+    "confidence": "medium"
+  },
+  "IR.VI.C.R4": {
+    "anchors": ["afh:ch09", "iph:ch04"],
+    "why": "AFH Approaches and Landings covers go-around triggers; IPH Approaches covers an early missed approach from the final segment",
+    "confidence": "medium"
+  },
+  "IR.VI.C.R5": {
+    "anchors": ["risk-management:ch07"],
+    "why": "Risk Management Chapter 7 is Automation and Flight Path Management",
+    "confidence": "high"
+  },
+  "IR.VI.C.S1": {
+    "anchors": ["iph:ch04", "aim:ch05-s04"],
+    "why": "IPH Approaches covers initiating the missed approach; AIM Arrival Procedures covers reporting it to ATC",
+    "confidence": "medium"
+  },
+  "IR.VI.C.S10": {
+    "anchors": ["iph:ch03", "aim:ch05-s04"],
+    "why": "IPH Arrivals covers holding and proceeding to an alternate; AIM Arrival Procedures covers requesting a further clearance",
+    "confidence": "medium"
+  },
+  "IR.VI.C.S2": {
+    "anchors": ["ifh:ch06", "afh:ch09"],
+    "why": "IFH Chapter 6 is the control-and-performance concept of setting power and pitch attitude to obtain desired performance; AFH Approaches and Landings covers the go-around power application",
+    "confidence": "high"
+  },
+  "IR.VI.C.S3": {
+    "anchors": ["afh:ch09", "ifh:ch07"],
+    "why": "AFH Approaches and Landings covers go-around configuration change; IFH Chapter 7 Basic Flight Maneuvers covers establishing a climb and accelerating to a target airspeed on instruments",
+    "confidence": "medium"
+  },
+  "IR.VI.C.S4": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers the go-around procedure the checklist follows",
+    "confidence": "low"
+  },
+  "IR.VI.C.S5": {
+    "anchors": ["iph:ch04", "ifh:ch10"],
+    "why": "IPH Approaches covers published and alternate missed approach procedures; IFH Chapter 10 covers flying them",
+    "confidence": "medium"
+  },
+  "IR.VI.C.S6": {
+    "anchors": ["aim:ch04-s04", "aim:ch05-s05"],
+    "why": "AIM ATC Clearances and Pilot/Controller Roles cover advising ATC when unable to meet a restriction or climb gradient",
+    "confidence": "medium"
+  },
+  "IR.VI.C.S7": {
+    "anchors": ["ifh:ch06", "ifh:ch07"],
+    "why": "IFH Chapter 6 Airplane Attitude Instrument Flying covers the cross-check that holds these tolerances; Chapter 7 Basic Flight Maneuvers covers climbs and course tracking during the missed approach",
+    "confidence": "high"
+  },
+  "IR.VI.C.S8": {
+    "anchors": ["ifh:ch05", "risk-management:ch07"],
+    "why": "IFH Chapter 5 describes MFD presentations; Automation and Flight Path Management covers monitoring the missed approach track",
+    "confidence": "high"
+  },
+  "IR.VI.C.S9": {
+    "anchors": ["risk-management:ch08"],
+    "why": "Risk Management Chapter 8 covers in-flight decision-making and resource management",
+    "confidence": "medium"
+  },
+
+  "IR.VI.D.K1": {
+    "anchors": ["iph:ch04", "aim:ch05-s04"],
+    "why": "IPH Chapter 4 covers circling procedures and approach category airspeed limits; AIM Arrival Procedures covers circling minimums and maneuvering areas",
+    "confidence": "high"
+  },
+  "IR.VI.D.R1": {
+    "anchors": ["iph:ch04"],
+    "why": "IPH Approaches covers prescribed circling maneuvers and charted circling restrictions",
+    "confidence": "medium"
+  },
+  "IR.VI.D.R2": {
+    "anchors": ["afh:ch11", "iph:ch04"],
+    "why": "AFH Chapter 11 Night Operations covers night visual illusions and maneuvering; IPH Approaches covers circling in marginal visibility",
+    "confidence": "medium"
+  },
+  "IR.VI.D.R3": {
+    "anchors": ["iph:ch04"],
+    "why": "IPH Approaches states the action required on losing visual contact while circling",
+    "confidence": "medium"
+  },
+  "IR.VI.D.R4": {
+    "anchors": ["risk-management:ch07"],
+    "why": "Risk Management Chapter 7 is Automation and Flight Path Management",
+    "confidence": "high"
+  },
+  "IR.VI.D.R5": {
+    "anchors": ["iph:ch04"],
+    "why": "IPH Approaches covers altitude, airspeed and distance control within the circling area",
+    "confidence": "medium"
+  },
+  "IR.VI.D.R6": {
+    "anchors": ["afh:ch05", "risk-management:ch03"],
+    "why": "AFH Chapter 5 Upset Prevention and Recovery covers stall and spin awareness in low altitude maneuvering; Risk Management Chapter 3 covers terrain hazards and CFIT",
+    "confidence": "low"
+  },
+  "IR.VI.D.R7": {
+    "anchors": ["iph:ch04"],
+    "why": "IPH Approaches covers the climbing turn toward the airport when a missed approach begins while circling",
+    "confidence": "medium"
+  },
+  "IR.VI.D.S1": {
+    "anchors": ["iph:ch04"],
+    "why": "IPH Approaches covers circling procedure compliance and approach category maneuvering capability",
+    "confidence": "medium"
+  },
+  "IR.VI.D.S2": {
+    "anchors": ["aim:ch04-s03", "aim:ch04-s04"],
+    "why": "AIM Airport Operations covers traffic direction at the airport; ATC Clearances covers adhering to issued restrictions",
+    "confidence": "low"
+  },
+  "IR.VI.D.S3": {
+    "anchors": ["risk-management:ch08"],
+    "why": "Risk Management Chapter 8 covers in-flight decision-making and resource management",
+    "confidence": "medium"
+  },
+  "IR.VI.D.S4": {
+    "anchors": ["afh:ch09", "iph:ch04"],
+    "why": "AFH Approaches and Landings covers landing configuration and stabilized descent; IPH Approaches covers arriving at MDA before the missed approach point",
+    "confidence": "medium"
+  },
+  "IR.VI.D.S5": {
+    "anchors": ["ifh:ch06", "ifh:ch07"],
+    "why": "IFH Chapter 6 Airplane Attitude Instrument Flying covers the cross-check that holds airspeed, track and altitude; Chapter 7 Basic Flight Maneuvers covers level flight and turns at circling minimums",
+    "confidence": "high"
+  },
+  "IR.VI.D.S6": {
+    "anchors": ["afh:ch08", "iph:ch04"],
+    "why": "AFH Chapter 8 Airport Traffic Patterns covers maneuvering to base and downwind; IPH Approaches covers doing it within the circling area",
+    "confidence": "medium"
+  },
+  "IR.VI.D.S7": {
+    "anchors": ["iph:ch04"],
+    "why": "IPH Approaches covers the correct turn direction and configuration for a missed approach while circling",
+    "confidence": "medium"
+  },
+  "IR.VI.D.S8": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers stabilized descent, touchdown point and bank limits",
+    "confidence": "high"
+  },
+
+  "IR.VI.E.K1": {
+    "anchors": ["afh:ch09", "iph:ch04"],
+    "why": "AFH Approaches and Landings covers environmental and operational factors on landing; IPH Approaches covers pilot responsibilities on a straight-in or circling arrival",
+    "confidence": "medium"
+  },
+  "IR.VI.E.K2": {
+    "anchors": ["aim:ch02-s01", "aim:ch02-s03", "phak:ch14"],
+    "why": "AIM Section 1 Airport Lighting Aids covers approach lighting systems, Section 3 Airport Marking Aids and Signs covers markings and signs, PHAK Chapter 14 Airport Operations summarizes both",
+    "confidence": "high"
+  },
+  "IR.VI.E.K3": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers landing profiles and configurations",
+    "confidence": "high"
+  },
+  "IR.VI.E.R1": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings defines stabilized approach criteria and the go-around when they are not met",
+    "confidence": "high"
+  },
+  "IR.VI.E.R2": {
+    "anchors": ["afh:ch09", "aim:ch02-s01"],
+    "why": "AFH Approaches and Landings covers glidepath control; AIM Airport Lighting Aids covers VASI and PAPI glidepath indications",
+    "confidence": "medium"
+  },
+  "IR.VI.E.R3": {
+    "anchors": ["ifh:ch10", "afh:ch09"],
+    "why": "IFH Chapter 10 covers the transition from instrument to visual references; AFH Approaches and Landings covers the visual landing that follows",
+    "confidence": "medium"
+  },
+  "IR.VI.E.R4": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers landing configuration",
+    "confidence": "high"
+  },
+  "IR.VI.E.S1": {
+    "anchors": ["ifh:ch10", "afh:ch09"],
+    "why": "IFH Chapter 10 covers the DA/MDA/VDP transition to visual conditions; AFH Approaches and Landings covers the visual maneuvering and landing",
+    "confidence": "medium"
+  },
+  "IR.VI.E.S2": {
+    "anchors": ["aim:ch07-s04", "aim:ch04-s03"],
+    "why": "AIM Section 4 Wake Turbulence covers separation and avoidance advisories; AIM Airport Operations covers runway condition and other landing advisories",
+    "confidence": "medium"
+  },
+  "IR.VI.E.S3": {
+    "anchors": [],
+    "why": "Generic checklist completion; no cited chapter is more specific than the handbook",
+    "confidence": "high"
+  },
+  "IR.VI.E.S4": {
+    "anchors": ["afh:ch09"],
+    "why": "AFH Approaches and Landings covers positive control through roundout, touchdown and rollout",
+    "confidence": "high"
+  },
+  "IR.VI.E.S5": {
+    "anchors": ["risk-management:ch08"],
+    "why": "Risk Management Chapter 8 covers in-flight decision-making and resource management",
+    "confidence": "medium"
+  }
+}

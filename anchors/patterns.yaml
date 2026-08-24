@@ -289,36 +289,6 @@ ac:61-65K:8-pilot-training-and-testing-title-14-cfr-pa:
 # acs-private-airplane: outline match
 
 # aviation-weather: outline match
-awh:1-introduction:
-  doc: aviation-weather
-  strategy: outline
-  match: '1 Introduction'
-  ordinal: 1
-awh:2-aviation-weather-service-program:
-  doc: aviation-weather
-  strategy: outline
-  match: '2 Aviation Weather Service Program'
-  ordinal: 1
-awh:3-overview-of-aviation-weather-information:
-  doc: aviation-weather
-  strategy: outline
-  match: '3 Overview of Aviation Weather Information'
-  ordinal: 1
-awh:4-the-earth-s-atmosphere:
-  doc: aviation-weather
-  strategy: outline
-  match: '4 The Earth’s Atmosphere'
-  ordinal: 1
-awh:5-heat-and-temperature:
-  doc: aviation-weather
-  strategy: outline
-  match: '5 Heat and Temperature'
-  ordinal: 1
-awh:6-water-vapor:
-  doc: aviation-weather
-  strategy: outline
-  match: '6 Water Vapor'
-  ordinal: 1
 
 # Regulations: native destinations from the Phase 2 CFR build.
 # No pattern is needed; the ref itself is the label.

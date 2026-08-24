@@ -1,0 +1,1934 @@
+{
+  "AA.III.A.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch06"
+    ],
+    "why": "PHAK ch11 Aircraft Performance covers density altitude and wind effects; AFH ch6 Takeoffs and Departure Climbs applies them to the takeoff roll and climb. No CFR part cited by this Task",
+    "confidence": "high"
+  },
+  "AA.III.A.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "AFH ch6 defines the takeoff and climb speeds; PHAK ch11 covers where they come from in the performance data",
+    "confidence": "high"
+  },
+  "AA.III.A.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers takeoff configuration and power setting for normal and short field takeoffs",
+    "confidence": "high"
+  },
+  "AA.III.A.K4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14"
+    ],
+    "why": "PHAK ch14 Airport Operations covers runway markings and lighting. The AIM is not cited by this Task",
+    "confidence": "high"
+  },
+  "AA.III.A.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "AFH ch6 covers runway selection for wind and surface; PHAK ch11 supplies the distance required against distance available",
+    "confidence": "high"
+  },
+  "AA.III.A.R2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14"
+    ],
+    "why": "PHAK ch14 Airport Operations covers wake turbulence generation, behavior and avoidance. The AIM is not cited by this Task",
+    "confidence": "high"
+  },
+  "AA.III.A.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "Parent element on abnormal operations; AFH ch18 Emergency Procedures is the general source",
+    "confidence": "low"
+  },
+  "AA.III.A.R3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch06"
+    ],
+    "why": "AFH ch18 covers the rejected takeoff decision and execution; ch6 covers the takeoff phase it interrupts",
+    "confidence": "high"
+  },
+  "AA.III.A.R3b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch13"
+    ],
+    "why": "AFH ch18 covers engine failure after takeoff; ch13 covers the multiengine takeoff failure decision",
+    "confidence": "high"
+  },
+  "AA.III.A.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers trim and flap setting for takeoff. Autobrake configuration is airplane specific",
+    "confidence": "low"
+  },
+  "AA.III.A.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch08"
+    ],
+    "why": "AFH ch8 Airport Traffic Patterns covers scanning and collision avoidance in the airport environment. The AIM is not cited by this Task",
+    "confidence": "low"
+  },
+  "AA.III.A.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude loss of control, stall, spin and CFIT precursors",
+    "confidence": "high"
+  },
+  "AA.III.A.R7": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
+    "confidence": "high"
+  },
+  "AA.III.A.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination before takeoff",
+    "confidence": "low"
+  },
+  "AA.III.A.S10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers confirming takeoff power and instrument indications during the takeoff roll",
+    "confidence": "low"
+  },
+  "AA.III.A.S11": {
+    "sections": [],
+    "anchors": [
+      "seaplane:takeoffs"
+    ],
+    "why": "The seaplane handbook takeoff section covers minimising propeller spray during the water run",
+    "confidence": "low"
+  },
+  "AA.III.A.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers rotation and liftoff at the recommended airspeed",
+    "confidence": "high"
+  },
+  "AA.III.A.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers setting climb power and pitch attitude to hold the climb speed",
+    "confidence": "high"
+  },
+  "AA.III.A.S14": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers tracking the extended centerline and heading during the departure climb",
+    "confidence": "low"
+  },
+  "AA.III.A.S15": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch12"
+    ],
+    "why": "AFH ch6 covers flap retraction in the climb; ch12 covers landing gear retraction procedure in retractable gear airplanes",
+    "confidence": "high"
+  },
+  "AA.III.A.S16": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14"
+    ],
+    "why": "PHAK ch14 gives the wake turbulence avoidance procedures for departure",
+    "confidence": "high"
+  },
+  "AA.III.A.S17": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14"
+    ],
+    "why": "PHAK ch14 Airport Operations covers noise abatement procedures. The AIM is not cited by this Task",
+    "confidence": "low"
+  },
+  "AA.III.A.S18": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 covers checklist use, including the after takeoff checklist",
+    "confidence": "low"
+  },
+  "AA.III.A.S2": {
+    "sections": [],
+    "anchors": [],
+    "why": "Radio calls are AIM material and this Task does not cite the AIM",
+    "confidence": "high"
+  },
+  "AA.III.A.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers confirming the correct runway or takeoff path before applying power",
+    "confidence": "low"
+  },
+  "AA.III.A.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 covers the before takeoff configuration verification",
+    "confidence": "low"
+  },
+  "AA.III.A.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers aileron and elevator positioning for the existing wind during the takeoff roll",
+    "confidence": "high"
+  },
+  "AA.III.A.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers clearing the area, taxiing into position and aligning on the centerline",
+    "confidence": "high"
+  },
+  "AA.III.A.S7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:using-water-rudders"
+    ],
+    "why": "The water rudder section covers retraction before the takeoff run",
+    "confidence": "high"
+  },
+  "AA.III.A.S8": {
+    "sections": [],
+    "anchors": [
+      "seaplane:planing-or-step-position",
+      "seaplane:porpoising",
+      "seaplane:skipping"
+    ],
+    "why": "The planing section gives the liftoff attitude; the porpoising and skipping sections give the corrections",
+    "confidence": "high"
+  },
+  "AA.III.A.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers directional control and centerline tracking during the takeoff roll",
+    "confidence": "high"
+  },
+  "AA.III.B.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch09"
+    ],
+    "why": "AFH ch4 Energy Management supplies the energy concepts; ch9 Approaches and Landings defines the stabilized approach",
+    "confidence": "high"
+  },
+  "AA.III.B.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch09"
+    ],
+    "why": "PHAK ch11 covers density altitude and wind effect on landing distance; AFH ch9 applies it to the approach",
+    "confidence": "high"
+  },
+  "AA.III.B.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers the crab and sideslip crosswind correction techniques on approach and landing",
+    "confidence": "high"
+  },
+  "AA.III.B.K4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch02-s03",
+      "aim:ch02-s01",
+      "phak:ch14"
+    ],
+    "why": "AIM 2-3 covers runway markings and signs, AIM 2-1 runway lighting, PHAK ch14 gives the same material in handbook form",
+    "confidence": "high"
+  },
+  "AA.III.B.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "phak:ch11"
+    ],
+    "why": "AFH ch9 covers runway and touchdown point selection for wind and surface; PHAK ch11 supplies the landing distance required",
+    "confidence": "high"
+  },
+  "AA.III.B.R2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s04",
+      "phak:ch14"
+    ],
+    "why": "AIM 7-4 is the wake turbulence section including arrival avoidance; PHAK ch14 covers the same hazard",
+    "confidence": "high"
+  },
+  "AA.III.B.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers the go-around decision and execution from the approach",
+    "confidence": "high"
+  },
+  "AA.III.B.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "AIM 4-3 Airport Operations covers land and hold short operations and the pilot responsibilities they carry",
+    "confidence": "high"
+  },
+  "AA.III.B.R5": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03",
+      "afh:ch08"
+    ],
+    "why": "AIM 4-3 covers traffic in the airport environment; AFH ch8 covers pattern scanning and separation",
+    "confidence": "low"
+  },
+  "AA.III.B.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors",
+    "confidence": "high"
+  },
+  "AA.III.B.R7": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task management and wrong surface approach as an error outcome",
+    "confidence": "high"
+  },
+  "AA.III.B.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination",
+    "confidence": "low"
+  },
+  "AA.III.B.S10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers the touchdown attitude, speed and aiming point technique",
+    "confidence": "high"
+  },
+  "AA.III.B.S11": {
+    "sections": [],
+    "anchors": [
+      "seaplane:normal-landing"
+    ],
+    "why": "The seaplane normal landing section covers round out and water contact at the correct pitch attitude",
+    "confidence": "high"
+  },
+  "AA.III.B.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "phak:ch11"
+    ],
+    "why": "AFH ch9 covers the after landing roll and braking; PHAK ch11 supplies the calculated landing distance",
+    "confidence": "low"
+  },
+  "AA.III.B.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch16",
+      "afh:ch09"
+    ],
+    "why": "AFH ch16 covers spoilers, thrust reverse and antiskid braking on jets; ch9 covers wheel braking on the landing roll",
+    "confidence": "low"
+  },
+  "AA.III.B.S14": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers making a timely go-around when the approach is not stabilized",
+    "confidence": "high"
+  },
+  "AA.III.B.S15": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "AIM 4-3 gives the runway incursion avoidance procedures after landing",
+    "confidence": "high"
+  },
+  "AA.III.B.S2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 gives the radio communication phraseology and technique",
+    "confidence": "high"
+  },
+  "AA.III.B.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch08",
+      "aim:ch04-s03"
+    ],
+    "why": "AFH ch8 Airport Traffic Patterns covers ground track and pattern geometry; AIM 4-3 covers ATC instructions in the pattern",
+    "confidence": "high"
+  },
+  "AA.III.B.S4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "AIM 4-3 covers runway identification and wrong surface landing avoidance",
+    "confidence": "high"
+  },
+  "AA.III.B.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers scanning the landing surface and adjoining area before committing to land",
+    "confidence": "low"
+  },
+  "AA.III.B.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers touchdown point selection for wind, surface and obstructions",
+    "confidence": "high"
+  },
+  "AA.III.B.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "AFH ch9 gives the approach configuration and airspeed; ch4 gives the energy management that keeps it stabilized",
+    "confidence": "high"
+  },
+  "AA.III.B.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers directional control and crosswind correction through the approach and landing",
+    "confidence": "high"
+  },
+  "AA.III.B.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers the round out, touchdown and after landing control application",
+    "confidence": "high"
+  },
+  "AA.III.C.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "seaplane:glassy-water-takeoffs"
+    ],
+    "why": "PHAK ch11 covers atmospheric effects on takeoff and climb performance; the glassy water takeoff section covers how a calm surface compounds them",
+    "confidence": "high"
+  },
+  "AA.III.C.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "AFH ch6 defines takeoff and climb power settings and speeds; PHAK ch11 covers where they come from",
+    "confidence": "high"
+  },
+  "AA.III.C.K3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-takeoffs"
+    ],
+    "why": "The glassy water takeoff section gives the flap and control configuration for the maneuver",
+    "confidence": "low"
+  },
+  "AA.III.C.K4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-takeoffs"
+    ],
+    "why": "Named section for the glassy water takeoff and climb technique",
+    "confidence": "high"
+  },
+  "AA.III.C.R1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance",
+      "phak:ch11"
+    ],
+    "why": "Reconnaissance covers surveying the takeoff path for surface and hazards; PHAK ch11 supplies the distance required",
+    "confidence": "low"
+  },
+  "AA.III.C.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "Parent element on abnormal operations; AFH ch18 Emergency Procedures is the general source",
+    "confidence": "low"
+  },
+  "AA.III.C.R2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "AFH ch18 covers the rejected takeoff decision and execution",
+    "confidence": "high"
+  },
+  "AA.III.C.R2b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch13"
+    ],
+    "why": "AFH ch18 covers engine failure after takeoff; ch13 covers the multiengine case",
+    "confidence": "high"
+  },
+  "AA.III.C.R3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Reconnaissance covers detecting vessels, debris and obstructions in the intended path",
+    "confidence": "low"
+  },
+  "AA.III.C.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors",
+    "confidence": "high"
+  },
+  "AA.III.C.R5": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
+    "confidence": "high"
+  },
+  "AA.III.C.R6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:amphibious-gear"
+    ],
+    "why": "The seaplane handbook states that the wheels must be retracted when landing an amphibian on water",
+    "confidence": "high"
+  },
+  "AA.III.C.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination before takeoff",
+    "confidence": "low"
+  },
+  "AA.III.C.S10": {
+    "sections": [],
+    "anchors": [
+      "seaplane:planing-or-step-position",
+      "seaplane:porpoising",
+      "seaplane:skipping"
+    ],
+    "why": "The planing section gives the step attitude; the porpoising and skipping sections give the corrections and the drag consequence",
+    "confidence": "high"
+  },
+  "AA.III.C.S11": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-takeoffs"
+    ],
+    "why": "The glassy water takeoff section gives the technique for breaking the water free of a calm surface",
+    "confidence": "high"
+  },
+  "AA.III.C.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers setting climb power and pitch attitude to hold the climb speed",
+    "confidence": "high"
+  },
+  "AA.III.C.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers flap retraction after a positive rate of climb is established",
+    "confidence": "low"
+  },
+  "AA.III.C.S14": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14"
+    ],
+    "why": "PHAK ch14 Airport Operations covers noise abatement procedures. The AIM is not cited by this Task",
+    "confidence": "low"
+  },
+  "AA.III.C.S2": {
+    "sections": [],
+    "anchors": [],
+    "why": "Radio calls are AIM material and this Task does not cite the AIM",
+    "confidence": "high"
+  },
+  "AA.III.C.S3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-takeoffs"
+    ],
+    "why": "The crosswind takeoff section covers control positioning for the existing wind on the water",
+    "confidence": "low"
+  },
+  "AA.III.C.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 covers the before takeoff configuration verification",
+    "confidence": "low"
+  },
+  "AA.III.C.S5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Reconnaissance is the survey of the takeoff path for surface condition and collision hazards",
+    "confidence": "low"
+  },
+  "AA.III.C.S6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:using-water-rudders"
+    ],
+    "why": "The water rudder section covers retraction before the takeoff run",
+    "confidence": "high"
+  },
+  "AA.III.C.S7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:takeoffs"
+    ],
+    "why": "The seaplane takeoff section covers power application and confirmation on the water",
+    "confidence": "low"
+  },
+  "AA.III.C.S8": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-takeoffs"
+    ],
+    "why": "The glassy water takeoff section covers spray control during the extended step run",
+    "confidence": "low"
+  },
+  "AA.III.C.S9": {
+    "sections": [],
+    "anchors": [
+      "seaplane:takeoffs",
+      "afh:ch06"
+    ],
+    "why": "The seaplane takeoff section covers directional control on the water; AFH ch6 covers it through the climb",
+    "confidence": "low"
+  },
+  "AA.III.D.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch09"
+    ],
+    "why": "AFH ch4 Energy Management supplies the energy concepts; ch9 defines the stabilized approach",
+    "confidence": "high"
+  },
+  "AA.III.D.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "seaplane:glassy-water-landing"
+    ],
+    "why": "PHAK ch11 covers atmospheric effect on landing performance; the glassy water landing section covers the surface condition that defines this Task",
+    "confidence": "high"
+  },
+  "AA.III.D.K3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-landing",
+      "afh:ch09"
+    ],
+    "why": "The crosswind landing section gives the water technique; AFH ch9 gives the general crab and sideslip corrections",
+    "confidence": "high"
+  },
+  "AA.III.D.K4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-landing"
+    ],
+    "why": "The glassy water landing section explains why depth perception fails over calm water and when the technique applies",
+    "confidence": "high"
+  },
+  "AA.III.D.K5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-landing"
+    ],
+    "why": "Named section for executing the glassy water approach and landing",
+    "confidence": "high"
+  },
+  "AA.III.D.R1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance",
+      "seaplane:glassy-water-landing"
+    ],
+    "why": "Reconnaissance covers surveying the approach path and touchdown area; the glassy water section covers the surface specific constraints",
+    "confidence": "high"
+  },
+  "AA.III.D.R2": {
+    "sections": [],
+    "anchors": [
+      "seaplane:go-around"
+    ],
+    "why": "Named section for the seaplane go-around and rejected landing",
+    "confidence": "high"
+  },
+  "AA.III.D.R3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Reconnaissance covers detecting vessels, debris and obstructions in the landing area",
+    "confidence": "low"
+  },
+  "AA.III.D.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors",
+    "confidence": "high"
+  },
+  "AA.III.D.R5": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
+    "confidence": "high"
+  },
+  "AA.III.D.R6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:amphibious-gear"
+    ],
+    "why": "The seaplane handbook states that the wheels must be retracted when landing an amphibian on water",
+    "confidence": "high"
+  },
+  "AA.III.D.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination",
+    "confidence": "low"
+  },
+  "AA.III.D.S2": {
+    "sections": [],
+    "anchors": [],
+    "why": "Radio calls are AIM material and this Task does not cite the AIM",
+    "confidence": "high"
+  },
+  "AA.III.D.S3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:using-water-rudders"
+    ],
+    "why": "The water rudder section covers confirming retraction before water contact",
+    "confidence": "high"
+  },
+  "AA.III.D.S4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance",
+      "seaplane:glassy-water-landing"
+    ],
+    "why": "Reconnaissance covers surface, depth and hazard assessment; the glassy water section covers selecting a path with usable visual references",
+    "confidence": "high"
+  },
+  "AA.III.D.S5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-landing",
+      "afh:ch09"
+    ],
+    "why": "The glassy water section gives the configuration, power and attitude for the maneuver; AFH ch9 gives the general stabilized approach",
+    "confidence": "high"
+  },
+  "AA.III.D.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "AFH ch9 defines the stabilized approach and airspeed control; ch4 covers the energy management behind it",
+    "confidence": "low"
+  },
+  "AA.III.D.S7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-landing"
+    ],
+    "why": "The glassy water section gives the fixed attitude and constant descent rate technique to touchdown",
+    "confidence": "high"
+  },
+  "AA.III.D.S8": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-landing"
+    ],
+    "why": "The glassy water section covers holding heading and directional control without surface references",
+    "confidence": "low"
+  },
+  "AA.III.D.S9": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-landing",
+      "seaplane:idling-position"
+    ],
+    "why": "The glassy water section covers water contact attitude; the idling position section covers deceleration to displacement taxi",
+    "confidence": "high"
+  },
+  "AA.III.E.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "seaplane:rough-water-takeoffs"
+    ],
+    "why": "PHAK ch11 covers atmospheric effects on takeoff and climb performance; the rough water takeoff section covers the surface penalty",
+    "confidence": "high"
+  },
+  "AA.III.E.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "AFH ch6 defines takeoff and climb power settings and speeds; PHAK ch11 covers where they come from",
+    "confidence": "high"
+  },
+  "AA.III.E.K3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-takeoffs"
+    ],
+    "why": "The rough water takeoff section gives the flap and control configuration for the maneuver",
+    "confidence": "low"
+  },
+  "AA.III.E.K4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-takeoffs"
+    ],
+    "why": "Named section for the rough water takeoff and climb technique",
+    "confidence": "high"
+  },
+  "AA.III.E.R1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance",
+      "seaplane:rough-water-takeoffs"
+    ],
+    "why": "Reconnaissance covers reading wave direction and height; the rough water section covers choosing a path relative to the swell",
+    "confidence": "high"
+  },
+  "AA.III.E.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "Parent element on abnormal operations; AFH ch18 Emergency Procedures is the general source",
+    "confidence": "low"
+  },
+  "AA.III.E.R2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "AFH ch18 covers the rejected takeoff decision and execution",
+    "confidence": "high"
+  },
+  "AA.III.E.R2b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch13"
+    ],
+    "why": "AFH ch18 covers engine failure after takeoff; ch13 covers the multiengine case",
+    "confidence": "high"
+  },
+  "AA.III.E.R3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Reconnaissance covers detecting vessels, debris and obstructions in the intended path",
+    "confidence": "low"
+  },
+  "AA.III.E.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors",
+    "confidence": "high"
+  },
+  "AA.III.E.R5": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
+    "confidence": "high"
+  },
+  "AA.III.E.R6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:amphibious-gear"
+    ],
+    "why": "The seaplane handbook states that the wheels must be retracted when landing an amphibian on water",
+    "confidence": "high"
+  },
+  "AA.III.E.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination before takeoff",
+    "confidence": "low"
+  },
+  "AA.III.E.S10": {
+    "sections": [],
+    "anchors": [
+      "seaplane:planing-or-step-position",
+      "seaplane:porpoising",
+      "seaplane:skipping"
+    ],
+    "why": "The planing section gives the step attitude; the porpoising and skipping sections give the corrections and the drag consequence",
+    "confidence": "high"
+  },
+  "AA.III.E.S11": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-takeoffs"
+    ],
+    "why": "The rough water takeoff section covers lifting off at minimum airspeed and accelerating in ground effect",
+    "confidence": "high"
+  },
+  "AA.III.E.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers flap retraction after a positive rate of climb is established",
+    "confidence": "low"
+  },
+  "AA.III.E.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers holding takeoff power to a safe altitude before setting climb power",
+    "confidence": "low"
+  },
+  "AA.III.E.S14": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14"
+    ],
+    "why": "PHAK ch14 Airport Operations covers noise abatement procedures. The AIM is not cited by this Task",
+    "confidence": "low"
+  },
+  "AA.III.E.S2": {
+    "sections": [],
+    "anchors": [],
+    "why": "Radio calls are AIM material and this Task does not cite the AIM",
+    "confidence": "high"
+  },
+  "AA.III.E.S3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-takeoffs"
+    ],
+    "why": "The crosswind takeoff section covers control positioning for the existing wind on the water",
+    "confidence": "low"
+  },
+  "AA.III.E.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 covers the before takeoff configuration verification",
+    "confidence": "low"
+  },
+  "AA.III.E.S5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Reconnaissance is the survey of the takeoff path for surface condition and collision hazards",
+    "confidence": "low"
+  },
+  "AA.III.E.S6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:using-water-rudders"
+    ],
+    "why": "The water rudder section covers retraction before the takeoff run",
+    "confidence": "high"
+  },
+  "AA.III.E.S7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-takeoffs"
+    ],
+    "why": "The rough water takeoff section covers power application timing relative to the swell",
+    "confidence": "low"
+  },
+  "AA.III.E.S8": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-takeoffs"
+    ],
+    "why": "The rough water takeoff section covers spray and propeller protection in a chop",
+    "confidence": "low"
+  },
+  "AA.III.E.S9": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-takeoffs",
+      "afh:ch06"
+    ],
+    "why": "The crosswind takeoff section covers drift correction on the water; AFH ch6 covers it through the climb",
+    "confidence": "low"
+  },
+  "AA.III.F.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch09"
+    ],
+    "why": "AFH ch4 Energy Management supplies the energy concepts; ch9 defines the stabilized approach",
+    "confidence": "high"
+  },
+  "AA.III.F.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "seaplane:rough-water-landing"
+    ],
+    "why": "PHAK ch11 covers atmospheric effect on landing performance; the rough water landing section covers the surface condition that defines this Task",
+    "confidence": "high"
+  },
+  "AA.III.F.K3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-landing",
+      "afh:ch09"
+    ],
+    "why": "The crosswind landing section gives the water technique; AFH ch9 gives the general crab and sideslip corrections",
+    "confidence": "high"
+  },
+  "AA.III.F.K4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-landing"
+    ],
+    "why": "The rough water landing section explains the wave and swell conditions that require the technique",
+    "confidence": "high"
+  },
+  "AA.III.F.K5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-landing"
+    ],
+    "why": "Named section for performing the rough water approach and landing",
+    "confidence": "high"
+  },
+  "AA.III.F.R1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance",
+      "seaplane:rough-water-landing"
+    ],
+    "why": "Reconnaissance covers reading wave direction and height; the rough water section covers aligning the touchdown with the swell",
+    "confidence": "high"
+  },
+  "AA.III.F.R2": {
+    "sections": [],
+    "anchors": [
+      "seaplane:go-around"
+    ],
+    "why": "Named section for the seaplane go-around and rejected landing",
+    "confidence": "high"
+  },
+  "AA.III.F.R3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Reconnaissance covers detecting vessels, debris and obstructions in the landing area",
+    "confidence": "low"
+  },
+  "AA.III.F.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors",
+    "confidence": "high"
+  },
+  "AA.III.F.R5": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
+    "confidence": "high"
+  },
+  "AA.III.F.R6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:amphibious-gear"
+    ],
+    "why": "The seaplane handbook states that the wheels must be retracted when landing an amphibian on water",
+    "confidence": "high"
+  },
+  "AA.III.F.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination",
+    "confidence": "low"
+  },
+  "AA.III.F.S10": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-landing"
+    ],
+    "why": "The rough water landing section covers control of the floats after touchdown in a chop",
+    "confidence": "low"
+  },
+  "AA.III.F.S2": {
+    "sections": [],
+    "anchors": [],
+    "why": "Radio calls are AIM material and this Task does not cite the AIM",
+    "confidence": "high"
+  },
+  "AA.III.F.S3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:using-water-rudders"
+    ],
+    "why": "The water rudder section covers confirming retraction before water contact",
+    "confidence": "high"
+  },
+  "AA.III.F.S4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance",
+      "seaplane:rough-water-landing"
+    ],
+    "why": "Reconnaissance covers surface, depth and hazard assessment; the rough water section covers path selection relative to the waves",
+    "confidence": "high"
+  },
+  "AA.III.F.S5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-landing",
+      "afh:ch09"
+    ],
+    "why": "The rough water section gives the configuration, airspeed and trim; AFH ch9 gives the general stabilized approach",
+    "confidence": "high"
+  },
+  "AA.III.F.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers applying a gust factor to the approach speed and holding it",
+    "confidence": "low"
+  },
+  "AA.III.F.S7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-landing"
+    ],
+    "why": "The rough water section covers power and pitch management to control the rate of descent to touchdown",
+    "confidence": "high"
+  },
+  "AA.III.F.S8": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-landing"
+    ],
+    "why": "The rough water section gives the touchdown attitude and speed for wave contact",
+    "confidence": "high"
+  },
+  "AA.III.F.S9": {
+    "sections": [],
+    "anchors": [
+      "seaplane:rough-water-landing",
+      "seaplane:go-around"
+    ],
+    "why": "The rough water section covers control application through the landing; the go-around section covers the escape if conditions exceed limits",
+    "confidence": "high"
+  },
+  "AA.III.G.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "PHAK ch11 covers atmospheric effects on takeoff and climb performance; the confined area takeoff section covers the distance constraint they act on",
+    "confidence": "high"
+  },
+  "AA.III.G.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "AFH ch6 defines takeoff and climb power settings and speeds; PHAK ch11 covers where they come from",
+    "confidence": "high"
+  },
+  "AA.III.G.K3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "The confined area takeoff section gives the flap and control configuration for the maneuver",
+    "confidence": "low"
+  },
+  "AA.III.G.K4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-takeoffs",
+      "seaplane:rough-water-takeoffs"
+    ],
+    "why": "The glassy water and rough water takeoff sections describe how the two surface extremes lengthen or shorten the run",
+    "confidence": "low"
+  },
+  "AA.III.G.K5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "Named section for confined area takeoff and climb technique",
+    "confidence": "high"
+  },
+  "AA.III.G.R1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs",
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "The confined area section covers choosing the longest usable path; reconnaissance covers surveying it for surface and obstructions",
+    "confidence": "high"
+  },
+  "AA.III.G.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "Parent element on abnormal operations; AFH ch18 Emergency Procedures is the general source",
+    "confidence": "low"
+  },
+  "AA.III.G.R2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "AFH ch18 covers the rejected takeoff decision and execution",
+    "confidence": "high"
+  },
+  "AA.III.G.R2b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch13"
+    ],
+    "why": "AFH ch18 covers engine failure after takeoff; ch13 covers the multiengine case",
+    "confidence": "high"
+  },
+  "AA.III.G.R3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Reconnaissance covers detecting vessels, debris and obstructions in the intended path",
+    "confidence": "low"
+  },
+  "AA.III.G.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors",
+    "confidence": "high"
+  },
+  "AA.III.G.R5": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
+    "confidence": "high"
+  },
+  "AA.III.G.R6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:amphibious-gear"
+    ],
+    "why": "The seaplane handbook states that the wheels must be retracted when landing an amphibian on water",
+    "confidence": "high"
+  },
+  "AA.III.G.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination before takeoff",
+    "confidence": "low"
+  },
+  "AA.III.G.S10": {
+    "sections": [],
+    "anchors": [
+      "seaplane:planing-or-step-position",
+      "seaplane:porpoising",
+      "seaplane:skipping"
+    ],
+    "why": "The planing section gives the step attitude; the porpoising and skipping sections give the corrections and the drag consequence",
+    "confidence": "high"
+  },
+  "AA.III.G.S11": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs",
+      "afh:ch06"
+    ],
+    "why": "The confined area section covers the step turn and liftoff within limited water; AFH ch6 covers obstacle clearance speed after liftoff",
+    "confidence": "high"
+  },
+  "AA.III.G.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers the best angle of climb obstacle clearance segment and the multiengine VX and VMC caution",
+    "confidence": "high"
+  },
+  "AA.III.G.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers accelerating to best rate of climb speed after the obstacle is cleared",
+    "confidence": "high"
+  },
+  "AA.III.G.S14": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers flap retraction and power adjustment in the climb to a safe maneuvering altitude",
+    "confidence": "low"
+  },
+  "AA.III.G.S15": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14"
+    ],
+    "why": "PHAK ch14 Airport Operations covers noise abatement procedures. The AIM is not cited by this Task",
+    "confidence": "low"
+  },
+  "AA.III.G.S2": {
+    "sections": [],
+    "anchors": [],
+    "why": "Radio calls are AIM material and this Task does not cite the AIM",
+    "confidence": "high"
+  },
+  "AA.III.G.S3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-takeoffs"
+    ],
+    "why": "The crosswind takeoff section covers control positioning for the existing wind on the water",
+    "confidence": "low"
+  },
+  "AA.III.G.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 covers the before takeoff configuration verification",
+    "confidence": "low"
+  },
+  "AA.III.G.S5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance",
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "Reconnaissance is the survey of the takeoff path; the confined area section covers selecting the best path within it",
+    "confidence": "high"
+  },
+  "AA.III.G.S6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:using-water-rudders"
+    ],
+    "why": "The water rudder section covers retraction before the takeoff run",
+    "confidence": "high"
+  },
+  "AA.III.G.S7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "The confined area section covers power application from the shortest usable starting point",
+    "confidence": "low"
+  },
+  "AA.III.G.S8": {
+    "sections": [],
+    "anchors": [
+      "seaplane:takeoffs"
+    ],
+    "why": "The seaplane takeoff section covers minimising propeller spray during the water run",
+    "confidence": "low"
+  },
+  "AA.III.G.S9": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-takeoffs",
+      "afh:ch06"
+    ],
+    "why": "The crosswind takeoff section covers drift correction on the water; AFH ch6 covers it through the climb",
+    "confidence": "low"
+  },
+  "AA.III.H.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch09"
+    ],
+    "why": "AFH ch4 Energy Management supplies the energy concepts; ch9 defines the stabilized approach",
+    "confidence": "high"
+  },
+  "AA.III.H.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "seaplane:confined-area-landing"
+    ],
+    "why": "PHAK ch11 covers atmospheric effect on landing performance; the confined area landing section covers the distance constraint it acts on",
+    "confidence": "high"
+  },
+  "AA.III.H.K3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing"
+    ],
+    "why": "Named section for confined area approach and landing technique",
+    "confidence": "high"
+  },
+  "AA.III.H.K4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-landing",
+      "afh:ch09"
+    ],
+    "why": "The crosswind landing section gives the water technique; AFH ch9 gives the general crab and sideslip corrections",
+    "confidence": "high"
+  },
+  "AA.III.H.R1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance",
+      "seaplane:confined-area-landing"
+    ],
+    "why": "Reconnaissance covers surveying the area; the confined area section covers choosing the approach path and touchdown area within it",
+    "confidence": "high"
+  },
+  "AA.III.H.R2": {
+    "sections": [],
+    "anchors": [
+      "seaplane:go-around"
+    ],
+    "why": "Named section for the seaplane go-around and rejected landing",
+    "confidence": "high"
+  },
+  "AA.III.H.R3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Reconnaissance covers detecting vessels, debris and obstructions in the landing area",
+    "confidence": "low"
+  },
+  "AA.III.H.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors",
+    "confidence": "high"
+  },
+  "AA.III.H.R5": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
+    "confidence": "high"
+  },
+  "AA.III.H.R6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:amphibious-gear"
+    ],
+    "why": "The seaplane handbook states that the wheels must be retracted when landing an amphibian on water",
+    "confidence": "high"
+  },
+  "AA.III.H.R7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing",
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "The confined area landing section covers committing to water you may not be able to leave; the takeoff section supplies the departure distance to check first",
+    "confidence": "high"
+  },
+  "AA.III.H.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination",
+    "confidence": "low"
+  },
+  "AA.III.H.S2": {
+    "sections": [],
+    "anchors": [],
+    "why": "Radio calls are AIM material and this Task does not cite the AIM",
+    "confidence": "high"
+  },
+  "AA.III.H.S3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:using-water-rudders"
+    ],
+    "why": "The water rudder section covers confirming retraction before water contact",
+    "confidence": "high"
+  },
+  "AA.III.H.S4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance",
+      "seaplane:confined-area-landing"
+    ],
+    "why": "Reconnaissance covers surface, depth and hazard assessment; the confined area section covers path selection within the available water",
+    "confidence": "high"
+  },
+  "AA.III.H.S5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing",
+      "afh:ch09"
+    ],
+    "why": "The confined area section gives the configuration, airspeed and trim; AFH ch9 gives the general stabilized approach",
+    "confidence": "high"
+  },
+  "AA.III.H.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers applying a gust factor to the approach speed and holding it",
+    "confidence": "low"
+  },
+  "AA.III.H.S7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing"
+    ],
+    "why": "The confined area section covers power and pitch management to control the rate of descent over the obstruction",
+    "confidence": "high"
+  },
+  "AA.III.H.S8": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing"
+    ],
+    "why": "The confined area section covers touching down at the recommended speed on a specified point to preserve the remaining water",
+    "confidence": "high"
+  },
+  "AA.III.H.S9": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-landing"
+    ],
+    "why": "The crosswind landing section covers directional control and drift correction through touchdown",
+    "confidence": "high"
+  },
+  "AA.III.I.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch06"
+    ],
+    "why": "AFH ch18 Emergency Procedures covers the failures that warrant rejecting; ch6 covers the takeoff phase in which they appear",
+    "confidence": "high"
+  },
+  "AA.III.I.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "AFH ch18 covers brake energy, evacuation considerations and the aftermath of a rejected takeoff",
+    "confidence": "low"
+  },
+  "AA.III.I.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch06"
+    ],
+    "why": "AFH ch18 gives the rejected takeoff procedure; ch6 gives the takeoff sequence it interrupts",
+    "confidence": "high"
+  },
+  "AA.III.I.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch13",
+      "phak:ch11"
+    ],
+    "why": "AFH ch13 Transition to Multiengine Airplanes covers accelerate-stop distance; PHAK ch11 covers reading it from the performance data",
+    "confidence": "low"
+  },
+  "AA.III.I.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch13",
+      "afh:ch16"
+    ],
+    "why": "AFH ch13 covers the multiengine takeoff decision speeds; ch16 covers V1 and the jet reject decision",
+    "confidence": "low"
+  },
+  "AA.III.I.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "AFH ch6 covers runway or takeoff path selection; PHAK ch11 supplies the distance available against distance required",
+    "confidence": "low"
+  },
+  "AA.III.I.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch13"
+    ],
+    "why": "AFH ch18 covers powerplant failure during takeoff; ch13 covers the multiengine decision it forces",
+    "confidence": "high"
+  },
+  "AA.III.I.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "AFH ch6 covers directional control during the takeoff roll, which is what the reject must preserve",
+    "confidence": "low"
+  },
+  "AA.III.I.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch13"
+    ],
+    "why": "AFH ch13 covers the consequence of rejecting past the accelerate-stop distance available",
+    "confidence": "low"
+  },
+  "AA.III.I.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch16"
+    ],
+    "why": "AFH ch16 covers the high speed reject and its brake energy and tire limits on jets",
+    "confidence": "low"
+  },
+  "AA.III.I.R6": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
+    "confidence": "high"
+  },
+  "AA.III.I.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "AFH ch18 covers rejecting the takeoff on a powerplant failure before liftoff in a single engine airplane",
+    "confidence": "high"
+  },
+  "AA.III.I.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch13",
+      "afh:ch18"
+    ],
+    "why": "AFH ch13 gives the multiengine reject or continue decision against the remaining distance; ch18 gives the procedure",
+    "confidence": "high"
+  },
+  "AA.III.I.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch06"
+    ],
+    "why": "AFH ch18 covers the power reduction and maximum braking sequence; ch6 covers holding directional control through it",
+    "confidence": "high"
+  },
+  "AA.III.I.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination after the airplane is stopped",
+    "confidence": "low"
+  },
+  "AA.III.J.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch09"
+    ],
+    "why": "AFH ch4 Energy Management supplies the energy concepts; ch9 defines the stabilized approach whose loss triggers the go-around",
+    "confidence": "high"
+  },
+  "AA.III.J.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch09"
+    ],
+    "why": "PHAK ch11 covers density altitude and wind effect on climb capability; AFH ch9 covers the go-around itself",
+    "confidence": "high"
+  },
+  "AA.III.J.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch09"
+    ],
+    "why": "AFH ch6 covers wind correction on departure; ch9 covers it on approach and landing",
+    "confidence": "high"
+  },
+  "AA.III.J.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "aim:ch04-s03"
+    ],
+    "why": "AFH ch9 covers the situations that require a go-around; AIM 4-3 covers LAHSO and the obligation to decline or reject when compliance is doubtful",
+    "confidence": "high"
+  },
+  "AA.III.J.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:go-around"
+    ],
+    "why": "AFH ch9 gives the go-around procedure and speeds; the seaplane go-around section gives the water equivalent",
+    "confidence": "high"
+  },
+  "AA.III.J.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "risk-management:ch08"
+    ],
+    "why": "AFH ch9 covers the go-around decision point; RMH ch8 covers the decision-making failure that delays it",
+    "confidence": "high"
+  },
+  "AA.III.J.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers the hazard of initiating a go-around late and low",
+    "confidence": "high"
+  },
+  "AA.III.J.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers power application and the pitch and trim change it produces in the go-around",
+    "confidence": "low"
+  },
+  "AA.III.J.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers the flap and gear retraction sequence during the go-around",
+    "confidence": "low"
+  },
+  "AA.III.J.R5": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03",
+      "afh:ch08"
+    ],
+    "why": "AIM 4-3 covers traffic conflicts in the airport environment; AFH ch8 covers rejoining the pattern clear of other aircraft",
+    "confidence": "low"
+  },
+  "AA.III.J.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors",
+    "confidence": "high"
+  },
+  "AA.III.J.R7": {
+    "sections": [],
+    "anchors": [
+      "risk-management:ch06"
+    ],
+    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
+    "confidence": "high"
+  },
+  "AA.III.J.R8": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "AIM 4-3 states the pilot obligations after accepting a LAHSO clearance, including the go-around case",
+    "confidence": "high"
+  },
+  "AA.III.J.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers making the go-around decision without delay",
+    "confidence": "high"
+  },
+  "AA.III.J.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers the power and pitch application that starts the go-around",
+    "confidence": "high"
+  },
+  "AA.III.J.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch06"
+    ],
+    "why": "AFH ch9 covers establishing the climb in the go-around; ch6 gives the departure climb speeds it transitions into",
+    "confidence": "low"
+  },
+  "AA.III.J.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 covers the configuration and trim sequence during the go-around",
+    "confidence": "low"
+  },
+  "AA.III.J.S5": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 gives the radio communication phraseology and technique",
+    "confidence": "high"
+  },
+  "AA.III.J.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch08",
+      "aim:ch04-s03"
+    ],
+    "why": "AFH ch8 covers the ground track for rejoining the traffic pattern; AIM 4-3 covers complying with ATC instructions during the go-around",
+    "confidence": "low"
+  },
+  "AA.III.J.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline once the go-around is stabilized",
+    "confidence": "low"
+  }
+}

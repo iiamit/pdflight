@@ -1,0 +1,117 @@
+{
+  "IR.IV.A.K1": {
+    "anchors": ["ifh:ch06", "ifh:ch07"],
+    "why": "IFH Chapter 6 Airplane Attitude Instrument Flying gives the control-and-performance and primary-and-supporting methods; IFH Chapter 7 Airplane Basic Flight Maneuvers is straight-and-level, climbs, turns and descents flown on instruments",
+    "confidence": "high"
+  },
+  "IR.IV.A.K2": {
+    "anchors": ["ifh:ch06", "ifh:ch05", "phak:ch08"],
+    "why": "IFH Chapter 6 classifies and interprets the pitch, bank and power instruments; IFH Chapter 5 and PHAK Chapter 8 Flight Instruments give their operation and limitations",
+    "confidence": "high"
+  },
+  "IR.IV.A.K3": {
+    "anchors": ["ifh:ch05", "phak:ch08", "ifh:ch11"],
+    "why": "IFH Chapter 5 and PHAK Chapter 8 cover normal indications plus pitot-static blockage, altimeter error and gyro precession; IFH Chapter 11 covers recognizing an abnormal indication in flight",
+    "confidence": "high"
+  },
+  "IR.IV.A.R1": {
+    "anchors": ["ifh:ch03", "phak:ch17"],
+    "why": "IFH Chapter 3 Human Factors states that fatigue and illness exacerbate false sensations and calls for a cross-check with minimal head movement; PHAK Chapter 17 Aeromedical Factors covers hypoxia, hyperventilation, stress and fatigue",
+    "confidence": "high"
+  },
+  "IR.IV.A.R2": {
+    "anchors": ["ifh:ch03", "phak:ch17"],
+    "why": "IFH Chapter 3 has Illusions Leading to Spatial Disorientation; PHAK Chapter 17 has Spatial Disorientation and Illusions including false horizon and autokinesis",
+    "confidence": "high"
+  },
+  "IR.IV.A.R3": {
+    "anchors": ["risk-management:ch07", "risk-management:ch03"],
+    "why": "RMH Chapter 7 Automation and Flight Path Management covers reliance on unfamiliar automation and autopilot logic; RMH Chapter 3 treats aircraft and pilot unfamiliarity as an identified hazard",
+    "confidence": "low"
+  },
+  "IR.IV.A.S1": {
+    "anchors": ["ifh:ch07", "ifh:ch06"],
+    "why": "IFH Chapter 7 is the maneuvers themselves, level flight, turns and airspeed control; IFH Chapter 6 gives the cross-check that holds altitude, heading, airspeed and bank inside tolerance",
+    "confidence": "high"
+  },
+  "IR.IV.A.S2": {
+    "anchors": ["ifh:ch06"],
+    "why": "IFH Chapter 6 covers instrument cross-check, interpretation, pitch, bank and power corrections, trim, and the common scanning errors of fixation, omission and emphasis",
+    "confidence": "high"
+  },
+  "IR.IV.B.K1": {
+    "anchors": ["ifh:ch07", "afh:ch05"],
+    "why": "IFH Chapter 7 has Unusual Attitudes and Recoveries with the nose-high and nose-low procedures for both analog and electronic displays; AFH Chapter 5 gives the upset recovery template",
+    "confidence": "high"
+  },
+  "IR.IV.B.K2": {
+    "anchors": ["afh:ch05", "ifh:ch03", "ifh:ch11"],
+    "why": "AFH Chapter 5 Upset Prevention and Recovery Training covers causal and environmental factors; IFH Chapter 3 covers the physiological ones; IFH Chapter 11 covers system and equipment failures that lead to an unusual attitude",
+    "confidence": "high"
+  },
+  "IR.IV.B.K3": {
+    "anchors": ["afh:ch18"],
+    "why": "AFH Chapter 18 Emergency Procedures has Inadvertent VFR Flight Into IMC, the emergency measures for keeping control after an unintended IMC encounter",
+    "confidence": "medium"
+  },
+  "IR.IV.B.K4": {
+    "anchors": ["risk-management:ch07", "phak:ch02"],
+    "why": "RMH Chapter 7 is Automation and Flight Path Management including when to use and when to disengage; PHAK Chapter 2 covers automation management as an SRM element",
+    "confidence": "high"
+  },
+  "IR.IV.B.R1": {
+    "anchors": ["afh:ch05", "ifh:ch03", "risk-management:ch06"],
+    "why": "AFH Chapter 5 names LOC-I as the leading cause of fatal accidents and describes startle and task saturation; IFH Chapter 3 covers spatial disorientation; RMH Chapter 6 is Threat and Error Management",
+    "confidence": "high"
+  },
+  "IR.IV.B.R2": {
+    "anchors": [],
+    "why": "Element is archived and has no text to map",
+    "confidence": "high"
+  },
+  "IR.IV.B.R3": {
+    "anchors": ["afh:ch05", "ifh:ch04"],
+    "why": "AFH Chapter 5 covers the limit flight envelope and all-attitude, all-envelope training; IFH Chapter 4 Aerodynamic Factors covers load factor, stall speed and maneuvering speed",
+    "confidence": "high"
+  },
+  "IR.IV.B.R4": {
+    "anchors": ["ifh:ch06", "ifh:ch07"],
+    "why": "IFH Chapter 6 is instrument interpretation and cross-check; IFH Chapter 7 shows reading nose-high and nose-low from the ASI, altimeter and VSI",
+    "confidence": "high"
+  },
+  "IR.IV.B.R5": {
+    "anchors": ["ifh:ch07", "afh:ch05"],
+    "why": "IFH Chapter 7 distinguishes the nose-high from the nose-low unusual attitude before recovery; AFH Chapter 5 covers assessing a developing upset",
+    "confidence": "high"
+  },
+  "IR.IV.B.R6": {
+    "anchors": ["ifh:ch07", "afh:ch05"],
+    "why": "IFH Chapter 7 notes that basic instrument skill errors are aggravated during unusual attitude recoveries; AFH Chapter 5 covers overcontrolling and startle-driven control inputs",
+    "confidence": "high"
+  },
+  "IR.IV.B.R7": {
+    "anchors": ["ifh:ch07", "ifh:ch06"],
+    "why": "IFH Chapter 7 covers recovery flown solely on instruments including partial panel; IFH Chapter 6 gives the control-and-performance basis for applying those inputs",
+    "confidence": "medium"
+  },
+  "IR.IV.B.R8": {
+    "anchors": ["afh:ch05", "phak:ch14"],
+    "why": "AFH Chapter 5 requires clearing the area of traffic at and below altitude before executing the maneuver; PHAK Chapter 14 has the Collision Avoidance section with right-of-way rules and see-and-avoid practice",
+    "confidence": "low"
+  },
+  "IR.IV.B.R9": {
+    "anchors": ["ifh:ch03", "ifh:ch11", "risk-management:ch06"],
+    "why": "IFH Chapter 3 covers disorientation; IFH Chapter 11 has the loss of situational awareness discussion naming distraction and high workload; RMH Chapter 6 is Threat and Error Management",
+    "confidence": "high"
+  },
+  "IR.IV.B.S1": {
+    "anchors": ["ifh:ch07", "ifh:ch06", "afh:ch05"],
+    "why": "IFH Chapter 7 gives the nose-high and nose-low recovery sequence of control, power and configuration; IFH Chapter 6 gives the cross-check and interpretation that identifies the attitude; AFH Chapter 5 gives the upset recovery sequence",
+    "confidence": "high"
+  },
+  "IR.IV.B.S2": {
+    "anchors": ["phak:ch02", "risk-management:ch08"],
+    "why": "PHAK Chapter 2 is Aeronautical Decision-Making including SRM and CRM; RMH Chapter 8 is Aeronautical Decision-Making in Flight",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "IR.VII.A.K1": {
+    "anchors": ["aim:ch06-s04", "ifh:ch11"],
+    "why": "AIM Chapter 6 Section 4 is Two-way Radio Communications Failure and sets the route, altitude and when-to-descend-and-approach rules; IFH Chapter 11 Emergency Operations applies them in flight",
+    "confidence": "high"
+  },
+  "IR.VII.A.R1": {
+    "anchors": ["ifh:ch11"],
+    "why": "IFH Chapter 11 covers communication and navigation system malfunctions, the closest treatment of why a radio goes quiet",
+    "confidence": "low"
+  },
+  "IR.VII.A.R2": {
+    "anchors": ["aim:ch06-s04", "ifh:ch11"],
+    "why": "AIM 6-4 defines the only sanctioned deviations from the clearance after a comm failure; IFH Chapter 11 covers executing them",
+    "confidence": "high"
+  },
+  "IR.VII.A.S1": {
+    "anchors": ["ifh:ch11"],
+    "why": "IFH Chapter 11 covers recognizing a communication system malfunction rather than a merely quiet frequency",
+    "confidence": "low"
+  },
+  "IR.VII.A.S2": {
+    "anchors": ["aim:ch06-s04", "ifh:ch11"],
+    "why": "IFH Chapter 11 lists squawking 7600, monitoring NAVAIDs and other means of reestablishing two-way communication; AIM 6-4 is the governing procedure",
+    "confidence": "high"
+  },
+  "IR.VII.A.S3": {
+    "anchors": ["aim:ch06-s04", "ifh:ch11"],
+    "why": "AIM 6-4 route and clearance-limit rules decide whether to continue to the flight plan destination",
+    "confidence": "high"
+  },
+  "IR.VII.A.S4": {
+    "anchors": ["aim:ch06-s04"],
+    "why": "AIM 6-4 gives the expect-further-clearance and ETA logic for when to begin the approach",
+    "confidence": "high"
+  },
+  "IR.VII.A.S5": {
+    "anchors": ["phak:ch02", "risk-management:ch08"],
+    "why": "PHAK Chapter 2 is Aeronautical Decision-Making including SRM and CRM; Risk Management Handbook Chapter 8 is Aeronautical Decision-Making in Flight",
+    "confidence": "high"
+  },
+  "IR.VII.B.K1": {
+    "anchors": ["afh:ch13", "ifh:ch07"],
+    "why": "AFH Chapter 13 Transition to Multiengine Airplanes covers the engine failure procedure; IFH Chapter 7 Airplane Basic Flight Maneuvers is straight-and-level flight and turns flown on instruments",
+    "confidence": "high"
+  },
+  "IR.VII.B.R1": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers identifying and verifying the inoperative engine",
+    "confidence": "high"
+  },
+  "IR.VII.B.R2": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers single-engine service ceiling and drift-down performance with one engine inoperative",
+    "confidence": "high"
+  },
+  "IR.VII.B.R3": {
+    "anchors": ["afh:ch05", "afh:ch13"],
+    "why": "AFH Chapter 5 Maintaining Aircraft Control: Upset Prevention and Recovery covers stall and spin avoidance; AFH Chapter 13 covers Vmc loss of control at low altitude",
+    "confidence": "high"
+  },
+  "IR.VII.B.R4": {
+    "anchors": ["ifh:ch03", "ifh:ch11", "risk-management:ch06"],
+    "why": "IFH Chapter 3 Human Factors covers spatial disorientation; IFH Chapter 11 has the loss of situational awareness discussion; RMH Chapter 6 is Threat and Error Management",
+    "confidence": "high"
+  },
+  "IR.VII.B.R5": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers fuel crossfeed and multiengine fuel management during single-engine operation",
+    "confidence": "high"
+  },
+  "IR.VII.B.R6": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers gear, flap and propeller configuration for engine-inoperative flight",
+    "confidence": "high"
+  },
+  "IR.VII.B.S1": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers prompt recognition of engine failure and maintaining directional control",
+    "confidence": "high"
+  },
+  "IR.VII.B.S10": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers Vmc, Vyse and the operating limitations that bound engine-inoperative flight",
+    "confidence": "medium"
+  },
+  "IR.VII.B.S11": {
+    "anchors": ["phak:ch02", "risk-management:ch08"],
+    "why": "PHAK Chapter 2 is Aeronautical Decision-Making including SRM and CRM; RMH Chapter 8 is ADM in flight",
+    "confidence": "high"
+  },
+  "IR.VII.B.S2": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers the identify, verify, feather sequence, drag reduction and feathering propellers",
+    "confidence": "high"
+  },
+  "IR.VII.B.S3": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 defines Vyse as the best engine-inoperative airspeed and gives the trim technique",
+    "confidence": "high"
+  },
+  "IR.VII.B.S4": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers the bank-into-the-good-engine and zero-sideslip control combination",
+    "confidence": "high"
+  },
+  "IR.VII.B.S5": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers securing the inoperative engine by checklist",
+    "confidence": "high"
+  },
+  "IR.VII.B.S6": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers troubleshooting a failed engine before securing it",
+    "confidence": "low"
+  },
+  "IR.VII.B.S7": {
+    "anchors": ["afh:ch13", "phak:ch07"],
+    "why": "AFH Chapter 13 covers monitoring the operating engine; PHAK Chapter 7 Aircraft Systems explains the engine instruments being monitored",
+    "confidence": "low"
+  },
+  "IR.VII.B.S8": {
+    "anchors": ["ifh:ch07", "ifh:ch06"],
+    "why": "IFH Chapter 7 Airplane Basic Flight Maneuvers is altitude, airspeed and heading control on instruments; IFH Chapter 6 gives the control-and-performance and primary-and-supporting cross-check that holds those tolerances",
+    "confidence": "high"
+  },
+  "IR.VII.B.S9": {
+    "anchors": ["afh:ch13", "risk-management:ch08"],
+    "why": "AFH Chapter 13 covers single-engine performance assessment and the decision to land; RMH Chapter 8 covers the in-flight decision",
+    "confidence": "medium"
+  },
+  "IR.VII.C.K1": {
+    "anchors": ["afh:ch13", "iph:ch04"],
+    "why": "AFH Chapter 13 covers the engine-inoperative approach and landing; IPH Chapter 4 Approaches gives the procedure and the one-engine-inoperative missed approach climb requirement",
+    "confidence": "high"
+  },
+  "IR.VII.C.R1": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers engine failure during approach and landing in a multiengine airplane",
+    "confidence": "high"
+  },
+  "IR.VII.C.R2": {
+    "anchors": [],
+    "why": "Element is archived and has no text to map",
+    "confidence": "high"
+  },
+  "IR.VII.C.R3": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers gear and flap configuration on a single-engine approach",
+    "confidence": "high"
+  },
+  "IR.VII.C.R4": {
+    "anchors": ["afh:ch05", "afh:ch13"],
+    "why": "AFH Chapter 5 covers stall and spin awareness and upset recovery; AFH Chapter 13 covers Vmc loss of control while maneuvering low",
+    "confidence": "high"
+  },
+  "IR.VII.C.R5": {
+    "anchors": ["ifh:ch03", "ifh:ch11", "risk-management:ch06"],
+    "why": "IFH Chapter 3 Human Factors covers disorientation; IFH Chapter 11 covers loss of situational awareness; RMH Chapter 6 is Threat and Error Management",
+    "confidence": "high"
+  },
+  "IR.VII.C.R6": {
+    "anchors": ["afh:ch09", "afh:ch13"],
+    "why": "AFH Chapter 9 Approaches and Landings contains Go-Arounds (Rejected Landings); AFH Chapter 13 covers the single-engine go-around",
+    "confidence": "high"
+  },
+  "IR.VII.C.S1": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers prompt recognition of engine failure and positive control",
+    "confidence": "high"
+  },
+  "IR.VII.C.S10": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers Vmc, Vyse and engine-inoperative operating limitations",
+    "confidence": "medium"
+  },
+  "IR.VII.C.S11": {
+    "anchors": ["iph:ch04", "ifh:ch10"],
+    "why": "IPH Chapter 4 gives the circling approach category radii and minimums; IFH Chapter 10 repeats the circling approach area radii and circling patterns",
+    "confidence": "high"
+  },
+  "IR.VII.C.S12": {
+    "anchors": ["afh:ch09", "afh:ch13"],
+    "why": "AFH Chapter 9 covers the landing itself; AFH Chapter 13 covers the multiengine approach and landing",
+    "confidence": "medium"
+  },
+  "IR.VII.C.S13": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers the engine-inoperative and securing checklists",
+    "confidence": "low"
+  },
+  "IR.VII.C.S14": {
+    "anchors": ["phak:ch02", "risk-management:ch08"],
+    "why": "PHAK Chapter 2 is Aeronautical Decision-Making including SRM and CRM; RMH Chapter 8 is ADM in flight",
+    "confidence": "high"
+  },
+  "IR.VII.C.S2": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers the identify, verify, feather sequence and drag reduction",
+    "confidence": "high"
+  },
+  "IR.VII.C.S3": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers the zero-sideslip control and trim combination for best engine-inoperative performance",
+    "confidence": "high"
+  },
+  "IR.VII.C.S4": {
+    "anchors": ["afh:ch13"],
+    "why": "AFH Chapter 13 covers following the AFM/POH emergency procedure and completing the checklist",
+    "confidence": "low"
+  },
+  "IR.VII.C.S5": {
+    "anchors": ["afh:ch13", "phak:ch07"],
+    "why": "AFH Chapter 13 covers monitoring the operating engine; PHAK Chapter 7 Aircraft Systems explains the systems and instruments monitored",
+    "confidence": "low"
+  },
+  "IR.VII.C.S6": {
+    "anchors": ["ifh:ch10", "iph:ch04"],
+    "why": "IFH Chapter 10 IFR Flight covers requesting and complying with an approach clearance; IPH Chapter 4 covers the approach clearance and procedure",
+    "confidence": "high"
+  },
+  "IR.VII.C.S7": {
+    "anchors": ["ifh:ch07", "ifh:ch06"],
+    "why": "IFH Chapter 7 Airplane Basic Flight Maneuvers is altitude, airspeed and heading control on instruments; IFH Chapter 6 gives the cross-check method that holds those tolerances",
+    "confidence": "high"
+  },
+  "IR.VII.C.S8": {
+    "anchors": ["iph:ch04", "ifh:ch10"],
+    "why": "IPH Chapter 4 covers MDA, DA/DH and the descent from the final approach segment to a landing; IFH Chapter 10 covers the same descent planning",
+    "confidence": "high"
+  },
+  "IR.VII.C.S9": {
+    "anchors": ["ifh:ch10", "iph:ch04"],
+    "why": "IFH Chapter 10 and IPH Chapter 4 cover course and glidepath guidance on the final approach segment",
+    "confidence": "low"
+  },
+  "IR.VII.D.K1": {
+    "anchors": ["ifh:ch11", "ifh:ch05"],
+    "why": "IFH Chapter 11 covers analog instrument failure, the inconsistency between indications that reveals it, and advising ATC; IFH Chapter 5 Flight Instruments describes the correct indications being compared against",
+    "confidence": "high"
+  },
+  "IR.VII.D.K2": {
+    "anchors": ["ifh:ch05", "phak:ch08", "ifh:ch11"],
+    "why": "IFH Chapter 5 covers blocked pitot and static systems, vacuum pump systems and instrument failure; PHAK Chapter 8 Flight Instruments covers the same failure modes; IFH Chapter 11 covers minimizing the effect",
+    "confidence": "high"
+  },
+  "IR.VII.D.R1": {
+    "anchors": ["ifh:ch07", "ifh:ch05"],
+    "why": "IFH Chapter 7 Section II covers flying the electronic flight display on partial panel using the remaining tapes and indicators; IFH Chapter 5 describes the standby and secondary instruments",
+    "confidence": "medium"
+  },
+  "IR.VII.D.R2": {
+    "anchors": ["ifh:ch07", "ifh:ch11"],
+    "why": "IFH Chapter 7 has Partial Panel Flight, controlling the airplane with the attitude indicator and heading indicator covered or inoperative; IFH Chapter 11 covers partial panel recovery after a failure",
+    "confidence": "high"
+  },
+  "IR.VII.D.R3": {
+    "anchors": ["ifh:ch03", "ifh:ch11", "risk-management:ch06"],
+    "why": "IFH Chapter 3 Human Factors covers disorientation; IFH Chapter 11 covers loss of situational awareness; RMH Chapter 6 is Threat and Error Management",
+    "confidence": "high"
+  },
+  "IR.VII.D.S1": {
+    "anchors": ["ifh:ch11", "ifh:ch02"],
+    "why": "IFH Chapter 11 covers advising ATC of a malfunction; IFH Chapter 2 The Air Traffic Control System covers the pilot reporting obligation and phraseology",
+    "confidence": "low"
+  },
+  "IR.VII.D.S2": {
+    "anchors": ["ifh:ch07", "ifh:ch10"],
+    "why": "IFH Chapter 7 Partial Panel Flight is the technique for flying without the primary flight instruments; IFH Chapter 10 IFR Flight covers the non-precision approach being flown",
+    "confidence": "high"
+  },
+  "IR.VII.D.S3": {
+    "anchors": ["phak:ch02", "risk-management:ch08"],
+    "why": "PHAK Chapter 2 is Aeronautical Decision-Making including SRM and CRM; RMH Chapter 8 is ADM in flight",
+    "confidence": "high"
+  },
+  "IR.VIII.A.K1": {
+    "anchors": ["phak:ch09"],
+    "why": "PHAK Chapter 9 covers maintenance records, inoperative equipment and MEL entries, which is where a discrepancy gets documented",
+    "confidence": "medium"
+  },
+  "IR.VIII.A.R1": {
+    "anchors": ["phak:ch09"],
+    "why": "PHAK Chapter 9 covers recording discrepancies and operating with inoperative equipment; no chapter covers the postflight inspection itself",
+    "confidence": "low"
+  },
+  "IR.VIII.A.S1": {
+    "anchors": ["afh:ch02", "phak:ch09"],
+    "why": "AFH Chapter 2 Ground Operations covers after-landing, parking and securing the airplane; PHAK Chapter 9 covers documenting the discrepancy and servicing requirement",
+    "confidence": "low"
+  }
+}

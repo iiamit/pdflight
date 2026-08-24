@@ -901,42 +901,6 @@
       "page": 470,
       "strategy": "outline"
     },
-    "awh:1-introduction": {
-      "doc": "aviation-weather",
-      "evidence": "1 Introduction",
-      "page": 16,
-      "strategy": "outline"
-    },
-    "awh:2-aviation-weather-service-program": {
-      "doc": "aviation-weather",
-      "evidence": "2 Aviation Weather Service Program",
-      "page": 18,
-      "strategy": "outline"
-    },
-    "awh:3-overview-of-aviation-weather-information": {
-      "doc": "aviation-weather",
-      "evidence": "3 Overview of Aviation Weather Information",
-      "page": 24,
-      "strategy": "outline"
-    },
-    "awh:4-the-earth-s-atmosphere": {
-      "doc": "aviation-weather",
-      "evidence": "4 The Earth’s Atmosphere",
-      "page": 61,
-      "strategy": "outline"
-    },
-    "awh:5-heat-and-temperature": {
-      "doc": "aviation-weather",
-      "evidence": "5 Heat and Temperature",
-      "page": 67,
-      "strategy": "outline"
-    },
-    "awh:6-water-vapor": {
-      "doc": "aviation-weather",
-      "evidence": "6 Water Vapor",
-      "page": 80,
-      "strategy": "outline"
-    },
     "ifh:ch01": {
       "doc": "ifh",
       "evidence": "Chapter 1",

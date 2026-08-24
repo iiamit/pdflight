@@ -1,0 +1,647 @@
+{
+  "IR.I.A.K1": {
+    "anchors": ["phak:ch01"],
+    "why": "PHAK ch1 Introduction to Flying covers pilot and medical certificates, recency of experience and logbook recordkeeping",
+    "confidence": "medium"
+  },
+  "IR.I.A.K2": {
+    "anchors": ["phak:ch01"],
+    "why": "PHAK ch1 lays out privileges and limitations by certificate and rating level",
+    "confidence": "medium"
+  },
+  "IR.I.A.K3": {
+    "anchors": ["phak:ch01"],
+    "why": "PHAK ch1 medical certificate discussion is where the part 68 BasicMed alternative is described",
+    "confidence": "low"
+  },
+  "IR.I.A.R1": {
+    "anchors": ["risk-management:ch02"],
+    "why": "RMH ch2 Personal Minimums draws the distinction between legal currency and actual proficiency",
+    "confidence": "low"
+  },
+  "IR.I.A.R2": {
+    "anchors": ["risk-management:ch02"],
+    "why": "RMH ch2 is the Personal Minimums chapter",
+    "confidence": "high"
+  },
+  "IR.I.A.R3": {
+    "anchors": ["phak:ch17", "ifh:ch03"],
+    "why": "PHAK ch17 Aeromedical Factors covers fitness for flight; IFH ch3 Human Factors covers the sensory illusions and disorientation specific to instrument conditions",
+    "confidence": "high"
+  },
+  "IR.I.A.R4": {
+    "anchors": ["ifh:ch07", "risk-management:ch07"],
+    "why": "IFH ch7 covers flying an unfamiliar electronic flight display; RMH ch7 Automation and Flight Path Management covers the risk of unfamiliar avionics",
+    "confidence": "medium"
+  },
+  "IR.I.A.S1": {
+    "anchors": ["phak:ch01"],
+    "why": "PHAK ch1 holds the certificate, medical and currency requirements the evaluator scenario is applied against",
+    "confidence": "low"
+  },
+  "IR.I.B.K1": {
+    "anchors": ["aviation-weather:ch02", "phak:ch13"],
+    "why": "AWH ch2 Aviation Weather Service Program describes the NWS and Flight Service roles; PHAK ch13 Aviation Weather Services covers the same sources",
+    "confidence": "high"
+  },
+  "IR.I.B.K2": {
+    "anchors": ["aviation-weather:ch03", "phak:ch13"],
+    "why": "AWH ch3 Overview of Aviation Weather Information catalogues the acceptable products; PHAK ch13 covers the same set",
+    "confidence": "high"
+  },
+  "IR.I.B.K2a": {
+    "anchors": ["aviation-weather:ch24", "phak:ch13"],
+    "why": "AWH ch24 Observations covers METAR, SPECI and PIREP formats; PHAK ch13 decodes them",
+    "confidence": "high"
+  },
+  "IR.I.B.K2b": {
+    "anchors": ["aviation-weather:ch25", "phak:ch13"],
+    "why": "AWH ch25 Analysis covers the Surface Analysis Chart and Ceiling and Visibility Analysis products",
+    "confidence": "high"
+  },
+  "IR.I.B.K2c": {
+    "anchors": ["aviation-weather:ch27", "phak:ch13"],
+    "why": "AWH ch27 Forecasts covers the Terminal Aerodrome Forecast; PHAK ch13 decodes the TAF",
+    "confidence": "high"
+  },
+  "IR.I.B.K2d": {
+    "anchors": ["aviation-weather:ch27", "phak:ch13"],
+    "why": "AWH ch27 Forecasts covers the Graphical Forecasts for Aviation",
+    "confidence": "high"
+  },
+  "IR.I.B.K2e": {
+    "anchors": ["aviation-weather:ch27", "phak:ch13"],
+    "why": "AWH ch27 Forecasts covers the wind and temperature aloft forecast",
+    "confidence": "high"
+  },
+  "IR.I.B.K2f": {
+    "anchors": ["aviation-weather:ch27", "phak:ch13"],
+    "why": "AWH ch27 Forecasts covers the Convective Outlook product",
+    "confidence": "medium"
+  },
+  "IR.I.B.K2g": {
+    "anchors": ["aviation-weather:ch26", "phak:ch13", "aim:ch07-s01"],
+    "why": "AWH ch26 Advisories is the AIRMET, SIGMET and Convective SIGMET chapter; AIM 7-1 Meteorology covers their dissemination",
+    "confidence": "high"
+  },
+  "IR.I.B.K3": {
+    "anchors": ["aviation-weather:ch04", "phak:ch12"],
+    "why": "AWH ch4 The Earth's Atmosphere and PHAK ch12 Weather Theory are the meteorology base under the K3 subelements",
+    "confidence": "medium"
+  },
+  "IR.I.B.K3a": {
+    "anchors": ["aviation-weather:ch04", "aviation-weather:ch13", "phak:ch12"],
+    "why": "AWH ch4 covers atmospheric composition and AWH ch13 is the Atmospheric Stability chapter",
+    "confidence": "high"
+  },
+  "IR.I.B.K3b": {
+    "anchors": ["aviation-weather:ch10", "aviation-weather:ch16", "phak:ch12"],
+    "why": "AWH ch10 Wind covers factors affecting wind and low-level shear; AWH ch16 Mountain Weather covers mountain wave",
+    "confidence": "high"
+  },
+  "IR.I.B.K3c": {
+    "anchors": ["aviation-weather:ch05", "aviation-weather:ch07"],
+    "why": "AWH ch5 Heat and Temperature and AWH ch7 Earth-Atmosphere Heat Imbalances cover temperature and heat exchange directly",
+    "confidence": "high"
+  },
+  "IR.I.B.K3d": {
+    "anchors": ["aviation-weather:ch06", "aviation-weather:ch14"],
+    "why": "AWH ch6 Water Vapor covers moisture; AWH ch14 Precipitation covers precipitation types and formation",
+    "confidence": "high"
+  },
+  "IR.I.B.K3e": {
+    "anchors": ["aviation-weather:ch11", "phak:ch12"],
+    "why": "AWH ch11 Air Masses, Fronts, and the Wave Cyclone Model is exactly weather system formation",
+    "confidence": "high"
+  },
+  "IR.I.B.K3f": {
+    "anchors": ["aviation-weather:ch12", "phak:ch12"],
+    "why": "AWH ch12 Vertical Motion and Clouds covers cloud types and their formation",
+    "confidence": "high"
+  },
+  "IR.I.B.K3g": {
+    "anchors": ["aviation-weather:ch19", "phak:ch12"],
+    "why": "AWH ch19 is the Turbulence chapter",
+    "confidence": "high"
+  },
+  "IR.I.B.K3h": {
+    "anchors": ["aviation-weather:ch22", "phak:ch12"],
+    "why": "AWH ch22 Thunderstorms covers thunderstorm life cycle and microbursts",
+    "confidence": "high"
+  },
+  "IR.I.B.K3i": {
+    "anchors": ["aviation-weather:ch20", "phak:ch12"],
+    "why": "AWH ch20 Icing covers structural icing types and freezing level information",
+    "confidence": "high"
+  },
+  "IR.I.B.K3j": {
+    "anchors": ["aviation-weather:ch18", "phak:ch12"],
+    "why": "AWH ch18 Weather and Obstructions to Visibility covers fog and mist types",
+    "confidence": "high"
+  },
+  "IR.I.B.K3k": {
+    "anchors": ["aviation-weather:ch20", "phak:ch12"],
+    "why": "AWH ch20 Icing covers frost as a surface contaminant; PHAK ch12 covers its effect on lift",
+    "confidence": "medium"
+  },
+  "IR.I.B.K3l": {
+    "anchors": ["aviation-weather:ch18", "phak:ch12"],
+    "why": "AWH ch18 Weather and Obstructions to Visibility covers smoke, haze and volcanic ash",
+    "confidence": "high"
+  },
+  "IR.I.B.K4": {
+    "anchors": ["aviation-weather:ch28", "phak:ch13"],
+    "why": "AWH ch28 Aviation Weather Tools covers datalink and cockpit weather display products; PHAK ch13 covers FIS-B in the flight deck",
+    "confidence": "medium"
+  },
+  "IR.I.B.R1": {
+    "anchors": ["risk-management:ch08"],
+    "why": "RMH ch8 Aeronautical Decision-Making in Flight is where the go/no-go and continue/divert decision is treated",
+    "confidence": "medium"
+  },
+  "IR.I.B.R1a": {
+    "anchors": ["risk-management:ch08", "phak:ch02"],
+    "why": "RMH ch8 covers the in-flight diversion decision; PHAK ch2 ADM supplies the decision framework",
+    "confidence": "medium"
+  },
+  "IR.I.B.R1b": {
+    "anchors": ["risk-management:ch02"],
+    "why": "RMH ch2 Personal Minimums sets personal weather minimums explicitly",
+    "confidence": "high"
+  },
+  "IR.I.B.R1c": {
+    "anchors": ["aviation-weather:ch20", "aviation-weather:ch19", "risk-management:ch03"],
+    "why": "AWH ch20 Icing and ch19 Turbulence are the named hazards; RMH ch3 frames identifying them as risks",
+    "confidence": "medium"
+  },
+  "IR.I.B.R2": {
+    "anchors": [],
+    "why": "Parent heading only; subelements R2a through R2c carry the specific coverage",
+    "confidence": "high"
+  },
+  "IR.I.B.R2a": {
+    "anchors": ["aviation-weather:ch28", "aviation-weather:ch15", "phak:ch13"],
+    "why": "AWH ch28 Aviation Weather Tools and ch15 Weather Radar state what onboard radar and datalink weather can and cannot show",
+    "confidence": "medium"
+  },
+  "IR.I.B.R2b": {
+    "anchors": ["aviation-weather:ch03", "aviation-weather:ch27"],
+    "why": "AWH ch3 states the intended use of each product; ch27 Forecasts states forecast accuracy limits",
+    "confidence": "medium"
+  },
+  "IR.I.B.R2c": {
+    "anchors": ["aviation-weather:ch26", "aviation-weather:ch28", "aim:ch07-s01"],
+    "why": "AWH ch26 Advisories and ch28 Aviation Weather Tools cover the inflight resources; AIM 7-1 covers their delivery in flight",
+    "confidence": "medium"
+  },
+  "IR.I.B.S1": {
+    "anchors": ["aviation-weather:ch02", "aviation-weather:ch03", "aim:ch07-s01"],
+    "why": "AWH ch2 covers the briefing services available and ch3 what a complete briefing contains; AIM 7-1 covers the FAA preflight briefing",
+    "confidence": "medium"
+  },
+  "IR.I.B.S2": {
+    "anchors": ["phak:ch12", "aviation-weather:ch03"],
+    "why": "PHAK ch12 Weather Theory covers all of K3a through K3l in one chapter; AWH ch3 ties the products to the conditions",
+    "confidence": "medium"
+  },
+  "IR.I.B.S3": {
+    "anchors": ["risk-management:ch08", "phak:ch02"],
+    "why": "RMH ch8 and PHAK ch2 ADM supply the go/no-go decision process",
+    "confidence": "medium"
+  },
+  "IR.I.B.S4": {
+    "anchors": ["aim:ch05-s01"],
+    "why": "AIM 5-1 Preflight states the IFR alternate requirement and the alternate weather minimums rule",
+    "confidence": "high"
+  },
+  "IR.I.C.K1": {
+    "anchors": ["ifh:ch10", "aim:ch05-s01"],
+    "why": "IFH ch10 IFR Flight covers route planning; AIM 5-1 Preflight covers route selection and filing",
+    "confidence": "high"
+  },
+  "IR.I.C.K1a": {
+    "anchors": ["ifh:ch09", "aim:ch01-s01"],
+    "why": "IFH ch9 Navigation Systems and AIM 1-1 Navigation Aids describe the available facilities and their service volumes",
+    "confidence": "high"
+  },
+  "IR.I.C.K1b": {
+    "anchors": ["aim:ch03-s04", "ifh:ch01"],
+    "why": "AIM 3-4 is the Special Use Airspace section; IFH ch1 covers the NAS airspace structure",
+    "confidence": "high"
+  },
+  "IR.I.C.K1c": {
+    "anchors": ["aim:ch05-s01", "ifh:ch10"],
+    "why": "AIM 5-1 Preflight covers preferred IFR routes and the route element of the flight plan",
+    "confidence": "medium"
+  },
+  "IR.I.C.K1d": {
+    "anchors": ["aim:ch05-s01", "ifh:ch10"],
+    "why": "AIM 5-1 Preflight covers destination and alternate selection; IFH ch10 covers the same in planning",
+    "confidence": "medium"
+  },
+  "IR.I.C.K1e": {
+    "anchors": ["aim:ch09-s01", "ifh:ch10"],
+    "why": "AIM 9-1 Types of Charts Available describes IFR en route charts; IFH ch10 shows their use in planning",
+    "confidence": "high"
+  },
+  "IR.I.C.K1f": {
+    "anchors": ["aim:ch09-s01"],
+    "why": "AIM 9-1 describes the Chart Supplement and its contents",
+    "confidence": "high"
+  },
+  "IR.I.C.K1g": {
+    "anchors": ["aim:ch05-s01"],
+    "why": "AIM 5-1 Preflight contains the NOTAM system description and NOTAM categories",
+    "confidence": "high"
+  },
+  "IR.I.C.K1h": {
+    "anchors": ["aim:ch09-s01", "ifh:ch10"],
+    "why": "AIM 9-1 describes the Terminal Procedures Publication; IFH ch10 shows its use in planning",
+    "confidence": "medium"
+  },
+  "IR.I.C.K2": {
+    "anchors": ["ifh:ch10", "aim:ch05-s03"],
+    "why": "IFH ch10 covers altitude selection for terrain and wind; AIM 5-3 En Route Procedures gives IFR cruising altitudes and minimum altitudes",
+    "confidence": "medium"
+  },
+  "IR.I.C.K3": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH ch10 IFR Flight works the flight planning computations under this parent heading",
+    "confidence": "low"
+  },
+  "IR.I.C.K3a": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH ch10 works time, distance, groundspeed and climb and descent planning for an IFR leg",
+    "confidence": "low"
+  },
+  "IR.I.C.K3b": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH ch10 covers ETA computation and UTC in the IFR flight plan",
+    "confidence": "low"
+  },
+  "IR.I.C.K3c": {
+    "anchors": ["ifh:ch10", "aim:ch05-s01"],
+    "why": "IFH ch10 covers IFR fuel planning; AIM 5-1 Preflight covers the fuel entry and reserve considerations",
+    "confidence": "medium"
+  },
+  "IR.I.C.K4": {
+    "anchors": ["aim:ch05-s01", "ifh:ch10"],
+    "why": "AIM 5-1 Preflight gives the IFR flight plan form field by field",
+    "confidence": "high"
+  },
+  "IR.I.C.K5": {
+    "anchors": ["aim:ch05-s01", "ifh:ch10"],
+    "why": "AIM 5-1 Preflight covers filing, activating and closing an IFR flight plan including at uncontrolled fields",
+    "confidence": "medium"
+  },
+  "IR.I.C.R1": {
+    "anchors": ["risk-management:ch03"],
+    "why": "RMH ch3 Identifying Hazards and Associated Risks works the PAVE pilot element",
+    "confidence": "medium"
+  },
+  "IR.I.C.R2": {
+    "anchors": ["risk-management:ch03"],
+    "why": "RMH ch3 works the PAVE aircraft element",
+    "confidence": "medium"
+  },
+  "IR.I.C.R3": {
+    "anchors": ["risk-management:ch03"],
+    "why": "RMH ch3 works the PAVE environment element",
+    "confidence": "medium"
+  },
+  "IR.I.C.R4": {
+    "anchors": ["risk-management:ch03"],
+    "why": "RMH ch3 works the PAVE external pressures element",
+    "confidence": "medium"
+  },
+  "IR.I.C.R5": {
+    "anchors": ["ifh:ch02", "aim:ch04-s01"],
+    "why": "IFH ch2 The Air Traffic Control System and AIM 4-1 Services Available to Pilots bound what ATC will and will not provide",
+    "confidence": "medium"
+  },
+  "IR.I.C.R6": {
+    "anchors": ["risk-management:ch07"],
+    "why": "RMH ch7 Automation and Flight Path Management covers overreliance on electronic planning tools",
+    "confidence": "low"
+  },
+  "IR.I.C.R7": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH ch10 covers IFR fuel planning and reserve requirements",
+    "confidence": "medium"
+  },
+  "IR.I.C.S1": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH ch10 builds a worked IFR cross-country flight plan end to end",
+    "confidence": "medium"
+  },
+  "IR.I.C.S2": {
+    "anchors": ["ifh:ch10"],
+    "why": "IFH ch10 covers the fuel reserve computation a changed scenario is reworked against",
+    "confidence": "low"
+  },
+  "IR.I.C.S3": {
+    "anchors": ["aim:ch05-s01", "ifh:ch10"],
+    "why": "AIM 5-1 Preflight covers filing the IFR flight plan; IFH ch10 covers building the navigation log",
+    "confidence": "medium"
+  },
+  "IR.I.C.S4": {
+    "anchors": ["aim:ch09-s01", "ifh:ch10"],
+    "why": "AIM 9-1 describes each chart product; IFH ch10 interprets departure, en route and arrival charts in planning",
+    "confidence": "medium"
+  },
+  "IR.I.C.S5": {
+    "anchors": ["ifh:ch04"],
+    "why": "IFH ch4 Aerodynamic Factors covers airframe icing and its effect on lift, drag and stall speed by phase of flight",
+    "confidence": "high"
+  },
+  "IR.I.C.S6": {
+    "anchors": ["aim:ch09-s01", "aim:ch05-s01"],
+    "why": "AIM 9-1 covers charts and the Chart Supplement; AIM 5-1 covers NOTAMs for runway and taxiway closures",
+    "confidence": "medium"
+  },
+  "IR.II.A.K1": {
+    "anchors": ["ifh:ch04", "phak:ch07"],
+    "why": "IFH ch4 covers ice protection system types and limitations; PHAK ch7 Aircraft Systems covers pitot-static, fuel and induction anti-icing",
+    "confidence": "high"
+  },
+  "IR.II.A.K2": {
+    "anchors": ["phak:ch06"],
+    "why": "PHAK ch6 is the Flight Controls chapter",
+    "confidence": "high"
+  },
+  "IR.II.A.R1": {
+    "anchors": ["ifh:ch04", "risk-management:ch03"],
+    "why": "IFH ch4 covers the hazards of operating in icing; RMH ch3 frames icing as an identified hazard",
+    "confidence": "medium"
+  },
+  "IR.II.A.R2": {
+    "anchors": ["ifh:ch04", "phak:ch07"],
+    "why": "IFH ch4 and PHAK ch7 both state what anti-icing and deicing equipment can and cannot do",
+    "confidence": "medium"
+  },
+  "IR.II.A.R3": {
+    "anchors": ["risk-management:ch07", "ifh:ch07"],
+    "why": "RMH ch7 is the automation risk chapter; IFH ch7 covers managing an electronic flight display and autoflight in IMC",
+    "confidence": "high"
+  },
+  "IR.II.A.S1": {
+    "anchors": ["phak:ch09", "ifh:ch04"],
+    "why": "PHAK ch9 Flight Manuals and Other Documents is where manufacturer procedures live; IFH ch4 supplies the icing background",
+    "confidence": "low"
+  },
+  "IR.II.A.S2": {
+    "anchors": ["phak:ch09", "ifh:ch07", "risk-management:ch07"],
+    "why": "PHAK ch9 covers the AFM supplements carrying AFCS procedures; IFH ch7 and RMH ch7 cover operating the autoflight system",
+    "confidence": "medium"
+  },
+  "IR.II.B.K1": {
+    "anchors": [],
+    "why": "Parent heading, and this Task cites only the AIM and RMH, neither of which has a flight instrument systems chapter",
+    "confidence": "high"
+  },
+  "IR.II.B.K1a": {
+    "anchors": [],
+    "why": "No AIM or RMH chapter covers the pitot-static system; IFH ch5 would fit but IFH is not cited by this Task",
+    "confidence": "high"
+  },
+  "IR.II.B.K1b": {
+    "anchors": [],
+    "why": "No AIM or RMH chapter covers gyroscopic, electric or vacuum instrument systems",
+    "confidence": "high"
+  },
+  "IR.II.B.K1c": {
+    "anchors": ["aim:ch04-s05"],
+    "why": "AIM 4-5 Surveillance Systems covers transponder operation and ADS-B",
+    "confidence": "high"
+  },
+  "IR.II.B.K1d": {
+    "anchors": [],
+    "why": "No AIM or RMH chapter covers the magnetic compass",
+    "confidence": "high"
+  },
+  "IR.II.B.K2": {
+    "anchors": ["aim:ch01-s01", "aim:ch01-s02"],
+    "why": "AIM 1-1 Navigation Aids and AIM 1-2 PBN and RNAV cover the installed navigation systems",
+    "confidence": "high"
+  },
+  "IR.II.B.K2a": {
+    "anchors": ["aim:ch01-s01"],
+    "why": "AIM 1-1 Navigation Aids covers VOR, DME, ILS and marker beacons",
+    "confidence": "high"
+  },
+  "IR.II.B.K2b": {
+    "anchors": ["aim:ch01-s02", "aim:ch01-s01"],
+    "why": "AIM 1-2 Performance-Based Navigation and RNAV covers RNAV, GPS, WAAS and FMS; AIM 1-1 covers GPS as a navaid",
+    "confidence": "high"
+  },
+  "IR.II.B.K3": {
+    "anchors": [],
+    "why": "Neither the AIM nor the RMH has an EFB chapter; the guidance is in AC 91-78, outside the anchor set",
+    "confidence": "medium"
+  },
+  "IR.II.B.R1": {
+    "anchors": ["risk-management:ch07"],
+    "why": "RMH ch7 Automation and Flight Path Management is precisely automation monitoring and management",
+    "confidence": "high"
+  },
+  "IR.II.B.R2": {
+    "anchors": ["aim:ch01-s02"],
+    "why": "AIM 1-2 distinguishes approved PBN equipment from equipment that may not be used for primary navigation",
+    "confidence": "low"
+  },
+  "IR.II.B.R3": {
+    "anchors": ["risk-management:ch07", "aim:ch01-s02"],
+    "why": "RMH ch7 covers automation mode awareness and failure; AIM 1-2 covers RNAV system failure and reversion",
+    "confidence": "low"
+  },
+  "IR.II.B.R4": {
+    "anchors": ["risk-management:ch07"],
+    "why": "RMH ch7 covers the risk of pilot supplied electronic devices in flight path management",
+    "confidence": "low"
+  },
+  "IR.II.B.R5": {
+    "anchors": ["aim:ch01-s02"],
+    "why": "AIM 1-2 covers navigation database currency and its effect on RNAV procedures; IPH ch6 would be the exact fit but IPH is not cited by this Task",
+    "confidence": "low"
+  },
+  "IR.II.B.S1": {
+    "anchors": ["aim:ch01-s01", "aim:ch01-s02"],
+    "why": "AIM 1-1 and 1-2 cover operation of the installed navigation equipment being managed",
+    "confidence": "low"
+  },
+  "IR.II.B.S2": {
+    "anchors": [],
+    "why": "No AIM or RMH chapter covers EFB operation; the whole-handbook default is more right",
+    "confidence": "medium"
+  },
+  "IR.II.C.K1": {
+    "anchors": ["ifh:ch05", "ifh:ch10"],
+    "why": "IFH ch5 Flight Instruments gives the instrument checks and their expected indications; IFH ch10 places the check in the IFR preflight flow",
+    "confidence": "medium"
+  },
+  "IR.II.C.K2": {
+    "anchors": ["phak:ch09", "ifh:ch10"],
+    "why": "PHAK ch9 Flight Manuals and Other Documents covers airworthiness and inspection records; IFH ch10 covers IFR required equipment",
+    "confidence": "medium"
+  },
+  "IR.II.C.K3": {
+    "anchors": ["phak:ch09"],
+    "why": "PHAK ch9 covers minimum equipment lists and the documentation for inoperative equipment",
+    "confidence": "medium"
+  },
+  "IR.II.C.R1": {
+    "anchors": ["phak:ch09", "risk-management:ch03"],
+    "why": "PHAK ch9 covers the inoperative equipment rules; RMH ch3 frames the residual risk of dispatching with them",
+    "confidence": "low"
+  },
+  "IR.II.C.R2": {
+    "anchors": ["risk-management:ch03"],
+    "why": "RMH ch3 treats outdated publications and databases as an identifiable hazard",
+    "confidence": "low"
+  },
+  "IR.II.C.S1": {
+    "anchors": ["afh:ch02", "ifh:ch10"],
+    "why": "AFH ch2 Ground Operations is the preflight inspection and checklist chapter; IFH ch10 adds the IFR specific items",
+    "confidence": "medium"
+  },
+  "IR.III.A.K1": {
+    "anchors": ["aim:ch04-s04", "aim:ch05-s05", "ifh:ch10"],
+    "why": "AIM 4-4 ATC Clearances and Aircraft Separation covers clearance content and void times; AIM 5-5 is Pilot/Controller Roles and Responsibilities",
+    "confidence": "high"
+  },
+  "IR.III.A.K2": {
+    "anchors": ["aim:ch06-s01", "ifh:ch11"],
+    "why": "AIM 6-1 General states PIC emergency authority; IFH ch11 Emergency Operations covers exercising it",
+    "confidence": "high"
+  },
+  "IR.III.A.K3": {
+    "anchors": ["aim:ch06-s04", "ifh:ch11"],
+    "why": "AIM 6-4 is the Two-way Radio Communications Failure section; IFH ch11 covers lost communications in flight",
+    "confidence": "high"
+  },
+  "IR.III.A.R1": {
+    "anchors": ["aim:ch04-s02", "aim:ch05-s05"],
+    "why": "AIM 4-2 Radio Communications Phraseology and Techniques covers asking for clarification; AIM 5-5 makes it the pilot's duty",
+    "confidence": "medium"
+  },
+  "IR.III.A.R2": {
+    "anchors": ["aim:ch05-s05", "aim:ch04-s04"],
+    "why": "AIM 5-5 requires the pilot to query a clearance not understood or not acceptable; AIM 4-4 defines a proper clearance",
+    "confidence": "medium"
+  },
+  "IR.III.A.R3": {
+    "anchors": ["aim:ch05-s05"],
+    "why": "AIM 5-5 covers refusing or amending a clearance the aircraft cannot comply with",
+    "confidence": "low"
+  },
+  "IR.III.A.R4": {
+    "anchors": ["aim:ch04-s02"],
+    "why": "AIM 4-2 covers call sign use and the similar call sign confusion problem",
+    "confidence": "medium"
+  },
+  "IR.III.A.S1": {
+    "anchors": ["aim:ch04-s02", "aim:ch04-s04"],
+    "why": "AIM 4-2 is the standard phraseology and readback section; AIM 4-4 covers clearance compliance",
+    "confidence": "high"
+  },
+  "IR.III.A.S2": {
+    "anchors": ["aim:ch04-s05", "aim:ch01-s01"],
+    "why": "AIM 4-5 Surveillance Systems covers transponder code setting; AIM 1-1 covers navaid identification",
+    "confidence": "medium"
+  },
+  "IR.III.A.S3": {
+    "anchors": ["aim:ch09-s01"],
+    "why": "AIM 9-1 Types of Charts Available covers the current paper and electronic navigation publications",
+    "confidence": "medium"
+  },
+  "IR.III.A.S4": {
+    "anchors": ["ifh:ch09"],
+    "why": "IFH ch9 Navigation Systems covers course, radial and bearing interception technique",
+    "confidence": "high"
+  },
+  "IR.III.A.S5": {
+    "anchors": ["ifh:ch06", "ifh:ch07"],
+    "why": "IFH ch6 and ch7 Airplane Attitude Instrument Flying teach holding airspeed, heading and altitude to tolerance and tracking a course on analog and electronic displays",
+    "confidence": "high"
+  },
+  "IR.III.A.S6": {
+    "anchors": ["ifh:ch03", "risk-management:ch08"],
+    "why": "IFH ch3 Human Factors covers SRM and CRM; RMH ch8 applies it to in-flight decision-making",
+    "confidence": "medium"
+  },
+  "IR.III.A.S7": {
+    "anchors": ["afh:ch02"],
+    "why": "AFH ch2 Ground Operations establishes checklist discipline by phase of flight",
+    "confidence": "low"
+  },
+  "IR.III.B.K1": {
+    "anchors": ["aim:ch05-s03", "ifh:ch10", "iph:ch02"],
+    "why": "AIM 5-3 En Route Procedures is the holding section with speeds, entries and reporting; IFH ch10 and IPH ch2 En Route Operations cover holding in practice",
+    "confidence": "high"
+  },
+  "IR.III.B.R1": {
+    "anchors": ["ifh:ch10", "aim:ch05-s03"],
+    "why": "IFH ch10 covers fuel reserve computation; AIM 5-3 covers the EFC time issued with holding",
+    "confidence": "low"
+  },
+  "IR.III.B.R2": {
+    "anchors": ["aim:ch06-s03", "ifh:ch11"],
+    "why": "AIM 6-3 Distress and Urgency Procedures covers the minimum fuel advisory and declaring an emergency; IFH ch11 covers the in-flight decision",
+    "confidence": "medium"
+  },
+  "IR.III.B.R3": {
+    "anchors": ["aim:ch05-s03", "risk-management:ch08"],
+    "why": "AIM 5-3 covers when ATC issues holding; RMH ch8 covers reassessing the plan when destination weather deteriorates",
+    "confidence": "low"
+  },
+  "IR.III.B.R4": {
+    "anchors": ["aim:ch05-s03", "ifh:ch10"],
+    "why": "AIM 5-3 gives the holding entry procedures and drift correction guidance; IFH ch10 works the technique",
+    "confidence": "medium"
+  },
+  "IR.III.B.S1": {
+    "anchors": ["aim:ch05-s03", "ifh:ch10", "iph:ch02"],
+    "why": "AIM 5-3 defines standard, nonstandard and published holding and the recommended entries; IFH ch10 and IPH ch2 apply them",
+    "confidence": "high"
+  },
+  "IR.III.B.S2": {
+    "anchors": ["aim:ch05-s03"],
+    "why": "AIM 5-3 gives the maximum holding airspeeds by altitude and the three minute speed reduction guidance",
+    "confidence": "high"
+  },
+  "IR.III.B.S3": {
+    "anchors": ["aim:ch05-s03", "ifh:ch10"],
+    "why": "AIM 5-3 covers fix arrival and entry timing; IFH ch10 covers recognizing station or fix passage",
+    "confidence": "medium"
+  },
+  "IR.III.B.S3a": {
+    "anchors": ["aim:ch05-s03"],
+    "why": "AIM 5-3 gives holding leg length, timing and DME or RNAV leg restrictions",
+    "confidence": "high"
+  },
+  "IR.III.B.S4": {
+    "anchors": ["ifh:ch06", "ifh:ch07"],
+    "why": "IFH ch6 and ch7 Airplane Attitude Instrument Flying teach maintaining airspeed, altitude and heading to tolerance and tracking within CDI limits",
+    "confidence": "high"
+  },
+  "IR.III.B.S5": {
+    "anchors": ["aim:ch05-s03", "ifh:ch10"],
+    "why": "AIM 5-3 covers drift correction and timing in the pattern; IFH ch10 works the wind correction technique",
+    "confidence": "medium"
+  },
+  "IR.III.B.S6": {
+    "anchors": ["ifh:ch07", "ifh:ch09"],
+    "why": "IFH ch7 covers using the electronic flight display and MFD for flightpath awareness; IFH ch9 covers the moving map position display",
+    "confidence": "medium"
+  },
+  "IR.III.B.S7": {
+    "anchors": ["aim:ch05-s03"],
+    "why": "AIM 5-3 gives the holding reporting requirements including entry and departure reports",
+    "confidence": "high"
+  },
+  "IR.III.B.S8": {
+    "anchors": ["ifh:ch03", "risk-management:ch08"],
+    "why": "IFH ch3 Human Factors covers SRM and CRM; RMH ch8 applies it in flight",
+    "confidence": "medium"
+  }
+}
