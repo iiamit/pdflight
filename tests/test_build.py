@@ -574,3 +574,101 @@ def test_a_chip_label_is_never_ambiguous():
                 assert seen.setdefault(label, ref) == ref, (
                     "label %r means both %s and %s"
                     % (label, seen[label], ref))
+
+
+# ---------------------------------------------------------------------------
+# the generated menu links, which assembly strips
+# ---------------------------------------------------------------------------
+
+def test_a_named_link_is_redrawn_as_a_page_goto():
+    """insert_pdf carries no link whose target is a named destination.
+
+    Typst emits only that kind, so assembly stripped all 73 menu links and
+    the cover, contents, entry arrows, colophon button and every "Return to
+    the main menu" did nothing. Three gates looked at the file and none
+    noticed, because zero links dangle and navigation pages are stamp-exempt.
+    """
+    class SourcePage:
+        def __init__(self, links):
+            self._links = links
+
+        def get_links(self):
+            return self._links
+
+    class SourceDoc:
+        page_count = 2
+
+        def __init__(self, pages):
+            self._pages = pages
+
+        def load_page(self, number):
+            return self._pages[number]
+
+        def close(self):
+            pass
+
+    # cover (source page 0) links to the main menu (source page 1)
+    source = SourceDoc([SourcePage([{"kind": 4, "page": 1,
+                                     "from": FakeRect(10.0)}]),
+                        SourcePage([])])
+    target = FakePage([])
+
+    class Assembled:
+        page_count = 20
+
+        def load_page(self, _number):
+            return target
+
+    offsets = {"cover": {"kind": "cover", "start": 1, "pages": 1,
+                         "source_start": 0},
+               "menu": {"kind": "menu", "start": 2, "pages": 1,
+                        "source_start": 1}}
+
+    class Fake(FakePyMuPDF):
+        @staticmethod
+        def open(_path):
+            return source
+
+    added = L.relink_generated(Assembled(), offsets, __file__, Fake())
+    assert added == 1
+    # source page 1 is assembled page 2, so the GoTo is 0-based page 1
+    assert target.links[0]["page"] == 1
+    assert target.links[0]["kind"] == FakePyMuPDF.LINK_GOTO
+
+
+def test_relinking_is_skipped_when_menus_pdf_is_absent():
+    offsets = {"cover": {"kind": "cover", "start": 1, "pages": 1,
+                         "source_start": 0}}
+    assert L.relink_generated(None, offsets, "no/such/menus.pdf",
+                              FakePyMuPDF()) == 0
+
+
+@pytest.mark.skipif(not OFFSETS_FILE.is_file(), reason="run make assemble")
+def test_assembly_records_where_each_generated_run_came_from():
+    """Without source_start the linker cannot find the links to redraw."""
+    with io.open(OFFSETS_FILE, encoding="utf-8") as handle:
+        offsets = json.load(handle)["offsets"]
+    generated = [(k, e) for k, e in offsets.items() if e["kind"] in L.NAV_KINDS]
+    assert generated, "no generated pages in the offsets"
+    for key, entry in generated:
+        assert entry.get("source_start") is not None, (
+            "%s has no source_start" % key)
+
+
+@pytest.mark.skipif(not FINAL.is_file(), reason="run make build")
+def test_the_built_menu_pages_actually_carry_links():
+    """The defect this whole section exists for, checked on the real file."""
+    import pymupdf
+
+    with io.open(OFFSETS_FILE, encoding="utf-8") as handle:
+        offsets = json.load(handle)["offsets"]
+    document = pymupdf.open(FINAL)
+    try:
+        for key, entry in offsets.items():
+            if entry["kind"] not in ("cover", "menu"):
+                continue
+            page = document.load_page(entry["start"] - 1)
+            assert page.get_links(), "%s page %d has no links" % (
+                key, entry["start"])
+    finally:
+        document.close()

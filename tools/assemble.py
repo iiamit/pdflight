@@ -218,16 +218,21 @@ def run(argv, sources_path=M.SOURCES, lock_path=M.LOCK, menus_pdf=MENUS_PDF,
 
     for kind, key in steps:
         before = cursor
+        source_first = None
         if kind == "cover":
+            source_first = cover_page
             result.insert_pdf(menus, from_page=cover_page,
                               to_page=menu_start - 1)
         elif kind == "menu":
+            source_first = menu_start
             result.insert_pdf(menus, from_page=menu_start, to_page=menu_end - 1)
         elif kind == "colophon":
+            source_first = colophon_page
             result.insert_pdf(menus, from_page=colophon_page,
                               to_page=menus.page_count - 1)
         elif kind == "docmenu":
             start, end = doc_menu_page[key]
+            source_first = start
             result.insert_pdf(menus, from_page=start, to_page=end - 1)
         elif kind == "cfr":
             document = pymupdf.open(cfr_pdf)
@@ -239,8 +244,14 @@ def run(argv, sources_path=M.SOURCES, lock_path=M.LOCK, menus_pdf=MENUS_PDF,
             result.insert_pdf(document)
             document.close()
         cursor = result.page_count
-        placed[offset_key(kind, key)] = {"kind": kind, "start": before + 1,
-                                         "pages": cursor - before}
+        record = {"kind": kind, "start": before + 1, "pages": cursor - before}
+        # Where this run of generated pages came from inside menus.pdf.
+        # insert_pdf discards every named-destination link it copies, so the
+        # linker has to read them back off the source and redraw them, and it
+        # cannot do that without knowing which source page each one was.
+        if kind in ("cover", "menu", "docmenu", "colophon"):
+            record["source_start"] = source_first
+        placed[offset_key(kind, key)] = record
         out.write("  %-10s %-26s p%-6d %d page(s)\n"
                   % (kind, key or "", before + 1, cursor - before))
 

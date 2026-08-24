@@ -43,7 +43,7 @@ PROPOSALS = {
     "private-b3": "private", "private-c": "private", "private-d": "private",
     "private-e": "private",
     "instrument-a": "instrument", "instrument-b": "instrument",
-    "instrument-c": "instrument",
+    "instrument-c": "instrument", "instrument-d": "instrument",
 }
 
 
@@ -115,11 +115,19 @@ def validate(proposals, inventory, rows_by_cert):
                 report["empty"] += 1
                 continue
 
-            good = []
+            good, settled_here = [], settled.get(code, set())
             for ref in proposed:
                 doc = inventory.get(ref)
                 if doc is None:
                     report["unknown_anchor"].append((name, code, ref))
+                    continue
+                # Applying replaces the element's document-level row with the
+                # chapter rows, so on a re-run the handbook is no longer among
+                # the things its Task appears to cite. Without this an already
+                # applied refinement reads as 2,089 rejections and buries the
+                # handful that are genuinely new.
+                if ref in settled_here:
+                    report["already"] += 1
                     continue
                 # The chapter must belong to a handbook this element's Task
                 # actually cites, or the crosswalk starts asserting a link the

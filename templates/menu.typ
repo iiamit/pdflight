@@ -221,3 +221,52 @@
     },
   )
 ]
+
+// One Area of Operation on the index page.
+//
+// Two ways in. `target` is a Typst link to this area's block inside the
+// crosswalk, which works because both pages are in this file. The `ACS <n>`
+// chip is left as plain text: it points into the ACS document, which does not
+// exist yet at compile time, so tools/link.py attaches that one afterwards.
+#let area-row(number, name, target, tasks, elements) = block(
+  width: 100%,
+  inset: (top: 6pt, bottom: 6pt),
+  stroke: (top: 0.5pt + hair),
+)[
+  #grid(
+    columns: (30pt, 1fr, auto),
+    column-gutter: 10pt,
+    align: (left, left, right),
+    text(font: mono, size: 11pt, weight: 500, fill: signal)[#number],
+    {
+      text(font: sans, size: 10.5pt, weight: 500, fill: ink)[#name]
+      linebreak()
+      text(font: mono, size: 7.5pt, fill: ink-3)[
+        #tasks tasks · #elements elements linked
+      ]
+    },
+    {
+      box(
+        inset: (x: 6pt, y: 3pt), radius: 100pt, stroke: 0.5pt + hair-2,
+        text(font: mono, size: 8pt, fill: ink-2)[ACS #number],
+      )
+      h(5pt)
+      link(target)[#box(
+        inset: (x: 6pt, y: 3pt), radius: 100pt, stroke: 0.5pt + signal,
+        text(font: mono, size: 8pt, fill: signal)[Crosswalk],
+      )]
+    },
+  )
+]
+
+// The heading that starts an area's block of crosswalk rows, and the thing
+// the area index links to.
+#let area-heading(number, name) = block(
+  width: 100%, above: 14pt, below: 6pt,
+)[
+  #text(font: mono, size: 8pt, fill: ink-3, tracking: 1.2pt)[
+    AREA OF OPERATION #number
+  ]
+  #linebreak()
+  #text(font: sans, size: 13pt, weight: 600, fill: ink, tracking: -0.3pt)[#name]
+]

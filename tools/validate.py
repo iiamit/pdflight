@@ -152,13 +152,48 @@ def run(argv, final=FINAL, offsets_path=OFFSETS, absolute=ABSOLUTE,
     # 4 -- reachability ------------------------------------------------------
     import menus as menus_tool
 
-    names = set(document.resolve_names())
+    # "Reachable" has to mean a reader can get there, not that the destination
+    # exists. The first version of this gate checked only that the name was in
+    # the file, and passed for a build in which assembly had stripped every
+    # link annotation off every generated page: the cover, the contents, every
+    # entry arrow, the colophon button, and every "Return to the main menu"
+    # did nothing at all, and all 34 documents still counted as reachable.
+    # A dict, not a set: the gate needs each destination's page to check
+    # that something actually links to it.
+    names = document.resolve_names()
     entries = M.load_sources()
-    unreachable = [e["id"] for e in entries
-                   if menus_tool.label_for_doc(e["id"]) not in names]
-    result.add(4, "every document reachable from a menu",
+
+    generated_pages = set()
+    for _key, entry in offsets.items():
+        if entry["kind"] in NAV_KINDS:
+            for index in range(entry["pages"]):
+                generated_pages.add(entry["start"] + index)
+
+    linked_from_menu = set()
+    menu_link_count = 0
+    for number in sorted(generated_pages):
+        if number > document.page_count:
+            continue
+        for link in document.load_page(number - 1).get_links():
+            menu_link_count += 1
+            target = link.get("page")
+            if target is not None and target >= 0:
+                linked_from_menu.add(target + 1)
+
+    unreachable = []
+    for entry in entries:
+        label = menus_tool.label_for_doc(entry["id"])
+        if label not in names:
+            unreachable.append(entry["id"])
+            continue
+        if names[label].get("page") + 1 not in linked_from_menu:
+            unreachable.append(entry["id"])
+
+    result.add(4, "every document is linked from a menu page",
                "PASS" if not unreachable else "FAIL",
-               "%d document(s)" % len(entries) if not unreachable
+               "%d document(s), %d link(s) across %d generated page(s)"
+               % (len(entries), menu_link_count, len(generated_pages))
+               if not unreachable
                else "%d of %d unreachable, e.g. %s"
                     % (len(unreachable), len(entries), unreachable[0]))
 

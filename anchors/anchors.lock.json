@@ -97,41 +97,125 @@
       "page": 5,
       "strategy": "outline"
     },
-    "acs:PA:area-of-operation-i-preflight-preparation": {
-      "doc": "acs-private-airplane",
-      "evidence": "Area of Operation I. Preflight Preparation",
-      "page": 10,
-      "strategy": "outline"
+    "acs:IR:area-i": {
+      "doc": "acs-instrument-airplane",
+      "evidence": "Area of Operation I.",
+      "page": 8,
+      "strategy": "regex"
     },
-    "acs:PA:area-of-operation-ii-preflight-procedures": {
-      "doc": "acs-private-airplane",
-      "evidence": "Area of Operation II. Preflight Procedures",
-      "page": 19,
-      "strategy": "outline"
+    "acs:IR:area-ii": {
+      "doc": "acs-instrument-airplane",
+      "evidence": "Area of Operation II.",
+      "page": 12,
+      "strategy": "regex"
     },
-    "acs:PA:area-of-operation-iii-airport-and-seaplane-b": {
-      "doc": "acs-private-airplane",
-      "evidence": "Area of Operation III. Airport and Seaplane Base Operations",
-      "page": 24,
-      "strategy": "outline"
+    "acs:IR:area-iii": {
+      "doc": "acs-instrument-airplane",
+      "evidence": "Area of Operation III.",
+      "page": 14,
+      "strategy": "regex"
     },
-    "acs:PA:area-of-operation-iv-takeoffs-landings-and-g": {
-      "doc": "acs-private-airplane",
-      "evidence": "Area of Operation IV. Takeoffs, Landings, and Go-Arounds",
+    "acs:IR:area-iv": {
+      "doc": "acs-instrument-airplane",
+      "evidence": "Area of Operation IV.",
+      "page": 16,
+      "strategy": "regex"
+    },
+    "acs:IR:area-v": {
+      "doc": "acs-instrument-airplane",
+      "evidence": "Area of Operation V.",
+      "page": 18,
+      "strategy": "regex"
+    },
+    "acs:IR:area-vi": {
+      "doc": "acs-instrument-airplane",
+      "evidence": "Area of Operation VI.",
+      "page": 20,
+      "strategy": "regex"
+    },
+    "acs:IR:area-vii": {
+      "doc": "acs-instrument-airplane",
+      "evidence": "Area of Operation VII.",
       "page": 26,
-      "strategy": "outline"
+      "strategy": "regex"
     },
-    "acs:PA:area-of-operation-v-performance-maneuvers-an": {
+    "acs:IR:area-viii": {
+      "doc": "acs-instrument-airplane",
+      "evidence": "Area of Operation VIII.",
+      "page": 30,
+      "strategy": "regex"
+    },
+    "acs:PA:area-i": {
       "doc": "acs-private-airplane",
-      "evidence": "Area of Operation V. Performance Maneuvers and Ground Reference Maneuvers",
+      "evidence": "Area of Operation I.",
+      "page": 10,
+      "strategy": "regex"
+    },
+    "acs:PA:area-ii": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation II.",
+      "page": 19,
+      "strategy": "regex"
+    },
+    "acs:PA:area-iii": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation III.",
+      "page": 24,
+      "strategy": "regex"
+    },
+    "acs:PA:area-iv": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation IV.",
+      "page": 26,
+      "strategy": "regex"
+    },
+    "acs:PA:area-ix": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation IX.",
+      "page": 59,
+      "strategy": "regex"
+    },
+    "acs:PA:area-v": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation V.",
       "page": 44,
-      "strategy": "outline"
+      "strategy": "regex"
     },
-    "acs:PA:area-of-operation-vi-navigation": {
+    "acs:PA:area-vi": {
       "doc": "acs-private-airplane",
-      "evidence": "Area of Operation VI. Navigation",
+      "evidence": "Area of Operation VI.",
       "page": 46,
-      "strategy": "outline"
+      "strategy": "regex"
+    },
+    "acs:PA:area-vii": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation VII.",
+      "page": 50,
+      "strategy": "regex"
+    },
+    "acs:PA:area-viii": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation VIII.",
+      "page": 54,
+      "strategy": "regex"
+    },
+    "acs:PA:area-x": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation X.",
+      "page": 66,
+      "strategy": "regex"
+    },
+    "acs:PA:area-xi": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation XI.",
+      "page": 71,
+      "strategy": "regex"
+    },
+    "acs:PA:area-xii": {
+      "doc": "acs-private-airplane",
+      "evidence": "Area of Operation XII.",
+      "page": 72,
+      "strategy": "regex"
     },
     "afh:ch01": {
       "doc": "afh",

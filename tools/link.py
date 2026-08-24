@@ -525,6 +525,32 @@ def link_element_to_hub(page, hub_page_of, pymupdf):
     return added
 
 
+# `ACS VIII` on an area index row. The Crosswalk chip beside it is a Typst
+# link, because both ends are generated pages; this one points into the ACS
+# document, which does not exist when the menus compile.
+AREA_CHIP = re.compile(r"\bACS\s+([IVX]{1,4})\b")
+
+
+def link_area_index(page, prefix, resolver, pymupdf):
+    """Point each area row at that Area of Operation in the ACS itself."""
+    if not prefix:
+        return 0
+    added = 0
+    for text, spans in page_lines(page):
+        for match in AREA_CHIP.finditer(text):
+            ref = "acs:%s:area-%s" % (prefix, match.group(1).lower())
+            target = resolver(ref)
+            if target is None:
+                continue
+            rect = rect_for_span(spans, match.start(), match.end(), pymupdf)
+            if rect is None:
+                continue
+            page.insert_link({"kind": pymupdf.LINK_GOTO, "from": rect,
+                              "page": target - 1})
+            added += 1
+    return added
+
+
 def chip_index(targets):
     """Chip label -> target ref, for every target the crosswalk carries.
 
@@ -654,6 +680,62 @@ def build_resolver(mapping, lock, entries):
         return None
 
     return resolve
+
+
+def relink_generated(document, offsets, menus_pdf, pymupdf):
+    """Redraw the links Typst put on the generated pages.
+
+    `insert_pdf` does not carry a link whose target is a named destination.
+    Not a page-range problem: copying the whole of menus.pdf still leaves the
+    page with no annotations at all. Every menu link is a `/Named` link,
+    because that is the only kind Typst emits, so assembly silently stripped
+    all 73 of them. The cover, the contents, every entry arrow, the colophon
+    button, and every "Return to the main menu" did nothing.
+
+    Nothing caught it. Gate 2 only inspects `GOTO` links, and zero links means
+    nothing dangles. Gate 5 exempts navigation pages from the stamp check by
+    design. Gate 4 asked whether the destination *name* existed, which it did.
+
+    The fix is to read the links back off menus.pdf and redraw them as plain
+    page GoTo, which is what everything else in this file already uses.
+    """
+    menus = pathlib.Path(menus_pdf)
+    if not menus.is_file():
+        return 0
+
+    # Source page index in menus.pdf -> page in the assembled file.
+    source_to_page = {}
+    for _key, entry in offsets.items():
+        first = entry.get("source_start")
+        if entry["kind"] not in NAV_KINDS or first is None:
+            continue
+        for index in range(entry["pages"]):
+            source_to_page[first + index] = entry["start"] + index
+
+    document_menus = pymupdf.open(menus)
+    added = 0
+    try:
+        for source_index, target_page in sorted(source_to_page.items()):
+            if source_index >= document_menus.page_count:
+                continue
+            if target_page > document.page_count:
+                continue
+            source_page = document_menus.load_page(source_index)
+            links = source_page.get_links()
+            if not links:
+                continue
+            page = document.load_page(target_page - 1)
+            for link in links:
+                landing = source_to_page.get(link.get("page"))
+                if landing is None or link.get("from") is None:
+                    continue
+                page.insert_link({"kind": pymupdf.LINK_GOTO,
+                                  "from": link["from"],
+                                  "page": landing - 1})
+                added += 1
+    finally:
+        document_menus.close()
+    return added
 
 
 def write_named_destinations(document, mapping, pymupdf):
@@ -822,6 +904,7 @@ def run(argv, assembled=ASSEMBLED, offsets_path=OFFSETS, output=LINKED,
     # Pass one locates things; pass two links them. The two directions depend
     # on each other, so neither can be drawn until both ends are known.
     acs_page_of, hub_page_of, hub_pages = {}, {}, []
+    hub_prefix = {}
     for entry in entries:
         if entry["section"] != "standards":
             continue
@@ -839,11 +922,13 @@ def run(argv, assembled=ASSEMBLED, offsets_path=OFFSETS, output=LINKED,
         # The crosswalk sits in the pages after this document's menu page.
         menu = offsets.get(entry["id"] + "__menu")
         if menu and menu["pages"] > 1:
+            prefix = menus_tool.ACS_PREFIX.get(entry["id"])
             for index in range(1, menu["pages"]):
                 number = menu["start"] + index - 1
                 if number >= document.page_count:
                     break
                 hub_pages.append(number)
+                hub_prefix[number] = prefix
                 for code, _rect in element_code_rects(
                         document.load_page(number), pymupdf):
                     hub_page_of.setdefault(code, number + 1)
@@ -876,12 +961,18 @@ def run(argv, assembled=ASSEMBLED, offsets_path=OFFSETS, output=LINKED,
                 citation_links += added
 
     chips = chip_index(every_target)
+    area_links = 0
     for number in hub_pages:
+        page = document.load_page(number)
         back, sections = link_hub_row(
-            document.load_page(number), chips, acs_page_of, resolver, pymupdf)
+            page, chips, acs_page_of, resolver, pymupdf)
+        area_links += link_area_index(
+            page, hub_prefix.get(number), resolver, pymupdf)
         hub_back += back
         hub_sections += sections
 
+    menu_links = relink_generated(
+        document, offsets, M.ROOT / "build" / "menus" / "menus.pdf", pymupdf)
     written = write_named_destinations(document, mapping, pymupdf)
 
     document.save(str(output), garbage=3, deflate=True)
@@ -891,12 +982,15 @@ def run(argv, assembled=ASSEMBLED, offsets_path=OFFSETS, output=LINKED,
     out.write("stamped %d page(s), %d navigation page(s) exempt\n"
               % (stamped, exempt))
     out.write("rebuilt %d named destination(s) destroyed by assembly\n" % written)
+    out.write("redrew %d generated menu link(s) dropped by assembly\n"
+              % menu_links)
     out.write("%d crosswalk citation link(s) across %d ACS page(s)\n"
               % (citation_links, citation_pages))
     out.write("%d element code(s) linked to their crosswalk row\n"
               % element_links)
     out.write("%d crosswalk page(s): %d return link(s), %d section link(s)\n"
               % (len(hub_pages), hub_back, hub_sections))
+    out.write("%d area index link(s) into the ACS itself\n" % area_links)
     out.write("%d inline target button(s) across %d element(s), %d overflowed "
               "to the crosswalk page\n" % (buttons, buttoned, overflowed))
     out.write("%s: %.1f MB\n" % (pathlib.Path(output).name, size / 1048576))

@@ -287,36 +287,6 @@ ac:61-65K:8-pilot-training-and-testing-title-14-cfr-pa:
   ordinal: 1
 
 # acs-private-airplane: outline match
-acs:PA:area-of-operation-i-preflight-preparation:
-  doc: acs-private-airplane
-  strategy: outline
-  match: 'Area of Operation I. Preflight Preparation'
-  ordinal: 1
-acs:PA:area-of-operation-ii-preflight-procedures:
-  doc: acs-private-airplane
-  strategy: outline
-  match: 'Area of Operation II. Preflight Procedures'
-  ordinal: 1
-acs:PA:area-of-operation-iii-airport-and-seaplane-b:
-  doc: acs-private-airplane
-  strategy: outline
-  match: 'Area of Operation III. Airport and Seaplane Base Operations'
-  ordinal: 1
-acs:PA:area-of-operation-iv-takeoffs-landings-and-g:
-  doc: acs-private-airplane
-  strategy: outline
-  match: 'Area of Operation IV. Takeoffs, Landings, and Go-Arounds'
-  ordinal: 1
-acs:PA:area-of-operation-v-performance-maneuvers-an:
-  doc: acs-private-airplane
-  strategy: outline
-  match: 'Area of Operation V. Performance Maneuvers and Ground Reference Maneuvers'
-  ordinal: 1
-acs:PA:area-of-operation-vi-navigation:
-  doc: acs-private-airplane
-  strategy: outline
-  match: 'Area of Operation VI. Navigation'
-  ordinal: 1
 
 # aviation-weather: outline match
 awh:1-introduction:
@@ -1015,4 +985,107 @@ ifh:ch07:
   doc: ifh
   strategy: regex
   pattern: '^\s*7-1\s*$'
+  ordinal: 1
+
+# ACS Areas of Operation, one anchor each. The area index links
+# here, so a reader can start at the area rather than the element.
+acs:PA:area-i:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+I\.'
+  ordinal: 1
+acs:PA:area-ii:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+II\.'
+  ordinal: 1
+acs:PA:area-iii:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+III\.'
+  ordinal: 1
+acs:PA:area-iv:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+IV\.'
+  ordinal: 1
+acs:PA:area-v:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+V\.'
+  ordinal: 1
+acs:PA:area-vi:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+VI\.'
+  ordinal: 1
+acs:PA:area-vii:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+VII\.'
+  ordinal: 1
+acs:PA:area-viii:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+VIII\.'
+  ordinal: 1
+acs:PA:area-ix:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+IX\.'
+  ordinal: 1
+acs:PA:area-x:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+X\.'
+  ordinal: 1
+acs:PA:area-xi:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+XI\.'
+  ordinal: 1
+acs:PA:area-xii:
+  doc: acs-private-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+XII\.'
+  ordinal: 1
+acs:IR:area-i:
+  doc: acs-instrument-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+I\.'
+  ordinal: 1
+acs:IR:area-ii:
+  doc: acs-instrument-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+II\.'
+  ordinal: 1
+acs:IR:area-iii:
+  doc: acs-instrument-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+III\.'
+  ordinal: 1
+acs:IR:area-iv:
+  doc: acs-instrument-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+IV\.'
+  ordinal: 1
+acs:IR:area-v:
+  doc: acs-instrument-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+V\.'
+  ordinal: 1
+acs:IR:area-vi:
+  doc: acs-instrument-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+VI\.'
+  ordinal: 1
+acs:IR:area-vii:
+  doc: acs-instrument-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+VII\.'
+  ordinal: 1
+acs:IR:area-viii:
+  doc: acs-instrument-airplane
+  strategy: regex
+  pattern: '^\s*Area of Operation\s+VIII\.'
   ordinal: 1

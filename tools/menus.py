@@ -265,6 +265,49 @@ def render(entries, lock, cfr_lock, cfr_pages):
     return "\n".join(out) + "\n"
 
 
+ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7,
+         "VIII": 8, "IX": 9, "X": 10, "XI": 11, "XII": 12}
+
+# The element-code prefix each ACS uses, which is also the anchor prefix.
+ACS_PREFIX = {"acs-private-airplane": "PA",
+              "acs-instrument-airplane": "IR",
+              "acs-commercial-airplane": "CA",
+              "acs-atp-airplane": "AA",
+              "acs-cfi-airplane": "AI"}
+
+AREA_HEADING = re.compile(r"(?m)^\s*Area of Operation\s+([IVX]+)\.?\s*(.*)$")
+
+
+def area_label(prefix, area):
+    """The Typst label for one area's block of crosswalk rows."""
+    return "xw-%s-%s" % (prefix or "acs", area.lower())
+
+
+def area_names(document_id):
+    """Area number -> its name, read from the ACS rather than invented.
+
+    Rule 4: the names are the FAA's own headings, so they come out of the
+    document. A missing one falls back to the bare number rather than to a
+    guess.
+    """
+    import index as IX
+
+    record = IX.load_index(document_id)
+    if not record:
+        return {}
+    skip = set(record.get("toc_pages") or [])
+    found = {}
+    for number, text in enumerate(record.get("page_text") or [], 1):
+        if number in skip:
+            continue
+        for match in AREA_HEADING.finditer(text or ""):
+            roman = match.group(1).upper()
+            title = match.group(2).strip().rstrip(".")
+            if roman not in found and title:
+                found[roman] = title
+    return found
+
+
 def crosswalk_for(document_id):
     """The crosswalk CSV that carries this ACS's elements, if any."""
     import bootstrap_crosswalk as BC
@@ -338,27 +381,67 @@ def crosswalk_pages(entry):
     if not rows:
         return []
 
-    out = ["#pagebreak()",
-           '#section-label("%s", "Crosswalk")'
-           % next((n for n, k, _ in SECTIONS if k == entry["section"]), "00"),
-           '#page-title[Regulation crosswalk]',
-           '#text(font: sans, size: 9.5pt, fill: ink-2)[Every element of this '
-           'ACS with the regulations, handbook chapters, and guidance that '
-           'support it. The element code returns to the ACS page it appears '
-           'on. Each chip jumps to its source.]',
-           '#target-legend((("91.119", "regulation", "regulations"), '
-           '("PHAK c15", "handbook", "handbooks"), '
-           '("AIM 3-2", "manual", "the AIM"), '
-           '("AC 91-92", "circular", "advisory circulars")))',
-           "#v(4pt)"]
+    prefix = ACS_PREFIX.get(entry["id"])
+    number = next((n for n, k, _ in SECTIONS if k == entry["section"]), "00")
+
+    # Group by Area of Operation, in the order the ACS itself runs them.
+    by_area, order = {}, []
     for code, body, refs in rows:
-        out.append('#crosswalk-row("%s", "%s", (%s,))' % (
-            typst_string(code), typst_string(body[:150]),
-            ", ".join('("%s", "%s")' % (typst_string(label), kind)
-                      for label, kind, _ref in refs)))
+        area = code.split(".")[1]
+        if area not in by_area:
+            by_area[area] = []
+            order.append(area)
+        by_area[area].append((code, body, refs))
+    order.sort(key=lambda a: ROMAN.get(a, 99))
+
+    names = area_names(entry["id"])
+
+    # --- the index -----------------------------------------------------------
+    # 97 pages of element rows with nothing between the document menu and the
+    # first element is not navigable. This is the missing level: pick an area,
+    # then go to it in the ACS or to its block of the crosswalk.
+    out = ["#pagebreak()",
+           '#section-label("%s", "Crosswalk")' % number,
+           '#page-title[Areas of Operation]',
+           '#text(font: sans, size: 9.5pt, fill: ink-2)[The %d areas this ACS '
+           'is organised into. `ACS` opens the area in the standard itself. '
+           '`Crosswalk` opens its elements with the regulations, handbook '
+           'chapters, and guidance that support them.]' % len(order),
+           "#v(6pt)"]
+    for area in order:
+        members = by_area[area]
+        tasks = len({code.split(".")[2] for code, _b, _r in members})
+        out.append('#area-row("%s", "%s", <%s>, %d, %d)' % (
+            area, typst_string(names.get(area, "Area %s" % area)),
+            area_label(prefix, area), tasks, len(members)))
     out.append("#v(12pt)")
     out.append('#align(left)[#primary-button(<menu-main>, "Return to the '
                'main menu")]')
+
+    # --- the rows, one block per area ---------------------------------------
+    for position, area in enumerate(order):
+        out.append("#pagebreak()")
+        if position == 0:
+            out.append('#section-label("%s", "Crosswalk")' % number)
+            out.append('#page-title[Regulation crosswalk]')
+            out.append('#text(font: sans, size: 9.5pt, fill: ink-2)[The '
+                       'element code returns to the ACS page it appears on. '
+                       'Each chip jumps to its source.]')
+            out.append('#target-legend((("91.119", "regulation", '
+                       '"regulations"), ("PHAK c15", "handbook", "handbooks"), '
+                       '("AIM 3-2", "manual", "the AIM"), '
+                       '("AC 91-92", "circular", "advisory circulars")))')
+        out.append("#target[]<%s>" % area_label(prefix, area))
+        out.append('#area-heading("%s", "%s")'
+                   % (area, typst_string(names.get(area, "Area %s" % area))))
+        for code, body, refs in by_area[area]:
+            out.append('#crosswalk-row("%s", "%s", (%s,))' % (
+                typst_string(code), typst_string(body[:150]),
+                ", ".join('("%s", "%s")' % (typst_string(label), kind)
+                          for label, kind, _ref in refs)))
+        out.append("#v(10pt)")
+        out.append('#align(left)[#primary-button(<menu-main>, "Return to the '
+                   'main menu")]')
     return out
 
 

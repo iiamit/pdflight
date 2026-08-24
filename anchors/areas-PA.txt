@@ -1,0 +1,12 @@
+I	Preflight Preparation
+II	Preflight Procedures
+III	Airport and Seaplane Base Operations
+IV	Takeoffs, Landings, and Go-Arounds
+V	Performance Maneuvers and Ground Reference Maneuvers
+VI	Navigation
+VII	Slow Flight and Stalls
+VIII	Basic Instrument Maneuvers
+IX	Emergency Operations
+X	Multiengine Operations
+XI	Night Operations
+XII	Postflight Procedures
