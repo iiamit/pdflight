@@ -11,7 +11,7 @@ PYTHON ?= python
 
 .DEFAULT_GOAL := help
 .PHONY: help setup fetch fetch-check fetch-update discover-interps \
-        verify-interps crosswalk crosswalk-stats review build assemble link         outline validate menus         index         resolve resolve-check cfr cfr-check         optimize         optimize-check fonts         fonts-check test clean
+        verify-interps check drift notes guide crosswalk crosswalk-stats review build assemble link         outline validate menus         index         resolve resolve-check cfr cfr-check         optimize         optimize-check fonts         fonts-check test clean
 
 help:
 	@echo "PDFlight targets"
@@ -25,7 +25,9 @@ help:
 	@echo "  crosswalk         Seed the crosswalk from ACS References lines"
 	@echo "  crosswalk-stats   Crosswalk verification progress by certificate"
 	@echo "  review            Print the next Tasks to verify (CERT=private AREA=I)"
-	@echo "  build             Full build: menus, assemble, link, outline, validate"
+	@echo "  guide             Everything from cold: fetch through validate"
+	@echo "  build             Re-run the assembly stages only. Assumes cfr,"
+	@echo "                    index, resolve and optimize have already run"
 	@echo "  assemble          Concatenate the corpus in canonical order"
 	@echo "  link              Stamp navigation and rewrite anchors to absolute pages"
 	@echo "  outline           Build the three-level bookmark tree"
@@ -40,6 +42,9 @@ help:
 	@echo "  optimize-check    Verify optimized artifacts against optimize.lock.yaml"
 	@echo "  fonts-check       Verify vendored fonts against theme/fonts/fonts.lock.json"
 	@echo "  fonts             Re-vendor fonts from the pinned upstream releases"
+	@echo "  check             Probe sources and eCFR, classify drift, decide on a build"
+	@echo "  drift             Print the drift issue body"
+	@echo "  notes             Render release notes from the lock diff"
 	@echo "  test              Run the test suite"
 	@echo "  clean             Remove build output and Python caches. Leaves cache/ intact"
 	@echo ""
@@ -76,6 +81,16 @@ LIMIT ?= 6
 
 review:
 	$(PYTHON) tools/crosswalk_review.py --certificate $(CERT)         $(if $(AREA),--area $(AREA),) --limit $(LIMIT)
+
+# Make runs prerequisites left to right only when it is not parallel, and
+# every stage here consumes the previous one's output.
+.NOTPARALLEL:
+
+# The whole pipeline from an empty build directory, which is what CI runs.
+# `build` alone assumes cfr, index, resolve and optimize have already run: on a
+# cold runner it fails at assemble with no regulations PDF, and if it got past
+# that it would breach the size budget by using unoptimized sources.
+guide: fetch optimize cfr index resolve menus assemble link outline validate
 
 build: menus assemble link outline validate
 
@@ -126,3 +141,12 @@ test:
 
 clean:
 	$(PYTHON) -c "import pathlib, shutil; [shutil.rmtree(p, ignore_errors=True) for p in ('build', '.pytest_cache')]; [shutil.rmtree(p, ignore_errors=True) for p in pathlib.Path('.').rglob('__pycache__')]"
+
+check:
+	$(PYTHON) tools/check_sources.py --check
+
+drift:
+	$(PYTHON) tools/check_sources.py --issue
+
+notes:
+	$(PYTHON) tools/release_notes.py --pdf build/pdflight-outlined.pdf

@@ -1,0 +1,140 @@
+# Full build. BUILD-PLAN section 7.
+#
+# Disk is the binding constraint on ubuntu-latest, not CPU or the job limit:
+# the assembled PDF is around 470 MB and the source corpus is larger again, so
+# free space before anything else.
+name: build
+
+on:
+  repository_dispatch:
+    types: [build-and-release]
+  schedule:
+    - cron: "0 9 1 */3 *"      # quarterly floor, catches silent URL rot
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Free disk space
+        # Pinned to the v1.3.1 commit. Tracking a moving branch would let
+        # a third party change what runs here without a commit in this repo.
+        uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
+        with:
+          tool-cache: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -e ".[dev]"
+
+      # Pinned, because an unpinned Typst would change the generated pages'
+      # bytes and break rule 8 reproducibility between this runner and a
+      # developer's machine.
+      - name: Install Typst
+        run: |
+          version=0.15.1
+          curl -fsSL -o typst.tar.xz \
+            "https://github.com/typst/typst/releases/download/v${version}/typst-x86_64-unknown-linux-musl.tar.xz"
+          tar -xf typst.tar.xz
+          sudo install -m 0755 \
+            typst-x86_64-unknown-linux-musl/typst /usr/local/bin/typst
+          typst --version
+
+      - name: Install qpdf and pdfcpu
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends qpdf
+          version=0.15.0
+          curl -fsSL -o pdfcpu.tar.xz \
+            "https://github.com/pdfcpu/pdfcpu/releases/download/v${version}/pdfcpu_${version}_Linux_x86_64.tar.xz"
+          tar -xf pdfcpu.tar.xz
+          sudo install -m 0755 "pdfcpu_${version}_Linux_x86_64/pdfcpu" \
+            /usr/local/bin/pdfcpu
+          pdfcpu version
+
+      # Keyed on the lock, so a lock change pulls fresh and an unchanged lock
+      # never touches faa.gov. This is the main defence against being rate
+      # limited or blocked as datacenter egress.
+      - name: Restore the source cache
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: sources-${{ hashFiles('manifest/sources.lock.yaml') }}
+          restore-keys: sources-
+
+      - name: Verify fonts
+        run: make fonts-check
+
+      - run: make test
+
+      # `guide`, not `build`. The runner starts with an empty build directory,
+      # so the regulations have to be typeset and the sources optimized before
+      # anything can be assembled.
+      - name: Build
+        run: make guide
+
+      - name: Report
+        id: report
+        run: |
+          pdf=build/pdflight-outlined.pdf
+          digest=$(sha256sum "$pdf" | cut -d' ' -f1)
+          {
+            echo "digest=$digest"
+            echo "bytes=$(stat -c%s "$pdf")"
+          } >> "$GITHUB_OUTPUT"
+          sha256sum "$pdf" | sed 's#build/##' > SHA256SUMS
+          python tools/release_notes.py \
+            --version "${{ github.sha }}" --pdf "$pdf" --digest "$digest" \
+            --output release-notes.md || true
+
+      - name: Comment on the pull request
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('release-notes.md', 'utf8');
+            const marker = '<!-- pdflight:build -->';
+            const { data: comments } = await github.rest.issues.listComments({
+              ...context.repo, issue_number: context.issue.number,
+            });
+            const mine = comments.find(c => c.body.startsWith(marker));
+            const payload = marker + '\n' + body;
+            if (mine) {
+              await github.rest.issues.updateComment({
+                ...context.repo, comment_id: mine.id, body: payload });
+            } else {
+              await github.rest.issues.createComment({
+                ...context.repo, issue_number: context.issue.number,
+                body: payload });
+            }
+
+      - name: Upload the build
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdflight
+          retention-days: 14
+          path: |
+            build/pdflight-outlined.pdf
+            SHA256SUMS
+            manifest/sources.lock.yaml
+            manifest/cfr.lock.yaml
+            release-notes.md

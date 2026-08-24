@@ -1,0 +1,97 @@
+# Daily drift check. BUILD-PLAN section 7.
+#
+# Daily rather than weekly because the check is cheap - conditional requests
+# that mostly answer 304 - and detection latency is the whole product promise.
+name: check-sources
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: check-sources
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      build: ${{ steps.drift.outputs.build }}
+      reason: ${{ steps.drift.outputs.reason }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -e .
+
+      # state/pending.json is gitignored, so the debounce clock cannot live in
+      # the repo. Without it every run would look like the first sighting of
+      # every change and the 72 hour debounce would never elapse.
+      - name: Restore the pending queue
+        uses: actions/cache/restore@v4
+        with:
+          path: state
+          key: pending-${{ github.run_id }}
+          restore-keys: pending-
+
+      - name: Probe sources and eCFR
+        id: drift
+        run: |
+          set -o pipefail
+          python tools/check_sources.py --check | tee check.log
+          {
+            echo "build=$(grep -oP '^build=\K.*' check.log | tail -1)"
+            echo "reason=$(grep -v '^build=' check.log | tail -1)"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Save the pending queue
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: state
+          key: pending-${{ github.run_id }}
+
+      - name: Update the drift issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python tools/check_sources.py --issue > issue.md
+          number=$(gh issue list --state open --label drift \
+            --json number,title \
+            --jq '.[] | select(.title == "Source drift") | .number' | head -1)
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file issue.md
+          else
+            gh issue create --title "Source drift" --label drift \
+              --body-file issue.md
+          fi
+
+      # A repository_dispatch sent with the default GITHUB_TOKEN does NOT start
+      # a workflow. GitHub blocks that to prevent a run triggering itself, so
+      # build.yml would never fire and nothing would say why. A PAT with `repo`
+      # scope in DISPATCH_TOKEN is required. Without it this step says so out
+      # loud rather than passing silently.
+      - name: Request a build
+        if: steps.drift.outputs.build == 'true'
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+          GH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$DISPATCH_TOKEN" ]; then
+            echo "::warning::A build is due (${{ steps.drift.outputs.reason }})"
+            echo "::warning::DISPATCH_TOKEN is not set, so build.yml cannot be"
+            echo "::warning::triggered. The default GITHUB_TOKEN cannot start a"
+            echo "::warning::workflow. Run build.yml manually, or add a PAT."
+            exit 0
+          fi
+          gh api "repos/${GITHUB_REPOSITORY}/dispatches" \
+            -f event_type=build-and-release

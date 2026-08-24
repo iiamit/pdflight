@@ -8,9 +8,18 @@ and guidance that support it.
 
 Free, open source, offline, and self-updating.
 
-**Status: Phase 1, in progress.** The repository skeleton exists. The fetcher,
-manifest, and interpretation verification are not built yet. There is no
-release to download.
+**Status: the pipeline is complete and no release has been cut yet.**
+
+Everything builds: the manifest and fetcher, the 14 CFR and 49 CFR typesetting
+from eCFR, anchor resolution, the generated menus, assembly, linking, the
+bookmark tree, the validation gates, the crosswalk, and the release
+automation. A build currently produces roughly 6,200 pages at about 470 MB.
+
+What is not done: the corpus covers Private and Instrument in depth, and the
+remaining certificates are seeded but not verified. Reader compatibility has
+not been tested on real devices, so `docs/COMPATIBILITY.md` is still empty.
+See `docs/RELEASING.md` for how a release is cut and what still needs a
+one-time repository setting.
 
 ## What this is
 
@@ -22,6 +31,18 @@ release to download.
   release. Event driven, never on a calendar.
 - Offline. No network access is needed to read it, and no link leaves the file
   except a small number of deliberate outbound references.
+
+## Download
+
+Once the first release is cut, this URL always resolves to the current one:
+
+```
+https://github.com/iiamit/pdflight/releases/latest/download/pdflight.pdf
+```
+
+Each release also carries `SHA256SUMS`, the `sources.lock.yaml` it was built
+from, and a `version.json`. Releases are event driven: they follow FAA source
+changes rather than a calendar. See `docs/RELEASING.md`.
 
 ## What this is not
 
@@ -74,5 +95,11 @@ Inter and JetBrains Mono are vendored under the SIL Open Font License 1.1.
   acceptance criteria.
 - [docs/BUILD-PLAN.md](docs/BUILD-PLAN.md) is normative for architecture,
   rationale, and later phases.
+- [docs/RELEASING.md](docs/RELEASING.md) covers the release policy, the timing
+  rules, and the one repository secret the automation needs.
+- [docs/CROSSWALK-REVIEW.md](docs/CROSSWALK-REVIEW.md) covers how the crosswalk
+  is verified and what "verified" claims.
+- [docs/COMPATIBILITY.md](docs/COMPATIBILITY.md) records how the file behaves
+  in real readers. Empty until a release exists to test.
 
 Where they conflict, CLAUDE.md wins.

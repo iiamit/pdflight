@@ -1,0 +1,154 @@
+# Cut a release from a successful build. BUILD-PLAN section 7.
+#
+# workflow_run rather than a step inside build.yml, so a pull request build can
+# never publish. It also means the default GITHUB_TOKEN is enough here: unlike
+# repository_dispatch, workflow_run is designed to be chained.
+name: release
+
+on:
+  workflow_run:
+    workflows: [build]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    # A pull request build must never publish, and a failed build has nothing
+    # worth publishing.
+    if: >
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event != 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -e .
+
+      - name: Download the build
+        uses: actions/download-artifact@v4
+        with:
+          name: pdflight
+          path: artifact
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+
+      # Determinism is what makes this reliable. Rule 8 says identical inputs
+      # produce an identical SHA-256, so an unchanged hash means an unchanged
+      # document, which is what stops the quarterly floor build from cutting an
+      # empty release.
+      - name: Compare against the last release
+        id: compare
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          digest=$(cut -d' ' -f1 artifact/SHA256SUMS)
+          echo "digest=$digest" >> "$GITHUB_OUTPUT"
+          previous=""
+          if gh release download --pattern SHA256SUMS --dir previous 2>/dev/null; then
+            previous=$(cut -d' ' -f1 previous/SHA256SUMS)
+          fi
+          if [ "$digest" = "$previous" ]; then
+            echo "unchanged=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Build is byte-identical to the last release, skipping"
+          else
+            echo "unchanged=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pick the version
+        id: version
+        if: steps.compare.outputs.unchanged == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          month=$(date -u +%Y.%m)
+          n=1
+          while gh release view "v${month}.${n}" >/dev/null 2>&1; do
+            n=$((n + 1))
+          done
+          echo "tag=v${month}.${n}" >> "$GITHUB_OUTPUT"
+
+      - name: Fetch the previous lock for the diff
+        if: steps.compare.outputs.unchanged == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p previous
+          gh release download --pattern sources.lock.yaml --dir previous \
+            2>/dev/null || true
+          gh release download --pattern cfr.lock.yaml --dir previous \
+            2>/dev/null || true
+
+      - name: Write the release notes
+        if: steps.compare.outputs.unchanged == 'false'
+        run: |
+          cp artifact/manifest/sources.lock.yaml manifest/sources.lock.yaml \
+            2>/dev/null || true
+          python tools/release_notes.py \
+            --version "${{ steps.version.outputs.tag }}" \
+            --previous previous/sources.lock.yaml \
+            --previous-cfr previous/cfr.lock.yaml \
+            --pdf artifact/build/pdflight-outlined.pdf \
+            --digest "${{ steps.compare.outputs.digest }}" \
+            --output notes.md || true
+          cat notes.md
+
+      - name: Publish
+        if: steps.compare.outputs.unchanged == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
+          DIGEST: ${{ steps.compare.outputs.digest }}
+          STAMP: ${{ github.event.workflow_run.updated_at }}
+        run: |
+          # The asset is named pdflight.pdf so that
+          # releases/latest/download/pdflight.pdf stays a stable URL.
+          cp artifact/build/pdflight-outlined.pdf pdflight.pdf
+          python - > version.json <<'PY'
+          import json, os
+          print(json.dumps({
+              "version": os.environ["TAG"],
+              "sha256": os.environ["DIGEST"],
+              "released": os.environ["STAMP"],
+          }, indent=2, sort_keys=True))
+          PY
+          gh release create "$TAG" \
+            --title "PDFlight $TAG" \
+            --notes-file notes.md \
+            pdflight.pdf \
+            artifact/SHA256SUMS \
+            artifact/manifest/sources.lock.yaml \
+            version.json
+      - name: Clear the drift queue
+        if: steps.compare.outputs.unchanged == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python tools/check_sources.py \
+            --released "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          number=$(gh issue list --state open --label drift \
+            --json number,title \
+            --jq '.[] | select(.title == "Source drift") | .number' | head -1)
+          if [ -n "$number" ]; then
+            gh issue close "$number" \
+              --comment "Released ${{ steps.version.outputs.tag }}."
+          fi
+
+      - name: Save the cleared queue
+        if: steps.compare.outputs.unchanged == 'false'
+        uses: actions/cache/save@v4
+        with:
+          path: state
+          key: pending-${{ github.run_id }}
