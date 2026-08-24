@@ -241,3 +241,50 @@ def test_every_target_kind_has_a_colour():
                 "ac-91-92", "risk-management:ch02"):
         assert L.target_kind(ref) in kinds
         assert L.color_for_ref(ref) is not None
+
+
+# ---------------------------------------------------------------------------
+# only vendored faces may be embedded
+# ---------------------------------------------------------------------------
+
+MENUS_PDF = ROOT / "build" / "menus" / "menus.pdf"
+
+
+@pytest.mark.skipif(not MENUS_PDF.is_file(), reason="run make menus")
+def test_the_generated_pages_embed_only_vendored_faces():
+    """A backtick in one sentence made the Linux and Windows builds differ.
+
+    Typst renders `raw` markup in its own bundled DejaVu Sans Mono, and which
+    DejaVu it finds depends on the machine: same nominal 2.37, different
+    packaging, different head table timestamps, ten bytes of difference in a
+    504 MB file. Rule 8 wants byte-identical rebuilds and rule 12 wants no
+    input that varies by platform, and an unvendored font is both.
+    """
+    import glob
+    import os
+
+    import pymupdf
+
+    allowed = {os.path.basename(p)[:-4]
+               for p in glob.glob(str(ROOT / "theme" / "fonts" / "*.ttf"))}
+    document = pymupdf.open(MENUS_PDF)
+    try:
+        found = set()
+        for number in range(document.page_count):
+            for entry in document.load_page(number).get_fonts(full=True):
+                # Subset fonts arrive as ABCDEF+Name.
+                found.add(entry[3].split("+", 1)[-1])
+    finally:
+        document.close()
+
+    stray = sorted(found - allowed)
+    assert not stray, (
+        "generated pages embed unvendored face(s): %s. Every face must come "
+        "from theme/fonts, or the build is not reproducible across machines."
+        % stray)
+
+
+def test_raw_markup_is_pinned_to_the_vendored_mono():
+    """The fix, asserted at the template rather than only in the output."""
+    source = (ROOT / "templates" / "menu.typ").read_text(encoding="utf-8")
+    assert "#show raw: set text(font: mono)" in source

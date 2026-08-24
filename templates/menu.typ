@@ -31,6 +31,14 @@
 #let sans = "Inter"
 #let mono = "JetBrains Mono"
 
+// Typst renders `raw` markup in its own bundled DejaVu Sans Mono, and which
+// DejaVu it finds depends on the machine. That is how a backtick in one
+// sentence of the area index made the Linux and Windows builds differ by ten
+// bytes: same nominal DejaVu 2.37, different packaging, different head table
+// timestamps. Raw text uses the vendored mono like everything else.
+#show raw: set text(font: mono)
+
+
 // Rule 8: nothing time-derived in the output.
 #set document(date: none, title: "PDFlight")
 #set heading(numbering: none, outlined: true)
@@ -248,12 +256,12 @@
     {
       box(
         inset: (x: 6pt, y: 3pt), radius: 100pt, stroke: 0.5pt + hair-2,
-        text(font: mono, size: 8pt, fill: ink-2)[ACS #number],
+        text(font: mono, size: 8pt, weight: 400, fill: ink-2)[ACS #number],
       )
       h(5pt)
       link(target)[#box(
         inset: (x: 6pt, y: 3pt), radius: 100pt, stroke: 0.5pt + signal,
-        text(font: mono, size: 8pt, fill: signal)[Crosswalk],
+        text(font: mono, size: 8pt, weight: 400, fill: signal)[Crosswalk],
       )]
     },
   )
