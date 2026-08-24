@@ -672,3 +672,57 @@ def test_the_built_menu_pages_actually_carry_links():
                 key, entry["start"])
     finally:
         document.close()
+
+
+# ---------------------------------------------------------------------------
+# rule 8, on the artefact that actually ships
+# ---------------------------------------------------------------------------
+
+def test_the_seed_is_content_derived_not_build_derived():
+    """Rule 8 and section 6 both require it.
+
+    A seed that moved with the build would give a different /ID every run,
+    which is the thing being fixed.
+    """
+    import outline as O
+
+    first = O.seed_for(OFFSETS_FILE)
+    second = O.seed_for(OFFSETS_FILE)
+    assert first == second and len(first) == 64
+
+
+@pytest.mark.skipif(not FINAL.is_file(), reason="run make build")
+def test_the_shipped_file_has_a_pinned_trailer_id():
+    """The first Linux build differed from the Windows one by four bytes.
+
+    Same inputs, same PyMuPDF, same Typst. The cause was the trailer /ID:
+    optimize.py pinned it on the intermediate source copies and nothing
+    pinned it on the file that ships. Without this, the release job cannot
+    tell "nothing changed" from "changed", which is what stops the quarterly
+    floor build cutting an empty release.
+    """
+    import optimize
+    import outline as O
+
+    data = FINAL.read_bytes()
+    match = optimize.TRAILER_ID.search(data[-4096:])
+    assert match, "no trailer /ID found in the shipped file"
+
+    expected = optimize.digest_for(O.seed_for(OFFSETS_FILE)).encode()
+    assert data[-4096:].count(expected) >= 2, (
+        "trailer /ID is not the content-derived constant: %r"
+        % match.group(0)[:80])
+
+
+@pytest.mark.skipif(not FINAL.is_file(), reason="run make build")
+def test_the_shipped_file_carries_no_build_timestamp():
+    """A creation date makes every rebuild differ for no content reason."""
+    import pymupdf
+
+    document = pymupdf.open(FINAL)
+    try:
+        meta = document.metadata or {}
+    finally:
+        document.close()
+    assert not (meta.get("creationDate") or "").strip(), meta.get("creationDate")
+    assert not (meta.get("modDate") or "").strip(), meta.get("modDate")

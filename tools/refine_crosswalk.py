@@ -37,8 +37,19 @@ CROSSWALK = M.ROOT / "crosswalk"
 CFR_BUILD = M.ROOT / "build" / "cfr"
 
 # Which certificate each proposal file belongs to.
-PROPOSALS = {"private": "private", "instrument-a": "instrument",
-             "instrument-b": "instrument"}
+PROPOSALS = {
+    "private": "private",
+    "instrument-a": "instrument", "instrument-b": "instrument",
+    "atp-a": "atp", "atp-b": "atp", "atp-c": "atp", "atp-d": "atp",
+    "atp-e": "atp",
+    "cfi-a": "cfi", "cfi-b": "cfi", "cfi-c": "cfi", "cfi-d": "cfi",
+    "cfi-e": "cfi", "cfi-f": "cfi", "cfi-g": "cfi", "cfi-h": "cfi",
+    "cfi-i": "cfi",
+    "commercial-a": "commercial", "commercial-b": "commercial",
+    "commercial-c": "commercial", "commercial-d": "commercial",
+    "commercial-e": "commercial", "commercial-f": "commercial",
+    "commercial-g": "commercial",
+}
 
 
 def section_inventory(build=CFR_BUILD):

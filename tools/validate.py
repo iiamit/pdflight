@@ -249,8 +249,32 @@ def run(argv, final=FINAL, offsets_path=OFFSETS, absolute=ABSOLUTE,
     result.add(8, "file size within budget", state, note)
 
     # 9 -- reproducibility ---------------------------------------------------
-    result.add(9, "byte-identical rebuild", "UNAVAILABLE",
-               "a full rebuild is ~17 minutes; run make build twice to check")
+    # A full rebuild is far too slow to run inside a gate, so this checks the
+    # property that made rebuilds differ rather than the rebuild itself: the
+    # trailer /ID must be the content-derived constant. The first Linux build
+    # differed from the Windows one by four bytes with identical content,
+    # identical PyMuPDF and identical Typst, and an unpinned /ID was why.
+    #
+    # This matters beyond tidiness. release.yml decides whether to publish by
+    # comparing the built hash against the last release, so an unpinned id
+    # makes every build look changed, cuts an empty release every quarter, and
+    # turns the skip-if-unchanged branch into dead code.
+    import optimize
+    import outline as O
+
+    tail = path.read_bytes()[-4096:]
+    expected = optimize.digest_for(O.seed_for(offsets_path)).encode()
+    found = optimize.TRAILER_ID.search(tail)
+    if not found:
+        result.add(9, "output is reproducible", "FAIL",
+                   "no trailer /ID in the shipped file")
+    elif tail.count(expected) >= 2:
+        result.add(9, "output is reproducible", "PASS",
+                   "trailer /ID pinned to the content-derived constant")
+    else:
+        result.add(9, "output is reproducible", "FAIL",
+                   "trailer /ID is not pinned: %s"
+                   % found.group(0)[:56].decode("latin-1"))
 
     # 10 -- stray URLs -------------------------------------------------------
     # The line is authored versus reproduced, not generated versus source.

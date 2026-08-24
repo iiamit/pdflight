@@ -18,6 +18,7 @@ the outline.
 """
 
 import argparse
+import hashlib
 import io
 import json
 import pathlib
@@ -137,6 +138,43 @@ def problems(toc, total_pages):
     return found
 
 
+def seed_for(offsets_path):
+    """A content-derived seed for the trailer /ID.
+
+    Rule 8 wants the id fixed, and section 6 wants everything version-like
+    derived from content rather than from the build. The locks are exactly
+    that: they change when a source changes and not otherwise.
+    """
+    parts = []
+    for name in ("manifest/sources.lock.yaml", "manifest/cfr.lock.yaml"):
+        path = M.ROOT / name
+        if path.is_file():
+            parts.append(path.read_bytes())
+    path = pathlib.Path(offsets_path)
+    if path.is_file():
+        parts.append(path.read_bytes())
+    return hashlib.sha256(b"".join(parts)).hexdigest()
+
+
+def pin_output_id(path, seed):
+    """Force the shipped file's trailer /ID to a content-derived constant.
+
+    Reuses optimize.pin_id rather than reimplementing it, because that
+    function already carries the hard-won detail: MuPDF regenerates the second
+    /ID on every write and serialises it as a literal string when the random
+    bytes happen to be printable, so a hex-only pattern misses about one save
+    in twenty.
+    """
+    import optimize
+
+    data = path.read_bytes()
+    pinned = optimize.pin_id(data, seed)
+    if pinned == data:
+        return False
+    path.write_bytes(pinned)
+    return True
+
+
 def run(argv, linked=LINKED, output=OUTLINED, offsets_path=OFFSETS,
         absolute=ABSOLUTE, cfr_pdf=CFR_PDF, out=sys.stdout):
     parser = argparse.ArgumentParser(
@@ -175,11 +213,25 @@ def run(argv, linked=LINKED, output=OUTLINED, offsets_path=OFFSETS,
 
     document = pymupdf.open(linked)
     document.set_toc(toc)
+
+    # Rule 8 says fix the /ID and strip or pin the dates. Until now that only
+    # happened in optimize.py, on the intermediate source copies, and never on
+    # the artefact that actually ships. The first Linux build proved the cost:
+    # same inputs, same PyMuPDF, same Typst, and a hash that differed from the
+    # Windows build. Determinism is what lets the release job tell "nothing
+    # changed" from "changed", so an unpinned output would eventually cut an
+    # empty release or skip a real one.
+    document.set_metadata({"producer": "PDFlight", "creator": "PDFlight",
+                           "creationDate": "", "modDate": ""})
     document.save(str(output), garbage=3, deflate=True)
-    size = pathlib.Path(output).stat().st_size
     document.close()
+
+    stamped = pin_output_id(pathlib.Path(output), seed_for(offsets_path))
+    size = pathlib.Path(output).stat().st_size
     out.write("%s: %.1f MB, depth 3, no orphans\n"
               % (pathlib.Path(output).name, size / 1048576))
+    out.write("trailer /ID pinned to %s\n" % ("yes" if stamped else "NO, "
+                                              "the pattern did not match"))
     return EXIT_OK
 
 

@@ -1089,3 +1089,189 @@ acs:IR:area-viii:
   strategy: regex
   pattern: '^\s*Area of Operation\s+VIII\.'
   ordinal: 1
+
+# seaplane: topic anchors. The handbook has no outline, so these
+# come from its own upper-case section headings. Only headings that
+# appear exactly once are anchored; LANDING and TAKEOFF recur as
+# sub-headings and an anchor landing on the wrong one is worse than
+# none.
+seaplane:preflight-inspection:
+  doc: seaplane
+  strategy: regex
+  pattern: '^PREFLIGHT\ INSPECTION$'
+  ordinal: 1
+seaplane:taxiing-and-sailing:
+  doc: seaplane
+  strategy: regex
+  pattern: '^TAXIING\ AND\ SAILING$'
+  ordinal: 1
+seaplane:idling-position:
+  doc: seaplane
+  strategy: regex
+  pattern: '^IDLING\ POSITION$'
+  ordinal: 1
+seaplane:starting-the-engine:
+  doc: seaplane
+  strategy: regex
+  pattern: '^STARTING\ THE\ ENGINE$'
+  ordinal: 1
+seaplane:plowing-position:
+  doc: seaplane
+  strategy: regex
+  pattern: '^PLOWING\ POSITION$'
+  ordinal: 1
+seaplane:planing-or-step-position:
+  doc: seaplane
+  strategy: regex
+  pattern: '^PLANING\ OR\ STEP\ POSITION$'
+  ordinal: 1
+seaplane:turns:
+  doc: seaplane
+  strategy: regex
+  pattern: '^TURNS$'
+  ordinal: 1
+seaplane:sailing:
+  doc: seaplane
+  strategy: regex
+  pattern: '^SAILING$'
+  ordinal: 1
+seaplane:porpoising:
+  doc: seaplane
+  strategy: regex
+  pattern: '^PORPOISING$'
+  ordinal: 1
+seaplane:skipping:
+  doc: seaplane
+  strategy: regex
+  pattern: '^SKIPPING$'
+  ordinal: 1
+seaplane:takeoffs:
+  doc: seaplane
+  strategy: regex
+  pattern: '^TAKEOFFS$'
+  ordinal: 1
+seaplane:normal-takeoffs:
+  doc: seaplane
+  strategy: regex
+  pattern: '^NORMAL\ TAKEOFFS$'
+  ordinal: 1
+seaplane:crosswind-takeoffs:
+  doc: seaplane
+  strategy: regex
+  pattern: '^CROSSWIND\ TAKEOFFS$'
+  ordinal: 1
+seaplane:controlled-weathervaning:
+  doc: seaplane
+  strategy: regex
+  pattern: '^CONTROLLED\ WEATHERVANING$'
+  ordinal: 1
+seaplane:using-water-rudders:
+  doc: seaplane
+  strategy: regex
+  pattern: '^USING\ WATER\ RUDDERS$'
+  ordinal: 1
+seaplane:downwind-takeoffs:
+  doc: seaplane
+  strategy: regex
+  pattern: '^DOWNWIND\ TAKEOFFS$'
+  ordinal: 1
+seaplane:glassy-water-takeoffs:
+  doc: seaplane
+  strategy: regex
+  pattern: '^GLASSY\ WATER\ TAKEOFFS$'
+  ordinal: 1
+seaplane:rough-water-takeoffs:
+  doc: seaplane
+  strategy: regex
+  pattern: '^ROUGH\ WATER\ TAKEOFFS$'
+  ordinal: 1
+seaplane:confined-area-takeoffs:
+  doc: seaplane
+  strategy: regex
+  pattern: '^CONFINED\ AREA\ TAKEOFFS$'
+  ordinal: 1
+seaplane:multiengine-seaplanes:
+  doc: seaplane
+  strategy: regex
+  pattern: '^MULTIENGINE\ SEAPLANES$'
+  ordinal: 1
+seaplane:landing-area-reconnaissance:
+  doc: seaplane
+  strategy: regex
+  pattern: '^LANDING\ AREA\ RECONNAISSANCE$'
+  ordinal: 1
+seaplane:crosswind-landing:
+  doc: seaplane
+  strategy: regex
+  pattern: '^CROSSWIND\ LANDING$'
+  ordinal: 1
+seaplane:normal-landing:
+  doc: seaplane
+  strategy: regex
+  pattern: '^NORMAL\ LANDING$'
+  ordinal: 1
+seaplane:downwind-landing:
+  doc: seaplane
+  strategy: regex
+  pattern: '^DOWNWIND\ LANDING$'
+  ordinal: 1
+seaplane:glassy-water-landing:
+  doc: seaplane
+  strategy: regex
+  pattern: '^GLASSY\ WATER\ LANDING$'
+  ordinal: 1
+seaplane:rough-water-landing:
+  doc: seaplane
+  strategy: regex
+  pattern: '^ROUGH\ WATER\ LANDING$'
+  ordinal: 1
+seaplane:confined-area-landing:
+  doc: seaplane
+  strategy: regex
+  pattern: '^CONFINED\ AREA\ LANDING$'
+  ordinal: 1
+seaplane:go-around:
+  doc: seaplane
+  strategy: regex
+  pattern: '^GO\-AROUND$'
+  ordinal: 1
+seaplane:emergency-landing:
+  doc: seaplane
+  strategy: regex
+  pattern: '^EMERGENCY\ LANDING$'
+  ordinal: 1
+seaplane:postflight-procedures:
+  doc: seaplane
+  strategy: regex
+  pattern: '^POSTFLIGHT\ PROCEDURES$'
+  ordinal: 1
+seaplane:anchoring:
+  doc: seaplane
+  strategy: regex
+  pattern: '^ANCHORING$'
+  ordinal: 1
+seaplane:mooring:
+  doc: seaplane
+  strategy: regex
+  pattern: '^MOORING$'
+  ordinal: 1
+seaplane:docking:
+  doc: seaplane
+  strategy: regex
+  pattern: '^DOCKING$'
+  ordinal: 1
+seaplane:beaching:
+  doc: seaplane
+  strategy: regex
+  pattern: '^BEACHING$'
+  ordinal: 1
+seaplane:ramping:
+  doc: seaplane
+  strategy: regex
+  pattern: '^RAMPING$'
+  ordinal: 1
+seaplane:salt-water:
+  doc: seaplane
+  strategy: regex
+  pattern: '^SALT\ WATER$'
+  ordinal: 1

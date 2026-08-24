@@ -1201,6 +1201,222 @@
       "page": 54,
       "strategy": "outline"
     },
+    "seaplane:anchoring": {
+      "doc": "seaplane",
+      "evidence": "ANCHORING",
+      "page": 29,
+      "strategy": "regex"
+    },
+    "seaplane:beaching": {
+      "doc": "seaplane",
+      "evidence": "BEACHING",
+      "page": 30,
+      "strategy": "regex"
+    },
+    "seaplane:confined-area-landing": {
+      "doc": "seaplane",
+      "evidence": "CONFINED AREA LANDING",
+      "page": 27,
+      "strategy": "regex"
+    },
+    "seaplane:confined-area-takeoffs": {
+      "doc": "seaplane",
+      "evidence": "CONFINED AREA TAKEOFFS",
+      "page": 16,
+      "strategy": "regex"
+    },
+    "seaplane:controlled-weathervaning": {
+      "doc": "seaplane",
+      "evidence": "CONTROLLED WEATHERVANING",
+      "page": 13,
+      "strategy": "regex"
+    },
+    "seaplane:crosswind-landing": {
+      "doc": "seaplane",
+      "evidence": "CROSSWIND LANDING",
+      "page": 23,
+      "strategy": "regex"
+    },
+    "seaplane:crosswind-takeoffs": {
+      "doc": "seaplane",
+      "evidence": "CROSSWIND TAKEOFFS",
+      "page": 12,
+      "strategy": "regex"
+    },
+    "seaplane:docking": {
+      "doc": "seaplane",
+      "evidence": "DOCKING",
+      "page": 30,
+      "strategy": "regex"
+    },
+    "seaplane:downwind-landing": {
+      "doc": "seaplane",
+      "evidence": "DOWNWIND LANDING",
+      "page": 25,
+      "strategy": "regex"
+    },
+    "seaplane:downwind-takeoffs": {
+      "doc": "seaplane",
+      "evidence": "DOWNWIND TAKEOFFS",
+      "page": 14,
+      "strategy": "regex"
+    },
+    "seaplane:emergency-landing": {
+      "doc": "seaplane",
+      "evidence": "EMERGENCY LANDING",
+      "page": 28,
+      "strategy": "regex"
+    },
+    "seaplane:glassy-water-landing": {
+      "doc": "seaplane",
+      "evidence": "GLASSY WATER LANDING",
+      "page": 25,
+      "strategy": "regex"
+    },
+    "seaplane:glassy-water-takeoffs": {
+      "doc": "seaplane",
+      "evidence": "GLASSY WATER TAKEOFFS",
+      "page": 15,
+      "strategy": "regex"
+    },
+    "seaplane:go-around": {
+      "doc": "seaplane",
+      "evidence": "GO-AROUND",
+      "page": 28,
+      "strategy": "regex"
+    },
+    "seaplane:idling-position": {
+      "doc": "seaplane",
+      "evidence": "IDLING POSITION",
+      "page": 3,
+      "strategy": "regex"
+    },
+    "seaplane:landing-area-reconnaissance": {
+      "doc": "seaplane",
+      "evidence": "LANDING AREA RECONNAISSANCE",
+      "page": 21,
+      "strategy": "regex"
+    },
+    "seaplane:mooring": {
+      "doc": "seaplane",
+      "evidence": "MOORING",
+      "page": 29,
+      "strategy": "regex"
+    },
+    "seaplane:multiengine-seaplanes": {
+      "doc": "seaplane",
+      "evidence": "MULTIENGINE SEAPLANES",
+      "page": 20,
+      "strategy": "regex"
+    },
+    "seaplane:normal-landing": {
+      "doc": "seaplane",
+      "evidence": "NORMAL LANDING",
+      "page": 23,
+      "strategy": "regex"
+    },
+    "seaplane:normal-takeoffs": {
+      "doc": "seaplane",
+      "evidence": "NORMAL TAKEOFFS",
+      "page": 12,
+      "strategy": "regex"
+    },
+    "seaplane:planing-or-step-position": {
+      "doc": "seaplane",
+      "evidence": "PLANING OR STEP POSITION",
+      "page": 4,
+      "strategy": "regex"
+    },
+    "seaplane:plowing-position": {
+      "doc": "seaplane",
+      "evidence": "PLOWING POSITION",
+      "page": 4,
+      "strategy": "regex"
+    },
+    "seaplane:porpoising": {
+      "doc": "seaplane",
+      "evidence": "PORPOISING",
+      "page": 9,
+      "strategy": "regex"
+    },
+    "seaplane:postflight-procedures": {
+      "doc": "seaplane",
+      "evidence": "POSTFLIGHT PROCEDURES",
+      "page": 28,
+      "strategy": "regex"
+    },
+    "seaplane:preflight-inspection": {
+      "doc": "seaplane",
+      "evidence": "PREFLIGHT INSPECTION",
+      "page": 1,
+      "strategy": "regex"
+    },
+    "seaplane:ramping": {
+      "doc": "seaplane",
+      "evidence": "RAMPING",
+      "page": 30,
+      "strategy": "regex"
+    },
+    "seaplane:rough-water-landing": {
+      "doc": "seaplane",
+      "evidence": "ROUGH WATER LANDING",
+      "page": 27,
+      "strategy": "regex"
+    },
+    "seaplane:rough-water-takeoffs": {
+      "doc": "seaplane",
+      "evidence": "ROUGH WATER TAKEOFFS",
+      "page": 16,
+      "strategy": "regex"
+    },
+    "seaplane:sailing": {
+      "doc": "seaplane",
+      "evidence": "SAILING",
+      "page": 8,
+      "strategy": "regex"
+    },
+    "seaplane:salt-water": {
+      "doc": "seaplane",
+      "evidence": "SALT WATER",
+      "page": 31,
+      "strategy": "regex"
+    },
+    "seaplane:skipping": {
+      "doc": "seaplane",
+      "evidence": "SKIPPING",
+      "page": 10,
+      "strategy": "regex"
+    },
+    "seaplane:starting-the-engine": {
+      "doc": "seaplane",
+      "evidence": "STARTING THE ENGINE",
+      "page": 3,
+      "strategy": "regex"
+    },
+    "seaplane:takeoffs": {
+      "doc": "seaplane",
+      "evidence": "TAKEOFFS",
+      "page": 10,
+      "strategy": "regex"
+    },
+    "seaplane:taxiing-and-sailing": {
+      "doc": "seaplane",
+      "evidence": "TAXIING AND SAILING",
+      "page": 3,
+      "strategy": "regex"
+    },
+    "seaplane:turns": {
+      "doc": "seaplane",
+      "evidence": "TURNS",
+      "page": 5,
+      "strategy": "regex"
+    },
+    "seaplane:using-water-rudders": {
+      "doc": "seaplane",
+      "evidence": "USING WATER RUDDERS",
+      "page": 14,
+      "strategy": "regex"
+    },
     "weight-balance:ch01": {
       "doc": "weight-balance",
       "evidence": "Chapter 1",
