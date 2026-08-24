@@ -333,7 +333,14 @@ def button_label(ref):
     if ref.startswith("ac-"):
         return "AC " + ref[3:].upper()
     if ref.startswith("ac:"):
-        return "AC " + ref.split(":")[1].upper()
+        parts = ref.split(":")
+        # An AC anchored at paragraph or appendix granularity needs the
+        # paragraph in the label. AC 61-65K carries 60 endorsements in
+        # Appendix A, and without this every one of them is a chip reading
+        # "AC 61-65K" whose destination is arbitrary.
+        if len(parts) > 2 and parts[2]:
+            return "AC %s %s" % (parts[1].upper(), parts[2].upper())
+        return "AC " + parts[1].upper()
     head = ref.split(":")[0]
     base = SHORT_LABEL.get(head)
     if not base:

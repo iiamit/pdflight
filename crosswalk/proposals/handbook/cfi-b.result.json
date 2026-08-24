@@ -1,257 +1,2213 @@
 {
-  "AI.II.A.K1": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "PHAK ch17 aeromedical factors and AIM 8-1 fitness for flight cover the whole list; Task A cites no CFR part", "confidence": "high"},
-  "AI.II.A.K1a": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Hypoxia types, symptoms, and corrective action are in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K1b": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Hyperventilation is covered in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K1c": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Middle ear and sinus block are covered in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K1d": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Spatial disorientation and vestibular illusions are in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K1e": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Motion sickness is covered in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K1f": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Carbon monoxide poisoning is covered in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K1g": {"sections": [], "anchors": ["phak:ch17", "risk-management:ch03"], "why": "Stress as an aeromedical factor is in PHAK ch17; RMH ch3 treats it as a pilot hazard", "confidence": "high"},
-  "AI.II.A.K1h": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Fatigue is covered in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K1i": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Dehydration and nutrition are covered in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K1j": {"sections": [], "anchors": ["phak:ch17"], "why": "Hypothermia is treated among aeromedical factors in PHAK ch17", "confidence": "low"},
-  "AI.II.A.K1k": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Optical illusions are covered in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K1l": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Decompression sickness after scuba diving is in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K2": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Sections empty on purpose: Task A lists no CFR part, so 91.17 and 61.15 are out of scope here; PHAK ch17 and AIM 8-1 summarize the alcohol and drug rules", "confidence": "high"},
-  "AI.II.A.K3": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Effects of alcohol, drugs, and OTC medication are in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.K4": {"sections": [], "anchors": ["phak:ch02", "risk-management:ch08", "aviation-instructor:ch01"], "why": "PHAK ch2 is ADM, RMH ch8 is ADM in flight, AIH ch1 covers SRM and CRM for instructors", "confidence": "high"},
-  "AI.II.A.R1": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "The aeromedical hazards themselves are in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.R2": {"sections": [], "anchors": ["phak:ch02", "risk-management:ch03"], "why": "PHAK ch2 lists the five hazardous attitudes and antidotes; RMH ch3 treats them as identified hazards", "confidence": "high"},
-  "AI.II.A.R3": {"sections": [], "anchors": ["phak:ch02", "risk-management:ch06"], "why": "Task saturation and loss of situational awareness are in PHAK ch2; RMH ch6 threat and error management covers the mechanism", "confidence": "low"},
-  "AI.II.A.R4": {"sections": [], "anchors": ["risk-management:ch06", "phak:ch02"], "why": "Confirmation and expectation bias are error types in RMH ch6, with the decision-making context in PHAK ch2", "confidence": "low"},
-  "AI.II.A.S1": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "The symptom, cause, and corrective action pairs come from PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.A.S2": {"sections": [], "anchors": ["aim:ch08-s01", "risk-management:ch02"], "why": "AIM 8-1 fitness for flight includes the IMSAFE self-assessment; RMH ch2 is personal minimums", "confidence": "high"},
-  "AI.II.B.K1": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Conditions degrading vision in flight are in PHAK ch17 and AIM 8-1 vision section", "confidence": "high"},
-  "AI.II.B.K2": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Vestibular and visual illusions are in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.B.K3": {"sections": [], "anchors": ["aim:ch05-s05"], "why": "AIM 5-5 pilot and controller roles states the see and avoid responsibility; Task B lists no CFR part so 91.113 is out of scope", "confidence": "high"},
-  "AI.II.B.K4": {"sections": [], "anchors": ["aim:ch08-s01", "phak:ch17"], "why": "Scanning technique and peripheral vision are described in AIM 8-1 and PHAK ch17", "confidence": "high"},
-  "AI.II.B.K5": {"sections": [], "anchors": ["afh:ch03", "aim:ch08-s01"], "why": "Clearing procedures before maneuvers are in AFH ch3; blind spot discussion is in AIM 8-1", "confidence": "low"},
-  "AI.II.B.K6": {"sections": [], "anchors": ["aim:ch08-s01"], "why": "The constant relative bearing and blossoming cues are described in AIM 8-1", "confidence": "low"},
-  "AI.II.B.K7": {"sections": [], "anchors": ["aim:ch07-s06", "aim:ch04-s03"], "why": "AIM 7-6 potential flight hazards covers collision risk situations; airport traffic areas are AIM 4-3", "confidence": "low"},
-  "AI.II.B.K8": {"sections": [], "anchors": ["afh:ch03", "aim:ch08-s01"], "why": "Division of attention is taught with basic flight maneuvers in AFH ch3; scan discipline is AIM 8-1", "confidence": "low"},
-  "AI.II.B.R1": {"sections": [], "anchors": ["aviation-instructor:ch10", "aim:ch08-s01"], "why": "Distraction while instructing is AIH ch10; its effect on the scan is AIM 8-1", "confidence": "low"},
-  "AI.II.B.R2": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Empty field myopia and relaxed focal distance are in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.B.R3": {"sections": [], "anchors": ["aim:ch04-s03"], "why": "High density airport operations are AIM 4-3 airport operations", "confidence": "low"},
-  "AI.II.B.R4": {"sections": [], "anchors": ["aim:ch08-s01"], "why": "Recognition and reaction time in the see and avoid concept is discussed in AIM 8-1", "confidence": "low"},
-  "AI.II.B.R5": {"sections": [], "anchors": [], "why": "Safety pilot use is governed by 91.109, but Task B lists no CFR part, and no listed chapter covers it better than the whole handbook", "confidence": "high"},
-  "AI.II.B.S1": {"sections": [], "anchors": ["aim:ch08-s01", "phak:ch17"], "why": "The regularly spaced eye movement technique is specified in AIM 8-1 and PHAK ch17", "confidence": "high"},
-  "AI.II.B.S2": {"sections": [], "anchors": ["aim:ch08-s01"], "why": "Scanning around obstructions is part of the AIM 8-1 scan technique", "confidence": "low"},
-  "AI.II.B.S3": {"sections": [], "anchors": ["aim:ch08-s01", "phak:ch17"], "why": "Visual scanning techniques are in AIM 8-1 and PHAK ch17", "confidence": "high"},
-  "AI.II.B.S4": {"sections": [], "anchors": ["aim:ch04-s05"], "why": "AIM 4-5 surveillance systems covers TIS and ADS-B traffic display services", "confidence": "low"},
-  "AI.II.C.K1": {"sections": [], "anchors": ["aim:ch04-s03", "phak:ch14"], "why": "AIM 4-3 airport operations defines runway incursion; PHAK ch14 is airport operations", "confidence": "high"},
-  "AI.II.C.K2": {"sections": [], "anchors": ["aim:ch04-s03", "aim:ch04-s02"], "why": "Taxi clearance content is AIM 4-3; phraseology and readback are AIM 4-2", "confidence": "high"},
-  "AI.II.C.K3": {"sections": [], "anchors": ["aim:ch04-s03"], "why": "Writing down taxi instructions and reviewing the airport diagram are AIM 4-3 practices", "confidence": "high"},
-  "AI.II.C.K4": {"sections": [], "anchors": ["aim:ch02-s03", "aim:ch02-s01", "phak:ch14"], "why": "Markings and signs are AIM 2-3, lighting aids AIM 2-1, and PHAK ch14 covers both with hold lines", "confidence": "high"},
-  "AI.II.C.K5": {"sections": [], "anchors": ["aim:ch04-s03", "phak:ch14"], "why": "Taxi route planning and hot spot briefing are in AIM 4-3 and PHAK ch14", "confidence": "high"},
-  "AI.II.C.K6": {"sections": [], "anchors": ["aim:ch04-s01", "phak:ch14"], "why": "Traffic advisory practices at airports without an operating tower are AIM 4-1; PHAK ch14 repeats them", "confidence": "high"},
-  "AI.II.C.R1": {"sections": [], "anchors": ["aviation-instructor:ch10", "risk-management:ch06"], "why": "Distraction and task prioritization while instructing are AIH ch10; error management is RMH ch6", "confidence": "low"},
-  "AI.II.C.R2": {"sections": [], "anchors": ["risk-management:ch06"], "why": "Expectation bias in reading back a clearance is a RMH ch6 error type", "confidence": "low"},
-  "AI.II.C.R3": {"sections": [], "anchors": ["aim:ch04-s03"], "why": "Runway entry and crossing procedures are AIM 4-3", "confidence": "high"},
-  "AI.II.C.R4": {"sections": [], "anchors": ["afh:ch11", "aim:ch04-s03"], "why": "Night taxi technique is AFH ch11 night operations; the incursion risk is AIM 4-3", "confidence": "high"},
-  "AI.II.C.R5": {"sections": [], "anchors": ["aim:ch04-s03"], "why": "Low visibility surface operations are covered in AIM 4-3", "confidence": "low"},
-  "AI.II.C.R6": {"sections": [], "anchors": ["aim:ch04-s03"], "why": "After landing and runway exit procedure is AIM 4-3", "confidence": "low"},
-  "AI.II.C.R7": {"sections": [], "anchors": ["aim:ch04-s03"], "why": "Taxiing between parallel runways is a surface movement hazard in AIM 4-3", "confidence": "low"},
-  "AI.II.C.S1": {"sections": [], "anchors": ["aim:ch04-s03", "aviation-instructor:ch09"], "why": "Content comes from AIM 4-3; delivery technique is AIH ch9", "confidence": "low"},
-  "AI.II.D.K1": {"sections": [], "anchors": ["phak:ch05"], "why": "PHAK ch5 aerodynamics of flight covers airfoil design characteristics", "confidence": "high"},
-  "AI.II.D.K2": {"sections": [], "anchors": ["phak:ch05"], "why": "Stability, maneuverability, and controllability are in PHAK ch5", "confidence": "high"},
-  "AI.II.D.K3": {"sections": [], "anchors": ["phak:ch05"], "why": "Torque, P-factor, spiraling slipstream, and gyroscopic precession are in PHAK ch5", "confidence": "high"},
-  "AI.II.D.K4": {"sections": [], "anchors": ["phak:ch05"], "why": "The four forces are in PHAK ch5", "confidence": "high"},
-  "AI.II.D.K5": {"sections": [], "anchors": ["phak:ch05"], "why": "Load factor and design limits are in PHAK ch5", "confidence": "high"},
-  "AI.II.D.K6": {"sections": [], "anchors": ["phak:ch05"], "why": "Wingtip vortex formation and avoidance are in PHAK ch5; the AIM is not among this Task's handbooks", "confidence": "high"},
-  "AI.II.D.R1": {"sections": [], "anchors": ["phak:ch05"], "why": "The aerodynamic principles themselves are PHAK ch5", "confidence": "high"},
-  "AI.II.D.S1": {"sections": [], "anchors": ["phak:ch05", "aviation-instructor:ch05"], "why": "Subject matter is PHAK ch5; the delivery method is AIH ch5", "confidence": "low"},
-  "AI.II.E.K1": {"sections": [], "anchors": ["phak:ch07"], "why": "PHAK ch7 is the aircraft systems chapter", "confidence": "high"},
-  "AI.II.E.K1a": {"sections": [], "anchors": ["phak:ch06"], "why": "Primary flight controls are PHAK ch6 flight controls", "confidence": "high"},
-  "AI.II.E.K1b": {"sections": [], "anchors": ["phak:ch06"], "why": "Secondary flight controls including flaps and trim are PHAK ch6", "confidence": "high"},
-  "AI.II.E.K1c": {"sections": [], "anchors": ["phak:ch07"], "why": "Powerplant and propeller are in PHAK ch7", "confidence": "high"},
-  "AI.II.E.K1d": {"sections": [], "anchors": ["phak:ch07"], "why": "Landing gear systems are in PHAK ch7", "confidence": "high"},
-  "AI.II.E.K1e": {"sections": [], "anchors": ["phak:ch07"], "why": "Fuel, oil, and hydraulic systems are in PHAK ch7", "confidence": "high"},
-  "AI.II.E.K1f": {"sections": [], "anchors": ["phak:ch07"], "why": "Electrical system is in PHAK ch7", "confidence": "high"},
-  "AI.II.E.K1g": {"sections": [], "anchors": ["phak:ch07"], "why": "Avionics and electronic flight displays are treated in PHAK ch7", "confidence": "low"},
-  "AI.II.E.K1h": {"sections": [], "anchors": ["phak:ch08"], "why": "Pitot-static, vacuum, and the associated instruments are PHAK ch8 flight instruments", "confidence": "high"},
-  "AI.II.E.K1i": {"sections": [], "anchors": ["phak:ch07"], "why": "Environmental and cabin heat systems are in PHAK ch7", "confidence": "low"},
-  "AI.II.E.K1j": {"sections": [], "anchors": ["phak:ch07"], "why": "Deicing and anti-icing equipment is in PHAK ch7", "confidence": "low"},
-  "AI.II.E.K1k": {"sections": [], "anchors": ["seaplane:using-water-rudders"], "why": "Water rudder operation is its own section of the seaplane handbook", "confidence": "high"},
-  "AI.II.E.K1l": {"sections": [], "anchors": ["phak:ch07"], "why": "Oxygen systems are described among aircraft systems in PHAK ch7", "confidence": "low"},
-  "AI.II.E.K2": {"sections": [], "anchors": ["afh:ch18", "phak:ch07"], "why": "AFH ch18 emergency procedures covers system abnormality indications and response; the systems themselves are PHAK ch7", "confidence": "high"},
-  "AI.II.E.R1": {"sections": [], "anchors": ["afh:ch18"], "why": "Recognizing a malfunction is part of AFH ch18 emergency procedures", "confidence": "low"},
-  "AI.II.E.R2": {"sections": [], "anchors": ["afh:ch18"], "why": "System failure management is AFH ch18", "confidence": "high"},
-  "AI.II.E.R3": {"sections": [], "anchors": ["risk-management:ch07"], "why": "RMH ch7 is automation and flight path management", "confidence": "high"},
-  "AI.II.E.R4": {"sections": [], "anchors": ["aviation-instructor:ch10", "risk-management:ch07"], "why": "Instructing in an unfamiliar aircraft is an instructional hazard in AIH ch10; unfamiliar avionics is RMH ch7", "confidence": "low"},
-  "AI.II.E.S1": {"sections": [], "anchors": ["phak:ch07"], "why": "Operation of the listed systems is described in PHAK ch7", "confidence": "low"},
-  "AI.II.F.K1": {"sections": [], "anchors": ["phak:ch11"], "why": "PHAK ch11 aircraft performance is the chart and table chapter", "confidence": "high"},
-  "AI.II.F.K2": {"sections": [], "anchors": ["phak:ch11"], "why": "Factors affecting performance are in PHAK ch11", "confidence": "high"},
-  "AI.II.F.K2a": {"sections": [], "anchors": ["phak:ch11"], "why": "Density altitude, temperature, and humidity effects are in PHAK ch11", "confidence": "high"},
-  "AI.II.F.K2b": {"sections": [], "anchors": ["phak:ch11", "afh:ch06"], "why": "PHAK ch11 notes technique as a performance variable; AFH ch6 gives the takeoff technique itself", "confidence": "low"},
-  "AI.II.F.K2c": {"sections": [], "anchors": ["phak:ch11"], "why": "Configuration effects on performance are in PHAK ch11", "confidence": "high"},
-  "AI.II.F.K2d": {"sections": [], "anchors": ["phak:ch11"], "why": "Runway surface, slope, and wind are performance factors in PHAK ch11", "confidence": "high"},
-  "AI.II.F.K2e": {"sections": [], "anchors": ["phak:ch10", "weight-balance:ch01"], "why": "PHAK ch10 is weight and balance; W and B Handbook ch1 covers weight and balance control", "confidence": "high"},
-  "AI.II.F.K3": {"sections": [], "anchors": ["weight-balance:ch01", "weight-balance:ch02", "phak:ch10"], "why": "The defined terms are in W and B Handbook ch1 and the theory in ch2, restated in PHAK ch10", "confidence": "high"},
-  "AI.II.F.K4": {"sections": [], "anchors": ["weight-balance:ch05", "phak:ch10"], "why": "Single-engine CG computation methods are W and B Handbook ch5; PHAK ch10 shows the same methods", "confidence": "low"},
-  "AI.II.F.K5": {"sections": [], "anchors": ["phak:ch05"], "why": "PHAK ch5 is the aerodynamics chapter", "confidence": "high"},
-  "AI.II.F.R1": {"sections": [], "anchors": ["phak:ch11"], "why": "Chart interpolation and misuse are addressed in PHAK ch11", "confidence": "high"},
-  "AI.II.F.R2": {"sections": [], "anchors": ["phak:ch09"], "why": "Operating limitations live in the AFM and POH, covered by PHAK ch9 flight manuals and documents", "confidence": "low"},
-  "AI.II.F.R3": {"sections": [], "anchors": ["phak:ch11"], "why": "PHAK ch11 warns that book performance assumes a new airplane and a test pilot", "confidence": "high"},
-  "AI.II.F.R4": {"sections": [], "anchors": ["weight-balance:ch01", "phak:ch10"], "why": "Effects of exceeding weight limits are in W and B Handbook ch1 and PHAK ch10", "confidence": "high"},
-  "AI.II.F.R5": {"sections": [], "anchors": ["weight-balance:ch02", "phak:ch10"], "why": "Out of CG stability and control effects are in W and B Handbook ch2 theory and PHAK ch10", "confidence": "high"},
-  "AI.II.F.R6": {"sections": [], "anchors": ["weight-balance:ch05", "phak:ch10"], "why": "Weight shift, addition, and removal computations are in W and B Handbook ch5 and PHAK ch10", "confidence": "low"},
-  "AI.II.F.S1": {"sections": [], "anchors": ["phak:ch11"], "why": "Chart use is PHAK ch11", "confidence": "high"},
-  "AI.II.F.S2": {"sections": [], "anchors": ["weight-balance:ch05", "phak:ch10"], "why": "The computation and out of CG correction are worked in W and B Handbook ch5 and PHAK ch10", "confidence": "high"},
-  "AI.II.G.K1": {"sections": ["91.126", "91.129", "91.131"], "anchors": ["phak:ch15", "aim:ch03-s02"], "why": "91.126, 91.129, and 91.131 give the Class G, D, and B requirements; PHAK ch15 and AIM 3-2 describe the class structure", "confidence": "high"},
-  "AI.II.G.K2": {"sections": [], "anchors": ["aim:ch09-s01", "phak:ch15"], "why": "Chart types and symbology are AIM 9-1; airspace depiction is PHAK ch15. No section governs chart symbols", "confidence": "high"},
-  "AI.II.G.K3": {"sections": ["91.133", "91.137"], "anchors": ["aim:ch03-s04", "aim:ch03-s05"], "why": "91.133 covers restricted and prohibited areas and 91.137 covers TFRs; AIM 3-4 is special use airspace and 3-5 other airspace areas", "confidence": "high"},
-  "AI.II.G.K4": {"sections": [], "anchors": ["aim:ch09-s01"], "why": "Publication cycles and currency are described in AIM 9-1", "confidence": "high"},
-  "AI.II.G.K5": {"sections": ["91.157"], "anchors": ["phak:ch15"], "why": "91.157 is the special VFR rule; PHAK ch15 explains it in the airspace context", "confidence": "high"},
-  "AI.II.G.R1": {"sections": [], "anchors": ["phak:ch15", "aim:ch03-s01"], "why": "The airspace overview is PHAK ch15 and AIM 3-1 general", "confidence": "high"},
-  "AI.II.G.S1": {"sections": ["91.155"], "anchors": ["phak:ch15", "aim:ch03-s02"], "why": "91.155 is basic VFR weather minimums by class; PHAK ch15 and AIM 3-2 tabulate them", "confidence": "high"},
-  "AI.II.G.S2": {"sections": ["91.126", "91.131", "91.215"], "anchors": ["phak:ch15"], "why": "91.126 and 91.131 set the communication requirements by class and 91.215 the transponder requirement; PHAK ch15 summarizes", "confidence": "high"},
-  "AI.II.G.S3": {"sections": ["91.133", "91.137"], "anchors": ["aim:ch03-s04", "aim:ch03-s05"], "why": "91.133 for SUA entry and 91.137 for TFRs; AIM 3-4 and 3-5 cover SUA, SFRA, and SATR operations", "confidence": "high"},
-  "AI.II.H.K1": {"sections": [], "anchors": ["phak:ch16", "aim:ch01-s01"], "why": "PHAK ch16 navigation and AIM 1-1 navigation aids cover VOR identification, orientation, and checks. Task H lists no CFR part", "confidence": "high"},
-  "AI.II.H.K2": {"sections": [], "anchors": ["phak:ch16", "aim:ch01-s01"], "why": "GPS equipment, databases, and RAIM are in PHAK ch16 and AIM 1-1", "confidence": "high"},
-  "AI.II.H.K3": {"sections": [], "anchors": ["aim:ch04-s01", "aim:ch04-s05"], "why": "Radar traffic advisory service to VFR aircraft is AIM 4-1; the radar and ADS-B systems are AIM 4-5", "confidence": "high"},
-  "AI.II.H.K4": {"sections": [], "anchors": ["aim:ch04-s01", "aim:ch04-s05"], "why": "Transponder and ADS-B Out operation is AIM 4-1; surveillance system detail is AIM 4-5", "confidence": "high"},
-  "AI.II.H.R1": {"sections": [], "anchors": ["risk-management:ch07"], "why": "RMH ch7 is automation and flight path management", "confidence": "high"},
-  "AI.II.H.R2": {"sections": [], "anchors": ["risk-management:ch06", "aviation-instructor:ch10"], "why": "Error and attention management is RMH ch6; distraction while instructing is AIH ch10", "confidence": "low"},
-  "AI.II.H.R3": {"sections": [], "anchors": ["phak:ch16", "aim:ch01-s01"], "why": "Service volume and system limitations are in PHAK ch16 and AIM 1-1", "confidence": "low"},
-  "AI.II.H.R4": {"sections": [], "anchors": ["aim:ch01-s01", "phak:ch16"], "why": "Loss of signal, flags, and GPS outages are described in AIM 1-1 and PHAK ch16", "confidence": "low"},
-  "AI.II.H.R5": {"sections": [], "anchors": ["risk-management:ch07"], "why": "EFB use is part of automation and flight path management in RMH ch7", "confidence": "low"},
-  "AI.II.H.S1": {"sections": [], "anchors": ["phak:ch16"], "why": "Operation of airborne navigation equipment is PHAK ch16", "confidence": "high"},
-  "AI.II.H.S2": {"sections": [], "anchors": ["phak:ch16"], "why": "Position fixing from navigation receivers is PHAK ch16", "confidence": "high"},
-  "AI.II.H.S3": {"sections": [], "anchors": ["phak:ch16"], "why": "Intercepting and tracking a course or radial is PHAK ch16", "confidence": "high"},
-  "AI.II.H.S4": {"sections": [], "anchors": ["phak:ch16"], "why": "Station and waypoint passage indications are PHAK ch16", "confidence": "high"},
-  "AI.II.H.S5": {"sections": [], "anchors": ["aim:ch04-s02", "aim:ch04-s01"], "why": "Radio phraseology is AIM 4-2; the radar services being requested are AIM 4-1", "confidence": "high"},
-  "AI.II.I.K1": {"sections": ["91.103"], "anchors": ["phak:ch16", "aim:ch05-s01"], "why": "91.103 requires preflight familiarity with all available information; route planning is PHAK ch16 and AIM 5-1 preflight", "confidence": "high"},
-  "AI.II.I.K10": {"sections": [], "anchors": ["phak:ch16"], "why": "Pilotage and dead reckoning are PHAK ch16", "confidence": "high"},
-  "AI.II.I.K11": {"sections": [], "anchors": ["phak:ch16"], "why": "In-flight correction of groundspeed and ETA is PHAK ch16", "confidence": "high"},
-  "AI.II.I.K12": {"sections": [], "anchors": ["phak:ch16", "aim:ch06-s02"], "why": "Diversion and lost procedures are PHAK ch16; radar assistance to a lost aircraft is AIM 6-2", "confidence": "low"},
-  "AI.II.I.K13": {"sections": [], "anchors": ["aim:ch05-s06"], "why": "AIM 5-6 is national security and interception procedures", "confidence": "high"},
-  "AI.II.I.K14": {"sections": [], "anchors": ["risk-management:ch07"], "why": "EFB use falls under automation management in RMH ch7", "confidence": "low"},
-  "AI.II.I.K15": {"sections": [], "anchors": ["aim:ch09-s01", "phak:ch16"], "why": "Chart types and symbology are AIM 9-1 and PHAK ch16", "confidence": "high"},
-  "AI.II.I.K2": {"sections": ["91.159"], "anchors": ["phak:ch16"], "why": "91.159 sets VFR cruising altitudes; terrain, glide distance, and wind selection are PHAK ch16", "confidence": "high"},
-  "AI.II.I.K3": {"sections": [], "anchors": ["phak:ch16"], "why": "Plotting a course on a sectional is PHAK ch16", "confidence": "high"},
-  "AI.II.I.K4": {"sections": [], "anchors": ["phak:ch11"], "why": "Cruise power setting selection comes from the performance charts in PHAK ch11", "confidence": "low"},
-  "AI.II.I.K5": {"sections": [], "anchors": ["phak:ch16"], "why": "Navigation computations are PHAK ch16", "confidence": "high"},
-  "AI.II.I.K5a": {"sections": [], "anchors": ["phak:ch16"], "why": "Time, distance, heading, true airspeed, and groundspeed computations are PHAK ch16", "confidence": "high"},
-  "AI.II.I.K5b": {"sections": [], "anchors": ["phak:ch16"], "why": "ETA and UTC conversion are PHAK ch16", "confidence": "high"},
-  "AI.II.I.K5c": {"sections": ["91.151"], "anchors": ["phak:ch16"], "why": "91.151 sets the VFR fuel reserve; the fuel computation is PHAK ch16", "confidence": "high"},
-  "AI.II.I.K6": {"sections": [], "anchors": ["aim:ch05-s01"], "why": "VFR flight plan content is AIM 5-1 preflight", "confidence": "high"},
-  "AI.II.I.K7": {"sections": [], "anchors": ["phak:ch13", "aim:ch07-s01"], "why": "Weather products for the go/no-go decision are PHAK ch13 and AIM 7-1 meteorology", "confidence": "high"},
-  "AI.II.I.K8": {"sections": [], "anchors": ["aim:ch05-s01"], "why": "Activating and closing a VFR flight plan is AIM 5-1", "confidence": "high"},
-  "AI.II.I.K9": {"sections": [], "anchors": ["phak:ch08"], "why": "Magnetic compass errors are in PHAK ch8 flight instruments", "confidence": "high"},
-  "AI.II.I.R1": {"sections": [], "anchors": ["risk-management:ch03", "risk-management:ch02"], "why": "The pilot element of PAVE is RMH ch3; personal minimums are ch2", "confidence": "high"},
-  "AI.II.I.R2": {"sections": [], "anchors": ["risk-management:ch03"], "why": "The aircraft element of PAVE is RMH ch3 identifying hazards", "confidence": "high"},
-  "AI.II.I.R3": {"sections": [], "anchors": ["risk-management:ch03"], "why": "The environment element of PAVE is RMH ch3", "confidence": "high"},
-  "AI.II.I.R4": {"sections": [], "anchors": ["risk-management:ch03"], "why": "External pressures are the fourth PAVE element in RMH ch3", "confidence": "high"},
-  "AI.II.I.R5": {"sections": [], "anchors": ["aim:ch05-s05", "aim:ch04-s01"], "why": "Pilot and controller responsibilities and the limits of VFR services are AIM 5-5 and 4-1", "confidence": "low"},
-  "AI.II.I.R6": {"sections": ["91.151"], "anchors": ["phak:ch16"], "why": "91.151 is the minimum fuel rule; planning the reserve is PHAK ch16", "confidence": "high"},
-  "AI.II.I.S1": {"sections": ["91.103"], "anchors": ["phak:ch16", "risk-management:ch03"], "why": "91.103 preflight action underpins the plan; PHAK ch16 gives the planning method and RMH ch3 the risk analysis", "confidence": "high"},
-  "AI.II.I.S2": {"sections": ["91.103"], "anchors": ["aim:ch09-s01", "aim:ch05-s01"], "why": "91.103 requires NOTAM and runway length information; charts and publications are AIM 9-1 and preflight AIM 5-1", "confidence": "high"},
-  "AI.II.I.S3": {"sections": [], "anchors": ["aim:ch05-s01"], "why": "Filing a VFR flight plan is AIM 5-1", "confidence": "high"},
-  "AI.II.I.S4": {"sections": ["91.151"], "anchors": ["phak:ch16"], "why": "The reserve being recalculated is the 91.151 minimum; the arithmetic is PHAK ch16", "confidence": "high"},
-  "AI.II.J.K1": {"sections": ["1.1", "61.1", "91.1"], "anchors": [], "why": "The element is the parts themselves, so the applicability and definitions sections are the only defensible narrowing", "confidence": "low"},
-  "AI.II.J.K2": {"sections": [], "anchors": [], "why": "49 CFR 830 is not among the parts in the inventory, so it has no link target", "confidence": "high"},
-  "AI.II.J.K3": {"sections": [], "anchors": [], "why": "ACs, INFOs, and SAFOs are not CFR sections and no listed chapter covers them", "confidence": "high"},
-  "AI.II.J.K4": {"sections": ["61.43"], "anchors": [], "why": "61.43 sets practical test conduct and passing standards, which is what the ACS implements", "confidence": "low"},
-  "AI.II.J.K5": {"sections": ["91.9"], "anchors": [], "why": "91.9 requires operation per the AFM or POH and requires it aboard; PHAK is not among this Task's handbooks", "confidence": "high"},
-  "AI.II.J.K6": {"sections": [], "anchors": [], "why": "The element is the AIM as a whole, so no single AIM chapter is a better target than the document", "confidence": "high"},
-  "AI.II.J.R1": {"sections": ["91.103"], "anchors": ["aim:ch09-s01"], "why": "91.103 requires all available information for the flight; publication currency and cycles are AIM 9-1", "confidence": "low"},
-  "AI.II.J.S1": {"sections": [], "anchors": [], "why": "A teaching skill spanning K1 through K6; the Aviation Instructor's Handbook is not among this Task's handbooks", "confidence": "high"},
-  "AI.II.K.K1": {"sections": ["61.51", "61.189"], "anchors": [], "why": "61.51 governs logbook entries and 61.189 the instructor's record of instruction given", "confidence": "high"},
-  "AI.II.K.K2": {"sections": ["61.87", "61.93"], "anchors": [], "why": "61.87 requires the pre-solo knowledge test and solo endorsements; 61.93 adds the solo cross-country endorsements", "confidence": "high"},
-  "AI.II.K.K3": {"sections": ["61.95", "61.31"], "anchors": [], "why": "61.95 is the student pilot Class B endorsement; 61.31 carries the type, complex, high performance, tailwheel, and pressurized endorsements", "confidence": "high"},
-  "AI.II.K.K4": {"sections": ["61.39", "61.43"], "anchors": ["ac:61-65K:8-pilot-training-and-testing-title-14-cfr-pa"], "why": "61.39 requires the instructor recommendation before a practical test and 61.43 sets the standards; AC 61-65K paragraph 8 is the AC's entry point for training and testing", "confidence": "low"},
-  "AI.II.K.K4a": {"sections": ["61.39", "61.103"], "anchors": [], "why": "61.39 covers the recommendation; 61.103 is eligibility for an initial private pilot certificate", "confidence": "low"},
-  "AI.II.K.K4b": {"sections": ["61.39", "61.123"], "anchors": [], "why": "61.39 covers the recommendation; 61.123 is the eligibility path for an additional certificate at commercial level", "confidence": "low"},
-  "AI.II.K.K4c": {"sections": ["61.63", "61.31"], "anchors": [], "why": "61.63 governs additional aircraft ratings; 61.31 covers additional aircraft qualification endorsements", "confidence": "high"},
-  "AI.II.K.K5": {"sections": ["61.56"], "anchors": [], "why": "61.56 is the flight review and its logbook endorsement", "confidence": "high"},
-  "AI.II.K.K6": {"sections": ["61.189"], "anchors": ["aviation-instructor:ch08"], "why": "61.189 is the flight instructor records rule; recordkeeping as a professional responsibility is AIH ch8", "confidence": "high"},
-  "AI.II.K.K7": {"sections": ["61.197", "61.199"], "anchors": [], "why": "61.197 is renewal of a flight instructor certificate and 61.199 is reinstatement", "confidence": "high"},
-  "AI.II.K.R1": {"sections": ["61.87", "61.93"], "anchors": [], "why": "The 90 day solo endorsement in 61.87 and the limitations required by 61.93 are where missing limits or dates bite", "confidence": "low"},
-  "AI.II.K.S1": {"sections": ["61.51", "61.87", "61.56"], "anchors": ["ac:61-65K:8-pilot-training-and-testing-title-14-cfr-pa"], "why": "The commonly chosen events are instruction given under 61.51, solo endorsement under 61.87, and flight review under 61.56; AC 61-65K paragraph 8 is the AC's training and testing entry point", "confidence": "low"},
-  "AI.II.L.K1": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance"], "why": "Surveying the water surface before landing is the reconnaissance section of the seaplane handbook", "confidence": "high"},
-  "AI.II.L.K1a": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance", "seaplane:confined-area-landing"], "why": "Size and location of the landing area are assessed in reconnaissance and constrain confined area operations", "confidence": "low"},
-  "AI.II.L.K1b": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance"], "why": "Protected and unprotected water is a reconnaissance judgment", "confidence": "low"},
-  "AI.II.L.K1c": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance"], "why": "Reading surface wind off the water is part of reconnaissance", "confidence": "low"},
-  "AI.II.L.K1d": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance"], "why": "Current direction and strength are assessed during reconnaissance", "confidence": "low"},
-  "AI.II.L.K1e": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance"], "why": "Debris is one of the hazards looked for during reconnaissance", "confidence": "low"},
-  "AI.II.L.K1f": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance"], "why": "Sandbars, islands, and shoals are reconnaissance hazards", "confidence": "low"},
-  "AI.II.L.K1g": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance", "seaplane:taxiing-and-sailing"], "why": "Vessel traffic and wakes are seen on reconnaissance and dealt with while taxiing and sailing", "confidence": "low"},
-  "AI.II.L.K1h": {"sections": [], "anchors": ["seaplane:rough-water-landing", "seaplane:landing-area-reconnaissance"], "why": "Wave direction and height drive the rough water technique and are judged on reconnaissance", "confidence": "high"},
-  "AI.II.L.K1i": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance"], "why": "Other local characteristics are covered by the reconnaissance procedure", "confidence": "low"},
-  "AI.II.L.K2": {"sections": [], "anchors": [], "why": "No listed seaplane anchor covers float and hull construction; the anchors are maneuver sections", "confidence": "high"},
-  "AI.II.L.K3": {"sections": [], "anchors": ["seaplane:porpoising", "seaplane:skipping"], "why": "Porpoising and skipping each have their own section with causes and corrective action", "confidence": "high"},
-  "AI.II.L.K4": {"sections": [], "anchors": ["aim:ch09-s01"], "why": "Seaplane bases appear on the charts and in the publications described in AIM 9-1", "confidence": "low"},
-  "AI.II.L.K5": {"sections": [], "anchors": [], "why": "No listed anchor covers base-by-base operating restrictions", "confidence": "high"},
-  "AI.II.L.K6": {"sections": [], "anchors": ["seaplane:taxiing-and-sailing", "seaplane:sailing"], "why": "Right-of-way, steering, and sailing rules are covered where the handbook treats taxiing and sailing", "confidence": "high"},
-  "AI.II.L.K7": {"sections": [], "anchors": [], "why": "Marine navigation aids have no listed anchor; the seaplane inventory is maneuver based", "confidence": "high"},
-  "AI.II.L.K8": {"sections": [], "anchors": [], "why": "Naval vessel protection zones have no listed anchor", "confidence": "high"},
-  "AI.II.L.K9": {"sections": [], "anchors": ["seaplane:taxiing-and-sailing"], "why": "No wake obligations apply while taxiing and sailing on the surface", "confidence": "low"},
-  "AI.II.L.R1": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance"], "why": "Local conditions are what reconnaissance is for", "confidence": "low"},
-  "AI.II.L.R2": {"sections": [], "anchors": ["seaplane:taxiing-and-sailing"], "why": "Marine traffic is managed while taxiing and sailing", "confidence": "low"},
-  "AI.II.L.R3": {"sections": [], "anchors": ["seaplane:taxiing-and-sailing", "seaplane:sailing"], "why": "Right-of-way and sailing rules are treated in the taxiing and sailing sections", "confidence": "high"},
-  "AI.II.L.R4": {"sections": [], "anchors": [], "why": "Limited services at seaplane bases have no listed anchor", "confidence": "high"},
-  "AI.II.L.S1": {"sections": [], "anchors": [], "why": "Same gap as K2: no anchor covers float and hull construction", "confidence": "high"},
-  "AI.II.L.S2": {"sections": [], "anchors": ["seaplane:porpoising", "seaplane:skipping"], "why": "Corrective action for each is in its own section", "confidence": "high"},
-  "AI.II.L.S3": {"sections": [], "anchors": [], "why": "No listed anchor covers marine navigation aids", "confidence": "high"},
-  "AI.II.L.S4": {"sections": [], "anchors": ["seaplane:taxiing-and-sailing", "seaplane:sailing"], "why": "Steering and sailing operations are the taxiing and sailing sections", "confidence": "high"},
-  "AI.II.L.S5": {"sections": [], "anchors": ["seaplane:landing-area-reconnaissance"], "why": "Assessing the water surface is the reconnaissance procedure", "confidence": "high"},
-  "AI.II.L.S6": {"sections": [], "anchors": [], "why": "Local base restrictions have no listed anchor", "confidence": "high"},
-  "AI.II.M.K1": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01", "afh:ch11"], "why": "Night vision physiology is PHAK ch17 and AIM 8-1; its flight application is AFH ch11 night operations", "confidence": "high"},
-  "AI.II.M.K2": {"sections": [], "anchors": ["aim:ch02-s01", "aim:ch02-s02", "phak:ch14"], "why": "Airport lighting aids are AIM 2-1, obstruction lighting AIM 2-2, and PHAK ch14 covers pilot controlled lighting", "confidence": "high"},
-  "AI.II.M.K3": {"sections": [], "anchors": ["afh:ch11"], "why": "Equipment and lighting for night flight are listed in AFH ch11; Task M lists no CFR part so 91.205 is out of scope", "confidence": "high"},
-  "AI.II.M.K4": {"sections": [], "anchors": ["afh:ch11"], "why": "Personal equipment for night flight is in AFH ch11", "confidence": "high"},
-  "AI.II.M.K5": {"sections": [], "anchors": ["afh:ch11", "phak:ch17"], "why": "Night orientation and chart reading are AFH ch11; preserving dark adaptation is PHAK ch17", "confidence": "high"},
-  "AI.II.M.K6": {"sections": [], "anchors": ["afh:ch11", "phak:ch08"], "why": "Cross-checking attitude on instruments at night is AFH ch11; the instruments are PHAK ch8", "confidence": "low"},
-  "AI.II.M.K7": {"sections": [], "anchors": ["phak:ch17", "afh:ch11"], "why": "Night visual illusions are in PHAK ch17 and repeated for the approach in AFH ch11", "confidence": "high"},
-  "AI.II.M.K8": {"sections": [], "anchors": ["afh:ch11"], "why": "Night taxi procedure is in AFH ch11", "confidence": "high"},
-  "AI.II.M.K9": {"sections": [], "anchors": ["afh:ch11"], "why": "Interpreting position lights to judge traffic direction is in AFH ch11", "confidence": "high"},
-  "AI.II.M.R1": {"sections": [], "anchors": ["afh:ch11"], "why": "Inoperative lighting or equipment at night is addressed in AFH ch11", "confidence": "low"},
-  "AI.II.M.R2": {"sections": [], "anchors": ["afh:ch11"], "why": "Night weather considerations are in AFH ch11", "confidence": "low"},
-  "AI.II.M.R3": {"sections": [], "anchors": ["afh:ch11"], "why": "Collision hazards at night are in AFH ch11", "confidence": "low"},
-  "AI.II.M.R4": {"sections": [], "anchors": ["aviation-instructor:ch10", "risk-management:ch06"], "why": "Distraction and task prioritization while instructing are AIH ch10; error management is RMH ch6", "confidence": "low"},
-  "AI.II.M.R5": {"sections": [], "anchors": ["phak:ch17", "afh:ch11"], "why": "Illusions and dark adaptation across all phases of night flight are PHAK ch17 and AFH ch11", "confidence": "high"},
-  "AI.II.M.R6": {"sections": [], "anchors": ["aim:ch04-s03", "afh:ch11"], "why": "Runway incursion is AIM 4-3; the night surface movement case is AFH ch11", "confidence": "low"},
-  "AI.II.M.R7": {"sections": [], "anchors": ["afh:ch11"], "why": "AFH ch11 distinguishes night currency from night proficiency; Task M lists no CFR part so 61.57 is out of scope", "confidence": "low"},
-  "AI.II.M.S1": {"sections": [], "anchors": ["afh:ch11", "aviation-instructor:ch09"], "why": "Subject matter is AFH ch11; the instructional technique is AIH ch9", "confidence": "low"},
-  "AI.II.N.K2": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "The physiology of altitude is PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.N.K2a": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Impairment with altitude is in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.N.K2b": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Hypoxia symptoms are in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.N.K2c": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Time of useful consciousness is tabulated in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.N.K3": {"sections": ["91.211"], "anchors": ["phak:ch07"], "why": "91.211 is the supplemental oxygen rule; oxygen system types are PHAK ch7", "confidence": "high"},
-  "AI.II.N.K3a": {"sections": [], "anchors": ["phak:ch07"], "why": "Continuous flow, demand, and pressure demand systems are described in PHAK ch7", "confidence": "low"},
-  "AI.II.N.K3b": {"sections": [], "anchors": ["phak:ch07"], "why": "Aviator's breathing oxygen is distinguished in PHAK ch7", "confidence": "low"},
-  "AI.II.N.K3c": {"sections": [], "anchors": ["phak:ch07", "aim:ch08-s01"], "why": "Precautions with oxygen equipment are in PHAK ch7 and AIM 8-1", "confidence": "low"},
-  "AI.II.N.R1": {"sections": ["91.211"], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "91.211 bounds high altitude operation without oxygen; the physiological risk is PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.N.R2": {"sections": ["91.211"], "anchors": ["phak:ch17"], "why": "91.211 sets when oxygen must be used; PHAK ch17 covers its physiological effect", "confidence": "high"},
-  "AI.II.N.R3": {"sections": [], "anchors": ["phak:ch07"], "why": "Handling of compressed gas containers is covered with oxygen systems in PHAK ch7", "confidence": "low"},
-  "AI.II.N.R4": {"sections": [], "anchors": ["phak:ch07"], "why": "Fire risk in an oxygen-rich environment is noted with oxygen systems in PHAK ch7", "confidence": "low"},
-  "AI.II.N.S1": {"sections": [], "anchors": ["phak:ch07", "aviation-instructor:ch09"], "why": "Equipment content is PHAK ch7; briefing technique is AIH ch9", "confidence": "low"},
-  "AI.II.N.S2": {"sections": [], "anchors": ["phak:ch07"], "why": "Operating installed or portable oxygen equipment is described in PHAK ch7", "confidence": "low"},
-  "AI.II.N.S3": {"sections": ["91.211"], "anchors": ["phak:ch07"], "why": "The required duration follows from the 91.211 altitude and time thresholds; system capacity is PHAK ch7", "confidence": "high"},
-  "AI.II.O.K1": {"sections": [], "anchors": ["phak:ch07"], "why": "Pressurization system operation and failure modes are in PHAK ch7; Task O lists no CFR part", "confidence": "high"},
-  "AI.II.O.K2": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Altitude physiology is PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.O.K2a": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Impairment with altitude is in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.O.K2b": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Hypoxia symptoms are in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.O.K2c": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "Time of useful consciousness is in PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.O.K2d": {"sections": [], "anchors": ["phak:ch07", "phak:ch17"], "why": "Rapid decompression is described with pressurization in PHAK ch7 and its physiological effect in ch17", "confidence": "high"},
-  "AI.II.O.R1": {"sections": [], "anchors": ["phak:ch17", "aim:ch08-s01"], "why": "The high altitude physiological risk is PHAK ch17 and AIM 8-1", "confidence": "high"},
-  "AI.II.O.R2": {"sections": [], "anchors": ["phak:ch07"], "why": "Pressurization malfunction is covered with the system in PHAK ch7", "confidence": "high"},
-  "AI.II.O.S1": {"sections": [], "anchors": ["phak:ch07"], "why": "Operating the pressurization system is PHAK ch7", "confidence": "high"},
-  "AI.II.O.S2": {"sections": [], "anchors": ["phak:ch07", "afh:ch18"], "why": "The malfunction is PHAK ch7; the emergency response pattern is AFH ch18", "confidence": "low"},
-  "AI.II.P.K1": {"sections": [], "anchors": ["phak:ch11", "afh:ch13"], "why": "Performance charts are PHAK ch11; multiengine specific charts are AFH ch13 transition to multiengine airplanes", "confidence": "low"},
-  "AI.II.P.K2": {"sections": [], "anchors": ["phak:ch11"], "why": "Effects of exceeding published limitations are in PHAK ch11", "confidence": "low"},
-  "AI.II.P.K3": {"sections": [], "anchors": ["phak:ch11"], "why": "Density altitude and atmospheric effects on performance are PHAK ch11", "confidence": "high"},
-  "AI.II.P.K4": {"sections": [], "anchors": ["afh:ch13"], "why": "Single engine versus multiengine capability is AFH ch13", "confidence": "high"},
-  "AI.II.P.K5": {"sections": [], "anchors": ["afh:ch13"], "why": "One engine inoperative aerodynamics are AFH ch13", "confidence": "high"},
-  "AI.II.P.K5a": {"sections": [], "anchors": ["afh:ch13"], "why": "The critical engine concept is AFH ch13", "confidence": "high"},
-  "AI.II.P.K5b": {"sections": [], "anchors": ["afh:ch13"], "why": "Bank angle effect on VMC is AFH ch13", "confidence": "high"},
-  "AI.II.P.K5c": {"sections": [], "anchors": ["afh:ch13"], "why": "Zero sideslip is AFH ch13", "confidence": "high"},
-  "AI.II.P.K5d": {"sections": [], "anchors": ["afh:ch13"], "why": "Causes of loss of directional control with an engine out are AFH ch13", "confidence": "high"},
-  "AI.II.P.K6": {"sections": [], "anchors": ["afh:ch13"], "why": "The VMC and stall speed relationship with density altitude is AFH ch13", "confidence": "high"},
-  "AI.II.P.K7": {"sections": [], "anchors": ["afh:ch13", "afh:ch18"], "why": "The engine failure decision in a twin is AFH ch13; general emergency procedure discipline is AFH ch18", "confidence": "low"},
-  "AI.II.P.R1": {"sections": [], "anchors": ["afh:ch13", "afh:ch05"], "why": "Exceeding critical angle of attack during a VMC demonstration is AFH ch13; stall and upset recovery is AFH ch5", "confidence": "low"},
-  "AI.II.P.R2": {"sections": [], "anchors": ["afh:ch13"], "why": "Loss of directional control below VMC is AFH ch13", "confidence": "high"},
-  "AI.II.P.R3": {"sections": [], "anchors": ["afh:ch13", "phak:ch11"], "why": "Single engine service ceiling versus terrain is AFH ch13, using the performance data of PHAK ch11", "confidence": "low"},
-  "AI.II.P.R4": {"sections": [], "anchors": ["afh:ch13"], "why": "Fuel and crossfeed management with an engine out is AFH ch13", "confidence": "low"},
-  "AI.II.P.S1": {"sections": [], "anchors": ["afh:ch13", "phak:ch11"], "why": "Single engine climb computation is AFH ch13 using the chart method of PHAK ch11", "confidence": "low"}
+ "AI.II.A.K1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch17 aeromedical factors and AIM 8-1 fitness for flight cover the whole list; Task A cites no CFR part"
+ },
+ "AI.II.A.K1a": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Hypoxia types, symptoms, and corrective action are in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K1b": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Hyperventilation is covered in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K1c": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Middle ear and sinus block are covered in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K1d": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Spatial disorientation and vestibular illusions are in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K1e": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Motion sickness is covered in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K1f": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Carbon monoxide poisoning is covered in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K1g": {
+  "anchors": [
+   "phak:ch17",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Stress as an aeromedical factor is in PHAK ch17; RMH ch3 treats it as a pilot hazard"
+ },
+ "AI.II.A.K1h": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Fatigue is covered in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K1i": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Dehydration and nutrition are covered in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K1j": {
+  "anchors": [
+   "phak:ch17"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Hypothermia is treated among aeromedical factors in PHAK ch17"
+ },
+ "AI.II.A.K1k": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Optical illusions are covered in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K1l": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Decompression sickness after scuba diving is in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K2": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Sections empty on purpose: Task A lists no CFR part, so 91.17 and 61.15 are out of scope here; PHAK ch17 and AIM 8-1 summarize the alcohol and drug rules"
+ },
+ "AI.II.A.K3": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Effects of alcohol, drugs, and OTC medication are in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.K4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08",
+   "aviation-instructor:ch01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 is ADM, RMH ch8 is ADM in flight, AIH ch1 covers SRM and CRM for instructors"
+ },
+ "AI.II.A.R1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The aeromedical hazards themselves are in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.R2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 lists the five hazardous attitudes and antidotes; RMH ch3 treats them as identified hazards"
+ },
+ "AI.II.A.R3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Task saturation and loss of situational awareness are in PHAK ch2; RMH ch6 threat and error management covers the mechanism"
+ },
+ "AI.II.A.R4": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Confirmation and expectation bias are error types in RMH ch6, with the decision-making context in PHAK ch2"
+ },
+ "AI.II.A.S1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The symptom, cause, and corrective action pairs come from PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.A.S2": {
+  "anchors": [
+   "aim:ch08-s01",
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 fitness for flight includes the IMSAFE self-assessment; RMH ch2 is personal minimums"
+ },
+ "AI.II.B.K1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Conditions degrading vision in flight are in PHAK ch17 and AIM 8-1 vision section"
+ },
+ "AI.II.B.K2": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Vestibular and visual illusions are in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.B.K3": {
+  "anchors": [
+   "aim:ch05-s05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 5-5 pilot and controller roles states the see and avoid responsibility; Task B lists no CFR part so 91.113 is out of scope"
+ },
+ "AI.II.B.K4": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Scanning technique and peripheral vision are described in AIM 8-1 and PHAK ch17"
+ },
+ "AI.II.B.K5": {
+  "anchors": [
+   "afh:ch03",
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Clearing procedures before maneuvers are in AFH ch3; blind spot discussion is in AIM 8-1"
+ },
+ "AI.II.B.K6": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The constant relative bearing and blossoming cues are described in AIM 8-1"
+ },
+ "AI.II.B.K7": {
+  "anchors": [
+   "aim:ch07-s06",
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-6 potential flight hazards covers collision risk situations; airport traffic areas are AIM 4-3"
+ },
+ "AI.II.B.K8": {
+  "anchors": [
+   "afh:ch03",
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Division of attention is taught with basic flight maneuvers in AFH ch3; scan discipline is AIM 8-1"
+ },
+ "AI.II.B.R1": {
+  "anchors": [
+   "aviation-instructor:ch10",
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Distraction while instructing is AIH ch10; its effect on the scan is AIM 8-1"
+ },
+ "AI.II.B.R2": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Empty field myopia and relaxed focal distance are in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.B.R3": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "High density airport operations are AIM 4-3 airport operations"
+ },
+ "AI.II.B.R4": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Recognition and reaction time in the see and avoid concept is discussed in AIM 8-1"
+ },
+ "AI.II.B.R5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Safety pilot use is governed by 91.109, but Task B lists no CFR part, and no listed chapter covers it better than the whole handbook"
+ },
+ "AI.II.B.S1": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The regularly spaced eye movement technique is specified in AIM 8-1 and PHAK ch17"
+ },
+ "AI.II.B.S2": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Scanning around obstructions is part of the AIM 8-1 scan technique"
+ },
+ "AI.II.B.S3": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Visual scanning techniques are in AIM 8-1 and PHAK ch17"
+ },
+ "AI.II.B.S4": {
+  "anchors": [
+   "aim:ch04-s05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 4-5 surveillance systems covers TIS and ADS-B traffic display services"
+ },
+ "AI.II.C.K1": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 airport operations defines runway incursion; PHAK ch14 is airport operations"
+ },
+ "AI.II.C.K2": {
+  "anchors": [
+   "aim:ch04-s03",
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Taxi clearance content is AIM 4-3; phraseology and readback are AIM 4-2"
+ },
+ "AI.II.C.K3": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Writing down taxi instructions and reviewing the airport diagram are AIM 4-3 practices"
+ },
+ "AI.II.C.K4": {
+  "anchors": [
+   "aim:ch02-s03",
+   "aim:ch02-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Markings and signs are AIM 2-3, lighting aids AIM 2-1, and PHAK ch14 covers both with hold lines"
+ },
+ "AI.II.C.K5": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Taxi route planning and hot spot briefing are in AIM 4-3 and PHAK ch14"
+ },
+ "AI.II.C.K6": {
+  "anchors": [
+   "aim:ch04-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Traffic advisory practices at airports without an operating tower are AIM 4-1; PHAK ch14 repeats them"
+ },
+ "AI.II.C.R1": {
+  "anchors": [
+   "aviation-instructor:ch10",
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Distraction and task prioritization while instructing are AIH ch10; error management is RMH ch6"
+ },
+ "AI.II.C.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Expectation bias in reading back a clearance is a RMH ch6 error type"
+ },
+ "AI.II.C.R3": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Runway entry and crossing procedures are AIM 4-3"
+ },
+ "AI.II.C.R4": {
+  "anchors": [
+   "afh:ch11",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Night taxi technique is AFH ch11 night operations; the incursion risk is AIM 4-3"
+ },
+ "AI.II.C.R5": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Low visibility surface operations are covered in AIM 4-3"
+ },
+ "AI.II.C.R6": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "After landing and runway exit procedure is AIM 4-3"
+ },
+ "AI.II.C.R7": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Taxiing between parallel runways is a surface movement hazard in AIM 4-3"
+ },
+ "AI.II.C.S1": {
+  "anchors": [
+   "aim:ch04-s03",
+   "aviation-instructor:ch09"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Content comes from AIM 4-3; delivery technique is AIH ch9"
+ },
+ "AI.II.D.K1": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 aerodynamics of flight covers airfoil design characteristics"
+ },
+ "AI.II.D.K2": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Stability, maneuverability, and controllability are in PHAK ch5"
+ },
+ "AI.II.D.K3": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Torque, P-factor, spiraling slipstream, and gyroscopic precession are in PHAK ch5"
+ },
+ "AI.II.D.K4": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The four forces are in PHAK ch5"
+ },
+ "AI.II.D.K5": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Load factor and design limits are in PHAK ch5"
+ },
+ "AI.II.D.K6": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Wingtip vortex formation and avoidance are in PHAK ch5; the AIM is not among this Task's handbooks"
+ },
+ "AI.II.D.R1": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The aerodynamic principles themselves are PHAK ch5"
+ },
+ "AI.II.D.S1": {
+  "anchors": [
+   "phak:ch05",
+   "aviation-instructor:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Subject matter is PHAK ch5; the delivery method is AIH ch5"
+ },
+ "AI.II.E.K1": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch7 is the aircraft systems chapter"
+ },
+ "AI.II.E.K1a": {
+  "anchors": [
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Primary flight controls are PHAK ch6 flight controls"
+ },
+ "AI.II.E.K1b": {
+  "anchors": [
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Secondary flight controls including flaps and trim are PHAK ch6"
+ },
+ "AI.II.E.K1c": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Powerplant and propeller are in PHAK ch7"
+ },
+ "AI.II.E.K1d": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Landing gear systems are in PHAK ch7"
+ },
+ "AI.II.E.K1e": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Fuel, oil, and hydraulic systems are in PHAK ch7"
+ },
+ "AI.II.E.K1f": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Electrical system is in PHAK ch7"
+ },
+ "AI.II.E.K1g": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Avionics and electronic flight displays are treated in PHAK ch7"
+ },
+ "AI.II.E.K1h": {
+  "anchors": [
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Pitot-static, vacuum, and the associated instruments are PHAK ch8 flight instruments"
+ },
+ "AI.II.E.K1i": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Environmental and cabin heat systems are in PHAK ch7"
+ },
+ "AI.II.E.K1j": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Deicing and anti-icing equipment is in PHAK ch7"
+ },
+ "AI.II.E.K1k": {
+  "anchors": [
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Water rudder operation is its own section of the seaplane handbook"
+ },
+ "AI.II.E.K1l": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Oxygen systems are described among aircraft systems in PHAK ch7"
+ },
+ "AI.II.E.K2": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 emergency procedures covers system abnormality indications and response; the systems themselves are PHAK ch7"
+ },
+ "AI.II.E.R1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Recognizing a malfunction is part of AFH ch18 emergency procedures"
+ },
+ "AI.II.E.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "System failure management is AFH ch18"
+ },
+ "AI.II.E.R3": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch7 is automation and flight path management"
+ },
+ "AI.II.E.R4": {
+  "anchors": [
+   "aviation-instructor:ch10",
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Instructing in an unfamiliar aircraft is an instructional hazard in AIH ch10; unfamiliar avionics is RMH ch7"
+ },
+ "AI.II.E.S1": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Operation of the listed systems is described in PHAK ch7"
+ },
+ "AI.II.F.K1": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch11 aircraft performance is the chart and table chapter"
+ },
+ "AI.II.F.K2": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Factors affecting performance are in PHAK ch11"
+ },
+ "AI.II.F.K2a": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Density altitude, temperature, and humidity effects are in PHAK ch11"
+ },
+ "AI.II.F.K2b": {
+  "anchors": [
+   "phak:ch11",
+   "afh:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch11 notes technique as a performance variable; AFH ch6 gives the takeoff technique itself"
+ },
+ "AI.II.F.K2c": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Configuration effects on performance are in PHAK ch11"
+ },
+ "AI.II.F.K2d": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Runway surface, slope, and wind are performance factors in PHAK ch11"
+ },
+ "AI.II.F.K2e": {
+  "anchors": [
+   "phak:ch10",
+   "weight-balance:ch01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch10 is weight and balance; W and B Handbook ch1 covers weight and balance control"
+ },
+ "AI.II.F.K3": {
+  "anchors": [
+   "weight-balance:ch01",
+   "weight-balance:ch02",
+   "phak:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The defined terms are in W and B Handbook ch1 and the theory in ch2, restated in PHAK ch10"
+ },
+ "AI.II.F.K4": {
+  "anchors": [
+   "weight-balance:ch05",
+   "phak:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Single-engine CG computation methods are W and B Handbook ch5; PHAK ch10 shows the same methods"
+ },
+ "AI.II.F.K5": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 is the aerodynamics chapter"
+ },
+ "AI.II.F.R1": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Chart interpolation and misuse are addressed in PHAK ch11"
+ },
+ "AI.II.F.R2": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Operating limitations live in the AFM and POH, covered by PHAK ch9 flight manuals and documents"
+ },
+ "AI.II.F.R3": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch11 warns that book performance assumes a new airplane and a test pilot"
+ },
+ "AI.II.F.R4": {
+  "anchors": [
+   "weight-balance:ch01",
+   "phak:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Effects of exceeding weight limits are in W and B Handbook ch1 and PHAK ch10"
+ },
+ "AI.II.F.R5": {
+  "anchors": [
+   "weight-balance:ch02",
+   "phak:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Out of CG stability and control effects are in W and B Handbook ch2 theory and PHAK ch10"
+ },
+ "AI.II.F.R6": {
+  "anchors": [
+   "weight-balance:ch05",
+   "phak:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Weight shift, addition, and removal computations are in W and B Handbook ch5 and PHAK ch10"
+ },
+ "AI.II.F.S1": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Chart use is PHAK ch11"
+ },
+ "AI.II.F.S2": {
+  "anchors": [
+   "weight-balance:ch05",
+   "phak:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The computation and out of CG correction are worked in W and B Handbook ch5 and PHAK ch10"
+ },
+ "AI.II.G.K1": {
+  "anchors": [
+   "phak:ch15",
+   "aim:ch03-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.126",
+   "91.129",
+   "91.131"
+  ],
+  "why": "91.126, 91.129, and 91.131 give the Class G, D, and B requirements; PHAK ch15 and AIM 3-2 describe the class structure"
+ },
+ "AI.II.G.K2": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch15"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Chart types and symbology are AIM 9-1; airspace depiction is PHAK ch15. No section governs chart symbols"
+ },
+ "AI.II.G.K3": {
+  "anchors": [
+   "aim:ch03-s04",
+   "aim:ch03-s05"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.133",
+   "91.137"
+  ],
+  "why": "91.133 covers restricted and prohibited areas and 91.137 covers TFRs; AIM 3-4 is special use airspace and 3-5 other airspace areas"
+ },
+ "AI.II.G.K4": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Publication cycles and currency are described in AIM 9-1"
+ },
+ "AI.II.G.K5": {
+  "anchors": [
+   "phak:ch15"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.157"
+  ],
+  "why": "91.157 is the special VFR rule; PHAK ch15 explains it in the airspace context"
+ },
+ "AI.II.G.R1": {
+  "anchors": [
+   "phak:ch15",
+   "aim:ch03-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The airspace overview is PHAK ch15 and AIM 3-1 general"
+ },
+ "AI.II.G.S1": {
+  "anchors": [
+   "phak:ch15",
+   "aim:ch03-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.155"
+  ],
+  "why": "91.155 is basic VFR weather minimums by class; PHAK ch15 and AIM 3-2 tabulate them"
+ },
+ "AI.II.G.S2": {
+  "anchors": [
+   "phak:ch15"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.126",
+   "91.131",
+   "91.215"
+  ],
+  "why": "91.126 and 91.131 set the communication requirements by class and 91.215 the transponder requirement; PHAK ch15 summarizes"
+ },
+ "AI.II.G.S3": {
+  "anchors": [
+   "aim:ch03-s04",
+   "aim:ch03-s05"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.133",
+   "91.137"
+  ],
+  "why": "91.133 for SUA entry and 91.137 for TFRs; AIM 3-4 and 3-5 cover SUA, SFRA, and SATR operations"
+ },
+ "AI.II.H.K1": {
+  "anchors": [
+   "phak:ch16",
+   "aim:ch01-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch16 navigation and AIM 1-1 navigation aids cover VOR identification, orientation, and checks. Task H lists no CFR part"
+ },
+ "AI.II.H.K2": {
+  "anchors": [
+   "phak:ch16",
+   "aim:ch01-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "GPS equipment, databases, and RAIM are in PHAK ch16 and AIM 1-1"
+ },
+ "AI.II.H.K3": {
+  "anchors": [
+   "aim:ch04-s01",
+   "aim:ch04-s05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Radar traffic advisory service to VFR aircraft is AIM 4-1; the radar and ADS-B systems are AIM 4-5"
+ },
+ "AI.II.H.K4": {
+  "anchors": [
+   "aim:ch04-s01",
+   "aim:ch04-s05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Transponder and ADS-B Out operation is AIM 4-1; surveillance system detail is AIM 4-5"
+ },
+ "AI.II.H.R1": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch7 is automation and flight path management"
+ },
+ "AI.II.H.R2": {
+  "anchors": [
+   "risk-management:ch06",
+   "aviation-instructor:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Error and attention management is RMH ch6; distraction while instructing is AIH ch10"
+ },
+ "AI.II.H.R3": {
+  "anchors": [
+   "phak:ch16",
+   "aim:ch01-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Service volume and system limitations are in PHAK ch16 and AIM 1-1"
+ },
+ "AI.II.H.R4": {
+  "anchors": [
+   "aim:ch01-s01",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Loss of signal, flags, and GPS outages are described in AIM 1-1 and PHAK ch16"
+ },
+ "AI.II.H.R5": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "EFB use is part of automation and flight path management in RMH ch7"
+ },
+ "AI.II.H.S1": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Operation of airborne navigation equipment is PHAK ch16"
+ },
+ "AI.II.H.S2": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Position fixing from navigation receivers is PHAK ch16"
+ },
+ "AI.II.H.S3": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Intercepting and tracking a course or radial is PHAK ch16"
+ },
+ "AI.II.H.S4": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Station and waypoint passage indications are PHAK ch16"
+ },
+ "AI.II.H.S5": {
+  "anchors": [
+   "aim:ch04-s02",
+   "aim:ch04-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Radio phraseology is AIM 4-2; the radar services being requested are AIM 4-1"
+ },
+ "AI.II.I.K1": {
+  "anchors": [
+   "phak:ch16",
+   "aim:ch05-s01"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires preflight familiarity with all available information; route planning is PHAK ch16 and AIM 5-1 preflight"
+ },
+ "AI.II.I.K10": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Pilotage and dead reckoning are PHAK ch16"
+ },
+ "AI.II.I.K11": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "In-flight correction of groundspeed and ETA is PHAK ch16"
+ },
+ "AI.II.I.K12": {
+  "anchors": [
+   "phak:ch16",
+   "aim:ch06-s02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Diversion and lost procedures are PHAK ch16; radar assistance to a lost aircraft is AIM 6-2"
+ },
+ "AI.II.I.K13": {
+  "anchors": [
+   "aim:ch05-s06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 5-6 is national security and interception procedures"
+ },
+ "AI.II.I.K14": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "EFB use falls under automation management in RMH ch7"
+ },
+ "AI.II.I.K15": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Chart types and symbology are AIM 9-1 and PHAK ch16"
+ },
+ "AI.II.I.K2": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.159"
+  ],
+  "why": "91.159 sets VFR cruising altitudes; terrain, glide distance, and wind selection are PHAK ch16"
+ },
+ "AI.II.I.K3": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Plotting a course on a sectional is PHAK ch16"
+ },
+ "AI.II.I.K4": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Cruise power setting selection comes from the performance charts in PHAK ch11"
+ },
+ "AI.II.I.K5": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Navigation computations are PHAK ch16"
+ },
+ "AI.II.I.K5a": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Time, distance, heading, true airspeed, and groundspeed computations are PHAK ch16"
+ },
+ "AI.II.I.K5b": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "ETA and UTC conversion are PHAK ch16"
+ },
+ "AI.II.I.K5c": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.151"
+  ],
+  "why": "91.151 sets the VFR fuel reserve; the fuel computation is PHAK ch16"
+ },
+ "AI.II.I.K6": {
+  "anchors": [
+   "aim:ch05-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "VFR flight plan content is AIM 5-1 preflight"
+ },
+ "AI.II.I.K7": {
+  "anchors": [
+   "phak:ch13",
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Weather products for the go/no-go decision are PHAK ch13 and AIM 7-1 meteorology"
+ },
+ "AI.II.I.K8": {
+  "anchors": [
+   "aim:ch05-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Activating and closing a VFR flight plan is AIM 5-1"
+ },
+ "AI.II.I.K9": {
+  "anchors": [
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Magnetic compass errors are in PHAK ch8 flight instruments"
+ },
+ "AI.II.I.R1": {
+  "anchors": [
+   "risk-management:ch03",
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The pilot element of PAVE is RMH ch3; personal minimums are ch2"
+ },
+ "AI.II.I.R2": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The aircraft element of PAVE is RMH ch3 identifying hazards"
+ },
+ "AI.II.I.R3": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The environment element of PAVE is RMH ch3"
+ },
+ "AI.II.I.R4": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "External pressures are the fourth PAVE element in RMH ch3"
+ },
+ "AI.II.I.R5": {
+  "anchors": [
+   "aim:ch05-s05",
+   "aim:ch04-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Pilot and controller responsibilities and the limits of VFR services are AIM 5-5 and 4-1"
+ },
+ "AI.II.I.R6": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.151"
+  ],
+  "why": "91.151 is the minimum fuel rule; planning the reserve is PHAK ch16"
+ },
+ "AI.II.I.S1": {
+  "anchors": [
+   "phak:ch16",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 preflight action underpins the plan; PHAK ch16 gives the planning method and RMH ch3 the risk analysis"
+ },
+ "AI.II.I.S2": {
+  "anchors": [
+   "aim:ch09-s01",
+   "aim:ch05-s01"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires NOTAM and runway length information; charts and publications are AIM 9-1 and preflight AIM 5-1"
+ },
+ "AI.II.I.S3": {
+  "anchors": [
+   "aim:ch05-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Filing a VFR flight plan is AIM 5-1"
+ },
+ "AI.II.I.S4": {
+  "anchors": [
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.151"
+  ],
+  "why": "The reserve being recalculated is the 91.151 minimum; the arithmetic is PHAK ch16"
+ },
+ "AI.II.J.K1": {
+  "anchors": [],
+  "confidence": "low",
+  "sections": [
+   "1.1",
+   "61.1",
+   "91.1"
+  ],
+  "why": "The element is the parts themselves, so the applicability and definitions sections are the only defensible narrowing"
+ },
+ "AI.II.J.K2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "49 CFR 830 is not among the parts in the inventory, so it has no link target"
+ },
+ "AI.II.J.K3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "ACs, INFOs, and SAFOs are not CFR sections and no listed chapter covers them"
+ },
+ "AI.II.J.K4": {
+  "anchors": [],
+  "confidence": "low",
+  "sections": [
+   "61.43"
+  ],
+  "why": "61.43 sets practical test conduct and passing standards, which is what the ACS implements"
+ },
+ "AI.II.J.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [
+   "91.9"
+  ],
+  "why": "91.9 requires operation per the AFM or POH and requires it aboard; PHAK is not among this Task's handbooks"
+ },
+ "AI.II.J.K6": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "The element is the AIM as a whole, so no single AIM chapter is a better target than the document"
+ },
+ "AI.II.J.R1": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "low",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires all available information for the flight; publication currency and cycles are AIM 9-1"
+ },
+ "AI.II.J.S1": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "A teaching skill spanning K1 through K6; the Aviation Instructor's Handbook is not among this Task's handbooks"
+ },
+ "AI.II.K.K1": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [
+   "61.51",
+   "61.189"
+  ],
+  "why": "61.51 governs logbook entries and 61.189 the instructor's record of instruction given"
+ },
+ "AI.II.K.K2": {
+  "anchors": [
+   "ac:61-65k:a3",
+   "ac:61-65k:a4",
+   "ac:61-65k:a6"
+  ],
+  "confidence": "high",
+  "sections": [
+   "61.87",
+   "61.93"
+  ],
+  "why": "61.87 requires the pre-solo knowledge test and solo endorsements; 61.93 adds the solo cross-country endorsements. A.3 pre-solo aeronautical knowledge, A.4 pre-solo flight training and A.6 the first solo period are the pre-solo endorsements this element names"
+ },
+ "AI.II.K.K3": {
+  "anchors": [
+   "ac:61-65k:a12",
+   "ac:61-65k:a8",
+   "ac:61-65k:a60"
+  ],
+  "confidence": "high",
+  "sections": [
+   "61.95",
+   "61.31"
+  ],
+  "why": "61.95 is the student pilot Class B endorsement; 61.31 carries the type, complex, high performance, tailwheel, and pressurized endorsements. A.12 solo flight in Class B and A.8 solo at another airport are the named examples; A.60 is the SFAR 73 endorsement the element also names"
+ },
+ "AI.II.K.K4": {
+  "anchors": [
+   "ac:61-65k:a1",
+   "ac:61-65k:a2"
+  ],
+  "confidence": "low",
+  "sections": [
+   "61.39",
+   "61.43"
+  ],
+  "why": "61.39 requires the instructor recommendation before a practical test and 61.43 sets the standards; AC 61-65K paragraph 8 is the AC's entry point for training and testing. A.1 prerequisites for the practical test and A.2 review of knowledge test deficiencies are the recommendation endorsements"
+ },
+ "AI.II.K.K4a": {
+  "anchors": [
+   "ac:61-65k:a36",
+   "ac:61-65k:a1"
+  ],
+  "confidence": "low",
+  "sections": [
+   "61.39",
+   "61.103"
+  ],
+  "why": "61.39 covers the recommendation; 61.103 is eligibility for an initial private pilot certificate. A.36 is the private pilot knowledge test endorsement, which is the initial certificate path, with A.1 for the practical test prerequisite"
+ },
+ "AI.II.K.K4b": {
+  "anchors": [
+   "ac:61-65k:a38",
+   "ac:61-65k:a1"
+  ],
+  "confidence": "low",
+  "sections": [
+   "61.39",
+   "61.123"
+  ],
+  "why": "61.39 covers the recommendation; 61.123 is the eligibility path for an additional certificate at commercial level. A.38 is the commercial knowledge test endorsement, the additional certificate path; Task K cites 61.123"
+ },
+ "AI.II.K.K4c": {
+  "anchors": [
+   "ac:61-65k:a78",
+   "ac:61-65k:a79"
+  ],
+  "confidence": "high",
+  "sections": [
+   "61.63",
+   "61.31"
+  ],
+  "why": "61.63 governs additional aircraft ratings; 61.31 covers additional aircraft qualification endorsements. A.78 additional category or class rating and A.79 type rating are additional aircraft qualification; Task K cites 61.63"
+ },
+ "AI.II.K.K5": {
+  "anchors": [
+   "ac:61-65k:a69",
+   "ac:61-65k:a70"
+  ],
+  "confidence": "high",
+  "sections": [
+   "61.56"
+  ],
+  "why": "61.56 is the flight review and its logbook endorsement. A.69 is the flight review endorsement under 61.56(a) and (c), which is what this element names; A.70 is the WINGS phase that substitutes for one"
+ },
+ "AI.II.K.K6": {
+  "anchors": [
+   "aviation-instructor:ch08"
+  ],
+  "confidence": "high",
+  "sections": [
+   "61.189"
+  ],
+  "why": "61.189 is the flight instructor records rule; recordkeeping as a professional responsibility is AIH ch8"
+ },
+ "AI.II.K.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [
+   "61.197",
+   "61.199"
+  ],
+  "why": "61.197 is renewal of a flight instructor certificate and 61.199 is reinstatement"
+ },
+ "AI.II.K.R1": {
+  "anchors": [],
+  "confidence": "low",
+  "sections": [
+   "61.87",
+   "61.93"
+  ],
+  "why": "The 90 day solo endorsement in 61.87 and the limitations required by 61.93 are where missing limits or dates bite"
+ },
+ "AI.II.K.S1": {
+  "anchors": [
+   "ac:61-65k:a3",
+   "ac:61-65k:a1",
+   "ac:61-65k:a69"
+  ],
+  "confidence": "low",
+  "sections": [
+   "61.51",
+   "61.87",
+   "61.56"
+  ],
+  "why": "The commonly chosen events are instruction given under 61.51, solo endorsement under 61.87, and flight review under 61.56; AC 61-65K paragraph 8 is the AC's training and testing entry point. the element asks for two of the events in K1 to K5, so the pre-solo, practical test recommendation and flight"
+ },
+ "AI.II.L.K1": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Surveying the water surface before landing is the reconnaissance section of the seaplane handbook"
+ },
+ "AI.II.L.K1a": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance",
+   "seaplane:confined-area-landing"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Size and location of the landing area are assessed in reconnaissance and constrain confined area operations"
+ },
+ "AI.II.L.K1b": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Protected and unprotected water is a reconnaissance judgment"
+ },
+ "AI.II.L.K1c": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Reading surface wind off the water is part of reconnaissance"
+ },
+ "AI.II.L.K1d": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Current direction and strength are assessed during reconnaissance"
+ },
+ "AI.II.L.K1e": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Debris is one of the hazards looked for during reconnaissance"
+ },
+ "AI.II.L.K1f": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Sandbars, islands, and shoals are reconnaissance hazards"
+ },
+ "AI.II.L.K1g": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Vessel traffic and wakes are seen on reconnaissance and dealt with while taxiing and sailing"
+ },
+ "AI.II.L.K1h": {
+  "anchors": [
+   "seaplane:rough-water-landing",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Wave direction and height drive the rough water technique and are judged on reconnaissance"
+ },
+ "AI.II.L.K1i": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Other local characteristics are covered by the reconnaissance procedure"
+ },
+ "AI.II.L.K2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No listed seaplane anchor covers float and hull construction; the anchors are maneuver sections"
+ },
+ "AI.II.L.K3": {
+  "anchors": [
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Porpoising and skipping each have their own section with causes and corrective action"
+ },
+ "AI.II.L.K4": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Seaplane bases appear on the charts and in the publications described in AIM 9-1"
+ },
+ "AI.II.L.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No listed anchor covers base-by-base operating restrictions"
+ },
+ "AI.II.L.K6": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing",
+   "seaplane:sailing"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Right-of-way, steering, and sailing rules are covered where the handbook treats taxiing and sailing"
+ },
+ "AI.II.L.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Marine navigation aids have no listed anchor; the seaplane inventory is maneuver based"
+ },
+ "AI.II.L.K8": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Naval vessel protection zones have no listed anchor"
+ },
+ "AI.II.L.K9": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "No wake obligations apply while taxiing and sailing on the surface"
+ },
+ "AI.II.L.R1": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Local conditions are what reconnaissance is for"
+ },
+ "AI.II.L.R2": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Marine traffic is managed while taxiing and sailing"
+ },
+ "AI.II.L.R3": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing",
+   "seaplane:sailing"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Right-of-way and sailing rules are treated in the taxiing and sailing sections"
+ },
+ "AI.II.L.R4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Limited services at seaplane bases have no listed anchor"
+ },
+ "AI.II.L.S1": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Same gap as K2: no anchor covers float and hull construction"
+ },
+ "AI.II.L.S2": {
+  "anchors": [
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Corrective action for each is in its own section"
+ },
+ "AI.II.L.S3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No listed anchor covers marine navigation aids"
+ },
+ "AI.II.L.S4": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing",
+   "seaplane:sailing"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Steering and sailing operations are the taxiing and sailing sections"
+ },
+ "AI.II.L.S5": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Assessing the water surface is the reconnaissance procedure"
+ },
+ "AI.II.L.S6": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Local base restrictions have no listed anchor"
+ },
+ "AI.II.M.K1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01",
+   "afh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Night vision physiology is PHAK ch17 and AIM 8-1; its flight application is AFH ch11 night operations"
+ },
+ "AI.II.M.K2": {
+  "anchors": [
+   "aim:ch02-s01",
+   "aim:ch02-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Airport lighting aids are AIM 2-1, obstruction lighting AIM 2-2, and PHAK ch14 covers pilot controlled lighting"
+ },
+ "AI.II.M.K3": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Equipment and lighting for night flight are listed in AFH ch11; Task M lists no CFR part so 91.205 is out of scope"
+ },
+ "AI.II.M.K4": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Personal equipment for night flight is in AFH ch11"
+ },
+ "AI.II.M.K5": {
+  "anchors": [
+   "afh:ch11",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Night orientation and chart reading are AFH ch11; preserving dark adaptation is PHAK ch17"
+ },
+ "AI.II.M.K6": {
+  "anchors": [
+   "afh:ch11",
+   "phak:ch08"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Cross-checking attitude on instruments at night is AFH ch11; the instruments are PHAK ch8"
+ },
+ "AI.II.M.K7": {
+  "anchors": [
+   "phak:ch17",
+   "afh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Night visual illusions are in PHAK ch17 and repeated for the approach in AFH ch11"
+ },
+ "AI.II.M.K8": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Night taxi procedure is in AFH ch11"
+ },
+ "AI.II.M.K9": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Interpreting position lights to judge traffic direction is in AFH ch11"
+ },
+ "AI.II.M.R1": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Inoperative lighting or equipment at night is addressed in AFH ch11"
+ },
+ "AI.II.M.R2": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Night weather considerations are in AFH ch11"
+ },
+ "AI.II.M.R3": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Collision hazards at night are in AFH ch11"
+ },
+ "AI.II.M.R4": {
+  "anchors": [
+   "aviation-instructor:ch10",
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Distraction and task prioritization while instructing are AIH ch10; error management is RMH ch6"
+ },
+ "AI.II.M.R5": {
+  "anchors": [
+   "phak:ch17",
+   "afh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Illusions and dark adaptation across all phases of night flight are PHAK ch17 and AFH ch11"
+ },
+ "AI.II.M.R6": {
+  "anchors": [
+   "aim:ch04-s03",
+   "afh:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Runway incursion is AIM 4-3; the night surface movement case is AFH ch11"
+ },
+ "AI.II.M.R7": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch11 distinguishes night currency from night proficiency; Task M lists no CFR part so 61.57 is out of scope"
+ },
+ "AI.II.M.S1": {
+  "anchors": [
+   "afh:ch11",
+   "aviation-instructor:ch09"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Subject matter is AFH ch11; the instructional technique is AIH ch9"
+ },
+ "AI.II.N.K2": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The physiology of altitude is PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.N.K2a": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Impairment with altitude is in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.N.K2b": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Hypoxia symptoms are in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.N.K2c": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Time of useful consciousness is tabulated in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.N.K3": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.211"
+  ],
+  "why": "91.211 is the supplemental oxygen rule; oxygen system types are PHAK ch7"
+ },
+ "AI.II.N.K3a": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Continuous flow, demand, and pressure demand systems are described in PHAK ch7"
+ },
+ "AI.II.N.K3b": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Aviator's breathing oxygen is distinguished in PHAK ch7"
+ },
+ "AI.II.N.K3c": {
+  "anchors": [
+   "phak:ch07",
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Precautions with oxygen equipment are in PHAK ch7 and AIM 8-1"
+ },
+ "AI.II.N.R1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.211"
+  ],
+  "why": "91.211 bounds high altitude operation without oxygen; the physiological risk is PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.N.R2": {
+  "anchors": [
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.211"
+  ],
+  "why": "91.211 sets when oxygen must be used; PHAK ch17 covers its physiological effect"
+ },
+ "AI.II.N.R3": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Handling of compressed gas containers is covered with oxygen systems in PHAK ch7"
+ },
+ "AI.II.N.R4": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Fire risk in an oxygen-rich environment is noted with oxygen systems in PHAK ch7"
+ },
+ "AI.II.N.S1": {
+  "anchors": [
+   "phak:ch07",
+   "aviation-instructor:ch09"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Equipment content is PHAK ch7; briefing technique is AIH ch9"
+ },
+ "AI.II.N.S2": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Operating installed or portable oxygen equipment is described in PHAK ch7"
+ },
+ "AI.II.N.S3": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.211"
+  ],
+  "why": "The required duration follows from the 91.211 altitude and time thresholds; system capacity is PHAK ch7"
+ },
+ "AI.II.O.K1": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Pressurization system operation and failure modes are in PHAK ch7; Task O lists no CFR part"
+ },
+ "AI.II.O.K2": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Altitude physiology is PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.O.K2a": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Impairment with altitude is in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.O.K2b": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Hypoxia symptoms are in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.O.K2c": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Time of useful consciousness is in PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.O.K2d": {
+  "anchors": [
+   "phak:ch07",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Rapid decompression is described with pressurization in PHAK ch7 and its physiological effect in ch17"
+ },
+ "AI.II.O.R1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The high altitude physiological risk is PHAK ch17 and AIM 8-1"
+ },
+ "AI.II.O.R2": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Pressurization malfunction is covered with the system in PHAK ch7"
+ },
+ "AI.II.O.S1": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Operating the pressurization system is PHAK ch7"
+ },
+ "AI.II.O.S2": {
+  "anchors": [
+   "phak:ch07",
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The malfunction is PHAK ch7; the emergency response pattern is AFH ch18"
+ },
+ "AI.II.P.K1": {
+  "anchors": [
+   "phak:ch11",
+   "afh:ch13"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Performance charts are PHAK ch11; multiengine specific charts are AFH ch13 transition to multiengine airplanes"
+ },
+ "AI.II.P.K2": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Effects of exceeding published limitations are in PHAK ch11"
+ },
+ "AI.II.P.K3": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Density altitude and atmospheric effects on performance are PHAK ch11"
+ },
+ "AI.II.P.K4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Single engine versus multiengine capability is AFH ch13"
+ },
+ "AI.II.P.K5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "One engine inoperative aerodynamics are AFH ch13"
+ },
+ "AI.II.P.K5a": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The critical engine concept is AFH ch13"
+ },
+ "AI.II.P.K5b": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Bank angle effect on VMC is AFH ch13"
+ },
+ "AI.II.P.K5c": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Zero sideslip is AFH ch13"
+ },
+ "AI.II.P.K5d": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Causes of loss of directional control with an engine out are AFH ch13"
+ },
+ "AI.II.P.K6": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The VMC and stall speed relationship with density altitude is AFH ch13"
+ },
+ "AI.II.P.K7": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The engine failure decision in a twin is AFH ch13; general emergency procedure discipline is AFH ch18"
+ },
+ "AI.II.P.R1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Exceeding critical angle of attack during a VMC demonstration is AFH ch13; stall and upset recovery is AFH ch5"
+ },
+ "AI.II.P.R2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Loss of directional control below VMC is AFH ch13"
+ },
+ "AI.II.P.R3": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Single engine service ceiling versus terrain is AFH ch13, using the performance data of PHAK ch11"
+ },
+ "AI.II.P.R4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Fuel and crossfeed management with an engine out is AFH ch13"
+ },
+ "AI.II.P.S1": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Single engine climb computation is AFH ch13 using the chart method of PHAK ch11"
+ }
 }

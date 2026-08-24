@@ -97,6 +97,582 @@
       "page": 5,
       "strategy": "outline"
     },
+    "ac:61-65k:a1": {
+      "doc": "ac-61-65k",
+      "evidence": "A.1 Prerequisites for practical test: 14 CFR § 61.39(a)(6)(i) and (ii).",
+      "page": 40,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a10": {
+      "doc": "ac-61-65k",
+      "evidence": "A.10 Solo cross-country flight: 14 CFR § 61.93(c)(3).",
+      "page": 41,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a11": {
+      "doc": "ac-61-65k",
+      "evidence": "A.11 Repeated solo cross-country flights not more than 50 NM from the point of departure: 14 CFR § 61.93(b)(2).",
+      "page": 42,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a12": {
+      "doc": "ac-61-65k",
+      "evidence": "A.12 Solo flight in Class B airspace: 14 CFR § 61.95(a).",
+      "page": 42,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a13": {
+      "doc": "ac-61-65k",
+      "evidence": "A.13 Solo flight to, from, or at an airport located in Class B airspace: 14 CFR §§ 61.95(b) and 91.131(b)(1).",
+      "page": 42,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a14": {
+      "doc": "ac-61-65k",
+      "evidence": "A.14 Endorsement of U.S. citizenship recommended by the Transportation Security Administration (TSA): Title 49 of the Co",
+      "page": 42,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a15": {
+      "doc": "ac-61-65k",
+      "evidence": "A.15 Solo flight in Class B, C, and D airspace: 14 CFR § 61.94(a).",
+      "page": 42,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a16": {
+      "doc": "ac-61-65k",
+      "evidence": "A.16 Solo flight to, from, or at an airport located in Class B, C, or D airspace or at an airport having an operational ",
+      "page": 43,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a17": {
+      "doc": "ac-61-65k",
+      "evidence": "A.17 Aeronautical knowledge test: 14 CFR §§ 61.35(a)(1) and 61.309.",
+      "page": 43,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a18": {
+      "doc": "ac-61-65k",
+      "evidence": "A.18 Taking flight proficiency check for different category or class of aircraft: 14 CFR §§ 61.309 and 61.311.",
+      "page": 43,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a19": {
+      "doc": "ac-61-65k",
+      "evidence": "A.19 Passing flight proficiency check for different category or class of aircraft: 14 CFR §§ 61.309 and 61.311.",
+      "page": 43,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a2": {
+      "doc": "ac-61-65k",
+      "evidence": "A.2 Review of deficiencies identified on airman knowledge test: 14 CFR § 61.39(a)(6)(iii), as required.",
+      "page": 40,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a20": {
+      "doc": "ac-61-65k",
+      "evidence": "A.20 Taking sport pilot practical test: 14 CFR §§ 61.309, 61.311, and 61.313.",
+      "page": 43,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a21": {
+      "doc": "ac-61-65k",
+      "evidence": "A.21 Passing a sport pilot practical test: 14 CFR §§ 61.309, 61.311, and 61.313. This endorsement is required by 14 CFR ",
+      "page": 44,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a22": {
+      "doc": "ac-61-65k",
+      "evidence": "A.22 Passing a sport pilot practical test with a simplified flight controls limitation: 14 CFR § 61.45(g)(4)(ii). This e",
+      "page": 44,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a23": {
+      "doc": "ac-61-65k",
+      "evidence": "A.23 Class B, C, or D airspace; at an airport located in Class B, C, or D airspace; or to, from, through, or at an airpo",
+      "page": 44,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a24": {
+      "doc": "ac-61-65k",
+      "evidence": "A.24 Aircraft that has a maximum speed in level flight with maximum continuous power (VH) less than or equal to 87 Knots",
+      "page": 44,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a25": {
+      "doc": "ac-61-65k",
+      "evidence": "A.25 Aircraft that has a VH greater than 87 KCAS: 14 CFR § 61.327.",
+      "page": 44,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a26": {
+      "doc": "ac-61-65k",
+      "evidence": "A.26 Flight training at night: 14 CFR § 61.329.",
+      "page": 45,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a27": {
+      "doc": "ac-61-65k",
+      "evidence": "A.27 To act as pilot in command (PIC) in an aircraft with retractable landing gear: 14 CFR § 61.331(a).",
+      "page": 45,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a28": {
+      "doc": "ac-61-65k",
+      "evidence": "A.28 To act as PIC in an airplane with a manual controllable pitch propeller: 14 CFR § 61.331(b).",
+      "page": 45,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a29": {
+      "doc": "ac-61-65k",
+      "evidence": "A.29 Aeronautical knowledge test: 14 CFR §§ 61.35(a)(1), 61.96(b)(3), and 61.97(b).",
+      "page": 45,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a3": {
+      "doc": "ac-61-65k",
+      "evidence": "A.3 Pre-solo aeronautical knowledge: 14 CFR § 61.87(b).",
+      "page": 40,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a30": {
+      "doc": "ac-61-65k",
+      "evidence": "A.30 Flight proficiency/practical test: 14 CFR §§ 61.96(b)(5), 61.98(a) and (b), and 61.99. The endorsement for a practi",
+      "page": 45,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a31": {
+      "doc": "ac-61-65k",
+      "evidence": "A.31 Recreational pilot to operate within 50 NM of the airport where training was received: 14 CFR § 61.101(b).",
+      "page": 45,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a32": {
+      "doc": "ac-61-65k",
+      "evidence": "A.32 Recreational pilot to act as PIC on a flight that exceeds 50 NM of the departure airport: 14 CFR § 61.101(c).",
+      "page": 46,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a33": {
+      "doc": "ac-61-65k",
+      "evidence": "A.33 Recreational pilot with less than 400 flight hours and no logged PIC time within the preceding 180 calendar days: 1",
+      "page": 46,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a34": {
+      "doc": "ac-61-65k",
+      "evidence": "A.34 Recreational pilot to conduct solo flights for the purpose of obtaining an additional certificate or rating while u",
+      "page": 46,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a35": {
+      "doc": "ac-61-65k",
+      "evidence": "A.35 Class B, C, or D airspace; at an airport located in Class B, C, or D airspace; or to, from, through, or at an airpo",
+      "page": 46,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a36": {
+      "doc": "ac-61-65k",
+      "evidence": "A.36 Aeronautical knowledge test: 14 CFR §§ 61.35(a)(1), 61.103(d), and 61.105.",
+      "page": 46,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a37": {
+      "doc": "ac-61-65k",
+      "evidence": "A.37 Flight proficiency/practical test: 14 CFR §§ 61.103(f), 61.107(b), and 61.109. The endorsement for a practical test",
+      "page": 47,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a38": {
+      "doc": "ac-61-65k",
+      "evidence": "A.38 Aeronautical knowledge test: 14 CFR §§ 61.35(a)(1), 61.123(c), and 61.125.",
+      "page": 47,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a39": {
+      "doc": "ac-61-65k",
+      "evidence": "A.39 Flight proficiency/practical test: 14 CFR §§ 61.123(e), 61.127, and 61.129. The endorsement for a practical test is",
+      "page": 47,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a4": {
+      "doc": "ac-61-65k",
+      "evidence": "A.4 Pre-solo flight training: 14 CFR § 61.87(c)(1) and (2).",
+      "page": 41,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a40": {
+      "doc": "ac-61-65k",
+      "evidence": "A.40 Restricted privileges ATP Certificate, Airplane Multiengine Land (AMEL) rating: 14 CFR § 61.160. This certifying st",
+      "page": 47,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a41": {
+      "doc": "ac-61-65k",
+      "evidence": "A.41 ATP Certification Training Program (CTP): 14 CFR § 61.153(e). This endorsement is only provided by an approved trai",
+      "page": 47,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a42": {
+      "doc": "ac-61-65k",
+      "evidence": "A.42 Aeronautical knowledge test: 14 CFR §§ 61.35(a)(1) and 61.65(a) and (b).",
+      "page": 48,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a43": {
+      "doc": "ac-61-65k",
+      "evidence": "A.43 Flight proficiency/practical test: 14 CFR § 61.65(a)(6).",
+      "page": 48,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a44": {
+      "doc": "ac-61-65k",
+      "evidence": "A.44 Prerequisites for instrument practical tests: 14 CFR § 61.39(a).",
+      "page": 48,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a45": {
+      "doc": "ac-61-65k",
+      "evidence": "A.45 Fundamentals of instructing knowledge test: 14 CFR § 61.183(d).",
+      "page": 48,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a46": {
+      "doc": "ac-61-65k",
+      "evidence": "A.46 Flight instructor aeronautical knowledge test: 14 CFR § 61.183(f).",
+      "page": 48,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a47": {
+      "doc": "ac-61-65k",
+      "evidence": "A.47 Flight instructor ground and flight proficiency/practical test: 14 CFR § 61.183(g).",
+      "page": 48,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a48": {
+      "doc": "ac-61-65k",
+      "evidence": "A.48 Flight instructor certificate with instrument–(category/class) rating/practical test: 14 CFR §§ 61.183(g) and 61.18",
+      "page": 49,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a49": {
+      "doc": "ac-61-65k",
+      "evidence": "A.49 Spin training: 14 CFR § 61.183(i)(1). The spin training endorsement is only required of flight instructor airplane ",
+      "page": 49,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a5": {
+      "doc": "ac-61-65k",
+      "evidence": "A.5 Pre-solo flight training at night: 14 CFR § 61.87(o). Flight training must be received within the 90-calendar-day pe",
+      "page": 41,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a50": {
+      "doc": "ac-61-65k",
+      "evidence": "A.50 Helicopter Touchdown Autorotation: FAA-S-8081-7, Flight Instructor Practical Test Standards for Rotorcraft Category",
+      "page": 49,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a51": {
+      "doc": "ac-61-65k",
+      "evidence": "A.51 Fundamentals of instructing knowledge test: 14 CFR § 61.405(a)(1).",
+      "page": 49,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a52": {
+      "doc": "ac-61-65k",
+      "evidence": "A.52 Sport pilot flight instructor aeronautical knowledge test: 14 CFR §§ 61.35(a)(1) and 61.405(a).",
+      "page": 49,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a53": {
+      "doc": "ac-61-65k",
+      "evidence": "A.53 Flight instructor with a sport pilot rating flight proficiency check for additional category/class: 14 CFR §§ 61.40",
+      "page": 50,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a54": {
+      "doc": "ac-61-65k",
+      "evidence": "A.54 Flight instructor with a sport pilot rating proficiency check completion endorsement for additional category or cla",
+      "page": 50,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a55": {
+      "doc": "ac-61-65k",
+      "evidence": "A.55 Flight instructor with a sport pilot rating practical test endorsement: 14 CFR §§ 61.409 and 61.411. An endorsement",
+      "page": 50,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a56": {
+      "doc": "ac-61-65k",
+      "evidence": "A.56 Flight instructor with a sport pilot rating practical test completion endorsement: 14 CFR §§ 61.409 and 61.411. Thi",
+      "page": 50,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a57": {
+      "doc": "ac-61-65k",
+      "evidence": "A.57 Flight instructor with a sport pilot rating to train sport pilots on flight by reference to instruments: 14 CFR § 6",
+      "page": 50,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a58": {
+      "doc": "ac-61-65k",
+      "evidence": "A.58 Spin training: 14 CFR § 61.405(b)(1)(ii). This spin training endorsement is only required for flight instructor air",
+      "page": 51,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a59": {
+      "doc": "ac-61-65k",
+      "evidence": "A.59 Ground instructor who does not meet the recent experience requirements: 14 CFR § 61.217(d). This endorsement is iss",
+      "page": 51,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a6": {
+      "doc": "ac-61-65k",
+      "evidence": "A.6 Solo flight (first 90-calendar-day period): 14 CFR § 61.87(n).",
+      "page": 41,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a60": {
+      "doc": "ac-61-65k",
+      "evidence": "A.60 R-22/R-44 ground training: SFAR 73, section 2(a)(1) or (2).",
+      "page": 51,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a61": {
+      "doc": "ac-61-65k",
+      "evidence": "A.61 R-22 solo endorsement: SFAR 73, section 2(b)(3).",
+      "page": 51,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a62": {
+      "doc": "ac-61-65k",
+      "evidence": "A.62 R-22 PIC endorsement: SFAR 73, section 2(b)(1)(ii).",
+      "page": 52,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a63": {
+      "doc": "ac-61-65k",
+      "evidence": "A.63 R-22 flight instructor endorsement: SFAR 73, section 2(b)(5)(iv). This endorsement may only be issued by an FAA avi",
+      "page": 52,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a64": {
+      "doc": "ac-61-65k",
+      "evidence": "A.64 Flight review in an R-22 helicopter: SFAR 73, section 2(c)(1) and (3).",
+      "page": 52,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a65": {
+      "doc": "ac-61-65k",
+      "evidence": "A.65 R-44 solo endorsement: SFAR 73, section 2(b)(4).",
+      "page": 52,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a66": {
+      "doc": "ac-61-65k",
+      "evidence": "A.66 R-44 PIC endorsement: SFAR 73, section 2(b)(2)(ii).",
+      "page": 52,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a67": {
+      "doc": "ac-61-65k",
+      "evidence": "A.67 R-44 flight instructor endorsement: SFAR 73, section 2(b)(5)(iv). This endorsement may only be issued by an FAA ASI",
+      "page": 52,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a68": {
+      "doc": "ac-61-65k",
+      "evidence": "A.68 Flight review in an R-44 helicopter: SFAR 73, section 2(c)(2) and (3).",
+      "page": 53,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a69": {
+      "doc": "ac-61-65k",
+      "evidence": "A.69 Completion of a flight review: 14 CFR § 61.56(a) and (c). No logbook entry reflecting unsatisfactory performance on",
+      "page": 53,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a7": {
+      "doc": "ac-61-65k",
+      "evidence": "A.7 Solo flight (each additional 90-calendar-day period): 14 CFR § 61.87(p).",
+      "page": 41,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a70": {
+      "doc": "ac-61-65k",
+      "evidence": "A.70 Completion of any phase of an FAA-sponsored Pilot Proficiency Program (WINGS): 14 CFR § 61.56(e).",
+      "page": 53,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a71": {
+      "doc": "ac-61-65k",
+      "evidence": "A.71 Completion of an instrument proficiency check (IPC): 14 CFR § 61.57(d). No logbook entry reflecting unsatisfactory ",
+      "page": 53,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a72": {
+      "doc": "ac-61-65k",
+      "evidence": "A.72 To act as PIC in a complex airplane: 14 CFR § 61.31(e).",
+      "page": 53,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a73": {
+      "doc": "ac-61-65k",
+      "evidence": "A.73 To act as PIC in a high-performance airplane: 14 CFR § 61.31(f).",
+      "page": 54,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a74": {
+      "doc": "ac-61-65k",
+      "evidence": "A.74 To act as PIC in a pressurized aircraft capable of high-altitude operations: 14 CFR § 61.31(g).",
+      "page": 54,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a75": {
+      "doc": "ac-61-65k",
+      "evidence": "A.75 To act as PIC in a tailwheel airplane: 14 CFR § 61.31(i). This endorsement may be given in a sport pilot aircraft b",
+      "page": 54,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a76": {
+      "doc": "ac-61-65k",
+      "evidence": "A.76 To act as PIC of an aircraft in solo operations when the pilot does not hold an appropriate category/class rating: ",
+      "page": 54,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a77": {
+      "doc": "ac-61-65k",
+      "evidence": "A.77 Retesting after failure of a knowledge or practical test: 14 CFR § 61.49. In the case of a failed knowledge test, t",
+      "page": 54,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a78": {
+      "doc": "ac-61-65k",
+      "evidence": "A.78 Additional aircraft category or class rating (other than ATP): 14 CFR § 61.63(b) or (c).",
+      "page": 54,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a79": {
+      "doc": "ac-61-65k",
+      "evidence": "A.79 Type rating only, already holds the appropriate category or class rating (other than ATP): 14 CFR § 61.63(d)(2).",
+      "page": 55,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a8": {
+      "doc": "ac-61-65k",
+      "evidence": "A.8 Solo takeoffs and landings at another airport within 25 nautical miles (NM): 14 CFR § 61.93(b)(1).",
+      "page": 41,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a80": {
+      "doc": "ac-61-65k",
+      "evidence": "A.80 Type rating concurrently with an additional category or class rating (other than ATP): 14 CFR § 61.63(d)(2).",
+      "page": 55,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a81": {
+      "doc": "ac-61-65k",
+      "evidence": "A.81 Type rating only, already holds the appropriate category or class rating (at the ATP level): 14 CFR § 61.157(b)(2).",
+      "page": 55,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a82": {
+      "doc": "ac-61-65k",
+      "evidence": "A.82 Type rating concurrently with an additional category or class rating (at the ATP level): 14 CFR § 61.157(b)(2).",
+      "page": 55,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a83": {
+      "doc": "ac-61-65k",
+      "evidence": "A.83 Launch procedures for operating a glider: 14 CFR § 61.31(j).",
+      "page": 55,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a84": {
+      "doc": "ac-61-65k",
+      "evidence": "A.84 Glider and unpowered ultralight vehicle towing experience: 14 CFR § 61.69(a)(5). This endorsement is made by the pi",
+      "page": 55,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a85": {
+      "doc": "ac-61-65k",
+      "evidence": "A.85 Glider and unpowered ultralight vehicle towing ground and flight: 14 CFR § 61.69(a)(3).",
+      "page": 56,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a86": {
+      "doc": "ac-61-65k",
+      "evidence": "A.86 Review of a home-study curriculum: 14 CFR § 61.35(a)(1).",
+      "page": 56,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a87": {
+      "doc": "ac-61-65k",
+      "evidence": "A.87 Aeronautical experience credit—ultralight vehicles: 14 CFR § 61.52.",
+      "page": 56,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a88": {
+      "doc": "ac-61-65k",
+      "evidence": "A.88 Endorsement required for ground training to act as PIC of an aircraft using night vision goggles (NVG): 14 CFR § 61",
+      "page": 56,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a89": {
+      "doc": "ac-61-65k",
+      "evidence": "A.89 Endorsement required for flight training and statement of proficiency to act as PIC of an aircraft using NVG: 14 CF",
+      "page": 56,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a9": {
+      "doc": "ac-61-65k",
+      "evidence": "A.9 Solo cross-country flight: 14 CFR § 61.93(c)(1) and (2).",
+      "page": 41,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a90": {
+      "doc": "ac-61-65k",
+      "evidence": "A.90 Endorsement required to provide training for NVGOs: 14 CFR § 61.195(k)(7). “Position,” as mentioned in the signatur",
+      "page": 57,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a91": {
+      "doc": "ac-61-65k",
+      "evidence": "A.91 Endorsement for EFVS ground training: 14 CFR § 61.66(a).",
+      "page": 57,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a92": {
+      "doc": "ac-61-65k",
+      "evidence": "A.92 Endorsement for EFVS flight training: 14 CFR § 61.66(b).",
+      "page": 57,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a93": {
+      "doc": "ac-61-65k",
+      "evidence": "A.93 Endorsement for EFVS ground and flight training: 14 CFR § 61.66(a) and (b).",
+      "page": 57,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a94": {
+      "doc": "ac-61-65k",
+      "evidence": "A.94 Endorsement for EFVS supplementary training: 14 CFR § 61.66(c).",
+      "page": 57,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a95": {
+      "doc": "ac-61-65k",
+      "evidence": "A.95 To act as PIC in an aircraft with a simplified flight controls designation: 14 CFR §§ 61.31(l) and 61.45(h)(1).",
+      "page": 58,
+      "strategy": "outline"
+    },
+    "ac:61-65k:a96": {
+      "doc": "ac-61-65k",
+      "evidence": "A.96 Initial cadre training in an aircraft with simplified flight controls: 14 CFR § 61.195(n).",
+      "page": 58,
+      "strategy": "outline"
+    },
     "acs:IR:area-i": {
       "doc": "acs-instrument-airplane",
       "evidence": "Area of Operation I.",
