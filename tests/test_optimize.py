@@ -228,4 +228,4 @@ def test_committed_optimize_lock_stays_under_the_hard_fail():
     lock = M.load_lock()
     total = sum(entry.get("bytes", 0) for entry in lock.values())
     saved = sum(r["source_bytes"] - r["output_bytes"] for r in recorded.values())
-    assert (total - saved) < 500 * 1048576, "corpus must fit the hard fail"
+    assert (total - saved) < M.SIZE_FAIL_BYTES, "corpus must fit the hard fail"

@@ -268,7 +268,8 @@ def run(argv, sources_path=M.SOURCES, lock_path=M.LOCK, menus_pdf=MENUS_PDF,
     out.write("\n%s: %d pages, %.1f MB\n"
               % (output.name, cursor, size / 1048576))
     out.write("size budget: %s\n" % (
-        "PASS" if size < 500 * 1048576 else "OVER THE 500 MB HARD FAIL"))
+        "PASS" if size < M.SIZE_FAIL_BYTES else "OVER THE %d MB HARD FAIL"
+        % (M.SIZE_FAIL_BYTES // 1048576)))
     return EXIT_OK
 
 

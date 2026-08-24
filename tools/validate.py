@@ -36,8 +36,8 @@ OFFSETS = BUILD / "offsets.json"
 ABSOLUTE = BUILD / "anchors-absolute.json"
 PATTERNS = M.ROOT / "anchors" / "patterns.yaml"
 
-WARN_BYTES = 350 * 1048576
-FAIL_BYTES = 500 * 1048576
+WARN_BYTES = M.SIZE_WARN_BYTES
+FAIL_BYTES = M.SIZE_FAIL_BYTES
 
 # Nav pages are exempt from the stamp by design; see tools/link.py.
 NAV_KINDS = ("cover", "menu", "docmenu", "colophon")

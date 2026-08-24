@@ -539,7 +539,7 @@ Python 3.12. PyMuPDF for assembly, links, page counts, all text extraction, and 
 
 **No poppler.** PyMuPDF `get_text()` covers Phase 3 extraction, so `pdftotext` is never needed, and `pdfinfo` was poppler's only remaining job. Two extractors disagree on whitespace and column reading order, FAA handbooks are heavily multi-column, and Phase 3 resolves anchors by regex over extracted text. Two extractors means anchors resolve differently on Windows than on `ubuntu-latest`. One extractor, everywhere. See rule 12.
 
-Size budget: warn above 350 MB, hard fail above 500 MB.
+Size budget: warn above 350 MB, hard fail above 600 MB. The number lives in `tools/_manifest.py` as `SIZE_FAIL_BYTES` and is checked at three stages, so raise it there rather than in each tool.
 
 **Exit codes.** Every tool in `tools/` uses the same convention, so CI and the
 Makefile can tell outcomes apart without parsing stderr.

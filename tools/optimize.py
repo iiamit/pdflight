@@ -283,10 +283,12 @@ def run(argv, lock_path=M.LOCK, cache_root=M.CACHE, out_root=OPTIMIZED,
     after = total_before - saved
     out.write("\ncorpus %.1f MB -> %.1f MB, saved %.1f MB\n"
               % (total_before / 1048576, after / 1048576, saved / 1048576))
-    out.write("hard fail 500 MB: %s\n"
-              % ("PASS" if after < 500 * 1048576 else "STILL OVER"))
-    out.write("warn 350 MB: %s\n"
-              % ("pass" if after < 350 * 1048576 else "over"))
+    out.write("hard fail %d MB: %s\n"
+              % (M.SIZE_FAIL_BYTES // 1048576,
+                 "PASS" if after < M.SIZE_FAIL_BYTES else "STILL OVER"))
+    out.write("warn %d MB: %s\n"
+              % (M.SIZE_WARN_BYTES // 1048576,
+                 "pass" if after < M.SIZE_WARN_BYTES else "over"))
     return EXIT_OK
 
 

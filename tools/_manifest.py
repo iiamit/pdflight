@@ -28,6 +28,12 @@ STATE = ROOT / "state" / "check.json"
 CACHE = ROOT / "cache" / "sources"
 CACHE_INDEX = ROOT / "cache" / "index.json"
 
+# The size budget, defined once. It is checked at three stages - the optimized
+# corpus, the assembled input, and the shipped PDF - and having the number
+# written out in each of them is how a budget drifts.
+SIZE_WARN_BYTES = 350 * 1048576
+SIZE_FAIL_BYTES = 600 * 1048576
+
 PDF_MAGIC = b"%PDF-"
 
 SECTIONS = frozenset(

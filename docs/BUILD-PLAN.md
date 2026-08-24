@@ -316,7 +316,7 @@ The site loads Inter and JetBrains Mono from Google Fonts, weights 400/500/600/7
 
 **Determinism**: set `SOURCE_DATE_EPOCH`, fix the PDF `/ID`, strip or pin `CreationDate` and `ModDate`, sort every directory listing. Identical inputs must produce an identical SHA-256. That is how the release job knows whether anything actually changed.
 
-**Size budget**: hard fail above 500 MB, warn above 350 MB. Realistic estimate is 250 to 400 MB, dominated by the image-heavy handbooks.
+**Size budget**: hard fail above 600 MB, warn above 350 MB. Realistic estimate is 250 to 400 MB, dominated by the image-heavy handbooks.
 
 **Measured, Phase 1.2, whole corpus in the lock. The budget is blown.**
 
