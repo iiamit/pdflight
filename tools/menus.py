@@ -186,6 +186,15 @@ def render(entries, lock, cfr_lock, cfr_pages):
             rows.append(("sha256", digest[:32]))
         out.append(ident_block(rows))
         out.append("#v(18pt)")
+        # Forward as well as back. Tested on iPadOS Preview and Garmin Pilot,
+        # neither of which offers a back control, so a reader who arrives here
+        # cannot reverse out and needs somewhere to go. Without this the
+        # document menu had exactly one link, to the main menu, and the
+        # crosswalk two pages later was reachable only by scrolling.
+        if crosswalk_rows(entry["id"]):
+            out.append('#align(left)[#primary-button(<%s>, "Open the '
+                       'regulation crosswalk")]' % crosswalk_label(entry["id"]))
+            out.append("#v(8pt)")
         out.append('#align(left)[#primary-button(<menu-main>, "Return to the '
                    'main menu")]')
         out.append("#v(1fr)")
@@ -276,6 +285,11 @@ ACS_PREFIX = {"acs-private-airplane": "PA",
               "acs-cfi-airplane": "AI"}
 
 AREA_HEADING = re.compile(r"(?m)^\s*Area of Operation\s+([IVX]+)\.?\s*(.*)$")
+
+
+def crosswalk_label(document_id):
+    """The Typst label on an ACS's area index page."""
+    return "xwalk-%s" % document_id
 
 
 def area_label(prefix, area):
@@ -401,6 +415,7 @@ def crosswalk_pages(entry):
     # first element is not navigable. This is the missing level: pick an area,
     # then go to it in the ACS or to its block of the crosswalk.
     out = ["#pagebreak()",
+           "#target[]<%s>" % crosswalk_label(entry["id"]),
            '#section-label("%s", "Crosswalk")' % number,
            '#page-title[Areas of Operation]',
            '#text(font: sans, size: 9.5pt, fill: ink-2)[The %d areas this ACS '

@@ -171,10 +171,20 @@ def test_a_page_beyond_the_document_is_reported():
 # ---------------------------------------------------------------------------
 
 FINAL = ROOT / "build" / "pdflight-outlined.pdf"
+
+
+def built(path):
+    """A build artefact that exists and is not mid-write.
+
+    `is_file()` alone is not enough: the outline stage truncates the output
+    before rewriting it, so a test run during a build sees a zero byte file
+    and reports a failure that has nothing to do with the code.
+    """
+    return path.is_file() and path.stat().st_size > 1024
 OFFSETS_FILE = ROOT / "build" / "offsets.json"
 
 
-@pytest.mark.skipif(not OFFSETS_FILE.is_file(), reason="run make assemble")
+@pytest.mark.skipif(not built(OFFSETS_FILE), reason="run make assemble")
 def test_committed_offsets_are_contiguous():
     with io.open(OFFSETS_FILE, encoding="utf-8") as handle:
         data = json.load(handle)
@@ -186,7 +196,7 @@ def test_committed_offsets_are_contiguous():
     assert cursor - 1 == data["total_pages"]
 
 
-@pytest.mark.skipif(not OFFSETS_FILE.is_file(), reason="run make assemble")
+@pytest.mark.skipif(not built(OFFSETS_FILE), reason="run make assemble")
 def test_every_manifest_document_has_a_menu_offset():
     import _manifest as M
 
@@ -201,7 +211,7 @@ def test_every_manifest_document_has_a_menu_offset():
 # the validator must measure the thing it claims to measure
 # ---------------------------------------------------------------------------
 
-@pytest.mark.skipif(not FINAL.is_file(), reason="run make build")
+@pytest.mark.skipif(not built(FINAL), reason="run make build")
 def test_size_gate_measures_the_pdf_not_a_csv():
     """Gate 8 once reported 1.1 MB for a 475 MB file.
 
@@ -387,7 +397,7 @@ def test_a_number_that_is_not_a_target_never_becomes_a_link():
     assert page.links[0]["page"] == 499
 
 
-@pytest.mark.skipif(not OFFSETS_FILE.is_file(), reason="run make assemble")
+@pytest.mark.skipif(not built(OFFSETS_FILE), reason="run make assemble")
 def test_each_acs_carries_its_crosswalk_pages():
     import _manifest as M
 
@@ -657,7 +667,7 @@ def test_relinking_is_skipped_when_menus_pdf_is_absent():
                               FakePyMuPDF()) == 0
 
 
-@pytest.mark.skipif(not OFFSETS_FILE.is_file(), reason="run make assemble")
+@pytest.mark.skipif(not built(OFFSETS_FILE), reason="run make assemble")
 def test_assembly_records_where_each_generated_run_came_from():
     """Without source_start the linker cannot find the links to redraw."""
     with io.open(OFFSETS_FILE, encoding="utf-8") as handle:
@@ -669,7 +679,7 @@ def test_assembly_records_where_each_generated_run_came_from():
             "%s has no source_start" % key)
 
 
-@pytest.mark.skipif(not FINAL.is_file(), reason="run make build")
+@pytest.mark.skipif(not built(FINAL), reason="run make build")
 def test_the_built_menu_pages_actually_carry_links():
     """The defect this whole section exists for, checked on the real file."""
     import pymupdf
@@ -705,7 +715,7 @@ def test_the_seed_is_content_derived_not_build_derived():
     assert first == second and len(first) == 64
 
 
-@pytest.mark.skipif(not FINAL.is_file(), reason="run make build")
+@pytest.mark.skipif(not built(FINAL), reason="run make build")
 def test_the_shipped_file_has_a_pinned_trailer_id():
     """The first Linux build differed from the Windows one by four bytes.
 
@@ -728,7 +738,7 @@ def test_the_shipped_file_has_a_pinned_trailer_id():
         % match.group(0)[:80])
 
 
-@pytest.mark.skipif(not FINAL.is_file(), reason="run make build")
+@pytest.mark.skipif(not built(FINAL), reason="run make build")
 def test_the_shipped_file_carries_no_build_timestamp():
     """A creation date makes every rebuild differ for no content reason."""
     import pymupdf
@@ -740,3 +750,39 @@ def test_the_shipped_file_carries_no_build_timestamp():
         document.close()
     assert not (meta.get("creationDate") or "").strip(), meta.get("creationDate")
     assert not (meta.get("modDate") or "").strip(), meta.get("modDate")
+
+
+# ---------------------------------------------------------------------------
+# the area index must reach the ACS, not just the crosswalk
+# ---------------------------------------------------------------------------
+
+def test_every_acs_with_a_crosswalk_has_area_anchors():
+    """Reported from an iPad: on the CFI index the Crosswalk chips worked and
+    the ACS chips did nothing.
+
+    The area anchors were generated when only Private and Instrument had
+    crosswalks, so the Commercial, ATP and CFI index pages drew an `ACS <n>`
+    chip that resolved to nothing. Nothing failed, because a chip with no
+    link is just text, and gate 2 only sees links that exist.
+    """
+    import json
+
+    import menus as MN
+
+    with io.open(ROOT / "anchors" / "anchors.lock.json",
+                 encoding="utf-8") as handle:
+        anchors = set(json.load(handle)["anchors"])
+
+    missing = []
+    for ident, prefix in sorted(MN.ACS_PREFIX.items()):
+        rows = MN.crosswalk_rows(ident)
+        if not rows:
+            continue
+        areas = {code.split(".")[1] for code, _text, _refs in rows}
+        for area in sorted(areas):
+            ref = "acs:%s:area-%s" % (prefix, area.lower())
+            if ref not in anchors:
+                missing.append(ref)
+
+    assert not missing, (
+        "area index chips would render without a link: %s" % missing[:8])

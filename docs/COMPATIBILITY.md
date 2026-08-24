@@ -9,18 +9,19 @@ support traffic.
 
 ## Test matrix
 
-No release has been cut yet, so no results exist.
+Tested against v2026.08.3 on 2026-08-24.
 
 | Reader | Links | Outline | Back | Load time | Notes |
 |---|---|---|---|---|---|
-| Apple Books (iPadOS) | | | | | reference platform |
-| Files / Quick Look | | | | |  |
-| ForeFlight Documents | | | | |  |
-| Garmin Pilot | | | | |  |
-| GoodNotes | | | | | known to break links |
-| Notability | | | | | known to break links |
-| Adobe Acrobat iOS | | | | | known poor performance |
-| Acrobat / Preview desktop | | | | |  |
+| Apple Books (iPadOS) | yes |  | **no** |  | tested: links work, no back control |
+| Preview (iPadOS) | yes |  | **no** |  | tested: links work, no back control |
+| ForeFlight Documents | yes |  | yes |  | tested: links and back both work |
+| Garmin Pilot (iOS) | **none** |  | **no** |  | tested: strips every link, internal and external |
+| Files / Quick Look |  |  |  |  |  |
+| GoodNotes |  |  |  |  | known to break links |
+| Notability |  |  |  |  | known to break links |
+| Adobe Acrobat iOS |  |  |  |  | known poor performance |
+| Acrobat / Preview desktop |  |  |  |  |  |
 
 ## Design constraints that maximize survival
 
@@ -29,6 +30,30 @@ No release has been cut yet, so no results exist.
   actions beyond `NextPage` and `PrevPage`.
 - No optional content groups and no transparency groups on generated pages.
 - PDF 1.7, not 2.0. Mobile reader support for 2.0 is inconsistent.
+
+## Read it in Preview, Apple Books, or ForeFlight
+
+**Garmin Pilot strips every link**, internal and external, so the crosswalk,
+the menus and the nav stamps all do nothing there. The outline still works and
+the text is intact, but the link layer that this project exists to add is
+absent. If you want the crosswalk, save the file locally and open it in
+Preview, Apple Books, or ForeFlight Documents.
+
+**ForeFlight Documents keeps the links and has a back control**, which is the
+full experience: element, crosswalk row, source, back, next source.
+
+**Preview and Apple Books keep the links but have no back control.** Neither
+does Garmin Pilot. On iPadOS there is no back control at all, so the crosswalk
+round trip cannot rely on one and the forward path has to be complete on its
+own.
+
+That is what the nav stamp is for. Every content page carries two returns,
+`[menu]` to the contents and `[doc]` to the front of the document being read,
+so no jump is a dead end even with no back control. The first round of testing
+found the forward path broken one step earlier: an ACS document menu had a
+single link, back to the contents, and the crosswalk two pages later was
+reachable only by scrolling. Every document menu now offers its crosswalk
+explicitly.
 
 ## The back control is load bearing
 

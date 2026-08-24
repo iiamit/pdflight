@@ -673,6 +673,204 @@
       "page": 58,
       "strategy": "outline"
     },
+    "acs:AA:area-i": {
+      "doc": "acs-atp-airplane",
+      "evidence": "Area of Operation I.",
+      "page": 9,
+      "strategy": "regex"
+    },
+    "acs:AA:area-ii": {
+      "doc": "acs-atp-airplane",
+      "evidence": "Area of Operation II.",
+      "page": 19,
+      "strategy": "regex"
+    },
+    "acs:AA:area-iii": {
+      "doc": "acs-atp-airplane",
+      "evidence": "Area of Operation III.",
+      "page": 25,
+      "strategy": "regex"
+    },
+    "acs:AA:area-iv": {
+      "doc": "acs-atp-airplane",
+      "evidence": "Area of Operation IV.",
+      "page": 37,
+      "strategy": "regex"
+    },
+    "acs:AA:area-v": {
+      "doc": "acs-atp-airplane",
+      "evidence": "Area of Operation V.",
+      "page": 40,
+      "strategy": "regex"
+    },
+    "acs:AA:area-vi": {
+      "doc": "acs-atp-airplane",
+      "evidence": "Area of Operation VI.",
+      "page": 44,
+      "strategy": "regex"
+    },
+    "acs:AA:area-vii": {
+      "doc": "acs-atp-airplane",
+      "evidence": "Area of Operation VII.",
+      "page": 56,
+      "strategy": "regex"
+    },
+    "acs:AA:area-viii": {
+      "doc": "acs-atp-airplane",
+      "evidence": "Area of Operation VIII.",
+      "page": 64,
+      "strategy": "regex"
+    },
+    "acs:AI:area-i": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation I.",
+      "page": 9,
+      "strategy": "regex"
+    },
+    "acs:AI:area-ii": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation II.",
+      "page": 16,
+      "strategy": "regex"
+    },
+    "acs:AI:area-iii": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation III.",
+      "page": 30,
+      "strategy": "regex"
+    },
+    "acs:AI:area-iv": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation IV.",
+      "page": 33,
+      "strategy": "regex"
+    },
+    "acs:AI:area-ix": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation IX.",
+      "page": 65,
+      "strategy": "regex"
+    },
+    "acs:AI:area-v": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation V.",
+      "page": 34,
+      "strategy": "regex"
+    },
+    "acs:AI:area-vi": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation VI.",
+      "page": 39,
+      "strategy": "regex"
+    },
+    "acs:AI:area-vii": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation VII.",
+      "page": 41,
+      "strategy": "regex"
+    },
+    "acs:AI:area-viii": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation VIII.",
+      "page": 62,
+      "strategy": "regex"
+    },
+    "acs:AI:area-x": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation X.",
+      "page": 71,
+      "strategy": "regex"
+    },
+    "acs:AI:area-xi": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation XI.",
+      "page": 82,
+      "strategy": "regex"
+    },
+    "acs:AI:area-xii": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation XII.",
+      "page": 87,
+      "strategy": "regex"
+    },
+    "acs:AI:area-xiii": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation XIII.",
+      "page": 94,
+      "strategy": "regex"
+    },
+    "acs:AI:area-xiv": {
+      "doc": "acs-cfi-airplane",
+      "evidence": "Area of Operation XIV.",
+      "page": 98,
+      "strategy": "regex"
+    },
+    "acs:CA:area-i": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation I.",
+      "page": 9,
+      "strategy": "regex"
+    },
+    "acs:CA:area-ii": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation II.",
+      "page": 18,
+      "strategy": "regex"
+    },
+    "acs:CA:area-iii": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation III.",
+      "page": 23,
+      "strategy": "regex"
+    },
+    "acs:CA:area-iv": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation IV.",
+      "page": 25,
+      "strategy": "regex"
+    },
+    "acs:CA:area-ix": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation IX.",
+      "page": 59,
+      "strategy": "regex"
+    },
+    "acs:CA:area-v": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation V.",
+      "page": 43,
+      "strategy": "regex"
+    },
+    "acs:CA:area-vi": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation VI.",
+      "page": 48,
+      "strategy": "regex"
+    },
+    "acs:CA:area-vii": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation VII.",
+      "page": 52,
+      "strategy": "regex"
+    },
+    "acs:CA:area-viii": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation VIII.",
+      "page": 57,
+      "strategy": "regex"
+    },
+    "acs:CA:area-x": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation X.",
+      "page": 66,
+      "strategy": "regex"
+    },
+    "acs:CA:area-xi": {
+      "doc": "acs-commercial-airplane",
+      "evidence": "Area of Operation XI.",
+      "page": 71,
+      "strategy": "regex"
+    },
     "acs:IR:area-i": {
       "doc": "acs-instrument-airplane",
       "evidence": "Area of Operation I.",

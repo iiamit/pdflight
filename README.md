@@ -60,6 +60,25 @@ See NOTICE for the full disclaimer.
 
 Private, Instrument, Commercial, ATP, CFI, CFII.
 
+## Which reader to use
+
+Tested on iPadOS against the current release:
+
+| Reader | Links | Back |
+|---|---|---|
+| ForeFlight Documents | yes | yes |
+| Apple Books | yes | no |
+| Preview | yes | no |
+| Garmin Pilot | **no** | no |
+
+**Garmin Pilot strips every link**, so the crosswalk does nothing there. Save
+the file locally and open it in ForeFlight, Apple Books, or Preview instead.
+
+ForeFlight is the fullest experience because it has a back control, which is
+what makes working through several regulations for one ACS element quick. The
+others work too: every page carries `[menu]` and `[doc]` returns, so no jump
+is a dead end.
+
 ## Reader compatibility
 
 Some annotation apps re-render PDFs on import and strip link annotations. That
