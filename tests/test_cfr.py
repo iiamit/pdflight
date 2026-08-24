@@ -209,3 +209,49 @@ def test_committed_cfr_lock_covers_every_manifest_part():
         key = "title-%s-part-%s" % (title, number)
         assert key in lock, "%s missing from cfr.lock.yaml" % key
         assert lock[key]["sections"] > 0
+
+
+# ---------------------------------------------------------------------------
+# eCFR is flakier than faa.gov, and a whole build rides on it
+# ---------------------------------------------------------------------------
+
+def test_the_ecfr_retry_budget_outlasts_a_slow_part():
+    """A CI build died on one 503 for Part 71 after fetching the whole corpus.
+
+    eCFR generates a part's XML on demand and answers 503 when that times out
+    server side. The default five attempts at a 1 second base is about 31
+    seconds of patience, which is not enough for the large parts.
+    """
+    import cfr_build as C
+
+    delays = [min(C.CFR_BASE_DELAY * (2 ** i), 60.0)
+              for i in range(C.CFR_ATTEMPTS - 1)]
+    assert sum(delays) >= 180.0, (
+        "only %.0fs of retry, too short for eCFR" % sum(delays))
+
+
+def test_a_part_that_stays_down_still_fails_the_build():
+    """Shipping 14 CFR with a part quietly missing is worse than failing.
+
+    The retry budget must not turn into a skip.
+    """
+    import cfr_build as C
+
+    source = (ROOT / "tools" / "cfr_build.py").read_text(encoding="utf-8")
+    assert "raise FetchError(" in source
+    assert "CFR_ATTEMPTS" in source
+    # the message has to say what to do about it
+    assert "re-running" in source
+
+
+def test_an_injected_client_is_used_unchanged():
+    """The retry budget is applied to the real client only.
+
+    Passing the tuning to a factory would break every fake in this file.
+    """
+    import inspect
+
+    import cfr_build as C
+
+    source = inspect.getsource(C.run)
+    assert "client_factory() if client_factory else Client(" in source

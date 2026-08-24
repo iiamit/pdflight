@@ -30,6 +30,10 @@ import _cfr
 import _manifest as M
 from _http import Client, FetchError
 
+# Retry budget for eCFR, which is flakier than faa.gov on large parts.
+CFR_ATTEMPTS = 8
+CFR_BASE_DELAY = 4.0
+
 EXIT_OK = 0
 EXIT_DRIFT = 1
 
@@ -81,7 +85,11 @@ def part_xml(client, title, part, date, cache_root=CACHE):
     url = "%s/full/%s/title-%s.xml?part=%s" % (API, date, title, part)
     reply = client.get(url)
     if not reply.ok:
-        raise FetchError("title %s part %s returned %d" % (title, part, reply.status))
+        raise FetchError(
+            "title %s part %s returned %d after %d attempts. A 503 here is "
+            "usually eCFR timing out while generating the part; re-running "
+            "the build normally clears it."
+            % (title, part, reply.status, CFR_ATTEMPTS))
     cached.write_bytes(reply.body)
     return reply.body, False
 
@@ -164,7 +172,14 @@ def run(argv, client_factory=None, manifest_path=CFR_MANIFEST,
         out.write("manifest/cfr.yaml selects no parts.\n")
         return EXIT_OK
 
-    client = (client_factory or Client)()
+    # eCFR generates a part's XML on demand and answers 503 when that times
+    # out server side, which happens on the large parts. The default budget of
+    # five attempts at a 1 second base is about 31 seconds, and a CI build died
+    # on a single 503 for Part 71 after fetching the whole corpus. This waits
+    # roughly four minutes instead. A part that stays down is still fatal:
+    # shipping 14 CFR with a part quietly missing would be worse than failing.
+    client = client_factory() if client_factory else Client(
+        attempts=CFR_ATTEMPTS, base_delay=CFR_BASE_DELAY)
     lock = load_lock(lock_path)
     dates = latest_amended(client)
 
