@@ -1,0 +1,1121 @@
+{
+  "AI.IX.A.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Steep turns are a performance maneuver in AFH ch10; this Task lists no CFR part",
+    "confidence": "high"
+  },
+  "AI.IX.A.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Control forces and the sensations of a 50 degree bank are described with the maneuver in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.A.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "AFH ch10 gives the maneuver aerodynamics and PHAK ch5 the underlying turn theory",
+    "confidence": "high"
+  },
+  "AI.IX.A.K3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "Coordination in a steep turn is AFH ch10, with adverse yaw and slip and skid theory in PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.A.K3b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "Overbanking tendency is explained in AFH ch10 and PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.A.K3c": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch10"
+    ],
+    "why": "Maneuvering speed and its variation with weight are PHAK ch5; its use as the steep turn limit is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.A.K3d": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "Load factor in a turn is PHAK ch5; accelerated stalls are AFH ch5 maintaining aircraft control",
+    "confidence": "high"
+  },
+  "AI.IX.A.K3e": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch10"
+    ],
+    "why": "Rate and radius of turn are derived in PHAK ch5 and applied in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.A.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "AFH ch10 lists the common errors for steep turns; correcting a learner's errors is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.A.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "Dividing attention during the maneuver is AFH ch10; teaching it while monitoring the learner is AIH ch9",
+    "confidence": "low"
+  },
+  "AI.IX.A.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Clearing turns and scanning before and during the maneuver are AFH ch10",
+    "confidence": "low"
+  },
+  "AI.IX.A.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch10"
+    ],
+    "why": "Stall, spin, and upset avoidance are AFH ch5; the altitude discipline for the maneuver is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.A.R4": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Distraction while instructing is AIH ch10; task prioritization is RMH ch6",
+    "confidence": "low"
+  },
+  "AI.IX.A.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "Slipping and skidding in the turn are AFH ch10, with the aerodynamics in PHAK ch5",
+    "confidence": "low"
+  },
+  "AI.IX.A.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch03"
+    ],
+    "why": "Clearing is required before the AFH ch10 maneuver and clearing turns are taught in AFH ch3",
+    "confidence": "high"
+  },
+  "AI.IX.A.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "The entry airspeed limit is stated in AFH ch10; maneuvering speed is defined in PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.A.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 360 degree steep turn entry and bank are specified in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.A.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Reversing the turn is part of the AFH ch10 maneuver description",
+    "confidence": "high"
+  },
+  "AI.IX.A.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Altitude, airspeed, bank, and rollout heading control are AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.A.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The error list is AFH ch10; the correction technique is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.B.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The steep spiral is a performance maneuver in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.B.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch10"
+    ],
+    "why": "AFH ch18 covers the emergency descent and forced landing the spiral supports; the maneuver itself is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.B.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch07"
+    ],
+    "why": "Holding a constant radius is specified in AFH ch10 and rests on the ground reference technique of AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.B.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch10"
+    ],
+    "why": "Wind effect on ground track is AFH ch7; its application in the spiral is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.B.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "AFH ch10 lists the common errors; correcting them is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.B.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "Dividing attention between control and the ground reference is AFH ch10; teaching it is AIH ch9",
+    "confidence": "low"
+  },
+  "AI.IX.B.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Clearing during a descending spiral is part of AFH ch10 procedure",
+    "confidence": "low"
+  },
+  "AI.IX.B.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch10"
+    ],
+    "why": "Stall and spin avoidance are AFH ch5; the 1,500 foot floor is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.B.R4": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Distraction while instructing is AIH ch10; task prioritization is RMH ch6",
+    "confidence": "low"
+  },
+  "AI.IX.B.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "Slips and skids in the spiral are AFH ch10, with the aerodynamics in PHAK ch5",
+    "confidence": "low"
+  },
+  "AI.IX.B.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Wind drift and its correction are the subject of AFH ch7 ground reference maneuvers",
+    "confidence": "high"
+  },
+  "AI.IX.B.R7": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "afh:ch10"
+    ],
+    "why": "Airspeed and airframe limits come from the manuals covered in PHAK ch9; the maneuver constraint is stated in AFH ch10",
+    "confidence": "low"
+  },
+  "AI.IX.B.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch03"
+    ],
+    "why": "Clearing is required before the AFH ch10 maneuver and clearing turns are taught in AFH ch3",
+    "confidence": "high"
+  },
+  "AI.IX.B.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The entry altitude allowing three turns is specified in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.B.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 60 degree bank limit and constant radius requirement are AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.B.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch07"
+    ],
+    "why": "Wind drift correction to hold the circle is AFH ch10, using the AFH ch7 technique",
+    "confidence": "high"
+  },
+  "AI.IX.B.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Dividing attention between control, traffic, and ground track is AFH ch10",
+    "confidence": "low"
+  },
+  "AI.IX.B.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Airspeed control, rollout, and the 1,500 foot AGL floor are AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.B.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The error list is AFH ch10; the correction technique is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.C.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The chandelle is a performance maneuver in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.C.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "AFH ch10 gives the chandelle aerodynamics and PHAK ch5 the underlying theory",
+    "confidence": "high"
+  },
+  "AI.IX.C.K2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "Coordination through the climbing turn is AFH ch10, with the aerodynamics in PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.C.K2b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "Overbanking tendency is explained in AFH ch10 and PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.C.K2c": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch10"
+    ],
+    "why": "Maneuvering speed and its variation with weight are PHAK ch5; the entry speed limit is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.C.K2d": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Accelerated stalls are AFH ch5; the load factor behind them is PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.C.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch11"
+    ],
+    "why": "The entry configuration is specified in AFH ch10; maximum performance climb data are PHAK ch11",
+    "confidence": "low"
+  },
+  "AI.IX.C.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch04"
+    ],
+    "why": "Constant pitch with decaying airspeed is AFH ch10, and the trade of speed for altitude is AFH ch4 energy management",
+    "confidence": "high"
+  },
+  "AI.IX.C.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "AFH ch10 lists the common errors; correcting them is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.C.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "Dividing attention during the maneuver is AFH ch10; teaching it is AIH ch9",
+    "confidence": "low"
+  },
+  "AI.IX.C.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Clearing before and during the climbing turn is AFH ch10",
+    "confidence": "low"
+  },
+  "AI.IX.C.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch10"
+    ],
+    "why": "Stall and spin avoidance are AFH ch5; the 1,500 foot floor is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.C.R4": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Distraction while instructing is AIH ch10; task prioritization is RMH ch6",
+    "confidence": "low"
+  },
+  "AI.IX.C.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "Slips and skids at low airspeed are AFH ch10, with the aerodynamics in PHAK ch5",
+    "confidence": "low"
+  },
+  "AI.IX.C.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04"
+    ],
+    "why": "AFH ch4 is energy management, which is what the chandelle trades",
+    "confidence": "high"
+  },
+  "AI.IX.C.R7": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch10"
+    ],
+    "why": "Rate and radius of turn are PHAK ch5; the confined area application is discussed with the maneuver in AFH ch10",
+    "confidence": "low"
+  },
+  "AI.IX.C.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch03"
+    ],
+    "why": "Clearing is required before the AFH ch10 maneuver and clearing turns are taught in AFH ch3",
+    "confidence": "high"
+  },
+  "AI.IX.C.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 1,500 foot AGL entry floor is specified in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.C.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Entry configuration, power, and airspeed are AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.C.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The approximate 30 degree entry bank is specified in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.C.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The constant bank climbing turn to the 90 degree point is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.C.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The constant rate rollout from 90 to 180 degrees is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.C.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch05"
+    ],
+    "why": "Completing the rollout just above stall speed is AFH ch10; recognizing the impending stall is AFH ch5",
+    "confidence": "high"
+  },
+  "AI.IX.C.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch04"
+    ],
+    "why": "The recovery to level flight with minimum altitude loss is AFH ch10, an energy management problem covered in AFH ch4",
+    "confidence": "high"
+  },
+  "AI.IX.C.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The error list is AFH ch10; the correction technique is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.D.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The lazy eight is a performance maneuver in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.D.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "The changing bank, pitch, and airspeed aerodynamics are AFH ch10, with the theory in PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.D.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "afh:ch10"
+    ],
+    "why": "Airspeed and performance limits come from the manuals of PHAK ch9; the maneuver limits are stated in AFH ch10",
+    "confidence": "low"
+  },
+  "AI.IX.D.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The reference points and phases of the lazy eight are AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.D.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "AFH ch10 lists the common errors; correcting them is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.D.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "Dividing attention during the maneuver is AFH ch10; teaching it is AIH ch9",
+    "confidence": "low"
+  },
+  "AI.IX.D.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Clearing before and during the maneuver is AFH ch10",
+    "confidence": "low"
+  },
+  "AI.IX.D.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch10"
+    ],
+    "why": "Stall and spin avoidance are AFH ch5; the 1,500 foot floor is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.D.R4": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Distraction while instructing is AIH ch10; task prioritization is RMH ch6",
+    "confidence": "low"
+  },
+  "AI.IX.D.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "phak:ch05"
+    ],
+    "why": "Coordination faults through the changing bank are AFH ch10, with the aerodynamics in PHAK ch5",
+    "confidence": "low"
+  },
+  "AI.IX.D.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04"
+    ],
+    "why": "AFH ch4 energy management is what the lazy eight exercises",
+    "confidence": "high"
+  },
+  "AI.IX.D.R7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Accelerated stalls are AFH ch5; the load factor behind them is PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.D.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "afh:ch03"
+    ],
+    "why": "Clearing is required before the AFH ch10 maneuver and clearing turns are taught in AFH ch3",
+    "confidence": "high"
+  },
+  "AI.IX.D.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The 1,500 foot AGL floor is specified in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.D.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Entry configuration, power, and airspeed are AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.D.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Coordination throughout the maneuver is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.D.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The completion standards below are drawn from the AFH ch10 maneuver description",
+    "confidence": "high"
+  },
+  "AI.IX.D.S5a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The approximate 30 degree bank at the steepest point is AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.D.S5b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "The constantly changing pitch, roll rate, and airspeed are the defining feature in AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.D.S5c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Altitude at the 180 degree point is an AFH ch10 reference",
+    "confidence": "high"
+  },
+  "AI.IX.D.S5d": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Airspeed at the 180 degree point is an AFH ch10 reference",
+    "confidence": "high"
+  },
+  "AI.IX.D.S5e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Heading at the 180 degree point is an AFH ch10 reference",
+    "confidence": "high"
+  },
+  "AI.IX.D.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10"
+    ],
+    "why": "Symmetrical repetition and the return to level flight are AFH ch10",
+    "confidence": "high"
+  },
+  "AI.IX.D.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch10",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The error list is AFH ch10; the correction technique is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.E.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "AFH ch7 is the ground reference maneuvers chapter",
+    "confidence": "high"
+  },
+  "AI.IX.E.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Wind effect on ground track is the core of AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.E.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "phak:ch05"
+    ],
+    "why": "Bank angle and groundspeed against rate and radius are worked in AFH ch7, with the turn theory in PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.E.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch08"
+    ],
+    "why": "AFH ch7 presents the rectangular course as a pattern analogue; the traffic pattern itself is AFH ch8",
+    "confidence": "high"
+  },
+  "AI.IX.E.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "aviation-instructor:ch09"
+    ],
+    "why": "AFH ch7 lists the common errors; correcting them is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.E.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "aviation-instructor:ch09"
+    ],
+    "why": "Dividing attention between control and the ground reference is AFH ch7; teaching it is AIH ch9",
+    "confidence": "low"
+  },
+  "AI.IX.E.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Traffic scanning at low altitude over a reference is AFH ch7",
+    "confidence": "low"
+  },
+  "AI.IX.E.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch05"
+    ],
+    "why": "Low altitude maneuvering discipline is AFH ch7; stall and spin avoidance is AFH ch5",
+    "confidence": "high"
+  },
+  "AI.IX.E.R4": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Distraction while instructing is AIH ch10; task prioritization is RMH ch6",
+    "confidence": "low"
+  },
+  "AI.IX.E.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "phak:ch05"
+    ],
+    "why": "The skidding turn from downwind to base is AFH ch7, with the aerodynamics in PHAK ch5",
+    "confidence": "low"
+  },
+  "AI.IX.E.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch03"
+    ],
+    "why": "Clearing is required before the AFH ch7 maneuver and clearing turns are taught in AFH ch3",
+    "confidence": "high"
+  },
+  "AI.IX.E.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Selecting a suitable reference area, line, or point is AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.E.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Planning the entry for each ground reference maneuver is AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.E.S3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch08"
+    ],
+    "why": "The rectangular course entry is AFH ch7 and mirrors the AFH ch8 pattern entry",
+    "confidence": "high"
+  },
+  "AI.IX.E.S3b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "The S-turn entry perpendicular to the reference line is AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.E.S3c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "The turns around a point entry is AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.E.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Wind drift correction to hold ground track or radius is AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.E.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Reversing over the reference line and turn direction are AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.E.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Dividing attention between control, traffic, and ground track is AFH ch7",
+    "confidence": "low"
+  },
+  "AI.IX.E.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Altitude and airspeed tolerances for the maneuvers are AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.E.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The error list is AFH ch7; the correction technique is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.F.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Eights on pylons is treated in AFH ch7 ground reference maneuvers, verified against the cached handbook",
+    "confidence": "high"
+  },
+  "AI.IX.F.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "phak:ch05"
+    ],
+    "why": "The line of sight aerodynamics and coordination are AFH ch7, with slip and skid theory in PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.F.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Pivotal altitude and its dependence on groundspeed are derived in AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.F.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Wind effect on the ground track and on pivotal altitude is AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.F.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "The phases from entry to recovery are AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.F.K6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "aviation-instructor:ch09"
+    ],
+    "why": "AFH ch7 lists the common errors; correcting them is AIH ch9",
+    "confidence": "high"
+  },
+  "AI.IX.F.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "aviation-instructor:ch09"
+    ],
+    "why": "Dividing attention between control and the pylon is AFH ch7; teaching it is AIH ch9",
+    "confidence": "low"
+  },
+  "AI.IX.F.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Traffic scanning while fixated on a pylon is addressed in AFH ch7",
+    "confidence": "low"
+  },
+  "AI.IX.F.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch05"
+    ],
+    "why": "Low altitude maneuvering discipline is AFH ch7; stall and spin avoidance is AFH ch5",
+    "confidence": "high"
+  },
+  "AI.IX.F.R4": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch10",
+      "risk-management:ch06"
+    ],
+    "why": "Distraction while instructing is AIH ch10; task prioritization is RMH ch6",
+    "confidence": "low"
+  },
+  "AI.IX.F.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "phak:ch05"
+    ],
+    "why": "Slipping and skidding to hold the pylon is the classic fault in AFH ch7, with the aerodynamics in PHAK ch5",
+    "confidence": "high"
+  },
+  "AI.IX.F.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04"
+    ],
+    "why": "Trading altitude and airspeed to hold pivotal altitude is AFH ch4 energy management",
+    "confidence": "low"
+  },
+  "AI.IX.F.R7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "The maneuver is flown low enough that the emergency landing considerations of AFH ch18 apply",
+    "confidence": "high"
+  },
+  "AI.IX.F.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "afh:ch03"
+    ],
+    "why": "Clearing is required before the AFH ch7 maneuver and clearing turns are taught in AFH ch3",
+    "confidence": "high"
+  },
+  "AI.IX.F.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Computing approximate pivotal altitude is AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.F.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Pylon selection and spacing are AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.F.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Entry direction, position, altitude, and airspeed are AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.F.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "The bank angle for conditions and its limit are AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.F.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Correcting with climbs and descents to hold the line of sight on the pylon is AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.F.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Dividing attention between control and outside references is AFH ch7",
+    "confidence": "low"
+  },
+  "AI.IX.F.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07"
+    ],
+    "why": "Holding the pylon at pivotal altitude without slipping or skidding is AFH ch7",
+    "confidence": "high"
+  },
+  "AI.IX.F.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch07",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The error list is AFH ch7; the correction technique is AIH ch9",
+    "confidence": "high"
+  }
+}

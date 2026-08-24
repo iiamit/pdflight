@@ -1,0 +1,1817 @@
+{
+  "AI.X.A.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Slow flight and its purpose are in AFH ch5 Upset Prevention and Recovery.",
+    "confidence": "high"
+  },
+  "AI.X.A.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
+    "confidence": "high"
+  },
+  "AI.X.A.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.X.A.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Inadvertent slow flight and flight into the stall warning is the loss of control case in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.A.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.A.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "phak:ch05"
+    ],
+    "why": "Coordinated flight is taught in AFH ch3; the yaw and adverse aerodynamics are PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.A.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch12",
+      "phak:ch11"
+    ],
+    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.A.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.A.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.X.A.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "AI.X.A.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The AGL floor for stall and slow flight work is set in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.A.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Flying just above the stall warning threshold is the AFH ch5 slow flight standard.",
+    "confidence": "high"
+  },
+  "AI.X.A.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch03"
+    ],
+    "why": "Straight and level, turns, climbs, and descents at slow flight are AFH ch5, on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.A.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The altitude, heading, airspeed, and bank tolerances are the AFH ch5 slow flight standard.",
+    "confidence": "high"
+  },
+  "AI.X.A.S6": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch05"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.X.B.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "phak:ch05"
+    ],
+    "why": "The demonstration walks the airplane through the power required curve, which is AFH ch4 Energy Management with the aerodynamics in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.B.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "phak:ch05"
+    ],
+    "why": "Power required across the speed range is the AFH ch4 Energy Management curve.",
+    "confidence": "high"
+  },
+  "AI.X.B.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch04"
+    ],
+    "why": "Minimum power required speed divides the region of normal and reversed command, in PHAK ch5 Aerodynamics and AFH ch4 Energy Management.",
+    "confidence": "high"
+  },
+  "AI.X.B.K4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch04"
+    ],
+    "why": "The lift, drag, angle of attack, and power required relationships are PHAK ch5 with the energy framing in AFH ch4.",
+    "confidence": "high"
+  },
+  "AI.X.B.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "afh:ch04"
+    ],
+    "why": "Pitch, power, and trim for level flight, turns, climbs, and descents are AFH ch3, with the pitch and power tradeoff in ch4.",
+    "confidence": "high"
+  },
+  "AI.X.B.K6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch04"
+    ],
+    "why": "Configuration change effects on lift and drag are PHAK ch5, felt as the energy change in ch4.",
+    "confidence": "high"
+  },
+  "AI.X.B.K7": {
+    "sections": [],
+    "anchors": [
+      "phak:ch08",
+      "phak:ch09"
+    ],
+    "why": "Parent heading. Airspeed indicator markings are PHAK ch8 Flight Instruments; the airplane's own numbers come from the flight manual in PHAK ch9.",
+    "confidence": "low"
+  },
+  "AI.X.B.K7a": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "phak:ch09"
+    ],
+    "why": "Maneuvering speed and its variation with weight are PHAK ch5; the airplane's Va is in the flight manual.",
+    "confidence": "high"
+  },
+  "AI.X.B.K7b": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "phak:ch08"
+    ],
+    "why": "Landing gear operating and extended speeds come from the flight manual and appear on the airspeed indicator in PHAK ch8.",
+    "confidence": "high"
+  },
+  "AI.X.B.K7c": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "phak:ch08"
+    ],
+    "why": "Flap operating range comes from the flight manual and is the white arc in PHAK ch8.",
+    "confidence": "high"
+  },
+  "AI.X.B.K7d": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "afh:ch04"
+    ],
+    "why": "Best glide speed comes from the flight manual; it is the minimum drag speed in AFH ch4 Energy Management.",
+    "confidence": "high"
+  },
+  "AI.X.B.K7e": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "afh:ch09"
+    ],
+    "why": "Reference landing speed comes from the flight manual and is flown as the AFH ch9 approach speed.",
+    "confidence": "high"
+  },
+  "AI.X.B.K7f": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "phak:ch08"
+    ],
+    "why": "Stalling speeds are PHAK ch5 Aerodynamics, marked as the arc limits on the PHAK ch8 airspeed indicator.",
+    "confidence": "high"
+  },
+  "AI.X.B.K8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.X.B.R1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "phak:ch08"
+    ],
+    "why": "Airspeed limitations come from the flight manual in PHAK ch9; reading them off the indicator is PHAK ch8.",
+    "confidence": "high"
+  },
+  "AI.X.B.R2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "phak:ch05"
+    ],
+    "why": "The consequence of exceeding a limit speed is the flight manual limit in PHAK ch9 and the structural loading in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.B.R3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch04",
+      "afh:ch05"
+    ],
+    "why": "The region of reversed command is PHAK ch5 and AFH ch4; the loss of control consequence is ch5 UPRT.",
+    "confidence": "high"
+  },
+  "AI.X.B.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Exceeding the critical angle of attack is the AFH ch5 stall, with the aerodynamics in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.B.R5": {
+    "sections": [],
+    "anchors": [
+      "phak:ch08",
+      "afh:ch05"
+    ],
+    "why": "Airspeed indicator behavior is PHAK ch8; stall warning behavior and its limits are AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.B.R6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "An unacknowledged stall warning is the recognition failure AFH ch5 exists to prevent.",
+    "confidence": "high"
+  },
+  "AI.X.B.R7": {
+    "sections": [],
+    "anchors": [
+      "phak:ch12",
+      "phak:ch11"
+    ],
+    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.B.R8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.B.R9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch04"
+    ],
+    "why": "Handling at critically slow airspeeds is AFH ch5, with the energy state in ch4.",
+    "confidence": "high"
+  },
+  "AI.X.B.S1": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "afh:ch04"
+    ],
+    "why": "Conducting and explaining the demonstration at once is AIH ch9 Techniques of Flight Instruction, applied to the AFH ch4 energy material.",
+    "confidence": "high"
+  },
+  "AI.X.B.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The AGL floor for stall and slow flight work is set in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.B.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "AI.X.B.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04"
+    ],
+    "why": "Parent heading. The clean configuration walk down the power required curve is AFH ch4.",
+    "confidence": "low"
+  },
+  "AI.X.B.S4a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch03"
+    ],
+    "why": "Holding Va while narrating pitch, power, and trim is the AFH ch4 energy state on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.B.S4b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04"
+    ],
+    "why": "Slowing to best glide is the minimum drag point on the AFH ch4 power required curve.",
+    "confidence": "high"
+  },
+  "AI.X.B.S4c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch04"
+    ],
+    "why": "Slowing to the stall warning threshold is AFH ch5, reached along the ch4 curve.",
+    "confidence": "high"
+  },
+  "AI.X.B.S4d": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Verbally acknowledging the stall warning is the AFH ch5 recognition standard.",
+    "confidence": "high"
+  },
+  "AI.X.B.S4e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch05"
+    ],
+    "why": "Trading pitch for airspeed without adding power is the AFH ch4 energy exchange out of the ch5 regime.",
+    "confidence": "high"
+  },
+  "AI.X.B.S4f": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "afh:ch04"
+    ],
+    "why": "Returning to cruise at an assigned altitude and heading is AFH ch3 on the ch4 energy picture.",
+    "confidence": "high"
+  },
+  "AI.X.B.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04"
+    ],
+    "why": "Parent heading. The landing configuration walk down the power required curve is AFH ch4.",
+    "confidence": "low"
+  },
+  "AI.X.B.S5a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch03"
+    ],
+    "why": "Holding Va while narrating pitch, power, and trim is the AFH ch4 energy state on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.B.S5b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "phak:ch09"
+    ],
+    "why": "Slowing to the gear and flap limiting speeds before extending them is the ch4 deceleration against the PHAK ch9 flight manual limits.",
+    "confidence": "high"
+  },
+  "AI.X.B.S5c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch09"
+    ],
+    "why": "Holding reference landing speed in the landing configuration is the AFH ch9 approach speed on the ch4 curve.",
+    "confidence": "high"
+  },
+  "AI.X.B.S5d": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch04"
+    ],
+    "why": "Slowing to the stall warning threshold is AFH ch5, reached along the ch4 curve.",
+    "confidence": "high"
+  },
+  "AI.X.B.S5e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Verbally acknowledging the stall warning is the AFH ch5 recognition standard.",
+    "confidence": "high"
+  },
+  "AI.X.B.S5f": {
+    "sections": [],
+    "anchors": [
+      "afh:ch04",
+      "afh:ch05"
+    ],
+    "why": "Trading pitch for airspeed without adding power is the AFH ch4 energy exchange out of the ch5 regime.",
+    "confidence": "high"
+  },
+  "AI.X.B.S5g": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03",
+      "afh:ch04"
+    ],
+    "why": "Returning to cruise at an assigned altitude and heading is AFH ch3 on the ch4 energy picture.",
+    "confidence": "high"
+  },
+  "AI.X.B.S6": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch04"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.X.C.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The power-off stall and its purpose are in AFH ch5 Upset Prevention and Recovery.",
+    "confidence": "high"
+  },
+  "AI.X.C.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
+    "confidence": "high"
+  },
+  "AI.X.C.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "Stall characteristics by design and the sight, sound, and feel cues are PHAK ch5 and AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.C.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Factors leading to a power-off stall and how to prevent it are in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.C.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.C.K6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.X.C.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Inadvertent power-off stall, spin, and loss of control is the subject of AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.C.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.C.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Stall warnings during normal operations are discussed in AFH ch5, but not as a named topic.",
+    "confidence": "low"
+  },
+  "AI.X.C.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.C.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The stall variants named here are all covered in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.C.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch12",
+      "phak:ch11"
+    ],
+    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.C.R7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.C.R8": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.X.C.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "AI.X.C.S10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch03"
+    ],
+    "why": "Returning to the assigned altitude, heading, and airspeed is the ch5 recovery on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.C.S11": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch05"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.X.C.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The AGL floor for stall and slow flight work is set in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.C.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch03"
+    ],
+    "why": "Approach or landing configuration and coordination for the stall entry are AFH ch5, on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.C.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The stabilized descent that sets up the power-off stall is the AFH ch5 entry.",
+    "confidence": "high"
+  },
+  "AI.X.C.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The transition from the landing attitude into the stall is the AFH ch5 power-off stall.",
+    "confidence": "high"
+  },
+  "AI.X.C.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The heading and bank tolerances held to the stall are the AFH ch5 standard.",
+    "confidence": "high"
+  },
+  "AI.X.C.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard.",
+    "confidence": "high"
+  },
+  "AI.X.C.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Recovery at the first indication or after the full stall is AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.C.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch06"
+    ],
+    "why": "Post-recovery configuration and acceleration to Vx or Vy is AFH ch5 into the ch6 climb.",
+    "confidence": "high"
+  },
+  "AI.X.D.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The power-on stall and its purpose are in AFH ch5 Upset Prevention and Recovery.",
+    "confidence": "high"
+  },
+  "AI.X.D.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
+    "confidence": "high"
+  },
+  "AI.X.D.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "Stall characteristics by design and the sight, sound, and feel cues are PHAK ch5 and AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.D.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Factors leading to a power-on stall and how to prevent it are in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.D.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.D.K6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.X.D.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Inadvertent power-on stall, spin, and loss of control is the subject of AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.D.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.D.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Stall warnings during normal operations are discussed in AFH ch5, but not as a named topic.",
+    "confidence": "low"
+  },
+  "AI.X.D.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.D.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The stall variants named here are all covered in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.D.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch12",
+      "phak:ch11"
+    ],
+    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.D.R7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.D.R8": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.X.D.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "AI.X.D.S10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch03"
+    ],
+    "why": "Returning to the assigned altitude, heading, and airspeed is the ch5 recovery on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.D.S11": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch05"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.X.D.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The AGL floor for stall and slow flight work is set in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.D.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch03"
+    ],
+    "why": "Takeoff, departure, or cruise configuration and coordination are AFH ch5, on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.D.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The minimum 65 percent power setting is part of the AFH ch5 power-on stall entry.",
+    "confidence": "high"
+  },
+  "AI.X.D.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The transition from the departure attitude into the stall is the AFH ch5 power-on stall.",
+    "confidence": "high"
+  },
+  "AI.X.D.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The heading and bank tolerances held to the stall are the AFH ch5 standard.",
+    "confidence": "high"
+  },
+  "AI.X.D.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard.",
+    "confidence": "high"
+  },
+  "AI.X.D.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Recovery at the first indication or after the full stall is AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.D.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch06"
+    ],
+    "why": "Post-recovery configuration and acceleration to Vx or Vy is AFH ch5 into the ch6 climb.",
+    "confidence": "high"
+  },
+  "AI.X.E.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The accelerated stall and its purpose are in AFH ch5 Upset Prevention and Recovery.",
+    "confidence": "high"
+  },
+  "AI.X.E.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
+    "confidence": "high"
+  },
+  "AI.X.E.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "Stall characteristics by design and the sight, sound, and feel cues are PHAK ch5 and AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.E.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Factors leading to an accelerated stall are AFH ch5, with the load factor relationship in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.E.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.E.K6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.X.E.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Inadvertent accelerated stall, spin, and loss of control is the subject of AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.E.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.E.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Stall warnings during normal operations are discussed in AFH ch5, but not as a named topic.",
+    "confidence": "low"
+  },
+  "AI.X.E.R4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.E.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The stall variants named here are all covered in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.E.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch12",
+      "phak:ch11"
+    ],
+    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.E.R7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.E.R8": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.X.E.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "AI.X.E.S10": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch05"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.X.E.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The AGL floor for stall and slow flight work is set in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.E.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Entry configuration is part of the AFH ch5 accelerated stall setup but is evaluator specified.",
+    "confidence": "low"
+  },
+  "AI.X.E.S4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "phak:ch09"
+    ],
+    "why": "The Va ceiling on entry speed is PHAK ch5 Aerodynamics, read against the flight manual limits in PHAK ch9.",
+    "confidence": "high"
+  },
+  "AI.X.E.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The coordinated 45 degree bank with increasing back pressure to the stall is the AFH ch5 accelerated stall.",
+    "confidence": "high"
+  },
+  "AI.X.E.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard.",
+    "confidence": "high"
+  },
+  "AI.X.E.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch09"
+    ],
+    "why": "Recovery per the manufacturer procedure is AFH ch5 read against the flight manual in PHAK ch9.",
+    "confidence": "high"
+  },
+  "AI.X.E.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch06"
+    ],
+    "why": "Post-recovery configuration and acceleration to Vx or Vy is AFH ch5 into the ch6 climb.",
+    "confidence": "high"
+  },
+  "AI.X.E.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch03"
+    ],
+    "why": "Returning to the assigned altitude, heading, and airspeed is the ch5 recovery on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.F.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "The aerodynamics of a cross-controlled stall are PHAK ch5, demonstrated in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.F.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch09"
+    ],
+    "why": "The overshooting base to final turn is the classic case, so AFH ch5 and the ch9 traffic pattern approach.",
+    "confidence": "high"
+  },
+  "AI.X.F.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Recognizing a cross-controlled stall is AFH ch5 Upset Prevention and Recovery.",
+    "confidence": "high"
+  },
+  "AI.X.F.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Entry procedure and the minimum entry altitude are AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.F.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.F.K6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.X.F.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.F.R2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch12",
+      "phak:ch11"
+    ],
+    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.F.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.F.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "phak:ch05"
+    ],
+    "why": "Airframe and airspeed limits come from the flight manual in PHAK ch9; the load factor behind them is PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.F.R5": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.X.F.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "AI.X.F.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The AGL floor for stall and slow flight work is set in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.F.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Configuring with gear down and closing the throttle is the AFH ch5 cross-controlled entry.",
+    "confidence": "low"
+  },
+  "AI.X.F.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch03"
+    ],
+    "why": "Establishing and trimming a normal glide is the ch5 entry on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.F.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The crossed control input in a medium bank turn is the defining AFH ch5 entry for this stall.",
+    "confidence": "high"
+  },
+  "AI.X.F.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard.",
+    "confidence": "high"
+  },
+  "AI.X.F.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Recovery at the first indication or after the full stall is AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.F.S8": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "afh:ch05"
+    ],
+    "why": "Describing and demonstrating a condition so a student can avoid it later is AIH ch9 Techniques of Flight Instruction, applied to the AFH ch5 stall material.",
+    "confidence": "high"
+  },
+  "AI.X.F.S9": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch05"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.X.G.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "The aerodynamics of a trim stall are PHAK ch5, demonstrated in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.G.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch09"
+    ],
+    "why": "A go-around with trim still set for landing is the classic case, so AFH ch5 and the ch9 go-around.",
+    "confidence": "high"
+  },
+  "AI.X.G.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Recognizing an elevator trim stall is AFH ch5 Upset Prevention and Recovery.",
+    "confidence": "high"
+  },
+  "AI.X.G.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Entry procedure and the minimum entry altitude are AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.G.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.G.K6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.X.G.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.G.R2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch12",
+      "phak:ch11"
+    ],
+    "why": "Turbulence and microbursts are PHAK ch12; high density altitude is PHAK ch11. The element text says 'cross-controlled stalls' but sits in a different Task, which reads as an ACS copy-paste slip; mapped on the environmental content either way.",
+    "confidence": "high"
+  },
+  "AI.X.G.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.G.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "phak:ch05"
+    ],
+    "why": "Airframe and airspeed limits come from the flight manual in PHAK ch9; the load factor behind them is PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.G.R5": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.X.G.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "AI.X.G.S10": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch05"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.X.G.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The AGL floor for stall and slow flight work is set in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.G.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch09"
+    ],
+    "why": "Retarding the throttle and configuring for landing sets up the ch5 trim stall from the ch9 approach.",
+    "confidence": "high"
+  },
+  "AI.X.G.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch03"
+    ],
+    "why": "Establishing and trimming a normal glide is the ch5 entry on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.G.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch09"
+    ],
+    "why": "Advancing to full power as in a go-around is what triggers the trim stall, so ch5 and the ch9 go-around.",
+    "confidence": "high"
+  },
+  "AI.X.G.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard.",
+    "confidence": "high"
+  },
+  "AI.X.G.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Recovery at the first indication or after the full stall is AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.G.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "afh:ch03"
+    ],
+    "why": "Retrimming and returning to the flightpath is the ch5 recovery on ch3 technique.",
+    "confidence": "high"
+  },
+  "AI.X.G.S9": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "afh:ch05"
+    ],
+    "why": "Describing and demonstrating a condition so a student can avoid it later is AIH ch9 Techniques of Flight Instruction, applied to the AFH ch5 stall material.",
+    "confidence": "high"
+  },
+  "AI.X.H.K1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "The aerodynamics of a secondary stall are PHAK ch5, demonstrated in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.H.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "A secondary stall follows a rushed or incomplete first recovery, which is AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.H.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Recognizing a secondary stall is AFH ch5 Upset Prevention and Recovery.",
+    "confidence": "high"
+  },
+  "AI.X.H.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Entry procedure and the minimum entry altitude are AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.H.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.H.K6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.X.H.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
+    "confidence": "high"
+  },
+  "AI.X.H.R2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch12",
+      "phak:ch11"
+    ],
+    "why": "Turbulence and microbursts are PHAK ch12; high density altitude is PHAK ch11. The element text says 'cross-controlled stalls' but sits in a different Task, which reads as an ACS copy-paste slip; mapped on the environmental content either way.",
+    "confidence": "high"
+  },
+  "AI.X.H.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.H.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09",
+      "phak:ch05"
+    ],
+    "why": "Airframe and airspeed limits come from the flight manual in PHAK ch9; the load factor behind them is PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.H.R5": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.X.H.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "AI.X.H.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The AGL floor for stall and slow flight work is set in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.H.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Deliberately exceeding the critical angle of attack a second time during recovery is the AFH ch5 secondary stall.",
+    "confidence": "high"
+  },
+  "AI.X.H.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Prompt recovery from the second stall is AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.H.S5": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "afh:ch05"
+    ],
+    "why": "Describing and demonstrating a condition so a student can avoid it later is AIH ch9 Techniques of Flight Instruction, applied to the AFH ch5 stall material.",
+    "confidence": "high"
+  },
+  "AI.X.H.S6": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch05"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.X.I.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Spin awareness and the spin maneuver are in AFH ch5 Upset Prevention and Recovery.",
+    "confidence": "high"
+  },
+  "AI.X.I.K10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Recognizing the conditions that lead to a spin so a student can avoid them is AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.I.K11": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch08"
+    ],
+    "why": "Spin orientation is AFH ch5; which instruments stay reliable in a spin is PHAK ch8 Flight Instruments.",
+    "confidence": "high"
+  },
+  "AI.X.I.K12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Recovery procedure and the minimum recovery altitude are AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.I.K13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.X.I.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05",
+      "afh:ch05"
+    ],
+    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
+    "confidence": "high"
+  },
+  "AI.X.I.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Spin cause and the entry, incipient, and developed phases are described in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.I.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery carries the spin recovery procedure.",
+    "confidence": "high"
+  },
+  "AI.X.I.K5": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch02",
+      "aviation-instructor:ch09"
+    ],
+    "why": "Student fear, startle, and disorientation during spin training are AIH ch2 Human Behavior; handling them in the airplane is AIH ch9 Techniques of Flight Instruction.",
+    "confidence": "high"
+  },
+  "AI.X.I.K6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch09"
+    ],
+    "why": "Spin approval comes from the airworthiness category and type certificate, which are the documents covered in PHAK ch9 Flight Manuals and Other Documents.",
+    "confidence": "high"
+  },
+  "AI.X.I.K7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The situations that produce an unintentional spin are the subject of AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.I.K8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Entry procedure and the minimum entry altitude for intentional spins are AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.I.K9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Holding a stabilized developed spin is described in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.I.R1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Factors leading to an inadvertent spin and loss of control are the subject of AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.I.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05",
+      "phak:ch05"
+    ],
+    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.X.I.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery carries the spin recovery procedure.",
+    "confidence": "high"
+  },
+  "AI.X.I.R4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch12",
+      "phak:ch11"
+    ],
+    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.I.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
+    "confidence": "high"
+  },
+  "AI.X.I.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.X.I.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch03"
+    ],
+    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
+    "confidence": "high"
+  },
+  "AI.X.I.S2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "The 4,000 foot AGL floor for spin work is set in AFH ch5.",
+    "confidence": "high"
+  },
+  "AI.X.I.S3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "Entering and recovering from an intentional spin is the AFH ch5 maneuver.",
+    "confidence": "high"
+  },
+  "AI.X.I.S4": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch05"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  }
+}

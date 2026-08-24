@@ -3458,116 +3458,119 @@ CA.IV.N.S9,aim:ch04-s03,guidance,verified,AIM 4-3 Airport Operations carries run
 CA.IV.N.S9,phak,explanation,auto,from the Task N References line,"Use runway incursion avoidance procedures, if applicable. 36"
 CA.IV.N.S9,risk-management,explanation,auto,from the Task N References line,"Use runway incursion avoidance procedures, if applicable. 36"
 CA.IV.N.S9,seaplane,explanation,auto,from the Task N References line,"Use runway incursion avoidance procedures, if applicable. 36"
-CA.IX.A.K1,afh,explanation,auto,from the Task A References line,"Situations that would require an emergency descent (e.g., depressurization, smoke, or engine fire)."
+CA.IX.A.K1,afh:ch18,explanation,verified,AFH ch18 emergency procedures lists the situations calling for an emergency descent; this Task cites no CFR part,"Situations that would require an emergency descent (e.g., depressurization, smoke, or engine fire)."
 CA.IX.A.K1,phak,explanation,auto,from the Task A References line,"Situations that would require an emergency descent (e.g., depressurization, smoke, or engine fire)."
 CA.IX.A.K1,risk-management,explanation,auto,from the Task A References line,"Situations that would require an emergency descent (e.g., depressurization, smoke, or engine fire)."
-CA.IX.A.K2,afh,explanation,auto,from the Task A References line,Immediate action items and emergency procedures.
-CA.IX.A.K2,phak,explanation,auto,from the Task A References line,Immediate action items and emergency procedures.
+CA.IX.A.K2,afh:ch18,explanation,verified,The emergency descent procedure is AFH ch18; memory items come from the manuals covered in PHAK ch9,Immediate action items and emergency procedures.
+CA.IX.A.K2,phak:ch09,explanation,verified,The emergency descent procedure is AFH ch18; memory items come from the manuals covered in PHAK ch9,Immediate action items and emergency procedures.
 CA.IX.A.K2,risk-management,explanation,auto,from the Task A References line,Immediate action items and emergency procedures.
-CA.IX.A.K3,afh,explanation,auto,from the Task A References line,"Airspeed, including airspeed limitations."
-CA.IX.A.K3,phak,explanation,auto,from the Task A References line,"Airspeed, including airspeed limitations."
+CA.IX.A.K3,afh:ch18,explanation,verified,"The descent airspeed is discussed in AFH ch18; VNE, VLE, and VFE come from the AFM in PHAK ch9","Airspeed, including airspeed limitations."
+CA.IX.A.K3,phak:ch09,explanation,verified,"The descent airspeed is discussed in AFH ch18; VNE, VLE, and VFE come from the AFM in PHAK ch9","Airspeed, including airspeed limitations."
 CA.IX.A.K3,risk-management,explanation,auto,from the Task A References line,"Airspeed, including airspeed limitations."
-CA.IX.A.K4,afh,explanation,auto,from the Task A References line,Aircraft performance and limitations.
-CA.IX.A.K4,phak,explanation,auto,from the Task A References line,Aircraft performance and limitations.
+CA.IX.A.K4,afh:ch18,explanation,verified,"Performance and limitations are PHAK ch11, applied to the descent in AFH ch18",Aircraft performance and limitations.
+CA.IX.A.K4,phak:ch11,explanation,verified,"Performance and limitations are PHAK ch11, applied to the descent in AFH ch18",Aircraft performance and limitations.
 CA.IX.A.K4,risk-management,explanation,auto,from the Task A References line,Aircraft performance and limitations.
-CA.IX.A.R1,afh,explanation,auto,from the Task A References line,"Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
+CA.IX.A.R1,afh:ch18,explanation,verified,"Terrain, wind, and glide considerations are AFH ch18; identifying them as hazards is RMH ch3","Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
 CA.IX.A.R1,phak,explanation,auto,from the Task A References line,"Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
-CA.IX.A.R1,risk-management,explanation,auto,from the Task A References line,"Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
-CA.IX.A.R2,afh,explanation,auto,from the Task A References line,Collision hazards.
+CA.IX.A.R1,risk-management:ch03,explanation,verified,"Terrain, wind, and glide considerations are AFH ch18; identifying them as hazards is RMH ch3","Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
+CA.IX.A.R2,afh:ch18,explanation,verified,Clearing and traffic scanning during a rapid descent are AFH ch18,Collision hazards.
 CA.IX.A.R2,phak,explanation,auto,from the Task A References line,Collision hazards.
 CA.IX.A.R2,risk-management,explanation,auto,from the Task A References line,Collision hazards.
-CA.IX.A.R3,afh,explanation,auto,from the Task A References line,Configuring the airplane.
+CA.IX.A.R3,afh:ch18,explanation,verified,"Gear, flap, and power configuration for the descent is AFH ch18",Configuring the airplane.
 CA.IX.A.R3,phak,explanation,auto,from the Task A References line,Configuring the airplane.
 CA.IX.A.R3,risk-management,explanation,auto,from the Task A References line,Configuring the airplane.
 CA.IX.A.R4,afh,explanation,auto,from the Task A References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.IX.A.R4,phak,explanation,auto,from the Task A References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.A.R4,risk-management,explanation,auto,from the Task A References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.A.S1,afh,explanation,auto,from the Task A References line,Clear the area.
+CA.IX.A.R4,risk-management:ch06,explanation,verified,Task prioritization and loss of situational awareness are RMH ch6 threat and error management,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.IX.A.S1,afh:ch03,explanation,verified,Clearing is required before the AFH ch18 maneuver and clearing turns are taught in AFH ch3,Clear the area.
+CA.IX.A.S1,afh:ch18,explanation,verified,Clearing is required before the AFH ch18 maneuver and clearing turns are taught in AFH ch3,Clear the area.
 CA.IX.A.S1,phak,explanation,auto,from the Task A References line,Clear the area.
 CA.IX.A.S1,risk-management,explanation,auto,from the Task A References line,Clear the area.
-CA.IX.A.S2,afh,explanation,auto,from the Task A References line,Establish and maintain the appropriate airspeed and configuration appropriate to the scenario specified by the evaluator and as covered in Pilot's Operating Handbook (POH)/Airplane Flight Manual (AFM) for the emergency descent.
-CA.IX.A.S2,phak,explanation,auto,from the Task A References line,Establish and maintain the appropriate airspeed and configuration appropriate to the scenario specified by the evaluator and as covered in Pilot's Operating Handbook (POH)/Airplane Flight Manual (AFM) for the emergency descent.
+CA.IX.A.S2,afh:ch18,explanation,verified,"The airspeed and configuration are AFH ch18, taken from the POH and AFM described in PHAK ch9",Establish and maintain the appropriate airspeed and configuration appropriate to the scenario specified by the evaluator and as covered in Pilot's Operating Handbook (POH)/Airplane Flight Manual (AFM) for the emergency descent.
+CA.IX.A.S2,phak:ch09,explanation,verified,"The airspeed and configuration are AFH ch18, taken from the POH and AFM described in PHAK ch9",Establish and maintain the appropriate airspeed and configuration appropriate to the scenario specified by the evaluator and as covered in Pilot's Operating Handbook (POH)/Airplane Flight Manual (AFM) for the emergency descent.
 CA.IX.A.S2,risk-management,explanation,auto,from the Task A References line,Establish and maintain the appropriate airspeed and configuration appropriate to the scenario specified by the evaluator and as covered in Pilot's Operating Handbook (POH)/Airplane Flight Manual (AFM) for the emergency descent.
-CA.IX.A.S3,afh,explanation,auto,from the Task A References line,"Maintain orientation, divide attention appropriately, and plan and execute a smooth recovery."
+CA.IX.A.S3,afh:ch18,explanation,verified,"Orientation, attention, and the smooth level off are AFH ch18","Maintain orientation, divide attention appropriately, and plan and execute a smooth recovery."
 CA.IX.A.S3,phak,explanation,auto,from the Task A References line,"Maintain orientation, divide attention appropriately, and plan and execute a smooth recovery."
 CA.IX.A.S3,risk-management,explanation,auto,from the Task A References line,"Maintain orientation, divide attention appropriately, and plan and execute a smooth recovery."
-CA.IX.A.S4,afh,explanation,auto,from the Task A References line,Use bank angle between 30° and 45° to maintain positive load factors during the descent.
-CA.IX.A.S4,phak,explanation,auto,from the Task A References line,Use bank angle between 30° and 45° to maintain positive load factors during the descent.
+CA.IX.A.S4,afh:ch18,explanation,verified,The banked descent to hold positive load factor is AFH ch18; load factor theory is PHAK ch5,Use bank angle between 30° and 45° to maintain positive load factors during the descent.
+CA.IX.A.S4,phak:ch05,explanation,verified,The banked descent to hold positive load factor is AFH ch18; load factor theory is PHAK ch5,Use bank angle between 30° and 45° to maintain positive load factors during the descent.
 CA.IX.A.S4,risk-management,explanation,auto,from the Task A References line,Use bank angle between 30° and 45° to maintain positive load factors during the descent.
-CA.IX.A.S5,afh,explanation,auto,from the Task A References line,"Maintain appropriate airspeed +0/-10 knots, and level off at a specified altitude ±100 feet."
+CA.IX.A.S5,afh:ch18,explanation,verified,Airspeed control and level off tolerances are AFH ch18,"Maintain appropriate airspeed +0/-10 knots, and level off at a specified altitude ±100 feet."
 CA.IX.A.S5,phak,explanation,auto,from the Task A References line,"Maintain appropriate airspeed +0/-10 knots, and level off at a specified altitude ±100 feet."
 CA.IX.A.S5,risk-management,explanation,auto,from the Task A References line,"Maintain appropriate airspeed +0/-10 knots, and level off at a specified altitude ±100 feet."
-CA.IX.A.S6,afh,explanation,auto,from the Task A References line,Complete the appropriate checklist(s).
+CA.IX.A.S6,afh:ch18,explanation,verified,Checklist use after the memory items is AFH ch18,Complete the appropriate checklist(s).
 CA.IX.A.S6,phak,explanation,auto,from the Task A References line,Complete the appropriate checklist(s).
 CA.IX.A.S6,risk-management,explanation,auto,from the Task A References line,Complete the appropriate checklist(s).
 CA.IX.A.S7,afh,explanation,auto,from the Task A References line,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate."
-CA.IX.A.S7,phak,explanation,auto,from the Task A References line,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate."
-CA.IX.A.S7,risk-management,explanation,auto,from the Task A References line,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate."
-CA.IX.B.K1,afh,explanation,auto,from the Task B References line,Immediate action items and emergency procedures.
+CA.IX.A.S7,phak:ch02,explanation,verified,SRM and CRM in an emergency are RMH ch8; ADM is PHAK ch2,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate."
+CA.IX.A.S7,risk-management:ch08,explanation,verified,SRM and CRM in an emergency are RMH ch8; ADM is PHAK ch2,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate."
+CA.IX.B.K1,afh:ch18,explanation,verified,AFH ch18 gives the immediate action items for a power loss and forced landing,Immediate action items and emergency procedures.
 CA.IX.B.K1,phak,explanation,auto,from the Task B References line,Immediate action items and emergency procedures.
 CA.IX.B.K1,risk-management,explanation,auto,from the Task B References line,Immediate action items and emergency procedures.
-CA.IX.B.K2,afh,explanation,auto,from the Task B References line,"Airspeed, including:"
+CA.IX.B.K2,afh:ch18,explanation,verified,Glide airspeed control is central to the AFH ch18 emergency approach,"Airspeed, including:"
 CA.IX.B.K2,phak,explanation,auto,from the Task B References line,"Airspeed, including:"
 CA.IX.B.K2,risk-management,explanation,auto,from the Task B References line,"Airspeed, including:"
-CA.IX.B.K2a,afh,explanation,auto,from the Task B References line,a. Importance of best glide speed and its relationship to distance
-CA.IX.B.K2a,phak,explanation,auto,from the Task B References line,a. Importance of best glide speed and its relationship to distance
+CA.IX.B.K2a,afh:ch18,explanation,verified,Best glide speed and the distance it buys are AFH ch18; the glide performance data are PHAK ch11,a. Importance of best glide speed and its relationship to distance
+CA.IX.B.K2a,phak:ch11,explanation,verified,Best glide speed and the distance it buys are AFH ch18; the glide performance data are PHAK ch11,a. Importance of best glide speed and its relationship to distance
 CA.IX.B.K2a,risk-management,explanation,auto,from the Task B References line,a. Importance of best glide speed and its relationship to distance
-CA.IX.B.K2b,afh,explanation,auto,from the Task B References line,b. Difference between best glide speed and minimum sink speed
-CA.IX.B.K2b,phak,explanation,auto,from the Task B References line,b. Difference between best glide speed and minimum sink speed
+CA.IX.B.K2b,afh:ch18,explanation,verified,The distinction between best glide and minimum sink is drawn in AFH ch18 and PHAK ch11,b. Difference between best glide speed and minimum sink speed
+CA.IX.B.K2b,phak:ch11,explanation,verified,The distinction between best glide and minimum sink is drawn in AFH ch18 and PHAK ch11,b. Difference between best glide speed and minimum sink speed
 CA.IX.B.K2b,risk-management,explanation,auto,from the Task B References line,b. Difference between best glide speed and minimum sink speed
-CA.IX.B.K2c,afh,explanation,auto,from the Task B References line,c. Effects of wind on glide distance
-CA.IX.B.K2c,phak,explanation,auto,from the Task B References line,c. Effects of wind on glide distance
+CA.IX.B.K2c,afh:ch18,explanation,verified,"Wind effect on glide range is AFH ch18, with the performance basis in PHAK ch11",c. Effects of wind on glide distance
+CA.IX.B.K2c,phak:ch11,explanation,verified,"Wind effect on glide range is AFH ch18, with the performance basis in PHAK ch11",c. Effects of wind on glide distance
 CA.IX.B.K2c,risk-management,explanation,auto,from the Task B References line,c. Effects of wind on glide distance
-CA.IX.B.K3,afh,explanation,auto,from the Task B References line,Effects of atmospheric conditions on emergency approach and landing.
-CA.IX.B.K3,phak,explanation,auto,from the Task B References line,Effects of atmospheric conditions on emergency approach and landing.
+CA.IX.B.K3,afh:ch18,explanation,verified,Density altitude and wind effects on the emergency approach are AFH ch18; the weather itself is PHAK ch12,Effects of atmospheric conditions on emergency approach and landing.
+CA.IX.B.K3,phak:ch12,explanation,verified,Density altitude and wind effects on the emergency approach are AFH ch18; the weather itself is PHAK ch12,Effects of atmospheric conditions on emergency approach and landing.
 CA.IX.B.K3,risk-management,explanation,auto,from the Task B References line,Effects of atmospheric conditions on emergency approach and landing.
-CA.IX.B.K4,afh,explanation,auto,from the Task B References line,"A stabilized approach, including energy management concepts."
+CA.IX.B.K4,afh:ch04,explanation,verified,The stabilized approach is AFH ch9 approaches and landings; energy management is AFH ch4,"A stabilized approach, including energy management concepts."
+CA.IX.B.K4,afh:ch09,explanation,verified,The stabilized approach is AFH ch9 approaches and landings; energy management is AFH ch4,"A stabilized approach, including energy management concepts."
 CA.IX.B.K4,phak,explanation,auto,from the Task B References line,"A stabilized approach, including energy management concepts."
 CA.IX.B.K4,risk-management,explanation,auto,from the Task B References line,"A stabilized approach, including energy management concepts."
-CA.IX.B.K5,afh,explanation,auto,from the Task B References line,Emergency Locator Transmitters (ELTs) and other emergency locating devices.
-CA.IX.B.K5,phak,explanation,auto,from the Task B References line,Emergency Locator Transmitters (ELTs) and other emergency locating devices.
+CA.IX.B.K5,afh:ch18,explanation,verified,ELT use in an emergency is AFH ch18; the equipment itself is PHAK ch7,Emergency Locator Transmitters (ELTs) and other emergency locating devices.
+CA.IX.B.K5,phak:ch07,explanation,verified,ELT use in an emergency is AFH ch18; the equipment itself is PHAK ch7,Emergency Locator Transmitters (ELTs) and other emergency locating devices.
 CA.IX.B.K5,risk-management,explanation,auto,from the Task B References line,Emergency Locator Transmitters (ELTs) and other emergency locating devices.
-CA.IX.B.K6,afh,explanation,auto,from the Task B References line,Air traffic control (ATC) services to aircraft in distress.
+CA.IX.B.K6,afh:ch18,explanation,verified,Declaring and getting help from ATC is covered in AFH ch18; the AIM is not among this Task's handbooks,Air traffic control (ATC) services to aircraft in distress.
 CA.IX.B.K6,phak,explanation,auto,from the Task B References line,Air traffic control (ATC) services to aircraft in distress.
 CA.IX.B.K6,risk-management,explanation,auto,from the Task B References line,Air traffic control (ATC) services to aircraft in distress.
-CA.IX.B.R1,afh,explanation,auto,from the Task B References line,"Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
+CA.IX.B.R1,afh:ch18,explanation,verified,Field selection factors are AFH ch18; treating them as hazards is RMH ch3,"Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
 CA.IX.B.R1,phak,explanation,auto,from the Task B References line,"Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
-CA.IX.B.R1,risk-management,explanation,auto,from the Task B References line,"Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
-CA.IX.B.R2,afh,explanation,auto,from the Task B References line,Following or changing the planned flightpath to the selected landing area.
+CA.IX.B.R1,risk-management:ch03,explanation,verified,Field selection factors are AFH ch18; treating them as hazards is RMH ch3,"Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations."
+CA.IX.B.R2,afh:ch18,explanation,verified,Committing to or changing the planned flightpath is AFH ch18,Following or changing the planned flightpath to the selected landing area.
 CA.IX.B.R2,phak,explanation,auto,from the Task B References line,Following or changing the planned flightpath to the selected landing area.
 CA.IX.B.R2,risk-management,explanation,auto,from the Task B References line,Following or changing the planned flightpath to the selected landing area.
-CA.IX.B.R3,afh,explanation,auto,from the Task B References line,Collision hazards.
+CA.IX.B.R3,afh:ch18,explanation,verified,Traffic scanning during the descent to a field is AFH ch18,Collision hazards.
 CA.IX.B.R3,phak,explanation,auto,from the Task B References line,Collision hazards.
 CA.IX.B.R3,risk-management,explanation,auto,from the Task B References line,Collision hazards.
-CA.IX.B.R4,afh,explanation,auto,from the Task B References line,Configuring the airplane.
+CA.IX.B.R4,afh:ch18,explanation,verified,Gear and flap configuration for a forced landing is AFH ch18,Configuring the airplane.
 CA.IX.B.R4,phak,explanation,auto,from the Task B References line,Configuring the airplane.
 CA.IX.B.R4,risk-management,explanation,auto,from the Task B References line,Configuring the airplane.
-CA.IX.B.R5,afh,explanation,auto,from the Task B References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.IX.B.R5,afh:ch05,explanation,verified,Stall and spin avoidance while maneuvering to a field is AFH ch5; the maneuver itself is AFH ch18,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.IX.B.R5,afh:ch18,explanation,verified,Stall and spin avoidance while maneuvering to a field is AFH ch5; the maneuver itself is AFH ch18,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.IX.B.R5,phak,explanation,auto,from the Task B References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.IX.B.R5,risk-management,explanation,auto,from the Task B References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.IX.B.R6,afh,explanation,auto,from the Task B References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.IX.B.R6,phak,explanation,auto,from the Task B References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.B.R6,risk-management,explanation,auto,from the Task B References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.B.S1,afh,explanation,auto,from the Task B References line,"Establish and maintain the recommended best glide airspeed, ±10 knots."
+CA.IX.B.R6,risk-management:ch06,explanation,verified,Task prioritization under an emergency workload is RMH ch6,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.IX.B.S1,afh:ch18,explanation,verified,Establishing and holding best glide is AFH ch18,"Establish and maintain the recommended best glide airspeed, ±10 knots."
 CA.IX.B.S1,phak,explanation,auto,from the Task B References line,"Establish and maintain the recommended best glide airspeed, ±10 knots."
 CA.IX.B.S1,risk-management,explanation,auto,from the Task B References line,"Establish and maintain the recommended best glide airspeed, ±10 knots."
-CA.IX.B.S2,afh,explanation,auto,from the Task B References line,Configure the airplane in accordance with the Pilot's Operating Handbook (POH)\Airplane Flight Manual (AFM) and existing conditions.
-CA.IX.B.S2,phak,explanation,auto,from the Task B References line,Configure the airplane in accordance with the Pilot's Operating Handbook (POH)\Airplane Flight Manual (AFM) and existing conditions.
+CA.IX.B.S2,afh:ch18,explanation,verified,Configuration follows AFH ch18 and the POH and AFM covered by PHAK ch9,Configure the airplane in accordance with the Pilot's Operating Handbook (POH)\Airplane Flight Manual (AFM) and existing conditions.
+CA.IX.B.S2,phak:ch09,explanation,verified,Configuration follows AFH ch18 and the POH and AFM covered by PHAK ch9,Configure the airplane in accordance with the Pilot's Operating Handbook (POH)\Airplane Flight Manual (AFM) and existing conditions.
 CA.IX.B.S2,risk-management,explanation,auto,from the Task B References line,Configure the airplane in accordance with the Pilot's Operating Handbook (POH)\Airplane Flight Manual (AFM) and existing conditions.
-CA.IX.B.S3,afh,explanation,auto,from the Task B References line,"Select a suitable landing area considering altitude, wind, terrain, obstructions, and available glide distance."
+CA.IX.B.S3,afh:ch18,explanation,verified,Landing area selection is AFH ch18,"Select a suitable landing area considering altitude, wind, terrain, obstructions, and available glide distance."
 CA.IX.B.S3,phak,explanation,auto,from the Task B References line,"Select a suitable landing area considering altitude, wind, terrain, obstructions, and available glide distance."
 CA.IX.B.S3,risk-management,explanation,auto,from the Task B References line,"Select a suitable landing area considering altitude, wind, terrain, obstructions, and available glide distance."
-CA.IX.B.S4,afh,explanation,auto,from the Task B References line,"Plan and follow a flightpath to the selected landing area considering altitude, wind, terrain, and obstructions."
+CA.IX.B.S4,afh:ch18,explanation,verified,Planning and flying the pattern to the chosen field is AFH ch18,"Plan and follow a flightpath to the selected landing area considering altitude, wind, terrain, and obstructions."
 CA.IX.B.S4,phak,explanation,auto,from the Task B References line,"Plan and follow a flightpath to the selected landing area considering altitude, wind, terrain, and obstructions."
 CA.IX.B.S4,risk-management,explanation,auto,from the Task B References line,"Plan and follow a flightpath to the selected landing area considering altitude, wind, terrain, and obstructions."
-CA.IX.B.S5,afh,explanation,auto,from the Task B References line,Prepare for landing as specified by the evaluator.
+CA.IX.B.S5,afh:ch18,explanation,verified,"Cabin, fuel, and electrical preparation for touchdown is AFH ch18",Prepare for landing as specified by the evaluator.
 CA.IX.B.S5,phak,explanation,auto,from the Task B References line,Prepare for landing as specified by the evaluator.
 CA.IX.B.S5,risk-management,explanation,auto,from the Task B References line,Prepare for landing as specified by the evaluator.
-CA.IX.B.S6,afh,explanation,auto,from the Task B References line,Complete the appropriate checklist(s).
+CA.IX.B.S6,afh:ch18,explanation,verified,The emergency checklist flow is AFH ch18,Complete the appropriate checklist(s).
 CA.IX.B.S6,phak,explanation,auto,from the Task B References line,Complete the appropriate checklist(s).
 CA.IX.B.S6,risk-management,explanation,auto,from the Task B References line,Complete the appropriate checklist(s).
-CA.IX.C.K1,afh,explanation,auto,from the Task C References line,Causes of partial or complete power loss related to the specific type of powerplant(s). 54
-CA.IX.C.K1,phak,explanation,auto,from the Task C References line,Causes of partial or complete power loss related to the specific type of powerplant(s). 54
+CA.IX.C.K1,afh:ch18,explanation,verified,Power loss causes are AFH ch18; the powerplant and fuel systems behind them are PHAK ch7,Causes of partial or complete power loss related to the specific type of powerplant(s). 54
+CA.IX.C.K1,phak:ch07,explanation,verified,Power loss causes are AFH ch18; the powerplant and fuel systems behind them are PHAK ch7,Causes of partial or complete power loss related to the specific type of powerplant(s). 54
 CA.IX.C.K1,risk-management,explanation,auto,from the Task C References line,Causes of partial or complete power loss related to the specific type of powerplant(s). 54
 CA.IX.C.K1a,afh,explanation,auto,from the Task C References line,a. [Archived]
 CA.IX.C.K1a,phak,explanation,auto,from the Task C References line,a. [Archived]
@@ -3581,244 +3584,254 @@ CA.IX.C.K1c,risk-management,explanation,auto,from the Task C References line,c. 
 CA.IX.C.K1d,afh,explanation,auto,from the Task C References line,d. [Archived]
 CA.IX.C.K1d,phak,explanation,auto,from the Task C References line,d. [Archived]
 CA.IX.C.K1d,risk-management,explanation,auto,from the Task C References line,d. [Archived]
-CA.IX.C.K2,afh,explanation,auto,from the Task C References line,"System and equipment malfunctions specific to the aircraft, including:"
-CA.IX.C.K2,phak,explanation,auto,from the Task C References line,"System and equipment malfunctions specific to the aircraft, including:"
+CA.IX.C.K2,afh:ch18,explanation,verified,The systems are PHAK ch7; their failure handling is AFH ch18,"System and equipment malfunctions specific to the aircraft, including:"
+CA.IX.C.K2,phak:ch07,explanation,verified,The systems are PHAK ch7; their failure handling is AFH ch18,"System and equipment malfunctions specific to the aircraft, including:"
 CA.IX.C.K2,risk-management,explanation,auto,from the Task C References line,"System and equipment malfunctions specific to the aircraft, including:"
-CA.IX.C.K2a,afh,explanation,auto,from the Task C References line,a. Electrical malfunction
-CA.IX.C.K2a,phak,explanation,auto,from the Task C References line,a. Electrical malfunction
+CA.IX.C.K2a,afh:ch18,explanation,verified,The electrical system is PHAK ch7; alternator and bus failure response is AFH ch18,a. Electrical malfunction
+CA.IX.C.K2a,phak:ch07,explanation,verified,The electrical system is PHAK ch7; alternator and bus failure response is AFH ch18,a. Electrical malfunction
 CA.IX.C.K2a,risk-management,explanation,auto,from the Task C References line,a. Electrical malfunction
-CA.IX.C.K2b,afh,explanation,auto,from the Task C References line,b. Vacuum/pressure and associated flight instrument malfunctions
-CA.IX.C.K2b,phak,explanation,auto,from the Task C References line,b. Vacuum/pressure and associated flight instrument malfunctions
+CA.IX.C.K2b,afh:ch18,explanation,verified,Vacuum driven gyro instruments and their failure signatures are PHAK ch8; the response is AFH ch18,b. Vacuum/pressure and associated flight instrument malfunctions
+CA.IX.C.K2b,phak:ch08,explanation,verified,Vacuum driven gyro instruments and their failure signatures are PHAK ch8; the response is AFH ch18,b. Vacuum/pressure and associated flight instrument malfunctions
 CA.IX.C.K2b,risk-management,explanation,auto,from the Task C References line,b. Vacuum/pressure and associated flight instrument malfunctions
 CA.IX.C.K2c,afh,explanation,auto,from the Task C References line,c. Pitot-static system malfunction
-CA.IX.C.K2c,phak,explanation,auto,from the Task C References line,c. Pitot-static system malfunction
+CA.IX.C.K2c,phak:ch08,explanation,verified,Pitot-static system blockages and their indications are PHAK ch8,c. Pitot-static system malfunction
 CA.IX.C.K2c,risk-management,explanation,auto,from the Task C References line,c. Pitot-static system malfunction
-CA.IX.C.K2d,afh,explanation,auto,from the Task C References line,d. Electronic flight deck display malfunction
-CA.IX.C.K2d,phak,explanation,auto,from the Task C References line,d. Electronic flight deck display malfunction
+CA.IX.C.K2d,afh:ch18,explanation,verified,Electronic flight display failure modes are PHAK ch8; reversion and response are AFH ch18,d. Electronic flight deck display malfunction
+CA.IX.C.K2d,phak:ch08,explanation,verified,Electronic flight display failure modes are PHAK ch8; reversion and response are AFH ch18,d. Electronic flight deck display malfunction
 CA.IX.C.K2d,risk-management,explanation,auto,from the Task C References line,d. Electronic flight deck display malfunction
-CA.IX.C.K2e,afh,explanation,auto,from the Task C References line,e. Landing gear or flap malfunction
-CA.IX.C.K2e,phak,explanation,auto,from the Task C References line,e. Landing gear or flap malfunction
+CA.IX.C.K2e,afh:ch12,explanation,verified,Gear and flap malfunctions are treated in AFH ch12 transition to complex airplanes; the systems are PHAK ch7,e. Landing gear or flap malfunction
+CA.IX.C.K2e,phak:ch07,explanation,verified,Gear and flap malfunctions are treated in AFH ch12 transition to complex airplanes; the systems are PHAK ch7,e. Landing gear or flap malfunction
 CA.IX.C.K2e,risk-management,explanation,auto,from the Task C References line,e. Landing gear or flap malfunction
-CA.IX.C.K2f,afh,explanation,auto,from the Task C References line,f. Inoperative trim
-CA.IX.C.K2f,phak,explanation,auto,from the Task C References line,f. Inoperative trim
+CA.IX.C.K2f,afh:ch18,explanation,verified,Trim systems are PHAK ch6 flight controls; flying with a runaway or inoperative trim is AFH ch18,f. Inoperative trim
+CA.IX.C.K2f,phak:ch06,explanation,verified,Trim systems are PHAK ch6 flight controls; flying with a runaway or inoperative trim is AFH ch18,f. Inoperative trim
 CA.IX.C.K2f,risk-management,explanation,auto,from the Task C References line,f. Inoperative trim
-CA.IX.C.K3,afh,explanation,auto,from the Task C References line,Causes and remedies for smoke or fire onboard the aircraft.
+CA.IX.C.K3,afh:ch18,explanation,verified,"Smoke, fire, and their remedies are AFH ch18",Causes and remedies for smoke or fire onboard the aircraft.
 CA.IX.C.K3,phak,explanation,auto,from the Task C References line,Causes and remedies for smoke or fire onboard the aircraft.
 CA.IX.C.K3,risk-management,explanation,auto,from the Task C References line,Causes and remedies for smoke or fire onboard the aircraft.
-CA.IX.C.K4,afh,explanation,auto,from the Task C References line,"Any other system specific to the aircraft (e.g., supplemental oxygen, deicing)."
-CA.IX.C.K4,phak,explanation,auto,from the Task C References line,"Any other system specific to the aircraft (e.g., supplemental oxygen, deicing)."
+CA.IX.C.K4,afh:ch18,explanation,verified,Oxygen and deice systems are PHAK ch7; their failure handling is AFH ch18,"Any other system specific to the aircraft (e.g., supplemental oxygen, deicing)."
+CA.IX.C.K4,phak:ch07,explanation,verified,Oxygen and deice systems are PHAK ch7; their failure handling is AFH ch18,"Any other system specific to the aircraft (e.g., supplemental oxygen, deicing)."
 CA.IX.C.K4,risk-management,explanation,auto,from the Task C References line,"Any other system specific to the aircraft (e.g., supplemental oxygen, deicing)."
-CA.IX.C.K5,afh,explanation,auto,from the Task C References line,Inadvertent door or window opening.
+CA.IX.C.K5,afh:ch18,explanation,verified,An inadvertent door or window opening is an abnormal handled in AFH ch18,Inadvertent door or window opening.
 CA.IX.C.K5,phak,explanation,auto,from the Task C References line,Inadvertent door or window opening.
 CA.IX.C.K5,risk-management,explanation,auto,from the Task C References line,Inadvertent door or window opening.
-CA.IX.C.R1,afh,explanation,auto,from the Task C References line,Checklist usage for a system or equipment malfunction.
+CA.IX.C.R1,afh:ch18,explanation,verified,Checklist discipline during a malfunction is AFH ch18,Checklist usage for a system or equipment malfunction.
 CA.IX.C.R1,phak,explanation,auto,from the Task C References line,Checklist usage for a system or equipment malfunction.
 CA.IX.C.R1,risk-management,explanation,auto,from the Task C References line,Checklist usage for a system or equipment malfunction.
 CA.IX.C.R2,afh,explanation,auto,from the Task C References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.IX.C.R2,phak,explanation,auto,from the Task C References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.C.R2,risk-management,explanation,auto,from the Task C References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.C.R3,afh,explanation,auto,from the Task C References line,Undesired aircraft state.
+CA.IX.C.R2,risk-management:ch06,explanation,verified,Task prioritization while troubleshooting is RMH ch6,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.IX.C.R3,afh:ch05,explanation,verified,Recognizing and recovering an undesired aircraft state is AFH ch5; the TEM framing is RMH ch6,Undesired aircraft state.
 CA.IX.C.R3,phak,explanation,auto,from the Task C References line,Undesired aircraft state.
-CA.IX.C.R3,risk-management,explanation,auto,from the Task C References line,Undesired aircraft state.
-CA.IX.C.R4,afh,explanation,auto,from the Task C References line,Startle response.
+CA.IX.C.R3,risk-management:ch06,explanation,verified,Recognizing and recovering an undesired aircraft state is AFH ch5; the TEM framing is RMH ch6,Undesired aircraft state.
+CA.IX.C.R4,afh:ch05,explanation,verified,Startle and surprise response is discussed in AFH ch5 upset prevention and RMH ch6,Startle response.
 CA.IX.C.R4,phak,explanation,auto,from the Task C References line,Startle response.
-CA.IX.C.R4,risk-management,explanation,auto,from the Task C References line,Startle response.
-CA.IX.C.S1,afh,explanation,auto,from the Task C References line,"Determine appropriate action for simulated emergencies specified by the evaluator, from at least three of the elements or sub-elements listed in K1 through K5."
-CA.IX.C.S1,phak,explanation,auto,from the Task C References line,"Determine appropriate action for simulated emergencies specified by the evaluator, from at least three of the elements or sub-elements listed in K1 through K5."
+CA.IX.C.R4,risk-management:ch06,explanation,verified,Startle and surprise response is discussed in AFH ch5 upset prevention and RMH ch6,Startle response.
+CA.IX.C.S1,afh:ch18,explanation,verified,"The response to each simulated malfunction is AFH ch18, grounded in the systems of PHAK ch7","Determine appropriate action for simulated emergencies specified by the evaluator, from at least three of the elements or sub-elements listed in K1 through K5."
+CA.IX.C.S1,phak:ch07,explanation,verified,"The response to each simulated malfunction is AFH ch18, grounded in the systems of PHAK ch7","Determine appropriate action for simulated emergencies specified by the evaluator, from at least three of the elements or sub-elements listed in K1 through K5."
 CA.IX.C.S1,risk-management,explanation,auto,from the Task C References line,"Determine appropriate action for simulated emergencies specified by the evaluator, from at least three of the elements or sub-elements listed in K1 through K5."
-CA.IX.C.S2,afh,explanation,auto,from the Task C References line,Complete the appropriate checklist(s).
+CA.IX.C.S2,afh:ch18,explanation,verified,Abnormal and emergency checklist use is AFH ch18,Complete the appropriate checklist(s).
 CA.IX.C.S2,phak,explanation,auto,from the Task C References line,Complete the appropriate checklist(s).
 CA.IX.C.S2,risk-management,explanation,auto,from the Task C References line,Complete the appropriate checklist(s).
-CA.IX.D.K1,afh,explanation,auto,from the Task D References line,"Emergency Locator Transmitter (ELT) operations, limitations, and testing requirements. 55"
-CA.IX.D.K1,phak,explanation,auto,from the Task D References line,"Emergency Locator Transmitter (ELT) operations, limitations, and testing requirements. 55"
+CA.IX.D.K1,afh:ch18,explanation,verified,ELT activation and limitations are AFH ch18; the installed equipment is PHAK ch7,"Emergency Locator Transmitter (ELT) operations, limitations, and testing requirements. 55"
+CA.IX.D.K1,phak:ch07,explanation,verified,ELT activation and limitations are AFH ch18; the installed equipment is PHAK ch7,"Emergency Locator Transmitter (ELT) operations, limitations, and testing requirements. 55"
 CA.IX.D.K1,risk-management,explanation,auto,from the Task D References line,"Emergency Locator Transmitter (ELT) operations, limitations, and testing requirements. 55"
-CA.IX.D.K2,afh,explanation,auto,from the Task D References line,Fire extinguisher operations and limitations.
+CA.IX.D.K2,afh:ch18,explanation,verified,Onboard fire extinguisher use is covered with the fire procedures in AFH ch18,Fire extinguisher operations and limitations.
 CA.IX.D.K2,phak,explanation,auto,from the Task D References line,Fire extinguisher operations and limitations.
 CA.IX.D.K2,risk-management,explanation,auto,from the Task D References line,Fire extinguisher operations and limitations.
-CA.IX.D.K3,afh,explanation,auto,from the Task D References line,Emergency equipment and survival gear needed for:
+CA.IX.D.K3,afh:ch18,explanation,verified,Emergency equipment and survival gear are AFH ch18,Emergency equipment and survival gear needed for:
 CA.IX.D.K3,phak,explanation,auto,from the Task D References line,Emergency equipment and survival gear needed for:
 CA.IX.D.K3,risk-management,explanation,auto,from the Task D References line,Emergency equipment and survival gear needed for:
-CA.IX.D.K3a,afh,explanation,auto,from the Task D References line,a. Climate extremes (hot/cold)
+CA.IX.D.K3a,afh:ch18,explanation,verified,Gear for hot and cold climates is part of the AFH ch18 survival discussion,a. Climate extremes (hot/cold)
 CA.IX.D.K3a,phak,explanation,auto,from the Task D References line,a. Climate extremes (hot/cold)
 CA.IX.D.K3a,risk-management,explanation,auto,from the Task D References line,a. Climate extremes (hot/cold)
-CA.IX.D.K3b,afh,explanation,auto,from the Task D References line,b. Mountainous terrain
+CA.IX.D.K3b,afh:ch18,explanation,verified,Mountainous terrain survival gear is part of the AFH ch18 survival discussion,b. Mountainous terrain
 CA.IX.D.K3b,phak,explanation,auto,from the Task D References line,b. Mountainous terrain
 CA.IX.D.K3b,risk-management,explanation,auto,from the Task D References line,b. Mountainous terrain
-CA.IX.D.K3c,afh,explanation,auto,from the Task D References line,c. Overwater operations
+CA.IX.D.K3c,afh:ch18,explanation,verified,Overwater flotation gear is part of the AFH ch18 survival discussion,c. Overwater operations
 CA.IX.D.K3c,phak,explanation,auto,from the Task D References line,c. Overwater operations
 CA.IX.D.K3c,risk-management,explanation,auto,from the Task D References line,c. Overwater operations
-CA.IX.D.K4,afh,explanation,auto,from the Task D References line,"When to deploy a ballistic parachute and associated passenger briefings, if equipped."
+CA.IX.D.K4,afh:ch18,explanation,verified,Ballistic parachute deployment decisions are treated with emergency procedures in AFH ch18,"When to deploy a ballistic parachute and associated passenger briefings, if equipped."
 CA.IX.D.K4,phak,explanation,auto,from the Task D References line,"When to deploy a ballistic parachute and associated passenger briefings, if equipped."
 CA.IX.D.K4,risk-management,explanation,auto,from the Task D References line,"When to deploy a ballistic parachute and associated passenger briefings, if equipped."
-CA.IX.D.K5,afh,explanation,auto,from the Task D References line,"When to activate an emergency auto-land system and brief passengers, if equipped."
+CA.IX.D.K5,afh:ch18,explanation,verified,Emergency autoland activation is treated with emergency procedures in AFH ch18,"When to activate an emergency auto-land system and brief passengers, if equipped."
 CA.IX.D.K5,phak,explanation,auto,from the Task D References line,"When to activate an emergency auto-land system and brief passengers, if equipped."
 CA.IX.D.K5,risk-management,explanation,auto,from the Task D References line,"When to activate an emergency auto-land system and brief passengers, if equipped."
-CA.IX.D.R1,afh,explanation,auto,from the Task D References line,"Survival gear (water, clothing, shelter) for 48 to 72 hours."
+CA.IX.D.R1,afh:ch18,explanation,verified,Survival provisioning is AFH ch18; sizing it to the route is a RMH ch3 hazard assessment,"Survival gear (water, clothing, shelter) for 48 to 72 hours."
 CA.IX.D.R1,phak,explanation,auto,from the Task D References line,"Survival gear (water, clothing, shelter) for 48 to 72 hours."
-CA.IX.D.R1,risk-management,explanation,auto,from the Task D References line,"Survival gear (water, clothing, shelter) for 48 to 72 hours."
-CA.IX.D.R2,afh,explanation,auto,from the Task D References line,Use of a ballistic parachute system.
+CA.IX.D.R1,risk-management:ch03,explanation,verified,Survival provisioning is AFH ch18; sizing it to the route is a RMH ch3 hazard assessment,"Survival gear (water, clothing, shelter) for 48 to 72 hours."
+CA.IX.D.R2,afh:ch18,explanation,verified,The risks of a ballistic parachute pull are treated in AFH ch18,Use of a ballistic parachute system.
 CA.IX.D.R2,phak,explanation,auto,from the Task D References line,Use of a ballistic parachute system.
 CA.IX.D.R2,risk-management,explanation,auto,from the Task D References line,Use of a ballistic parachute system.
-CA.IX.D.R3,afh,explanation,auto,from the Task D References line,"Use of an emergency auto-land system, if installed."
+CA.IX.D.R3,afh:ch18,explanation,verified,"Autoland is an automation decision, so AFH ch18 for the emergency and RMH ch7 for the automation","Use of an emergency auto-land system, if installed."
 CA.IX.D.R3,phak,explanation,auto,from the Task D References line,"Use of an emergency auto-land system, if installed."
-CA.IX.D.R3,risk-management,explanation,auto,from the Task D References line,"Use of an emergency auto-land system, if installed."
-CA.IX.D.S1,afh,explanation,auto,from the Task D References line,Identify appropriate equipment and personal gear.
+CA.IX.D.R3,risk-management:ch07,explanation,verified,"Autoland is an automation decision, so AFH ch18 for the emergency and RMH ch7 for the automation","Use of an emergency auto-land system, if installed."
+CA.IX.D.S1,afh:ch18,explanation,verified,Identifying the required equipment and personal gear is AFH ch18,Identify appropriate equipment and personal gear.
 CA.IX.D.S1,phak,explanation,auto,from the Task D References line,Identify appropriate equipment and personal gear.
 CA.IX.D.S1,risk-management,explanation,auto,from the Task D References line,Identify appropriate equipment and personal gear.
-CA.IX.D.S2,afh,explanation,auto,from the Task D References line,Brief passengers on proper use of on-board emergency equipment and survival gear.
+CA.IX.D.S2,afh:ch02,explanation,verified,The content of the briefing is AFH ch18; the passenger briefing itself is AFH ch2,Brief passengers on proper use of on-board emergency equipment and survival gear.
+CA.IX.D.S2,afh:ch18,explanation,verified,The content of the briefing is AFH ch18; the passenger briefing itself is AFH ch2,Brief passengers on proper use of on-board emergency equipment and survival gear.
 CA.IX.D.S2,phak,explanation,auto,from the Task D References line,Brief passengers on proper use of on-board emergency equipment and survival gear.
 CA.IX.D.S2,risk-management,explanation,auto,from the Task D References line,Brief passengers on proper use of on-board emergency equipment and survival gear.
-CA.IX.D.S3,afh,explanation,auto,from the Task D References line,"Simulate ballistic parachute deployment procedures, if equipped."
+CA.IX.D.S3,afh:ch18,explanation,verified,Simulated ballistic parachute deployment follows the AFH ch18 procedure,"Simulate ballistic parachute deployment procedures, if equipped."
 CA.IX.D.S3,phak,explanation,auto,from the Task D References line,"Simulate ballistic parachute deployment procedures, if equipped."
 CA.IX.D.S3,risk-management,explanation,auto,from the Task D References line,"Simulate ballistic parachute deployment procedures, if equipped."
-CA.IX.E.K1,afh,explanation,auto,from the Task E References line,Factors affecting minimum controllable speed (VMC).
+CA.IX.E.K1,afh:ch13,explanation,verified,The factors that raise and lower VMC are AFH ch13 transition to multiengine airplanes,Factors affecting minimum controllable speed (VMC).
 CA.IX.E.K1,phak,explanation,auto,from the Task E References line,Factors affecting minimum controllable speed (VMC).
 CA.IX.E.K1,risk-management,explanation,auto,from the Task E References line,Factors affecting minimum controllable speed (VMC).
-CA.IX.E.K2,afh,explanation,auto,from the Task E References line,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
+CA.IX.E.K2,afh:ch13,explanation,verified,VMC and VYSE and their markings are defined in AFH ch13,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
 CA.IX.E.K2,phak,explanation,auto,from the Task E References line,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
 CA.IX.E.K2,risk-management,explanation,auto,from the Task E References line,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
-CA.IX.E.K3,afh,explanation,auto,from the Task E References line,Accelerate/stop distance.
-CA.IX.E.K3,phak,explanation,auto,from the Task E References line,Accelerate/stop distance.
+CA.IX.E.K3,afh:ch13,explanation,verified,"Accelerate-stop distance is AFH ch13, computed from the performance data of PHAK ch11",Accelerate/stop distance.
+CA.IX.E.K3,phak:ch11,explanation,verified,"Accelerate-stop distance is AFH ch13, computed from the performance data of PHAK ch11",Accelerate/stop distance.
 CA.IX.E.K3,risk-management,explanation,auto,from the Task E References line,Accelerate/stop distance.
-CA.IX.E.R1,afh,explanation,auto,from the Task E References line,Potential engine failure during takeoff.
+CA.IX.E.R1,afh:ch06,explanation,verified,Engine failure on the takeoff roll is AFH ch13; the takeoff itself is AFH ch6,Potential engine failure during takeoff.
+CA.IX.E.R1,afh:ch13,explanation,verified,Engine failure on the takeoff roll is AFH ch13; the takeoff itself is AFH ch6,Potential engine failure during takeoff.
 CA.IX.E.R1,phak,explanation,auto,from the Task E References line,Potential engine failure during takeoff.
 CA.IX.E.R1,risk-management,explanation,auto,from the Task E References line,Potential engine failure during takeoff.
-CA.IX.E.R2,afh,explanation,auto,from the Task E References line,Configuring the airplane.
+CA.IX.E.R2,afh:ch13,explanation,verified,Configuration at the point of failure is AFH ch13,Configuring the airplane.
 CA.IX.E.R2,phak,explanation,auto,from the Task E References line,Configuring the airplane.
 CA.IX.E.R2,risk-management,explanation,auto,from the Task E References line,Configuring the airplane.
 CA.IX.E.R3,afh,explanation,auto,from the Task E References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.IX.E.R3,phak,explanation,auto,from the Task E References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.E.R3,risk-management,explanation,auto,from the Task E References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.E.S1,afh,explanation,auto,from the Task E References line,Close the throttles smoothly and promptly when a simulated engine failure occurs.
+CA.IX.E.R3,risk-management:ch06,explanation,verified,Task prioritization during a rejected takeoff is RMH ch6,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.IX.E.S1,afh:ch13,explanation,verified,Closing both throttles promptly is the AFH ch13 reject procedure,Close the throttles smoothly and promptly when a simulated engine failure occurs.
 CA.IX.E.S1,phak,explanation,auto,from the Task E References line,Close the throttles smoothly and promptly when a simulated engine failure occurs.
 CA.IX.E.S1,risk-management,explanation,auto,from the Task E References line,Close the throttles smoothly and promptly when a simulated engine failure occurs.
-CA.IX.E.S2,afh,explanation,auto,from the Task E References line,"Maintain directional control and apply brakes (AMEL), or flight controls (AMES), as necessary."
+CA.IX.E.S2,afh:ch13,explanation,verified,Directional control and braking through the reject are AFH ch13,"Maintain directional control and apply brakes (AMEL), or flight controls (AMES), as necessary."
 CA.IX.E.S2,phak,explanation,auto,from the Task E References line,"Maintain directional control and apply brakes (AMEL), or flight controls (AMES), as necessary."
 CA.IX.E.S2,risk-management,explanation,auto,from the Task E References line,"Maintain directional control and apply brakes (AMEL), or flight controls (AMES), as necessary."
-CA.IX.F.K1,afh,explanation,auto,from the Task F References line,Factors affecting minimum controllable speed (VMC).
+CA.IX.F.K1,afh:ch13,explanation,verified,VMC factors are AFH ch13,Factors affecting minimum controllable speed (VMC).
 CA.IX.F.K1,phak,explanation,auto,from the Task F References line,Factors affecting minimum controllable speed (VMC).
 CA.IX.F.K1,risk-management,explanation,auto,from the Task F References line,Factors affecting minimum controllable speed (VMC).
-CA.IX.F.K2,afh,explanation,auto,from the Task F References line,"VMC (red line), VYSE (blue line), and safe single-engine speed (VSSE)."
+CA.IX.F.K2,afh:ch13,explanation,verified,"VMC, VYSE, and VSSE are defined in AFH ch13","VMC (red line), VYSE (blue line), and safe single-engine speed (VSSE)."
 CA.IX.F.K2,phak,explanation,auto,from the Task F References line,"VMC (red line), VYSE (blue line), and safe single-engine speed (VSSE)."
 CA.IX.F.K2,risk-management,explanation,auto,from the Task F References line,"VMC (red line), VYSE (blue line), and safe single-engine speed (VSSE)."
-CA.IX.F.K3,afh,explanation,auto,from the Task F References line,Accelerate/stop and accelerate/go distances.
-CA.IX.F.K3,phak,explanation,auto,from the Task F References line,Accelerate/stop and accelerate/go distances.
+CA.IX.F.K3,afh:ch13,explanation,verified,"Accelerate-stop and accelerate-go are AFH ch13, computed from PHAK ch11 performance data",Accelerate/stop and accelerate/go distances.
+CA.IX.F.K3,phak:ch11,explanation,verified,"Accelerate-stop and accelerate-go are AFH ch13, computed from PHAK ch11 performance data",Accelerate/stop and accelerate/go distances.
 CA.IX.F.K3,risk-management,explanation,auto,from the Task F References line,Accelerate/stop and accelerate/go distances.
-CA.IX.F.K4,afh,explanation,auto,from the Task F References line,"How to identify, verify, feather, and secure an inoperative engine."
+CA.IX.F.K4,afh:ch13,explanation,verified,"Identify, verify, feather, and secure is the AFH ch13 flow","How to identify, verify, feather, and secure an inoperative engine."
 CA.IX.F.K4,phak,explanation,auto,from the Task F References line,"How to identify, verify, feather, and secure an inoperative engine."
 CA.IX.F.K4,risk-management,explanation,auto,from the Task F References line,"How to identify, verify, feather, and secure an inoperative engine."
-CA.IX.F.K5,afh,explanation,auto,from the Task F References line,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer’s recommended control input and its relation to zero sideslip."
+CA.IX.F.K5,afh:ch13,explanation,verified,Drag reduction and zero sideslip are AFH ch13,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer’s recommended control input and its relation to zero sideslip."
 CA.IX.F.K5,phak,explanation,auto,from the Task F References line,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer’s recommended control input and its relation to zero sideslip."
 CA.IX.F.K5,risk-management,explanation,auto,from the Task F References line,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer’s recommended control input and its relation to zero sideslip."
-CA.IX.F.K6,afh,explanation,auto,from the Task F References line,Simulated propeller feathering and the evaluator’s zero-thrust procedures and responsibilities.
+CA.IX.F.K6,afh:ch13,explanation,verified,Simulated feathering and zero thrust are described in AFH ch13,Simulated propeller feathering and the evaluator’s zero-thrust procedures and responsibilities.
 CA.IX.F.K6,phak,explanation,auto,from the Task F References line,Simulated propeller feathering and the evaluator’s zero-thrust procedures and responsibilities.
 CA.IX.F.K6,risk-management,explanation,auto,from the Task F References line,Simulated propeller feathering and the evaluator’s zero-thrust procedures and responsibilities.
-CA.IX.F.R1,afh,explanation,auto,from the Task F References line,Potential engine failure after lift-off.
+CA.IX.F.R1,afh:ch06,explanation,verified,Engine failure after lift-off is AFH ch13; the departure climb is AFH ch6,Potential engine failure after lift-off.
+CA.IX.F.R1,afh:ch13,explanation,verified,Engine failure after lift-off is AFH ch13; the departure climb is AFH ch6,Potential engine failure after lift-off.
 CA.IX.F.R1,phak,explanation,auto,from the Task F References line,Potential engine failure after lift-off.
 CA.IX.F.R1,risk-management,explanation,auto,from the Task F References line,Potential engine failure after lift-off.
-CA.IX.F.R2,afh,explanation,auto,from the Task F References line,Collision hazards.
+CA.IX.F.R2,afh:ch13,explanation,verified,Traffic awareness while handling the failure is part of AFH ch13 procedure,Collision hazards.
 CA.IX.F.R2,phak,explanation,auto,from the Task F References line,Collision hazards.
 CA.IX.F.R2,risk-management,explanation,auto,from the Task F References line,Collision hazards.
-CA.IX.F.R3,afh,explanation,auto,from the Task F References line,Configuring the airplane.
+CA.IX.F.R3,afh:ch13,explanation,verified,"Gear, flap, and propeller configuration after the failure is AFH ch13",Configuring the airplane.
 CA.IX.F.R3,phak,explanation,auto,from the Task F References line,Configuring the airplane.
 CA.IX.F.R3,risk-management,explanation,auto,from the Task F References line,Configuring the airplane.
-CA.IX.F.R4,afh,explanation,auto,from the Task F References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.IX.F.R4,afh:ch05,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.IX.F.R4,afh:ch13,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.IX.F.R4,phak,explanation,auto,from the Task F References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.IX.F.R4,risk-management,explanation,auto,from the Task F References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.IX.F.R5,afh,explanation,auto,from the Task F References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.IX.F.R5,phak,explanation,auto,from the Task F References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.F.R5,risk-management,explanation,auto,from the Task F References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.F.S1,afh,explanation,auto,from the Task F References line,"Promptly recognize an engine failure, maintain control, and use appropriate emergency procedures."
+CA.IX.F.R5,risk-management:ch06,explanation,verified,Task prioritization during the failure is RMH ch6,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.IX.F.S1,afh:ch13,explanation,verified,"Recognition and control are AFH ch13, inside the emergency discipline of AFH ch18","Promptly recognize an engine failure, maintain control, and use appropriate emergency procedures."
+CA.IX.F.S1,afh:ch18,explanation,verified,"Recognition and control are AFH ch13, inside the emergency discipline of AFH ch18","Promptly recognize an engine failure, maintain control, and use appropriate emergency procedures."
 CA.IX.F.S1,phak,explanation,auto,from the Task F References line,"Promptly recognize an engine failure, maintain control, and use appropriate emergency procedures."
 CA.IX.F.S1,risk-management,explanation,auto,from the Task F References line,"Promptly recognize an engine failure, maintain control, and use appropriate emergency procedures."
-CA.IX.F.S10,afh,explanation,auto,from the Task F References line,Complete the appropriate checklist(s).
+CA.IX.F.S10,afh:ch13,explanation,verified,Checklist use after the memory items is AFH ch13 and AFH ch18,Complete the appropriate checklist(s).
+CA.IX.F.S10,afh:ch18,explanation,verified,Checklist use after the memory items is AFH ch13 and AFH ch18,Complete the appropriate checklist(s).
 CA.IX.F.S10,phak,explanation,auto,from the Task F References line,Complete the appropriate checklist(s).
 CA.IX.F.S10,risk-management,explanation,auto,from the Task F References line,Complete the appropriate checklist(s).
-CA.IX.F.S2,afh,explanation,auto,from the Task F References line,"Establish VYSE; if obstructions are present, establish best single-engine angle of climb speed (VXSE) or VMC +5 knots, whichever is greater, until obstructions are cleared. Then transition to VYSE."
+CA.IX.F.S2,afh:ch13,explanation,verified,"VYSE, VXSE, and the obstacle clearance speed choice are AFH ch13","Establish VYSE; if obstructions are present, establish best single-engine angle of climb speed (VXSE) or VMC +5 knots, whichever is greater, until obstructions are cleared. Then transition to VYSE."
 CA.IX.F.S2,phak,explanation,auto,from the Task F References line,"Establish VYSE; if obstructions are present, establish best single-engine angle of climb speed (VXSE) or VMC +5 knots, whichever is greater, until obstructions are cleared. Then transition to VYSE."
 CA.IX.F.S2,risk-management,explanation,auto,from the Task F References line,"Establish VYSE; if obstructions are present, establish best single-engine angle of climb speed (VXSE) or VMC +5 knots, whichever is greater, until obstructions are cleared. Then transition to VYSE."
-CA.IX.F.S3,afh,explanation,auto,from the Task F References line,Reduce drag by retracting landing gear and flaps in accordance with the manufacturer’s guidance.
+CA.IX.F.S3,afh:ch13,explanation,verified,Gear and flap retraction to reduce drag is AFH ch13,Reduce drag by retracting landing gear and flaps in accordance with the manufacturer’s guidance.
 CA.IX.F.S3,phak,explanation,auto,from the Task F References line,Reduce drag by retracting landing gear and flaps in accordance with the manufacturer’s guidance.
 CA.IX.F.S3,risk-management,explanation,auto,from the Task F References line,Reduce drag by retracting landing gear and flaps in accordance with the manufacturer’s guidance.
-CA.IX.F.S4,afh,explanation,auto,from the Task F References line,Simulate feathering the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine).
+CA.IX.F.S4,afh:ch13,explanation,verified,Simulated feathering and the zero thrust setting are AFH ch13,Simulate feathering the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine).
 CA.IX.F.S4,phak,explanation,auto,from the Task F References line,Simulate feathering the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine).
 CA.IX.F.S4,risk-management,explanation,auto,from the Task F References line,Simulate feathering the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine).
-CA.IX.F.S5,afh,explanation,auto,from the Task F References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
+CA.IX.F.S5,afh:ch13,explanation,verified,The bank and rudder combination for zero sideslip and trim are AFH ch13,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.IX.F.S5,phak,explanation,auto,from the Task F References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.IX.F.S5,risk-management,explanation,auto,from the Task F References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
-CA.IX.F.S6,afh,explanation,auto,from the Task F References line,Monitor the operating engine and aircraft systems and make adjustments as necessary.
+CA.IX.F.S6,afh:ch13,explanation,verified,Monitoring the operating engine is AFH ch13,Monitor the operating engine and aircraft systems and make adjustments as necessary.
 CA.IX.F.S6,phak,explanation,auto,from the Task F References line,Monitor the operating engine and aircraft systems and make adjustments as necessary.
 CA.IX.F.S6,risk-management,explanation,auto,from the Task F References line,Monitor the operating engine and aircraft systems and make adjustments as necessary.
-CA.IX.F.S7,afh,explanation,auto,from the Task F References line,"Recognize the airplane’s performance capabilities. If a climb is not possible at VYSE, maintain VYSE and return to the departure airport for landing, or initiate an approach to the most suitable landing area available. 57"
-CA.IX.F.S7,phak,explanation,auto,from the Task F References line,"Recognize the airplane’s performance capabilities. If a climb is not possible at VYSE, maintain VYSE and return to the departure airport for landing, or initiate an approach to the most suitable landing area available. 57"
+CA.IX.F.S7,afh:ch13,explanation,verified,"Judging single engine climb capability is AFH ch13, using the performance data of PHAK ch11","Recognize the airplane’s performance capabilities. If a climb is not possible at VYSE, maintain VYSE and return to the departure airport for landing, or initiate an approach to the most suitable landing area available. 57"
+CA.IX.F.S7,phak:ch11,explanation,verified,"Judging single engine climb capability is AFH ch13, using the performance data of PHAK ch11","Recognize the airplane’s performance capabilities. If a climb is not possible at VYSE, maintain VYSE and return to the departure airport for landing, or initiate an approach to the most suitable landing area available. 57"
 CA.IX.F.S7,risk-management,explanation,auto,from the Task F References line,"Recognize the airplane’s performance capabilities. If a climb is not possible at VYSE, maintain VYSE and return to the departure airport for landing, or initiate an approach to the most suitable landing area available. 57"
-CA.IX.F.S8,afh,explanation,auto,from the Task F References line,Simulate securing the inoperative engine.
+CA.IX.F.S8,afh:ch13,explanation,verified,Simulated securing of the failed engine is AFH ch13,Simulate securing the inoperative engine.
 CA.IX.F.S8,phak,explanation,auto,from the Task F References line,Simulate securing the inoperative engine.
 CA.IX.F.S8,risk-management,explanation,auto,from the Task F References line,Simulate securing the inoperative engine.
-CA.IX.F.S9,afh,explanation,auto,from the Task F References line,Maintain heading ±10° and airspeed ±5 knots.
+CA.IX.F.S9,afh:ch13,explanation,verified,Heading and airspeed control on one engine is AFH ch13,Maintain heading ±10° and airspeed ±5 knots.
 CA.IX.F.S9,phak,explanation,auto,from the Task F References line,Maintain heading ±10° and airspeed ±5 knots.
 CA.IX.F.S9,risk-management,explanation,auto,from the Task F References line,Maintain heading ±10° and airspeed ±5 knots.
-CA.IX.G.K1,afh,explanation,auto,from the Task G References line,Factors affecting minimum controllable speed (VMC).
+CA.IX.G.K1,afh:ch13,explanation,verified,VMC factors are AFH ch13,Factors affecting minimum controllable speed (VMC).
 CA.IX.G.K1,phak,explanation,auto,from the Task G References line,Factors affecting minimum controllable speed (VMC).
 CA.IX.G.K1,risk-management,explanation,auto,from the Task G References line,Factors affecting minimum controllable speed (VMC).
-CA.IX.G.K2,afh,explanation,auto,from the Task G References line,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
+CA.IX.G.K2,afh:ch13,explanation,verified,VMC and VYSE are defined in AFH ch13,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
 CA.IX.G.K2,phak,explanation,auto,from the Task G References line,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
 CA.IX.G.K2,risk-management,explanation,auto,from the Task G References line,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
-CA.IX.G.K3,afh,explanation,auto,from the Task G References line,"How to identify, verify, feather, and secure an inoperative engine."
+CA.IX.G.K3,afh:ch13,explanation,verified,"Identify, verify, feather, and secure is the AFH ch13 flow","How to identify, verify, feather, and secure an inoperative engine."
 CA.IX.G.K3,phak,explanation,auto,from the Task G References line,"How to identify, verify, feather, and secure an inoperative engine."
 CA.IX.G.K3,risk-management,explanation,auto,from the Task G References line,"How to identify, verify, feather, and secure an inoperative engine."
-CA.IX.G.K4,afh,explanation,auto,from the Task G References line,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer’s recommended control input and its relation to zero sideslip."
+CA.IX.G.K4,afh:ch13,explanation,verified,Drag reduction and zero sideslip are AFH ch13,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer’s recommended control input and its relation to zero sideslip."
 CA.IX.G.K4,phak,explanation,auto,from the Task G References line,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer’s recommended control input and its relation to zero sideslip."
 CA.IX.G.K4,risk-management,explanation,auto,from the Task G References line,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer’s recommended control input and its relation to zero sideslip."
-CA.IX.G.K5,afh,explanation,auto,from the Task G References line,Applicant responsibilities during simulated feathering.
+CA.IX.G.K5,afh:ch13,explanation,verified,The simulated feathering protocol and who does what are described in AFH ch13,Applicant responsibilities during simulated feathering.
 CA.IX.G.K5,phak,explanation,auto,from the Task G References line,Applicant responsibilities during simulated feathering.
 CA.IX.G.K5,risk-management,explanation,auto,from the Task G References line,Applicant responsibilities during simulated feathering.
-CA.IX.G.R1,afh,explanation,auto,from the Task G References line,Potential engine failure inflight or during an approach.
+CA.IX.G.R1,afh:ch13,explanation,verified,Engine failure inflight or on approach is AFH ch13,Potential engine failure inflight or during an approach.
 CA.IX.G.R1,phak,explanation,auto,from the Task G References line,Potential engine failure inflight or during an approach.
 CA.IX.G.R1,risk-management,explanation,auto,from the Task G References line,Potential engine failure inflight or during an approach.
-CA.IX.G.R2,afh,explanation,auto,from the Task G References line,Collision hazards.
+CA.IX.G.R2,afh:ch08,explanation,verified,Traffic in the pattern while single engine is AFH ch13 with the pattern itself in AFH ch8,Collision hazards.
+CA.IX.G.R2,afh:ch13,explanation,verified,Traffic in the pattern while single engine is AFH ch13 with the pattern itself in AFH ch8,Collision hazards.
 CA.IX.G.R2,phak,explanation,auto,from the Task G References line,Collision hazards.
 CA.IX.G.R2,risk-management,explanation,auto,from the Task G References line,Collision hazards.
-CA.IX.G.R3,afh,explanation,auto,from the Task G References line,Configuring the airplane.
+CA.IX.G.R3,afh:ch13,explanation,verified,Gear and flap timing on a single engine approach is AFH ch13,Configuring the airplane.
 CA.IX.G.R3,phak,explanation,auto,from the Task G References line,Configuring the airplane.
 CA.IX.G.R3,risk-management,explanation,auto,from the Task G References line,Configuring the airplane.
-CA.IX.G.R4,afh,explanation,auto,from the Task G References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.IX.G.R4,afh:ch05,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.IX.G.R4,afh:ch13,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.IX.G.R4,phak,explanation,auto,from the Task G References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.IX.G.R4,risk-management,explanation,auto,from the Task G References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.IX.G.R5,afh,explanation,auto,from the Task G References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.IX.G.R5,phak,explanation,auto,from the Task G References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.G.R5,risk-management,explanation,auto,from the Task G References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.IX.G.R6,afh,explanation,auto,from the Task G References line,Possible single-engine go-around.
+CA.IX.G.R5,risk-management:ch06,explanation,verified,Task prioritization on a single engine approach is RMH ch6,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.IX.G.R6,afh:ch09,explanation,verified,The single engine go-around and its marginal performance are AFH ch13; the go-around technique is AFH ch9,Possible single-engine go-around.
+CA.IX.G.R6,afh:ch13,explanation,verified,The single engine go-around and its marginal performance are AFH ch13; the go-around technique is AFH ch9,Possible single-engine go-around.
 CA.IX.G.R6,phak,explanation,auto,from the Task G References line,Possible single-engine go-around.
 CA.IX.G.R6,risk-management,explanation,auto,from the Task G References line,Possible single-engine go-around.
-CA.IX.G.S1,afh,explanation,auto,from the Task G References line,Promptly recognize an engine failure and maintain positive aircraft control.
+CA.IX.G.S1,afh:ch13,explanation,verified,Recognition and positive control are AFH ch13,Promptly recognize an engine failure and maintain positive aircraft control.
 CA.IX.G.S1,phak,explanation,auto,from the Task G References line,Promptly recognize an engine failure and maintain positive aircraft control.
 CA.IX.G.S1,risk-management,explanation,auto,from the Task G References line,Promptly recognize an engine failure and maintain positive aircraft control.
-CA.IX.G.S10,afh,explanation,auto,from the Task G References line,Complete the appropriate checklist(s). 59
+CA.IX.G.S10,afh:ch13,explanation,verified,Checklist use after the memory items is AFH ch13,Complete the appropriate checklist(s). 59
 CA.IX.G.S10,phak,explanation,auto,from the Task G References line,Complete the appropriate checklist(s). 59
 CA.IX.G.S10,risk-management,explanation,auto,from the Task G References line,Complete the appropriate checklist(s). 59
-CA.IX.G.S2,afh,explanation,auto,from the Task G References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
+CA.IX.G.S2,afh:ch13,explanation,verified,"Setting controls, reducing drag, identifying, verifying, and simulated feathering are the AFH ch13 sequence","Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
 CA.IX.G.S2,phak,explanation,auto,from the Task G References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
 CA.IX.G.S2,risk-management,explanation,auto,from the Task G References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
-CA.IX.G.S3,afh,explanation,auto,from the Task G References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
+CA.IX.G.S3,afh:ch13,explanation,verified,The control combination and trim for best performance are AFH ch13,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.IX.G.S3,phak,explanation,auto,from the Task G References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.IX.G.S3,risk-management,explanation,auto,from the Task G References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
-CA.IX.G.S4,afh,explanation,auto,from the Task G References line,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
-CA.IX.G.S4,phak,explanation,auto,from the Task G References line,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
+CA.IX.G.S4,afh:ch13,explanation,verified,The manufacturer's procedure is followed per AFH ch13 and published in the manuals of PHAK ch9,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
+CA.IX.G.S4,phak:ch09,explanation,verified,The manufacturer's procedure is followed per AFH ch13 and published in the manuals of PHAK ch9,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
 CA.IX.G.S4,risk-management,explanation,auto,from the Task G References line,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
-CA.IX.G.S5,afh,explanation,auto,from the Task G References line,Monitor the operating engine and aircraft systems and make adjustments as necessary. 58
+CA.IX.G.S5,afh:ch13,explanation,verified,Monitoring the operating engine is AFH ch13,Monitor the operating engine and aircraft systems and make adjustments as necessary. 58
 CA.IX.G.S5,phak,explanation,auto,from the Task G References line,Monitor the operating engine and aircraft systems and make adjustments as necessary. 58
 CA.IX.G.S5,risk-management,explanation,auto,from the Task G References line,Monitor the operating engine and aircraft systems and make adjustments as necessary. 58
-CA.IX.G.S6,afh,explanation,auto,from the Task G References line,"Maintain the manufacturer's recommended approach airspeed ±5 knots in the landing configuration with a stabilized approach, until landing is assured."
+CA.IX.G.S6,afh:ch09,explanation,verified,The single engine approach speed is AFH ch13; the stabilized approach is AFH ch9,"Maintain the manufacturer's recommended approach airspeed ±5 knots in the landing configuration with a stabilized approach, until landing is assured."
+CA.IX.G.S6,afh:ch13,explanation,verified,The single engine approach speed is AFH ch13; the stabilized approach is AFH ch9,"Maintain the manufacturer's recommended approach airspeed ±5 knots in the landing configuration with a stabilized approach, until landing is assured."
 CA.IX.G.S6,phak,explanation,auto,from the Task G References line,"Maintain the manufacturer's recommended approach airspeed ±5 knots in the landing configuration with a stabilized approach, until landing is assured."
 CA.IX.G.S6,risk-management,explanation,auto,from the Task G References line,"Maintain the manufacturer's recommended approach airspeed ±5 knots in the landing configuration with a stabilized approach, until landing is assured."
-CA.IX.G.S7,afh,explanation,auto,from the Task G References line,"Make smooth, timely, and correct control application before, during, and after touchdown."
+CA.IX.G.S7,afh:ch09,explanation,verified,Control application through the flare and rollout is AFH ch9,"Make smooth, timely, and correct control application before, during, and after touchdown."
 CA.IX.G.S7,phak,explanation,auto,from the Task G References line,"Make smooth, timely, and correct control application before, during, and after touchdown."
 CA.IX.G.S7,risk-management,explanation,auto,from the Task G References line,"Make smooth, timely, and correct control application before, during, and after touchdown."
-CA.IX.G.S8,afh,explanation,auto,from the Task G References line,"Touch down on the first one-third of available runway/landing surface, with no drift, and the airplane’s longitudinal axis aligned with and over the runway center or landing path."
+CA.IX.G.S8,afh:ch09,explanation,verified,"Touchdown point, drift, and alignment are AFH ch9","Touch down on the first one-third of available runway/landing surface, with no drift, and the airplane’s longitudinal axis aligned with and over the runway center or landing path."
 CA.IX.G.S8,phak,explanation,auto,from the Task G References line,"Touch down on the first one-third of available runway/landing surface, with no drift, and the airplane’s longitudinal axis aligned with and over the runway center or landing path."
 CA.IX.G.S8,risk-management,explanation,auto,from the Task G References line,"Touch down on the first one-third of available runway/landing surface, with no drift, and the airplane’s longitudinal axis aligned with and over the runway center or landing path."
-CA.IX.G.S9,afh,explanation,auto,from the Task G References line,Maintain directional control and appropriate crosswind correction throughout the approach and landing.
+CA.IX.G.S9,afh:ch09,explanation,verified,Directional control and crosswind correction on landing are AFH ch9,Maintain directional control and appropriate crosswind correction throughout the approach and landing.
 CA.IX.G.S9,phak,explanation,auto,from the Task G References line,Maintain directional control and appropriate crosswind correction throughout the approach and landing.
 CA.IX.G.S9,risk-management,explanation,auto,from the Task G References line,Maintain directional control and appropriate crosswind correction throughout the approach and landing.
 CA.V.A.K1,afh:ch10,explanation,verified,Steep turns are an AFH ch10 Performance Maneuver.,How to conduct a proper steep turn.
@@ -4897,272 +4910,283 @@ CA.VIII.B.S4,afh,explanation,auto,from the Task B References line,"Use single-pi
 CA.VIII.B.S4,aim,guidance,auto,from the Task B References line,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 52"
 CA.VIII.B.S4,phak:ch02,explanation,verified,PHAK ch2 is ADM including CRM and SRM; Risk Management ch8 is decision-making in flight.,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 52"
 CA.VIII.B.S4,risk-management:ch08,explanation,verified,PHAK ch2 is ADM including CRM and SRM; Risk Management ch8 is decision-making in flight.,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 52"
-CA.X.A.K1,afh,explanation,auto,from the Task A References line,Factors affecting minimum controllable speed (VMC).
+CA.X.A.K1,afh:ch13,explanation,verified,VMC factors are AFH ch13,Factors affecting minimum controllable speed (VMC).
 CA.X.A.K1,phak,explanation,auto,from the Task A References line,Factors affecting minimum controllable speed (VMC).
 CA.X.A.K1,risk-management,explanation,auto,from the Task A References line,Factors affecting minimum controllable speed (VMC).
-CA.X.A.K2,afh,explanation,auto,from the Task A References line,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
+CA.X.A.K2,afh:ch13,explanation,verified,VMC and VYSE are defined in AFH ch13,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
 CA.X.A.K2,phak,explanation,auto,from the Task A References line,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
 CA.X.A.K2,risk-management,explanation,auto,from the Task A References line,VMC (red line) and best single-engine rate of climb airspeed (VYSE) (blue line).
-CA.X.A.K3,afh,explanation,auto,from the Task A References line,"How to identify, verify, feather, and secure an inoperative engine."
+CA.X.A.K3,afh:ch13,explanation,verified,"Identify, verify, feather, and secure is the AFH ch13 flow","How to identify, verify, feather, and secure an inoperative engine."
 CA.X.A.K3,phak,explanation,auto,from the Task A References line,"How to identify, verify, feather, and secure an inoperative engine."
 CA.X.A.K3,risk-management,explanation,auto,from the Task A References line,"How to identify, verify, feather, and secure an inoperative engine."
-CA.X.A.K4,afh,explanation,auto,from the Task A References line,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer's recommended control input and its relation to zero sideslip."
+CA.X.A.K4,afh:ch13,explanation,verified,Drag reduction and zero sideslip are AFH ch13,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer's recommended control input and its relation to zero sideslip."
 CA.X.A.K4,phak,explanation,auto,from the Task A References line,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer's recommended control input and its relation to zero sideslip."
 CA.X.A.K4,risk-management,explanation,auto,from the Task A References line,"Importance of drag reduction, including propeller feathering, gear and flap retraction, the manufacturer's recommended control input and its relation to zero sideslip."
-CA.X.A.K5,afh,explanation,auto,from the Task A References line,"Feathering, securing, unfeathering, and restarting."
-CA.X.A.K5,phak,explanation,auto,from the Task A References line,"Feathering, securing, unfeathering, and restarting."
+CA.X.A.K5,afh:ch13,explanation,verified,Feathering and restart procedure is AFH ch13; the propeller and its feathering mechanism are PHAK ch7,"Feathering, securing, unfeathering, and restarting."
+CA.X.A.K5,phak:ch07,explanation,verified,Feathering and restart procedure is AFH ch13; the propeller and its feathering mechanism are PHAK ch7,"Feathering, securing, unfeathering, and restarting."
 CA.X.A.K5,risk-management,explanation,auto,from the Task A References line,"Feathering, securing, unfeathering, and restarting."
-CA.X.A.R1,afh,explanation,auto,from the Task A References line,Potential engine failure during flight.
+CA.X.A.R1,afh:ch13,explanation,verified,"Engine failure in cruise is AFH ch13, inside the emergency discipline of AFH ch18",Potential engine failure during flight.
+CA.X.A.R1,afh:ch18,explanation,verified,"Engine failure in cruise is AFH ch13, inside the emergency discipline of AFH ch18",Potential engine failure during flight.
 CA.X.A.R1,phak,explanation,auto,from the Task A References line,Potential engine failure during flight.
 CA.X.A.R1,risk-management,explanation,auto,from the Task A References line,Potential engine failure during flight.
-CA.X.A.R2,afh,explanation,auto,from the Task A References line,Collision hazards.
+CA.X.A.R2,afh:ch13,explanation,verified,Clearing during engine-out maneuvering is part of AFH ch13 procedure,Collision hazards.
 CA.X.A.R2,phak,explanation,auto,from the Task A References line,Collision hazards.
 CA.X.A.R2,risk-management,explanation,auto,from the Task A References line,Collision hazards.
-CA.X.A.R3,afh,explanation,auto,from the Task A References line,Configuring the airplane.
+CA.X.A.R3,afh:ch13,explanation,verified,Configuration errors with an engine out are AFH ch13,Configuring the airplane.
 CA.X.A.R3,phak,explanation,auto,from the Task A References line,Configuring the airplane.
 CA.X.A.R3,risk-management,explanation,auto,from the Task A References line,Configuring the airplane.
-CA.X.A.R4,afh,explanation,auto,from the Task A References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.X.A.R4,afh:ch05,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.X.A.R4,afh:ch13,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.A.R4,phak,explanation,auto,from the Task A References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.A.R4,risk-management,explanation,auto,from the Task A References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.A.R5,afh,explanation,auto,from the Task A References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.X.A.R5,phak,explanation,auto,from the Task A References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.A.R5,risk-management,explanation,auto,from the Task A References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.A.S1,afh,explanation,auto,from the Task A References line,"Recognize an engine failure, maintain control, use manufacturer’s memory item procedures, and use appropriate emergency procedures."
+CA.X.A.R5,risk-management:ch06,explanation,verified,Task prioritization during the failure is RMH ch6,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.X.A.S1,afh:ch13,explanation,verified,"Recognition and memory items are AFH ch13, following the AFH ch18 emergency flow","Recognize an engine failure, maintain control, use manufacturer’s memory item procedures, and use appropriate emergency procedures."
+CA.X.A.S1,afh:ch18,explanation,verified,"Recognition and memory items are AFH ch13, following the AFH ch18 emergency flow","Recognize an engine failure, maintain control, use manufacturer’s memory item procedures, and use appropriate emergency procedures."
 CA.X.A.S1,phak,explanation,auto,from the Task A References line,"Recognize an engine failure, maintain control, use manufacturer’s memory item procedures, and use appropriate emergency procedures."
 CA.X.A.S1,risk-management,explanation,auto,from the Task A References line,"Recognize an engine failure, maintain control, use manufacturer’s memory item procedures, and use appropriate emergency procedures."
-CA.X.A.S2,afh,explanation,auto,from the Task A References line,"Set the engine controls, identify and verify the inoperative engine, and feather the appropriate propeller."
+CA.X.A.S2,afh:ch13,explanation,verified,"Setting controls, identifying, verifying, and feathering are the AFH ch13 sequence","Set the engine controls, identify and verify the inoperative engine, and feather the appropriate propeller."
 CA.X.A.S2,phak,explanation,auto,from the Task A References line,"Set the engine controls, identify and verify the inoperative engine, and feather the appropriate propeller."
 CA.X.A.S2,risk-management,explanation,auto,from the Task A References line,"Set the engine controls, identify and verify the inoperative engine, and feather the appropriate propeller."
-CA.X.A.S3,afh,explanation,auto,from the Task A References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
+CA.X.A.S3,afh:ch13,explanation,verified,The control combination and trim for zero sideslip are AFH ch13,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.X.A.S3,phak,explanation,auto,from the Task A References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.X.A.S3,risk-management,explanation,auto,from the Task A References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
-CA.X.A.S4,afh,explanation,auto,from the Task A References line,Attempt to determine and resolve the reason for the engine failure.
+CA.X.A.S4,afh:ch13,explanation,verified,Troubleshooting the failure is AFH ch13 within the AFH ch18 emergency flow,Attempt to determine and resolve the reason for the engine failure.
+CA.X.A.S4,afh:ch18,explanation,verified,Troubleshooting the failure is AFH ch13 within the AFH ch18 emergency flow,Attempt to determine and resolve the reason for the engine failure.
 CA.X.A.S4,phak,explanation,auto,from the Task A References line,Attempt to determine and resolve the reason for the engine failure.
 CA.X.A.S4,risk-management,explanation,auto,from the Task A References line,Attempt to determine and resolve the reason for the engine failure.
-CA.X.A.S5,afh,explanation,auto,from the Task A References line,Secure the inoperative engine and monitor the operating engine and make necessary adjustments.
+CA.X.A.S5,afh:ch13,explanation,verified,Securing the failed engine and monitoring the operating one are AFH ch13,Secure the inoperative engine and monitor the operating engine and make necessary adjustments.
 CA.X.A.S5,phak,explanation,auto,from the Task A References line,Secure the inoperative engine and monitor the operating engine and make necessary adjustments.
 CA.X.A.S5,risk-management,explanation,auto,from the Task A References line,Secure the inoperative engine and monitor the operating engine and make necessary adjustments.
-CA.X.A.S6,afh,explanation,auto,from the Task A References line,Restart the inoperative engine using manufacturer’s restart procedures.
+CA.X.A.S6,afh:ch13,explanation,verified,Unfeathering and airstart are AFH ch13,Restart the inoperative engine using manufacturer’s restart procedures.
 CA.X.A.S6,phak,explanation,auto,from the Task A References line,Restart the inoperative engine using manufacturer’s restart procedures.
 CA.X.A.S6,risk-management,explanation,auto,from the Task A References line,Restart the inoperative engine using manufacturer’s restart procedures.
-CA.X.A.S7,afh,explanation,auto,from the Task A References line,"Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected headings ±10°."
+CA.X.A.S7,afh:ch13,explanation,verified,"Holding altitude, airspeed, and heading on one engine is the AFH ch13 performance discussion","Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected headings ±10°."
 CA.X.A.S7,phak,explanation,auto,from the Task A References line,"Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected headings ±10°."
 CA.X.A.S7,risk-management,explanation,auto,from the Task A References line,"Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected headings ±10°."
-CA.X.A.S8,afh,explanation,auto,from the Task A References line,Complete the appropriate checklist(s). 60
+CA.X.A.S8,afh:ch13,explanation,verified,Checklist use after the memory items is AFH ch13 and AFH ch18,Complete the appropriate checklist(s). 60
+CA.X.A.S8,afh:ch18,explanation,verified,Checklist use after the memory items is AFH ch13 and AFH ch18,Complete the appropriate checklist(s). 60
 CA.X.A.S8,phak,explanation,auto,from the Task A References line,Complete the appropriate checklist(s). 60
 CA.X.A.S8,risk-management,explanation,auto,from the Task A References line,Complete the appropriate checklist(s). 60
-CA.X.B.K1,afh,explanation,auto,from the Task B References line,Factors affecting VMC and how VMC differs from stall speed (VS).
+CA.X.B.K1,afh:ch13,explanation,verified,AFH ch13 explains the VMC factors and why VMC can fall below stall speed,Factors affecting VMC and how VMC differs from stall speed (VS).
 CA.X.B.K1,phak,explanation,auto,from the Task B References line,Factors affecting VMC and how VMC differs from stall speed (VS).
 CA.X.B.K1,risk-management,explanation,auto,from the Task B References line,Factors affecting VMC and how VMC differs from stall speed (VS).
-CA.X.B.K2,afh,explanation,auto,from the Task B References line,"VMC (red line), VYSE (blue line), and safe single-engine speed (VSSE)."
+CA.X.B.K2,afh:ch13,explanation,verified,"VMC, VYSE, and VSSE are defined in AFH ch13","VMC (red line), VYSE (blue line), and safe single-engine speed (VSSE)."
 CA.X.B.K2,phak,explanation,auto,from the Task B References line,"VMC (red line), VYSE (blue line), and safe single-engine speed (VSSE)."
 CA.X.B.K2,risk-management,explanation,auto,from the Task B References line,"VMC (red line), VYSE (blue line), and safe single-engine speed (VSSE)."
-CA.X.B.K3,afh,explanation,auto,from the Task B References line,Cause of loss of directional control at airspeeds below VMC.
+CA.X.B.K3,afh:ch13,explanation,verified,The cause of directional control loss below VMC is AFH ch13,Cause of loss of directional control at airspeeds below VMC.
 CA.X.B.K3,phak,explanation,auto,from the Task B References line,Cause of loss of directional control at airspeeds below VMC.
 CA.X.B.K3,risk-management,explanation,auto,from the Task B References line,Cause of loss of directional control at airspeeds below VMC.
-CA.X.B.K4,afh,explanation,auto,from the Task B References line,Proper procedures for maneuver entry and safe recovery.
+CA.X.B.K4,afh:ch13,explanation,verified,Entry and recovery for the VMC demonstration are AFH ch13,Proper procedures for maneuver entry and safe recovery.
 CA.X.B.K4,phak,explanation,auto,from the Task B References line,Proper procedures for maneuver entry and safe recovery.
 CA.X.B.K4,risk-management,explanation,auto,from the Task B References line,Proper procedures for maneuver entry and safe recovery.
-CA.X.B.R1,afh,explanation,auto,from the Task B References line,Configuring the airplane.
+CA.X.B.R1,afh:ch13,explanation,verified,The demonstration configuration and its risks are AFH ch13,Configuring the airplane.
 CA.X.B.R1,phak,explanation,auto,from the Task B References line,Configuring the airplane.
 CA.X.B.R1,risk-management,explanation,auto,from the Task B References line,Configuring the airplane.
-CA.X.B.R2,afh,explanation,auto,from the Task B References line,Maneuvering with one engine inoperative.
+CA.X.B.R2,afh:ch13,explanation,verified,Engine-out maneuvering risk is AFH ch13,Maneuvering with one engine inoperative.
 CA.X.B.R2,phak,explanation,auto,from the Task B References line,Maneuvering with one engine inoperative.
 CA.X.B.R2,risk-management,explanation,auto,from the Task B References line,Maneuvering with one engine inoperative.
 CA.X.B.R3,afh,explanation,auto,from the Task B References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.X.B.R3,phak,explanation,auto,from the Task B References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.B.R3,risk-management,explanation,auto,from the Task B References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.B.S1,afh,explanation,auto,from the Task B References line,"Configure the airplane in accordance with the manufacturer’s recommendations, in the absence of the manufacturer’s recommendations, then at safe single-engine speed (VSSE/VYSE), as appropriate, and:"
+CA.X.B.R3,risk-management:ch06,explanation,verified,Task prioritization during the demonstration is RMH ch6,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.X.B.S1,afh:ch13,explanation,verified,The VMC demonstration setup is specified in AFH ch13,"Configure the airplane in accordance with the manufacturer’s recommendations, in the absence of the manufacturer’s recommendations, then at safe single-engine speed (VSSE/VYSE), as appropriate, and:"
 CA.X.B.S1,phak,explanation,auto,from the Task B References line,"Configure the airplane in accordance with the manufacturer’s recommendations, in the absence of the manufacturer’s recommendations, then at safe single-engine speed (VSSE/VYSE), as appropriate, and:"
 CA.X.B.S1,risk-management,explanation,auto,from the Task B References line,"Configure the airplane in accordance with the manufacturer’s recommendations, in the absence of the manufacturer’s recommendations, then at safe single-engine speed (VSSE/VYSE), as appropriate, and:"
-CA.X.B.S1a,afh,explanation,auto,from the Task B References line,a. Landing gear retracted
+CA.X.B.S1a,afh:ch13,explanation,verified,Gear retracted is part of the AFH ch13 demonstration configuration,a. Landing gear retracted
 CA.X.B.S1a,phak,explanation,auto,from the Task B References line,a. Landing gear retracted
 CA.X.B.S1a,risk-management,explanation,auto,from the Task B References line,a. Landing gear retracted
-CA.X.B.S1b,afh,explanation,auto,from the Task B References line,b. Flaps set for takeoff
+CA.X.B.S1b,afh:ch13,explanation,verified,Takeoff flaps are part of the AFH ch13 demonstration configuration,b. Flaps set for takeoff
 CA.X.B.S1b,phak,explanation,auto,from the Task B References line,b. Flaps set for takeoff
 CA.X.B.S1b,risk-management,explanation,auto,from the Task B References line,b. Flaps set for takeoff
-CA.X.B.S1c,afh,explanation,auto,from the Task B References line,c. Cowl flaps set for takeoff
+CA.X.B.S1c,afh:ch13,explanation,verified,Cowl flap setting is part of the AFH ch13 demonstration configuration,c. Cowl flaps set for takeoff
 CA.X.B.S1c,phak,explanation,auto,from the Task B References line,c. Cowl flaps set for takeoff
 CA.X.B.S1c,risk-management,explanation,auto,from the Task B References line,c. Cowl flaps set for takeoff
-CA.X.B.S1d,afh,explanation,auto,from the Task B References line,d. Trim set for takeoff
+CA.X.B.S1d,afh:ch13,explanation,verified,Takeoff trim is part of the AFH ch13 demonstration configuration,d. Trim set for takeoff
 CA.X.B.S1d,phak,explanation,auto,from the Task B References line,d. Trim set for takeoff
 CA.X.B.S1d,risk-management,explanation,auto,from the Task B References line,d. Trim set for takeoff
-CA.X.B.S1e,afh,explanation,auto,from the Task B References line,e. Propellers set for high revolutions per minute (rpm)
+CA.X.B.S1e,afh:ch13,explanation,verified,High rpm propellers are part of the AFH ch13 demonstration configuration,e. Propellers set for high revolutions per minute (rpm)
 CA.X.B.S1e,phak,explanation,auto,from the Task B References line,e. Propellers set for high revolutions per minute (rpm)
 CA.X.B.S1e,risk-management,explanation,auto,from the Task B References line,e. Propellers set for high revolutions per minute (rpm)
-CA.X.B.S1f,afh,explanation,auto,from the Task B References line,f. Power on critical engine reduced to idle and propeller windmilling
+CA.X.B.S1f,afh:ch13,explanation,verified,Idling the critical engine with the propeller windmilling is the AFH ch13 setup,f. Power on critical engine reduced to idle and propeller windmilling
 CA.X.B.S1f,phak,explanation,auto,from the Task B References line,f. Power on critical engine reduced to idle and propeller windmilling
 CA.X.B.S1f,risk-management,explanation,auto,from the Task B References line,f. Power on critical engine reduced to idle and propeller windmilling
-CA.X.B.S1g,afh,explanation,auto,from the Task B References line,g. Power on operating engine set to takeoff or maximum available power
+CA.X.B.S1g,afh:ch13,explanation,verified,Takeoff power on the operating engine is the AFH ch13 setup,g. Power on operating engine set to takeoff or maximum available power
 CA.X.B.S1g,phak,explanation,auto,from the Task B References line,g. Power on operating engine set to takeoff or maximum available power
 CA.X.B.S1g,risk-management,explanation,auto,from the Task B References line,g. Power on operating engine set to takeoff or maximum available power
-CA.X.B.S2,afh,explanation,auto,from the Task B References line,Establish a single-engine climb attitude with the airspeed at approximately 10 knots above VSSE.
+CA.X.B.S2,afh:ch13,explanation,verified,The entry climb attitude and VSSE reference are AFH ch13,Establish a single-engine climb attitude with the airspeed at approximately 10 knots above VSSE.
 CA.X.B.S2,phak,explanation,auto,from the Task B References line,Establish a single-engine climb attitude with the airspeed at approximately 10 knots above VSSE.
 CA.X.B.S2,risk-management,explanation,auto,from the Task B References line,Establish a single-engine climb attitude with the airspeed at approximately 10 knots above VSSE.
-CA.X.B.S3,afh,explanation,auto,from the Task B References line,"Establish a bank angle not to exceed 5° toward the operating engine, as required for best performance and controllability."
+CA.X.B.S3,afh:ch13,explanation,verified,The five degree bank toward the operating engine is specified in AFH ch13,"Establish a bank angle not to exceed 5° toward the operating engine, as required for best performance and controllability."
 CA.X.B.S3,phak,explanation,auto,from the Task B References line,"Establish a bank angle not to exceed 5° toward the operating engine, as required for best performance and controllability."
 CA.X.B.S3,risk-management,explanation,auto,from the Task B References line,"Establish a bank angle not to exceed 5° toward the operating engine, as required for best performance and controllability."
-CA.X.B.S4,afh,explanation,auto,from the Task B References line,Increase the pitch attitude slowly to reduce the airspeed at approximately 1 knot per second while applying increased rudder pressure as needed to maintain directional control.
+CA.X.B.S4,afh:ch13,explanation,verified,The one knot per second deceleration with increasing rudder is AFH ch13,Increase the pitch attitude slowly to reduce the airspeed at approximately 1 knot per second while applying increased rudder pressure as needed to maintain directional control.
 CA.X.B.S4,phak,explanation,auto,from the Task B References line,Increase the pitch attitude slowly to reduce the airspeed at approximately 1 knot per second while applying increased rudder pressure as needed to maintain directional control.
 CA.X.B.S4,risk-management,explanation,auto,from the Task B References line,Increase the pitch attitude slowly to reduce the airspeed at approximately 1 knot per second while applying increased rudder pressure as needed to maintain directional control.
-CA.X.B.S5,afh,explanation,auto,from the Task B References line,"Recognize and recover at the first indication of loss of directional control, stall warning, or buffet."
+CA.X.B.S5,afh:ch05,explanation,verified,The recovery trigger is AFH ch13; stall warning recognition is AFH ch5,"Recognize and recover at the first indication of loss of directional control, stall warning, or buffet."
+CA.X.B.S5,afh:ch13,explanation,verified,The recovery trigger is AFH ch13; stall warning recognition is AFH ch5,"Recognize and recover at the first indication of loss of directional control, stall warning, or buffet."
 CA.X.B.S5,phak,explanation,auto,from the Task B References line,"Recognize and recover at the first indication of loss of directional control, stall warning, or buffet."
 CA.X.B.S5,risk-management,explanation,auto,from the Task B References line,"Recognize and recover at the first indication of loss of directional control, stall warning, or buffet."
-CA.X.B.S6,afh,explanation,auto,from the Task B References line,"Recover promptly by simultaneously reducing power sufficiently on the operating engine, decreasing the angle of attack as necessary to regain airspeed and directional control, and without adding power on the simulated failed engine."
+CA.X.B.S6,afh:ch13,explanation,verified,The simultaneous power reduction and angle of attack decrease are AFH ch13,"Recover promptly by simultaneously reducing power sufficiently on the operating engine, decreasing the angle of attack as necessary to regain airspeed and directional control, and without adding power on the simulated failed engine."
 CA.X.B.S6,phak,explanation,auto,from the Task B References line,"Recover promptly by simultaneously reducing power sufficiently on the operating engine, decreasing the angle of attack as necessary to regain airspeed and directional control, and without adding power on the simulated failed engine."
 CA.X.B.S6,risk-management,explanation,auto,from the Task B References line,"Recover promptly by simultaneously reducing power sufficiently on the operating engine, decreasing the angle of attack as necessary to regain airspeed and directional control, and without adding power on the simulated failed engine."
-CA.X.B.S7,afh,explanation,auto,from the Task B References line,Recover within 20° of entry heading. 61
+CA.X.B.S7,afh:ch13,explanation,verified,Heading control through the recovery is part of the AFH ch13 demonstration,Recover within 20° of entry heading. 61
 CA.X.B.S7,phak,explanation,auto,from the Task B References line,Recover within 20° of entry heading. 61
 CA.X.B.S7,risk-management,explanation,auto,from the Task B References line,Recover within 20° of entry heading. 61
-CA.X.B.S8,afh,explanation,auto,from the Task B References line,"Advance power smoothly on the operating engine and accelerate to VSSE/VYSE, as appropriate, ±5 knots during recovery."
+CA.X.B.S8,afh:ch13,explanation,verified,Reacceleration to VSSE or VYSE after recovery is AFH ch13,"Advance power smoothly on the operating engine and accelerate to VSSE/VYSE, as appropriate, ±5 knots during recovery."
 CA.X.B.S8,phak,explanation,auto,from the Task B References line,"Advance power smoothly on the operating engine and accelerate to VSSE/VYSE, as appropriate, ±5 knots during recovery."
 CA.X.B.S8,risk-management,explanation,auto,from the Task B References line,"Advance power smoothly on the operating engine and accelerate to VSSE/VYSE, as appropriate, ±5 knots during recovery."
-CA.X.C.K1,afh,explanation,auto,from the Task C References line,Procedures used if engine failure occurs during straight-and-level flight and turns while on instruments.
-CA.X.C.K1,ifh,explanation,auto,from the Task C References line,Procedures used if engine failure occurs during straight-and-level flight and turns while on instruments.
+CA.X.C.K1,afh:ch13,explanation,verified,The engine-out procedure is AFH ch13; handling it by reference to instruments is IFH ch11 emergency operations,Procedures used if engine failure occurs during straight-and-level flight and turns while on instruments.
+CA.X.C.K1,ifh:ch11,explanation,verified,The engine-out procedure is AFH ch13; handling it by reference to instruments is IFH ch11 emergency operations,Procedures used if engine failure occurs during straight-and-level flight and turns while on instruments.
 CA.X.C.K1,phak,explanation,auto,from the Task C References line,Procedures used if engine failure occurs during straight-and-level flight and turns while on instruments.
 CA.X.C.K1,risk-management,explanation,auto,from the Task C References line,Procedures used if engine failure occurs during straight-and-level flight and turns while on instruments.
-CA.X.C.R1,afh,explanation,auto,from the Task C References line,Identification of the inoperative engine.
+CA.X.C.R1,afh:ch13,explanation,verified,Misidentifying the failed engine is the classic error described in AFH ch13,Identification of the inoperative engine.
 CA.X.C.R1,ifh,explanation,auto,from the Task C References line,Identification of the inoperative engine.
 CA.X.C.R1,phak,explanation,auto,from the Task C References line,Identification of the inoperative engine.
 CA.X.C.R1,risk-management,explanation,auto,from the Task C References line,Identification of the inoperative engine.
-CA.X.C.R2,afh,explanation,auto,from the Task C References line,Inability to climb or maintain altitude with an inoperative engine.
+CA.X.C.R2,afh:ch13,explanation,verified,"Single engine service ceiling and drift down are AFH ch13, using PHAK ch11 performance data",Inability to climb or maintain altitude with an inoperative engine.
 CA.X.C.R2,ifh,explanation,auto,from the Task C References line,Inability to climb or maintain altitude with an inoperative engine.
-CA.X.C.R2,phak,explanation,auto,from the Task C References line,Inability to climb or maintain altitude with an inoperative engine.
+CA.X.C.R2,phak:ch11,explanation,verified,"Single engine service ceiling and drift down are AFH ch13, using PHAK ch11 performance data",Inability to climb or maintain altitude with an inoperative engine.
 CA.X.C.R2,risk-management,explanation,auto,from the Task C References line,Inability to climb or maintain altitude with an inoperative engine.
-CA.X.C.R3,afh,explanation,auto,from the Task C References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.X.C.R3,afh:ch05,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.X.C.R3,afh:ch13,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.C.R3,ifh,explanation,auto,from the Task C References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.C.R3,phak,explanation,auto,from the Task C References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.C.R3,risk-management,explanation,auto,from the Task C References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.C.R4,afh,explanation,auto,from the Task C References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.C.R4,ifh,explanation,auto,from the Task C References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.X.C.R4,ifh:ch03,explanation,verified,Task prioritization is RMH ch6; disorientation while on instruments is IFH ch3 human factors,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.X.C.R4,phak,explanation,auto,from the Task C References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.C.R4,risk-management,explanation,auto,from the Task C References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.C.R5,afh,explanation,auto,from the Task C References line,Fuel management during single-engine operation.
+CA.X.C.R4,risk-management:ch06,explanation,verified,Task prioritization is RMH ch6; disorientation while on instruments is IFH ch3 human factors,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.X.C.R5,afh:ch13,explanation,verified,Crossfeed and fuel balance on one engine are AFH ch13; the fuel system is PHAK ch7,Fuel management during single-engine operation.
 CA.X.C.R5,ifh,explanation,auto,from the Task C References line,Fuel management during single-engine operation.
-CA.X.C.R5,phak,explanation,auto,from the Task C References line,Fuel management during single-engine operation.
+CA.X.C.R5,phak:ch07,explanation,verified,Crossfeed and fuel balance on one engine are AFH ch13; the fuel system is PHAK ch7,Fuel management during single-engine operation.
 CA.X.C.R5,risk-management,explanation,auto,from the Task C References line,Fuel management during single-engine operation.
-CA.X.C.S1,afh,explanation,auto,from the Task C References line,Promptly recognize an engine failure and maintain positive aircraft control.
-CA.X.C.S1,ifh,explanation,auto,from the Task C References line,Promptly recognize an engine failure and maintain positive aircraft control.
+CA.X.C.S1,afh:ch13,explanation,verified,"Recognition and control are AFH ch13, on instruments per IFH ch11",Promptly recognize an engine failure and maintain positive aircraft control.
+CA.X.C.S1,ifh:ch11,explanation,verified,"Recognition and control are AFH ch13, on instruments per IFH ch11",Promptly recognize an engine failure and maintain positive aircraft control.
 CA.X.C.S1,phak,explanation,auto,from the Task C References line,Promptly recognize an engine failure and maintain positive aircraft control.
 CA.X.C.S1,risk-management,explanation,auto,from the Task C References line,Promptly recognize an engine failure and maintain positive aircraft control.
-CA.X.C.S10,afh,explanation,auto,from the Task C References line,Avoid loss of airplane control or attempted flight contrary to the engine-inoperative operating limitations of the airplane.
+CA.X.C.S10,afh:ch13,explanation,verified,The engine-inoperative limitations are AFH ch13 and are published in the manuals of PHAK ch9,Avoid loss of airplane control or attempted flight contrary to the engine-inoperative operating limitations of the airplane.
 CA.X.C.S10,ifh,explanation,auto,from the Task C References line,Avoid loss of airplane control or attempted flight contrary to the engine-inoperative operating limitations of the airplane.
-CA.X.C.S10,phak,explanation,auto,from the Task C References line,Avoid loss of airplane control or attempted flight contrary to the engine-inoperative operating limitations of the airplane.
+CA.X.C.S10,phak:ch09,explanation,verified,The engine-inoperative limitations are AFH ch13 and are published in the manuals of PHAK ch9,Avoid loss of airplane control or attempted flight contrary to the engine-inoperative operating limitations of the airplane.
 CA.X.C.S10,risk-management,explanation,auto,from the Task C References line,Avoid loss of airplane control or attempted flight contrary to the engine-inoperative operating limitations of the airplane.
 CA.X.C.S11,afh,explanation,auto,from the Task C References line,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 62"
 CA.X.C.S11,ifh,explanation,auto,from the Task C References line,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 62"
-CA.X.C.S11,phak,explanation,auto,from the Task C References line,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 62"
-CA.X.C.S11,risk-management,explanation,auto,from the Task C References line,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 62"
-CA.X.C.S2,afh,explanation,auto,from the Task C References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
+CA.X.C.S11,phak:ch02,explanation,verified,SRM and CRM in an emergency are RMH ch8; ADM is PHAK ch2,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 62"
+CA.X.C.S11,risk-management:ch08,explanation,verified,SRM and CRM in an emergency are RMH ch8; ADM is PHAK ch2,"Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 62"
+CA.X.C.S2,afh:ch13,explanation,verified,"Setting controls, reducing drag, identifying, verifying, and simulated feathering are the AFH ch13 sequence","Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
 CA.X.C.S2,ifh,explanation,auto,from the Task C References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
 CA.X.C.S2,phak,explanation,auto,from the Task C References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
 CA.X.C.S2,risk-management,explanation,auto,from the Task C References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
-CA.X.C.S3,afh,explanation,auto,from the Task C References line,Establish the best engine-inoperative airspeed and trim the airplane.
+CA.X.C.S3,afh:ch13,explanation,verified,Establishing and trimming at the best engine-inoperative speed is AFH ch13,Establish the best engine-inoperative airspeed and trim the airplane.
 CA.X.C.S3,ifh,explanation,auto,from the Task C References line,Establish the best engine-inoperative airspeed and trim the airplane.
 CA.X.C.S3,phak,explanation,auto,from the Task C References line,Establish the best engine-inoperative airspeed and trim the airplane.
 CA.X.C.S3,risk-management,explanation,auto,from the Task C References line,Establish the best engine-inoperative airspeed and trim the airplane.
-CA.X.C.S4,afh,explanation,auto,from the Task C References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
+CA.X.C.S4,afh:ch13,explanation,verified,The control combination and trim for best performance are AFH ch13,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.X.C.S4,ifh,explanation,auto,from the Task C References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.X.C.S4,phak,explanation,auto,from the Task C References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.X.C.S4,risk-management,explanation,auto,from the Task C References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
-CA.X.C.S5,afh,explanation,auto,from the Task C References line,Verify the prescribed checklist procedures used for securing the inoperative engine.
+CA.X.C.S5,afh:ch13,explanation,verified,The securing checklist is AFH ch13,Verify the prescribed checklist procedures used for securing the inoperative engine.
 CA.X.C.S5,ifh,explanation,auto,from the Task C References line,Verify the prescribed checklist procedures used for securing the inoperative engine.
 CA.X.C.S5,phak,explanation,auto,from the Task C References line,Verify the prescribed checklist procedures used for securing the inoperative engine.
 CA.X.C.S5,risk-management,explanation,auto,from the Task C References line,Verify the prescribed checklist procedures used for securing the inoperative engine.
-CA.X.C.S6,afh,explanation,auto,from the Task C References line,Attempt to determine and resolve the reason for the engine failure.
+CA.X.C.S6,afh:ch13,explanation,verified,Troubleshooting the cause is AFH ch13,Attempt to determine and resolve the reason for the engine failure.
 CA.X.C.S6,ifh,explanation,auto,from the Task C References line,Attempt to determine and resolve the reason for the engine failure.
 CA.X.C.S6,phak,explanation,auto,from the Task C References line,Attempt to determine and resolve the reason for the engine failure.
 CA.X.C.S6,risk-management,explanation,auto,from the Task C References line,Attempt to determine and resolve the reason for the engine failure.
-CA.X.C.S7,afh,explanation,auto,from the Task C References line,Monitor engine functions and make necessary adjustments.
+CA.X.C.S7,afh:ch13,explanation,verified,Monitoring the operating engine is AFH ch13,Monitor engine functions and make necessary adjustments.
 CA.X.C.S7,ifh,explanation,auto,from the Task C References line,Monitor engine functions and make necessary adjustments.
 CA.X.C.S7,phak,explanation,auto,from the Task C References line,Monitor engine functions and make necessary adjustments.
 CA.X.C.S7,risk-management,explanation,auto,from the Task C References line,Monitor engine functions and make necessary adjustments.
-CA.X.C.S8,afh,explanation,auto,from the Task C References line,"Maintain the specified altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and the specified heading ±10°."
-CA.X.C.S8,ifh,explanation,auto,from the Task C References line,"Maintain the specified altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and the specified heading ±10°."
+CA.X.C.S8,afh:ch13,explanation,verified,"Holding altitude, airspeed, and heading on one engine is AFH ch13, flown on instruments per IFH ch11","Maintain the specified altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and the specified heading ±10°."
+CA.X.C.S8,ifh:ch11,explanation,verified,"Holding altitude, airspeed, and heading on one engine is AFH ch13, flown on instruments per IFH ch11","Maintain the specified altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and the specified heading ±10°."
 CA.X.C.S8,phak,explanation,auto,from the Task C References line,"Maintain the specified altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and the specified heading ±10°."
 CA.X.C.S8,risk-management,explanation,auto,from the Task C References line,"Maintain the specified altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and the specified heading ±10°."
-CA.X.C.S9,afh,explanation,auto,from the Task C References line,Assess the aircraft’s performance capability and decide an appropriate action to ensure a safe landing.
+CA.X.C.S9,afh:ch13,explanation,verified,"Assessing capability and choosing a landing option is AFH ch13, using PHAK ch11 performance data",Assess the aircraft’s performance capability and decide an appropriate action to ensure a safe landing.
 CA.X.C.S9,ifh,explanation,auto,from the Task C References line,Assess the aircraft’s performance capability and decide an appropriate action to ensure a safe landing.
-CA.X.C.S9,phak,explanation,auto,from the Task C References line,Assess the aircraft’s performance capability and decide an appropriate action to ensure a safe landing.
+CA.X.C.S9,phak:ch11,explanation,verified,"Assessing capability and choosing a landing option is AFH ch13, using PHAK ch11 performance data",Assess the aircraft’s performance capability and decide an appropriate action to ensure a safe landing.
 CA.X.C.S9,risk-management,explanation,auto,from the Task C References line,Assess the aircraft’s performance capability and decide an appropriate action to ensure a safe landing.
-CA.X.D.K1,afh,explanation,auto,from the Task D References line,Instrument approach procedures with one engine inoperative.
-CA.X.D.K1,ifh,explanation,auto,from the Task D References line,Instrument approach procedures with one engine inoperative.
+CA.X.D.K1,afh:ch13,explanation,verified,Instrument approach procedures are IFH ch10 IFR flight; the engine-out handling is AFH ch13,Instrument approach procedures with one engine inoperative.
+CA.X.D.K1,ifh:ch10,explanation,verified,Instrument approach procedures are IFH ch10 IFR flight; the engine-out handling is AFH ch13,Instrument approach procedures with one engine inoperative.
 CA.X.D.K1,phak,explanation,auto,from the Task D References line,Instrument approach procedures with one engine inoperative.
 CA.X.D.K1,risk-management,explanation,auto,from the Task D References line,Instrument approach procedures with one engine inoperative.
-CA.X.D.R1,afh,explanation,auto,from the Task D References line,Potential engine failure during approach and landing.
-CA.X.D.R1,ifh,explanation,auto,from the Task D References line,Potential engine failure during approach and landing.
+CA.X.D.R1,afh:ch13,explanation,verified,Engine failure on approach is AFH ch13; the instrument emergency case is IFH ch11,Potential engine failure during approach and landing.
+CA.X.D.R1,ifh:ch11,explanation,verified,Engine failure on approach is AFH ch13; the instrument emergency case is IFH ch11,Potential engine failure during approach and landing.
 CA.X.D.R1,phak,explanation,auto,from the Task D References line,Potential engine failure during approach and landing.
 CA.X.D.R1,risk-management,explanation,auto,from the Task D References line,Potential engine failure during approach and landing.
-CA.X.D.R2,afh,explanation,auto,from the Task D References line,Collision hazards.
+CA.X.D.R2,afh:ch13,explanation,verified,Traffic awareness while single engine on approach is part of AFH ch13 procedure,Collision hazards.
 CA.X.D.R2,ifh,explanation,auto,from the Task D References line,Collision hazards.
 CA.X.D.R2,phak,explanation,auto,from the Task D References line,Collision hazards.
 CA.X.D.R2,risk-management,explanation,auto,from the Task D References line,Collision hazards.
-CA.X.D.R3,afh,explanation,auto,from the Task D References line,Configuring the airplane.
+CA.X.D.R3,afh:ch13,explanation,verified,Gear and flap timing on a single engine approach is AFH ch13,Configuring the airplane.
 CA.X.D.R3,ifh,explanation,auto,from the Task D References line,Configuring the airplane.
 CA.X.D.R3,phak,explanation,auto,from the Task D References line,Configuring the airplane.
 CA.X.D.R3,risk-management,explanation,auto,from the Task D References line,Configuring the airplane.
-CA.X.D.R4,afh,explanation,auto,from the Task D References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.X.D.R4,afh:ch05,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
+CA.X.D.R4,afh:ch13,explanation,verified,Low altitude engine-out maneuvering is AFH ch13; stall and spin avoidance is AFH ch5,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.D.R4,ifh,explanation,auto,from the Task D References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.D.R4,phak,explanation,auto,from the Task D References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.D.R4,risk-management,explanation,auto,from the Task D References line,"Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT)."
 CA.X.D.R5,afh,explanation,auto,from the Task D References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.D.R5,ifh,explanation,auto,from the Task D References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.X.D.R5,ifh:ch03,explanation,verified,Task prioritization is RMH ch6; disorientation on instruments is IFH ch3,"Distractions, task prioritization, loss of situational awareness, or disorientation."
 CA.X.D.R5,phak,explanation,auto,from the Task D References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.D.R5,risk-management,explanation,auto,from the Task D References line,"Distractions, task prioritization, loss of situational awareness, or disorientation."
-CA.X.D.R6,afh,explanation,auto,from the Task D References line,Performing a go-around/rejected landing with an engine failure.
+CA.X.D.R5,risk-management:ch06,explanation,verified,Task prioritization is RMH ch6; disorientation on instruments is IFH ch3,"Distractions, task prioritization, loss of situational awareness, or disorientation."
+CA.X.D.R6,afh:ch09,explanation,verified,The single engine go-around and its marginal performance are AFH ch13; the go-around technique is AFH ch9,Performing a go-around/rejected landing with an engine failure.
+CA.X.D.R6,afh:ch13,explanation,verified,The single engine go-around and its marginal performance are AFH ch13; the go-around technique is AFH ch9,Performing a go-around/rejected landing with an engine failure.
 CA.X.D.R6,ifh,explanation,auto,from the Task D References line,Performing a go-around/rejected landing with an engine failure.
 CA.X.D.R6,phak,explanation,auto,from the Task D References line,Performing a go-around/rejected landing with an engine failure.
 CA.X.D.R6,risk-management,explanation,auto,from the Task D References line,Performing a go-around/rejected landing with an engine failure.
-CA.X.D.S1,afh,explanation,auto,from the Task D References line,Promptly recognize an engine failure and maintain positive aircraft control.
-CA.X.D.S1,ifh,explanation,auto,from the Task D References line,Promptly recognize an engine failure and maintain positive aircraft control.
+CA.X.D.S1,afh:ch13,explanation,verified,"Recognition and control are AFH ch13, on instruments per IFH ch11",Promptly recognize an engine failure and maintain positive aircraft control.
+CA.X.D.S1,ifh:ch11,explanation,verified,"Recognition and control are AFH ch13, on instruments per IFH ch11",Promptly recognize an engine failure and maintain positive aircraft control.
 CA.X.D.S1,phak,explanation,auto,from the Task D References line,Promptly recognize an engine failure and maintain positive aircraft control.
 CA.X.D.S1,risk-management,explanation,auto,from the Task D References line,Promptly recognize an engine failure and maintain positive aircraft control.
-CA.X.D.S10,afh,explanation,auto,from the Task D References line,Avoid loss of airplane control or attempted flight contrary to the operating limitations of the airplane.
+CA.X.D.S10,afh:ch13,explanation,verified,The operating limitations are AFH ch13 and are published in the manuals of PHAK ch9,Avoid loss of airplane control or attempted flight contrary to the operating limitations of the airplane.
 CA.X.D.S10,ifh,explanation,auto,from the Task D References line,Avoid loss of airplane control or attempted flight contrary to the operating limitations of the airplane.
-CA.X.D.S10,phak,explanation,auto,from the Task D References line,Avoid loss of airplane control or attempted flight contrary to the operating limitations of the airplane.
+CA.X.D.S10,phak:ch09,explanation,verified,The operating limitations are AFH ch13 and are published in the manuals of PHAK ch9,Avoid loss of airplane control or attempted flight contrary to the operating limitations of the airplane.
 CA.X.D.S10,risk-management,explanation,auto,from the Task D References line,Avoid loss of airplane control or attempted flight contrary to the operating limitations of the airplane.
 CA.X.D.S11,afh,explanation,auto,from the Task D References line,Comply with the published criteria for the aircraft approach category if circling.
-CA.X.D.S11,ifh,explanation,auto,from the Task D References line,Comply with the published criteria for the aircraft approach category if circling.
+CA.X.D.S11,ifh:ch10,explanation,verified,Circling approach categories and their criteria are IFH ch10,Comply with the published criteria for the aircraft approach category if circling.
 CA.X.D.S11,phak,explanation,auto,from the Task D References line,Comply with the published criteria for the aircraft approach category if circling.
 CA.X.D.S11,risk-management,explanation,auto,from the Task D References line,Comply with the published criteria for the aircraft approach category if circling.
-CA.X.D.S12,afh,explanation,auto,from the Task D References line,Execute a landing.
+CA.X.D.S12,afh:ch09,explanation,verified,"The landing is AFH ch9, flown single engine per AFH ch13",Execute a landing.
+CA.X.D.S12,afh:ch13,explanation,verified,"The landing is AFH ch9, flown single engine per AFH ch13",Execute a landing.
 CA.X.D.S12,ifh,explanation,auto,from the Task D References line,Execute a landing.
 CA.X.D.S12,phak,explanation,auto,from the Task D References line,Execute a landing.
 CA.X.D.S12,risk-management,explanation,auto,from the Task D References line,Execute a landing.
-CA.X.D.S13,afh,explanation,auto,from the Task D References line,Complete the appropriate checklist(s). 64
+CA.X.D.S13,afh:ch13,explanation,verified,Checklist use after the memory items is AFH ch13,Complete the appropriate checklist(s). 64
 CA.X.D.S13,ifh,explanation,auto,from the Task D References line,Complete the appropriate checklist(s). 64
 CA.X.D.S13,phak,explanation,auto,from the Task D References line,Complete the appropriate checklist(s). 64
 CA.X.D.S13,risk-management,explanation,auto,from the Task D References line,Complete the appropriate checklist(s). 64
-CA.X.D.S2,afh,explanation,auto,from the Task D References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
+CA.X.D.S2,afh:ch13,explanation,verified,"Setting controls, reducing drag, identifying, verifying, and simulated feathering are the AFH ch13 sequence","Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
 CA.X.D.S2,ifh,explanation,auto,from the Task D References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
 CA.X.D.S2,phak,explanation,auto,from the Task D References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
 CA.X.D.S2,risk-management,explanation,auto,from the Task D References line,"Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine)."
-CA.X.D.S3,afh,explanation,auto,from the Task D References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
+CA.X.D.S3,afh:ch13,explanation,verified,The control combination and trim for best performance are AFH ch13,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.X.D.S3,ifh,explanation,auto,from the Task D References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.X.D.S3,phak,explanation,auto,from the Task D References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
 CA.X.D.S3,risk-management,explanation,auto,from the Task D References line,"Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required."
-CA.X.D.S4,afh,explanation,auto,from the Task D References line,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
+CA.X.D.S4,afh:ch13,explanation,verified,The manufacturer's procedure is followed per AFH ch13 and published in the manuals of PHAK ch9,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
 CA.X.D.S4,ifh,explanation,auto,from the Task D References line,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
-CA.X.D.S4,phak,explanation,auto,from the Task D References line,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
+CA.X.D.S4,phak:ch09,explanation,verified,The manufacturer's procedure is followed per AFH ch13 and published in the manuals of PHAK ch9,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
 CA.X.D.S4,risk-management,explanation,auto,from the Task D References line,Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.
-CA.X.D.S5,afh,explanation,auto,from the Task D References line,Monitor the operating engine and aircraft systems and make adjustments as necessary.
+CA.X.D.S5,afh:ch13,explanation,verified,Monitoring the operating engine is AFH ch13,Monitor the operating engine and aircraft systems and make adjustments as necessary.
 CA.X.D.S5,ifh,explanation,auto,from the Task D References line,Monitor the operating engine and aircraft systems and make adjustments as necessary.
 CA.X.D.S5,phak,explanation,auto,from the Task D References line,Monitor the operating engine and aircraft systems and make adjustments as necessary.
 CA.X.D.S5,risk-management,explanation,auto,from the Task D References line,Monitor the operating engine and aircraft systems and make adjustments as necessary.
 CA.X.D.S6,afh,explanation,auto,from the Task D References line,Request and follow an actual or a simulated air traffic control (ATC) clearance for an instrument approach.
-CA.X.D.S6,ifh,explanation,auto,from the Task D References line,Request and follow an actual or a simulated air traffic control (ATC) clearance for an instrument approach.
+CA.X.D.S6,ifh:ch02,explanation,verified,Requesting and flying the approach clearance is IFH ch10; the ATC system side is IFH ch2,Request and follow an actual or a simulated air traffic control (ATC) clearance for an instrument approach.
+CA.X.D.S6,ifh:ch10,explanation,verified,Requesting and flying the approach clearance is IFH ch10; the ATC system side is IFH ch2,Request and follow an actual or a simulated air traffic control (ATC) clearance for an instrument approach.
 CA.X.D.S6,phak,explanation,auto,from the Task D References line,Request and follow an actual or a simulated air traffic control (ATC) clearance for an instrument approach.
 CA.X.D.S6,risk-management,explanation,auto,from the Task D References line,Request and follow an actual or a simulated air traffic control (ATC) clearance for an instrument approach.
-CA.X.D.S7,afh,explanation,auto,from the Task D References line,"Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected heading ±10°."
-CA.X.D.S7,ifh,explanation,auto,from the Task D References line,"Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected heading ±10°."
+CA.X.D.S7,afh:ch13,explanation,verified,"Single engine altitude and airspeed control is AFH ch13, flown to IFH ch10 approach tolerances","Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected heading ±10°."
+CA.X.D.S7,ifh:ch10,explanation,verified,"Single engine altitude and airspeed control is AFH ch13, flown to IFH ch10 approach tolerances","Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected heading ±10°."
 CA.X.D.S7,phak,explanation,auto,from the Task D References line,"Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected heading ±10°."
 CA.X.D.S7,risk-management,explanation,auto,from the Task D References line,"Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected heading ±10°."
 CA.X.D.S8,afh,explanation,auto,from the Task D References line,"Establish a rate of descent that ensures arrival at the minimum descent altitude (MDA) or decision altitude (DA)/decision height (DH) with the airplane in a position from which a descent to a landing on the intended runway can be made, either straight in or circling as appropriate."
-CA.X.D.S8,ifh,explanation,auto,from the Task D References line,"Establish a rate of descent that ensures arrival at the minimum descent altitude (MDA) or decision altitude (DA)/decision height (DH) with the airplane in a position from which a descent to a landing on the intended runway can be made, either straight in or circling as appropriate."
+CA.X.D.S8,ifh:ch10,explanation,verified,Planning the descent to arrive at MDA or DA in a position to land is IFH ch10,"Establish a rate of descent that ensures arrival at the minimum descent altitude (MDA) or decision altitude (DA)/decision height (DH) with the airplane in a position from which a descent to a landing on the intended runway can be made, either straight in or circling as appropriate."
 CA.X.D.S8,phak,explanation,auto,from the Task D References line,"Establish a rate of descent that ensures arrival at the minimum descent altitude (MDA) or decision altitude (DA)/decision height (DH) with the airplane in a position from which a descent to a landing on the intended runway can be made, either straight in or circling as appropriate."
 CA.X.D.S8,risk-management,explanation,auto,from the Task D References line,"Establish a rate of descent that ensures arrival at the minimum descent altitude (MDA) or decision altitude (DA)/decision height (DH) with the airplane in a position from which a descent to a landing on the intended runway can be made, either straight in or circling as appropriate."
 CA.X.D.S9,afh,explanation,auto,from the Task D References line,"On final approach segment, maintain vertical (as applicable) and lateral guidance within ¾-scale deflection. 63"
-CA.X.D.S9,ifh,explanation,auto,from the Task D References line,"On final approach segment, maintain vertical (as applicable) and lateral guidance within ¾-scale deflection. 63"
+CA.X.D.S9,ifh:ch10,explanation,verified,Course and glidepath deviation tolerances on final are IFH ch10,"On final approach segment, maintain vertical (as applicable) and lateral guidance within ¾-scale deflection. 63"
 CA.X.D.S9,phak,explanation,auto,from the Task D References line,"On final approach segment, maintain vertical (as applicable) and lateral guidance within ¾-scale deflection. 63"
 CA.X.D.S9,risk-management,explanation,auto,from the Task D References line,"On final approach segment, maintain vertical (as applicable) and lateral guidance within ¾-scale deflection. 63"
 CA.XI.A.K1,afh:ch02,explanation,verified,"Shutdown, securing, and postflight inspection are AFH ch2 Ground Operations.","Airplane shutdown, securing, and postflight inspection."

@@ -1,0 +1,1893 @@
+{
+ "AA.VI.A.K1": {
+  "anchors": [
+   "iph:ch01",
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch1 Departure Procedures covers the departure environment; AFH ch6 covers the takeoff itself. Takeoff minimums are a Part 121 and 135 rule, which is out of corpus, so no section is asserted."
+ },
+ "AA.VI.A.R1": {
+  "anchors": [
+   "afh:ch06",
+   "iph:ch01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Runway selection against performance and available distance is AFH ch6 with the IFR departure context in IPH ch1."
+ },
+ "AA.VI.A.R2": {
+  "anchors": [
+   "aim:ch07-s04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-4 is the Wake Turbulence section."
+ },
+ "AA.VI.A.R3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Parent heading. AFH ch18 Emergency Procedures is the shared entry."
+ },
+ "AA.VI.A.R3a": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Rejected takeoff is an AFH ch18 emergency decision made on the ch6 takeoff roll."
+ },
+ "AA.VI.A.R3b": {
+  "anchors": [
+   "afh:ch18",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers powerplant failure on takeoff; IFH ch11 Emergency Operations covers it with no visual horizon and no approach available."
+ },
+ "AA.VI.A.R4": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.113"
+  ],
+  "why": "91.113(b) is the see-and-avoid duty; AIM 7-6 Potential Flight Hazards carries collision avoidance."
+ },
+ "AA.VI.A.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance."
+ },
+ "AA.VI.A.R6": {
+  "anchors": [
+   "risk-management:ch06",
+   "ifh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch6 is Threat and Error Management; IFH ch3 Human Factors covers the instrument-specific attention and disorientation traps."
+ },
+ "AA.VI.A.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.A.S10": {
+  "anchors": [
+   "afh:ch06",
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Rotation and the initial pitch attitude are AFH ch6, flown on the IFH ch6 instrument scan."
+ },
+ "AA.VI.A.S11": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The transition from visual to instrument references is the subject of IFH ch6 Airplane Attitude Instrument Flying."
+ },
+ "AA.VI.A.S12": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding altitude, heading, and airspeed on instruments is IFH ch6 Airplane Attitude Instrument Flying."
+ },
+ "AA.VI.A.S13": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC clearances and instructions; AIM 4-2 carries the phraseology."
+ },
+ "AA.VI.A.S14": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.A.S2": {
+  "anchors": [
+   "ifh:ch05",
+   "iph:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Setting avionics and flight instruments before takeoff is IFH ch5 Flight Instruments and the database setup in IPH ch6."
+ },
+ "AA.VI.A.S3": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 Radio Communications Phraseology and Techniques."
+ },
+ "AA.VI.A.S4": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Verifying the assigned runway or takeoff path is AIM 4-3 Airport Operations."
+ },
+ "AA.VI.A.S5": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Control positioning for wind spans ground handling and the takeoff roll."
+ },
+ "AA.VI.A.S6": {
+  "anchors": [
+   "afh:ch06",
+   "seaplane:normal-takeoffs"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Lineup on the centerline is AFH ch6; lineup on a takeoff path is the Seaplane normal takeoff."
+ },
+ "AA.VI.A.S7": {
+  "anchors": [
+   "ifh:ch06",
+   "iph:ch01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Transitioning to the instruments at or before the specified altitude is IFH ch6 Airplane Attitude Instrument Flying, inside the IPH ch1 departure."
+ },
+ "AA.VI.A.S8": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Centerline tracking and control inputs on the takeoff roll are AFH ch6."
+ },
+ "AA.VI.A.S9": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Power confirmation and instrument checks before rotation are AFH ch6."
+ },
+ "AA.VI.B.K1": {
+  "anchors": [
+   "iph:ch01",
+   "aim:ch05-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch1 Departure Procedures and AIM 5-2 cover ODPs, VCOA, and diverse vector areas. The procedures themselves are built under Part 97, which is out of corpus."
+ },
+ "AA.VI.B.K2": {
+  "anchors": [
+   "iph:ch06",
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Following a DP with an FMS or GPS is IPH ch6 Airborne Navigation Databases and IFH ch9."
+ },
+ "AA.VI.B.K3": {
+  "anchors": [
+   "aim:ch05-s05",
+   "aim:ch04-s01",
+   "ifh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 sets the pilot's duty to comply; AIM 5-5 is the roles split and AIM 4-1 the services, with the system description in IFH ch2."
+ },
+ "AA.VI.B.K4": {
+  "anchors": [
+   "aim:ch06-s04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.185"
+  ],
+  "why": "91.185 is the IFR two-way radio communications failure rule; AIM 6-4 is the procedure."
+ },
+ "AA.VI.B.K5": {
+  "anchors": [
+   "ifh:ch09",
+   "aim:ch01-s01"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.171"
+  ],
+  "why": "91.171 is the VOR equipment check for IFR; IFH ch9 Navigation Systems and AIM 1-1 Navigation Aids carry orientation, course determination, and interference."
+ },
+ "AA.VI.B.R1": {
+  "anchors": [
+   "iph:ch01"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123",
+   "91.177"
+  ],
+  "why": "91.123 requires compliance with the clearance and 91.177 sets the IFR minimum altitudes the climb gradient protects; the procedure design is IPH ch1."
+ },
+ "AA.VI.B.R2": {
+  "anchors": [
+   "aim:ch04-s05",
+   "aim:ch07-s06"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.113"
+  ],
+  "why": "91.113(b) keeps see-and-avoid on the pilot; AIM 4-5 Surveillance Systems covers what the traffic equipment can and cannot do."
+ },
+ "AA.VI.B.R3": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "AA.VI.B.S1": {
+  "anchors": [
+   "iph:ch01",
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Selecting the departure and the facilities to fly it is IPH ch1 with IFH ch9 Navigation Systems."
+ },
+ "AA.VI.B.S2": {
+  "anchors": [
+   "iph:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Programming the FMS and setting the flight director and autopilot is IPH ch6 with the management discipline in Risk Management ch7."
+ },
+ "AA.VI.B.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.B.S4": {
+  "anchors": [
+   "iph:ch06",
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Current publications and databases are IPH ch6 Airborne Navigation Databases and AIM 9-1."
+ },
+ "AA.VI.B.S5": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123",
+   "91.183"
+  ],
+  "why": "91.183 is the IFR communication requirement and 91.123 the compliance duty; AIM 4-2 is the phraseology."
+ },
+ "AA.VI.B.S6": {
+  "anchors": [
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.181"
+  ],
+  "why": "91.181 is the course to be flown; intercepting and tracking it is IFH ch9 Navigation Systems."
+ },
+ "AA.VI.B.S7": {
+  "anchors": [
+   "iph:ch01"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with the charted procedure once cleared for it; IPH ch1 describes the procedures."
+ },
+ "AA.VI.B.S8": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding altitude, heading, and airspeed is IFH ch6; tracking the course is IFH ch9."
+ },
+ "AA.VI.B.S9": {
+  "anchors": [
+   "iph:ch01",
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The departure to en route handoff spans IPH ch1 Departure Procedures and ch2 En Route Operations."
+ },
+ "AA.VI.C.K1": {
+  "anchors": [
+   "iph:ch03",
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch3 Arrivals covers STARs; AIM 9-1 Types of Charts Available covers the publications."
+ },
+ "AA.VI.C.K2": {
+  "anchors": [
+   "iph:ch06",
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Following a STAR with an FMS or GPS is IPH ch6 Airborne Navigation Databases and IFH ch9."
+ },
+ "AA.VI.C.K3": {
+  "anchors": [
+   "aim:ch05-s05",
+   "ifh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 sets the pilot's duty to comply; AIM 5-5 is the roles split, with the system description in IFH ch2."
+ },
+ "AA.VI.C.K4": {
+  "anchors": [
+   "aim:ch06-s04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.185"
+  ],
+  "why": "91.185 is the IFR two-way radio communications failure rule; AIM 6-4 is the procedure."
+ },
+ "AA.VI.C.K5": {
+  "anchors": [
+   "ifh:ch09",
+   "aim:ch01-s01"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.171"
+  ],
+  "why": "91.171 is the VOR equipment check for IFR; IFH ch9 Navigation Systems and AIM 1-1 Navigation Aids carry orientation, course determination, and interference."
+ },
+ "AA.VI.C.R1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch03"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC and the charted procedure; AIM 5-4 and IPH ch3 describe the arrival."
+ },
+ "AA.VI.C.R2": {
+  "anchors": [
+   "aim:ch04-s05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-5 Surveillance Systems covers what the traffic avoidance equipment can and cannot do."
+ },
+ "AA.VI.C.R3": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.113"
+  ],
+  "why": "91.113(b) is the see-and-avoid duty; AIM 7-6 Potential Flight Hazards carries collision avoidance."
+ },
+ "AA.VI.C.R4": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "AA.VI.C.R5": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch03"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 governs an amended clearance; AIM 5-4 and IPH ch3 cover descend-via and its interruption."
+ },
+ "AA.VI.C.S1": {
+  "anchors": [
+   "ifh:ch09",
+   "iph:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Selecting and identifying the facilities for the arrival is IFH ch9 with IPH ch3."
+ },
+ "AA.VI.C.S10": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding altitude, heading, and airspeed on instruments is IFH ch6 Airplane Attitude Instrument Flying."
+ },
+ "AA.VI.C.S2": {
+  "anchors": [
+   "iph:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Setting the FMS, flight director, and autopilot for the arrival is IPH ch6 with the management discipline in Risk Management ch7."
+ },
+ "AA.VI.C.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.C.S4": {
+  "anchors": [
+   "iph:ch06",
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Current publications and databases are IPH ch6 Airborne Navigation Databases and AIM 9-1."
+ },
+ "AA.VI.C.S5": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123",
+   "91.183"
+  ],
+  "why": "91.183 is the IFR communication requirement and 91.123 the compliance duty; AIM 4-2 is the phraseology."
+ },
+ "AA.VI.C.S6": {
+  "anchors": [
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.181"
+  ],
+  "why": "91.181 is the course to be flown; intercepting and tracking it is IFH ch9 Navigation Systems."
+ },
+ "AA.VI.C.S7": {
+  "anchors": [
+   "iph:ch03"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with the charted procedure once cleared for it; IPH ch3 describes arrivals."
+ },
+ "AA.VI.C.S8": {
+  "anchors": [
+   "iph:ch03"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.117"
+  ],
+  "why": "91.117 is the regulatory speed limit; the procedural and ATC restrictions are IPH ch3 Arrivals."
+ },
+ "AA.VI.C.S9": {
+  "anchors": [
+   "iph:ch03",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Descent planning on an arrival is IPH ch3, flown on the AFH ch4 energy picture."
+ },
+ "AA.VI.D.K1": {
+  "anchors": [
+   "iph:ch04",
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175 governs instrument approach procedures and their minimums; IFH ch10 IFR Flight covers the non-precision approach and IFH ch9 the LP, LNAV, and LNAV+V distinctions. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.D.K2": {
+  "anchors": [
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Navigation system displays, annunciations, and modes are IFH ch9 Navigation Systems."
+ },
+ "AA.VI.D.K3": {
+  "anchors": [
+   "ifh:ch09",
+   "aim:ch01-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.171"
+  ],
+  "why": "91.171 is the VOR equipment check for IFR; IFH ch9 and AIM 1-2 carry the satellite-based systems and their accuracy requirements."
+ },
+ "AA.VI.D.K4": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 Approaches and Landings defines the stabilized approach; ch4 Energy Management is the concept behind it."
+ },
+ "AA.VI.D.R1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with the approach clearance; IFH ch10 IFR Flight describes the procedure. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.D.R2": {
+  "anchors": [
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Selecting and confirming the navigation frequency is IFH ch9 Navigation Systems."
+ },
+ "AA.VI.D.R3": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "AA.VI.D.R4": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Configuration through the approach and missed approach is AFH ch9 inside the IFH ch10 procedure, but neither treats it as a named topic. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.D.R5": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "An unstable approach and excessive descent rate are the AFH ch9 stabilized approach failing, with the energy state in ch4."
+ },
+ "AA.VI.D.R6": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Deciding what to do about weather that is going the wrong way is Risk Management ch8."
+ },
+ "AA.VI.D.R7": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) forbids descending below MDA without the required visual references. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.D.S1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175 is the rule for flying a published instrument approach; IFH ch10 is the technique. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.D.S10": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175 sets the minimums framework that the category adjustment and NOTAM changes work within. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.D.S11": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "A stabilized descent to the step-down or MDA is AFH ch9 on the ch4 energy picture."
+ },
+ "AA.VI.D.S12": {
+  "anchors": [
+   "ifh:ch06",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Course deviation and airspeed control on final are IFH ch6 attitude instrument flying inside the ch10 approach. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.D.S13": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) and (e) require the missed approach when the visual references are not available. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.D.S14": {
+  "anchors": [
+   "ifh:ch09",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch9 Navigation Systems covers the moving map and graphical displays; Risk Management ch7 covers managing them."
+ },
+ "AA.VI.D.S2": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.183"
+  ],
+  "why": "91.183 is the IFR communication requirement; AIM 4-2 is the phraseology."
+ },
+ "AA.VI.D.S3": {
+  "anchors": [
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.171"
+  ],
+  "why": "91.171 is the VOR check that establishes the equipment is usable for IFR; IFH ch9 covers tuning and identifying."
+ },
+ "AA.VI.D.S4": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC clearances and instructions; AIM 4-2 carries the phraseology."
+ },
+ "AA.VI.D.S5": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Recognizing a failed or misleading instrument and flying partial panel is IFH ch7 Airplane Basic Flight Maneuvers, with the failure modes in ch5 Flight Instruments."
+ },
+ "AA.VI.D.S6": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123(a) requires requesting an amended clearance when unable to comply; AIM 4-2 is the phraseology."
+ },
+ "AA.VI.D.S7": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.D.S8": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Approach configuration and airspeed are AFH ch9 Approaches and Landings."
+ },
+ "AA.VI.D.S9": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding altitude, heading, and airspeed on instruments is IFH ch6 Airplane Attitude Instrument Flying."
+ },
+ "AA.VI.E.K1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175 governs instrument approach procedures and their minimums; IFH ch10 IFR Flight covers the precision approach, descent rate, and minimums adjustment. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.E.K2": {
+  "anchors": [
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Navigation system displays, annunciations, and modes are IFH ch9 Navigation Systems."
+ },
+ "AA.VI.E.K3": {
+  "anchors": [
+   "ifh:ch09",
+   "aim:ch01-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.171"
+  ],
+  "why": "91.171 is the VOR equipment check for IFR; IFH ch9 and AIM 1-2 carry the satellite-based systems and their accuracy requirements."
+ },
+ "AA.VI.E.K4": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 Approaches and Landings defines the stabilized approach; ch4 Energy Management is the concept behind it."
+ },
+ "AA.VI.E.R1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with the approach clearance; IFH ch10 IFR Flight describes the procedure. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.E.R2": {
+  "anchors": [
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Selecting and confirming the navigation frequency is IFH ch9 Navigation Systems."
+ },
+ "AA.VI.E.R3": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "AA.VI.E.R4": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Configuration through the approach and missed approach is AFH ch9 inside the IFH ch10 procedure, but neither treats it as a named topic. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.E.R5": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "An unstable approach and excessive descent rate are the AFH ch9 stabilized approach failing, with the energy state in ch4."
+ },
+ "AA.VI.E.R6": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Deciding what to do about weather that is going the wrong way is Risk Management ch8."
+ },
+ "AA.VI.E.R7": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) forbids continuing below DA or DH without the required visual references. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.E.S1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175 is the rule for flying a published instrument approach; IFH ch10 is the technique. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.E.S10": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175 sets the minimums framework that the category adjustment and NOTAM changes work within. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.E.S11": {
+  "anchors": [
+   "iph:ch04",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Setting the descent rate where vertical guidance begins is IFH ch10, on the AFH ch4 energy picture. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.E.S12": {
+  "anchors": [
+   "ifh:ch06",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding the localizer and glideslope within tolerance is IFH ch6 attitude instrument flying inside the ch10 approach. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.E.S13": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) and (e) require the missed approach at DA or DH when the visual references are not available. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.E.S14": {
+  "anchors": [
+   "ifh:ch09",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch9 Navigation Systems covers the moving map and graphical displays; Risk Management ch7 covers managing them."
+ },
+ "AA.VI.E.S2": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.183"
+  ],
+  "why": "91.183 is the IFR communication requirement; AIM 4-2 is the phraseology."
+ },
+ "AA.VI.E.S3": {
+  "anchors": [
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.171"
+  ],
+  "why": "91.171 is the VOR check that establishes the equipment is usable for IFR; IFH ch9 covers tuning and identifying."
+ },
+ "AA.VI.E.S4": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC clearances and instructions; AIM 4-2 carries the phraseology."
+ },
+ "AA.VI.E.S5": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Recognizing a failed or misleading instrument and flying partial panel is IFH ch7 Airplane Basic Flight Maneuvers, with the failure modes in ch5 Flight Instruments."
+ },
+ "AA.VI.E.S6": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123(a) requires requesting an amended clearance when unable to comply; AIM 4-2 is the phraseology."
+ },
+ "AA.VI.E.S7": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.E.S8": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Approach configuration and airspeed are AFH ch9 Approaches and Landings."
+ },
+ "AA.VI.E.S9": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding altitude, heading, and airspeed on instruments is IFH ch6 Airplane Attitude Instrument Flying."
+ },
+ "AA.VI.F.K1": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 Approaches and Landings covers the landing; IPH ch4 Approaches covers the operational and meteorological factors leading to it."
+ },
+ "AA.VI.F.K2": {
+  "anchors": [
+   "aim:ch02-s01",
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 2-1 Airport Lighting Aids, AIM 2-3 Airport Marking Aids and Signs, and PHAK ch14 Airport Operations."
+ },
+ "AA.VI.F.R1": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Approach and runway selection against aircraft limitations and available distance is AFH ch9 with the procedure choice in IPH ch4."
+ },
+ "AA.VI.F.R10": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) requires the missed approach when the approach cannot be completed."
+ },
+ "AA.VI.F.R11": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Land and hold short operations are described in AIM 4-3 Airport Operations."
+ },
+ "AA.VI.F.R2": {
+  "anchors": [
+   "aim:ch07-s04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-4 is the Wake Turbulence section."
+ },
+ "AA.VI.F.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived. Nothing to link."
+ },
+ "AA.VI.F.R3a": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived. Nothing to link."
+ },
+ "AA.VI.F.R3b": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived. Nothing to link."
+ },
+ "AA.VI.F.R4": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.113"
+  ],
+  "why": "91.113(b) is the see-and-avoid duty; AIM 7-6 Potential Flight Hazards carries collision avoidance."
+ },
+ "AA.VI.F.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance."
+ },
+ "AA.VI.F.R6": {
+  "anchors": [
+   "risk-management:ch06",
+   "ifh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch6 is Threat and Error Management; IFH ch3 Human Factors covers the instrument-specific attention and disorientation traps."
+ },
+ "AA.VI.F.R7": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Landing from an unstable approach is the AFH ch9 stabilized approach failing, with the energy state in ch4."
+ },
+ "AA.VI.F.R8": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) sets the visual reference and glidepath requirement below DA or MDA; IPH ch4 covers the descent profile."
+ },
+ "AA.VI.F.R9": {
+  "anchors": [
+   "iph:ch04",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) is the visual reference rule that governs the transition; IPH ch4 and IFH ch10 cover the technique."
+ },
+ "AA.VI.F.S1": {
+  "anchors": [
+   "ifh:ch06",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding airspeed and guidance within tolerance is IFH ch6 attitude instrument flying inside the IPH ch4 approach."
+ },
+ "AA.VI.F.S2": {
+  "anchors": [
+   "aim:ch04-s01"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC instructions; AIM 4-1 Services Available to Pilots covers the advisories."
+ },
+ "AA.VI.F.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.F.S4": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch02-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Touchdown zone accuracy is AFH ch9; the aiming point markings are defined in AIM 2-3."
+ },
+ "AA.VI.F.S5": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Directional control and braking through the rollout are AFH ch9 Approaches and Landings."
+ },
+ "AA.VI.F.S6": {
+  "anchors": [
+   "risk-management:ch08",
+   "ifh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch8 is decision-making in flight; IFH ch3 Human Factors carries the crew and single-pilot resource management material."
+ },
+ "AA.VI.F.S7": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 Airport Operations carries runway incursion avoidance."
+ },
+ "AA.VI.G.K1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175 governs instrument approach procedures; IFH ch10 IFR Flight covers circling procedures, approach categories, and the associated speed restrictions. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.G.R1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175 is the approach rule the prescribed circling maneuver operates under; IFH ch10 is the technique. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.G.R2": {
+  "anchors": [
+   "iph:ch04",
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Circling at night or in marginal visibility is the IFH ch10 procedure at its limits; Risk Management ch4 is how that risk is assessed. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.G.R3": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) requires the missed approach on loss of visual reference while circling. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.G.R4": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "AA.VI.G.R5": {
+  "anchors": [
+   "ifh:ch06",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Altitude, airspeed, and distance control while circling is IFH ch6 attitude instrument flying transitioning to the AFH ch9 visual landing."
+ },
+ "AA.VI.G.R6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance."
+ },
+ "AA.VI.G.R7": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) sets the missed approach requirement, including the climbing turn toward the airport when circling; IFH ch10 is the technique. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.G.S1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175 fixes the circling minimums and category; IFH ch10 covers flying it in turbulence and windshear. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.G.S2": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC instructions; AIM 4-3 Airport Operations covers traffic direction at the airport."
+ },
+ "AA.VI.G.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.G.S4": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 Approaches and Landings defines the stabilized approach; ch4 Energy Management is the concept behind it."
+ },
+ "AA.VI.G.S5": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding altitude, heading, and airspeed on instruments is IFH ch6 Airplane Attitude Instrument Flying."
+ },
+ "AA.VI.G.S6": {
+  "anchors": [
+   "afh:ch08",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Maneuvering visually onto a base or downwind leg is AFH ch8 Airport Traffic Patterns into the ch9 landing."
+ },
+ "AA.VI.G.S7": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) sets the missed approach requirement and the direction of turn while circling. IPH chapter 4 covers approach procedures; this Task cites FAA-H-8083-16"
+ },
+ "AA.VI.H.K1": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 Approaches and Landings covers the landing; IPH ch4 Approaches covers the operational and meteorological factors leading to it."
+ },
+ "AA.VI.H.K2": {
+  "anchors": [
+   "aim:ch02-s01",
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 2-1 Airport Lighting Aids, AIM 2-3 Airport Marking Aids and Signs, and PHAK ch14 Airport Operations."
+ },
+ "AA.VI.H.R1": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Approach and runway selection against aircraft limitations and available distance is AFH ch9 with the procedure choice in IPH ch4."
+ },
+ "AA.VI.H.R2": {
+  "anchors": [
+   "aim:ch07-s04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-4 is the Wake Turbulence section."
+ },
+ "AA.VI.H.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived. Nothing to link."
+ },
+ "AA.VI.H.R3a": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived. Nothing to link."
+ },
+ "AA.VI.H.R3b": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived. Nothing to link."
+ },
+ "AA.VI.H.R4": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.113"
+  ],
+  "why": "91.113(b) is the see-and-avoid duty; AIM 7-6 Potential Flight Hazards carries collision avoidance."
+ },
+ "AA.VI.H.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance."
+ },
+ "AA.VI.H.R6": {
+  "anchors": [
+   "risk-management:ch06",
+   "ifh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch6 is Threat and Error Management; IFH ch3 Human Factors covers the instrument-specific attention and disorientation traps."
+ },
+ "AA.VI.H.R7": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Landing from an unstable approach is the AFH ch9 stabilized approach failing, with the energy state in ch4."
+ },
+ "AA.VI.H.R8": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) requires the missed approach when the approach cannot be completed."
+ },
+ "AA.VI.H.R9": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Land and hold short operations are described in AIM 4-3 Airport Operations."
+ },
+ "AA.VI.H.S1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) requires keeping the airport in sight while circling; the circling radius by category is covered in IPH ch4 Approaches."
+ },
+ "AA.VI.H.S10": {
+  "anchors": [
+   "risk-management:ch08",
+   "ifh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch8 is decision-making in flight; IFH ch3 Human Factors carries the crew and single-pilot resource management material."
+ },
+ "AA.VI.H.S11": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 Airport Operations carries runway incursion avoidance."
+ },
+ "AA.VI.H.S2": {
+  "anchors": [
+   "aim:ch04-s01"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC instructions; AIM 4-1 Services Available to Pilots covers the advisories."
+ },
+ "AA.VI.H.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.H.S4": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Aligning for a normal landing without excessive maneuvering is AFH ch9 Approaches and Landings."
+ },
+ "AA.VI.H.S5": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Control application through the circling maneuver is AFH ch9, flown off the IFH ch6 scan until visual."
+ },
+ "AA.VI.H.S6": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Landing configuration is covered in AFH ch9 but is manufacturer specific."
+ },
+ "AA.VI.H.S7": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch07-s06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Scanning the runway and adjoining area is part of the AFH ch9 approach; AIM 7-6 covers the hazards being scanned for."
+ },
+ "AA.VI.H.S8": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch02-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Touchdown zone accuracy is AFH ch9; the aiming point markings are defined in AIM 2-3."
+ },
+ "AA.VI.H.S9": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Directional control and braking through the rollout are AFH ch9 Approaches and Landings."
+ },
+ "AA.VI.I.K1": {
+  "anchors": [
+   "iph:ch04",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) is the missed approach requirement; IPH ch4 Approaches covers the procedure and IFH ch7 covers flying it on standby instruments."
+ },
+ "AA.VI.I.K2": {
+  "anchors": [
+   "iph:ch04",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Approach limitations while coupled are IPH ch4, with the automation management in Risk Management ch7."
+ },
+ "AA.VI.I.R1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with the procedure or ATC instruction; IPH ch4 describes the missed approach."
+ },
+ "AA.VI.I.R2": {
+  "anchors": [
+   "risk-management:ch08",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Choosing between holding, diverting, and another attempt is Risk Management ch8, against the options in IPH ch4."
+ },
+ "AA.VI.I.R3": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Configuration through the approach and missed approach is AFH ch9 inside the IPH ch4 procedure, but neither treats it as a named topic."
+ },
+ "AA.VI.I.R4": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) governs the missed approach, including one begun before the missed approach point."
+ },
+ "AA.VI.I.R5": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "AA.VI.I.S1": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.175",
+   "91.183"
+  ],
+  "why": "91.175(e) requires the missed approach and 91.183 the report to ATC; IPH ch4 is the procedure."
+ },
+ "AA.VI.I.S10": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "AA.VI.I.S11": {
+  "anchors": [
+   "iph:ch04",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 governs requesting a new clearance; the choice between another approach, the alternate, and a hold is Risk Management ch8 against IPH ch4."
+ },
+ "AA.VI.I.S2": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Power and pitch for the go-around are AFH ch9, flown on the IFH ch6 instrument scan."
+ },
+ "AA.VI.I.S3": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Flap, drag device, and gear retraction sequence on the go-around is AFH ch9 Approaches and Landings."
+ },
+ "AA.VI.I.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination on the checklist."
+ },
+ "AA.VI.I.S5": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123",
+   "91.175"
+  ],
+  "why": "91.175(e) requires the published missed approach and 91.123 compliance with an alternate one issued by ATC; IPH ch4 is the procedure."
+ },
+ "AA.VI.I.S6": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123(a) requires requesting an amended clearance when unable to comply; AIM 4-2 is the phraseology."
+ },
+ "AA.VI.I.S7": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding altitude, heading, and airspeed on instruments is IFH ch6 Airplane Attitude Instrument Flying."
+ },
+ "AA.VI.I.S8": {
+  "anchors": [
+   "ifh:ch09",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch9 Navigation Systems covers the moving map and graphical displays; Risk Management ch7 covers managing them."
+ },
+ "AA.VI.I.S9": {
+  "anchors": [
+   "risk-management:ch08",
+   "ifh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch8 is decision-making in flight; IFH ch3 Human Factors carries the crew and single-pilot resource management material."
+ },
+ "AA.VI.J.K1": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.183"
+  ],
+  "why": "91.183 sets the IFR position reporting; AIM 5-3 En Route Procedures carries holding speeds and entry, with the technique in IFH ch10."
+ },
+ "AA.VI.J.K2": {
+  "anchors": [
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.167"
+  ],
+  "why": "91.167 sets the IFR fuel requirement that endurance is measured against; IPH ch2 En Route Operations covers holding endurance planning."
+ },
+ "AA.VI.J.K3": {
+  "anchors": [
+   "aim:ch06-s03"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.3"
+  ],
+  "why": "91.3(b) is the emergency authority; AIM 6-3 Distress and Urgency Procedures is when and how to declare minimum fuel or an emergency."
+ },
+ "AA.VI.J.K4": {
+  "anchors": [
+   "risk-management:ch07",
+   "iph:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding on the autopilot and FMS is Risk Management ch7 with the database behavior in IPH ch6."
+ },
+ "AA.VI.J.R1": {
+  "anchors": [
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.167"
+  ],
+  "why": "91.167 fixes the reserve that must survive the recalculation; Risk Management ch4 is the assessment itself."
+ },
+ "AA.VI.J.R2": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.3",
+   "91.167"
+  ],
+  "why": "91.3(b) is the emergency authority and 91.167 the reserve being consumed; Risk Management ch8 is the decision."
+ },
+ "AA.VI.J.R3": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.169"
+  ],
+  "why": "91.169 is the alternate requirement that deteriorating destination weather triggers; Risk Management ch8 is the decision."
+ },
+ "AA.VI.J.R4": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 5-3 En Route Procedures carries holding entry and drift correction, with the technique in IFH ch10."
+ },
+ "AA.VI.J.R5": {
+  "anchors": [
+   "aim:ch07-s01",
+   "ifh:ch04"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 Meteorology covers icing conditions; IFH ch4 Aerodynamic Factors covers what ice does to the airplane. Neither is scoped to holding in ice."
+ },
+ "AA.VI.J.R6": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "AA.VI.J.S1": {
+  "anchors": [
+   "ifh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Identifying the navigation aids that define the hold is IFH ch9 Navigation Systems."
+ },
+ "AA.VI.J.S2": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 5-3 En Route Procedures carries the entry procedures; IFH ch10 is the technique."
+ },
+ "AA.VI.J.S3": {
+  "anchors": [
+   "aim:ch05-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 5-3 En Route Procedures carries the maximum holding airspeeds by altitude."
+ },
+ "AA.VI.J.S4": {
+  "anchors": [
+   "aim:ch05-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 5-3 En Route Procedures carries leg lengths and holding pattern restrictions."
+ },
+ "AA.VI.J.S5": {
+  "anchors": [
+   "aim:ch05-s03"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.183"
+  ],
+  "why": "91.183 sets the IFR reporting requirements; AIM 5-3 carries the holding reports."
+ },
+ "AA.VI.J.S6": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 5-3 covers drift correction and timing in the hold; IFH ch10 is the technique."
+ },
+ "AA.VI.J.S7": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Holding altitude, heading, and airspeed on instruments is IFH ch6 Airplane Attitude Instrument Flying."
+ },
+ "AA.VI.J.S8": {
+  "anchors": [
+   "risk-management:ch07",
+   "iph:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Using the autopilot, flight director, and navigation display for the hold is Risk Management ch7 with the database behavior in IPH ch6."
+ },
+ "AA.VI.J.S9": {
+  "anchors": [
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "sections": [
+   "91.167"
+  ],
+  "why": "91.167 fixes the reserve the updated calculation must preserve; Risk Management ch4 is the assessment."
+ }
+}

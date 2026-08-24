@@ -1,0 +1,2268 @@
+{
+  "AI.VII.A.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "seaplane:normal-takeoffs",
+      "seaplane:crosswind-takeoffs"
+    ],
+    "why": "AFH ch6 Takeoffs and Departure Climbs is the normal and crosswind takeoff; the water equivalents are the Seaplane normal and crosswind takeoffs.",
+    "confidence": "high"
+  },
+  "AI.VII.A.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch06"
+    ],
+    "why": "PHAK ch11 Aircraft Performance is the wind and density altitude effect; AFH ch6 applies it.",
+    "confidence": "high"
+  },
+  "AI.VII.A.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "Vx and Vy are defined in PHAK ch11 and flown in AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.A.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Takeoff configuration is covered in AFH ch6, though not as a named section.",
+    "confidence": "low"
+  },
+  "AI.VII.A.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch06",
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Runway or takeoff path selection needs the ch11 performance numbers, the ch6 technique, and on water the reconnaissance.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Parent heading. The maneuver chapter is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "AI.VII.A.R2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "seaplane:crosswind-takeoffs"
+    ],
+    "why": "Crosswind takeoff technique.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R2b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s01",
+      "phak:ch12"
+    ],
+    "why": "AIM 7-1 Meteorology carries wind shear and microburst; PHAK ch12 Weather Theory is the mechanism.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R2c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "seaplane:downwind-takeoffs"
+    ],
+    "why": "Downwind and tailwind takeoff technique.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R2d": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s04"
+    ],
+    "why": "AIM 7-4 is the Wake Turbulence section.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R2e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "seaplane:glassy-water-takeoffs",
+      "seaplane:rough-water-takeoffs"
+    ],
+    "why": "Surface condition for a land runway is AFH ch6; on water it is the glassy and rough water cases.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "Parent heading. AFH ch18 Emergency Procedures is the shared entry.",
+    "confidence": "low"
+  },
+  "AI.VII.A.R3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch06"
+    ],
+    "why": "Rejected takeoff is an AFH ch18 emergency decision made on the ch6 takeoff roll.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R3b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "seaplane:emergency-landing"
+    ],
+    "why": "AFH ch18 Emergency Procedures covers powerplant failure in the takeoff and climb phase.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s06"
+    ],
+    "why": "AIM 7-6 Potential Flight Hazards carries collision avoidance and see-and-avoid.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.VII.A.R7": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "AIM 4-3 Airport Operations carries the runway incursion avoidance material.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S10": {
+    "sections": [],
+    "anchors": [
+      "seaplane:planing-or-step-position",
+      "seaplane:porpoising",
+      "seaplane:skipping"
+    ],
+    "why": "The element names the planing attitude and both porpoising and skipping correction.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S11": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Rotation and acceleration to Vy is AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch04"
+    ],
+    "why": "Pitch for Vy is AFH ch6, with the pitch and power relationship in ch4 Energy Management.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Post-liftoff configuration is covered in AFH ch6 but is manufacturer specific.",
+    "confidence": "low"
+  },
+  "AI.VII.A.S14": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Maintaining Vy in the departure climb is AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S15": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch07"
+    ],
+    "why": "Directional control in the climb is AFH ch6; wind drift correction is ch7.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S16": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Noise abatement procedures are published with airport operations information in AIM 4-3.",
+    "confidence": "low"
+  },
+  "AI.VII.A.S17": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch06"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 Radio Communications Phraseology and Techniques.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S3": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Verifying the assigned runway or takeoff path is AIM 4-3 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14",
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "PHAK ch14 covers wind indicators at an airport; on water the wind is read off the surface.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02",
+      "afh:ch06"
+    ],
+    "why": "Control positioning for wind spans ground handling and the takeoff roll.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "seaplane:normal-takeoffs"
+    ],
+    "why": "Lineup on the centerline is AFH ch6; lineup on a takeoff path is the Seaplane normal takeoff.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:using-water-rudders"
+    ],
+    "why": "Exact topic match for water rudder retraction.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Power application and instrument confirmation on the takeoff roll is AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.A.S9": {
+    "sections": [],
+    "anchors": [
+      "seaplane:takeoffs"
+    ],
+    "why": "Spray management is discussed inside the Seaplane takeoff treatment rather than as its own topic.",
+    "confidence": "low"
+  },
+  "AI.VII.B.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:normal-landing",
+      "seaplane:crosswind-landing"
+    ],
+    "why": "AFH ch9 Approaches and Landings is the normal and crosswind landing; the water equivalents are the Seaplane normal and crosswind landings.",
+    "confidence": "high"
+  },
+  "AI.VII.B.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "AFH ch9 defines the stabilized approach; ch4 Energy Management is the concept behind it.",
+    "confidence": "high"
+  },
+  "AI.VII.B.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch09"
+    ],
+    "why": "PHAK ch11 gives the landing performance effect of wind and density altitude; AFH ch9 applies it.",
+    "confidence": "high"
+  },
+  "AI.VII.B.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:crosswind-landing"
+    ],
+    "why": "Crab and sideslip technique is AFH ch9; the water equivalent is the Seaplane crosswind landing.",
+    "confidence": "high"
+  },
+  "AI.VII.B.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch09",
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Surface, approach path, and touchdown area selection needs ch11 performance, ch9 technique, and on water the reconnaissance.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Parent heading. The maneuver chapter is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "AI.VII.B.R2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:crosswind-landing"
+    ],
+    "why": "Crosswind approach and landing technique.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R2b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s01",
+      "phak:ch12"
+    ],
+    "why": "AIM 7-1 Meteorology carries wind shear and microburst; PHAK ch12 Weather Theory is the mechanism.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R2c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:downwind-landing"
+    ],
+    "why": "Downwind and tailwind approach and landing technique.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R2d": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s04"
+    ],
+    "why": "AIM 7-4 is the Wake Turbulence section.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R2e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:glassy-water-landing",
+      "seaplane:rough-water-landing"
+    ],
+    "why": "Surface condition for a runway is AFH ch9; on water it is the glassy and rough water cases.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Parent heading. AFH ch9 Approaches and Landings is the shared entry.",
+    "confidence": "low"
+  },
+  "AI.VII.B.R3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:go-around"
+    ],
+    "why": "Rejected landing and go-around technique.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R3b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Land and hold short operations are described in AIM 4-3 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s06"
+    ],
+    "why": "AIM 7-6 Potential Flight Hazards carries collision avoidance and see-and-avoid.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "AI.VII.B.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:normal-landing"
+    ],
+    "why": "Touchdown attitude, drift, and alignment are AFH ch9 and the Seaplane normal landing.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S11": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:go-around"
+    ],
+    "why": "Go-around decision and execution, land and water cases.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S12": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch09"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 Radio Communications Phraseology and Techniques.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S3": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Runway alignment and confirmation is AIM 4-3 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "aim:ch07-s06"
+    ],
+    "why": "Scanning the landing area is part of the AFH ch9 approach; AIM 7-6 covers the hazards being scanned for.",
+    "confidence": "low"
+  },
+  "AI.VII.B.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:normal-landing"
+    ],
+    "why": "Aim point selection is AFH ch9 and the Seaplane normal landing.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "Stabilized approach configuration and trim are AFH ch9, with the energy concepts in ch4.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 sets the approach speed and gust factor practice.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "seaplane:crosswind-landing"
+    ],
+    "why": "Crosswind correction through the landing, land and water cases.",
+    "confidence": "high"
+  },
+  "AI.VII.B.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Round out and touchdown control application is AFH ch9.",
+    "confidence": "high"
+  },
+  "AI.VII.C.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "The soft-field takeoff and its purpose are in AFH ch6 Takeoffs and Departure Climbs.",
+    "confidence": "high"
+  },
+  "AI.VII.C.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch06"
+    ],
+    "why": "PHAK ch11 Aircraft Performance is the wind and density altitude effect; AFH ch6 applies it.",
+    "confidence": "high"
+  },
+  "AI.VII.C.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "Vx and Vy are defined in PHAK ch11 and flown in AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.C.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Soft-field configuration is covered in AFH ch6, though not as a named section.",
+    "confidence": "low"
+  },
+  "AI.VII.C.K5": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05"
+    ],
+    "why": "Ground effect is an aerodynamics topic in PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.VII.C.K6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Weight transfer from wheels to wings is the defining soft-field technique in AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.C.K7": {
+    "sections": [],
+    "anchors": [
+      "phak:ch05"
+    ],
+    "why": "Torque, P-factor, slipstream, and gyroscopic precession are in PHAK ch5 Aerodynamics.",
+    "confidence": "high"
+  },
+  "AI.VII.C.K8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch06"
+    ],
+    "why": "Runway selection needs the ch11 performance numbers and the ch6 technique.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Parent heading. The maneuver chapter is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "AI.VII.C.R2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Crosswind takeoff technique.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R2b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s01",
+      "phak:ch12"
+    ],
+    "why": "AIM 7-1 Meteorology carries wind shear and microburst; PHAK ch12 Weather Theory is the mechanism.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R2c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Downwind and tailwind takeoff technique.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R2d": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s04"
+    ],
+    "why": "AIM 7-4 is the Wake Turbulence section.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R2e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Soft and unimproved surface effects are the subject of the AFH ch6 soft-field takeoff.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "Parent heading. AFH ch18 Emergency Procedures is the shared entry.",
+    "confidence": "low"
+  },
+  "AI.VII.C.R3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch06"
+    ],
+    "why": "Rejected takeoff is an AFH ch18 emergency decision made on the ch6 takeoff roll.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R3b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "AFH ch18 Emergency Procedures covers powerplant failure in the takeoff and climb phase.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s06"
+    ],
+    "why": "AIM 7-6 Potential Flight Hazards carries collision avoidance and see-and-avoid.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "AI.VII.C.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch04"
+    ],
+    "why": "Pitch for Vx or Vy is AFH ch6, with the pitch and power relationship in ch4.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S11": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Post-liftoff configuration is covered in AFH ch6 but is manufacturer specific.",
+    "confidence": "low"
+  },
+  "AI.VII.C.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Maintaining Vx or Vy in the departure climb is AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch07"
+    ],
+    "why": "Directional control in the climb is AFH ch6; wind drift correction is ch7.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S14": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Noise abatement procedures are published with airport operations information in AIM 4-3.",
+    "confidence": "low"
+  },
+  "AI.VII.C.S15": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch06"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 Radio Communications Phraseology and Techniques.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S3": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Verifying the assigned runway is AIM 4-3 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14"
+    ],
+    "why": "Wind sock, tetrahedron, and segmented circle are in PHAK ch14 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02",
+      "afh:ch06"
+    ],
+    "why": "Control positioning for wind spans ground handling and the takeoff roll.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch02"
+    ],
+    "why": "Taxiing into position without stopping is the soft-field technique in AFH ch6, on ch2 ground handling.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Power confirmation on the takeoff roll is AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "The nose-high attitude that transfers weight to the wings is the soft-field technique in AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.C.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch05"
+    ],
+    "why": "Lifting off at minimum airspeed and accelerating in ground effect is AFH ch6; ground effect is PHAK ch5.",
+    "confidence": "high"
+  },
+  "AI.VII.D.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "The soft-field approach and landing and its purpose are in AFH ch9 Approaches and Landings.",
+    "confidence": "high"
+  },
+  "AI.VII.D.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "AFH ch9 defines the stabilized approach; ch4 Energy Management is the concept behind it.",
+    "confidence": "high"
+  },
+  "AI.VII.D.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch09"
+    ],
+    "why": "PHAK ch11 gives the landing performance effect of wind and density altitude; AFH ch9 applies it.",
+    "confidence": "high"
+  },
+  "AI.VII.D.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Crab and sideslip technique is AFH ch9 Approaches and Landings.",
+    "confidence": "high"
+  },
+  "AI.VII.D.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch09"
+    ],
+    "why": "Runway selection needs the ch11 performance numbers and the ch9 technique.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Parent heading. The maneuver chapter is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "AI.VII.D.R2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Crosswind approach and landing technique.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R2b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s01",
+      "phak:ch12"
+    ],
+    "why": "AIM 7-1 Meteorology carries wind shear and microburst; PHAK ch12 Weather Theory is the mechanism.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R2c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Downwind and tailwind approach and landing technique.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R2d": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s04"
+    ],
+    "why": "AIM 7-4 is the Wake Turbulence section.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R2e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Soft and unimproved surface effects are the subject of the AFH ch9 soft-field landing.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Parent heading. AFH ch9 Approaches and Landings is the shared entry.",
+    "confidence": "low"
+  },
+  "AI.VII.D.R3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Rejected landing and go-around technique.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R3b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Land and hold short operations are described in AIM 4-3 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s06"
+    ],
+    "why": "AIM 7-6 Potential Flight Hazards carries collision avoidance and see-and-avoid.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "AI.VII.D.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Minimum sink rate touchdown is the defining soft-field landing technique in AFH ch9.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S11": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Elevator during rollout and exiting the soft area is AFH ch9 soft-field landing.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Timely go-around decision is covered in AFH ch9 Approaches and Landings.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch02"
+    ],
+    "why": "Taxiing on a soft surface without stopping is AFH ch9 practice carried into ch2 ground handling.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S14": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch09"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 Radio Communications Phraseology and Techniques.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S3": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Runway alignment and confirmation is AIM 4-3 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "aim:ch07-s06"
+    ],
+    "why": "Scanning the landing area is part of the AFH ch9 approach; AIM 7-6 covers the hazards being scanned for.",
+    "confidence": "low"
+  },
+  "AI.VII.D.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Aim point selection is AFH ch9.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "Stabilized approach configuration and trim are AFH ch9, with the energy concepts in ch4.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 sets the approach speed and gust factor practice.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Crosswind correction through the approach and landing is AFH ch9.",
+    "confidence": "high"
+  },
+  "AI.VII.D.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Round out, touchdown, and holding the nosewheel off are the soft-field technique in AFH ch9.",
+    "confidence": "high"
+  },
+  "AI.VII.E.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "The short-field takeoff and maximum performance climb are in AFH ch6 Takeoffs and Departure Climbs.",
+    "confidence": "high"
+  },
+  "AI.VII.E.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch06"
+    ],
+    "why": "PHAK ch11 Aircraft Performance is the wind and density altitude effect; AFH ch6 applies it.",
+    "confidence": "high"
+  },
+  "AI.VII.E.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "Vx and Vy are defined in PHAK ch11 and flown in AFH ch6. Vx is the obstacle climb speed.",
+    "confidence": "high"
+  },
+  "AI.VII.E.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Short-field configuration is covered in AFH ch6, though not as a named section.",
+    "confidence": "low"
+  },
+  "AI.VII.E.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch06"
+    ],
+    "why": "Runway selection against available distance is the ch11 takeoff distance chart plus ch6 technique.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Parent heading. The maneuver chapter is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "AI.VII.E.R2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Crosswind takeoff technique.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R2b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s01",
+      "phak:ch12"
+    ],
+    "why": "AIM 7-1 Meteorology carries wind shear and microburst; PHAK ch12 Weather Theory is the mechanism.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R2c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Downwind and tailwind takeoff technique.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R2d": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s04"
+    ],
+    "why": "AIM 7-4 is the Wake Turbulence section.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R2e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "This Task is a takeoff, but the element reads 'Landing surface/condition'. Mapped to the AFH ch6 short-field takeoff on the Task context rather than the element wording.",
+    "confidence": "low"
+  },
+  "AI.VII.E.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "Parent heading. AFH ch18 Emergency Procedures is the shared entry.",
+    "confidence": "low"
+  },
+  "AI.VII.E.R3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "afh:ch06"
+    ],
+    "why": "Rejected takeoff is an AFH ch18 emergency decision made on the ch6 takeoff roll.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R3b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "AFH ch18 Emergency Procedures covers powerplant failure in the takeoff and climb phase.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s06"
+    ],
+    "why": "AIM 7-6 Potential Flight Hazards carries collision avoidance and see-and-avoid.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "AI.VII.E.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "The Vx obstacle climb to 50 feet is the defining short-field technique in AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S11": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch04"
+    ],
+    "why": "Transition from Vx to Vy after the obstacle is AFH ch6, with the pitch and power tradeoff in ch4.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Post-liftoff configuration is covered in AFH ch6 but is manufacturer specific.",
+    "confidence": "low"
+  },
+  "AI.VII.E.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Maintaining Vy in the departure climb is AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S14": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch07"
+    ],
+    "why": "Directional control in the climb is AFH ch6; wind drift correction is ch7.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S15": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Noise abatement procedures are published with airport operations information in AIM 4-3.",
+    "confidence": "low"
+  },
+  "AI.VII.E.S16": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch06"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 Radio Communications Phraseology and Techniques.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S3": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Verifying the assigned runway is AIM 4-3 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14"
+    ],
+    "why": "Wind sock, tetrahedron, and segmented circle are in PHAK ch14 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02",
+      "afh:ch06"
+    ],
+    "why": "Control positioning for wind spans ground handling and the takeoff roll.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Using the maximum available takeoff area is the short-field technique in AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Holding brakes while setting power is the short-field technique in AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Power and instrument confirmation before brake release is AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.E.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Rotation and acceleration to the obstacle clearance speed is AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.F.K1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "The short-field approach and landing and its purpose are in AFH ch9 Approaches and Landings.",
+    "confidence": "high"
+  },
+  "AI.VII.F.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "AFH ch9 defines the stabilized approach; ch4 Energy Management is what makes a short-field landing work.",
+    "confidence": "high"
+  },
+  "AI.VII.F.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch09"
+    ],
+    "why": "PHAK ch11 gives the landing distance effect of wind and density altitude; AFH ch9 applies it.",
+    "confidence": "high"
+  },
+  "AI.VII.F.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Crab and sideslip technique is AFH ch9 Approaches and Landings.",
+    "confidence": "high"
+  },
+  "AI.VII.F.K5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R1": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch09"
+    ],
+    "why": "Runway selection against available distance is the ch11 landing distance chart plus ch9 technique.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Parent heading. The maneuver chapter is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "AI.VII.F.R2a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Crosswind approach and landing technique.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R2b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s01",
+      "phak:ch12"
+    ],
+    "why": "AIM 7-1 Meteorology carries wind shear and microburst; PHAK ch12 Weather Theory is the mechanism.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R2c": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Downwind and tailwind approach and landing technique.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R2d": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s04"
+    ],
+    "why": "AIM 7-4 is the Wake Turbulence section.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R2e": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Surface condition effect on landing distance and braking is covered in the AFH ch9 short-field landing.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Parent heading. AFH ch9 Approaches and Landings is the shared entry.",
+    "confidence": "low"
+  },
+  "AI.VII.F.R3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Rejected landing and go-around technique.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R3b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Land and hold short operations are described in AIM 4-3 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s06"
+    ],
+    "why": "AIM 7-6 Potential Flight Hazards carries collision avoidance and see-and-avoid.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "AI.VII.F.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S10": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "The 100 foot touchdown tolerance with minimum float is the AFH ch9 short-field landing.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S11": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Configuration and maximum braking after touchdown is the AFH ch9 short-field technique.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Timely go-around decision is covered in AFH ch9 Approaches and Landings.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S13": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "afh:ch09"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 Radio Communications Phraseology and Techniques.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S3": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Runway alignment and confirmation is AIM 4-3 Airport Operations.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "aim:ch07-s06"
+    ],
+    "why": "Scanning the landing area is part of the AFH ch9 approach; AIM 7-6 covers the hazards being scanned for.",
+    "confidence": "low"
+  },
+  "AI.VII.F.S5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Aim point selection on a specified point is the defining short-field skill in AFH ch9.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "Stabilized approach configuration and trim are AFH ch9, with the energy concepts in ch4.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 sets the approach speed and gust factor practice.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S8": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Crosswind correction through the approach and landing is AFH ch9.",
+    "confidence": "high"
+  },
+  "AI.VII.F.S9": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Round out and touchdown control application is AFH ch9.",
+    "confidence": "high"
+  },
+  "AI.VII.G.K1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "Exact topic match for the confined area takeoff and its purpose.",
+    "confidence": "high"
+  },
+  "AI.VII.G.K2": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch06"
+    ],
+    "why": "PHAK ch11 Aircraft Performance is the wind and density altitude effect; AFH ch6 applies it.",
+    "confidence": "high"
+  },
+  "AI.VII.G.K3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "phak:ch11"
+    ],
+    "why": "Vx and Vy are defined in PHAK ch11 and flown in AFH ch6. Vx is the obstacle climb speed.",
+    "confidence": "high"
+  },
+  "AI.VII.G.K4": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Takeoff configuration is covered in AFH ch6, though not as a named section.",
+    "confidence": "low"
+  },
+  "AI.VII.G.K5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-takeoffs",
+      "seaplane:rough-water-takeoffs",
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Glassy and rough water are the two surface cases; reconnaissance is how the surface is assessed.",
+    "confidence": "high"
+  },
+  "AI.VII.G.K6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs",
+      "seaplane:landing-area-reconnaissance",
+      "phak:ch11"
+    ],
+    "why": "Takeoff path selection in a confined area is the exact topic, informed by reconnaissance and the ch11 performance numbers.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Parent heading. The maneuver chapter is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "AI.VII.G.R2a": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-takeoffs"
+    ],
+    "why": "Crosswind takeoff on water is an exact topic match.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R2b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s01",
+      "phak:ch12"
+    ],
+    "why": "AIM 7-1 Meteorology carries wind shear and microburst; PHAK ch12 Weather Theory is the mechanism.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R2c": {
+    "sections": [],
+    "anchors": [
+      "seaplane:downwind-takeoffs"
+    ],
+    "why": "Downwind takeoff on water is an exact topic match.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R2d": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s04"
+    ],
+    "why": "AIM 7-4 is the Wake Turbulence section.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R2e": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-takeoffs",
+      "seaplane:rough-water-takeoffs",
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Water surface condition is the glassy and rough water cases, assessed during reconnaissance.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R3": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18"
+    ],
+    "why": "Parent heading. AFH ch18 Emergency Procedures is the shared entry.",
+    "confidence": "low"
+  },
+  "AI.VII.G.R3a": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "Rejecting a takeoff in a confined area is the ch18 emergency decision on the confined area topic.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R3b": {
+    "sections": [],
+    "anchors": [
+      "afh:ch18",
+      "seaplane:emergency-landing"
+    ],
+    "why": "AFH ch18 Emergency Procedures covers powerplant failure in the takeoff and climb phase.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s06"
+    ],
+    "why": "AIM 7-6 Potential Flight Hazards carries collision avoidance and see-and-avoid.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "AI.VII.G.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S10": {
+    "sections": [],
+    "anchors": [
+      "seaplane:takeoffs"
+    ],
+    "why": "Spray management is discussed inside the Seaplane takeoff treatment rather than as its own topic.",
+    "confidence": "low"
+  },
+  "AI.VII.G.S11": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs",
+      "afh:ch06"
+    ],
+    "why": "Liftoff and acceleration to the obstacle clearance speed out of a confined area.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S12": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "The Vx obstacle climb to 50 feet is AFH ch6 applied to the confined area departure.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S13": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch04"
+    ],
+    "why": "Transition from Vx to Vy after the obstacle is AFH ch6, with the pitch and power tradeoff in ch4.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S14": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Flap retraction after a positive rate is covered in AFH ch6 but is manufacturer specific.",
+    "confidence": "low"
+  },
+  "AI.VII.G.S15": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06"
+    ],
+    "why": "Maintaining Vy in the departure climb is AFH ch6.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S16": {
+    "sections": [],
+    "anchors": [
+      "afh:ch06",
+      "afh:ch07"
+    ],
+    "why": "Directional control in the climb is AFH ch6; wind drift correction is ch7.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S17": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s03"
+    ],
+    "why": "Noise abatement procedures are published with airport operations information in AIM 4-3.",
+    "confidence": "low"
+  },
+  "AI.VII.G.S18": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 Radio Communications Phraseology and Techniques.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Verifying the takeoff path on water is done by reconnaissance rather than by an assigned runway.",
+    "confidence": "low"
+  },
+  "AI.VII.G.S4": {
+    "sections": [],
+    "anchors": [
+      "phak:ch14",
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "PHAK ch14 covers wind indicators; on water the wind is read off the surface during reconnaissance.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:taxiing-and-sailing",
+      "afh:ch06"
+    ],
+    "why": "Control positioning for wind on the water is inside taxiing and sailing.",
+    "confidence": "low"
+  },
+  "AI.VII.G.S6": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs"
+    ],
+    "why": "Using the maximum available takeoff area in a confined area is the exact topic.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S7": {
+    "sections": [],
+    "anchors": [
+      "seaplane:using-water-rudders"
+    ],
+    "why": "Exact topic match for water rudder retraction.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S8": {
+    "sections": [],
+    "anchors": [
+      "seaplane:planing-or-step-position",
+      "seaplane:porpoising",
+      "seaplane:skipping"
+    ],
+    "why": "The element names the planing attitude and both porpoising and skipping correction.",
+    "confidence": "high"
+  },
+  "AI.VII.G.S9": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-takeoffs",
+      "afh:ch06"
+    ],
+    "why": "Power application and instrument confirmation on the step run.",
+    "confidence": "high"
+  },
+  "AI.VII.H.K1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing"
+    ],
+    "why": "Exact topic match for the confined area approach and landing and its purpose.",
+    "confidence": "high"
+  },
+  "AI.VII.H.K2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "AFH ch9 defines the stabilized approach; ch4 Energy Management is the concept behind it.",
+    "confidence": "high"
+  },
+  "AI.VII.H.K3": {
+    "sections": [],
+    "anchors": [
+      "phak:ch11",
+      "afh:ch09"
+    ],
+    "why": "PHAK ch11 gives the landing performance effect of wind and density altitude; AFH ch9 applies it.",
+    "confidence": "high"
+  },
+  "AI.VII.H.K4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-landing",
+      "afh:ch09"
+    ],
+    "why": "Crosswind technique on water is an exact topic match, with the AFH ch9 land equivalent.",
+    "confidence": "high"
+  },
+  "AI.VII.H.K5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing",
+      "aviation-instructor:ch09"
+    ],
+    "why": "The AFH maneuver chapter lists the common errors for this maneuver; AIH ch9 Techniques of Flight Instruction is how an instructor uses them.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R1": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing",
+      "seaplane:landing-area-reconnaissance",
+      "phak:ch11"
+    ],
+    "why": "Approach path and touchdown area selection in a confined area is the exact topic, informed by reconnaissance and performance.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R2": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "Parent heading. The maneuver chapter is the shared entry for the sub-elements.",
+    "confidence": "low"
+  },
+  "AI.VII.H.R2a": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-landing"
+    ],
+    "why": "Crosswind landing on water is an exact topic match.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R2b": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s01",
+      "phak:ch12"
+    ],
+    "why": "AIM 7-1 Meteorology carries wind shear and microburst; PHAK ch12 Weather Theory is the mechanism.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R2c": {
+    "sections": [],
+    "anchors": [
+      "seaplane:downwind-landing"
+    ],
+    "why": "Downwind landing on water is an exact topic match.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R2d": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s04"
+    ],
+    "why": "AIM 7-4 is the Wake Turbulence section.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R2e": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-landing",
+      "seaplane:rough-water-landing",
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Water surface condition is the glassy and rough water cases, assessed during reconnaissance.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:go-around",
+      "afh:ch09"
+    ],
+    "why": "Go-around and rejected landing, water and land cases. This Task states R3 as a single element rather than a parent.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R4": {
+    "sections": [],
+    "anchors": [
+      "aim:ch07-s06"
+    ],
+    "why": "AIM 7-6 Potential Flight Hazards carries collision avoidance and see-and-avoid.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R5": {
+    "sections": [],
+    "anchors": [
+      "afh:ch05"
+    ],
+    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude stall, spin, and CFIT avoidance.",
+    "confidence": "high"
+  },
+  "AI.VII.H.R6": {
+    "sections": [],
+    "anchors": [
+      "phak:ch02",
+      "risk-management:ch06"
+    ],
+    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S1": {
+    "sections": [],
+    "anchors": [
+      "afh:ch02"
+    ],
+    "why": "AFH ch2 Ground Operations covers checklist discipline.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S10": {
+    "sections": [],
+    "anchors": [
+      "seaplane:glassy-water-landing",
+      "seaplane:rough-water-landing",
+      "seaplane:normal-landing"
+    ],
+    "why": "Contact attitude depends on the surface, so all three landing surface cases apply.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S11": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing"
+    ],
+    "why": "The 100 foot touchdown tolerance inside a confined area is the exact topic.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S12": {
+    "sections": [],
+    "anchors": [
+      "seaplane:go-around",
+      "afh:ch09"
+    ],
+    "why": "Go-around decision and execution, water and land cases.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S13": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing"
+    ],
+    "why": "Stopping in the shortest distance with elevator is the confined area landing technique.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S14": {
+    "sections": [],
+    "anchors": [
+      "aviation-instructor:ch09",
+      "aviation-instructor:ch06",
+      "seaplane:confined-area-landing"
+    ],
+    "why": "Recognizing and correcting a student error in flight is AIH ch9 Techniques of Flight Instruction and ch6 Assessment, against the error list in the maneuver chapter.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S2": {
+    "sections": [],
+    "anchors": [
+      "aim:ch04-s02"
+    ],
+    "why": "AIM 4-2 Radio Communications Phraseology and Techniques.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S3": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing"
+    ],
+    "why": "Alignment for the approach into a confined landing area is the exact topic.",
+    "confidence": "low"
+  },
+  "AI.VII.H.S4": {
+    "sections": [],
+    "anchors": [
+      "seaplane:landing-area-reconnaissance"
+    ],
+    "why": "Scanning the landing area for traffic and obstructions is landing area reconnaissance.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S5": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing",
+      "afh:ch09"
+    ],
+    "why": "Touchdown point selection inside a confined area.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S6": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09",
+      "afh:ch04"
+    ],
+    "why": "Stabilized approach configuration and trim are AFH ch9, with the energy concepts in ch4.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S7": {
+    "sections": [],
+    "anchors": [
+      "afh:ch09"
+    ],
+    "why": "AFH ch9 sets the approach speed and gust factor practice.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S8": {
+    "sections": [],
+    "anchors": [
+      "seaplane:crosswind-landing",
+      "afh:ch09"
+    ],
+    "why": "Crosswind correction through the approach and landing, water and land cases.",
+    "confidence": "high"
+  },
+  "AI.VII.H.S9": {
+    "sections": [],
+    "anchors": [
+      "seaplane:confined-area-landing",
+      "afh:ch09"
+    ],
+    "why": "Control application before, during, and after touchdown on water.",
+    "confidence": "high"
+  }
+}
