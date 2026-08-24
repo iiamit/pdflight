@@ -1201,6 +1201,12 @@
       "page": 54,
       "strategy": "outline"
     },
+    "seaplane:amphibious-gear": {
+      "doc": "seaplane",
+      "evidence": "In seaplanes equipped with retractable landing gear",
+      "page": 22,
+      "strategy": "regex"
+    },
     "seaplane:anchoring": {
       "doc": "seaplane",
       "evidence": "ANCHORING",

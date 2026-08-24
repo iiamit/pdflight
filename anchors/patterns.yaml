@@ -1275,3 +1275,13 @@ seaplane:salt-water:
   strategy: regex
   pattern: '^SALT\ WATER$'
   ordinal: 1
+
+# seaplane: the amphibious gear passage has no heading of its own, so it is
+# anchored on its opening line. Landing an amphibian gear-down on water is a
+# known fatal-accident mode and four Commercial elements ask for it directly,
+# so leaving it unreachable was the wrong trade.
+seaplane:amphibious-gear:
+  doc: seaplane
+  strategy: regex
+  pattern: '^In seaplanes equipped with retractable landing gear$'
+  ordinal: 1
