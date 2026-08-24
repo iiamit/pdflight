@@ -25,6 +25,7 @@ Only simple `/GoTo` actions with named destinations are used. No JavaScript, no
 """
 
 import argparse
+import csv
 import io
 import json
 import pathlib
@@ -199,6 +200,410 @@ def link_citations(page, resolver, pymupdf):
     return added
 
 
+# The element code as it sits inline on an ACS page, followed by its text.
+# bootstrap_crosswalk anchors its copy to a whole line, which is right when
+# parsing the outline and wrong when locating the code among words.
+ELEMENT_INLINE = re.compile(r"\b([A-Z]{2}\.[IVX]+\.[A-Z]\.[KRS]\d+[a-z]?)\b")
+
+
+def element_targets(root=None, every_kind=False):
+    """Element code -> its targets, from the crosswalk.
+
+    By default only CFR section rows, which is what the crosswalk pages list.
+    With `every_kind` the handbook and Advisory Circular rows come too, in
+    specificity order, which is what the inline buttons draw.
+
+    A part-level CFR row is never returned. It already has a surface: the
+    References line names the part in so many words, and link_citations turns
+    that text into the link.
+    """
+    import bootstrap_crosswalk as BC
+
+    base = pathlib.Path(root) if root else (M.ROOT / "crosswalk")
+    found = {}
+    for name, _document_id, _prefix in BC.CERTIFICATES:
+        path = base / ("%s.csv" % name)
+        if not path.is_file():
+            continue
+        with io.open(path, encoding="utf-8", newline="") as handle:
+            for row in csv.DictReader(handle):
+                ref = row["target_ref"]
+                if ref.startswith("14cfr:part-"):
+                    continue
+                if not every_kind and not ref.startswith("14cfr:"):
+                    continue
+                found.setdefault(row["source_ref"], []).append(ref)
+
+    if every_kind:
+        for code in found:
+            found[code] = sorted(set(found[code]), key=target_rank)
+    return found
+
+
+def specific_targets(root=None):
+    """Targets precise enough to deserve a button on the ACS page.
+
+    A button means "here is the rule". A document-level row such as `phak`
+    means "here is a 522 page handbook", which the References line above the
+    element already links to, so drawing it inline adds clutter and no reach.
+    Refine a handbook row to `phak:ch15` and it earns a button automatically.
+    """
+    return {code: [ref for ref in refs if ":" in ref]
+            for code, refs in element_targets(root, every_kind=True).items()
+            if any(":" in ref for ref in refs)}
+
+
+def target_rank(ref):
+    """Sort key putting the most specific target first.
+
+    Width on an ACS line is finite, so when not every target fits the ones
+    that survive should be the ones that land on a paragraph rather than on
+    the front of a 522 page handbook.
+    """
+    if ref.startswith("14cfr:") or ref.startswith("49cfr:"):
+        return (0, ref)
+    if ":" in ref:                      # phak:ch15, ac:61-65k:para-14
+        return (1, ref)
+    if ref.startswith("ac-"):
+        return (2, ref)
+    return (3, ref)
+
+
+# What a button says. These are the names the corpus already uses for these
+# documents, not abbreviations invented here.
+# A button is a few millimetres wide, so the label is the shortest form the
+# FAA itself uses: the common abbreviation where there is one, otherwise the
+# handbook number without its FAA-H- prefix. Nothing here is coined.
+SHORT_LABEL = {
+    "phak": "PHAK", "afh": "AFH", "ifh": "IFH", "iph": "IPH", "aim": "AIM",
+    "risk-management": "8083-2", "seaplane": "8083-23",
+    "aviation-weather": "8083-28", "awh": "8083-28",
+    "weight-balance": "8083-1", "aviation-instructor": "8083-9",
+    "plane-sense": "8083-19",
+}
+
+# The AIM cites itself as chapter-section, so `aim:ch03-s02` reads "AIM 3-2".
+AIM_ANCHOR = re.compile(r"^ch(\d+)-s(\d+)$")
+LEADING_NUMBER = re.compile(r"^(\d+)-")
+
+
+# Button colour by what the target is.
+#
+# CLAUDE.md section 6 reserves amber for actions and live signals, so this is a
+# deliberate widening of the palette rather than drift: a reader scanning an
+# ACS page needs to tell a regulation from a handbook without reading the
+# label. Every colour below is chosen to sit on the near-black button slab, and
+# the slab is what keeps them legible on a white FAA page.
+REG = (0.482, 0.847, 0.561)        # #7BD88F  regulations, 14 and 49 CFR
+BOOK = (0.498, 0.706, 1.0)         # #7FB4FF  handbooks
+MANUAL = (0.753, 0.549, 1.0)       # #C08CFF  the AIM
+CIRCULAR = (1.0, 0.694, 0.408)     # #FFB168  Advisory Circulars, the signal amber
+
+TARGET_KIND = (
+    ("regulation", REG),
+    ("handbook", BOOK),
+    ("manual", MANUAL),
+    ("circular", CIRCULAR),
+)
+
+
+def target_kind(ref):
+    """Which family a target belongs to, for colour and for the legend."""
+    head = ref.split(":", 1)[0]
+    if head in ("14cfr", "49cfr"):
+        return "regulation"
+    if head == "aim":
+        return "manual"
+    if head.startswith("ac-") or head == "ac":
+        return "circular"
+    return "handbook"
+
+
+def color_for_ref(ref):
+    kind = target_kind(ref)
+    return dict(TARGET_KIND)[kind]
+
+
+def button_label(ref):
+    """The text on a target button, or None when it cannot be named."""
+    if ref.startswith("14cfr:"):
+        return ref.split(":", 1)[1]
+    if ref.startswith("49cfr:"):
+        return ref.split(":", 1)[1]
+    if ref.startswith("ac-"):
+        return "AC " + ref[3:].upper()
+    if ref.startswith("ac:"):
+        return "AC " + ref.split(":")[1].upper()
+    head = ref.split(":")[0]
+    base = SHORT_LABEL.get(head)
+    if not base:
+        return None
+    if ":" not in ref:
+        return base
+    tail = ref.split(":", 1)[1]
+    section = AIM_ANCHOR.match(tail)
+    if section:
+        return "%s %d-%d" % (base, int(section.group(1)), int(section.group(2)))
+    if tail.startswith("ch"):
+        return "%s c%s" % (base, tail[2:].lstrip("0") or "0")
+    # The older Aviation Weather anchors are named `2-aviation-weather-...`
+    # rather than `ch02`. Without this they all label as the bare handbook
+    # number, and five different chapters share one chip.
+    lead = LEADING_NUMBER.match(tail)
+    if lead:
+        return "%s c%s" % (base, lead.group(1).lstrip("0") or "0")
+    return base
+
+
+# A section chip on a crosswalk page, rendered by templates/menu.typ as
+# `#sym.section 91.119`. Some builds of PyMuPDF hand back the section sign as
+# its own word and some glue it to the number, so the sign is optional here and
+# the number carries the match.
+SECTION_CHIP = re.compile(r"(?:§\s*)?\b(\d{1,3}\.\d{1,4}[a-z]?)\b")
+
+# An element code sitting in the ACS left-hand column rather than mentioned in
+# a contents list. Measured across both ACS documents: 1,569 codes sit at
+# x0 < 110 and are definitions, 109 sit further right and are contents entries.
+CODE_COLUMN_X = 110.0
+
+
+def element_code_rects(page, pymupdf, left_column_only=False):
+    """Yield (code, rect) for every element code on the page."""
+    for text, spans in page_lines(page):
+        for match in ELEMENT_INLINE.finditer(text):
+            rect = rect_for_span(spans, match.start(1), match.end(1), pymupdf)
+            if rect is None:
+                continue
+            if left_column_only and rect.x0 >= CODE_COLUMN_X:
+                continue
+            yield match.group(1), rect
+
+
+# Inline target buttons, the affordance the ACE Guide uses. Sized so a four
+# button set fits the median element; see element_blocks for the measurement.
+BUTTON_FONT = 5.2
+BUTTON_CHAR = 3.15          # JetBrains Mono advance at BUTTON_FONT
+BUTTON_PAD = 3.4
+BUTTON_GAP = 2.6
+BUTTON_LEAD = 5.0           # clear of the last word
+BUTTON_HEIGHT = 8.2
+RIGHT_EDGE = 576.0          # page width 612 less the 36pt margin
+TEXT_COLUMN_X = 110.0
+# Element prose begins at x=122 on every ACS page measured. A row whose
+# first text word starts further right is a column of something else.
+TEXT_COLUMN_START_MAX = 135.0
+
+
+def button_width(label):
+    return len(label) * BUTTON_CHAR + 2 * BUTTON_PAD
+
+
+def element_blocks(page, pymupdf):
+    """Per element on the page: its code, and where its text stops.
+
+    A button goes after the *last* line of the element, not the first. An
+    earlier version measured the line carrying the code, which for wrapped
+    text is always full width, and concluded there was no room anywhere. The
+    last line leaves a median of 225pt.
+    """
+    words = page.get_text("words")
+    if not words:
+        return []
+
+    rows = {}
+    for word in words:
+        rows.setdefault(round(word[1] / 3.0), []).append(word)
+    buckets = sorted(rows)
+
+    codes = []
+    for bucket in buckets:
+        for word in sorted(rows[bucket], key=lambda a: a[0]):
+            if ELEMENT_INLINE.fullmatch(word[4]) and word[0] < CODE_COLUMN_X:
+                codes.append((bucket, word[4]))
+
+    blocks = []
+    for index, (bucket, code) in enumerate(codes):
+        stop = codes[index + 1][0] if index + 1 < len(codes) else 10 ** 9
+
+        # The code's own row must carry element text, starting where the ACS
+        # text column starts. Without this the changelog page in the front
+        # matter, which lists codes in four columns and no prose, reads as
+        # 100 elements whose neighbouring column is their text, and gets
+        # buttons stamped across it.
+        own = [w for w in rows[bucket] if w[0] >= TEXT_COLUMN_X]
+        if not own or min(w[0] for w in own) > TEXT_COLUMN_START_MAX:
+            continue
+        if all(ELEMENT_INLINE.fullmatch(w[4]) for w in own):
+            continue
+
+        tail = None
+        for other in buckets:
+            if other < bucket or other >= stop:
+                continue
+            # An element's continuation lines carry nothing in the left-hand
+            # column. A row that does is the next thing starting: `Skills:`,
+            # `References:`, `Objective:`. Without this the element's buttons
+            # were drawn after the following section header instead of after
+            # its own text.
+            if other > bucket and any(w[0] < TEXT_COLUMN_X for w in rows[other]):
+                break
+            body = [w for w in rows[other] if w[0] >= TEXT_COLUMN_X]
+            if body and min(w[0] for w in body) <= TEXT_COLUMN_START_MAX:
+                tail = (max(w[2] for w in body),
+                        min(w[1] for w in body), max(w[3] for w in body))
+        if tail:
+            blocks.append((code, tail[0], tail[1], tail[2]))
+    return blocks
+
+
+def draw_target_buttons(page, blocks, targets, resolver, pymupdf):
+    """Draw a link button per target, inline after the element text.
+
+    Returns (drawn, elements_touched, dropped). Buttons that will not fit
+    before the right margin are dropped rather than overprinted, and the
+    element code still links to the crosswalk row that lists every target.
+    """
+    drawn, touched, dropped = 0, 0, 0
+    for code, tail, y0, y1 in blocks:
+        refs = targets.get(code)
+        if not refs:
+            continue
+
+        placed = 0
+        x = tail + BUTTON_LEAD
+        for ref in refs:
+            label = button_label(ref)
+            if not label:
+                continue
+            target = resolver(ref)
+            if target is None:
+                continue
+            width = button_width(label)
+            if x + width > RIGHT_EDGE:
+                dropped += 1
+                continue
+
+            top = min(y0, y1 - BUTTON_HEIGHT)
+            box = pymupdf.Rect(x, top, x + width, top + BUTTON_HEIGHT)
+            shape = page.new_shape()
+            shape.draw_rect(box)
+            tint = color_for_ref(ref)
+            shape.finish(fill=SLAB, color=tint, width=0.4, fill_opacity=0.92)
+            shape.commit()
+            page.insert_textbox(
+                box, label, fontname="cour", fontsize=BUTTON_FONT,
+                color=tint, align=pymupdf.TEXT_ALIGN_CENTER)
+            page.insert_link({"kind": pymupdf.LINK_GOTO, "from": box,
+                              "page": target - 1})
+            x += width + BUTTON_GAP
+            placed += 1
+            drawn += 1
+        if placed:
+            touched += 1
+    return drawn, touched, dropped
+
+
+def link_element_to_hub(page, hub_page_of, pymupdf):
+    """Point each ACS element code at its row on the crosswalk page.
+
+    An element is commonly governed by three or four sections, and there is
+    nowhere on the ACS page to put three or four links. Measured: 30 percent of
+    element rows leave under 9pt between the end of the FAA text and the right
+    margin, so a strip of chips would overprint the regulation it is citing.
+
+    So the code carries one link, to a row that carries the rest. That row is
+    also what the reader comes back to between targets.
+    """
+    added = 0
+    for code, rect in element_code_rects(page, pymupdf, left_column_only=True):
+        target = hub_page_of.get(code)
+        if target is None:
+            continue
+        page.insert_link({"kind": pymupdf.LINK_GOTO, "from": rect,
+                          "page": target - 1})
+        added += 1
+    return added
+
+
+def chip_index(targets):
+    """Chip label -> target ref, for every target the crosswalk carries.
+
+    Matching chips by a number pattern only ever found the CFR ones, so the
+    handbook and AIM chips rendered on the crosswalk pages and went nowhere.
+    That mattered most for the targets that overflow the inline buttons,
+    because the crosswalk page is the only place they appear at all.
+
+    A label is unambiguous by construction: `PHAK c15` names one anchor, so
+    every occurrence of it on a crosswalk page resolves the same way.
+    """
+    index = {}
+    for refs in targets.values():
+        for ref in refs:
+            label = button_label(ref)
+            if label:
+                index.setdefault(label, ref)
+    return index
+
+
+def link_hub_row(page, chips, acs_page_of, resolver, pymupdf):
+    """Wire up one crosswalk page.
+
+    Two kinds of link. The element code returns to the ACS page it was read
+    from, which is the leg that lets a reader work through four sources and
+    still find their place. Each chip jumps to what it names.
+    """
+    codes, linked = 0, 0
+    for code, rect in element_code_rects(page, pymupdf):
+        target = acs_page_of.get(code)
+        if target is None:
+            continue
+        page.insert_link({"kind": pymupdf.LINK_GOTO, "from": rect,
+                          "page": target - 1})
+        codes += 1
+
+    # Only text that is somebody's chip label becomes a link, so the version
+    # string in the status strip cannot turn into a false jump. The index spans
+    # every target rather than this page's, because an element whose row
+    # straddles a page break leaves its chips on the page after its code.
+    for text, spans in page_lines(page):
+        taken = []
+        # Longest first, because `AFH c1` is a prefix of `AFH c11` and `61.3`
+        # of `61.31`. Matching the short one first would link the wrong
+        # chapter and leave the real chip unlinked.
+        for label in sorted(chips, key=len, reverse=True):
+            ref = chips[label]
+            start = 0
+            while True:
+                at = text.find(label, start)
+                if at < 0:
+                    break
+                end = at + len(label)
+                start = end
+                if not _standalone(text, at, end):
+                    continue
+                if any(a < end and b > at for a, b in taken):
+                    continue
+                target = resolver(ref)
+                if target is None:
+                    continue
+                rect = rect_for_span(spans, at, end, pymupdf)
+                if rect is None:
+                    continue
+                page.insert_link({"kind": pymupdf.LINK_GOTO, "from": rect,
+                                  "page": target - 1})
+                taken.append((at, end))
+                linked += 1
+    return codes, linked
+
+
+def _standalone(text, start, end):
+    """True when the span is not sitting inside a longer token."""
+    before = text[start - 1] if start else " "
+    after = text[end] if end < len(text) else " "
+    return not (before.isalnum() or before in ".-"
+                or after.isalnum() or after in ".-")
+
+
 def build_resolver(mapping, lock, entries):
     """Map a citation token onto an absolute page.
 
@@ -224,7 +629,29 @@ def build_resolver(mapping, lock, entries):
             return mapping.get(menus_tool.label_for_doc(ident)) if ident else None
         if ref.startswith("14cfr:part-"):
             return mapping.get("part-14-%s" % ref.rsplit("-", 1)[-1])
-        return mapping.get(ref)
+
+        direct = mapping.get(ref)
+        if direct is not None:
+            return direct
+
+        # A section target such as `14cfr:91.119`. The CFR build labels every
+        # section `sec-{part}-{number}`, so the jump resolves by name with no
+        # text matching. Hand-authored anchors are consulted first, above,
+        # because a curated anchor may point at a subsection rather than the
+        # section head.
+        if ref.startswith("14cfr:"):
+            number = ref.split(":", 1)[1]
+            if "." in number:
+                part, tail = number.split(".", 1)
+                return mapping.get("sec-%s-%s" % (part, tail.replace(".", "-")))
+
+        # A bare document id from the crosswalk, such as `phak` or `ac-91-92`.
+        # It resolves to that document's own menu page, which is its front
+        # door and the only target the crosswalk has for it until the handbook
+        # rows are refined to chapters.
+        if ":" not in ref:
+            return mapping.get(menus_tool.label_for_doc(ref))
+        return None
 
     return resolve
 
@@ -378,12 +805,52 @@ def run(argv, assembled=ASSEMBLED, offsets_path=OFFSETS, output=LINKED,
         M.ROOT / "build" / "menus" / "menus.pdf", pymupdf)
 
     # --- crosswalk links ----------------------------------------------------
-    # The crosswalk records element -> target. The PDF surfaces that at the
-    # References line, which is where the citation physically appears and where
-    # a reader would tap. Putting four or five separate rectangles on a single
-    # element code would be unusable, and the code carries no citation text.
+    # Two surfaces, because the ACS carries two different things.
+    #
+    # The References line cites whole parts, so link_citations turns that text
+    # into part-level jumps. That is not a shortcoming: the line says "14 CFR
+    # part 91" and a link under those words should land on Part 91.
+    #
+    # The section that actually governs an element lives in the crosswalk, not
+    # in the page text, so link_elements attaches it to the element code. That
+    # is what makes PA.V.B.R3 reach 91.119 rather than the top of a 300-page
+    # part.
     lock_for_links = M.load_lock()
     resolver = build_resolver(mapping, lock_for_links, entries)
+    targets = element_targets()
+
+    # Pass one locates things; pass two links them. The two directions depend
+    # on each other, so neither can be drawn until both ends are known.
+    acs_page_of, hub_page_of, hub_pages = {}, {}, []
+    for entry in entries:
+        if entry["section"] != "standards":
+            continue
+        record = offsets.get(entry["id"])
+        if record:
+            for index in range(record["pages"]):
+                number = record["start"] + index - 1
+                if number >= document.page_count:
+                    break
+                for code, _rect in element_code_rects(
+                        document.load_page(number), pymupdf,
+                        left_column_only=True):
+                    acs_page_of.setdefault(code, number + 1)
+
+        # The crosswalk sits in the pages after this document's menu page.
+        menu = offsets.get(entry["id"] + "__menu")
+        if menu and menu["pages"] > 1:
+            for index in range(1, menu["pages"]):
+                number = menu["start"] + index - 1
+                if number >= document.page_count:
+                    break
+                hub_pages.append(number)
+                for code, _rect in element_code_rects(
+                        document.load_page(number), pymupdf):
+                    hub_page_of.setdefault(code, number + 1)
+
+    every_target = specific_targets()
+    element_links, hub_back, hub_sections = 0, 0, 0
+    buttons, buttoned, overflowed = 0, 0, 0
     citation_links, citation_pages = 0, 0
     for entry in entries:
         if entry["section"] != "standards":
@@ -395,10 +862,25 @@ def run(argv, assembled=ASSEMBLED, offsets_path=OFFSETS, output=LINKED,
             number = record["start"] + index - 1
             if number >= document.page_count:
                 break
-            added = link_citations(document.load_page(number), resolver, pymupdf)
+            page = document.load_page(number)
+            added = link_citations(page, resolver, pymupdf)
+            element_links += link_element_to_hub(page, hub_page_of, pymupdf)
+            drew, touched, lost = draw_target_buttons(
+                page, element_blocks(page, pymupdf), every_target, resolver,
+                pymupdf)
+            buttons += drew
+            buttoned += touched
+            overflowed += lost
             if added:
                 citation_pages += 1
                 citation_links += added
+
+    chips = chip_index(every_target)
+    for number in hub_pages:
+        back, sections = link_hub_row(
+            document.load_page(number), chips, acs_page_of, resolver, pymupdf)
+        hub_back += back
+        hub_sections += sections
 
     written = write_named_destinations(document, mapping, pymupdf)
 
@@ -411,6 +893,12 @@ def run(argv, assembled=ASSEMBLED, offsets_path=OFFSETS, output=LINKED,
     out.write("rebuilt %d named destination(s) destroyed by assembly\n" % written)
     out.write("%d crosswalk citation link(s) across %d ACS page(s)\n"
               % (citation_links, citation_pages))
+    out.write("%d element code(s) linked to their crosswalk row\n"
+              % element_links)
+    out.write("%d crosswalk page(s): %d return link(s), %d section link(s)\n"
+              % (len(hub_pages), hub_back, hub_sections))
+    out.write("%d inline target button(s) across %d element(s), %d overflowed "
+              "to the crosswalk page\n" % (buttons, buttoned, overflowed))
     out.write("%s: %.1f MB\n" % (pathlib.Path(output).name, size / 1048576))
     return EXIT_PROBLEM if dropped else EXIT_OK
 

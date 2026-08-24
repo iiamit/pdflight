@@ -23,6 +23,7 @@ menu page, so that is asserted here rather than left for the build to discover.
 import argparse
 import io
 import pathlib
+import re
 import subprocess
 import sys
 
@@ -192,6 +193,7 @@ def render(entries, lock, cfr_lock, cfr_pages):
                    'is reproduced unaltered. It is a work of the United States '
                    'Government and is not subject to copyright protection in '
                    'the United States.]')
+        out.extend(crosswalk_pages(entry))
 
     # The regulations are generated rather than fetched, so they have no
     # manifest entry and would otherwise be the only 629 pages in the volume
@@ -261,6 +263,103 @@ def render(entries, lock, cfr_lock, cfr_pages):
             rows.append((entry["id"], detail or "not yet fetched"))
         out.append(ident_block(rows))
     return "\n".join(out) + "\n"
+
+
+def crosswalk_for(document_id):
+    """The crosswalk CSV that carries this ACS's elements, if any."""
+    import bootstrap_crosswalk as BC
+
+    return {ident: name for name, ident, _prefix in BC.CERTIFICATES}.get(
+        document_id)
+
+
+def crosswalk_rows(document_id):
+    """Elements of one ACS that have a section-level regulation target.
+
+    Ordered by element code so the page follows the ACS itself.
+    """
+    import csv
+
+    name = crosswalk_for(document_id)
+    if not name:
+        return []
+    path = M.ROOT / "crosswalk" / ("%s.csv" % name)
+    if not path.is_file():
+        return []
+
+    import link as L
+
+    found, text = {}, {}
+    with io.open(path, encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            ref = row["target_ref"]
+            # Anything precise enough to be worth its own chip: a CFR section,
+            # a handbook chapter, an AC paragraph. A whole-document row is
+            # already covered by the References line on the ACS page itself.
+            if ":" not in ref or ref.startswith("14cfr:part-"):
+                continue
+            label = L.button_label(ref)
+            if not label:
+                continue
+            code = row["source_ref"]
+            found.setdefault(code, []).append((label, L.target_kind(ref), ref))
+            text.setdefault(code, (row.get("element_text") or "").strip())
+
+    for code in found:
+        found[code] = sorted(set(found[code]),
+                             key=lambda item: (L.target_rank(item[2]), item[2]))
+
+    def sort_key(code):
+        parts = code.split(".")
+        roman = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6,
+                 "VII": 7, "VIII": 8, "IX": 9, "X": 10}
+        return (roman.get(parts[1], 99), parts[2],
+                parts[3][0], int(re.sub(r"\D", "", parts[3]) or 0), parts[3])
+
+    return [(code, text.get(code, ""), found[code])
+            for code in sorted(found, key=sort_key)]
+
+
+def crosswalk_pages(entry):
+    """The regulation crosswalk for one ACS, as its own menu pages.
+
+    Why this is a page rather than links drawn on the ACS itself: the element
+    rows have no room. Measured across both ACS documents, 30 percent of them
+    leave under 9pt between the end of the element text and the right margin,
+    so a strip of section chips would sit on top of FAA text. Rule 4 forbids
+    writing on the source page, and a link the reader cannot see is not a link.
+
+    Putting the crosswalk here gives every target its own tap area, room for
+    the section number to be read before it is followed, and a link back to
+    the ACS element, which is what makes working through four regulations one
+    after another possible.
+    """
+    rows = crosswalk_rows(entry["id"])
+    if not rows:
+        return []
+
+    out = ["#pagebreak()",
+           '#section-label("%s", "Crosswalk")'
+           % next((n for n, k, _ in SECTIONS if k == entry["section"]), "00"),
+           '#page-title[Regulation crosswalk]',
+           '#text(font: sans, size: 9.5pt, fill: ink-2)[Every element of this '
+           'ACS with the regulations, handbook chapters, and guidance that '
+           'support it. The element code returns to the ACS page it appears '
+           'on. Each chip jumps to its source.]',
+           '#target-legend((("91.119", "regulation", "regulations"), '
+           '("PHAK c15", "handbook", "handbooks"), '
+           '("AIM 3-2", "manual", "the AIM"), '
+           '("AC 91-92", "circular", "advisory circulars")))',
+           "#v(4pt)"]
+    for code, body, refs in rows:
+        out.append('#crosswalk-row("%s", "%s", (%s,))' % (
+            typst_string(code), typst_string(body[:150]),
+            ", ".join('("%s", "%s")' % (typst_string(label), kind)
+                      for label, kind, _ref in refs)))
+    out.append("#v(12pt)")
+    out.append('#align(left)[#primary-button(<menu-main>, "Return to the '
+               'main menu")]')
+    return out
 
 
 def ident_block(rows):

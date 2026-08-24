@@ -329,6 +329,23 @@ mono = "JetBrains Mono"
 base = 10.5
 ```
 
+**Crosswalk targets are colour coded, which widens that rule on purpose.** An
+ACS element commonly carries several link buttons at once, and a reader
+scanning the page has to tell a regulation from a handbook without stopping to
+read each label. Amber alone cannot do that. The palette is:
+
+| Target | Token | Colour |
+|---|---|---|
+| 14 CFR and 49 CFR | `tint_regulation` | `#7BD88F` |
+| Handbooks | `tint_handbook` | `#7FB4FF` |
+| The AIM | `tint_manual` | `#C08CFF` |
+| Advisory Circulars | `tint_circular` | `#FFB168`, the signal amber |
+
+These live in `theme/theme.toml` and are duplicated into `templates/menu.typ`
+and `tools/link.py`, because the chips are drawn by Typst and the buttons by
+PyMuPDF. `tests/test_menus.py` fails if the two copies disagree. Everything
+outside the crosswalk still follows the amber-only rule.
+
 **Amber is for actions and live signals only.** The CSS says so explicitly. In print that means link targets, section rules, the live dot, and emphasis. Body is `ink`, secondary `ink_2`, labels `ink_3`. Do not tint pages amber.
 
 Idioms to carry into the PDF, all lifted from the site:

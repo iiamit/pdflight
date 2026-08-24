@@ -82,7 +82,40 @@ Most-cited targets, which is where anchor work pays back fastest:
 | aim | 2,791 |
 | aviation-instructor | 1,729 |
 
-## Two decisions to make before refining
+## The CFR half is done
+
+445 Private and Instrument elements were read against the regulation and
+narrowed from parts to sections. 269 now carry a section target, 459 section
+citations across 75 distinct sections, and every one was checked against the
+849 sections the corpus actually carries before it was written. Nothing was
+accepted on recall.
+
+| | Private | Instrument |
+|---|---|---|
+| section-level rows | 176 | 283 |
+| part-level rows left | 60 | 139 |
+| distinct sections cited | 58 | 43 |
+
+**176 elements kept their part-level row on purpose.** Weather products are
+AC 00-45 material, ACS tolerances are not regulated, and SRM and technique
+items have no governing section. Forcing a section onto those would put a
+confident wrong link in front of a pilot, which is worse than a broad one.
+
+Three things worth knowing before you read the result:
+
+- **Subpart F is a trap.** 91.503, 91.519, 91.523 and 91.527 read like the
+  obvious answer for checklists, briefings, baggage and icing, but 91.501
+  limits the whole subpart to large and turbine multiengine aircraft. None of
+  them is cited for a Private applicant.
+- **PA.V.B was mis-pointed by the bootstrap.** Its 19 ground-reference
+  elements cite Part 61, which only supplies 61.107. The manoeuvres are
+  actually governed by 91.119 and 91.126, so those rows now cross parts.
+- **PA.III.A.K8 is NTSB reporting with no 49 CFR row.** The corpus carries all
+  six sections of Part 830, but the ACS References line never cites 49 CFR, so
+  the bootstrap had nothing to work from. The crosswalk inherits the
+  References line's blind spots.
+
+## Two decisions still open
 
 **Part 39 is cited but not carried.** 433 of 1,983 CFR rows point at a part
 outside `manifest/cfr.yaml`. Most are deliberate: Part 97 is TERPS and Part 121

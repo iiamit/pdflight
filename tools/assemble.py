@@ -136,12 +136,22 @@ def run(argv, sources_path=M.SOURCES, lock_path=M.LOCK, menus_pdf=MENUS_PDF,
     cover_page = menu_names["cover"]["page"]
     menu_start = menu_names["menu-main"]["page"]
     colophon_page = menu_names["colophon"]["page"]
-    doc_menu_page = {}
+    # A per-document menu is a range, not a page. The ACS documents carry a
+    # regulation crosswalk after their menu page, so theirs run several pages;
+    # everything else is still one. The end of each is the next generated page
+    # that starts something, which is the next menu or the colophon.
+    doc_menu_start = {}
     for ident in [e["id"] for e in entries] + ["cfr"]:
         label = menus_tool.label_for_doc(ident)
         if label in menu_names:
-            doc_menu_page[ident] = menu_names[label]["page"]
-    menu_end = min([p for p in doc_menu_page.values()] or [colophon_page])
+            doc_menu_start[ident] = menu_names[label]["page"]
+
+    bounds = sorted(set(doc_menu_start.values()) | {colophon_page})
+    doc_menu_page = {}
+    for ident, start in doc_menu_start.items():
+        end = next((b for b in bounds if b > start), colophon_page)
+        doc_menu_page[ident] = (start, end)
+    menu_end = min([s for s in doc_menu_start.values()] or [colophon_page])
 
     missing, total, offsets = [], 0, {}
     sizes = {}
@@ -156,7 +166,8 @@ def run(argv, sources_path=M.SOURCES, lock_path=M.LOCK, menus_pdf=MENUS_PDF,
             if key not in doc_menu_page:
                 missing.append("%s (menu page)" % key)
                 continue
-            count = 1
+            start, end = doc_menu_page[key]
+            count = end - start
         elif kind == "cfr":
             cfr = pathlib.Path(cfr_pdf)
             if not cfr.is_file():
@@ -216,8 +227,8 @@ def run(argv, sources_path=M.SOURCES, lock_path=M.LOCK, menus_pdf=MENUS_PDF,
             result.insert_pdf(menus, from_page=colophon_page,
                               to_page=menus.page_count - 1)
         elif kind == "docmenu":
-            page = doc_menu_page[key]
-            result.insert_pdf(menus, from_page=page, to_page=page)
+            start, end = doc_menu_page[key]
+            result.insert_pdf(menus, from_page=start, to_page=end - 1)
         elif kind == "cfr":
             document = pymupdf.open(cfr_pdf)
             result.insert_pdf(document)

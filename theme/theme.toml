@@ -22,6 +22,16 @@ signal_2    = "#FFC68F"   # --signal-2, hover lift
 signal_dim  = "#FFB16829"
 signal_glow = "#FFB1688C"
 
+# Crosswalk target palette. A widening of the amber-only rule, approved
+# deliberately: a reader scanning an ACS page has to tell a regulation from a
+# handbook without reading the label. Used by the inline buttons in
+# tools/link.py and the chips in templates/menu.typ, which are pinned to each
+# other by tests/test_menus.py.
+tint_regulation = "#7BD88F"   # 14 and 49 CFR
+tint_handbook   = "#7FB4FF"   # handbooks
+tint_manual     = "#C08CFF"   # the AIM
+tint_circular   = "#FFB168"   # Advisory Circulars, the signal amber
+
 [type]
 sans = "Inter"
 mono = "JetBrains Mono"

@@ -385,3 +385,634 @@ plane-sense:cover:
   strategy: pinned
   pinned: true
   page: 1
+
+# risk-management: chapter anchors, from its own outline
+risk-management:ch01:
+  doc: risk-management
+  strategy: outline
+  match: 'Chapter 1: Introduction to Risk Management'
+  ordinal: 1
+risk-management:ch02:
+  doc: risk-management
+  strategy: outline
+  match: 'Chapter 2: Personal Minimums'
+  ordinal: 1
+risk-management:ch03:
+  doc: risk-management
+  strategy: outline
+  match: 'Chapter 3: Identifying Hazards & Associated Risks'
+  ordinal: 1
+risk-management:ch04:
+  doc: risk-management
+  strategy: outline
+  match: 'Chapter 4: Assessing Risk'
+  ordinal: 1
+risk-management:ch05:
+  doc: risk-management
+  strategy: outline
+  match: 'Chapter 5: Mitigating Risk'
+  ordinal: 1
+risk-management:ch06:
+  doc: risk-management
+  strategy: outline
+  match: 'Chapter 6: Threat and Error Management'
+  ordinal: 1
+risk-management:ch07:
+  doc: risk-management
+  strategy: outline
+  match: 'Chapter 7: Automation & Flight Path Management'
+  ordinal: 1
+risk-management:ch08:
+  doc: risk-management
+  strategy: outline
+  match: 'Chapter 8: Aeronautical Decision-Making in Flight'
+  ordinal: 1
+
+# iph: chapter anchors, from its own outline
+iph:ch01:
+  doc: iph
+  strategy: outline
+  match: 'Chapter 1 - Departure Procedures'
+  ordinal: 1
+iph:ch02:
+  doc: iph
+  strategy: outline
+  match: 'Chapter 2 - En Route Operations'
+  ordinal: 1
+iph:ch03:
+  doc: iph
+  strategy: outline
+  match: 'Chapter 3 - Arrivals'
+  ordinal: 1
+iph:ch04:
+  doc: iph
+  strategy: outline
+  match: 'Chapter 4 - Approaches'
+  ordinal: 1
+iph:ch05:
+  doc: iph
+  strategy: outline
+  match: 'Chapter 5 - Improvement Plans'
+  ordinal: 1
+iph:ch06:
+  doc: iph
+  strategy: outline
+  match: 'Chapter 6 - Airborne Navigation Databases'
+  ordinal: 1
+iph:ch07:
+  doc: iph
+  strategy: outline
+  match: 'Chapter 7 - Helicopter Instrument Procedures'
+  ordinal: 1
+
+# weight-balance: chapter anchors, from its own outline
+weight-balance:ch01:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 1'
+  ordinal: 1
+weight-balance:ch02:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 2'
+  ordinal: 1
+weight-balance:ch03:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 3'
+  ordinal: 1
+weight-balance:ch04:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 4'
+  ordinal: 1
+weight-balance:ch05:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 5'
+  ordinal: 1
+weight-balance:ch06:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 6'
+  ordinal: 1
+weight-balance:ch07:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 7'
+  ordinal: 1
+weight-balance:ch08:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 8'
+  ordinal: 1
+weight-balance:ch09:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 9'
+  ordinal: 1
+weight-balance:ch10:
+  doc: weight-balance
+  strategy: outline
+  match: 'Chapter 10'
+  ordinal: 1
+
+# aviation-instructor: chapter anchors, from its own outline
+aviation-instructor:ch01:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 1: Risk Management and Single-Pilot Resource Management'
+  ordinal: 1
+aviation-instructor:ch02:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 2: Human Behavior'
+  ordinal: 1
+aviation-instructor:ch03:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 3: The Learning Process'
+  ordinal: 1
+aviation-instructor:ch04:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 4: Effective Communication'
+  ordinal: 1
+aviation-instructor:ch05:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 5: The Teaching Process'
+  ordinal: 1
+aviation-instructor:ch06:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 6: Assessment'
+  ordinal: 1
+aviation-instructor:ch07:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 7: Planning Instructional Activity'
+  ordinal: 1
+aviation-instructor:ch08:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 8: Aviation Instructor Responsibilities and Professionalism'
+  ordinal: 1
+aviation-instructor:ch09:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 9: Techniques of Flight Instruction'
+  ordinal: 1
+aviation-instructor:ch10:
+  doc: aviation-instructor
+  strategy: outline
+  match: 'Chapter 10: Teaching Practical Risk Management during Flight Instruction'
+  ordinal: 1
+
+# aim: chapter and section anchors, from its outline
+aim:ch01:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 1. Air Navigation'
+  ordinal: 1
+aim:ch01-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. Navigation Aids'
+  ordinal: 1
+aim:ch01-s02:
+  doc: aim
+  strategy: outline
+  match: 'Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)'
+  ordinal: 1
+aim:ch02:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 2. Aeronautical Lighting and Other Airport Visual Aids'
+  ordinal: 1
+aim:ch02-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. Airport Lighting Aids'
+  ordinal: 1
+aim:ch02-s02:
+  doc: aim
+  strategy: outline
+  match: 'Section 2. Air Navigation and Obstruction Lighting'
+  ordinal: 1
+aim:ch02-s03:
+  doc: aim
+  strategy: outline
+  match: 'Section 3. Airport Marking Aids and Signs'
+  ordinal: 1
+aim:ch03:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 3. Airspace'
+  ordinal: 1
+aim:ch03-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. General'
+  ordinal: 1
+aim:ch03-s02:
+  doc: aim
+  strategy: outline
+  match: 'Section 2. Controlled Airspace'
+  ordinal: 1
+aim:ch03-s03:
+  doc: aim
+  strategy: outline
+  match: 'Section 3. Class G Airspace'
+  ordinal: 1
+aim:ch03-s04:
+  doc: aim
+  strategy: outline
+  match: 'Section 4. Special Use Airspace'
+  ordinal: 1
+aim:ch03-s05:
+  doc: aim
+  strategy: outline
+  match: 'Section 5. Other Airspace Areas'
+  ordinal: 1
+aim:ch04:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 4. Air Traffic Control'
+  ordinal: 1
+aim:ch04-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. Services Available to Pilots'
+  ordinal: 1
+aim:ch04-s02:
+  doc: aim
+  strategy: outline
+  match: 'Section 2. Radio Communications Phraseology and Techniques'
+  ordinal: 1
+aim:ch04-s03:
+  doc: aim
+  strategy: outline
+  match: 'Section 3. Airport Operations'
+  ordinal: 1
+aim:ch04-s04:
+  doc: aim
+  strategy: outline
+  match: 'Section 4. ATC Clearances and Aircraft Separation'
+  ordinal: 1
+aim:ch04-s05:
+  doc: aim
+  strategy: outline
+  match: 'Section 5. Surveillance Systems'
+  ordinal: 1
+aim:ch04-s06:
+  doc: aim
+  strategy: outline
+  match: 'Section 6. Operational Policy/Procedures for Reduced Vertical Separation Minimum (RVSM) in the Domestic U.S., Alaska, Offs...'
+  ordinal: 1
+aim:ch04-s07:
+  doc: aim
+  strategy: outline
+  match: 'Section 7. Operational Policy/Procedures for the Gulf of America 50 NM Lateral Separation Initiative'
+  ordinal: 1
+aim:ch05:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 5. Air Traffic Procedures'
+  ordinal: 1
+aim:ch05-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. Preflight'
+  ordinal: 1
+aim:ch05-s02:
+  doc: aim
+  strategy: outline
+  match: 'Section 2. Departure Procedures'
+  ordinal: 1
+aim:ch05-s03:
+  doc: aim
+  strategy: outline
+  match: 'Section 3. En Route Procedures'
+  ordinal: 1
+aim:ch05-s04:
+  doc: aim
+  strategy: outline
+  match: 'Section 4. Arrival Procedures'
+  ordinal: 1
+aim:ch05-s05:
+  doc: aim
+  strategy: outline
+  match: 'Section 5. Pilot/Controller Roles and Responsibilities'
+  ordinal: 1
+aim:ch05-s06:
+  doc: aim
+  strategy: outline
+  match: 'Section 6. National Security and Interception Procedures'
+  ordinal: 1
+aim:ch06:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 6. Emergency Procedures'
+  ordinal: 1
+aim:ch06-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. General'
+  ordinal: 2
+aim:ch06-s02:
+  doc: aim
+  strategy: outline
+  match: 'Section 2. Emergency Services Available to Pilots'
+  ordinal: 1
+aim:ch06-s03:
+  doc: aim
+  strategy: outline
+  match: 'Section 3. Distress and Urgency Procedures'
+  ordinal: 1
+aim:ch06-s04:
+  doc: aim
+  strategy: outline
+  match: 'Section 4. Two‐way Radio Communications Failure'
+  ordinal: 1
+aim:ch06-s05:
+  doc: aim
+  strategy: outline
+  match: 'Section 5. Aircraft Rescue and Fire Fighting Communications'
+  ordinal: 1
+aim:ch07:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 7. Safety of Flight'
+  ordinal: 1
+aim:ch07-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. Meteorology'
+  ordinal: 1
+aim:ch07-s02:
+  doc: aim
+  strategy: outline
+  match: 'Section 2. Barometric Altimeter Errors and Setting Procedures'
+  ordinal: 1
+aim:ch07-s03:
+  doc: aim
+  strategy: outline
+  match: 'Section 3. Cold Temperature Barometric Altimeter Errors, Setting Procedures and Cold Temperature Airports (CTA)'
+  ordinal: 1
+aim:ch07-s04:
+  doc: aim
+  strategy: outline
+  match: 'Section 4. Wake Turbulence'
+  ordinal: 1
+aim:ch07-s05:
+  doc: aim
+  strategy: outline
+  match: 'Section 5. Bird Hazards and Flight Over National Refuges, Parks, and Forests'
+  ordinal: 1
+aim:ch07-s06:
+  doc: aim
+  strategy: outline
+  match: 'Section 6. Potential Flight Hazards'
+  ordinal: 1
+aim:ch07-s07:
+  doc: aim
+  strategy: outline
+  match: 'Section 7. Safety, Accident, and Hazard Reports'
+  ordinal: 1
+aim:ch08:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 8. Medical Facts for Pilots'
+  ordinal: 1
+aim:ch08-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. Fitness for Flight'
+  ordinal: 1
+aim:ch09:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 9. Aeronautical Charts and Related Publications'
+  ordinal: 1
+aim:ch09-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. Types of Charts Available'
+  ordinal: 1
+aim:ch10:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 10. Helicopter Operations'
+  ordinal: 1
+aim:ch10-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. Helicopter IFR Operations'
+  ordinal: 1
+aim:ch10-s02:
+  doc: aim
+  strategy: outline
+  match: 'Section 2. Special Operations'
+  ordinal: 1
+aim:ch11:
+  doc: aim
+  strategy: outline
+  match: 'Chapter 11. Unmanned Aircraft Systems (UAS)'
+  ordinal: 1
+aim:ch11-s01:
+  doc: aim
+  strategy: outline
+  match: 'Section 1. General'
+  ordinal: 3
+aim:ch11-s02:
+  doc: aim
+  strategy: outline
+  match: 'Section 2. Small Unmanned Aircraft System (sUAS)'
+  ordinal: 1
+aim:ch11-s03:
+  doc: aim
+  strategy: outline
+  match: 'Section 3. Large UAS (MGOW 55 Pounds or More)'
+  ordinal: 1
+aim:ch11-s04:
+  doc: aim
+  strategy: outline
+  match: 'Section 4. Airspace Access for UAS'
+  ordinal: 1
+aim:ch11-s05:
+  doc: aim
+  strategy: outline
+  match: 'Section 5. UAS Pilot Testing, Certification and Responsibilities'
+  ordinal: 1
+aim:ch11-s06:
+  doc: aim
+  strategy: outline
+  match: 'Section 6. Advanced Air Mobility'
+  ordinal: 1
+aim:ch11-s07:
+  doc: aim
+  strategy: outline
+  match: 'Section 7. UAS Operations on Airports'
+  ordinal: 1
+aim:ch11-s08:
+  doc: aim
+  strategy: outline
+  match: 'Section 8. Other Information and Best Practices'
+  ordinal: 1
+
+# aviation-weather: all 28 chapters, from its own outline.
+# Titles are `19 Turbulence`, so the Chapter-N pattern missed them.
+aviation-weather:ch01:
+  doc: aviation-weather
+  strategy: outline
+  match: '1 Introduction'
+  ordinal: 1
+aviation-weather:ch02:
+  doc: aviation-weather
+  strategy: outline
+  match: '2 Aviation Weather Service Program'
+  ordinal: 1
+aviation-weather:ch03:
+  doc: aviation-weather
+  strategy: outline
+  match: '3 Overview of Aviation Weather Information'
+  ordinal: 1
+aviation-weather:ch04:
+  doc: aviation-weather
+  strategy: outline
+  match: '4 The Earth’s Atmosphere'
+  ordinal: 1
+aviation-weather:ch05:
+  doc: aviation-weather
+  strategy: outline
+  match: '5 Heat and Temperature'
+  ordinal: 1
+aviation-weather:ch06:
+  doc: aviation-weather
+  strategy: outline
+  match: '6 Water Vapor'
+  ordinal: 1
+aviation-weather:ch07:
+  doc: aviation-weather
+  strategy: outline
+  match: '7 Earth-Atmosphere Heat Imbalances'
+  ordinal: 1
+aviation-weather:ch08:
+  doc: aviation-weather
+  strategy: outline
+  match: '8 Atmospheric Pressure and Altimetry'
+  ordinal: 1
+aviation-weather:ch09:
+  doc: aviation-weather
+  strategy: outline
+  match: '9 Global Circulations and Jet Streams'
+  ordinal: 1
+aviation-weather:ch10:
+  doc: aviation-weather
+  strategy: outline
+  match: '10 Wind'
+  ordinal: 1
+aviation-weather:ch11:
+  doc: aviation-weather
+  strategy: outline
+  match: '11 Air Masses, Fronts, and the Wave Cyclone Model'
+  ordinal: 1
+aviation-weather:ch12:
+  doc: aviation-weather
+  strategy: outline
+  match: '12 Vertical Motion and Clouds'
+  ordinal: 1
+aviation-weather:ch13:
+  doc: aviation-weather
+  strategy: outline
+  match: '13 Atmospheric Stability'
+  ordinal: 1
+aviation-weather:ch14:
+  doc: aviation-weather
+  strategy: outline
+  match: '14 Precipitation'
+  ordinal: 1
+aviation-weather:ch15:
+  doc: aviation-weather
+  strategy: outline
+  match: '15 Weather Radar'
+  ordinal: 1
+aviation-weather:ch16:
+  doc: aviation-weather
+  strategy: outline
+  match: '16 Mountain Weather'
+  ordinal: 1
+aviation-weather:ch17:
+  doc: aviation-weather
+  strategy: outline
+  match: '17 Tropical Weather'
+  ordinal: 1
+aviation-weather:ch18:
+  doc: aviation-weather
+  strategy: outline
+  match: '18 Weather and Obstructions to Visibility'
+  ordinal: 1
+aviation-weather:ch19:
+  doc: aviation-weather
+  strategy: outline
+  match: '19 Turbulence'
+  ordinal: 1
+aviation-weather:ch20:
+  doc: aviation-weather
+  strategy: outline
+  match: '20 Icing'
+  ordinal: 1
+aviation-weather:ch21:
+  doc: aviation-weather
+  strategy: outline
+  match: '21 Arctic Weather'
+  ordinal: 1
+aviation-weather:ch22:
+  doc: aviation-weather
+  strategy: outline
+  match: '22 Thunderstorms'
+  ordinal: 1
+aviation-weather:ch23:
+  doc: aviation-weather
+  strategy: outline
+  match: '23 Space Weather'
+  ordinal: 1
+aviation-weather:ch24:
+  doc: aviation-weather
+  strategy: outline
+  match: '24 Observations'
+  ordinal: 1
+aviation-weather:ch25:
+  doc: aviation-weather
+  strategy: outline
+  match: '25 Analysis'
+  ordinal: 1
+aviation-weather:ch26:
+  doc: aviation-weather
+  strategy: outline
+  match: '26 Advisories'
+  ordinal: 1
+aviation-weather:ch27:
+  doc: aviation-weather
+  strategy: outline
+  match: '27 Forecasts'
+  ordinal: 1
+aviation-weather:ch28:
+  doc: aviation-weather
+  strategy: outline
+  match: '28 Aviation Weather Tools'
+  ordinal: 1
+
+# ifh: chapters 6 and 7 open with no `Chapter N` line, so they are
+# found by the handbook's own `6-1` page marker instead.
+ifh:ch06:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*6-1\s*$'
+  ordinal: 1
+ifh:ch07:
+  doc: ifh
+  strategy: regex
+  pattern: '^\s*7-1\s*$'
+  ordinal: 1

@@ -219,3 +219,358 @@ def test_size_gate_measures_the_pdf_not_a_csv():
     actual = FINAL.stat().st_size / 1048576
     assert abs(reported - actual) < 1.0, (
         "gate 8 reported %.1f MB, file is %.1f MB" % (reported, actual))
+
+
+# ---------------------------------------------------------------------------
+# section-level crosswalk targets
+# ---------------------------------------------------------------------------
+
+def test_a_section_ref_resolves_to_the_cfr_section_label():
+    """`14cfr:91.119` must reach 91.119, not the top of Part 91.
+
+    The CFR build labels sections `sec-{part}-{number}`. Nothing else in the
+    pipeline performs that translation, so a missing branch here silently
+    downgrades every refined element back to a part-level jump.
+    """
+    mapping = {"sec-91-119": 4200, "sec-61-3": 3900, "part-14-91": 4000}
+    resolve = L.build_resolver(mapping, {}, [])
+    assert resolve("14cfr:91.119") == 4200
+    assert resolve("14cfr:61.3") == 3900
+    assert resolve("14cfr:part-91") == 4000
+
+
+def test_a_curated_anchor_outranks_the_generated_section_label():
+    # A hand-authored anchor may point at a subsection rather than the head.
+    mapping = {"14cfr:91.155": 4111, "sec-91-155": 4100}
+    assert L.build_resolver(mapping, {}, [])("14cfr:91.155") == 4111
+
+
+def test_an_unknown_section_resolves_to_nothing():
+    assert L.build_resolver({}, {}, [])("14cfr:99.999") is None
+
+
+def test_the_inline_element_pattern_finds_a_code_among_words():
+    """bootstrap_crosswalk anchors its pattern to a whole line.
+
+    Reusing that one here matched nothing, because on the page the code is
+    followed by the element text.
+    """
+    found = L.ELEMENT_INLINE.findall(
+        "PA.V.B.R3 Collision hazards, to include aircraft and terrain.")
+    assert found == ["PA.V.B.R3"]
+    assert L.ELEMENT_INLINE.findall("IR.VI.A.K1a and IR.VI.A.K1b") == [
+        "IR.VI.A.K1a", "IR.VI.A.K1b"]
+
+
+@pytest.mark.skipif(not (ROOT / "crosswalk" / "private.csv").is_file(),
+                    reason="run make crosswalk")
+def test_element_targets_carries_only_section_rows():
+    targets = L.element_targets()
+    assert targets, "no element has a section-level target"
+    for code, refs in targets.items():
+        for ref in refs:
+            assert ref.startswith("14cfr:"), (code, ref)
+            assert not ref.startswith("14cfr:part-"), (
+                "%s kept a part-level row: %s" % (code, ref))
+
+
+# ---------------------------------------------------------------------------
+# the crosswalk pages, and the round trip through them
+# ---------------------------------------------------------------------------
+
+class FakeRect:
+    def __init__(self, x0):
+        self.x0 = x0
+
+    def __or__(self, other):
+        return self
+
+
+class FakePyMuPDF:
+    LINK_GOTO = 1
+
+    @staticmethod
+    def Rect(box):
+        return FakeRect(box[0])
+
+
+class FakePage:
+    """Enough of a page to exercise the linkers without building a PDF."""
+
+    def __init__(self, words):
+        self._words = words
+        self.links = []
+
+    def get_text(self, _kind):
+        return self._words
+
+    def insert_link(self, spec):
+        self.links.append(spec)
+
+
+def _words(rows):
+    # (x0, y0, x1, y1, text)
+    out = []
+    for y, items in rows:
+        x = 40.0
+        for token in items:
+            out.append((x, y, x + 10.0 * len(token), y + 9.0, token))
+            x += 10.0 * len(token) + 4.0
+    return out
+
+
+def test_a_contents_entry_is_not_mistaken_for_an_element_definition():
+    """Element codes appear twice: in the left column and in contents lists.
+
+    Measured across both ACS documents, 1,569 sit at x0 < 110 and are
+    definitions; 109 sit further right and are contents entries. Linking the
+    contents entries would put the reader on the wrong page.
+    """
+    # 122.0 is where the ACS text column starts, which is where a contents
+    # entry sits. The left-hand definition column runs 49.5 to 97.
+    page = FakePage([(122.0, 200.0, 182.0, 209.0, "PA.I.A.K1")])
+    assert list(L.element_code_rects(page, FakePyMuPDF())) != []
+    assert list(L.element_code_rects(page, FakePyMuPDF(),
+                                     left_column_only=True)) == []
+
+
+def test_the_left_column_definition_is_linked():
+    page = FakePage([(49.5, 200.0, 97.0, 209.0, "PA.I.A.K1")])
+    found = list(L.element_code_rects(page, FakePyMuPDF(),
+                                      left_column_only=True))
+    assert [code for code, _rect in found] == ["PA.I.A.K1"]
+
+
+def test_an_element_links_to_its_crosswalk_row():
+    page = FakePage([(49.5, 200.0, 97.0, 209.0, "PA.I.A.K1")])
+    added = L.link_element_to_hub(page, {"PA.I.A.K1": 42}, FakePyMuPDF())
+    assert added == 1
+    assert page.links[0]["page"] == 41
+
+
+def test_an_element_with_no_crosswalk_row_gets_no_link():
+    page = FakePage([(49.5, 200.0, 97.0, 209.0, "PA.I.A.K9")])
+    assert L.link_element_to_hub(page, {"PA.I.A.K1": 42}, FakePyMuPDF()) == 0
+    assert page.links == []
+
+
+def test_a_crosswalk_row_links_back_and_out():
+    """The round trip: code returns to the ACS, each section jumps to Title 14."""
+    page = FakePage(_words([
+        (200.0, ["PA.I.A.K1"]),
+        (212.0, ["\u00a7", "61.3", "\u00a7", "61.51"]),
+    ]))
+    chips = L.chip_index({"PA.I.A.K1": ["14cfr:61.3", "14cfr:61.51"]})
+    resolve = L.build_resolver({"sec-61-3": 500, "sec-61-51": 505}, {}, [])
+    back, sections = L.link_hub_row(page, chips, {"PA.I.A.K1": 14},
+                                    resolve, FakePyMuPDF())
+    assert back == 1, "no way back to the ACS element"
+    assert sections == 2, "every section must be independently reachable"
+    assert {link["page"] for link in page.links} == {13, 499, 504}
+
+
+def test_a_number_that_is_not_a_target_never_becomes_a_link():
+    """The status strip carries `V2026.08.1`, which looks like a section.
+
+    Only numbers an element on the page actually claims are linked, so a
+    version string, a page count, or a figure number cannot become a jump.
+    """
+    page = FakePage(_words([
+        (200.0, ["PA.I.A.K1"]),
+        (212.0, ["V2026.08.1", "\u00a7", "61.3"]),
+    ]))
+    resolve = L.build_resolver({"sec-61-3": 500, "sec-8-1": 900}, {}, [])
+    _back, sections = L.link_hub_row(
+        page, L.chip_index({"PA.I.A.K1": ["14cfr:61.3"]}), {}, resolve,
+        FakePyMuPDF())
+    assert sections == 1
+    assert page.links[0]["page"] == 499
+
+
+@pytest.mark.skipif(not OFFSETS_FILE.is_file(), reason="run make assemble")
+def test_each_acs_carries_its_crosswalk_pages():
+    import _manifest as M
+
+    with io.open(OFFSETS_FILE, encoding="utf-8") as handle:
+        offsets = json.load(handle)["offsets"]
+    for entry in M.load_sources():
+        if entry["section"] != "standards":
+            continue
+        record = offsets.get(entry["id"] + "__menu")
+        if entry["id"] in ("acs-private-airplane", "acs-instrument-airplane"):
+            assert record and record["pages"] > 1, (
+                "%s has no crosswalk pages" % entry["id"])
+
+
+# ---------------------------------------------------------------------------
+# inline target buttons
+# ---------------------------------------------------------------------------
+
+def _row(y, items):
+    """(x0, y0, x1, y1, text) tuples for one visual row."""
+    out = []
+    for x, token in items:
+        out.append((x, y, x + 5.4 * len(token), y + 9.0, token))
+    return out
+
+
+def test_the_changelog_page_gets_no_buttons():
+    """The ACS front matter lists element codes in four columns.
+
+    With no element prose on the row, the neighbouring column reads as this
+    element's text. The first build stamped 86 buttons across that page.
+    """
+    words = (_row(200.0, [(49.5, "PA.I.B.K1e"), (200.0, "PA.II.A.S4"),
+                          (310.0, "PA.VI.D.S5"), (430.0, "PA.VIII.E.R8")])
+             + _row(212.0, [(49.5, "PA.I.B.K4"), (200.0, "PA.II.B.K4")]))
+    assert L.element_blocks(FakePage(words), FakePyMuPDF()) == []
+
+
+def test_a_real_element_row_is_found():
+    words = _row(200.0, [(49.5, "PA.I.A.K1"),
+                         (122.0, "Certification requirements.")])
+    blocks = L.element_blocks(FakePage(words), FakePyMuPDF())
+    assert [b[0] for b in blocks] == ["PA.I.A.K1"]
+
+
+def test_an_element_does_not_swallow_the_next_section_header():
+    """Buttons were landing after `Skills:` instead of after the element.
+
+    An element's continuation lines carry nothing in the left column. A row
+    that does is the next thing starting, so the block stops there.
+    """
+    words = (_row(200.0, [(49.5, "PA.I.A.K5"), (122.0, "Part 68 BasicMed.")])
+             + _row(224.0, [(40.5, "Skills:"),
+                            (122.0, "The applicant exhibits the skill to:")]))
+    blocks = L.element_blocks(FakePage(words), FakePyMuPDF())
+    assert len(blocks) == 1
+    code, tail, _y0, _y1 = blocks[0]
+    assert code == "PA.I.A.K5"
+    # the tail is the element's own text, not the header that follows it
+    assert tail < 122.0 + 5.4 * len("The applicant exhibits the skill to:")
+
+
+def test_a_wrapped_element_keeps_its_continuation_line():
+    words = (_row(200.0, [(49.5, "PA.I.A.S1"), (122.0, "Apply requirements")])
+             + _row(212.0, [(122.0, "given by the evaluator.")]))
+    blocks = L.element_blocks(FakePage(words), FakePyMuPDF())
+    assert len(blocks) == 1
+    assert blocks[0][2] >= 212.0, "button must sit on the last line"
+
+
+def test_only_specific_targets_earn_a_button(tmp_path):
+    """A button means "here is the rule".
+
+    `phak` means "here is a 522 page handbook", which the References line
+    above the element already links to.
+    """
+    import csv as _csv
+
+    path = tmp_path / "private.csv"
+    with io.open(str(path), "w", encoding="utf-8", newline="") as handle:
+        writer = _csv.DictWriter(handle, fieldnames=[
+            "source_ref", "target_ref", "relation", "confidence", "note",
+            "element_text"])
+        writer.writeheader()
+        for ref in ("14cfr:91.119", "phak", "afh", "14cfr:part-91"):
+            writer.writerow({"source_ref": "PA.V.B.R3", "target_ref": ref,
+                             "relation": "r", "confidence": "auto",
+                             "note": "", "element_text": "t"})
+    assert L.specific_targets(str(tmp_path)) == {
+        "PA.V.B.R3": ["14cfr:91.119"]}
+
+
+def test_button_labels_name_the_target():
+    """Short forms the FAA itself uses, because a button is millimetres wide.
+
+    `FAA-H-8083-23 chapter 5` is 44pt of label on a page that has 38pt to
+    spare, so handbooks without a common abbreviation use their bare number.
+    """
+    assert L.button_label("14cfr:91.119") == "91.119"
+    assert L.button_label("phak:ch15") == "PHAK c15"
+    assert L.button_label("ac:61-65k") == "AC 61-65K"
+    assert L.button_label("phak") == "PHAK"
+    assert L.button_label("risk-management:ch02") == "8083-2 c2"
+    # the AIM cites itself as chapter-section
+    assert L.button_label("aim:ch03-s02") == "AIM 3-2"
+    assert L.button_label("something-unknown") is None
+
+
+def test_no_button_label_is_wider_than_the_margin_allows():
+    widest = max((L.button_label(r) for r in
+                  ("14cfr:91.119", "phak:ch15", "aim:ch03-s02",
+                   "risk-management:ch02", "aviation-weather:ch05")), key=len)
+    assert L.button_width(widest) < 45.0, (
+        "%r is %.1fpt, too wide to sit inline" % (widest, L.button_width(widest)))
+
+
+def test_a_button_that_would_cross_the_margin_is_dropped_not_overprinted():
+    blocks = [("PA.V.B.R3", L.RIGHT_EDGE - 12.0, 200.0, 209.0)]
+    page = FakePage([])
+    drawn, _touched, dropped = L.draw_target_buttons(
+        page, blocks, {"PA.V.B.R3": ["14cfr:91.119"]},
+        lambda _ref: 4200, FakePyMuPDF())
+    assert (drawn, dropped) == (0, 1)
+    assert page.links == []
+
+
+# ---------------------------------------------------------------------------
+# crosswalk chips of every kind, not just the numeric ones
+# ---------------------------------------------------------------------------
+
+def test_a_handbook_chip_is_linked_not_just_a_cfr_one():
+    """The first version matched chips with a number pattern.
+
+    That found `61.3` and missed `PHAK c15`, so every handbook chip rendered
+    on the crosswalk page and went nowhere. It mattered most for targets that
+    overflow the inline buttons, because the crosswalk page is the only place
+    they appear at all.
+    """
+    chips = L.chip_index({"PA.V.B.R3": ["14cfr:91.119", "phak:ch15"]})
+    assert chips == {"91.119": "14cfr:91.119", "PHAK c15": "phak:ch15"}
+
+    page = FakePage(_words([
+        (200.0, ["PA.V.B.R3"]),
+        (212.0, ["91.119", "PHAK", "c15"]),
+    ]))
+    resolve = L.build_resolver(
+        {"sec-91-119": 500, "phak:ch15": 900}, {}, [])
+    _back, linked = L.link_hub_row(page, chips, {}, resolve, FakePyMuPDF())
+    assert linked == 2
+    assert {link["page"] for link in page.links} == {499, 899}
+
+
+def test_a_short_label_does_not_match_inside_a_longer_one():
+    """`AFH c1` is a prefix of `AFH c11`, and `61.3` of `61.31`.
+
+    Matching the short one first linked the wrong chapter and left the real
+    chip unlinked.
+    """
+    assert not L._standalone("AFH c11", 0, len("AFH c1"))
+    assert L._standalone("AFH c1 x", 0, len("AFH c1"))
+    assert not L._standalone("61.31", 0, len("61.3"))
+    assert L._standalone("61.3 ", 0, len("61.3"))
+
+
+def test_the_longer_chip_wins_when_both_could_match():
+    chips = {"AFH c1": "afh:ch01", "AFH c11": "afh:ch11"}
+    page = FakePage(_words([(200.0, ["AFH", "c11"])]))
+    resolve = L.build_resolver({"afh:ch01": 100, "afh:ch11": 800}, {}, [])
+    _back, linked = L.link_hub_row(page, chips, {}, resolve, FakePyMuPDF())
+    assert linked == 1
+    assert page.links[0]["page"] == 799, "linked the wrong chapter"
+
+
+def test_a_chip_label_is_never_ambiguous():
+    """Two anchors sharing a label would make the chip link unpredictable."""
+    targets = L.specific_targets()
+    if not targets:
+        pytest.skip("run make crosswalk")
+    seen = {}
+    for refs in targets.values():
+        for ref in refs:
+            label = L.button_label(ref)
+            if label:
+                assert seen.setdefault(label, ref) == ref, (
+                    "label %r means both %s and %s"
+                    % (label, seen[label], ref))

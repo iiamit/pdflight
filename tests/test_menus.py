@@ -202,3 +202,42 @@ def test_main_menu_fits_the_page_budget():
     used = first_doc - names["menu-main"]["page"]
     assert used <= menus.MENU_PAGES, (
         "main menu takes %d pages, spec allows %d" % (used, menus.MENU_PAGES))
+
+
+# ---------------------------------------------------------------------------
+# the target palette lives in two places and must not drift
+# ---------------------------------------------------------------------------
+
+def test_the_typst_palette_matches_the_button_palette():
+    """Buttons are drawn by PyMuPDF, chips by Typst, from separate constants.
+
+    A reader sees both on the same lookup: an amber chip on the crosswalk page
+    beside a green button on the ACS page would read as two different kinds of
+    link. CLAUDE.md section 6 reserves amber for actions, so this palette is a
+    deliberate widening and is pinned here rather than left to drift.
+    """
+    import re
+
+    import link as L
+
+    source = (ROOT / "templates" / "menu.typ").read_text(encoding="utf-8")
+    declared = dict(re.findall(r'#let tint-(\w+) = rgb\("(#[0-9A-Fa-f]{6})"\)',
+                               source))
+    assert declared, "no tint- tokens found in menu.typ"
+
+    for kind, rgb in L.TARGET_KIND:
+        assert kind in declared, "menu.typ has no colour for %s" % kind
+        hexed = "#%02X%02X%02X" % tuple(int(round(c * 255)) for c in rgb)
+        assert declared[kind].upper() == hexed, (
+            "%s is %s in menu.typ and %s in link.py"
+            % (kind, declared[kind], hexed))
+
+
+def test_every_target_kind_has_a_colour():
+    import link as L
+
+    kinds = {kind for kind, _rgb in L.TARGET_KIND}
+    for ref in ("14cfr:91.119", "49cfr:830.5", "phak:ch15", "aim:ch03-s02",
+                "ac-91-92", "risk-management:ch02"):
+        assert L.target_kind(ref) in kinds
+        assert L.color_for_ref(ref) is not None

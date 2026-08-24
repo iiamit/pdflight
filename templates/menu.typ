@@ -159,3 +159,65 @@
 
 #let target(body) = heading(level: 1, outlined: true)[#body]
 #show heading.where(level: 1): it => block(above: 0pt, below: 0pt)[#it.body]
+
+// Target colours. CLAUDE.md section 6 reserves amber for actions, so this is
+// a deliberate widening: a reader scanning the crosswalk needs to tell a
+// regulation from a handbook without reading the label. Mirrors the inline
+// button palette in tools/link.py; tests/test_menus.py pins them together.
+#let tint-regulation = rgb("#7BD88F")
+#let tint-handbook = rgb("#7FB4FF")
+#let tint-manual = rgb("#C08CFF")
+#let tint-circular = rgb("#FFB168")
+
+#let tint-for(kind) = {
+  if kind == "regulation" { tint-regulation }
+  else if kind == "handbook" { tint-handbook }
+  else if kind == "manual" { tint-manual }
+  else { tint-circular }
+}
+
+#let target-chip(label, kind) = box(
+  inset: (x: 5pt, y: 2pt),
+  radius: 100pt,
+  stroke: 0.5pt + tint-for(kind),
+  text(font: mono, size: 7.5pt, fill: tint-for(kind))[#label],
+)
+
+// What the colours mean. Drawn once at the top of each crosswalk section.
+#let target-legend(pairs) = block(
+  width: 100%, inset: (top: 4pt, bottom: 8pt),
+)[
+  #for p in pairs {
+    target-chip(p.at(0), p.at(1))
+    h(3pt)
+    text(font: sans, size: 8pt, fill: ink-3)[#p.at(2)]
+    h(10pt)
+  }
+]
+
+// A crosswalk row: one ACS element and everything that supports it.
+//
+// The labels are plain text, not Typst links. They point into pages that do
+// not exist yet when this file compiles, so tools/link.py finds them
+// afterwards and attaches the GoTo. The same is true of the element code,
+// which links back to the ACS page it came from.
+#let crosswalk-row(code, body, refs) = block(
+  width: 100%,
+  inset: (top: 5pt, bottom: 5pt),
+  stroke: (top: 0.5pt + hair),
+)[
+  #grid(
+    columns: (78pt, 1fr),
+    column-gutter: 10pt,
+    text(font: mono, size: 8pt, weight: 500, fill: signal)[#code],
+    {
+      text(font: sans, size: 8.5pt, fill: ink-2)[#body]
+      linebreak()
+      v(2pt)
+      for r in refs {
+        target-chip(r.at(0), r.at(1))
+        h(4pt)
+      }
+    },
+  )
+]

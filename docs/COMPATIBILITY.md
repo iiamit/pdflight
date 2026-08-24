@@ -11,16 +11,16 @@ support traffic.
 
 No release has been cut yet, so no results exist.
 
-| Reader | Links | Outline | Load time | Notes |
-|---|---|---|---|---|
-| Apple Books (iPadOS) | | | | reference platform |
-| Files / Quick Look | | | | |
-| ForeFlight Documents | | | | |
-| Garmin Pilot | | | | |
-| GoodNotes | | | | known to break links |
-| Notability | | | | known to break links |
-| Adobe Acrobat iOS | | | | known poor performance |
-| Acrobat / Preview desktop | | | | |
+| Reader | Links | Outline | Back | Load time | Notes |
+|---|---|---|---|---|---|
+| Apple Books (iPadOS) | | | | | reference platform |
+| Files / Quick Look | | | | |  |
+| ForeFlight Documents | | | | |  |
+| Garmin Pilot | | | | |  |
+| GoodNotes | | | | | known to break links |
+| Notability | | | | | known to break links |
+| Adobe Acrobat iOS | | | | | known poor performance |
+| Acrobat / Preview desktop | | | | |  |
 
 ## Design constraints that maximize survival
 
@@ -29,3 +29,23 @@ No release has been cut yet, so no results exist.
   actions beyond `NextPage` and `PrevPage`.
 - No optional content groups and no transparency groups on generated pages.
 - PDF 1.7, not 2.0. Mobile reader support for 2.0 is inconsistent.
+
+## The back control is load bearing
+
+Most of this file is about links surviving. One thing depends on the reader
+offering something else: a way back to the previous view.
+
+An ACS element commonly cites three or four regulations. The crosswalk page
+gives each its own link, and the element code on that row returns to the ACS.
+What no static PDF can provide is the leg from a regulation back to the
+crosswalk row that sent you there, because 91.175 is cited by 43 different
+elements and a `/GoTo` cannot know which one you came from. Rule 6 rules out
+the JavaScript that would.
+
+So the loop is: element code, crosswalk row, section, **reader back**,
+crosswalk row, next section. Every mainstream reader has that control, but it
+is worth testing rather than assuming, so it has a column above.
+
+Where a reader has no back control, the nav stamp still gets you to the
+document menu and the outline still reaches every section by number. The
+crosswalk row is the part that would be tedious to re-find.

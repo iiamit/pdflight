@@ -290,3 +290,56 @@ def test_verified_tasks_drop_out_of_the_worklist():
     assert tasks, "nothing to review, but no task is verified yet"
     for _task, block in tasks:
         assert any(row["confidence"] == "auto" for row in block["rows"])
+
+
+# ---------------------------------------------------------------------------
+# refinement is safe to repeat
+# ---------------------------------------------------------------------------
+
+import refine_crosswalk as RC  # noqa: E402
+
+
+def _proposal(sections, confidence="high"):
+    return {"sections": list(sections), "why": "because", "confidence": confidence}
+
+
+def test_a_second_apply_is_a_no_op_not_a_rejection():
+    """Applying consumes the part-level row it replaces.
+
+    On a re-run the element then looks like it was never in the crosswalk, and
+    the first version of this reported all 269 as REJECTED. A half-finished
+    run could not be brought back into step, which is exactly when you re-run.
+    """
+    rows = [{"source_ref": "PA.I.A.K1", "target_ref": "14cfr:61.3",
+             "relation": "regulation", "confidence": "verified",
+             "note": "", "element_text": "x"}]
+    proposals = {"private": ("private", {"PA.I.A.K1": _proposal(["61.3"])})}
+    inventory = {"61.3": ("61", "Requirement for certificates")}
+
+    accepted, report = RC.validate(proposals, inventory, {"private": rows})
+    assert report["already"] == 1
+    assert report["unknown_element"] == []
+    assert not accepted.get("private")
+
+
+def test_an_element_genuinely_absent_is_still_reported():
+    """The no-op path must not swallow a real mismatch."""
+    proposals = {"private": ("private", {"PA.I.A.K1": _proposal(["61.3"])})}
+    accepted, report = RC.validate(
+        proposals, {"61.3": ("61", "x")}, {"private": []})
+    assert report["already"] == 0
+    assert report["unknown_element"] == [("private", "PA.I.A.K1")]
+
+
+def test_a_partly_applied_element_is_not_called_done():
+    """Two of four sections present means the run did not finish."""
+    rows = [{"source_ref": "PA.I.A.K1", "target_ref": "14cfr:61.3",
+             "relation": "regulation", "confidence": "verified",
+             "note": "", "element_text": "x"}]
+    proposals = {"private": ("private",
+                             {"PA.I.A.K1": _proposal(["61.3", "61.51"])})}
+    _accepted, report = RC.validate(
+        proposals, {"61.3": ("61", "x"), "61.51": ("61", "y")},
+        {"private": rows})
+    assert report["already"] == 0
+    assert report["unknown_element"] == [("private", "PA.I.A.K1")]
