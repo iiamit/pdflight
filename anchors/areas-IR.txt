@@ -1,8 +1,0 @@
-I	Preflight Preparation
-II	Preflight Procedures
-III	Air Traffic Control (ATC) Clearances and Procedures
-IV	Flight by Reference to Instruments
-V	Navigation Systems
-VI	Instrument Approach Procedures
-VII	Emergency Operations
-VIII	Postflight Procedures
