@@ -95,6 +95,13 @@ def search(doc, pattern, limit, case_sensitive=False):
             continue
         anchor = owner(found, number)
         key = anchor[1] if anchor else "(no anchor above)"
+        if anchor is not None and anchor[0] == found[-1][0]:
+            # Nothing bounds the last anchor, so a document's back matter
+            # lands in it. PHAK ends at Aeromedical Factors, which is why a
+            # search for "circling approach" reports 8 hits there: they are
+            # glossary entries. Say so rather than let the count read as
+            # coverage.
+            key = "%s  [unbounded, includes any back matter]" % key
         record_hit = hits.setdefault(key, {"title": anchor[2] if anchor else "",
                                            "pages": [], "count": 0})
         record_hit["count"] += len(matcher.findall(text))

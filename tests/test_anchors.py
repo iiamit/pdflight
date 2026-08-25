@@ -273,3 +273,27 @@ def test_anchors_sharing_a_page_are_reported_together():
     for ref in ("seaplane:emergency-landing", "seaplane:go-around",
                 "seaplane:postflight-procedures"):
         assert ref in refs, "%s missing from the page 28 group" % ref
+
+
+def test_the_last_anchor_is_marked_unbounded():
+    """Nothing bounds a document's final chapter, so back matter lands in it.
+
+    PHAK ends at Aeromedical Factors, and a search for "circling approach"
+    reports hits there because the glossary carries the term. Unmarked, that
+    count reads as coverage and invites anchoring an approach element to the
+    aeromedical chapter.
+    """
+    hits, problem = HS.search("phak", r"circling approach", 6)
+    assert problem is None
+    assert hits
+    for key in hits:
+        assert "unbounded" in key, "expected the tail to be marked: %s" % key
+
+
+def test_a_bounded_anchor_carries_no_warning():
+    """The marker is for the tail alone, not for every result."""
+    hits, problem = HS.search("phak", r"wake turbulence", 6)
+    assert problem is None
+    bounded = [k for k in hits if "unbounded" not in k
+               and "no anchor above" not in k]
+    assert bounded, "expected at least one bounded chapter hit"
