@@ -2,24 +2,22 @@
 
 One hyperlinked PDF containing the FAA reference corpus a pilot needs for any
 certificate or rating. Handbooks, ACS and PTS, the AIM, the full text of the
-relevant parts of 14 CFR, Advisory Circulars, and selected Chief Counsel legal
-interpretations. Every ACS element links to the regulations, handbook sections,
-and guidance that support it.
+relevant parts of 14 CFR and 49 CFR, and Advisory Circulars. Every ACS element
+links to the regulations, handbook chapters, and guidance that support it.
 
 Free, open source, offline, and self-updating.
 
-**Status: the pipeline is complete and no release has been cut yet.**
+**Status: shipping. The current release is v2026.08.5.**
 
-Everything builds: the manifest and fetcher, the 14 CFR and 49 CFR typesetting
-from eCFR, anchor resolution, the generated menus, assembly, linking, the
-bookmark tree, the validation gates, the crosswalk, and the release
-automation. A build currently produces roughly 6,200 pages at about 470 MB.
+6,527 pages, 484 MB. Forty source documents, plus 629 pages of 14 CFR and
+49 CFR typeset from eCFR covering 16 parts and 849 sections. The crosswalk
+covers all five certificates: 28,001 rows across 5,493 ACS elements, and 96
+percent of those elements point at a specific chapter or section rather than a
+whole handbook or a whole part.
 
-What is not done: the corpus covers Private and Instrument in depth, and the
-remaining certificates are seeded but not verified. Reader compatibility has
-not been tested on real devices, so `docs/COMPATIBILITY.md` is still empty.
-See `docs/RELEASING.md` for how a release is cut and what still needs a
-one-time repository setting.
+Two things are not done. The Chief Counsel legal interpretations are verified
+but not yet in the file, described below. And reader compatibility is tested on
+iPadOS only.
 
 ## What this is
 
@@ -34,15 +32,33 @@ one-time repository setting.
 
 ## Download
 
-Once the first release is cut, this URL always resolves to the current one:
+This URL always resolves to the current release:
 
 ```
 https://github.com/iiamit/pdflight/releases/latest/download/pdflight.pdf
 ```
 
 Each release also carries `SHA256SUMS`, the `sources.lock.yaml` it was built
-from, and a `version.json`. Releases are event driven: they follow FAA source
-changes rather than a calendar. See `docs/RELEASING.md`.
+from, and a `version.json`. Releases follow FAA source changes rather than a
+calendar, and an unchanged build does not release at all. See
+`docs/RELEASING.md`.
+
+## What is in it
+
+Seven sections, in page order:
+
+| | Section | Contents |
+|---|---|---|
+| 01 | Standards | Five ACS and the CFII PTS |
+| 02 | Handbooks | Ten, PHAK through Plane Sense |
+| 03 | Aeronautical Information Manual | current change |
+| 04 | Regulations | 14 CFR parts 1, 43, 45, 47, 48, 61, 67, 68, 71, 73, 91, 103, 105, 119, 135 and 49 CFR 830, typeset from eCFR |
+| 05 | Advisory Circulars | Seventeen, each confirmed active |
+| 06 | Interpretations | empty, see below |
+| 07 | Guides | outbound links only |
+
+Every content page carries a nav stamp with `[menu]` and `[doc]` returns, and
+the bookmark tree reaches three levels deep.
 
 ## What this is not
 
@@ -58,11 +74,41 @@ See NOTICE for the full disclaimer.
 
 ## Certificates covered
 
-Private, Instrument, Commercial, ATP, CFI, CFII.
+Private, Instrument, Commercial, ATP, CFI, CFII. All 276 ACS Tasks have been
+worked, and every element carries at least one target.
+
+| Certificate | Rows | Elements | Elements with a specific target |
+|---|---|---|---|
+| Private | 5,309 | 1,192 | 89% |
+| Instrument | 2,400 | 338 | 99% |
+| Commercial | 5,285 | 1,192 | 97% |
+| ATP | 5,951 | 1,027 | 98% |
+| CFI | 9,056 | 1,744 | 98% |
+
+"Specific" means a CFR section or a handbook chapter rather than a whole part
+or a whole book. The remainder is deliberate: the Risk Management Handbook has
+no chapter-sized topics, the AFH carries no IFR content, and ACS tolerances are
+not regulated anywhere. A wrong chapter is worse than a whole book, because it
+looks answered. See [docs/CROSSWALK-REVIEW.md](docs/CROSSWALK-REVIEW.md).
+
+## Legal interpretations are not in the file yet
+
+Section 06 is empty. The verification work is done and the tooling exists:
+`tools/verify_interps.py` checked 21 dated candidates and passed 14 against
+page one of the actual document, and `tools/discover_interps.py` resolved 9 of
+18 that needed a filename or a year found first. What has not happened is
+promoting those into `manifest/sources.yaml`, so no interpretation ships today
+and no crosswalk row points at one.
+
+Six candidates remain open and three are deferred pending review, where page
+one names the right addressee but the subject is not the topic the selection
+claimed. Those do not ship until a human resolves the conflict. See
+[docs/INTERPS-NOTES.md](docs/INTERPS-NOTES.md) and
+[docs/INTERPS-CANDIDATES.md](docs/INTERPS-CANDIDATES.md).
 
 ## Which reader to use
 
-Tested on iPadOS against the current release:
+Tested by hand on iPadOS against v2026.08.3:
 
 | Reader | Links | Back |
 |---|---|---|
@@ -79,22 +125,29 @@ what makes working through several regulations for one ACS element quick. The
 others work too: every page carries `[menu]` and `[doc]` returns, so no jump
 is a dead end.
 
-## Reader compatibility
-
-Some annotation apps re-render PDFs on import and strip link annotations. That
-is their behavior, not a defect in this file. A per-release test matrix lives in
+Desktop readers and the annotation apps are untested. Some annotation apps
+re-render PDFs on import and strip link annotations, which is their behavior
+and not a defect in this file. The per-release matrix lives in
 [docs/COMPATIBILITY.md](docs/COMPATIBILITY.md).
 
 ## Building
 
-Requires Python 3.12 and GNU Make. Later phases also need Typst, qpdf, and
-pdfcpu.
+Requires Python 3.12, GNU Make, Typst 0.15, qpdf, and pdfcpu.
 
 ```
 make setup     # install Python dependencies
 make help      # list every target
-make test      # run the test suite
+make guide     # everything from cold: fetch through validate
+make build     # re-run the assembly stages only
+make test      # run the test suite, 294 tests
 ```
+
+A full build from a cold cache downloads roughly 470 MB of source PDFs and
+takes a while. `make build` assumes `cfr`, `index`, `resolve` and `optimize`
+have already run.
+
+Builds are deterministic: the same inputs produce a byte-identical SHA-256.
+The release automation depends on that to decide whether anything changed.
 
 Source PDFs are never committed. They are fetched into `cache/`, which is
 gitignored, and the output goes to GitHub Releases.
@@ -119,6 +172,6 @@ Inter and JetBrains Mono are vendored under the SIL Open Font License 1.1.
 - [docs/CROSSWALK-REVIEW.md](docs/CROSSWALK-REVIEW.md) covers how the crosswalk
   is verified and what "verified" claims.
 - [docs/COMPATIBILITY.md](docs/COMPATIBILITY.md) records how the file behaves
-  in real readers. Empty until a release exists to test.
+  in real readers.
 
 Where they conflict, CLAUDE.md wins.

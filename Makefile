@@ -51,8 +51,8 @@ help:
 	@echo "  test              Run the test suite"
 	@echo "  clean             Remove build output and Python caches. Leaves cache/ intact"
 	@echo ""
-	@echo "Phase 1 status: skeleton only."
-	@echo "fetch lands in deliverable 1.3, the interps tools in 1.4."
+	@echo "Pipeline complete. make guide builds from cold, make build reassembles."
+	@echo "Interpretations are verified but not yet in manifest/sources.yaml."
 
 setup:
 	$(PYTHON) -m pip install -e ".[dev]"
