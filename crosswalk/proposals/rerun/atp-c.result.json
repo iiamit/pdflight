@@ -1,0 +1,1960 @@
+{
+ "AA.III.A.K1": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.A.K2": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.A.K3": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.A.K4": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK c14 Airport Operations covers runway markings and lighting; the AIM lighting and marking sections carry the same ground where the Task cites the AIM"
+ },
+ "AA.III.A.R1": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.A.R2": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK c14 Airport Operations covers wake turbulence avoidance; AIM 7-4 Wake Turbulence is the dedicated section where the Task cites the AIM"
+ },
+ "AA.III.A.R3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures is where the abnormal takeoff planning cases are set out"
+ },
+ "AA.III.A.R3a": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures and AFH c06 Takeoffs both carry the rejected takeoff, confirmed by search"
+ },
+ "AA.III.A.R3b": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c13 Transition to Multiengine covers engine failure in the takeoff and climb phase; AFH c18 carries the emergency procedure"
+ },
+ "AA.III.A.R4": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.A.R5": {
+  "anchors": [
+   "afh:ch08"
+  ],
+  "confidence": "low",
+  "why": "AFH c08 Airport Traffic Patterns is the section this element belongs to"
+ },
+ "AA.III.A.R6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.III.A.R7": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.A.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations carries checklist discipline and crew coordination, 14 hits confirmed by search"
+ },
+ "AA.III.A.S10": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.A.S11": {
+  "anchors": [
+   "seaplane:takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Takeoffs is the section this element belongs to"
+ },
+ "AA.III.A.S12": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.A.S13": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.A.S14": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.A.S15": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch12"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and AFH c12 Transition to Complex Airplanes together cover this element"
+ },
+ "AA.III.A.S16": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK c14 Airport Operations is the section this element belongs to"
+ },
+ "AA.III.A.S17": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK c14 Airport Operations names noise abatement and AFH c06 gives the departure procedure, both confirmed by search"
+ },
+ "AA.III.A.S18": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations is the section this element belongs to"
+ },
+ "AA.III.A.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "The Task References do not include the AIM, so no chapter may be cited for radio calls. The document-level rows stay"
+ },
+ "AA.III.A.S3": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.A.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations holds the before takeoff check, confirmed by search"
+ },
+ "AA.III.A.S5": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.A.S6": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.A.S7": {
+  "anchors": [
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Using Water Rudders is the section this element belongs to"
+ },
+ "AA.III.A.S8": {
+  "anchors": [
+   "seaplane:planing-or-step-position",
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Planing or Step Position, Seaplane Porpoising and Seaplane Skipping together cover this element"
+ },
+ "AA.III.A.S9": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.B.K1": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c04 Energy Management and AFH c09 Approaches and Landings both define the stabilized approach, confirmed by search"
+ },
+ "AA.III.B.K2": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.B.K3": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.B.K4": {
+  "anchors": [
+   "aim:ch02-s01",
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK c14 Airport Operations covers runway markings and lighting; the AIM lighting and marking sections carry the same ground where the Task cites the AIM"
+ },
+ "AA.III.B.R1": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.B.R2": {
+  "anchors": [
+   "aim:ch07-s04",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK c14 Airport Operations covers wake turbulence avoidance; AIM 7-4 Wake Turbulence is the dedicated section where the Task cites the AIM"
+ },
+ "AA.III.B.R3": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.B.R4": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 Airport Operations is the LAHSO section, 39 hits confirmed by search"
+ },
+ "AA.III.B.R5": {
+  "anchors": [
+   "afh:ch08",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AFH c08 Airport Traffic Patterns and AIM 4-3 Airport Operations together cover this element"
+ },
+ "AA.III.B.R6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.III.B.R7": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.B.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations carries checklist discipline and crew coordination, 14 hits confirmed by search"
+ },
+ "AA.III.B.S10": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.B.S11": {
+  "anchors": [
+   "seaplane:normal-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Normal Landing is the section this element belongs to"
+ },
+ "AA.III.B.S12": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.B.S13": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and AFH c16 Transition to Jet-Powered Airplanes together cover this element"
+ },
+ "AA.III.B.S14": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.B.S15": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 Airport Operations is the section this element belongs to"
+ },
+ "AA.III.B.S2": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-2 Radio Communications Phraseology and Techniques is the phraseology section"
+ },
+ "AA.III.B.S3": {
+  "anchors": [
+   "afh:ch08",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AFH c08 Airport Traffic Patterns and AIM 4-3 Airport Operations together cover this element"
+ },
+ "AA.III.B.S4": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 Airport Operations is the section this element belongs to"
+ },
+ "AA.III.B.S5": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.B.S6": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.B.S7": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c04 Energy Management and AFH c09 Approaches and Landings together cover this element"
+ },
+ "AA.III.B.S8": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.B.S9": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.C.K1": {
+  "anchors": [
+   "phak:ch11",
+   "seaplane:glassy-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "PHAK c11 Aircraft Performance and Seaplane Glassy Water Takeoffs together cover this element"
+ },
+ "AA.III.C.K2": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.C.K3": {
+  "anchors": [
+   "seaplane:glassy-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Takeoffs is the section this element belongs to"
+ },
+ "AA.III.C.K4": {
+  "anchors": [
+   "seaplane:glassy-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Takeoffs is the section this element belongs to"
+ },
+ "AA.III.C.R1": {
+  "anchors": [
+   "phak:ch11",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "PHAK c11 Aircraft Performance and Seaplane Landing Area Reconnaissance together cover this element"
+ },
+ "AA.III.C.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures is where the abnormal takeoff planning cases are set out"
+ },
+ "AA.III.C.R2a": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures and AFH c06 Takeoffs both carry the rejected takeoff, confirmed by search"
+ },
+ "AA.III.C.R2b": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c13 Transition to Multiengine covers engine failure in the takeoff and climb phase; AFH c18 carries the emergency procedure"
+ },
+ "AA.III.C.R3": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance is the section this element belongs to"
+ },
+ "AA.III.C.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.III.C.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.C.R6": {
+  "anchors": [
+   "seaplane:amphibious-gear"
+  ],
+  "confidence": "high",
+  "why": "The Seaplane amphibious gear passage is the only text in the corpus on gear position in an amphibian"
+ },
+ "AA.III.C.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations carries checklist discipline and crew coordination, 14 hits confirmed by search"
+ },
+ "AA.III.C.S10": {
+  "anchors": [
+   "seaplane:planing-or-step-position",
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Planing or Step Position, Seaplane Porpoising and Seaplane Skipping together cover this element"
+ },
+ "AA.III.C.S11": {
+  "anchors": [
+   "seaplane:glassy-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Takeoffs is the section this element belongs to"
+ },
+ "AA.III.C.S12": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.C.S13": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.C.S14": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK c14 Airport Operations names noise abatement and AFH c06 gives the departure procedure, both confirmed by search"
+ },
+ "AA.III.C.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "The Task References do not include the AIM, so no chapter may be cited for radio calls. The document-level rows stay"
+ },
+ "AA.III.C.S3": {
+  "anchors": [
+   "seaplane:crosswind-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Crosswind Takeoffs is the section this element belongs to"
+ },
+ "AA.III.C.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations holds the before takeoff check, confirmed by search"
+ },
+ "AA.III.C.S5": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance is the section this element belongs to"
+ },
+ "AA.III.C.S6": {
+  "anchors": [
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Using Water Rudders is the section this element belongs to"
+ },
+ "AA.III.C.S7": {
+  "anchors": [
+   "seaplane:takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Takeoffs is the section this element belongs to"
+ },
+ "AA.III.C.S8": {
+  "anchors": [
+   "seaplane:glassy-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Takeoffs is the section this element belongs to"
+ },
+ "AA.III.C.S9": {
+  "anchors": [
+   "afh:ch06",
+   "seaplane:takeoffs"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and Seaplane Takeoffs together cover this element"
+ },
+ "AA.III.D.K1": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c04 Energy Management and AFH c09 Approaches and Landings both define the stabilized approach, confirmed by search"
+ },
+ "AA.III.D.K2": {
+  "anchors": [
+   "phak:ch11",
+   "seaplane:glassy-water-landing"
+  ],
+  "confidence": "high",
+  "why": "PHAK c11 Aircraft Performance and Seaplane Glassy Water Landing together cover this element"
+ },
+ "AA.III.D.K3": {
+  "anchors": [
+   "afh:ch09",
+   "seaplane:crosswind-landing"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and Seaplane Crosswind Landing together cover this element"
+ },
+ "AA.III.D.K4": {
+  "anchors": [
+   "seaplane:glassy-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Landing is the section this element belongs to"
+ },
+ "AA.III.D.K5": {
+  "anchors": [
+   "seaplane:glassy-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Landing is the section this element belongs to"
+ },
+ "AA.III.D.R1": {
+  "anchors": [
+   "seaplane:glassy-water-landing",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Landing and Seaplane Landing Area Reconnaissance together cover this element"
+ },
+ "AA.III.D.R2": {
+  "anchors": [
+   "seaplane:go-around"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Go-around is the section this element belongs to"
+ },
+ "AA.III.D.R3": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance is the section this element belongs to"
+ },
+ "AA.III.D.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.III.D.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.D.R6": {
+  "anchors": [
+   "seaplane:amphibious-gear"
+  ],
+  "confidence": "high",
+  "why": "The Seaplane amphibious gear passage is the only text in the corpus on gear position in an amphibian"
+ },
+ "AA.III.D.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations carries checklist discipline and crew coordination, 14 hits confirmed by search"
+ },
+ "AA.III.D.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "The Task References do not include the AIM, so no chapter may be cited for radio calls. The document-level rows stay"
+ },
+ "AA.III.D.S3": {
+  "anchors": [
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Using Water Rudders is the section this element belongs to"
+ },
+ "AA.III.D.S4": {
+  "anchors": [
+   "seaplane:glassy-water-landing",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Landing and Seaplane Landing Area Reconnaissance together cover this element"
+ },
+ "AA.III.D.S5": {
+  "anchors": [
+   "afh:ch09",
+   "seaplane:glassy-water-landing"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and Seaplane Glassy Water Landing together cover this element"
+ },
+ "AA.III.D.S6": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c04 Energy Management and AFH c09 Approaches and Landings together cover this element"
+ },
+ "AA.III.D.S7": {
+  "anchors": [
+   "seaplane:glassy-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Landing is the section this element belongs to"
+ },
+ "AA.III.D.S8": {
+  "anchors": [
+   "seaplane:glassy-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Landing is the section this element belongs to"
+ },
+ "AA.III.D.S9": {
+  "anchors": [
+   "seaplane:glassy-water-landing",
+   "seaplane:idling-position"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Landing and Seaplane Idling Position together cover this element"
+ },
+ "AA.III.E.K1": {
+  "anchors": [
+   "phak:ch11",
+   "seaplane:rough-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "PHAK c11 Aircraft Performance and Seaplane Rough Water Takeoffs together cover this element"
+ },
+ "AA.III.E.K2": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.E.K3": {
+  "anchors": [
+   "seaplane:rough-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Takeoffs is the section this element belongs to"
+ },
+ "AA.III.E.K4": {
+  "anchors": [
+   "seaplane:rough-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Takeoffs is the section this element belongs to"
+ },
+ "AA.III.E.R1": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance",
+   "seaplane:rough-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance and Seaplane Rough Water Takeoffs together cover this element"
+ },
+ "AA.III.E.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures is where the abnormal takeoff planning cases are set out"
+ },
+ "AA.III.E.R2a": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures and AFH c06 Takeoffs both carry the rejected takeoff, confirmed by search"
+ },
+ "AA.III.E.R2b": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c13 Transition to Multiengine covers engine failure in the takeoff and climb phase; AFH c18 carries the emergency procedure"
+ },
+ "AA.III.E.R3": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance is the section this element belongs to"
+ },
+ "AA.III.E.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.III.E.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.E.R6": {
+  "anchors": [
+   "seaplane:amphibious-gear"
+  ],
+  "confidence": "high",
+  "why": "The Seaplane amphibious gear passage is the only text in the corpus on gear position in an amphibian"
+ },
+ "AA.III.E.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations carries checklist discipline and crew coordination, 14 hits confirmed by search"
+ },
+ "AA.III.E.S10": {
+  "anchors": [
+   "seaplane:planing-or-step-position",
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Planing or Step Position, Seaplane Porpoising and Seaplane Skipping together cover this element"
+ },
+ "AA.III.E.S11": {
+  "anchors": [
+   "seaplane:rough-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Takeoffs is the section this element belongs to"
+ },
+ "AA.III.E.S12": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.E.S13": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.E.S14": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK c14 Airport Operations names noise abatement and AFH c06 gives the departure procedure, both confirmed by search"
+ },
+ "AA.III.E.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "The Task References do not include the AIM, so no chapter may be cited for radio calls. The document-level rows stay"
+ },
+ "AA.III.E.S3": {
+  "anchors": [
+   "seaplane:crosswind-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Crosswind Takeoffs is the section this element belongs to"
+ },
+ "AA.III.E.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations holds the before takeoff check, confirmed by search"
+ },
+ "AA.III.E.S5": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance is the section this element belongs to"
+ },
+ "AA.III.E.S6": {
+  "anchors": [
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Using Water Rudders is the section this element belongs to"
+ },
+ "AA.III.E.S7": {
+  "anchors": [
+   "seaplane:rough-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Takeoffs is the section this element belongs to"
+ },
+ "AA.III.E.S8": {
+  "anchors": [
+   "seaplane:rough-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Takeoffs is the section this element belongs to"
+ },
+ "AA.III.E.S9": {
+  "anchors": [
+   "afh:ch06",
+   "seaplane:crosswind-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and Seaplane Crosswind Takeoffs together cover this element"
+ },
+ "AA.III.F.K1": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c04 Energy Management and AFH c09 Approaches and Landings both define the stabilized approach, confirmed by search"
+ },
+ "AA.III.F.K2": {
+  "anchors": [
+   "phak:ch11",
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "PHAK c11 Aircraft Performance and Seaplane Rough Water Landing together cover this element"
+ },
+ "AA.III.F.K3": {
+  "anchors": [
+   "afh:ch09",
+   "seaplane:crosswind-landing"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and Seaplane Crosswind Landing together cover this element"
+ },
+ "AA.III.F.K4": {
+  "anchors": [
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Landing is the section this element belongs to"
+ },
+ "AA.III.F.K5": {
+  "anchors": [
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Landing is the section this element belongs to"
+ },
+ "AA.III.F.R1": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance",
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance and Seaplane Rough Water Landing together cover this element"
+ },
+ "AA.III.F.R2": {
+  "anchors": [
+   "seaplane:go-around"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Go-around is the section this element belongs to"
+ },
+ "AA.III.F.R3": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance is the section this element belongs to"
+ },
+ "AA.III.F.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.III.F.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.F.R6": {
+  "anchors": [
+   "seaplane:amphibious-gear"
+  ],
+  "confidence": "high",
+  "why": "The Seaplane amphibious gear passage is the only text in the corpus on gear position in an amphibian"
+ },
+ "AA.III.F.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations carries checklist discipline and crew coordination, 14 hits confirmed by search"
+ },
+ "AA.III.F.S10": {
+  "anchors": [
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Landing is the section this element belongs to"
+ },
+ "AA.III.F.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "The Task References do not include the AIM, so no chapter may be cited for radio calls. The document-level rows stay"
+ },
+ "AA.III.F.S3": {
+  "anchors": [
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Using Water Rudders is the section this element belongs to"
+ },
+ "AA.III.F.S4": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance",
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance and Seaplane Rough Water Landing together cover this element"
+ },
+ "AA.III.F.S5": {
+  "anchors": [
+   "afh:ch09",
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and Seaplane Rough Water Landing together cover this element"
+ },
+ "AA.III.F.S6": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.F.S7": {
+  "anchors": [
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Landing is the section this element belongs to"
+ },
+ "AA.III.F.S8": {
+  "anchors": [
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Rough Water Landing is the section this element belongs to"
+ },
+ "AA.III.F.S9": {
+  "anchors": [
+   "seaplane:go-around",
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Go-around and Seaplane Rough Water Landing together cover this element"
+ },
+ "AA.III.G.K1": {
+  "anchors": [
+   "phak:ch11",
+   "seaplane:confined-area-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "PHAK c11 Aircraft Performance and Seaplane Confined Area Takeoffs together cover this element"
+ },
+ "AA.III.G.K2": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.G.K3": {
+  "anchors": [
+   "seaplane:confined-area-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Takeoffs is the section this element belongs to"
+ },
+ "AA.III.G.K4": {
+  "anchors": [
+   "seaplane:glassy-water-takeoffs",
+   "seaplane:rough-water-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Glassy Water Takeoffs and Seaplane Rough Water Takeoffs together cover this element"
+ },
+ "AA.III.G.K5": {
+  "anchors": [
+   "seaplane:confined-area-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Takeoffs is the section this element belongs to"
+ },
+ "AA.III.G.R1": {
+  "anchors": [
+   "seaplane:confined-area-takeoffs",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Takeoffs and Seaplane Landing Area Reconnaissance together cover this element"
+ },
+ "AA.III.G.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures is where the abnormal takeoff planning cases are set out"
+ },
+ "AA.III.G.R2a": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures and AFH c06 Takeoffs both carry the rejected takeoff, confirmed by search"
+ },
+ "AA.III.G.R2b": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c13 Transition to Multiengine covers engine failure in the takeoff and climb phase; AFH c18 carries the emergency procedure"
+ },
+ "AA.III.G.R3": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance is the section this element belongs to"
+ },
+ "AA.III.G.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.III.G.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.G.R6": {
+  "anchors": [
+   "seaplane:amphibious-gear"
+  ],
+  "confidence": "high",
+  "why": "The Seaplane amphibious gear passage is the only text in the corpus on gear position in an amphibian"
+ },
+ "AA.III.G.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations carries checklist discipline and crew coordination, 14 hits confirmed by search"
+ },
+ "AA.III.G.S10": {
+  "anchors": [
+   "seaplane:planing-or-step-position",
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Planing or Step Position, Seaplane Porpoising and Seaplane Skipping together cover this element"
+ },
+ "AA.III.G.S11": {
+  "anchors": [
+   "afh:ch06",
+   "seaplane:confined-area-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and Seaplane Confined Area Takeoffs together cover this element"
+ },
+ "AA.III.G.S12": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.G.S13": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.G.S14": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.G.S15": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK c14 Airport Operations names noise abatement and AFH c06 gives the departure procedure, both confirmed by search"
+ },
+ "AA.III.G.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "The Task References do not include the AIM, so no chapter may be cited for radio calls. The document-level rows stay"
+ },
+ "AA.III.G.S3": {
+  "anchors": [
+   "seaplane:crosswind-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Crosswind Takeoffs is the section this element belongs to"
+ },
+ "AA.III.G.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations holds the before takeoff check, confirmed by search"
+ },
+ "AA.III.G.S5": {
+  "anchors": [
+   "seaplane:confined-area-takeoffs",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Takeoffs and Seaplane Landing Area Reconnaissance together cover this element"
+ },
+ "AA.III.G.S6": {
+  "anchors": [
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Using Water Rudders is the section this element belongs to"
+ },
+ "AA.III.G.S7": {
+  "anchors": [
+   "seaplane:confined-area-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Takeoffs is the section this element belongs to"
+ },
+ "AA.III.G.S8": {
+  "anchors": [
+   "seaplane:takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Takeoffs is the section this element belongs to"
+ },
+ "AA.III.G.S9": {
+  "anchors": [
+   "afh:ch06",
+   "seaplane:crosswind-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and Seaplane Crosswind Takeoffs together cover this element"
+ },
+ "AA.III.H.K1": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c04 Energy Management and AFH c09 Approaches and Landings both define the stabilized approach, confirmed by search"
+ },
+ "AA.III.H.K2": {
+  "anchors": [
+   "phak:ch11",
+   "seaplane:confined-area-landing"
+  ],
+  "confidence": "high",
+  "why": "PHAK c11 Aircraft Performance and Seaplane Confined Area Landing together cover this element"
+ },
+ "AA.III.H.K3": {
+  "anchors": [
+   "seaplane:confined-area-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Landing is the section this element belongs to"
+ },
+ "AA.III.H.K4": {
+  "anchors": [
+   "afh:ch09",
+   "seaplane:crosswind-landing"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and Seaplane Crosswind Landing together cover this element"
+ },
+ "AA.III.H.R1": {
+  "anchors": [
+   "seaplane:confined-area-landing",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Landing and Seaplane Landing Area Reconnaissance together cover this element"
+ },
+ "AA.III.H.R2": {
+  "anchors": [
+   "seaplane:go-around"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Go-around is the section this element belongs to"
+ },
+ "AA.III.H.R3": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Landing Area Reconnaissance is the section this element belongs to"
+ },
+ "AA.III.H.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.III.H.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.H.R6": {
+  "anchors": [
+   "seaplane:amphibious-gear"
+  ],
+  "confidence": "high",
+  "why": "The Seaplane amphibious gear passage is the only text in the corpus on gear position in an amphibian"
+ },
+ "AA.III.H.R7": {
+  "anchors": [
+   "seaplane:confined-area-landing",
+   "seaplane:confined-area-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Landing and Seaplane Confined Area Takeoffs together cover this element"
+ },
+ "AA.III.H.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations carries checklist discipline and crew coordination, 14 hits confirmed by search"
+ },
+ "AA.III.H.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "The Task References do not include the AIM, so no chapter may be cited for radio calls. The document-level rows stay"
+ },
+ "AA.III.H.S3": {
+  "anchors": [
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Using Water Rudders is the section this element belongs to"
+ },
+ "AA.III.H.S4": {
+  "anchors": [
+   "seaplane:confined-area-landing",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Landing and Seaplane Landing Area Reconnaissance together cover this element"
+ },
+ "AA.III.H.S5": {
+  "anchors": [
+   "afh:ch09",
+   "seaplane:confined-area-landing"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and Seaplane Confined Area Landing together cover this element"
+ },
+ "AA.III.H.S6": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.H.S7": {
+  "anchors": [
+   "seaplane:confined-area-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Landing is the section this element belongs to"
+ },
+ "AA.III.H.S8": {
+  "anchors": [
+   "seaplane:confined-area-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Confined Area Landing is the section this element belongs to"
+ },
+ "AA.III.H.S9": {
+  "anchors": [
+   "seaplane:crosswind-landing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane Crosswind Landing is the section this element belongs to"
+ },
+ "AA.III.I.K1": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch16",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs, AFH c16 Transition to Jet-Powered Airplanes and AFH c18 Emergency Procedures together cover this element"
+ },
+ "AA.III.I.K2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures is the section this element belongs to"
+ },
+ "AA.III.I.K3": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch16",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs, AFH c16 Transition to Jet-Powered Airplanes and AFH c18 Emergency Procedures together cover this element"
+ },
+ "AA.III.I.K4": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "why": "AFH c13 Transition to Multiengine works accelerate-stop distance, 6 hits confirmed; PHAK c11 Aircraft Performance carries the charts"
+ },
+ "AA.III.I.K5": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "why": "AFH c13 Transition to Multiengine and AFH c16 Transition to Jet-Powered Airplanes together cover this element"
+ },
+ "AA.III.I.R1": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.I.R2": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c13 Transition to Multiengine and AFH c18 Emergency Procedures together cover this element"
+ },
+ "AA.III.I.R3": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs is the section this element belongs to"
+ },
+ "AA.III.I.R4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH c13 Transition to Multiengine is the section this element belongs to"
+ },
+ "AA.III.I.R5": {
+  "anchors": [
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "why": "AFH c16 Transition to Jet-Powered Airplanes is the section this element belongs to"
+ },
+ "AA.III.I.R6": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.I.S1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c18 Emergency Procedures is the section this element belongs to"
+ },
+ "AA.III.I.S2": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c13 Transition to Multiengine and AFH c18 Emergency Procedures together cover this element"
+ },
+ "AA.III.I.S3": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and AFH c18 Emergency Procedures together cover this element"
+ },
+ "AA.III.I.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations is the section this element belongs to"
+ },
+ "AA.III.J.K1": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c04 Energy Management and AFH c09 Approaches and Landings both define the stabilized approach, confirmed by search"
+ },
+ "AA.III.J.K2": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and PHAK c11 Aircraft Performance together cover this element"
+ },
+ "AA.III.J.K3": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and AFH c09 Approaches and Landings together cover this element"
+ },
+ "AA.III.J.K4": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and AIM 4-3 Airport Operations together cover this element"
+ },
+ "AA.III.J.K5": {
+  "anchors": [
+   "afh:ch09",
+   "seaplane:go-around"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings and Seaplane Go-around together cover this element"
+ },
+ "AA.III.J.R1": {
+  "anchors": [
+   "afh:ch09",
+   "risk-management:ch08"
+  ],
+  "confidence": "low",
+  "why": "AFH c09 Approaches and Landings covers go-around timing; Risk Management c08 covers the decision delay"
+ },
+ "AA.III.J.R2": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.J.R3": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.J.R4": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.J.R5": {
+  "anchors": [
+   "afh:ch08",
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "why": "AFH c08 Airport Traffic Patterns and AIM 4-3 Airport Operations together cover this element"
+ },
+ "AA.III.J.R6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.III.J.R7": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.III.J.R8": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 Airport Operations is the section this element belongs to"
+ },
+ "AA.III.J.S1": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.J.S2": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.J.S3": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c06 Takeoffs and Departure Climbs and AFH c09 Approaches and Landings together cover this element"
+ },
+ "AA.III.J.S4": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH c09 Approaches and Landings is the section this element belongs to"
+ },
+ "AA.III.J.S5": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-2 Radio Communications Phraseology and Techniques is the phraseology section"
+ },
+ "AA.III.J.S6": {
+  "anchors": [
+   "afh:ch08",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AFH c08 Airport Traffic Patterns and AIM 4-3 Airport Operations together cover this element"
+ },
+ "AA.III.J.S7": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH c02 Ground Operations is the section this element belongs to"
+ },
+ "AA.IV.A.K1": {
+  "anchors": [
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH c04 Energy Management is the chapter, 16 hits confirmed by search"
+ },
+ "AA.IV.A.K2": {
+  "anchors": [
+   "afh:ch10",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c10 Performance Maneuvers and PHAK c05 Aerodynamics together cover this element"
+ },
+ "AA.IV.A.K2a": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "low",
+  "why": "AFH c03 Basic Flight Maneuvers carries coordinated flight, confirmed by search; AFH c10 holds the steep turn itself"
+ },
+ "AA.IV.A.K2b": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "why": "AFH c10 Performance Maneuvers is the section this element belongs to"
+ },
+ "AA.IV.A.K2c": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK c05 Aerodynamics is the section this element belongs to"
+ },
+ "AA.IV.A.K2d": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery and PHAK c05 Aerodynamics together cover this element"
+ },
+ "AA.IV.A.K2e": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK c05 Aerodynamics is the section this element belongs to"
+ },
+ "AA.IV.A.R1": {
+  "anchors": [
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK c17 Aeromedical Factors is the spatial disorientation chapter, 15 hits confirmed by search"
+ },
+ "AA.IV.A.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "No chapter treats collision hazards as its subject for this Task. The document-level rows stay"
+ },
+ "AA.IV.A.R3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery holds the low altitude maneuvering, stall and spin discussion, confirmed by search"
+ },
+ "AA.IV.A.R4": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.IV.A.R5": {
+  "anchors": [
+   "afh:ch03",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c03 Basic Flight Maneuvers and AFH c05 Upset Prevention and Recovery together cover this element"
+ },
+ "AA.IV.A.S1": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "No chapter states the 3,000 foot AGL entry altitude; it is an ACS tolerance, not handbook text. The document-level rows stay"
+ },
+ "AA.IV.A.S2": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "why": "AFH c10 Performance Maneuvers is the section this element belongs to"
+ },
+ "AA.IV.A.S3": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "why": "AFH c10 Performance Maneuvers is the section this element belongs to"
+ },
+ "AA.IV.A.S4": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "why": "AFH c10 Performance Maneuvers is the section this element belongs to"
+ },
+ "AA.IV.A.S5": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "why": "AFH c10 Performance Maneuvers is the section this element belongs to"
+ },
+ "AA.IV.A.S6": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "why": "AFH c10 Performance Maneuvers is the section this element belongs to"
+ },
+ "AA.IV.A.S7": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH c05 Upset Prevention and Recovery is the section this element belongs to"
+ },
+ "AA.IV.B.K1": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH c07 Airplane Basic Flight Maneuvers holds the unusual attitude recovery text, 34 hits confirmed by search"
+ },
+ "AA.IV.B.K2": {
+  "anchors": [
+   "phak:ch08",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK c08 Flight Instruments covers instrument and system failure and PHAK c17 Aeromedical Factors covers the physiological causes"
+ },
+ "AA.IV.B.K3": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK c05 Aerodynamics carries the Vg diagram and the operating envelope, confirmed by search"
+ },
+ "AA.IV.B.K4": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK c05 Aerodynamics is where wing planform and design effects on control are treated, confirmed by search"
+ },
+ "AA.IV.B.R1": {
+  "anchors": [
+   "phak:ch17",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.IV.B.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "The element is archived in the ACS, so there is nothing to anchor"
+ },
+ "AA.IV.B.R3": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK c05 Aerodynamics carries the Vg diagram and the operating envelope, confirmed by search"
+ },
+ "AA.IV.B.R4": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH c06 Airplane Attitude Instrument Flying is the section this element belongs to"
+ },
+ "AA.IV.B.R5": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH c07 Airplane Basic Flight Maneuvers is the section this element belongs to"
+ },
+ "AA.IV.B.R6": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH c07 Airplane Basic Flight Maneuvers is the section this element belongs to"
+ },
+ "AA.IV.B.R7": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH c06 Airplane Attitude Instrument Flying is the section this element belongs to"
+ },
+ "AA.IV.B.R8": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "No chapter treats collision hazards as its subject for this Task. The document-level rows stay"
+ },
+ "AA.IV.B.R9": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.IV.B.S1": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH c06 Airplane Attitude Instrument Flying and IFH c07 Airplane Basic Flight Maneuvers together cover this element"
+ },
+ "AA.IV.C.K1": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Flight and performance characteristics are aircraft-specific AFM content, not a handbook chapter. The document-level rows stay"
+ },
+ "AA.IV.C.R1": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Flight and performance characteristics are aircraft-specific AFM content, not a handbook chapter. The document-level rows stay"
+ },
+ "AA.IV.C.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk Management c06 Threat and Error Management is where workload, task saturation and loss of situational awareness are treated"
+ },
+ "AA.IV.C.S1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "why": "AFH c05 Upset Prevention and Recovery is the nearest chapter on entering and recovering from specific flight situations"
+ }
+}

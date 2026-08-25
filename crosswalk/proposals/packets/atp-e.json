@@ -189,6 +189,12 @@
    ],
    "current": [
     "aim:ch06-s03"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.K2": {
@@ -202,6 +208,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.K3": {
@@ -215,6 +227,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.K4": {
@@ -229,6 +247,11 @@
    "current": [
     "afh:ch16",
     "phak:ch17"
+   ],
+   "gaps": [
+    "aim",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.K5": {
@@ -242,6 +265,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.K6": {
@@ -255,6 +284,12 @@
    ],
    "current": [
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.R1": {
@@ -268,6 +303,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.R2": {
@@ -282,6 +323,11 @@
    "current": [
     "afh:ch18",
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "seaplane"
    ]
   },
   "AA.VII.A.R3": {
@@ -295,6 +341,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.R4": {
@@ -308,6 +360,12 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "seaplane"
    ]
   },
   "AA.VII.A.S1": {
@@ -321,6 +379,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.S2": {
@@ -334,6 +398,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.S2a": {
@@ -347,6 +417,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.S2b": {
@@ -360,6 +436,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.S2c": {
@@ -373,6 +455,12 @@
    ],
    "current": [
     "afh:ch16"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.S2d": {
@@ -386,6 +474,12 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.S2e": {
@@ -399,6 +493,12 @@
    ],
    "current": [
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.S2f": {
@@ -410,7 +510,14 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.VII.A.S3": {
    "text": "Fly by reference to standby flight instruments, backup instrumentation, or partial panel, if applicable and appropriate to the situation.",
@@ -423,6 +530,12 @@
    ],
    "current": [
     "phak:ch08"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.S4": {
@@ -436,6 +549,12 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.A.S5": {
@@ -449,6 +568,12 @@
    ],
    "current": [
     "aim:ch06-s03"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VII.B.K1": {
@@ -461,6 +586,10 @@
    "current": [
     "afh:ch13",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.K2": {
@@ -473,6 +602,9 @@
    "current": [
     "afh:ch13",
     "phak:ch11"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.B.R1": {
@@ -485,6 +617,10 @@
    "current": [
     "afh:ch13",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.R2": {
@@ -496,6 +632,10 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "AA.VII.B.R3": {
@@ -507,6 +647,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.R4": {
@@ -518,6 +662,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.R5": {
@@ -530,6 +678,9 @@
    "current": [
     "afh:ch13",
     "phak:ch11"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.B.R6": {
@@ -541,6 +692,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.R7": {
@@ -552,6 +707,10 @@
    ],
    "current": [
     "afh:ch05"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.R8": {
@@ -563,6 +722,10 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "AA.VII.B.S1": {
@@ -575,6 +738,10 @@
    "current": [
     "afh:ch13",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.S2": {
@@ -586,6 +753,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.S3": {
@@ -597,6 +768,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.S4": {
@@ -608,6 +783,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.S5": {
@@ -619,6 +798,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.S6": {
@@ -630,6 +813,10 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.B.S7": {
@@ -639,7 +826,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.C.K1": {
    "text": "Immediate action items and emergency procedures for a forced landing.",
@@ -650,6 +842,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.K2": {
@@ -662,6 +858,9 @@
    "current": [
     "afh:ch18",
     "phak:ch11"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.C.K2a": {
@@ -674,6 +873,9 @@
    "current": [
     "afh:ch18",
     "phak:ch11"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.C.K2b": {
@@ -686,6 +888,9 @@
    "current": [
     "afh:ch18",
     "phak:ch05"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.C.K2c": {
@@ -698,6 +903,9 @@
    "current": [
     "afh:ch18",
     "phak:ch11"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.C.K3": {
@@ -710,6 +918,10 @@
    "current": [
     "phak:ch11",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "AA.VII.C.K4": {
@@ -722,6 +934,10 @@
    "current": [
     "afh:ch04",
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.K5": {
@@ -733,6 +949,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.K6": {
@@ -742,7 +962,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.C.R1": {
    "text": "Altitude, wind, terrain, obstructions, gliding distance, and available landing distance considerations.",
@@ -753,6 +978,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.R2": {
@@ -764,6 +993,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.R3": {
@@ -773,7 +1006,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.C.R4": {
    "text": "Configuring the airplane.",
@@ -784,6 +1022,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.R5": {
@@ -795,6 +1037,10 @@
    ],
    "current": [
     "afh:ch05"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.R6": {
@@ -806,6 +1052,10 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "AA.VII.C.R7": {
@@ -817,6 +1067,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.S1": {
@@ -828,6 +1082,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.S2": {
@@ -839,6 +1097,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.S3": {
@@ -850,6 +1112,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.S4": {
@@ -861,6 +1127,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.S5": {
@@ -872,6 +1142,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.S6": {
@@ -883,6 +1157,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.S7": {
@@ -894,6 +1172,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.S8": {
@@ -906,6 +1188,10 @@
    "current": [
     "afh:ch02",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.C.S9": {
@@ -915,7 +1201,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.D.K1": {
    "text": "Flight characteristics and controllability associated with maneuvering the airplane with powerplant(s) inoperative, including the importance of drag reduction.",
@@ -926,6 +1217,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.K2": {
@@ -938,6 +1233,10 @@
    "current": [
     "afh:ch13",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.R1": {
@@ -950,6 +1249,10 @@
    "current": [
     "afh:ch13",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.R2": {
@@ -962,6 +1265,10 @@
    "current": [
     "afh:ch13",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.R3": {
@@ -973,6 +1280,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.R4": {
@@ -982,7 +1293,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.D.R5": {
    "text": "Configuring the airplane.",
@@ -993,6 +1309,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.R6": {
@@ -1005,6 +1325,10 @@
    "current": [
     "afh:ch05",
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.R7": {
@@ -1016,6 +1340,10 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "AA.VII.D.S1": {
@@ -1028,6 +1356,10 @@
    "current": [
     "afh:ch13",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.S2": {
@@ -1039,6 +1371,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.S3": {
@@ -1050,6 +1386,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.S4": {
@@ -1061,6 +1401,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.S5": {
@@ -1072,6 +1416,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.S6": {
@@ -1083,6 +1431,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.S7": {
@@ -1095,6 +1447,10 @@
    "current": [
     "afh:ch13",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.S8": {
@@ -1106,6 +1462,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.D.S9": {
@@ -1115,7 +1475,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.E.K1": {
    "text": "Flight characteristics and controllability associated with maneuvering to a landing with inoperative powerplant(s).",
@@ -1126,6 +1491,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.K2": {
@@ -1138,6 +1507,10 @@
    "current": [
     "afh:ch09",
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.K3": {
@@ -1149,6 +1522,10 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.R1": {
@@ -1160,6 +1537,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.R2": {
@@ -1169,7 +1550,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.E.R3": {
    "text": "Configuring the airplane.",
@@ -1180,6 +1566,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.R4": {
@@ -1191,6 +1581,10 @@
    ],
    "current": [
     "afh:ch05"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.R5": {
@@ -1202,6 +1596,10 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "AA.VII.E.R6": {
@@ -1214,6 +1612,10 @@
    "current": [
     "afh:ch09",
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S1": {
@@ -1226,6 +1628,10 @@
    "current": [
     "afh:ch13",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S10": {
@@ -1237,6 +1643,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S11": {
@@ -1246,7 +1656,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.E.S12": {
    "text": "Maintain positive aircraft control throughout the landing using drag and braking devices, as appropriate, to come to a stop.",
@@ -1257,6 +1672,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S13": {
@@ -1268,6 +1687,10 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S2": {
@@ -1279,6 +1702,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S3": {
@@ -1290,6 +1717,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S4": {
@@ -1301,6 +1732,10 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S5": {
@@ -1310,7 +1745,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.E.S6": {
    "text": "Prior to beginning the final approach segment, maintain the desired altitude ±100 feet, the desired airspeed ±10 knots, the desired heading ±5°, and accurately track courses, radials, and bearings.",
@@ -1321,6 +1761,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S7": {
@@ -1333,6 +1777,10 @@
    "current": [
     "afh:ch04",
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S8": {
@@ -1344,6 +1792,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.E.S9": {
@@ -1355,6 +1807,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.K1": {
@@ -1368,6 +1824,12 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.K2": {
@@ -1382,6 +1844,11 @@
    "current": [
     "ifh:ch11",
     "iph:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.K3": {
@@ -1396,6 +1863,11 @@
    "current": [
     "ifh:ch11",
     "iph:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.R1": {
@@ -1410,6 +1882,11 @@
    "current": [
     "afh:ch13",
     "ifh:ch11"
+   ],
+   "gaps": [
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.R2": {
@@ -1421,7 +1898,14 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.F.R3": {
    "text": "Configuring the airplane.",
@@ -1434,6 +1918,12 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.R4": {
@@ -1447,6 +1937,12 @@
    ],
    "current": [
     "afh:ch05"
+   ],
+   "gaps": [
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.R5": {
@@ -1460,6 +1956,12 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak"
    ]
   },
   "AA.VII.F.R6": {
@@ -1474,6 +1976,11 @@
    "current": [
     "afh:ch13",
     "iph:ch04"
+   ],
+   "gaps": [
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.R7": {
@@ -1488,6 +1995,11 @@
    "current": [
     "ifh:ch11",
     "iph:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.R8": {
@@ -1501,6 +2013,12 @@
    ],
    "current": [
     "ifh:ch11"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S1": {
@@ -1515,6 +2033,11 @@
    "current": [
     "afh:ch13",
     "ifh:ch11"
+   ],
+   "gaps": [
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S10": {
@@ -1528,6 +2051,12 @@
    ],
    "current": [
     "iph:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S11": {
@@ -1542,6 +2071,11 @@
    "current": [
     "ifh:ch10",
     "iph:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S12": {
@@ -1556,6 +2090,11 @@
    "current": [
     "ifh:ch10",
     "iph:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S13": {
@@ -1570,6 +2109,11 @@
    "current": [
     "ifh:ch10",
     "iph:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S14": {
@@ -1583,6 +2127,12 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S15": {
@@ -1596,6 +2146,12 @@
    ],
    "current": [
     "iph:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S16": {
@@ -1610,6 +2166,11 @@
    "current": [
     "afh:ch09",
     "iph:ch04"
+   ],
+   "gaps": [
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S2": {
@@ -1623,6 +2184,12 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S3": {
@@ -1636,6 +2203,12 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S4": {
@@ -1649,6 +2222,12 @@
    ],
    "current": [
     "afh:ch13"
+   ],
+   "gaps": [
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S5": {
@@ -1662,6 +2241,12 @@
    ],
    "current": [
     "ifh:ch02"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S6": {
@@ -1675,6 +2260,12 @@
    ],
    "current": [
     "ifh:ch11"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S7": {
@@ -1688,6 +2279,12 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S8": {
@@ -1702,6 +2299,11 @@
    "current": [
     "afh:ch13",
     "iph:ch04"
+   ],
+   "gaps": [
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.F.S9": {
@@ -1715,6 +2317,12 @@
    ],
    "current": [
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.K1": {
@@ -1727,6 +2335,9 @@
    "current": [
     "afh:ch18",
     "phak:ch06"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.G.K2": {
@@ -1738,6 +2349,10 @@
    ],
    "current": [
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.K3": {
@@ -1749,6 +2364,10 @@
    ],
    "current": [
     "phak:ch11"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "AA.VII.G.R1": {
@@ -1761,6 +2380,9 @@
    "current": [
     "afh:ch18",
     "phak:ch06"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.G.R2": {
@@ -1773,6 +2395,9 @@
    "current": [
     "afh:ch09",
     "phak:ch11"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.G.R3": {
@@ -1784,6 +2409,10 @@
    ],
    "current": [
     "phak:ch14"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "AA.VII.G.R4": {
@@ -1795,6 +2424,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.R5": {
@@ -1804,7 +2437,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VII.G.R6": {
    "text": "Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT).",
@@ -1815,6 +2453,10 @@
    ],
    "current": [
     "afh:ch05"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.R7": {
@@ -1826,6 +2468,10 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "AA.VII.G.S1": {
@@ -1838,6 +2484,9 @@
    "current": [
     "afh:ch18",
     "phak:ch06"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.VII.G.S10": {
@@ -1849,6 +2498,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.S2": {
@@ -1860,6 +2513,10 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.S3": {
@@ -1871,6 +2528,10 @@
    ],
    "current": [
     "phak:ch11"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "AA.VII.G.S4": {
@@ -1882,6 +2543,10 @@
    ],
    "current": [
     "phak:ch11"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "AA.VII.G.S5": {
@@ -1894,6 +2559,10 @@
    "current": [
     "afh:ch04",
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.S6": {
@@ -1905,6 +2574,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.S7": {
@@ -1916,6 +2589,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.S8": {
@@ -1927,6 +2604,10 @@
    ],
    "current": [
     "afh:ch09"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VII.G.S9": {
@@ -1936,7 +2617,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VIII.A.K1": {
    "text": "Parking, shutdown, securing, and postflight inspection.",
@@ -1948,6 +2634,11 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.K2": {
@@ -1960,6 +2651,11 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.R1": {
@@ -1972,6 +2668,11 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak"
    ]
   },
   "AA.VIII.A.R2": {
@@ -1982,7 +2683,13 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.VIII.A.R3": {
    "text": "Propeller, turbofan inlet, and exhaust safety.",
@@ -1994,6 +2701,11 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.R4": {
@@ -2006,6 +2718,11 @@
    ],
    "current": [
     "aim:ch05-s06"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.R5": {
@@ -2018,6 +2735,11 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.S1": {
@@ -2030,6 +2752,11 @@
    ],
    "current": [
     "aim:ch04-s03"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.S2": {
@@ -2043,6 +2770,11 @@
    "current": [
     "aim:ch04-s02",
     "aim:ch04-s03"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.S3": {
@@ -2055,6 +2787,11 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.S4": {
@@ -2067,6 +2804,11 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.S5": {
@@ -2079,6 +2821,11 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.A.S6": {
@@ -2091,6 +2838,11 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.B.K1": {
@@ -2104,6 +2856,12 @@
    ],
    "current": [
     "seaplane:mooring"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.B.K2": {
@@ -2117,6 +2875,12 @@
    ],
    "current": [
     "seaplane:docking"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.B.K3": {
@@ -2130,6 +2894,12 @@
    ],
    "current": [
     "seaplane:anchoring"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.B.K4": {
@@ -2144,6 +2914,12 @@
    "current": [
     "seaplane:beaching",
     "seaplane:ramping"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.B.R1": {
@@ -2157,6 +2933,12 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "seaplane"
    ]
   },
   "AA.VIII.B.R2": {
@@ -2168,7 +2950,14 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.VIII.B.R3": {
    "text": "Propeller, turbofan inlet, and exhaust safety.",
@@ -2181,6 +2970,12 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VIII.B.R4": {
@@ -2194,6 +2989,12 @@
    ],
    "current": [
     "aim:ch05-s06"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VIII.B.R5": {
@@ -2208,6 +3009,11 @@
    "current": [
     "afh:ch02",
     "seaplane:docking"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.B.S1": {
@@ -2221,6 +3027,12 @@
    ],
    "current": [
     "aim:ch04-s02"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VIII.B.S2": {
@@ -2234,6 +3046,12 @@
    ],
    "current": [
     "seaplane:anchoring"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.B.S3": {
@@ -2249,6 +3067,12 @@
     "seaplane:beaching",
     "seaplane:docking",
     "seaplane:mooring"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.B.S4": {
@@ -2262,6 +3086,12 @@
    ],
    "current": [
     "afh:ch02"
+   ],
+   "gaps": [
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.VIII.B.S5": {
@@ -2278,6 +3108,12 @@
     "seaplane:beaching",
     "seaplane:mooring",
     "seaplane:ramping"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.VIII.B.S6": {
@@ -2291,6 +3127,12 @@
    ],
    "current": [
     "seaplane:postflight-procedures"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   }
  }

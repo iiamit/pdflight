@@ -179,6 +179,11 @@
    ],
    "current": [
     "phak:ch01"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "risk-management"
    ]
   },
   "IR.I.A.K2": {
@@ -191,6 +196,11 @@
    ],
    "current": [
     "phak:ch01"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "risk-management"
    ]
   },
   "IR.I.A.K3": {
@@ -203,6 +213,11 @@
    ],
    "current": [
     "phak:ch01"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "risk-management"
    ]
   },
   "IR.I.A.R1": {
@@ -215,6 +230,11 @@
    ],
    "current": [
     "risk-management:ch02"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak"
    ]
   },
   "IR.I.A.R2": {
@@ -227,6 +247,11 @@
    ],
    "current": [
     "risk-management:ch02"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak"
    ]
   },
   "IR.I.A.R3": {
@@ -240,6 +265,10 @@
    "current": [
     "ifh:ch03",
     "phak:ch17"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "IR.I.A.R4": {
@@ -253,6 +282,10 @@
    "current": [
     "ifh:ch07",
     "risk-management:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "IR.I.A.S1": {
@@ -265,6 +298,11 @@
    ],
    "current": [
     "phak:ch01"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "risk-management"
    ]
   },
   "IR.I.B.K1": {
@@ -279,6 +317,11 @@
    "current": [
     "aviation-weather:ch02",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K2": {
@@ -293,6 +336,11 @@
    "current": [
     "aviation-weather:ch03",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K2a": {
@@ -307,6 +355,11 @@
    "current": [
     "aviation-weather:ch24",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K2b": {
@@ -321,6 +374,11 @@
    "current": [
     "aviation-weather:ch25",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K2c": {
@@ -335,6 +393,11 @@
    "current": [
     "aviation-weather:ch27",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K2d": {
@@ -349,6 +412,11 @@
    "current": [
     "aviation-weather:ch27",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K2e": {
@@ -363,6 +431,11 @@
    "current": [
     "aviation-weather:ch27",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K2f": {
@@ -377,6 +450,11 @@
    "current": [
     "aviation-weather:ch27",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K2g": {
@@ -392,6 +470,10 @@
     "aim:ch07-s01",
     "aviation-weather:ch26",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "IR.I.B.K3": {
@@ -406,6 +488,11 @@
    "current": [
     "aviation-weather:ch04",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3a": {
@@ -421,6 +508,11 @@
     "aviation-weather:ch04",
     "aviation-weather:ch13",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3b": {
@@ -436,6 +528,11 @@
     "aviation-weather:ch10",
     "aviation-weather:ch16",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3c": {
@@ -450,6 +547,12 @@
    "current": [
     "aviation-weather:ch05",
     "aviation-weather:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.B.K3d": {
@@ -464,6 +567,12 @@
    "current": [
     "aviation-weather:ch06",
     "aviation-weather:ch14"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.B.K3e": {
@@ -478,6 +587,11 @@
    "current": [
     "aviation-weather:ch11",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3f": {
@@ -492,6 +606,11 @@
    "current": [
     "aviation-weather:ch12",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3g": {
@@ -506,6 +625,11 @@
    "current": [
     "aviation-weather:ch19",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3h": {
@@ -520,6 +644,11 @@
    "current": [
     "aviation-weather:ch22",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3i": {
@@ -534,6 +663,11 @@
    "current": [
     "aviation-weather:ch20",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3j": {
@@ -548,6 +682,11 @@
    "current": [
     "aviation-weather:ch18",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3k": {
@@ -562,6 +701,11 @@
    "current": [
     "aviation-weather:ch20",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K3l": {
@@ -576,6 +720,11 @@
    "current": [
     "aviation-weather:ch18",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.K4": {
@@ -590,6 +739,11 @@
    "current": [
     "aviation-weather:ch28",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.R1": {
@@ -603,6 +757,12 @@
    ],
    "current": [
     "risk-management:ch08"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak"
    ]
   },
   "IR.I.B.R1a": {
@@ -617,6 +777,11 @@
    "current": [
     "phak:ch02",
     "risk-management:ch08"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather"
    ]
   },
   "IR.I.B.R1b": {
@@ -630,6 +795,12 @@
    ],
    "current": [
     "risk-management:ch02"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak"
    ]
   },
   "IR.I.B.R1c": {
@@ -645,6 +816,11 @@
     "aviation-weather:ch19",
     "aviation-weather:ch20",
     "risk-management:ch03"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak"
    ]
   },
   "IR.I.B.R2": {
@@ -656,7 +832,14 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ]
   },
   "IR.I.B.R2a": {
    "text": "a. Installed onboard weather equipment",
@@ -671,6 +854,11 @@
     "aviation-weather:ch15",
     "aviation-weather:ch28",
     "phak:ch13"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.R2b": {
@@ -685,6 +873,12 @@
    "current": [
     "aviation-weather:ch03",
     "aviation-weather:ch27"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.B.R2c": {
@@ -700,6 +894,11 @@
     "aim:ch07-s01",
     "aviation-weather:ch26",
     "aviation-weather:ch28"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.B.S1": {
@@ -715,6 +914,11 @@
     "aim:ch07-s01",
     "aviation-weather:ch02",
     "aviation-weather:ch03"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.B.S2": {
@@ -729,6 +933,11 @@
    "current": [
     "aviation-weather:ch03",
     "phak:ch12"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "risk-management"
    ]
   },
   "IR.I.B.S3": {
@@ -743,6 +952,11 @@
    "current": [
     "phak:ch02",
     "risk-management:ch08"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather"
    ]
   },
   "IR.I.B.S4": {
@@ -756,6 +970,12 @@
    ],
    "current": [
     "aim:ch05-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K1": {
@@ -771,6 +991,12 @@
    "current": [
     "aim:ch05-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K1a": {
@@ -786,6 +1012,12 @@
    "current": [
     "aim:ch01-s01",
     "ifh:ch09"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K1b": {
@@ -801,6 +1033,12 @@
    "current": [
     "aim:ch03-s04",
     "ifh:ch01"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K1c": {
@@ -816,6 +1054,12 @@
    "current": [
     "aim:ch05-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K1d": {
@@ -831,6 +1075,12 @@
    "current": [
     "aim:ch05-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K1e": {
@@ -846,6 +1096,12 @@
    "current": [
     "aim:ch09-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K1f": {
@@ -860,6 +1116,13 @@
    ],
    "current": [
     "aim:ch09-s01"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K1g": {
@@ -874,6 +1137,13 @@
    ],
    "current": [
     "aim:ch05-s01"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K1h": {
@@ -889,6 +1159,12 @@
    "current": [
     "aim:ch09-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K2": {
@@ -904,6 +1180,12 @@
    "current": [
     "aim:ch05-s03",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K3": {
@@ -918,6 +1200,13 @@
    ],
    "current": [
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K3a": {
@@ -932,6 +1221,13 @@
    ],
    "current": [
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K3b": {
@@ -946,6 +1242,13 @@
    ],
    "current": [
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K3c": {
@@ -961,6 +1264,12 @@
    "current": [
     "aim:ch05-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K4": {
@@ -976,6 +1285,12 @@
    "current": [
     "aim:ch05-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.K5": {
@@ -991,6 +1306,12 @@
    "current": [
     "aim:ch05-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.R1": {
@@ -1005,6 +1326,13 @@
    ],
    "current": [
     "risk-management:ch03"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak"
    ]
   },
   "IR.I.C.R2": {
@@ -1019,6 +1347,13 @@
    ],
    "current": [
     "risk-management:ch03"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak"
    ]
   },
   "IR.I.C.R3": {
@@ -1033,6 +1368,13 @@
    ],
    "current": [
     "risk-management:ch03"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak"
    ]
   },
   "IR.I.C.R4": {
@@ -1047,6 +1389,13 @@
    ],
    "current": [
     "risk-management:ch03"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak"
    ]
   },
   "IR.I.C.R5": {
@@ -1062,6 +1411,12 @@
    "current": [
     "aim:ch04-s01",
     "ifh:ch02"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.R6": {
@@ -1076,6 +1431,13 @@
    ],
    "current": [
     "risk-management:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak"
    ]
   },
   "IR.I.C.R7": {
@@ -1090,6 +1452,13 @@
    ],
    "current": [
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.S1": {
@@ -1104,6 +1473,13 @@
    ],
    "current": [
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.S2": {
@@ -1118,6 +1494,13 @@
    ],
    "current": [
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.S3": {
@@ -1133,6 +1516,12 @@
    "current": [
     "aim:ch05-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.S4": {
@@ -1148,6 +1537,12 @@
    "current": [
     "aim:ch09-s01",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.S5": {
@@ -1162,6 +1557,13 @@
    ],
    "current": [
     "ifh:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.I.C.S6": {
@@ -1177,6 +1579,13 @@
    "current": [
     "aim:ch05-s01",
     "aim:ch09-s01"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.II.A.K1": {
@@ -1190,6 +1599,10 @@
    "current": [
     "ifh:ch04",
     "phak:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "IR.II.A.K2": {
@@ -1202,6 +1615,11 @@
    ],
    "current": [
     "phak:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "risk-management"
    ]
   },
   "IR.II.A.R1": {
@@ -1215,6 +1633,10 @@
    "current": [
     "ifh:ch04",
     "risk-management:ch03"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "IR.II.A.R2": {
@@ -1228,6 +1650,10 @@
    "current": [
     "ifh:ch04",
     "phak:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "IR.II.A.R3": {
@@ -1241,6 +1667,10 @@
    "current": [
     "ifh:ch07",
     "risk-management:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "IR.II.A.S1": {
@@ -1254,6 +1684,10 @@
    "current": [
     "ifh:ch04",
     "phak:ch09"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "IR.II.A.S2": {
@@ -1268,6 +1702,9 @@
     "ifh:ch07",
     "phak:ch09",
     "risk-management:ch07"
+   ],
+   "gaps": [
+    "afh"
    ]
   },
   "IR.II.B.K1": {
@@ -1279,7 +1716,14 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ]
   },
   "IR.II.B.K1a": {
    "text": "a. Pitot-static instrument system and associated instruments",
@@ -1290,7 +1734,14 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ]
   },
   "IR.II.B.K1b": {
    "text": "b. Gyroscopic/electric/vacuum instrument system and associated instruments",
@@ -1301,7 +1752,14 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ]
   },
   "IR.II.B.K1c": {
    "text": "c. Electrical systems, electronic flight instrument displays [primary flight display (PFD), multi- function display (MFD)], transponder and automatic dependent surveillance - broadcast (ADS-B)",
@@ -1314,6 +1772,12 @@
    ],
    "current": [
     "aim:ch04-s05"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.II.B.K1d": {
@@ -1325,7 +1789,14 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ]
   },
   "IR.II.B.K2": {
    "text": "Operation of the aircraft’s applicable navigation system(s), including:",
@@ -1339,6 +1810,12 @@
    "current": [
     "aim:ch01-s01",
     "aim:ch01-s02"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.II.B.K2a": {
@@ -1352,6 +1829,12 @@
    ],
    "current": [
     "aim:ch01-s01"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.II.B.K2b": {
@@ -1366,6 +1849,12 @@
    "current": [
     "aim:ch01-s01",
     "aim:ch01-s02"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.II.B.K3": {
@@ -1377,7 +1866,14 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ]
   },
   "IR.II.B.R1": {
    "text": "Monitoring and management of automated systems.",
@@ -1390,6 +1886,12 @@
    ],
    "current": [
     "risk-management:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak"
    ]
   },
   "IR.II.B.R2": {
@@ -1403,6 +1905,12 @@
    ],
    "current": [
     "aim:ch01-s02"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.II.B.R3": {
@@ -1417,6 +1925,11 @@
    "current": [
     "aim:ch01-s02",
     "risk-management:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak"
    ]
   },
   "IR.II.B.R4": {
@@ -1430,6 +1943,12 @@
    ],
    "current": [
     "risk-management:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak"
    ]
   },
   "IR.II.B.R5": {
@@ -1443,6 +1962,12 @@
    ],
    "current": [
     "aim:ch01-s02"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.II.B.S1": {
@@ -1457,6 +1982,12 @@
    "current": [
     "aim:ch01-s01",
     "aim:ch01-s02"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.II.B.S2": {
@@ -1468,7 +1999,14 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ]
   },
   "IR.II.C.K1": {
    "text": "Purpose of performing an instrument flight deck check and how to detect possible defects.",
@@ -1481,6 +2019,11 @@
    "current": [
     "ifh:ch05",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "IR.II.C.K2": {
@@ -1494,6 +2037,10 @@
    "current": [
     "ifh:ch10",
     "phak:ch09"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "IR.II.C.K3": {
@@ -1506,6 +2053,11 @@
    ],
    "current": [
     "phak:ch09"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "risk-management"
    ]
   },
   "IR.II.C.R1": {
@@ -1519,6 +2071,10 @@
    "current": [
     "phak:ch09",
     "risk-management:ch03"
+   ],
+   "gaps": [
+    "afh",
+    "ifh"
    ]
   },
   "IR.II.C.R2": {
@@ -1531,6 +2087,11 @@
    ],
    "current": [
     "risk-management:ch03"
+   ],
+   "gaps": [
+    "afh",
+    "ifh",
+    "phak"
    ]
   },
   "IR.II.C.S1": {
@@ -1544,6 +2105,10 @@
    "current": [
     "afh:ch02",
     "ifh:ch10"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   }
  }

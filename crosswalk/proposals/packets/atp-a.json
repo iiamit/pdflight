@@ -217,6 +217,11 @@
    "current": [
     "afh:ch12",
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.K10": {
@@ -227,7 +232,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.K11": {
    "text": "Crewmember and passenger equipment–oxygen system, survival gear, emergency exits, evacuation procedures and crew duties, quick donning oxygen mask for crewmembers, passenger oxygen system.",
@@ -239,6 +250,11 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.K12": {
@@ -252,6 +268,11 @@
    "current": [
     "afh:ch12",
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.K13": {
@@ -262,7 +283,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.K14": {
    "text": "Fire & smoke detection, protection, and suppression–powerplant, cargo and passenger compartments, lavatory, pneumatic and environmental, electrical/avionics, and batteries (on aircraft and personal electronic devices).",
@@ -274,6 +301,11 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.K15": {
@@ -286,6 +318,11 @@
    ],
    "current": [
     "afh:ch05"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.K16": {
@@ -296,7 +333,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.K17": {
    "text": "How to use a Minimum Equipment List (MEL) and a Configuration Deviation List (CDL).",
@@ -306,7 +349,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.K2": {
    "text": "Powerplant–controls and indications, induction system, carburetor and fuel injection, turbocharging, cooling, mounting points, turbine wheels, compressors, deicing, anti-icing, and other related components.",
@@ -319,6 +368,11 @@
    "current": [
     "afh:ch15",
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.K3": {
@@ -332,6 +386,11 @@
    "current": [
     "afh:ch13",
     "afh:ch15"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.K4": {
@@ -342,7 +401,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.K5": {
    "text": "Oil system–capacity, allowable types of oil, quantities, and indicators.",
@@ -352,7 +417,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.K6": {
    "text": "Hydraulic system–capacity, pumps, pressure, reservoirs, allowable types of fluid, and regulators.",
@@ -362,7 +433,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.K7": {
    "text": "Electrical system–alternators, generators, batteries, circuit breakers and protection devices, controls, indicators, and external and auxiliary power sources and ratings.",
@@ -372,7 +449,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.K8": {
    "text": "Pneumatic and environmental systems–heating, cooling, ventilation, oxygen, pressurization, supply for ice protection systems, controls, indicators, and regulating devices.",
@@ -384,6 +467,11 @@
    ],
    "current": [
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.K9": {
@@ -396,6 +484,11 @@
    ],
    "current": [
     "risk-management:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "seaplane"
    ]
   },
   "AA.I.A.R1": {
@@ -408,6 +501,11 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.R2": {
@@ -420,6 +518,11 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.R3": {
@@ -432,6 +535,11 @@
    ],
    "current": [
     "risk-management:ch07"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "seaplane"
    ]
   },
   "AA.I.A.R4": {
@@ -445,6 +553,10 @@
    "current": [
     "afh:ch02",
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "phak",
+    "seaplane"
    ]
   },
   "AA.I.A.S1": {
@@ -458,6 +570,11 @@
    "current": [
     "afh:ch15",
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.S2": {
@@ -470,6 +587,11 @@
    ],
    "current": [
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.A.S3": {
@@ -480,7 +602,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.S4": {
    "text": "Demonstrate or describe, as appropriate, the process for deferring inoperative equipment (e.g., MEL) and using a CDL.",
@@ -490,7 +618,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.S5": {
    "text": "Comply with operations specifications, management specifications, and letters of authorization, if applicable.",
@@ -500,7 +634,13 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.A.S6": {
    "text": "Through the use of the appropriate checklists and normal and abnormal procedures, demonstrate the proper use of the aircraft systems, subsystems, and devices, as determined by the evaluator.",
@@ -513,6 +653,11 @@
    "current": [
     "afh:ch02",
     "afh:ch18"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.B.K1": {
@@ -525,7 +670,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K2": {
    "text": "How to determine the following, as applicable to the class sought:",
@@ -537,7 +690,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K2a": {
    "text": "a. Accelerate-stop / accelerate-go distance",
@@ -549,7 +710,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K2b": {
    "text": "b. Takeoff performance [e.g., balance field length and Velocity, Minimum Control (ground) (VMCG)] 4",
@@ -561,7 +730,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K2c": {
    "text": "c. Climb performance",
@@ -573,7 +750,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K2d": {
    "text": "d. Cruise performance (e.g., optimum and maximum operating altitudes)",
@@ -585,7 +770,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K2e": {
    "text": "e. Descent performance",
@@ -597,7 +790,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K2f": {
    "text": "f. Landing performance",
@@ -609,7 +810,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K2g": {
    "text": "g. Performance with an inoperative powerplant for all phases of flight (AMEL, AMES)",
@@ -621,7 +830,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K2h": {
    "text": "h. Weight and balance and how to shift weight",
@@ -633,7 +850,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K3": {
    "text": "Factors affecting performance, including:",
@@ -645,7 +870,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K3a": {
    "text": "a. Atmospheric conditions",
@@ -657,7 +890,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K3b": {
    "text": "b. Pilot technique",
@@ -669,7 +910,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K3c": {
    "text": "c. Aircraft configuration (e.g., flap setting)",
@@ -681,7 +930,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K3d": {
    "text": "d. Airport environment (e.g., runway condition, land and hold short operations (LAHSO))",
@@ -693,7 +950,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K3e": {
    "text": "e. Loading (e.g., center of gravity)",
@@ -705,7 +970,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K3f": {
    "text": "f. Aircraft weight",
@@ -717,7 +990,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K4": {
    "text": "Aerodynamics and how it relates to performance.",
@@ -729,7 +1010,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K5": {
    "text": "Adverse effects of exceeding an airplane limitation or the aircraft operating envelope.",
@@ -741,7 +1030,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K6": {
    "text": "Effects of icing on performance.",
@@ -753,7 +1050,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K7": {
    "text": "Clean wing concept; deicing and anti-icing procedures, including use of appropriate deice fluid, hold- over tables, calculating hold-over times, and pre-takeoff contamination checks.",
@@ -765,7 +1070,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K8": {
    "text": "Air carrier weight and balance systems (e.g., average weight program). Air Transport Pilot (ATP) (AMEL, AMES).",
@@ -777,7 +1090,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.K9": {
    "text": "Runway assessment and condition reporting and use of the Runway Condition Assessment Matrix (RCAM). (ATP)(AMEL, AMES).",
@@ -789,7 +1110,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.R1": {
    "text": "Use of performance charts, tables, and data.",
@@ -801,7 +1130,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.R2": {
    "text": "Airplane limitations.",
@@ -813,7 +1150,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.R3": {
    "text": "Possible differences between calculated performance and actual performance.",
@@ -825,7 +1170,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.R4": {
    "text": "Airplane icing and its effect on performance and stall warning.",
@@ -837,7 +1190,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.R5": {
    "text": "Runway excursions.",
@@ -849,7 +1210,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.S1": {
    "text": "Describe the airspeeds used during specific phases of flight.",
@@ -861,7 +1230,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.S2": {
    "text": "Describe the effects of meteorological conditions on performance for all phases of flight and correctly apply these factors to a specific chart, table, graph, or other performance data.",
@@ -873,7 +1250,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.S3": {
    "text": "Describe the procedures for wing contamination recognition and any deice/anti-ice procedures prior to takeoff. 5",
@@ -885,7 +1270,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.S4": {
    "text": "Explain the adverse effects of airframe icing during all phases of flight. Describe any operating limitations for flight in icing conditions. If equipped, describe the procedures for deicing and anti-icing system use and their effects on performance.",
@@ -897,7 +1290,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.S5": {
    "text": "Compute weight and balance, including practical techniques to resolve out-of-limits calculations for a representative scenario, as specified by the evaluator.",
@@ -909,7 +1310,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.S6": {
    "text": "Determine the computed center-of-gravity is within the acceptable limits and the lateral fuel balance is within limits for takeoff and landing.",
@@ -921,7 +1330,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.B.S7": {
    "text": "Demonstrate proficient use of appropriate performance charts, tables, graphs, or other data to determine airplane performance and limitations for all phases of flight.",
@@ -933,7 +1350,15 @@
     "seaplane",
     "weight-balance"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ]
   },
   "AA.I.C.K1": {
    "text": "Sources of weather data (e.g., National Weather Service, Flight Service) for flight planning purposes.",
@@ -947,6 +1372,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K2": {
@@ -961,6 +1393,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K2a": {
@@ -975,6 +1414,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K2b": {
@@ -989,6 +1435,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K2c": {
@@ -1003,6 +1456,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K2d": {
@@ -1017,6 +1477,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K2e": {
@@ -1031,6 +1498,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K2f": {
@@ -1045,6 +1519,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K2g": {
@@ -1059,6 +1540,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3": {
@@ -1073,6 +1561,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3a": {
@@ -1087,6 +1582,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3b": {
@@ -1101,6 +1603,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3c": {
@@ -1115,6 +1624,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3d": {
@@ -1129,6 +1645,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3e": {
@@ -1143,6 +1666,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3f": {
@@ -1157,6 +1687,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3g": {
@@ -1171,6 +1708,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3h": {
@@ -1185,6 +1729,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3i": {
@@ -1199,6 +1750,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3j": {
@@ -1213,6 +1771,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K3k": {
@@ -1225,7 +1790,15 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.C.K3l": {
    "text": "l. Obstructions to visibility (e.g., smoke, haze, volcanic ash, etc.)",
@@ -1239,6 +1812,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K4": {
@@ -1253,6 +1833,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K5": {
@@ -1267,6 +1854,13 @@
    ],
    "current": [
     "aim:ch05-s04"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.K6": {
@@ -1281,6 +1875,13 @@
    ],
    "current": [
     "risk-management:ch04"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak"
    ]
   },
   "AA.I.C.R1": {
@@ -1295,6 +1896,13 @@
    ],
    "current": [
     "risk-management:ch08"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak"
    ]
   },
   "AA.I.C.R1a": {
@@ -1309,6 +1917,13 @@
    ],
    "current": [
     "risk-management:ch08"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak"
    ]
   },
   "AA.I.C.R1b": {
@@ -1323,6 +1938,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.R1c": {
@@ -1337,6 +1959,13 @@
    ],
    "current": [
     "risk-management:ch02"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak"
    ]
   },
   "AA.I.C.R1d": {
@@ -1349,7 +1978,15 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.C.R2": {
    "text": "Use and limitations of:",
@@ -1361,7 +1998,15 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.C.R2a": {
    "text": "a. Installed onboard weather equipment",
@@ -1375,6 +2020,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.R2b": {
@@ -1389,6 +2041,13 @@
    ],
    "current": [
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.R2c": {
@@ -1404,6 +2063,13 @@
    "current": [
     "aim:ch04-s01",
     "aim:ch07-s01"
+   ],
+   "gaps": [
+    "afh",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.C.S1": {
@@ -1419,6 +2085,13 @@
    "current": [
     "risk-management:ch04",
     "risk-management:ch08"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak"
    ]
   },
   "AA.I.D.K1": {
@@ -1431,6 +2104,9 @@
    "current": [
     "afh:ch16",
     "phak:ch05"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.I.D.K2": {
@@ -1442,6 +2118,10 @@
    ],
    "current": [
     "afh:ch04"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.D.K3": {
@@ -1454,6 +2134,9 @@
    "current": [
     "afh:ch16",
     "phak:ch08"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.I.D.K4": {
@@ -1465,6 +2148,10 @@
    ],
    "current": [
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.D.K5": {
@@ -1477,6 +2164,9 @@
    "current": [
     "afh:ch16",
     "phak:ch11"
+   ],
+   "gaps": [
+    "risk-management"
    ]
   },
   "AA.I.D.K6": {
@@ -1488,6 +2178,10 @@
    ],
    "current": [
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.D.K7": {
@@ -1499,6 +2193,10 @@
    ],
    "current": [
     "phak:ch05"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "AA.I.D.K8": {
@@ -1510,6 +2208,10 @@
    ],
    "current": [
     "phak:ch11"
+   ],
+   "gaps": [
+    "afh",
+    "risk-management"
    ]
   },
   "AA.I.D.K9": {
@@ -1521,6 +2223,10 @@
    ],
    "current": [
     "afh:ch05"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.D.R1": {
@@ -1532,6 +2238,10 @@
    ],
    "current": [
     "afh:ch04"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.D.R2": {
@@ -1543,6 +2253,10 @@
    ],
    "current": [
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.D.R3": {
@@ -1555,6 +2269,10 @@
    "current": [
     "afh:ch04",
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.D.R4": {
@@ -1566,6 +2284,10 @@
    ],
    "current": [
     "afh:ch16"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.D.S1": {
@@ -1577,6 +2299,10 @@
    ],
    "current": [
     "afh:ch04"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.E.K1": {
@@ -1586,7 +2312,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K10": {
    "text": "Elements associated with operating at complex and high traffic airports with emphasis on runway incursion prevention techniques.",
@@ -1595,7 +2326,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K11": {
    "text": "Professional responsibilities associated with being an ATP certificate holder and how to apply leadership skills as pilot-in-command.",
@@ -1604,7 +2340,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K12": {
    "text": "Crew resource management (CRM) principles and application in a multi-crew environment.",
@@ -1613,7 +2354,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K13": {
    "text": "Use of safety programs to manage risk across an organization (e.g., Threat and error management (TEM), or Aviation Safety Action Program (ASAP)).",
@@ -1622,7 +2368,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K14": {
    "text": "Operations specifications.",
@@ -1631,7 +2382,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K2": {
    "text": "Airplane automation components (e.g., flight director, autopilot), their relationship to each other, and how to manage the automation for flight.",
@@ -1640,7 +2396,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K3": {
    "text": "Advanced navigation equipment (e.g., FMS, Required Navigation Performance (RNP), ADS-B, EFB, etc.) and how it is used inflight.",
@@ -1649,7 +2410,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K4": {
    "text": "Flightpath warning systems (e.g., Traffic Alert and Collision Avoidance Systems (TCAS), Terrain Awareness and Warning System (TAWS) and how to respond to a warning.",
@@ -1658,7 +2424,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K5": {
    "text": "Altitudes and conditions that require the use of oxygen masks.",
@@ -1667,7 +2438,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K6": {
    "text": "Causes and recognition of cabin pressure loss. 8",
@@ -1676,7 +2452,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K7": {
    "text": "Appropriate rudder use in transport aircraft to avoid rudder reversal.",
@@ -1685,7 +2466,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K8": {
    "text": "Crew communications (e.g., sterile flight deck rules, briefings).",
@@ -1694,7 +2480,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.K9": {
    "text": "Operational control.",
@@ -1703,7 +2494,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.R1": {
    "text": "Turbine engine and thrust reversing system malfunctions.",
@@ -1712,7 +2508,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.R2": {
    "text": "Managing automation and navigation equipment.",
@@ -1721,7 +2522,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.R3": {
    "text": "Responding to a flightpath warning system alert.",
@@ -1730,7 +2536,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.R4": {
    "text": "Loss of cabin pressure.",
@@ -1739,7 +2550,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.R5": {
    "text": "Crew coordination.",
@@ -1748,7 +2564,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.E.S1": {
    "text": "Apply CRM principles and use in a crew environment, as appropriate.",
@@ -1757,7 +2578,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.F.K1": {
    "text": "Causes, effects, recognition, and corrective actions associated with aeromedical and physiological issues, including:",
@@ -1769,6 +2595,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1a": {
@@ -1781,6 +2612,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1b": {
@@ -1793,6 +2629,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1c": {
@@ -1805,6 +2646,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1d": {
@@ -1817,6 +2663,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1e": {
@@ -1829,6 +2680,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1f": {
@@ -1841,6 +2697,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1g": {
@@ -1853,6 +2714,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1h": {
@@ -1865,6 +2731,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1i": {
@@ -1877,6 +2748,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1j": {
@@ -1889,6 +2765,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1k": {
@@ -1901,6 +2782,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K1l": {
@@ -1913,6 +2799,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K2": {
@@ -1925,6 +2816,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.K3": {
@@ -1938,6 +2834,11 @@
    "current": [
     "risk-management:ch06",
     "risk-management:ch08"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak"
    ]
   },
   "AA.I.F.K4": {
@@ -1951,6 +2852,10 @@
    "current": [
     "aim:ch08-s01",
     "risk-management:ch02"
+   ],
+   "gaps": [
+    "afh",
+    "phak"
    ]
   },
   "AA.I.F.R1": {
@@ -1963,6 +2868,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.F.R2": {
@@ -1975,6 +2885,11 @@
    ],
    "current": [
     "risk-management:ch08"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak"
    ]
   },
   "AA.I.F.R3": {
@@ -1987,6 +2902,11 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak"
    ]
   },
   "AA.I.F.R4": {
@@ -1999,6 +2919,11 @@
    ],
    "current": [
     "risk-management:ch06"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak"
    ]
   },
   "AA.I.F.S1": {
@@ -2011,6 +2936,11 @@
    ],
    "current": [
     "aim:ch08-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.G.K1": {
@@ -2020,7 +2950,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.G.K2": {
    "text": "14 CFR part 91 subparts A, B, C, F, G, H.",
@@ -2029,7 +2964,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.G.K3": {
    "text": "14 CFR part 117 (AMEL, AMES).",
@@ -2038,7 +2978,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.G.K4": {
    "text": "14 CFR part 121 subparts A, G, K, M, O, T, U, V (AMEL, AMES). 10",
@@ -2047,7 +2992,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.G.K5": {
    "text": "14 CFR part 135 subparts A, B, C, D, E, F, G (ASEL, ASES).",
@@ -2056,7 +3006,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.G.K6": {
    "text": "49 CFR part 830.",
@@ -2065,7 +3020,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.G.K7": {
    "text": "14 CFR part 111 subparts A, D.",
@@ -2074,7 +3034,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.G.R1": {
    "text": "Lack of compliance with the applicable CFRs.",
@@ -2083,7 +3048,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.G.S1": {
    "text": "Apply the CFRs to the flight and operation.",
@@ -2092,7 +3062,12 @@
     "phak",
     "risk-management"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management"
+   ]
   },
   "AA.I.H.K1": {
    "text": "The characteristics of a water surface as affected by features, such as:",
@@ -2105,6 +3080,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K1a": {
@@ -2118,6 +3099,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K1b": {
@@ -2131,6 +3118,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K1c": {
@@ -2144,6 +3137,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K1d": {
@@ -2157,6 +3156,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K1e": {
@@ -2170,6 +3175,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K1f": {
@@ -2183,6 +3194,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K1g": {
@@ -2196,6 +3213,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K1h": {
@@ -2209,6 +3232,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K1i": {
@@ -2223,6 +3252,12 @@
    "current": [
     "seaplane:landing-area-reconnaissance",
     "seaplane:rough-water-landing"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K2": {
@@ -2236,6 +3271,12 @@
    ],
    "current": [
     "seaplane:preflight-inspection"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K3": {
@@ -2250,6 +3291,12 @@
    "current": [
     "seaplane:porpoising",
     "seaplane:skipping"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K4": {
@@ -2263,6 +3310,12 @@
    ],
    "current": [
     "aim:ch09-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.H.K5": {
@@ -2274,7 +3327,14 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.H.K6": {
    "text": "Right-of-way, steering, and sailing rules pertinent to seaplane operation.",
@@ -2288,6 +3348,12 @@
    "current": [
     "seaplane:sailing",
     "seaplane:taxiing-and-sailing"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.K7": {
@@ -2299,7 +3365,14 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.H.K8": {
    "text": "Naval vessel protection zones.",
@@ -2310,7 +3383,14 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.H.K9": {
    "text": "No wake zones. 11",
@@ -2321,7 +3401,14 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.H.R1": {
    "text": "Local conditions.",
@@ -2334,6 +3421,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.R2": {
@@ -2347,6 +3440,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.R3": {
@@ -2361,6 +3460,12 @@
    "current": [
     "seaplane:sailing",
     "seaplane:taxiing-and-sailing"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.R4": {
@@ -2372,7 +3477,14 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.H.S1": {
    "text": "Explain how float and hull construction can affect seaplane performance.",
@@ -2385,6 +3497,12 @@
    ],
    "current": [
     "seaplane:preflight-inspection"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.S2": {
@@ -2399,6 +3517,12 @@
    "current": [
     "seaplane:porpoising",
     "seaplane:skipping"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.S3": {
@@ -2412,6 +3536,12 @@
    ],
    "current": [
     "aim:ch09-s01"
+   ],
+   "gaps": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
    ]
   },
   "AA.I.H.S4": {
@@ -2423,7 +3553,14 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.H.S5": {
    "text": "Describe what naval vessel protection zones and no wake zones are.",
@@ -2434,7 +3571,14 @@
     "risk-management",
     "seaplane"
    ],
-   "current": []
+   "current": [],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ]
   },
   "AA.I.H.S6": {
    "text": "Assess the water surface characteristics for the proposed flight.",
@@ -2447,6 +3591,12 @@
    ],
    "current": [
     "seaplane:landing-area-reconnaissance"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   },
   "AA.I.H.S7": {
@@ -2462,6 +3612,12 @@
     "seaplane:sailing",
     "seaplane:taxiing-and-sailing",
     "seaplane:using-water-rudders"
+   ],
+   "gaps": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
    ]
   }
  }

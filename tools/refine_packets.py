@@ -144,10 +144,18 @@ def write(certificate, count, root=PACKETS):
         for _area, codes in packet:
             for code in codes:
                 entry = found[code]
+                narrowed = {a.split(":")[0] for a in entry["current"]}
                 items[code] = collections.OrderedDict((
                     ("text", " ".join(entry["text"].split())),
                     ("references", entry["docs"]),
                     ("current", entry["current"]),
+                    # The documents still pointing at a whole book. Naming
+                    # them is the difference between a pass that reaffirms
+                    # what it already has and one that closes the gap: the
+                    # first rerun proposed no PHAK chapter for any of the 232
+                    # ATP elements that lacked one, because nothing in the
+                    # packet said those were the question.
+                    ("gaps", [d for d in entry["docs"] if d not in narrowed]),
                 ))
                 docs.update(entry["docs"])
         body = collections.OrderedDict()

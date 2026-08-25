@@ -257,3 +257,19 @@ def test_owner_reports_nothing_above_the_first_anchor():
     """
     found = [(10, "phak:ch01", "One")]
     assert HS.owner(found, 9) is None
+
+
+def test_anchors_sharing_a_page_are_reported_together():
+    """Three seaplane sections start on page 28. None of them wins.
+
+    Crediting the page to whichever anchor sorted last makes a correct anchor
+    look like it landed in the wrong place, which is how a real anchor gets
+    rebuilt to fix a defect it does not have.
+    """
+    found = HS.spans("seaplane")
+    page_28 = [entry for entry in found if entry[0] == 28]
+    assert len(page_28) == 1, "page 28 should be one group, not several rows"
+    refs = page_28[0][1]
+    for ref in ("seaplane:emergency-landing", "seaplane:go-around",
+                "seaplane:postflight-procedures"):
+        assert ref in refs, "%s missing from the page 28 group" % ref

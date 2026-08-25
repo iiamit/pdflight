@@ -33,23 +33,37 @@ TITLES = M.ROOT / "anchors" / "chapter-titles.json"
 
 
 def spans(doc):
-    """Anchor start pages for one document, ascending."""
+    """Anchor start pages for one document, ascending, grouped by page.
+
+    Several anchors routinely begin on one page: the Seaplane handbook starts
+    EMERGENCY LANDING, GO-AROUND and POSTFLIGHT PROCEDURES on page 28. Keeping
+    only one of them would credit every hit on that page to whichever sorted
+    last, which reads as an anchor landing in the wrong place when it is the
+    search that cannot tell them apart. Report the whole group and let the
+    reader choose by title.
+    """
     anchors = json.load(io.open(ANCHORS, encoding="utf-8"))["anchors"]
     titles = json.load(io.open(TITLES, encoding="utf-8"))
-    found = []
-    for ref, entry in anchors.items():
+    pages = collections.OrderedDict()
+    for ref, entry in sorted(anchors.items()):
         if entry.get("doc") != doc:
             continue
         page = entry.get("page")
-        if page:
-            found.append((page, ref, titles.get(ref) or
-                          (entry.get("evidence") or "").strip()))
-    found.sort()
+        if not page:
+            continue
+        label = titles.get(ref) or (entry.get("evidence") or "").strip()
+        pages.setdefault(page, []).append((ref, label))
+    found = []
+    for page in sorted(pages):
+        group = pages[page]
+        found.append((page,
+                      " | ".join(ref for ref, _label in group),
+                      " | ".join(label for _ref, label in group)))
     return found
 
 
 def owner(found, page):
-    """The anchor whose range contains `page`."""
+    """The anchor group whose range contains `page`."""
     pages = [p for p, _r, _t in found]
     position = bisect.bisect_right(pages, page) - 1
     if position < 0:
@@ -109,10 +123,11 @@ def main(argv=None):
 
     ranked = sorted(hits.items(), key=lambda kv: -kv[1]["count"])
     for ref, entry in ranked:
-        print("%-22s %4d hit(s)  pages %s   %s"
-              % (ref, entry["count"],
-                 ",".join(str(p) for p in entry["pages"]),
-                 entry["title"][:52]))
+        print("%-4d hit(s)  pages %-22s  %s"
+              % (entry["count"], ",".join(str(p) for p in entry["pages"]),
+                 ref))
+        if entry["title"]:
+            print("             %s" % entry["title"][:96])
     return EXIT_OK
 
 

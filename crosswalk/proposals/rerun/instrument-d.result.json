@@ -1,0 +1,446 @@
+{
+ "IR.VII.A.K1": {
+  "anchors": [
+   "aim:ch06-s04",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "AIM 6-4 Two-way Radio Communications Failure gives the route, altitude and clearance-limit rules; IFH ch11 covers the airborne response"
+ },
+ "IR.VII.A.R1": {
+  "anchors": [
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "IFH ch11 Emergency Operations is the only chapter that treats communication and equipment failure causes in flight"
+ },
+ "IR.VII.A.R2": {
+  "anchors": [
+   "aim:ch06-s04",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "AIM 6-4 states when deviation from the clearance is authorized; IFH ch11 covers the pilot decision"
+ },
+ "IR.VII.A.S1": {
+  "anchors": [
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "IFH ch11 Emergency Operations covers recognizing and confirming a radio failure"
+ },
+ "IR.VII.A.S2": {
+  "anchors": [
+   "aim:ch06-s04",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "AIM 6-4 and IFH ch11 both give the steps for re-establishing contact after a radio failure"
+ },
+ "IR.VII.A.S3": {
+  "anchors": [
+   "aim:ch06-s04",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "AIM 6-4 sets the route and destination rules for lost comms; IFH ch11 covers the in-flight decision"
+ },
+ "IR.VII.A.S4": {
+  "anchors": [
+   "aim:ch06-s04"
+  ],
+  "confidence": "high",
+  "why": "AIM 6-4 is where the leave-the-clearance-limit and ETA rules for beginning the approach are stated"
+ },
+ "IR.VII.A.S5": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 Aeronautical Decision-Making and Risk Management ch08 both carry the SRM and CRM material"
+ },
+ "IR.VII.B.K1": {
+  "anchors": [
+   "afh:ch13",
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 Transition to Multiengine Airplanes holds the engine-out procedures; IFH ch06 and ch07 cover straight-and-level and turns on instruments"
+ },
+ "IR.VII.B.R1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers identifying and verifying the inoperative engine, confirmed by the dead-foot and verify passages"
+ },
+ "IR.VII.B.R2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers single-engine service ceiling, drift-down and the inability to hold altitude"
+ },
+ "IR.VII.B.R3": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 Upset Prevention and Recovery carries the stall and spin material; AFH ch13 covers Vmc rollover at low altitude"
+ },
+ "IR.VII.B.R4": {
+  "anchors": [
+   "ifh:ch03",
+   "ifh:ch11",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch03 Human Factors covers spatial disorientation, IFH ch11 loss of situational awareness, Risk Management ch06 threat and error management"
+ },
+ "IR.VII.B.R5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 is where crossfeed and single-engine fuel management are treated"
+ },
+ "IR.VII.B.R6": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers gear, flap and cowl flap configuration with an engine inoperative"
+ },
+ "IR.VII.B.S1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers prompt recognition of the failure and maintaining directional control"
+ },
+ "IR.VII.B.S10": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers control of the airplane within Vmc and single-engine limitations"
+ },
+ "IR.VII.B.S11": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 Aeronautical Decision-Making and Risk Management ch08 both carry the SRM and CRM material"
+ },
+ "IR.VII.B.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 holds the feathering and zero-thrust passages and the identify, verify, feather sequence"
+ },
+ "IR.VII.B.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers Vyse, the best single-engine airspeed, and trimming for it"
+ },
+ "IR.VII.B.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers the bank and rudder combination that gives best single-engine performance"
+ },
+ "IR.VII.B.S5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 carries the securing-the-engine checklist discussion"
+ },
+ "IR.VII.B.S6": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers troubleshooting the failure; PHAK ch07 Aircraft Systems explains the engine indications behind it"
+ },
+ "IR.VII.B.S7": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers operating-engine management; PHAK ch07 Aircraft Systems explains the engine instruments being monitored"
+ },
+ "IR.VII.B.S8": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and ch07 are the attitude instrument flying chapters that set altitude, airspeed and heading control"
+ },
+ "IR.VII.B.S9": {
+  "anchors": [
+   "afh:ch13",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers single-engine performance capability; Risk Management ch08 covers the decision to divert or land"
+ },
+ "IR.VII.C.K1": {
+  "anchors": [
+   "afh:ch13",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers the engine-inoperative approach; IPH ch04 Approaches is the source for the approach procedure itself"
+ },
+ "IR.VII.C.R1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers engine failure during the approach and landing phase of a multiengine flight"
+ },
+ "IR.VII.C.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Element is archived, so no chapter applies. The document-level rows stay"
+ },
+ "IR.VII.C.R3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers gear and flap configuration with an engine inoperative on approach"
+ },
+ "IR.VII.C.R4": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 Upset Prevention and Recovery carries the stall and spin material; AFH ch13 covers Vmc rollover at low altitude"
+ },
+ "IR.VII.C.R5": {
+  "anchors": [
+   "ifh:ch03",
+   "ifh:ch11",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch03 Human Factors covers spatial disorientation, IFH ch11 loss of situational awareness, Risk Management ch06 threat and error management"
+ },
+ "IR.VII.C.R6": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 Approaches and Landings holds the go-around and rejected landing material; AFH ch13 covers it with one engine out"
+ },
+ "IR.VII.C.S1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers prompt recognition of the failure and maintaining directional control"
+ },
+ "IR.VII.C.S10": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers control of the airplane within Vmc and single-engine limitations"
+ },
+ "IR.VII.C.S11": {
+  "anchors": [
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the aircraft approach category and circling criteria; IFH ch10 covers the circling approach"
+ },
+ "IR.VII.C.S12": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 Approaches and Landings covers the landing; AFH ch13 covers it with one engine inoperative"
+ },
+ "IR.VII.C.S13": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 carries the multiengine emergency and securing checklist discussion"
+ },
+ "IR.VII.C.S14": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 Aeronautical Decision-Making and Risk Management ch08 both carry the SRM and CRM material"
+ },
+ "IR.VII.C.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 holds the feathering and zero-thrust passages and the identify, verify, feather sequence"
+ },
+ "IR.VII.C.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers the bank and rudder combination that gives best single-engine performance"
+ },
+ "IR.VII.C.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 carries the multiengine emergency checklist discussion"
+ },
+ "IR.VII.C.S5": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers operating-engine management; PHAK ch07 Aircraft Systems explains the engine instruments being monitored"
+ },
+ "IR.VII.C.S6": {
+  "anchors": [
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 IFR Flight covers requesting and flying an approach clearance; IPH ch04 Approaches carries the procedure detail"
+ },
+ "IR.VII.C.S7": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and ch07 are the attitude instrument flying chapters that set altitude, airspeed and heading control"
+ },
+ "IR.VII.C.S8": {
+  "anchors": [
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 Approaches carries MDA and DA/DH and the descent to landing; IFH ch10 IFR Flight covers flying the approach"
+ },
+ "IR.VII.C.S9": {
+  "anchors": [
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 Approaches covers final segment lateral and vertical guidance; IFH ch10 IFR Flight covers tracking it"
+ },
+ "IR.VII.D.K1": {
+  "anchors": [
+   "ifh:ch05",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 Flight Instruments covers erroneous indications; IFH ch11 Emergency Operations covers recognizing the failure and telling ATC"
+ },
+ "IR.VII.D.K2": {
+  "anchors": [
+   "ifh:ch05",
+   "ifh:ch11",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 and PHAK ch08 cover pitot-static and gyro failure modes; IFH ch11 covers minimizing the effect in flight"
+ },
+ "IR.VII.D.R1": {
+  "anchors": [
+   "ifh:ch05",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 Flight Instruments describes the standby and secondary displays; IFH ch07 covers flying on them"
+ },
+ "IR.VII.D.R2": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "IFH ch07 covers partial-panel basic flight maneuvers; IFH ch11 Emergency Operations covers control after an instrument failure"
+ },
+ "IR.VII.D.R3": {
+  "anchors": [
+   "ifh:ch03",
+   "ifh:ch11",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch03 Human Factors covers spatial disorientation, IFH ch11 loss of situational awareness, Risk Management ch06 threat and error management"
+ },
+ "IR.VII.D.S1": {
+  "anchors": [
+   "ifh:ch10",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "IFH ch11 covers advising ATC of a malfunction and IFH ch10 carries the advise-ATC and unable text. IFH ch02 dropped, no such text there"
+ },
+ "IR.VII.D.S2": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "why": "IFH ch07 covers partial-panel maneuvering; IFH ch10 IFR Flight covers the non-precision approach itself"
+ },
+ "IR.VII.D.S3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 Aeronautical Decision-Making and Risk Management ch08 both carry the SRM and CRM material"
+ },
+ "IR.VIII.A.K1": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 Flight Manuals and Other Documents is where discrepancy and maintenance record documentation is treated"
+ },
+ "IR.VIII.A.R1": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 Ground Operations covers the post-flight inspection; PHAK ch09 covers documenting the discrepancy"
+ },
+ "IR.VIII.A.S1": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 Ground Operations covers post-flight inspection and securing; PHAK ch09 covers recording discrepancies and servicing"
+ }
+}

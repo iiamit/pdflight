@@ -1,18 +1,32 @@
-# Brief: propose handbook chapter anchors for one packet
+# Brief: close the handbook gaps for one packet
 
 ## What you are doing
 
-An ACS element currently points at whole handbooks. Your job is to narrow
-each one to the chapter that actually covers the element, so a button reading
-`PHAK` becomes a button reading `PHAK c15`.
+An ACS element points at the documents its Task cites. An earlier pass
+narrowed some of those to a chapter, so a button reads `PHAK c15`. The rest
+still point at a whole book, and a button reading `PHAK` sends a reader to a
+522 page handbook.
 
-Read your packet at `crosswalk/proposals/packets/<packet>.json`. It holds:
+**Your job is those remaining documents.** For each one, decide whether a
+chapter covers the element well enough to point at, and say so or say no.
 
-- `anchor_menu`: every chapter anchor that resolved to a real page in this
-  build, per document, with its title. **This is the only source of anchors.**
-- `elements`: per element code, the `text` from the ACS, the `references`
-  (the documents that element's Task cites) and `current` (chapter anchors an
-  earlier pass already assigned).
+Read your packet at `crosswalk/proposals/packets/<packet>.json`. Per element
+it holds:
+
+- `text`: the element as the ACS words it.
+- `references`: every document that element's Task cites.
+- `current`: chapter anchors an earlier pass already assigned.
+- `gaps`: **the documents in `references` with no chapter yet. This is the
+  work.** An element with an empty `gaps` list is already done; repeat its
+  `current` anchors and move on.
+
+It also holds `anchor_menu`: every chapter anchor that resolved to a real page
+in this build, per document, with its title. That is the only supply of
+anchors you may draw from.
+
+The first attempt at this rerun reaffirmed `current` and proposed nothing for
+any gap. It gave zero PHAK chapters to the 232 ATP elements that lacked one.
+Do not repeat that. Working through `gaps` is the point of the pass.
 
 ## Rules, in order of importance
 
@@ -21,19 +35,29 @@ Read your packet at `crosswalk/proposals/packets/<packet>.json`. It holds:
    inserted Energy Management as chapter 4 and moved every later chapter, so a
    remembered chapter number is wrong more often than it looks.
 2. **Never propose a chapter of a document not in that element's
-   `references`.** The crosswalk may not assert a link the ACS never made.
-3. **Ground the choice in the text.** Run
+   `references`.** The crosswalk may not assert a link the ACS never made. If
+   the obvious chapter lives in a document the Task does not cite, the answer
+   is no chapter, not the next best book.
+3. **Ground every gap decision in the text.** Run
    `python tools/handbook_search.py <doc> "<regex>"` from the repo root. It
    searches the text this build extracted and reports which chapter holds the
-   hits. Use it whenever the right chapter is not obvious from the title, and
-   always before proposing a chapter you are inferring rather than reading.
-4. **Empty is a correct answer.** Plenty of elements are covered by a handbook
-   as a whole and by no chapter in particular. Say so and move on. Do not
-   force a chapter to fill a row.
-5. `current` is what an earlier pass assigned. Repeat an entry you agree with,
-   drop one you think is wrong, add ones that are missing. Repeating a settled
-   anchor is free: the validator reports it as already applied.
+   hits. Search before you decide, not after.
+4. **"No chapter fits" is a real answer and often the right one.** Plenty of
+   elements are covered by a handbook as a whole and by no chapter in
+   particular, and the Risk Management Handbook and the Seaplane handbook are
+   frequently like this. Say so in `why` and leave that document alone. Do not
+   force a chapter to fill a row. A wrong chapter is worse than a whole book,
+   because it looks answered.
+5. Repeat every `current` anchor you still agree with. Drop one only when the
+   text shows it is wrong, and say what you searched. Repeating a settled
+   anchor costs nothing: the validator reports it as already applied.
 6. No em-dashes anywhere, in prose or in JSON. Use " - " with spaces.
+
+## If your result file already exists
+
+An earlier run may have left `crosswalk/proposals/rerun/<packet>.result.json`.
+Read it and extend it. Keep the entries it has, add anchors for the gaps it
+did not address, and rewrite `why` where you changed the anchors.
 
 ## Output
 
@@ -43,23 +67,26 @@ code in your packet, JSON with `indent=1` and sorted keys:
 ```json
 {
  "IR.VI.A.K1": {
-  "anchors": ["ifh:ch10", "iph:ch04"],
-  "why": "IFH ch10 IFR Flight covers approach procedures and IPH ch04 Approaches covers LP and LNAV minima directly",
+  "anchors": ["ifh:ch10", "iph:ch04", "phak:ch16"],
+  "why": "IPH ch04 Approaches covers LP and LNAV minima directly, IFH ch10 covers approach procedures, PHAK ch16 covers navigation systems",
   "confidence": "high"
  },
  "IR.VI.A.K2": {
-  "anchors": [],
-  "why": "No chapter treats RNAV annunciations as its subject. The document-level rows stay",
+  "anchors": ["iph:ch04"],
+  "why": "IPH ch04 covers RNAV annunciations. No AFH or risk management chapter treats them, so those stay at document level",
   "confidence": "high"
  }
 }
 ```
 
 `why` is truncated to 160 characters when it becomes the CSV note, so keep it
-under that and make the first clause the load-bearing one. `confidence` is
-`high` or `low`; use `low` when you are proposing a plausible chapter you
-could not confirm in the text.
+under that and put the load-bearing clause first. `confidence` is `high` or
+`low`; use `low` for a plausible chapter you could not confirm in the text.
 
-Do not touch any CSV. Do not run `refine_handbooks.py --apply`. Write your one
-result file and report how many elements you gave anchors to, how many you
-deliberately left empty, and anything the packet made impossible to answer.
+Do not touch any CSV. Do not run `refine_handbooks.py --apply`.
+
+## Report back
+
+How many gaps you closed, how many you judged had no fitting chapter, any
+anchor in the menu that looked misplaced when you searched for it, and
+anything the packet made impossible to answer.
