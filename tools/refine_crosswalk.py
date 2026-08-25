@@ -84,9 +84,15 @@ def load_proposals(directory):
     silently overwrote the CFR results for instrument-a and instrument-b with
     the handbook ones. The combined Commercial, ATP and CFI packets carry both
     `sections` and `anchors` in one file, so both tools read both directories.
+
+    `rerun/` is read last and supplements the rest. The References parser was
+    dropping wrapped lines when the first sweep ran, so some packets never saw
+    documents their Task cites. A rerun replaces the `anchors` of the elements
+    it revisits and leaves their `sections` alone, which is why the two carry
+    separate notes.
     """
     root = pathlib.Path(directory)
-    places = [root, root / "cfr", root / "handbook"]
+    places = [root, root / "cfr", root / "handbook", root / "rerun"]
     out = {}
     for name, certificate in sorted(PROPOSALS.items()):
         for place in places:
@@ -162,7 +168,8 @@ def validate(proposals, inventory, rows_by_cert):
                 report["sections"] += len(good)
                 accepted[certificate][code] = {
                     "sections": good,
-                    "why": (entry.get("why") or "").strip()[:160],
+                    "why": (entry.get("section_why") or entry.get("why")
+                            or "").strip()[:160],
                     "confidence": entry.get("confidence", "high"),
                 }
     return accepted, report

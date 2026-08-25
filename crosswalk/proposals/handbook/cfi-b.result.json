@@ -840,6 +840,7 @@
    "aim:ch03-s02"
   ],
   "confidence": "high",
+  "section_why": "91.126, 91.129, and 91.131 give the Class G, D, and B requirements; PHAK ch15 and AIM 3-2 describe the class structure",
   "sections": [
    "91.126",
    "91.129",
@@ -862,6 +863,7 @@
    "aim:ch03-s05"
   ],
   "confidence": "high",
+  "section_why": "91.133 covers restricted and prohibited areas and 91.137 covers TFRs; AIM 3-4 is special use airspace and 3-5 other airspace areas",
   "sections": [
    "91.133",
    "91.137"
@@ -881,6 +883,7 @@
    "phak:ch15"
   ],
   "confidence": "high",
+  "section_why": "91.157 is the special VFR rule; PHAK ch15 explains it in the airspace context",
   "sections": [
    "91.157"
   ],
@@ -901,6 +904,7 @@
    "aim:ch03-s02"
   ],
   "confidence": "high",
+  "section_why": "91.155 is basic VFR weather minimums by class; PHAK ch15 and AIM 3-2 tabulate them",
   "sections": [
    "91.155"
   ],
@@ -911,6 +915,7 @@
    "phak:ch15"
   ],
   "confidence": "high",
+  "section_why": "91.126 and 91.131 set the communication requirements by class and 91.215 the transponder requirement; PHAK ch15 summarizes",
   "sections": [
    "91.126",
    "91.131",
@@ -924,6 +929,7 @@
    "aim:ch03-s05"
   ],
   "confidence": "high",
+  "section_why": "91.133 for SUA entry and 91.137 for TFRs; AIM 3-4 and 3-5 cover SUA, SFRA, and SATR operations",
   "sections": [
    "91.133",
    "91.137"
@@ -1056,6 +1062,7 @@
    "aim:ch05-s01"
   ],
   "confidence": "high",
+  "section_why": "91.103 requires preflight familiarity with all available information; route planning is PHAK ch16 and AIM 5-1 preflight",
   "sections": [
    "91.103"
   ],
@@ -1116,6 +1123,7 @@
    "phak:ch16"
   ],
   "confidence": "high",
+  "section_why": "91.159 sets VFR cruising altitudes; terrain, glide distance, and wind selection are PHAK ch16",
   "sections": [
    "91.159"
   ],
@@ -1166,6 +1174,7 @@
    "phak:ch16"
   ],
   "confidence": "high",
+  "section_why": "91.151 sets the VFR fuel reserve; the fuel computation is PHAK ch16",
   "sections": [
    "91.151"
   ],
@@ -1251,6 +1260,7 @@
    "phak:ch16"
   ],
   "confidence": "high",
+  "section_why": "91.151 is the minimum fuel rule; planning the reserve is PHAK ch16",
   "sections": [
    "91.151"
   ],
@@ -1262,6 +1272,7 @@
    "risk-management:ch03"
   ],
   "confidence": "high",
+  "section_why": "91.103 preflight action underpins the plan; PHAK ch16 gives the planning method and RMH ch3 the risk analysis",
   "sections": [
    "91.103"
   ],
@@ -1273,6 +1284,7 @@
    "aim:ch05-s01"
   ],
   "confidence": "high",
+  "section_why": "91.103 requires NOTAM and runway length information; charts and publications are AIM 9-1 and preflight AIM 5-1",
   "sections": [
    "91.103"
   ],
@@ -1291,6 +1303,7 @@
    "phak:ch16"
   ],
   "confidence": "high",
+  "section_why": "The reserve being recalculated is the 91.151 minimum; the arithmetic is PHAK ch16",
   "sections": [
    "91.151"
   ],
@@ -1299,6 +1312,7 @@
  "AI.II.J.K1": {
   "anchors": [],
   "confidence": "low",
+  "section_why": "The element is the parts themselves, so the applicability and definitions sections are the only defensible narrowing",
   "sections": [
    "1.1",
    "61.1",
@@ -1321,6 +1335,7 @@
  "AI.II.J.K4": {
   "anchors": [],
   "confidence": "low",
+  "section_why": "61.43 sets practical test conduct and passing standards, which is what the ACS implements",
   "sections": [
    "61.43"
   ],
@@ -1329,6 +1344,7 @@
  "AI.II.J.K5": {
   "anchors": [],
   "confidence": "high",
+  "section_why": "91.9 requires operation per the AFM or POH and requires it aboard; PHAK is not among this Task's handbooks",
   "sections": [
    "91.9"
   ],
@@ -1345,6 +1361,7 @@
    "aim:ch09-s01"
   ],
   "confidence": "low",
+  "section_why": "91.103 requires all available information for the flight; publication currency and cycles are AIM 9-1",
   "sections": [
    "91.103"
   ],
@@ -1359,6 +1376,7 @@
  "AI.II.K.K1": {
   "anchors": [],
   "confidence": "high",
+  "section_why": "61.51 governs logbook entries and 61.189 the instructor's record of instruction given",
   "sections": [
    "61.51",
    "61.189"
@@ -1372,6 +1390,7 @@
    "ac:61-65k:a6"
   ],
   "confidence": "high",
+  "section_why": "61.87 requires the pre-solo knowledge test and solo endorsements; 61.93 adds the solo cross-country endorsements. A.3 pre-solo aeronautical knowledge, A.4 pre-solo flight training and A.6 the first solo period are the pre-solo endorsements this element names",
   "sections": [
    "61.87",
    "61.93"
@@ -1385,6 +1404,7 @@
    "ac:61-65k:a60"
   ],
   "confidence": "high",
+  "section_why": "61.95 is the student pilot Class B endorsement; 61.31 carries the type, complex, high performance, tailwheel, and pressurized endorsements. A.12 solo flight in Class B and A.8 solo at another airport are the named examples; A.60 is the SFAR 73 endorsement the element also names",
   "sections": [
    "61.95",
    "61.31"
@@ -1397,6 +1417,7 @@
    "ac:61-65k:a2"
   ],
   "confidence": "low",
+  "section_why": "61.39 requires the instructor recommendation before a practical test and 61.43 sets the standards; AC 61-65K paragraph 8 is the AC's entry point for training and testing. A.1 prerequisites for the practical test and A.2 review of knowledge test deficiencies are the recommendation endorsements",
   "sections": [
    "61.39",
    "61.43"
@@ -1409,6 +1430,7 @@
    "ac:61-65k:a1"
   ],
   "confidence": "low",
+  "section_why": "61.39 covers the recommendation; 61.103 is eligibility for an initial private pilot certificate. A.36 is the private pilot knowledge test endorsement, which is the initial certificate path, with A.1 for the practical test prerequisite",
   "sections": [
    "61.39",
    "61.103"
@@ -1421,6 +1443,7 @@
    "ac:61-65k:a1"
   ],
   "confidence": "low",
+  "section_why": "61.39 covers the recommendation; 61.123 is the eligibility path for an additional certificate at commercial level. A.38 is the commercial knowledge test endorsement, the additional certificate path; Task K cites 61.123",
   "sections": [
    "61.39",
    "61.123"
@@ -1433,6 +1456,7 @@
    "ac:61-65k:a79"
   ],
   "confidence": "high",
+  "section_why": "61.63 governs additional aircraft ratings; 61.31 covers additional aircraft qualification endorsements. A.78 additional category or class rating and A.79 type rating are additional aircraft qualification; Task K cites 61.63",
   "sections": [
    "61.63",
    "61.31"
@@ -1445,6 +1469,7 @@
    "ac:61-65k:a70"
   ],
   "confidence": "high",
+  "section_why": "61.56 is the flight review and its logbook endorsement. A.69 is the flight review endorsement under 61.56(a) and (c), which is what this element names; A.70 is the WINGS phase that substitutes for one",
   "sections": [
    "61.56"
   ],
@@ -1455,6 +1480,7 @@
    "aviation-instructor:ch08"
   ],
   "confidence": "high",
+  "section_why": "61.189 is the flight instructor records rule; recordkeeping as a professional responsibility is AIH ch8",
   "sections": [
    "61.189"
   ],
@@ -1463,6 +1489,7 @@
  "AI.II.K.K7": {
   "anchors": [],
   "confidence": "high",
+  "section_why": "61.197 is renewal of a flight instructor certificate and 61.199 is reinstatement",
   "sections": [
    "61.197",
    "61.199"
@@ -1472,6 +1499,7 @@
  "AI.II.K.R1": {
   "anchors": [],
   "confidence": "low",
+  "section_why": "The 90 day solo endorsement in 61.87 and the limitations required by 61.93 are where missing limits or dates bite",
   "sections": [
    "61.87",
    "61.93"
@@ -1485,6 +1513,7 @@
    "ac:61-65k:a69"
   ],
   "confidence": "low",
+  "section_why": "The commonly chosen events are instruction given under 61.51, solo endorsement under 61.87, and flight review under 61.56; AC 61-65K paragraph 8 is the AC's training and testing entry point. the element asks for two of the events in K1 to K5, so the pre-solo, practical test recommendation and flight",
   "sections": [
    "61.51",
    "61.87",
@@ -1896,6 +1925,7 @@
    "phak:ch07"
   ],
   "confidence": "high",
+  "section_why": "91.211 is the supplemental oxygen rule; oxygen system types are PHAK ch7",
   "sections": [
    "91.211"
   ],
@@ -1932,6 +1962,7 @@
    "aim:ch08-s01"
   ],
   "confidence": "high",
+  "section_why": "91.211 bounds high altitude operation without oxygen; the physiological risk is PHAK ch17 and AIM 8-1",
   "sections": [
    "91.211"
   ],
@@ -1942,6 +1973,7 @@
    "phak:ch17"
   ],
   "confidence": "high",
+  "section_why": "91.211 sets when oxygen must be used; PHAK ch17 covers its physiological effect",
   "sections": [
    "91.211"
   ],
@@ -1985,6 +2017,7 @@
    "phak:ch07"
   ],
   "confidence": "high",
+  "section_why": "The required duration follows from the 91.211 altitude and time thresholds; system capacity is PHAK ch7",
   "sections": [
    "91.211"
   ],

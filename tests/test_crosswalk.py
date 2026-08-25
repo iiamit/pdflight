@@ -343,3 +343,67 @@ def test_a_partly_applied_element_is_not_called_done():
         {"private": rows})
     assert report["already"] == 0
     assert report["unknown_element"] == [("private", "PA.I.A.K1")]
+
+
+# ---------------------------------------------------------------------------
+# the refinement packets
+# ---------------------------------------------------------------------------
+
+import json  # noqa: E402
+
+import refine_packets as RP  # noqa: E402
+
+PACKETS = CROSSWALK / "proposals" / "packets"
+
+
+def packets():
+    return sorted(PACKETS.glob("*.json"))
+
+
+@pytest.mark.skipif(not PACKETS.is_dir(), reason="no packets built")
+def test_packet_anchor_menu_only_offers_resolved_anchors():
+    """A packet may never offer an anchor that did not resolve.
+
+    The menu is the whole supply of anchors an agent is allowed to propose
+    from, so an unresolved entry here is how an invented citation gets in
+    wearing a badge.
+    """
+    inventory = json.loads(
+        (ROOT / "anchors" / "anchors.lock.json").read_text(encoding="utf-8"))
+    resolved = set(inventory["anchors"])
+    for path in packets():
+        body = json.loads(path.read_text(encoding="utf-8"))
+        for doc, menu in body["anchor_menu"].items():
+            missing = sorted(set(menu) - resolved)
+            assert not missing, "%s offers unresolved %s" % (path.name, missing)
+
+
+@pytest.mark.skipif(not PACKETS.is_dir(), reason="no packets built")
+def test_packet_references_survive_an_earlier_refinement():
+    """A document narrowed by an earlier pass stays in the reference set.
+
+    Applying a refinement replaces the document-level row, so reading only
+    those rows loses every handbook already narrowed. A packet built that way
+    reads as though the ACS never cited the IFH for an approach Task, and the
+    next pass then refuses to add a second chapter to it.
+    """
+    for path in packets():
+        body = json.loads(path.read_text(encoding="utf-8"))
+        for code, entry in body["elements"].items():
+            for ref in entry["current"]:
+                doc = ref.split(":")[0]
+                assert doc in entry["references"], \
+                    "%s %s carries %s but does not cite %s" % (
+                        path.name, code, ref, doc)
+
+
+@pytest.mark.skipif(not PACKETS.is_dir(), reason="no packets built")
+def test_packets_are_reproducible():
+    """Rebuilding a packet from the same CSV produces the same bytes."""
+    for path in packets():
+        before = path.read_bytes()
+        certificate = json.loads(before.decode("utf-8"))["certificate"]
+        count = len([p for p in packets()
+                     if p.name.startswith("%s-" % certificate)])
+        RP.write(certificate, count)
+        assert path.read_bytes() == before, "%s is not reproducible" % path.name

@@ -1,735 +1,1048 @@
 {
-  "CA.II.A.K1": {
-    "sections": [],
-    "anchors": ["risk-management:ch02", "phak:ch02"],
-    "why": "Personal Minimums is the self-assessment chapter; PHAK ch2 ADM carries the fitness self-check. This Task cites no CFR part.",
-    "confidence": "high"
-  },
-  "CA.II.A.K2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 Ground Operations covers the airworthiness determination before flight. Chapter identity inferred from the 8083-3C ordering, not verified.",
-    "confidence": "low"
-  },
-  "CA.II.A.K3": {
-    "sections": [],
-    "anchors": ["afh:ch02", "seaplane:preflight-inspection"],
-    "why": "Preflight inspection is an exact topic match in the Seaplane handbook and sits in AFH Ground Operations.",
-    "confidence": "high"
-  },
-  "CA.II.A.K3a": {
-    "sections": [],
-    "anchors": ["afh:ch02", "seaplane:preflight-inspection"],
-    "why": "Both cover the walkaround item list, though neither is scoped to this sub-element alone.",
-    "confidence": "low"
-  },
-  "CA.II.A.K3b": {
-    "sections": [],
-    "anchors": ["afh:ch02", "seaplane:preflight-inspection"],
-    "why": "Rationale for each check is embedded in the same preflight treatment.",
-    "confidence": "low"
-  },
-  "CA.II.A.K3c": {
-    "sections": [],
-    "anchors": ["afh:ch02", "seaplane:preflight-inspection"],
-    "why": "Defect detection is embedded in the same preflight treatment.",
-    "confidence": "low"
-  },
-  "CA.II.A.K3d": {
-    "sections": [],
-    "anchors": [],
-    "why": "91.7 and 91.213 would govern, but this Task cites no CFR part, so no section is asserted. No handbook chapter covers the regulations.",
-    "confidence": "high"
-  },
-  "CA.II.A.K4": {
-    "sections": [],
-    "anchors": ["risk-management:ch03"],
-    "why": "Weather, terrain, route, and obstructions are the environment leg of hazard identification. Coverage is broad rather than exact.",
-    "confidence": "low"
-  },
-  "CA.II.A.R1": {
-    "sections": [],
-    "anchors": ["risk-management:ch03"],
-    "why": "The PAVE pilot element is hazard identification in Risk Management ch3.",
-    "confidence": "low"
-  },
-  "CA.II.A.R2": {
-    "sections": [],
-    "anchors": ["risk-management:ch03"],
-    "why": "The PAVE aircraft element is hazard identification in Risk Management ch3.",
-    "confidence": "low"
-  },
-  "CA.II.A.R3": {
-    "sections": [],
-    "anchors": ["risk-management:ch03"],
-    "why": "The PAVE environment element is hazard identification in Risk Management ch3.",
-    "confidence": "low"
-  },
-  "CA.II.A.R4": {
-    "sections": [],
-    "anchors": ["risk-management:ch03"],
-    "why": "External pressures are the fourth PAVE element in Risk Management ch3.",
-    "confidence": "low"
-  },
-  "CA.II.A.R5": {
-    "sections": [],
-    "anchors": [],
-    "why": "Nothing in the handbooks this Task cites covers aviation security. AIM 5-6 would, but the AIM is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.II.A.S1": {
-    "sections": [],
-    "anchors": ["afh:ch02", "seaplane:preflight-inspection"],
-    "why": "Checklist-driven preflight inspection is exactly what both cover.",
-    "confidence": "high"
-  },
-  "CA.II.A.S2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Condition for safe flight and type design conformity are part of AFH Ground Operations preflight.",
-    "confidence": "low"
-  },
-  "CA.II.A.S3": {
-    "sections": [],
-    "anchors": ["risk-management:ch02"],
-    "why": "Risk Management ch2 Personal Minimums is the self-assessment chapter.",
-    "confidence": "high"
-  },
-  "CA.II.A.S4": {
-    "sections": [],
-    "anchors": ["risk-management:ch03", "risk-management:ch08"],
-    "why": "Continuing environmental assessment spans hazard identification and in-flight decision-making.",
-    "confidence": "low"
-  },
-
-  "CA.II.B.K1": {
-    "sections": ["91.107"],
-    "anchors": [],
-    "why": "91.107 is the safety belt, shoulder harness, and child restraint rule and carries the notify-and-brief requirement.",
-    "confidence": "high"
-  },
-  "CA.II.B.K2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Checklist discipline is AFH Ground Operations. No Part 91 section requires checklist use for a Part 91 light airplane.",
-    "confidence": "low"
-  },
-  "CA.II.B.K3": {
-    "sections": ["91.103"],
-    "anchors": [],
-    "why": "91.103 requires all available information for the flight, which is the hook for current navigation data. 91.503 covers current charts only for Subpart F aircraft.",
-    "confidence": "low"
-  },
-  "CA.II.B.K4": {
-    "sections": ["91.523", "91.525"],
-    "anchors": [],
-    "why": "91.523 carry-on baggage and 91.525 carriage of cargo are the only sections on securing items, and both are Subpart F rules rather than general Part 91.",
-    "confidence": "low"
-  },
-  "CA.II.B.R1": {
-    "sections": ["91.21"],
-    "anchors": ["risk-management:ch07"],
-    "why": "91.21 is the portable electronic device rule; Risk Management ch7 is Automation and Flight Path Management.",
-    "confidence": "high"
-  },
-  "CA.II.B.R2": {
-    "sections": ["91.213"],
-    "anchors": [],
-    "why": "91.213 is the inoperative instruments and equipment rule.",
-    "confidence": "high"
-  },
-  "CA.II.B.R3": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "Passenger distraction is a threat management topic. No Part 91 section addresses it for a light airplane.",
-    "confidence": "low"
-  },
-  "CA.II.B.S1": {
-    "sections": [],
-    "anchors": [],
-    "why": "No general Part 91 section governs securing items in a light airplane, and no chapter covers it specifically.",
-    "confidence": "high"
-  },
-  "CA.II.B.S2": {
-    "sections": ["91.107"],
-    "anchors": ["afh:ch02"],
-    "why": "91.107 requires the belt and harness briefing; the wider brief is AFH Ground Operations practice.",
-    "confidence": "high"
-  },
-  "CA.II.B.S3": {
-    "sections": [],
-    "anchors": ["risk-management:ch07"],
-    "why": "Risk Management ch7 is Automation and Flight Path Management.",
-    "confidence": "high"
-  },
-  "CA.II.B.S4": {
-    "sections": [],
-    "anchors": ["phak:ch02", "risk-management:ch08"],
-    "why": "PHAK ch2 is ADM including CRM and SRM; Risk Management ch8 is decision-making in flight.",
-    "confidence": "high"
-  },
-
-  "CA.II.C.K1": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Engine starting under various conditions sits in AFH Ground Operations. The Seaplane handbook has a starting topic but this Task does not cite the Seaplane handbook.",
-    "confidence": "low"
-  },
-  "CA.II.C.K2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "External power starting is covered inside AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.C.K3": {
-    "sections": [],
-    "anchors": ["phak:ch07"],
-    "why": "Starting limitations follow from the powerplant description in PHAK ch7 Aircraft Systems.",
-    "confidence": "low"
-  },
-  "CA.II.C.R1": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Propeller safety is part of AFH Ground Operations, but it is not a named section.",
-    "confidence": "low"
-  },
-  "CA.II.C.S1": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Positioning before start is AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.C.S2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Checklist completion is AFH Ground Operations.",
-    "confidence": "low"
-  },
-
-  "CA.II.D.K1": {
-    "sections": [],
-    "anchors": ["aim:ch09-s01", "aim:ch05-s01"],
-    "why": "AIM 9-1 is the chart and publication catalog including the Chart Supplement; AIM 5-1 Preflight covers NOTAMs.",
-    "confidence": "high"
-  },
-  "CA.II.D.K2": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03", "aim:ch04-s02"],
-    "why": "AIM 4-3 Airport Operations carries taxi clearance procedure; 4-2 carries the phraseology.",
-    "confidence": "high"
-  },
-  "CA.II.D.K3": {
-    "sections": [],
-    "anchors": ["aim:ch02-s03", "aim:ch02-s01", "phak:ch14"],
-    "why": "AIM 2-3 Airport Marking Aids and Signs, AIM 2-1 Airport Lighting Aids, PHAK ch14 Airport Operations.",
-    "confidence": "high"
-  },
-  "CA.II.D.K4": {
-    "sections": [],
-    "anchors": ["phak:ch14"],
-    "why": "Wind sock, tetrahedron, and segmented circle are in PHAK ch14 Airport Operations.",
-    "confidence": "high"
-  },
-  "CA.II.D.K5": {
-    "sections": [],
-    "anchors": ["afh:ch11"],
-    "why": "Aircraft position, anti-collision, and taxi lighting use is covered in AFH ch11 Night Operations.",
-    "confidence": "low"
-  },
-  "CA.II.D.K6": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "Parent heading. AIM 4-3 Airport Operations is the shared entry for the sub-elements.",
-    "confidence": "low"
-  },
-  "CA.II.D.K6a": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 covers taxi route planning and airport hot spots.",
-    "confidence": "high"
-  },
-  "CA.II.D.K6b": {
-    "sections": [],
-    "anchors": ["aim:ch04-s02", "aim:ch04-s03"],
-    "why": "AIM 4-2 is phraseology and technique; AIM 4-3 covers both towered and nontowered airport communication.",
-    "confidence": "high"
-  },
-  "CA.II.D.K6c": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "Runway entry and crossing procedure is in AIM 4-3 Airport Operations.",
-    "confidence": "high"
-  },
-  "CA.II.D.K6d": {
-    "sections": [],
-    "anchors": ["afh:ch11"],
-    "why": "AFH ch11 Night Operations covers night taxi.",
-    "confidence": "high"
-  },
-  "CA.II.D.K6e": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "Low visibility surface operations are treated in AIM 4-3, though not as a dedicated section.",
-    "confidence": "low"
-  },
-  "CA.II.D.R1": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "Distraction management is Threat and Error Management. No chapter is scoped to taxi distractions.",
-    "confidence": "low"
-  },
-  "CA.II.D.R2": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "Confirmation and expectation bias fit Threat and Error Management, but neither book names them as a section.",
-    "confidence": "low"
-  },
-  "CA.II.D.R3": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "An unexpected route or runway change is a threat to be managed. Coverage is generic.",
-    "confidence": "low"
-  },
-  "CA.II.D.R4": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 Airport Operations carries the runway incursion avoidance material.",
-    "confidence": "high"
-  },
-  "CA.II.D.S1": {
-    "sections": [],
-    "anchors": ["aim:ch04-s02"],
-    "why": "AIM 4-2 Radio Communications Phraseology and Techniques covers readback.",
-    "confidence": "high"
-  },
-  "CA.II.D.S2": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03", "aim:ch09-s01"],
-    "why": "AIM 4-3 covers airport diagram use during taxi; AIM 9-1 is where the diagram is published.",
-    "confidence": "high"
-  },
-  "CA.II.D.S3": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Control positioning for wind during taxi is AFH Ground Operations. Chapter identity inferred, not verified.",
-    "confidence": "low"
-  },
-  "CA.II.D.S4": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Checklist completion is AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.D.S5": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "The brake check on initial movement is part of AFH Ground Operations taxi procedure.",
-    "confidence": "low"
-  },
-  "CA.II.D.S6": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Taxi speed and directional control are AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.D.S7": {
-    "sections": [],
-    "anchors": ["aim:ch02-s03", "aim:ch04-s03"],
-    "why": "AIM 2-3 is the marking and sign meanings; AIM 4-3 is compliance with ATC surface instructions.",
-    "confidence": "high"
-  },
-  "CA.II.D.S8": {
-    "sections": [],
-    "anchors": ["aim:ch02-s03"],
-    "why": "Runway holding position markings are defined in AIM 2-3.",
-    "confidence": "high"
-  },
-
-  "CA.II.E.K1": {
-    "sections": [],
-    "anchors": ["aim:ch09-s01"],
-    "why": "AIM 9-1 Types of Charts Available covers the Chart Supplement and airport diagrams.",
-    "confidence": "high"
-  },
-  "CA.II.E.K2": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03", "aim:ch04-s02"],
-    "why": "AIM 4-3 carries surface clearance procedure and 4-2 the phraseology.",
-    "confidence": "high"
-  },
-  "CA.II.E.K3": {
-    "sections": [],
-    "anchors": ["aim:ch02-s03", "phak:ch14"],
-    "why": "AIM 2-3 Airport Marking Aids and Signs and PHAK ch14 Airport Operations. Seaplane base markings are not separately anchored.",
-    "confidence": "high"
-  },
-  "CA.II.E.K4": {
-    "sections": [],
-    "anchors": ["phak:ch14", "seaplane:landing-area-reconnaissance"],
-    "why": "PHAK ch14 covers ground wind indicators; on water the wind is read off the surface during reconnaissance.",
-    "confidence": "low"
-  },
-  "CA.II.E.K5": {
-    "sections": [],
-    "anchors": ["afh:ch11"],
-    "why": "Airplane lighting use is covered in AFH ch11 Night Operations.",
-    "confidence": "low"
-  },
-  "CA.II.E.K6": {
-    "sections": [],
-    "anchors": ["seaplane:taxiing-and-sailing"],
-    "why": "Parent heading. Taxiing and Sailing is the shared entry for the sub-elements.",
-    "confidence": "low"
-  },
-  "CA.II.E.K6a": {
-    "sections": [],
-    "anchors": ["seaplane:taxiing-and-sailing", "seaplane:sailing"],
-    "why": "Direct topic match for flight deck activity while taxiing or sailing.",
-    "confidence": "high"
-  },
-  "CA.II.E.K6b": {
-    "sections": [],
-    "anchors": ["aim:ch04-s02"],
-    "why": "AIM 4-2 is the radio phraseology and technique section. Seaplane base communication is not separately anchored.",
-    "confidence": "high"
-  },
-  "CA.II.E.R1": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "Distraction management is Threat and Error Management.",
-    "confidence": "low"
-  },
-  "CA.II.E.R2": {
-    "sections": [],
-    "anchors": ["seaplane:porpoising", "seaplane:skipping"],
-    "why": "Exact topic match on both anchors.",
-    "confidence": "high"
-  },
-  "CA.II.E.R3": {
-    "sections": [],
-    "anchors": ["seaplane:taxiing-and-sailing"],
-    "why": "Low visibility surface operations on water fall inside the taxiing and sailing treatment. No dedicated anchor.",
-    "confidence": "low"
-  },
-  "CA.II.E.R4": {
-    "sections": [],
-    "anchors": ["seaplane:taxiing-and-sailing", "seaplane:landing-area-reconnaissance"],
-    "why": "Vessels and surface hazards are assessed during reconnaissance and avoided while taxiing and sailing.",
-    "confidence": "low"
-  },
-  "CA.II.E.R5": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "Confirmation and expectation bias fit Threat and Error Management generically.",
-    "confidence": "low"
-  },
-  "CA.II.E.S1": {
-    "sections": [],
-    "anchors": ["aim:ch04-s02"],
-    "why": "AIM 4-2 covers clearance readback.",
-    "confidence": "high"
-  },
-  "CA.II.E.S10": {
-    "sections": [],
-    "anchors": [],
-    "why": "This element is a cross-reference to Task D rather than content of its own. The Task D elements carry the targets.",
-    "confidence": "high"
-  },
-  "CA.II.E.S2": {
-    "sections": [],
-    "anchors": ["aim:ch09-s01"],
-    "why": "AIM 9-1 is where airport diagrams and taxi charts are published.",
-    "confidence": "high"
-  },
-  "CA.II.E.S3": {
-    "sections": [],
-    "anchors": ["aim:ch02-s03"],
-    "why": "AIM 2-3 Airport Marking Aids and Signs defines what must be complied with.",
-    "confidence": "high"
-  },
-  "CA.II.E.S4": {
-    "sections": [],
-    "anchors": ["seaplane:docking", "seaplane:mooring", "seaplane:beaching", "seaplane:ramping"],
-    "why": "The element names dock, mooring buoy, beach, and ramp, and each is an exact topic match.",
-    "confidence": "high"
-  },
-  "CA.II.E.S5": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Checklist completion is AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.E.S6": {
-    "sections": [],
-    "anchors": ["seaplane:using-water-rudders", "seaplane:sailing", "seaplane:porpoising"],
-    "why": "Water rudder use, sailing course control, and porpoising correction are the three named behaviors in the element.",
-    "confidence": "high"
-  },
-  "CA.II.E.S7": {
-    "sections": [],
-    "anchors": ["seaplane:idling-position", "seaplane:plowing-position", "seaplane:planing-or-step-position"],
-    "why": "The element names idle, plow, and step taxi technique, and each has its own anchor.",
-    "confidence": "high"
-  },
-  "CA.II.E.S8": {
-    "sections": [],
-    "anchors": ["seaplane:taxiing-and-sailing", "seaplane:sailing"],
-    "why": "Planning the taxi or sailing course is the subject of both anchors.",
-    "confidence": "high"
-  },
-  "CA.II.E.S9": {
-    "sections": [],
-    "anchors": ["seaplane:taxiing-and-sailing"],
-    "why": "91.115 governs right-of-way on water, but this Task cites no CFR part. The handbook treatment is inside taxiing and sailing.",
-    "confidence": "low"
-  },
-
-  "CA.II.F.K1": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Parent heading. The before takeoff check sits in AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.F.K1a": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Rationale for each runup item is embedded in AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.F.K1b": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Malfunction detection during the runup is embedded in AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.F.K1c": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Confirming safe operating condition per the manufacturer is embedded in AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.F.R1": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "Division of attention is a threat and error management topic. Coverage is generic.",
-    "confidence": "low"
-  },
-  "CA.II.F.R2": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "An unexpected runway change is a threat to be managed. Coverage is generic.",
-    "confidence": "low"
-  },
-  "CA.II.F.R3": {
-    "sections": [],
-    "anchors": ["phak:ch14"],
-    "why": "AIM 7-4 is the real wake turbulence treatment but the AIM is not on this Task's References line. PHAK ch14 Airport Operations covers wake turbulence avoidance.",
-    "confidence": "low"
-  },
-  "CA.II.F.R4": {
-    "sections": [],
-    "anchors": ["afh:ch06", "afh:ch18"],
-    "why": "AFH ch6 Takeoffs and Departure Climbs sets the takeoff path considerations; ch18 Emergency Procedures covers powerplant failure on takeoff.",
-    "confidence": "high"
-  },
-  "CA.II.F.S1": {
-    "sections": [],
-    "anchors": ["phak:ch11", "afh:ch06"],
-    "why": "PHAK ch11 Aircraft Performance is the chart work; AFH ch6 is the takeoff itself.",
-    "confidence": "high"
-  },
-  "CA.II.F.S2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Checklist completion is AFH Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.II.F.S3": {
-    "sections": [],
-    "anchors": ["afh:ch02", "seaplane:taxiing-and-sailing"],
-    "why": "Runup positioning is AFH Ground Operations; on water the equivalent positioning is inside taxiing and sailing.",
-    "confidence": "low"
-  },
-  "CA.II.F.S4": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "Dividing attention inside and outside is threat and error management. Coverage is generic.",
-    "confidence": "low"
-  },
-  "CA.II.F.S5": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "Verifying engine parameters and configuration is part of the AFH Ground Operations before takeoff check.",
-    "confidence": "low"
-  },
-
-  "CA.III.A.K1": {
-    "sections": [],
-    "anchors": ["aim:ch09-s01", "phak:ch14"],
-    "why": "Frequencies are published on charts and in the Chart Supplement (AIM 9-1) and explained in PHAK ch14 Airport Operations.",
-    "confidence": "low"
-  },
-  "CA.III.A.K2": {
-    "sections": [],
-    "anchors": ["aim:ch04-s02", "phak:ch14"],
-    "why": "AIM 4-2 is Radio Communications Phraseology and Techniques; PHAK ch14 covers the pilot side.",
-    "confidence": "high"
-  },
-  "CA.III.A.K3": {
-    "sections": ["91.125"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.125 is the ATC light signal table; AIM 4-3 repeats it with the airport operations context.",
-    "confidence": "high"
-  },
-  "CA.III.A.K4": {
-    "sections": ["91.215"],
-    "anchors": ["aim:ch04-s05"],
-    "why": "91.215 is the transponder rule; AIM 4-5 Surveillance Systems covers code selection and operation.",
-    "confidence": "high"
-  },
-  "CA.III.A.K5": {
-    "sections": ["91.125", "91.185"],
-    "anchors": ["aim:ch06-s04"],
-    "why": "AIM 6-4 is the two-way radio communications failure section. 91.185 is IFR-specific and 91.125 light signals is the VFR towered case, so neither section is a clean fit for a VFR commercial scenario.",
-    "confidence": "low"
-  },
-  "CA.III.A.K6": {
-    "sections": [],
-    "anchors": ["aim:ch06-s04"],
-    "why": "AIM 6-4 is the closest treatment, though it addresses procedure rather than the equipment causes.",
-    "confidence": "low"
-  },
-  "CA.III.A.K7": {
-    "sections": [],
-    "anchors": ["aim:ch04-s05", "aim:ch04-s01"],
-    "why": "AIM 4-5 Surveillance Systems and 4-1 Services Available to Pilots cover radar assistance and flight following.",
-    "confidence": "high"
-  },
-  "CA.III.A.K8": {
-    "sections": [],
-    "anchors": ["aim:ch07-s07"],
-    "why": "AIM 7-7 Safety, Accident, and Hazard Reports carries the NTSB 830 reporting requirements. 49 CFR 830 is not in this packet's CFR inventory.",
-    "confidence": "high"
-  },
-  "CA.III.A.K9": {
-    "sections": [],
-    "anchors": ["aim:ch02-s01"],
-    "why": "Runway Status Lighting Systems are described in AIM 2-1 Airport Lighting Aids.",
-    "confidence": "high"
-  },
-  "CA.III.A.R1": {
-    "sections": [],
-    "anchors": ["aim:ch05-s05"],
-    "why": "AIM 5-5 Pilot/Controller Roles and Responsibilities is where communication breakdown risk is framed.",
-    "confidence": "low"
-  },
-  "CA.III.A.R2": {
-    "sections": ["91.3"],
-    "anchors": ["aim:ch06-s03"],
-    "why": "91.3(b) is the emergency authority; AIM 6-3 Distress and Urgency Procedures is when and how to declare.",
-    "confidence": "high"
-  },
-  "CA.III.A.R3": {
-    "sections": [],
-    "anchors": ["aim:ch04-s02"],
-    "why": "AIM 4-2 defines the standard phraseology that non-standard usage departs from.",
-    "confidence": "high"
-  },
-  "CA.III.A.S1": {
-    "sections": [],
-    "anchors": ["aim:ch09-s01"],
-    "why": "AIM 9-1 is where the frequencies to select are published. No chapter covers radio tuning itself.",
-    "confidence": "low"
-  },
-  "CA.III.A.S2": {
-    "sections": [],
-    "anchors": ["aim:ch04-s02"],
-    "why": "The element names the AIM and Pilot/Controller Glossary directly, and AIM 4-2 is the phraseology section.",
-    "confidence": "high"
-  },
-  "CA.III.A.S3": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch04-s02"],
-    "why": "91.123 is compliance with ATC clearances and instructions; AIM 4-2 covers acknowledgment and readback.",
-    "confidence": "high"
-  },
-
-  "CA.III.B.K1": {
-    "sections": ["91.126", "91.129"],
-    "anchors": ["aim:ch04-s03", "phak:ch14"],
-    "why": "91.126 is the nontowered Class G rule and 91.129 the Class D towered rule; AIM 4-3 and PHAK ch14 cover both.",
-    "confidence": "high"
-  },
-  "CA.III.B.K2": {
-    "sections": ["91.126"],
-    "anchors": ["afh:ch08", "aim:ch04-s03"],
-    "why": "91.126(b) sets the direction of turns; AFH ch8 Traffic Patterns and AIM 4-3 cover pattern selection.",
-    "confidence": "high"
-  },
-  "CA.III.B.K3": {
-    "sections": ["91.113", "91.115"],
-    "anchors": [],
-    "why": "91.113 is right-of-way except water operations and 91.115 is water operations, which this Task needs for seaplane base patterns.",
-    "confidence": "high"
-  },
-  "CA.III.B.K4": {
-    "sections": [],
-    "anchors": ["aim:ch04-s01"],
-    "why": "ATIS, AWOS, and ASOS are described in AIM 4-1 Services Available to Pilots.",
-    "confidence": "high"
-  },
-  "CA.III.B.R1": {
-    "sections": ["91.113"],
-    "anchors": ["aim:ch07-s06"],
-    "why": "91.113(b) is the see-and-avoid duty; AIM 7-6 Potential Flight Hazards carries collision avoidance.",
-    "confidence": "high"
-  },
-  "CA.III.B.R2": {
-    "sections": [],
-    "anchors": ["phak:ch02", "risk-management:ch06"],
-    "why": "PHAK ch2 ADM covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
-    "confidence": "high"
-  },
-  "CA.III.B.R3": {
-    "sections": [],
-    "anchors": ["aim:ch07-s04"],
-    "why": "AIM 7-4 is the Wake Turbulence section. The Aviation Weather Handbook is not on this Task's References line, so windshear has no target here.",
-    "confidence": "high"
-  },
-  "CA.III.B.S1": {
-    "sections": [],
-    "anchors": ["aim:ch02-s03", "aim:ch02-s01", "phak:ch14"],
-    "why": "AIM 2-3 markings and signs, AIM 2-1 lighting aids, PHAK ch14 Airport Operations.",
-    "confidence": "high"
-  },
-  "CA.III.B.S2": {
-    "sections": ["91.126"],
-    "anchors": ["afh:ch08", "aim:ch04-s03"],
-    "why": "91.126 is the required pattern direction; AFH ch8 and AIM 4-3 give the recommended procedures.",
-    "confidence": "high"
-  },
-  "CA.III.B.S3": {
-    "sections": [],
-    "anchors": ["afh:ch07"],
-    "why": "AFH ch7 Ground Reference Maneuvers is the wind drift correction chapter.",
-    "confidence": "high"
-  },
-  "CA.III.B.S4": {
-    "sections": [],
-    "anchors": ["afh:ch08"],
-    "why": "AFH ch8 Traffic Patterns covers maintaining runway orientation.",
-    "confidence": "high"
-  },
-  "CA.III.B.S5": {
-    "sections": [],
-    "anchors": ["afh:ch08"],
-    "why": "AFH ch8 Traffic Patterns sets pattern altitude and airspeed management.",
-    "confidence": "high"
-  },
-  "CA.III.B.S6": {
-    "sections": ["91.111"],
-    "anchors": ["afh:ch08"],
-    "why": "91.111 prohibits operating so close as to create a collision hazard; AFH ch8 covers pattern spacing.",
-    "confidence": "high"
-  }
+ "CA.II.A.K1": {
+  "anchors": [
+   "risk-management:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Personal Minimums is the self-assessment chapter; PHAK ch2 ADM carries the fitness self-check. This Task cites no CFR part."
+ },
+ "CA.II.A.K2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers the airworthiness determination before flight. Chapter identity inferred from the 8083-3C ordering, not verified."
+ },
+ "CA.II.A.K3": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Preflight inspection is an exact topic match in the Seaplane handbook and sits in AFH Ground Operations."
+ },
+ "CA.II.A.K3a": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Both cover the walkaround item list, though neither is scoped to this sub-element alone."
+ },
+ "CA.II.A.K3b": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Rationale for each check is embedded in the same preflight treatment."
+ },
+ "CA.II.A.K3c": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Defect detection is embedded in the same preflight treatment."
+ },
+ "CA.II.A.K3d": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "91.7 and 91.213 would govern, but this Task cites no CFR part, so no section is asserted. No handbook chapter covers the regulations."
+ },
+ "CA.II.A.K4": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Weather, terrain, route, and obstructions are the environment leg of hazard identification. Coverage is broad rather than exact."
+ },
+ "CA.II.A.R1": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The PAVE pilot element is hazard identification in Risk Management ch3."
+ },
+ "CA.II.A.R2": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The PAVE aircraft element is hazard identification in Risk Management ch3."
+ },
+ "CA.II.A.R3": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The PAVE environment element is hazard identification in Risk Management ch3."
+ },
+ "CA.II.A.R4": {
+  "anchors": [
+   "risk-management:ch03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "External pressures are the fourth PAVE element in Risk Management ch3."
+ },
+ "CA.II.A.R5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Nothing in the handbooks this Task cites covers aviation security. AIM 5-6 would, but the AIM is not on this Task's References line."
+ },
+ "CA.II.A.S1": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Checklist-driven preflight inspection is exactly what both cover."
+ },
+ "CA.II.A.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Condition for safe flight and type design conformity are part of AFH Ground Operations preflight."
+ },
+ "CA.II.A.S3": {
+  "anchors": [
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch2 Personal Minimums is the self-assessment chapter."
+ },
+ "CA.II.A.S4": {
+  "anchors": [
+   "risk-management:ch03",
+   "risk-management:ch08"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Continuing environmental assessment spans hazard identification and in-flight decision-making."
+ },
+ "CA.II.B.K1": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.107 is the safety belt, shoulder harness, and child restraint rule and carries the notify-and-brief requirement.",
+  "sections": [
+   "91.107"
+  ],
+  "why": "91.107 is the safety belt, shoulder harness, and child restraint rule and carries the notify-and-brief requirement."
+ },
+ "CA.II.B.K2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Checklist discipline is AFH Ground Operations. No Part 91 section requires checklist use for a Part 91 light airplane."
+ },
+ "CA.II.B.K3": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.103 requires all available information for the flight, which is the hook for current navigation data. 91.503 covers current charts only for Subpart F aircraft.",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires all available information for the flight, which is the hook for current navigation data. 91.503 covers current charts only for Subpart F aircraft."
+ },
+ "CA.II.B.K4": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.523 carry-on baggage and 91.525 carriage of cargo are the only sections on securing items, and both are Subpart F rules rather than general Part 91.",
+  "sections": [
+   "91.523",
+   "91.525"
+  ],
+  "why": "91.523 carry-on baggage and 91.525 carriage of cargo are the only sections on securing items, and both are Subpart F rules rather than general Part 91."
+ },
+ "CA.II.B.R1": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "section_why": "91.21 is the portable electronic device rule; Risk Management ch7 is Automation and Flight Path Management.",
+  "sections": [
+   "91.21"
+  ],
+  "why": "91.21 is the portable electronic device rule; Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "CA.II.B.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.213 is the inoperative instruments and equipment rule.",
+  "sections": [
+   "91.213"
+  ],
+  "why": "91.213 is the inoperative instruments and equipment rule."
+ },
+ "CA.II.B.R3": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Passenger distraction is a threat management topic. No Part 91 section addresses it for a light airplane."
+ },
+ "CA.II.B.S1": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No general Part 91 section governs securing items in a light airplane, and no chapter covers it specifically."
+ },
+ "CA.II.B.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "section_why": "91.107 requires the belt and harness briefing; the wider brief is AFH Ground Operations practice.",
+  "sections": [
+   "91.107"
+  ],
+  "why": "91.107 requires the belt and harness briefing; the wider brief is AFH Ground Operations practice."
+ },
+ "CA.II.B.S3": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Risk Management ch7 is Automation and Flight Path Management."
+ },
+ "CA.II.B.S4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 is ADM including CRM and SRM; Risk Management ch8 is decision-making in flight."
+ },
+ "CA.II.C.K1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Engine starting under various conditions sits in AFH Ground Operations. The Seaplane handbook has a starting topic but this Task does not cite the Seaplane handbook."
+ },
+ "CA.II.C.K2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "External power starting is covered inside AFH Ground Operations."
+ },
+ "CA.II.C.K3": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Starting limitations follow from the powerplant description in PHAK ch7 Aircraft Systems."
+ },
+ "CA.II.C.R1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Propeller safety is part of AFH Ground Operations, but it is not a named section."
+ },
+ "CA.II.C.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Positioning before start is AFH Ground Operations."
+ },
+ "CA.II.C.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Checklist completion is AFH Ground Operations."
+ },
+ "CA.II.D.K1": {
+  "anchors": [
+   "aim:ch09-s01",
+   "aim:ch05-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 9-1 is the chart and publication catalog including the Chart Supplement; AIM 5-1 Preflight covers NOTAMs."
+ },
+ "CA.II.D.K2": {
+  "anchors": [
+   "aim:ch04-s03",
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 Airport Operations carries taxi clearance procedure; 4-2 carries the phraseology."
+ },
+ "CA.II.D.K3": {
+  "anchors": [
+   "aim:ch02-s03",
+   "aim:ch02-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 2-3 Airport Marking Aids and Signs, AIM 2-1 Airport Lighting Aids, PHAK ch14 Airport Operations."
+ },
+ "CA.II.D.K4": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Wind sock, tetrahedron, and segmented circle are in PHAK ch14 Airport Operations."
+ },
+ "CA.II.D.K5": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Aircraft position, anti-collision, and taxi lighting use is covered in AFH ch11 Night Operations."
+ },
+ "CA.II.D.K6": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Parent heading. AIM 4-3 Airport Operations is the shared entry for the sub-elements."
+ },
+ "CA.II.D.K6a": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 covers taxi route planning and airport hot spots."
+ },
+ "CA.II.D.K6b": {
+  "anchors": [
+   "aim:ch04-s02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 is phraseology and technique; AIM 4-3 covers both towered and nontowered airport communication."
+ },
+ "CA.II.D.K6c": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Runway entry and crossing procedure is in AIM 4-3 Airport Operations."
+ },
+ "CA.II.D.K6d": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch11 Night Operations covers night taxi."
+ },
+ "CA.II.D.K6e": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Low visibility surface operations are treated in AIM 4-3, though not as a dedicated section."
+ },
+ "CA.II.D.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Distraction management is Threat and Error Management. No chapter is scoped to taxi distractions."
+ },
+ "CA.II.D.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Confirmation and expectation bias fit Threat and Error Management, but neither book names them as a section."
+ },
+ "CA.II.D.R3": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "An unexpected route or runway change is a threat to be managed. Coverage is generic."
+ },
+ "CA.II.D.R4": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 Airport Operations carries the runway incursion avoidance material."
+ },
+ "CA.II.D.S1": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 Radio Communications Phraseology and Techniques covers readback."
+ },
+ "CA.II.D.S2": {
+  "anchors": [
+   "aim:ch04-s03",
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 covers airport diagram use during taxi; AIM 9-1 is where the diagram is published."
+ },
+ "CA.II.D.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Control positioning for wind during taxi is AFH Ground Operations. Chapter identity inferred, not verified."
+ },
+ "CA.II.D.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Checklist completion is AFH Ground Operations."
+ },
+ "CA.II.D.S5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The brake check on initial movement is part of AFH Ground Operations taxi procedure."
+ },
+ "CA.II.D.S6": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Taxi speed and directional control are AFH Ground Operations."
+ },
+ "CA.II.D.S7": {
+  "anchors": [
+   "aim:ch02-s03",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 2-3 is the marking and sign meanings; AIM 4-3 is compliance with ATC surface instructions."
+ },
+ "CA.II.D.S8": {
+  "anchors": [
+   "aim:ch02-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Runway holding position markings are defined in AIM 2-3."
+ },
+ "CA.II.E.K1": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 9-1 Types of Charts Available covers the Chart Supplement and airport diagrams."
+ },
+ "CA.II.E.K2": {
+  "anchors": [
+   "aim:ch04-s03",
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 carries surface clearance procedure and 4-2 the phraseology."
+ },
+ "CA.II.E.K3": {
+  "anchors": [
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 2-3 Airport Marking Aids and Signs and PHAK ch14 Airport Operations. Seaplane base markings are not separately anchored."
+ },
+ "CA.II.E.K4": {
+  "anchors": [
+   "phak:ch14",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch14 covers ground wind indicators; on water the wind is read off the surface during reconnaissance."
+ },
+ "CA.II.E.K5": {
+  "anchors": [
+   "afh:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Airplane lighting use is covered in AFH ch11 Night Operations."
+ },
+ "CA.II.E.K6": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Parent heading. Taxiing and Sailing is the shared entry for the sub-elements."
+ },
+ "CA.II.E.K6a": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing",
+   "seaplane:sailing"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Direct topic match for flight deck activity while taxiing or sailing."
+ },
+ "CA.II.E.K6b": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 is the radio phraseology and technique section. Seaplane base communication is not separately anchored."
+ },
+ "CA.II.E.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Distraction management is Threat and Error Management."
+ },
+ "CA.II.E.R2": {
+  "anchors": [
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Exact topic match on both anchors."
+ },
+ "CA.II.E.R3": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Low visibility surface operations on water fall inside the taxiing and sailing treatment. No dedicated anchor."
+ },
+ "CA.II.E.R4": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Vessels and surface hazards are assessed during reconnaissance and avoided while taxiing and sailing."
+ },
+ "CA.II.E.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Confirmation and expectation bias fit Threat and Error Management generically."
+ },
+ "CA.II.E.S1": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 covers clearance readback."
+ },
+ "CA.II.E.S10": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "This element is a cross-reference to Task D rather than content of its own. The Task D elements carry the targets."
+ },
+ "CA.II.E.S2": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 9-1 is where airport diagrams and taxi charts are published."
+ },
+ "CA.II.E.S3": {
+  "anchors": [
+   "aim:ch02-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 2-3 Airport Marking Aids and Signs defines what must be complied with."
+ },
+ "CA.II.E.S4": {
+  "anchors": [
+   "seaplane:docking",
+   "seaplane:mooring",
+   "seaplane:beaching",
+   "seaplane:ramping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The element names dock, mooring buoy, beach, and ramp, and each is an exact topic match."
+ },
+ "CA.II.E.S5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Checklist completion is AFH Ground Operations."
+ },
+ "CA.II.E.S6": {
+  "anchors": [
+   "seaplane:using-water-rudders",
+   "seaplane:sailing",
+   "seaplane:porpoising"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Water rudder use, sailing course control, and porpoising correction are the three named behaviors in the element."
+ },
+ "CA.II.E.S7": {
+  "anchors": [
+   "seaplane:idling-position",
+   "seaplane:plowing-position",
+   "seaplane:planing-or-step-position"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The element names idle, plow, and step taxi technique, and each has its own anchor."
+ },
+ "CA.II.E.S8": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing",
+   "seaplane:sailing"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Planning the taxi or sailing course is the subject of both anchors."
+ },
+ "CA.II.E.S9": {
+  "anchors": [
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "91.115 governs right-of-way on water, but this Task cites no CFR part. The handbook treatment is inside taxiing and sailing."
+ },
+ "CA.II.F.K1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Parent heading. The before takeoff check sits in AFH Ground Operations."
+ },
+ "CA.II.F.K1a": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Rationale for each runup item is embedded in AFH Ground Operations."
+ },
+ "CA.II.F.K1b": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Malfunction detection during the runup is embedded in AFH Ground Operations."
+ },
+ "CA.II.F.K1c": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Confirming safe operating condition per the manufacturer is embedded in AFH Ground Operations."
+ },
+ "CA.II.F.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Division of attention is a threat and error management topic. Coverage is generic."
+ },
+ "CA.II.F.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "An unexpected runway change is a threat to be managed. Coverage is generic."
+ },
+ "CA.II.F.R3": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-4 is the real wake turbulence treatment but the AIM is not on this Task's References line. PHAK ch14 Airport Operations covers wake turbulence avoidance."
+ },
+ "CA.II.F.R4": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch6 Takeoffs and Departure Climbs sets the takeoff path considerations; ch18 Emergency Procedures covers powerplant failure on takeoff."
+ },
+ "CA.II.F.S1": {
+  "anchors": [
+   "phak:ch11",
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch11 Aircraft Performance is the chart work; AFH ch6 is the takeoff itself."
+ },
+ "CA.II.F.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Checklist completion is AFH Ground Operations."
+ },
+ "CA.II.F.S3": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Runup positioning is AFH Ground Operations; on water the equivalent positioning is inside taxiing and sailing."
+ },
+ "CA.II.F.S4": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Dividing attention inside and outside is threat and error management. Coverage is generic."
+ },
+ "CA.II.F.S5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Verifying engine parameters and configuration is part of the AFH Ground Operations before takeoff check."
+ },
+ "CA.III.A.K1": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Frequencies are published on charts and in the Chart Supplement (AIM 9-1) and explained in PHAK ch14 Airport Operations."
+ },
+ "CA.III.A.K2": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 is Radio Communications Phraseology and Techniques; PHAK ch14 covers the pilot side."
+ },
+ "CA.III.A.K3": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.125 is the ATC light signal table; AIM 4-3 repeats it with the airport operations context.",
+  "sections": [
+   "91.125"
+  ],
+  "why": "91.125 is the ATC light signal table; AIM 4-3 repeats it with the airport operations context."
+ },
+ "CA.III.A.K4": {
+  "anchors": [
+   "aim:ch04-s05"
+  ],
+  "confidence": "high",
+  "section_why": "91.215 is the transponder rule; AIM 4-5 Surveillance Systems covers code selection and operation.",
+  "sections": [
+   "91.215"
+  ],
+  "why": "91.215 is the transponder rule; AIM 4-5 Surveillance Systems covers code selection and operation."
+ },
+ "CA.III.A.K5": {
+  "anchors": [
+   "aim:ch06-s04"
+  ],
+  "confidence": "low",
+  "section_why": "AIM 6-4 is the two-way radio communications failure section. 91.185 is IFR-specific and 91.125 light signals is the VFR towered case, so neither section is a clean fit for a VFR commercial scenario.",
+  "sections": [
+   "91.125",
+   "91.185"
+  ],
+  "why": "AIM 6-4 is the two-way radio communications failure section. 91.185 is IFR-specific and 91.125 light signals is the VFR towered case, so neither section is a clean fit for a VFR commercial scenario."
+ },
+ "CA.III.A.K6": {
+  "anchors": [
+   "aim:ch06-s04"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 6-4 is the closest treatment, though it addresses procedure rather than the equipment causes."
+ },
+ "CA.III.A.K7": {
+  "anchors": [
+   "aim:ch04-s05",
+   "aim:ch04-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-5 Surveillance Systems and 4-1 Services Available to Pilots cover radar assistance and flight following."
+ },
+ "CA.III.A.K8": {
+  "anchors": [
+   "aim:ch07-s07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-7 Safety, Accident, and Hazard Reports carries the NTSB 830 reporting requirements. 49 CFR 830 is not in this packet's CFR inventory."
+ },
+ "CA.III.A.K9": {
+  "anchors": [
+   "aim:ch02-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Runway Status Lighting Systems are described in AIM 2-1 Airport Lighting Aids."
+ },
+ "CA.III.A.R1": {
+  "anchors": [
+   "aim:ch05-s05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 5-5 Pilot/Controller Roles and Responsibilities is where communication breakdown risk is framed."
+ },
+ "CA.III.A.R2": {
+  "anchors": [
+   "aim:ch06-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.3(b) is the emergency authority; AIM 6-3 Distress and Urgency Procedures is when and how to declare.",
+  "sections": [
+   "91.3"
+  ],
+  "why": "91.3(b) is the emergency authority; AIM 6-3 Distress and Urgency Procedures is when and how to declare."
+ },
+ "CA.III.A.R3": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 defines the standard phraseology that non-standard usage departs from."
+ },
+ "CA.III.A.S1": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 9-1 is where the frequencies to select are published. No chapter covers radio tuning itself."
+ },
+ "CA.III.A.S2": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The element names the AIM and Pilot/Controller Glossary directly, and AIM 4-2 is the phraseology section."
+ },
+ "CA.III.A.S3": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "section_why": "91.123 is compliance with ATC clearances and instructions; AIM 4-2 covers acknowledgment and readback.",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 is compliance with ATC clearances and instructions; AIM 4-2 covers acknowledgment and readback."
+ },
+ "CA.III.B.K1": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "section_why": "91.126 is the nontowered Class G rule and 91.129 the Class D towered rule; AIM 4-3 and PHAK ch14 cover both.",
+  "sections": [
+   "91.126",
+   "91.129"
+  ],
+  "why": "91.126 is the nontowered Class G rule and 91.129 the Class D towered rule; AIM 4-3 and PHAK ch14 cover both."
+ },
+ "CA.III.B.K2": {
+  "anchors": [
+   "afh:ch08",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.126(b) sets the direction of turns; AFH ch8 Traffic Patterns and AIM 4-3 cover pattern selection.",
+  "sections": [
+   "91.126"
+  ],
+  "why": "91.126(b) sets the direction of turns; AFH ch8 Traffic Patterns and AIM 4-3 cover pattern selection."
+ },
+ "CA.III.B.K3": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.113 is right-of-way except water operations and 91.115 is water operations, which this Task needs for seaplane base patterns.",
+  "sections": [
+   "91.113",
+   "91.115"
+  ],
+  "why": "91.113 is right-of-way except water operations and 91.115 is water operations, which this Task needs for seaplane base patterns."
+ },
+ "CA.III.B.K4": {
+  "anchors": [
+   "aim:ch04-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "ATIS, AWOS, and ASOS are described in AIM 4-1 Services Available to Pilots."
+ },
+ "CA.III.B.R1": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "high",
+  "section_why": "91.113(b) is the see-and-avoid duty; AIM 7-6 Potential Flight Hazards carries collision avoidance.",
+  "sections": [
+   "91.113"
+  ],
+  "why": "91.113(b) is the see-and-avoid duty; AIM 7-6 Potential Flight Hazards carries collision avoidance."
+ },
+ "CA.III.B.R2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 ADM covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management."
+ },
+ "CA.III.B.R3": {
+  "anchors": [
+   "aim:ch07-s04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-4 is the Wake Turbulence section. The Aviation Weather Handbook is not on this Task's References line, so windshear has no target here."
+ },
+ "CA.III.B.S1": {
+  "anchors": [
+   "aim:ch02-s03",
+   "aim:ch02-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 2-3 markings and signs, AIM 2-1 lighting aids, PHAK ch14 Airport Operations."
+ },
+ "CA.III.B.S2": {
+  "anchors": [
+   "afh:ch08",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.126 is the required pattern direction; AFH ch8 and AIM 4-3 give the recommended procedures.",
+  "sections": [
+   "91.126"
+  ],
+  "why": "91.126 is the required pattern direction; AFH ch8 and AIM 4-3 give the recommended procedures."
+ },
+ "CA.III.B.S3": {
+  "anchors": [
+   "afh:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch7 Ground Reference Maneuvers is the wind drift correction chapter."
+ },
+ "CA.III.B.S4": {
+  "anchors": [
+   "afh:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch8 Traffic Patterns covers maintaining runway orientation."
+ },
+ "CA.III.B.S5": {
+  "anchors": [
+   "afh:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch8 Traffic Patterns sets pattern altitude and airspeed management."
+ },
+ "CA.III.B.S6": {
+  "anchors": [
+   "afh:ch08"
+  ],
+  "confidence": "high",
+  "section_why": "91.111 prohibits operating so close as to create a collision hazard; AFH ch8 covers pattern spacing.",
+  "sections": [
+   "91.111"
+  ],
+  "why": "91.111 prohibits operating so close as to create a collision hazard; AFH ch8 covers pattern spacing."
+ }
 }

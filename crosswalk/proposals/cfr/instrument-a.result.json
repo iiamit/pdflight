@@ -1,138 +1,976 @@
 {
-  "IR.I.A.K1": {"sections": ["61.3", "61.51", "61.57"], "why": "61.3 requires the certificate and instrument rating to act as PIC under IFR, 61.57(c) and (d) set instrument recency and the IPC, 61.51 governs logging and recordkeeping", "confidence": "high"},
-  "IR.I.A.K2": {"sections": ["61.3", "61.113", "61.133"], "why": "61.3 conditions IFR privileges on holding the rating, 61.113 and 61.133 state the private and commercial pilot privileges and limitations the instrument rating extends", "confidence": "high"},
-  "IR.I.A.K3": {"sections": ["61.23", "61.113"], "why": "Part 68 itself is not in the available section list. 61.23(c)(3) is the operating rule that lets a pilot fly under BasicMed instead of a medical certificate, and 61.113(i) states the BasicMed operating limitations", "confidence": "high"},
-  "IR.I.A.R1": {"sections": ["61.56", "61.57"], "why": "61.57(c) instrument experience and 61.57(d) instrument proficiency check are the currency floor, 61.56 flight review is the other periodic requirement. Proficiency itself is not regulated, these are the currency side of the comparison", "confidence": "high"},
-  "IR.I.A.R2": {"sections": [], "why": "personal minimums are a risk management practice with no regulatory basis. They sit above the regulatory minimums by definition, so no section governs them", "confidence": "high"},
-  "IR.I.A.R3": {"sections": ["61.53", "91.17"], "why": "61.53 prohibits operating during a known medical deficiency, 91.17 covers alcohol and drugs. 91.17 is outside the element's current Part 61 pointer but is squarely on topic and Part 91 is carried", "confidence": "high"},
-  "IR.I.A.R4": {"sections": ["61.31", "91.103"], "why": "61.31 sets the additional training and endorsement requirements that attach to unfamiliar aircraft types and equipment. 91.103 (Part 91, flagged) requires familiarity with all available information before flight", "confidence": "high"},
-  "IR.I.A.S1": {"sections": ["61.3", "61.23", "61.57"], "why": "acting as PIC under IFR requires the certificate and instrument rating (61.3), a valid medical or BasicMed (61.23), and instrument recency (61.57)", "confidence": "high"},
-
-  "IR.I.B.K1": {"sections": ["91.103"], "why": "91.103 is the only Part 91 rule that compels the pilot to obtain weather information before flight", "confidence": "high"},
-  "IR.I.B.K2": {"sections": ["91.103"], "why": "91.103(a) requires weather reports and forecasts for an IFR flight. The regulation does not enumerate acceptable products", "confidence": "high"},
-  "IR.I.B.K2a": {"sections": [], "why": "METAR, SPECI and PIREP content and format are NWS and AIM material, no CFR section governs them", "confidence": "high"},
-  "IR.I.B.K2b": {"sections": [], "why": "chart products, no regulation defines or requires them", "confidence": "high"},
-  "IR.I.B.K2c": {"sections": [], "why": "TAF content and format is NWS material, not regulatory", "confidence": "high"},
-  "IR.I.B.K2d": {"sections": [], "why": "GFA is a weather product, not a regulatory requirement", "confidence": "high"},
-  "IR.I.B.K2e": {"sections": [], "why": "winds and temperatures aloft forecast is a weather product, no governing section", "confidence": "high"},
-  "IR.I.B.K2f": {"sections": [], "why": "convective outlook is an SPC product, no governing section", "confidence": "high"},
-  "IR.I.B.K2g": {"sections": [], "why": "AIRMET, SIGMET and Convective SIGMET are NWS advisory products described in the AIM, not in the CFR", "confidence": "high"},
-  "IR.I.B.K3": {"sections": ["91.103", "91.169"], "why": "91.103 requires the weather assessment for departure, en route and destination. 91.169 is what makes the alternate a regulatory question", "confidence": "high"},
-  "IR.I.B.K3a": {"sections": [], "why": "atmospheric composition and stability is weather theory, no regulation governs it", "confidence": "high"},
-  "IR.I.B.K3b": {"sections": [], "why": "wind, windshear and mountain wave are weather theory, no regulation governs them", "confidence": "high"},
-  "IR.I.B.K3c": {"sections": [], "why": "temperature and heat exchange is weather theory, no regulation governs it", "confidence": "high"},
-  "IR.I.B.K3d": {"sections": [], "why": "moisture and precipitation is weather theory, no regulation governs it", "confidence": "high"},
-  "IR.I.B.K3e": {"sections": [], "why": "air masses and fronts are weather theory, no regulation governs them", "confidence": "high"},
-  "IR.I.B.K3f": {"sections": [], "why": "cloud types and formation are weather theory, no regulation governs them", "confidence": "high"},
-  "IR.I.B.K3g": {"sections": [], "why": "turbulence is weather theory, no regulation governs it", "confidence": "high"},
-  "IR.I.B.K3h": {"sections": [], "why": "thunderstorms and microbursts are weather theory, no regulation governs them", "confidence": "high"},
-  "IR.I.B.K3i": {"sections": ["91.527"], "why": "91.527 is the only Part 91 operating rule on icing conditions. Caveat: it sits in subpart F and applies to large and turbine-powered multiengine airplanes, so it does not reach the typical instrument applicant. Freezing level information itself is a weather product with no governing section", "confidence": "low"},
-  "IR.I.B.K3j": {"sections": [], "why": "fog and mist formation is weather theory, no regulation governs it", "confidence": "high"},
-  "IR.I.B.K3k": {"sections": ["91.527"], "why": "91.527(a) is the frost, ice and snow adherence prohibition, but its subpart F applicability limits it to large and turbine-powered multiengine airplanes. Flagged for human review", "confidence": "low"},
-  "IR.I.B.K3l": {"sections": [], "why": "smoke, haze and volcanic ash as obstructions to visibility are weather theory, no regulation governs them", "confidence": "high"},
-  "IR.I.B.K4": {"sections": [], "why": "flight deck display of datalink weather is equipment and AIM material. 91.225 covers ADS-B Out, not weather reception, so nothing in the list fits", "confidence": "high"},
-  "IR.I.B.R1": {"sections": ["91.103", "91.3"], "why": "91.103 sets the information the go decision must rest on, 91.3 places the decision and final authority with the PIC", "confidence": "high"},
-  "IR.I.B.R1a": {"sections": [], "why": "when diversion is prudent is judgment, not regulation. The regulatory triggers live in 91.167 and 91.169, which are cited on the fuel and alternate elements", "confidence": "high"},
-  "IR.I.B.R1b": {"sections": [], "why": "personal weather minimums have no regulatory basis, see IR.I.A.R2", "confidence": "high"},
-  "IR.I.B.R1c": {"sections": ["91.103", "91.527"], "why": "91.103 requires accounting for known and forecast hazardous weather. 91.527 is the icing operating rule but is limited to subpart F aircraft, so it is a partial fit", "confidence": "low"},
-  "IR.I.B.R2": {"sections": ["91.103"], "why": "the parent element on use and limitations of weather resources maps to the preflight information requirement", "confidence": "high"},
-  "IR.I.B.R2a": {"sections": [], "why": "onboard weather equipment capability and latency are equipment and AIM subjects, no section in the list governs them", "confidence": "high"},
-  "IR.I.B.R2b": {"sections": ["91.103"], "why": "91.103(a) requires weather reports and forecasts, which is the regulatory hook for their use and limitations", "confidence": "high"},
-  "IR.I.B.R2c": {"sections": [], "why": "inflight weather resources such as HIWAS, FSS and datalink are AIM material, no governing section", "confidence": "high"},
-  "IR.I.B.S1": {"sections": ["91.103"], "why": "obtaining the weather briefing is the act 91.103(a) requires", "confidence": "high"},
-  "IR.I.B.S2": {"sections": ["91.103"], "why": "analyzing weather conditions for the intended flight is the substance of the 91.103 familiarity requirement", "confidence": "high"},
-  "IR.I.B.S3": {"sections": ["91.103", "91.3"], "why": "the go/no-go decision rests on 91.103 information and 91.3 PIC authority", "confidence": "high"},
-  "IR.I.B.S4": {"sections": ["91.169", "91.167"], "why": "91.169(b) and (c) set when an alternate is required and the alternate weather minimums, 91.167 sets the fuel to reach it", "confidence": "high"},
-
-  "IR.I.C.K1": {"sections": ["91.103"], "why": "route planning is the preflight action 91.103 requires. The subelements carry the specific rules", "confidence": "high"},
-  "IR.I.C.K1a": {"sections": ["91.205"], "why": "91.205(d)(2) requires navigation equipment suitable for the ground facilities to be used, which is what makes facility availability a planning constraint. A weak textual fit, flagged", "confidence": "low"},
-  "IR.I.C.K1b": {"sections": ["91.133", "91.137"], "why": "91.133 governs restricted and prohibited areas, 91.137 governs temporary flight restrictions. These are the special use airspace rules carried in the corpus", "confidence": "high"},
-  "IR.I.C.K1c": {"sections": [], "why": "preferred routes are published in the Chart Supplement and described in the AIM, no CFR section establishes them", "confidence": "high"},
-  "IR.I.C.K1d": {"sections": ["91.169"], "why": "91.169(b) and (c) govern when an alternate must be listed and what it must meet", "confidence": "high"},
-  "IR.I.C.K1e": {"sections": [], "why": "enroute chart content is not regulated. 91.503 requires charts but applies only to large and turbine-powered multiengine airplanes", "confidence": "high"},
-  "IR.I.C.K1f": {"sections": [], "why": "Chart Supplement content is not regulated", "confidence": "high"},
-  "IR.I.C.K1g": {"sections": ["91.103"], "why": "91.103(a) explicitly requires NOTAM review for a flight not in the vicinity of an airport", "confidence": "high"},
-  "IR.I.C.K1h": {"sections": [], "why": "the TPP is a publication, not a regulatory object. 91.175(a) requires flying the prescribed procedure but does not govern the publication itself", "confidence": "high"},
-  "IR.I.C.K2": {"sections": ["91.177", "91.179", "91.211"], "why": "91.177 minimum IFR altitudes covers terrain and obstacle clearance, 91.179 sets IFR cruising altitudes, 91.211 sets the oxygen requirements named in the element", "confidence": "high"},
-  "IR.I.C.K3": {"sections": ["91.103"], "why": "91.103(b) requires the preflight computation of fuel requirements, runway lengths and takeoff and landing distances, which is the regulatory anchor for these calculations", "confidence": "high"},
-  "IR.I.C.K3a": {"sections": [], "why": "time, course, distance, heading and speed computations are navigation technique, no regulation governs them", "confidence": "high"},
-  "IR.I.C.K3b": {"sections": [], "why": "ETA computation and UTC conversion are technique, no regulation governs them", "confidence": "high"},
-  "IR.I.C.K3c": {"sections": ["91.167", "91.103"], "why": "91.167 sets the IFR fuel requirement including the 45 minute reserve and fuel to the alternate, 91.103(b) requires computing it preflight", "confidence": "high"},
-  "IR.I.C.K4": {"sections": ["91.169", "91.173"], "why": "91.169 lists the information an IFR flight plan must contain, 91.173 makes filing and a clearance a prerequisite to IFR in controlled airspace", "confidence": "high"},
-  "IR.I.C.K5": {"sections": ["91.173", "91.169"], "why": "91.173 is what requires a filed plan and clearance in controlled airspace and by omission explains why neither is required in uncontrolled airspace. 91.169 supplies the plan contents. Closing a flight plan is procedural, not regulatory", "confidence": "high"},
-  "IR.I.C.R1": {"sections": ["91.3", "61.53"], "why": "the Pilot leg of PAVE maps to PIC responsibility under 91.3 and the medical deficiency prohibition in 61.53 (Part 61, flagged). PAVE itself is a risk model with no regulatory definition", "confidence": "low"},
-  "IR.I.C.R2": {"sections": ["91.7", "91.205"], "why": "91.7 makes the PIC responsible for determining the aircraft is airworthy, 91.205(d) is the IFR equipment list that defines whether the aircraft is legal for the planned flight", "confidence": "high"},
-  "IR.I.C.R3": {"sections": ["91.103", "91.177"], "why": "91.103 covers the weather, airport and airspace information the environment assessment rests on, 91.177 covers terrain and obstacle clearance", "confidence": "low"},
-  "IR.I.C.R4": {"sections": [], "why": "external pressures are a human factors concept with no regulatory counterpart", "confidence": "high"},
-  "IR.I.C.R5": {"sections": ["91.3", "91.113", "91.123"], "why": "91.3(a) keeps final authority with the PIC regardless of ATC, 91.113(b) keeps see and avoid with the pilot even under IFR in VMC, 91.123 defines the limited force of a clearance", "confidence": "high"},
-  "IR.I.C.R6": {"sections": [], "why": "electronic flight planning applications are not regulated. 91.21 reaches portable electronic devices operated aboard the aircraft, not preflight planning software", "confidence": "high"},
-  "IR.I.C.R7": {"sections": ["91.167", "91.103"], "why": "91.167 is the IFR fuel rule, 91.103(b) requires the preflight computation", "confidence": "high"},
-  "IR.I.C.S1": {"sections": ["91.103", "91.167", "91.169"], "why": "the presented plan must satisfy the preflight information requirement, the IFR fuel requirement, and the flight plan and alternate content rules", "confidence": "high"},
-  "IR.I.C.S2": {"sections": ["91.167"], "why": "recalculated reserves are measured against the 91.167 IFR fuel requirement", "confidence": "high"},
-  "IR.I.C.S3": {"sections": ["91.169", "91.173"], "why": "91.169 defines what goes in the IFR flight plan, 91.173 requires it be filed for IFR in controlled airspace", "confidence": "high"},
-  "IR.I.C.S4": {"sections": ["91.175"], "why": "91.175(a) requires instrument approaches be flown per the prescribed procedure, which is what makes correct chart interpretation regulatory. Departure and arrival procedure interpretation is otherwise AIM material", "confidence": "low"},
-  "IR.I.C.S5": {"sections": ["91.9", "91.527"], "why": "91.9 requires operating within the AFM limitations, which is where a light airplane's flight into known icing prohibition lives. 91.527 is the direct icing operating rule but is limited to subpart F aircraft", "confidence": "low"},
-  "IR.I.C.S6": {"sections": ["91.103"], "why": "91.103(a) requires NOTAMs and all other available information concerning the flight, including runway and taxiway closures", "confidence": "high"},
-
-  "IR.II.A.K1": {"sections": ["91.9", "91.527"], "why": "91.9 requires compliance with the AFM operating limitations that define what the ice protection system is approved for. 91.527 is the icing operating rule, limited to subpart F aircraft", "confidence": "low"},
-  "IR.II.A.K2": {"sections": [], "why": "flight control system design and operation is aircraft systems knowledge, no Part 91 section governs it", "confidence": "high"},
-  "IR.II.A.R1": {"sections": ["91.527", "91.9"], "why": "91.527 is titled Operating in icing conditions and is the on-point rule, but applies only to large and turbine-powered multiengine airplanes. 91.9 carries the AFM icing limitation for everything else", "confidence": "low"},
-  "IR.II.A.R2": {"sections": ["91.9", "91.527"], "why": "system limitations are AFM limitations enforced by 91.9. 91.527 is the direct icing rule with limited applicability", "confidence": "low"},
-  "IR.II.A.R3": {"sections": [], "why": "no Part 91 section governs autopilot or automation use in instrument conditions for these operations", "confidence": "high"},
-  "IR.II.A.S1": {"sections": ["91.9"], "why": "the manufacturer's anti-ice and de-ice procedures are AFM material, and 91.9 requires operating in compliance with it", "confidence": "high"},
-  "IR.II.A.S2": {"sections": ["91.9"], "why": "manufacturer AFCS procedures are AFM or supplement material, enforced through 91.9", "confidence": "high"},
-
-  "IR.II.B.K1": {"sections": ["91.205"], "why": "91.205(b) and (d) list the instruments and equipment required for IFR, which defines the systems this element covers", "confidence": "high"},
-  "IR.II.B.K1a": {"sections": ["91.205", "91.411"], "why": "91.205(b) and (d) require the pitot-static instruments, 91.411 sets the 24 month altimeter and static system test for IFR", "confidence": "high"},
-  "IR.II.B.K1b": {"sections": ["91.205"], "why": "91.205(d)(3) and (d)(4) require the gyroscopic rate of turn, attitude and direction indicators and their power source for IFR", "confidence": "high"},
-  "IR.II.B.K1c": {"sections": ["91.205", "91.215", "91.225"], "why": "91.205 covers the electrical and instrument requirements, 91.215 governs transponder equipment and use, 91.225 governs ADS-B Out equipment and use", "confidence": "high"},
-  "IR.II.B.K1d": {"sections": ["91.205"], "why": "91.205(b)(3) requires the magnetic direction indicator", "confidence": "high"},
-  "IR.II.B.K2": {"sections": ["91.205", "91.171"], "why": "91.205(d)(2) requires navigation equipment appropriate to the facilities to be used, 91.171 is the VOR accuracy check that conditions its use for IFR", "confidence": "high"},
-  "IR.II.B.K2a": {"sections": ["91.171", "91.205"], "why": "91.171 is the VOR equipment check required before IFR use, 91.205(d)(2) requires the navigation equipment itself", "confidence": "high"},
-  "IR.II.B.K2b": {"sections": ["91.205"], "why": "91.205(d)(2) is the only listed section reaching RNAV and GPS suitability. GPS and WAAS operational approval lives in AC 90-100 and the AIM, not in the carried CFR parts", "confidence": "low"},
-  "IR.II.B.K3": {"sections": ["91.21"], "why": "91.21 governs portable electronic devices aboard aircraft operated under IFR, which is the regulatory basis for EFB use", "confidence": "high"},
-  "IR.II.B.R1": {"sections": [], "why": "automation monitoring and management is a human factors subject, no section in the list governs it", "confidence": "high"},
-  "IR.II.B.R2": {"sections": ["91.205", "91.21"], "why": "91.205(d)(2) defines what counts as required and approved navigation equipment, 91.21 governs the non-installed portable devices on the other side of the distinction", "confidence": "high"},
-  "IR.II.B.R3": {"sections": ["91.187", "91.213"], "why": "91.187 requires reporting navigation and communication equipment malfunctions under IFR in controlled airspace, 91.213 governs continued operation with the failed item", "confidence": "low"},
-  "IR.II.B.R4": {"sections": ["91.21"], "why": "91.21 is the portable electronic device rule that reaches EFB use on IFR flights", "confidence": "high"},
-  "IR.II.B.R5": {"sections": [], "why": "navigation database currency requirements come from AC 90-100, the AIM and the equipment AFMS, not from the carried CFR parts", "confidence": "high"},
-  "IR.II.B.S1": {"sections": ["91.205", "91.171"], "why": "operating the required IFR instruments and navigation equipment under 91.205, with the 91.171 VOR check as the precondition to using VOR for IFR", "confidence": "high"},
-  "IR.II.B.S2": {"sections": ["91.21"], "why": "an applicant supplied EFB is a portable electronic device under 91.21", "confidence": "high"},
-
-  "IR.II.C.K1": {"sections": ["91.7", "91.171", "91.205"], "why": "91.7 places the airworthiness determination on the PIC, 91.171 is the VOR check performed as part of the instrument flight deck check, 91.205 defines the equipment being checked", "confidence": "high"},
-  "IR.II.C.K2": {"sections": ["91.205", "91.409", "91.411", "91.413"], "why": "91.205(d) is the IFR equipment list, 91.409 the annual and 100 hour inspections, 91.411 the altimeter and static system test, 91.413 the transponder test. 91.171 also applies and was dropped to stay within four", "confidence": "high"},
-  "IR.II.C.K3": {"sections": ["91.213", "91.405"], "why": "91.213 is the inoperative instruments and equipment rule including the MEL and the placard and record path, 91.405 requires the discrepancy record entry and placarding", "confidence": "high"},
-  "IR.II.C.R1": {"sections": ["91.213", "91.205"], "why": "91.213 governs whether the flight may proceed with the item inoperative, 91.205 determines whether the item was required in the first place", "confidence": "high"},
-  "IR.II.C.R2": {"sections": ["91.103"], "why": "91.103 requires all available information concerning the flight, which is the closest regulatory hook for outdated publications. Database currency itself is not in the carried parts", "confidence": "low"},
-  "IR.II.C.S1": {"sections": ["91.7", "91.103", "91.205"], "why": "91.7 requires the PIC to determine the aircraft is in condition for safe flight, 91.103 requires the preflight action, 91.205(d) sets what must be installed and working for IFR", "confidence": "high"},
-
-  "IR.III.A.K1": {"sections": ["91.123", "91.173", "91.183"], "why": "91.123 defines compliance with clearances and instructions and the deviation and reporting rules, 91.173 requires the clearance for IFR in controlled airspace, 91.183 covers the IFR communications duties across all phases", "confidence": "high"},
-  "IR.III.A.K2": {"sections": ["91.3", "91.123"], "why": "91.3(b) is the emergency deviation authority and 91.3(c) the written report, 91.123(e) requires reporting the deviation to ATC as soon as possible", "confidence": "high"},
-  "IR.III.A.K3": {"sections": ["91.185", "91.183", "91.187"], "why": "91.185 is the two-way radio communications failure rule, 91.183 requires the continuous listening watch and position reports that matter outside radar coverage, 91.187 requires malfunction reports", "confidence": "high"},
-  "IR.III.A.R1": {"sections": ["91.123"], "why": "91.123 makes the pilot responsible for complying with the clearance as issued, which is what makes an imperfectly understood clearance a hazard", "confidence": "high"},
-  "IR.III.A.R2": {"sections": ["91.123", "91.3"], "why": "91.123(a) and (b) bar deviation from a clearance or instruction, 91.3 keeps final authority with the PIC when the clearance is wrong", "confidence": "high"},
-  "IR.III.A.R3": {"sections": ["91.123", "91.3"], "why": "91.123 permits requesting an amended clearance rather than accepting one the aircraft cannot fly, 91.3 places the accept or refuse decision on the PIC", "confidence": "high"},
-  "IR.III.A.R4": {"sections": ["91.123", "91.183"], "why": "91.123 governs acting only on a clearance issued to your aircraft, 91.183 requires the continuous listening watch that surfaces the callsign confusion", "confidence": "high"},
-  "IR.III.A.S1": {"sections": ["91.123", "91.183"], "why": "copying, reading back and complying with a clearance is 91.123, on the frequency and communications terms of 91.183. Phraseology itself is AIM material", "confidence": "high"},
-  "IR.III.A.S2": {"sections": ["91.123", "91.215", "91.183"], "why": "setting equipment in compliance with the clearance is 91.123, 91.215 governs transponder code operation, 91.183 governs the communications setup", "confidence": "high"},
-  "IR.III.A.S3": {"sections": ["91.103"], "why": "91.103 requires all available information concerning the flight, the closest hook for publication currency. Chart currency is not directly regulated for Part 91 small aircraft", "confidence": "low"},
-  "IR.III.A.S4": {"sections": ["91.181", "91.123"], "why": "91.181 is the course to be flown rule that defines what intercepting and tracking means, 91.123 makes it a clearance compliance matter", "confidence": "high"},
-  "IR.III.A.S5": {"sections": ["91.181", "91.123"], "why": "91.181 requires operating along the centerline of the airway or the direct course, 91.123 requires holding the assigned altitude and heading. The ACS tolerances themselves are not regulatory", "confidence": "high"},
-  "IR.III.A.S6": {"sections": [], "why": "SRM and CRM are FAA training constructs from the handbooks, no regulation governs them for Part 91 single pilot operations", "confidence": "high"},
-  "IR.III.A.S7": {"sections": [], "why": "no Part 91 checklist requirement reaches small aircraft. 91.503 requires operating information but applies only to large and turbine-powered multiengine airplanes", "confidence": "high"},
-
-  "IR.III.B.K1": {"sections": ["91.183"], "why": "91.183 supplies the IFR position and reporting duties. Holding pattern geometry, entry procedures and maximum holding speeds are AIM and TERPS material with no CFR counterpart, so the regulatory coverage of this element is thin", "confidence": "low"},
-  "IR.III.B.R1": {"sections": ["91.167"], "why": "91.167 sets the IFR fuel requirement against which an unanticipated EFC time must be recalculated", "confidence": "high"},
-  "IR.III.B.R2": {"sections": ["91.167", "91.3"], "why": "91.167 defines the fuel floor that minimum fuel approaches, 91.3(b) is the emergency declaration authority", "confidence": "high"},
-  "IR.III.B.R3": {"sections": ["91.167", "91.169"], "why": "deteriorating destination weather is a fuel and alternate problem under 91.167 and 91.169. The decision to hold is otherwise unregulated", "confidence": "low"},
-  "IR.III.B.R4": {"sections": [], "why": "holding entry and wind correction technique is AIM material, no CFR section governs it", "confidence": "high"},
-  "IR.III.B.S1": {"sections": [], "why": "holding entry procedures are recommended in the AIM, not required by regulation", "confidence": "high"},
-  "IR.III.B.S2": {"sections": [], "why": "maximum holding speeds come from the AIM and TERPS. 91.117 governs speed below 10,000 feet and near airports, not holding speed, so nothing in the list fits", "confidence": "high"},
-  "IR.III.B.S3": {"sections": ["91.123"], "why": "entering the hold at the clearance limit is compliance with the ATC clearance under 91.123", "confidence": "low"},
-  "IR.III.B.S3a": {"sections": ["91.123"], "why": "published and assigned holding restrictions such as leg length reach the pilot through the clearance, which 91.123 requires be complied with", "confidence": "high"},
-  "IR.III.B.S4": {"sections": ["91.123", "91.181"], "why": "91.123 requires holding the assigned altitude, 91.181 governs course tracking. The ACS tolerances themselves are not regulatory", "confidence": "high"},
-  "IR.III.B.S5": {"sections": ["91.181"], "why": "91.181 is the course to be flown rule, the nearest regulatory basis for staying on the inbound course. Wind correction technique within the pattern is AIM material", "confidence": "low"},
-  "IR.III.B.S6": {"sections": [], "why": "use of an MFD or graphical display to monitor position is technique, no section in the list governs it", "confidence": "high"},
-  "IR.III.B.S7": {"sections": ["91.183", "91.123"], "why": "91.183 sets the IFR reporting requirements, 91.123 requires compliance with the restrictions in the holding clearance", "confidence": "high"},
-  "IR.III.B.S8": {"sections": [], "why": "SRM and CRM are training constructs, no regulation governs them", "confidence": "high"}
+ "IR.I.A.K1": {
+  "confidence": "high",
+  "section_why": "61.3 requires the certificate and instrument rating to act as PIC under IFR, 61.57(c) and (d) set instrument recency and the IPC, 61.51 governs logging and recordkeeping",
+  "sections": [
+   "61.3",
+   "61.51",
+   "61.57"
+  ],
+  "why": "61.3 requires the certificate and instrument rating to act as PIC under IFR, 61.57(c) and (d) set instrument recency and the IPC, 61.51 governs logging and recordkeeping"
+ },
+ "IR.I.A.K2": {
+  "confidence": "high",
+  "section_why": "61.3 conditions IFR privileges on holding the rating, 61.113 and 61.133 state the private and commercial pilot privileges and limitations the instrument rating extends",
+  "sections": [
+   "61.3",
+   "61.113",
+   "61.133"
+  ],
+  "why": "61.3 conditions IFR privileges on holding the rating, 61.113 and 61.133 state the private and commercial pilot privileges and limitations the instrument rating extends"
+ },
+ "IR.I.A.K3": {
+  "confidence": "high",
+  "section_why": "Part 68 itself is not in the available section list. 61.23(c)(3) is the operating rule that lets a pilot fly under BasicMed instead of a medical certificate, and 61.113(i) states the BasicMed operating limitations",
+  "sections": [
+   "61.23",
+   "61.113"
+  ],
+  "why": "Part 68 itself is not in the available section list. 61.23(c)(3) is the operating rule that lets a pilot fly under BasicMed instead of a medical certificate, and 61.113(i) states the BasicMed operating limitations"
+ },
+ "IR.I.A.R1": {
+  "confidence": "high",
+  "section_why": "61.57(c) instrument experience and 61.57(d) instrument proficiency check are the currency floor, 61.56 flight review is the other periodic requirement. Proficiency itself is not regulated, these are the currency side of the comparison",
+  "sections": [
+   "61.56",
+   "61.57"
+  ],
+  "why": "61.57(c) instrument experience and 61.57(d) instrument proficiency check are the currency floor, 61.56 flight review is the other periodic requirement. Proficiency itself is not regulated, these are the currency side of the comparison"
+ },
+ "IR.I.A.R2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "personal minimums are a risk management practice with no regulatory basis. They sit above the regulatory minimums by definition, so no section governs them"
+ },
+ "IR.I.A.R3": {
+  "confidence": "high",
+  "section_why": "61.53 prohibits operating during a known medical deficiency, 91.17 covers alcohol and drugs. 91.17 is outside the element's current Part 61 pointer but is squarely on topic and Part 91 is carried",
+  "sections": [
+   "61.53",
+   "91.17"
+  ],
+  "why": "61.53 prohibits operating during a known medical deficiency, 91.17 covers alcohol and drugs. 91.17 is outside the element's current Part 61 pointer but is squarely on topic and Part 91 is carried"
+ },
+ "IR.I.A.R4": {
+  "confidence": "high",
+  "section_why": "61.31 sets the additional training and endorsement requirements that attach to unfamiliar aircraft types and equipment. 91.103 (Part 91, flagged) requires familiarity with all available information before flight",
+  "sections": [
+   "61.31",
+   "91.103"
+  ],
+  "why": "61.31 sets the additional training and endorsement requirements that attach to unfamiliar aircraft types and equipment. 91.103 (Part 91, flagged) requires familiarity with all available information before flight"
+ },
+ "IR.I.A.S1": {
+  "confidence": "high",
+  "section_why": "acting as PIC under IFR requires the certificate and instrument rating (61.3), a valid medical or BasicMed (61.23), and instrument recency (61.57)",
+  "sections": [
+   "61.3",
+   "61.23",
+   "61.57"
+  ],
+  "why": "acting as PIC under IFR requires the certificate and instrument rating (61.3), a valid medical or BasicMed (61.23), and instrument recency (61.57)"
+ },
+ "IR.I.B.K1": {
+  "confidence": "high",
+  "section_why": "91.103 is the only Part 91 rule that compels the pilot to obtain weather information before flight",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 is the only Part 91 rule that compels the pilot to obtain weather information before flight"
+ },
+ "IR.I.B.K2": {
+  "confidence": "high",
+  "section_why": "91.103(a) requires weather reports and forecasts for an IFR flight. The regulation does not enumerate acceptable products",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103(a) requires weather reports and forecasts for an IFR flight. The regulation does not enumerate acceptable products"
+ },
+ "IR.I.B.K2a": {
+  "confidence": "high",
+  "sections": [],
+  "why": "METAR, SPECI and PIREP content and format are NWS and AIM material, no CFR section governs them"
+ },
+ "IR.I.B.K2b": {
+  "confidence": "high",
+  "sections": [],
+  "why": "chart products, no regulation defines or requires them"
+ },
+ "IR.I.B.K2c": {
+  "confidence": "high",
+  "sections": [],
+  "why": "TAF content and format is NWS material, not regulatory"
+ },
+ "IR.I.B.K2d": {
+  "confidence": "high",
+  "sections": [],
+  "why": "GFA is a weather product, not a regulatory requirement"
+ },
+ "IR.I.B.K2e": {
+  "confidence": "high",
+  "sections": [],
+  "why": "winds and temperatures aloft forecast is a weather product, no governing section"
+ },
+ "IR.I.B.K2f": {
+  "confidence": "high",
+  "sections": [],
+  "why": "convective outlook is an SPC product, no governing section"
+ },
+ "IR.I.B.K2g": {
+  "confidence": "high",
+  "sections": [],
+  "why": "AIRMET, SIGMET and Convective SIGMET are NWS advisory products described in the AIM, not in the CFR"
+ },
+ "IR.I.B.K3": {
+  "confidence": "high",
+  "section_why": "91.103 requires the weather assessment for departure, en route and destination. 91.169 is what makes the alternate a regulatory question",
+  "sections": [
+   "91.103",
+   "91.169"
+  ],
+  "why": "91.103 requires the weather assessment for departure, en route and destination. 91.169 is what makes the alternate a regulatory question"
+ },
+ "IR.I.B.K3a": {
+  "confidence": "high",
+  "sections": [],
+  "why": "atmospheric composition and stability is weather theory, no regulation governs it"
+ },
+ "IR.I.B.K3b": {
+  "confidence": "high",
+  "sections": [],
+  "why": "wind, windshear and mountain wave are weather theory, no regulation governs them"
+ },
+ "IR.I.B.K3c": {
+  "confidence": "high",
+  "sections": [],
+  "why": "temperature and heat exchange is weather theory, no regulation governs it"
+ },
+ "IR.I.B.K3d": {
+  "confidence": "high",
+  "sections": [],
+  "why": "moisture and precipitation is weather theory, no regulation governs it"
+ },
+ "IR.I.B.K3e": {
+  "confidence": "high",
+  "sections": [],
+  "why": "air masses and fronts are weather theory, no regulation governs them"
+ },
+ "IR.I.B.K3f": {
+  "confidence": "high",
+  "sections": [],
+  "why": "cloud types and formation are weather theory, no regulation governs them"
+ },
+ "IR.I.B.K3g": {
+  "confidence": "high",
+  "sections": [],
+  "why": "turbulence is weather theory, no regulation governs it"
+ },
+ "IR.I.B.K3h": {
+  "confidence": "high",
+  "sections": [],
+  "why": "thunderstorms and microbursts are weather theory, no regulation governs them"
+ },
+ "IR.I.B.K3i": {
+  "confidence": "low",
+  "section_why": "91.527 is the only Part 91 operating rule on icing conditions. Caveat: it sits in subpart F and applies to large and turbine-powered multiengine airplanes, so it does not reach the typical instrument applicant. Freezing level information itself is a weather product with no governing section",
+  "sections": [
+   "91.527"
+  ],
+  "why": "91.527 is the only Part 91 operating rule on icing conditions. Caveat: it sits in subpart F and applies to large and turbine-powered multiengine airplanes, so it does not reach the typical instrument applicant. Freezing level information itself is a weather product with no governing section"
+ },
+ "IR.I.B.K3j": {
+  "confidence": "high",
+  "sections": [],
+  "why": "fog and mist formation is weather theory, no regulation governs it"
+ },
+ "IR.I.B.K3k": {
+  "confidence": "low",
+  "section_why": "91.527(a) is the frost, ice and snow adherence prohibition, but its subpart F applicability limits it to large and turbine-powered multiengine airplanes. Flagged for human review",
+  "sections": [
+   "91.527"
+  ],
+  "why": "91.527(a) is the frost, ice and snow adherence prohibition, but its subpart F applicability limits it to large and turbine-powered multiengine airplanes. Flagged for human review"
+ },
+ "IR.I.B.K3l": {
+  "confidence": "high",
+  "sections": [],
+  "why": "smoke, haze and volcanic ash as obstructions to visibility are weather theory, no regulation governs them"
+ },
+ "IR.I.B.K4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "flight deck display of datalink weather is equipment and AIM material. 91.225 covers ADS-B Out, not weather reception, so nothing in the list fits"
+ },
+ "IR.I.B.R1": {
+  "confidence": "high",
+  "section_why": "91.103 sets the information the go decision must rest on, 91.3 places the decision and final authority with the PIC",
+  "sections": [
+   "91.103",
+   "91.3"
+  ],
+  "why": "91.103 sets the information the go decision must rest on, 91.3 places the decision and final authority with the PIC"
+ },
+ "IR.I.B.R1a": {
+  "confidence": "high",
+  "sections": [],
+  "why": "when diversion is prudent is judgment, not regulation. The regulatory triggers live in 91.167 and 91.169, which are cited on the fuel and alternate elements"
+ },
+ "IR.I.B.R1b": {
+  "confidence": "high",
+  "sections": [],
+  "why": "personal weather minimums have no regulatory basis, see IR.I.A.R2"
+ },
+ "IR.I.B.R1c": {
+  "confidence": "low",
+  "section_why": "91.103 requires accounting for known and forecast hazardous weather. 91.527 is the icing operating rule but is limited to subpart F aircraft, so it is a partial fit",
+  "sections": [
+   "91.103",
+   "91.527"
+  ],
+  "why": "91.103 requires accounting for known and forecast hazardous weather. 91.527 is the icing operating rule but is limited to subpart F aircraft, so it is a partial fit"
+ },
+ "IR.I.B.R2": {
+  "confidence": "high",
+  "section_why": "the parent element on use and limitations of weather resources maps to the preflight information requirement",
+  "sections": [
+   "91.103"
+  ],
+  "why": "the parent element on use and limitations of weather resources maps to the preflight information requirement"
+ },
+ "IR.I.B.R2a": {
+  "confidence": "high",
+  "sections": [],
+  "why": "onboard weather equipment capability and latency are equipment and AIM subjects, no section in the list governs them"
+ },
+ "IR.I.B.R2b": {
+  "confidence": "high",
+  "section_why": "91.103(a) requires weather reports and forecasts, which is the regulatory hook for their use and limitations",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103(a) requires weather reports and forecasts, which is the regulatory hook for their use and limitations"
+ },
+ "IR.I.B.R2c": {
+  "confidence": "high",
+  "sections": [],
+  "why": "inflight weather resources such as HIWAS, FSS and datalink are AIM material, no governing section"
+ },
+ "IR.I.B.S1": {
+  "confidence": "high",
+  "section_why": "obtaining the weather briefing is the act 91.103(a) requires",
+  "sections": [
+   "91.103"
+  ],
+  "why": "obtaining the weather briefing is the act 91.103(a) requires"
+ },
+ "IR.I.B.S2": {
+  "confidence": "high",
+  "section_why": "analyzing weather conditions for the intended flight is the substance of the 91.103 familiarity requirement",
+  "sections": [
+   "91.103"
+  ],
+  "why": "analyzing weather conditions for the intended flight is the substance of the 91.103 familiarity requirement"
+ },
+ "IR.I.B.S3": {
+  "confidence": "high",
+  "section_why": "the go/no-go decision rests on 91.103 information and 91.3 PIC authority",
+  "sections": [
+   "91.103",
+   "91.3"
+  ],
+  "why": "the go/no-go decision rests on 91.103 information and 91.3 PIC authority"
+ },
+ "IR.I.B.S4": {
+  "confidence": "high",
+  "section_why": "91.169(b) and (c) set when an alternate is required and the alternate weather minimums, 91.167 sets the fuel to reach it",
+  "sections": [
+   "91.169",
+   "91.167"
+  ],
+  "why": "91.169(b) and (c) set when an alternate is required and the alternate weather minimums, 91.167 sets the fuel to reach it"
+ },
+ "IR.I.C.K1": {
+  "confidence": "high",
+  "section_why": "route planning is the preflight action 91.103 requires. The subelements carry the specific rules",
+  "sections": [
+   "91.103"
+  ],
+  "why": "route planning is the preflight action 91.103 requires. The subelements carry the specific rules"
+ },
+ "IR.I.C.K1a": {
+  "confidence": "low",
+  "section_why": "91.205(d)(2) requires navigation equipment suitable for the ground facilities to be used, which is what makes facility availability a planning constraint. A weak textual fit, flagged",
+  "sections": [
+   "91.205"
+  ],
+  "why": "91.205(d)(2) requires navigation equipment suitable for the ground facilities to be used, which is what makes facility availability a planning constraint. A weak textual fit, flagged"
+ },
+ "IR.I.C.K1b": {
+  "confidence": "high",
+  "section_why": "91.133 governs restricted and prohibited areas, 91.137 governs temporary flight restrictions. These are the special use airspace rules carried in the corpus",
+  "sections": [
+   "91.133",
+   "91.137"
+  ],
+  "why": "91.133 governs restricted and prohibited areas, 91.137 governs temporary flight restrictions. These are the special use airspace rules carried in the corpus"
+ },
+ "IR.I.C.K1c": {
+  "confidence": "high",
+  "sections": [],
+  "why": "preferred routes are published in the Chart Supplement and described in the AIM, no CFR section establishes them"
+ },
+ "IR.I.C.K1d": {
+  "confidence": "high",
+  "section_why": "91.169(b) and (c) govern when an alternate must be listed and what it must meet",
+  "sections": [
+   "91.169"
+  ],
+  "why": "91.169(b) and (c) govern when an alternate must be listed and what it must meet"
+ },
+ "IR.I.C.K1e": {
+  "confidence": "high",
+  "sections": [],
+  "why": "enroute chart content is not regulated. 91.503 requires charts but applies only to large and turbine-powered multiengine airplanes"
+ },
+ "IR.I.C.K1f": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Chart Supplement content is not regulated"
+ },
+ "IR.I.C.K1g": {
+  "confidence": "high",
+  "section_why": "91.103(a) explicitly requires NOTAM review for a flight not in the vicinity of an airport",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103(a) explicitly requires NOTAM review for a flight not in the vicinity of an airport"
+ },
+ "IR.I.C.K1h": {
+  "confidence": "high",
+  "sections": [],
+  "why": "the TPP is a publication, not a regulatory object. 91.175(a) requires flying the prescribed procedure but does not govern the publication itself"
+ },
+ "IR.I.C.K2": {
+  "confidence": "high",
+  "section_why": "91.177 minimum IFR altitudes covers terrain and obstacle clearance, 91.179 sets IFR cruising altitudes, 91.211 sets the oxygen requirements named in the element",
+  "sections": [
+   "91.177",
+   "91.179",
+   "91.211"
+  ],
+  "why": "91.177 minimum IFR altitudes covers terrain and obstacle clearance, 91.179 sets IFR cruising altitudes, 91.211 sets the oxygen requirements named in the element"
+ },
+ "IR.I.C.K3": {
+  "confidence": "high",
+  "section_why": "91.103(b) requires the preflight computation of fuel requirements, runway lengths and takeoff and landing distances, which is the regulatory anchor for these calculations",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103(b) requires the preflight computation of fuel requirements, runway lengths and takeoff and landing distances, which is the regulatory anchor for these calculations"
+ },
+ "IR.I.C.K3a": {
+  "confidence": "high",
+  "sections": [],
+  "why": "time, course, distance, heading and speed computations are navigation technique, no regulation governs them"
+ },
+ "IR.I.C.K3b": {
+  "confidence": "high",
+  "sections": [],
+  "why": "ETA computation and UTC conversion are technique, no regulation governs them"
+ },
+ "IR.I.C.K3c": {
+  "confidence": "high",
+  "section_why": "91.167 sets the IFR fuel requirement including the 45 minute reserve and fuel to the alternate, 91.103(b) requires computing it preflight",
+  "sections": [
+   "91.167",
+   "91.103"
+  ],
+  "why": "91.167 sets the IFR fuel requirement including the 45 minute reserve and fuel to the alternate, 91.103(b) requires computing it preflight"
+ },
+ "IR.I.C.K4": {
+  "confidence": "high",
+  "section_why": "91.169 lists the information an IFR flight plan must contain, 91.173 makes filing and a clearance a prerequisite to IFR in controlled airspace",
+  "sections": [
+   "91.169",
+   "91.173"
+  ],
+  "why": "91.169 lists the information an IFR flight plan must contain, 91.173 makes filing and a clearance a prerequisite to IFR in controlled airspace"
+ },
+ "IR.I.C.K5": {
+  "confidence": "high",
+  "section_why": "91.173 is what requires a filed plan and clearance in controlled airspace and by omission explains why neither is required in uncontrolled airspace. 91.169 supplies the plan contents. Closing a flight plan is procedural, not regulatory",
+  "sections": [
+   "91.173",
+   "91.169"
+  ],
+  "why": "91.173 is what requires a filed plan and clearance in controlled airspace and by omission explains why neither is required in uncontrolled airspace. 91.169 supplies the plan contents. Closing a flight plan is procedural, not regulatory"
+ },
+ "IR.I.C.R1": {
+  "confidence": "low",
+  "section_why": "the Pilot leg of PAVE maps to PIC responsibility under 91.3 and the medical deficiency prohibition in 61.53 (Part 61, flagged). PAVE itself is a risk model with no regulatory definition",
+  "sections": [
+   "91.3",
+   "61.53"
+  ],
+  "why": "the Pilot leg of PAVE maps to PIC responsibility under 91.3 and the medical deficiency prohibition in 61.53 (Part 61, flagged). PAVE itself is a risk model with no regulatory definition"
+ },
+ "IR.I.C.R2": {
+  "confidence": "high",
+  "section_why": "91.7 makes the PIC responsible for determining the aircraft is airworthy, 91.205(d) is the IFR equipment list that defines whether the aircraft is legal for the planned flight",
+  "sections": [
+   "91.7",
+   "91.205"
+  ],
+  "why": "91.7 makes the PIC responsible for determining the aircraft is airworthy, 91.205(d) is the IFR equipment list that defines whether the aircraft is legal for the planned flight"
+ },
+ "IR.I.C.R3": {
+  "confidence": "low",
+  "section_why": "91.103 covers the weather, airport and airspace information the environment assessment rests on, 91.177 covers terrain and obstacle clearance",
+  "sections": [
+   "91.103",
+   "91.177"
+  ],
+  "why": "91.103 covers the weather, airport and airspace information the environment assessment rests on, 91.177 covers terrain and obstacle clearance"
+ },
+ "IR.I.C.R4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "external pressures are a human factors concept with no regulatory counterpart"
+ },
+ "IR.I.C.R5": {
+  "confidence": "high",
+  "section_why": "91.3(a) keeps final authority with the PIC regardless of ATC, 91.113(b) keeps see and avoid with the pilot even under IFR in VMC, 91.123 defines the limited force of a clearance",
+  "sections": [
+   "91.3",
+   "91.113",
+   "91.123"
+  ],
+  "why": "91.3(a) keeps final authority with the PIC regardless of ATC, 91.113(b) keeps see and avoid with the pilot even under IFR in VMC, 91.123 defines the limited force of a clearance"
+ },
+ "IR.I.C.R6": {
+  "confidence": "high",
+  "sections": [],
+  "why": "electronic flight planning applications are not regulated. 91.21 reaches portable electronic devices operated aboard the aircraft, not preflight planning software"
+ },
+ "IR.I.C.R7": {
+  "confidence": "high",
+  "section_why": "91.167 is the IFR fuel rule, 91.103(b) requires the preflight computation",
+  "sections": [
+   "91.167",
+   "91.103"
+  ],
+  "why": "91.167 is the IFR fuel rule, 91.103(b) requires the preflight computation"
+ },
+ "IR.I.C.S1": {
+  "confidence": "high",
+  "section_why": "the presented plan must satisfy the preflight information requirement, the IFR fuel requirement, and the flight plan and alternate content rules",
+  "sections": [
+   "91.103",
+   "91.167",
+   "91.169"
+  ],
+  "why": "the presented plan must satisfy the preflight information requirement, the IFR fuel requirement, and the flight plan and alternate content rules"
+ },
+ "IR.I.C.S2": {
+  "confidence": "high",
+  "section_why": "recalculated reserves are measured against the 91.167 IFR fuel requirement",
+  "sections": [
+   "91.167"
+  ],
+  "why": "recalculated reserves are measured against the 91.167 IFR fuel requirement"
+ },
+ "IR.I.C.S3": {
+  "confidence": "high",
+  "section_why": "91.169 defines what goes in the IFR flight plan, 91.173 requires it be filed for IFR in controlled airspace",
+  "sections": [
+   "91.169",
+   "91.173"
+  ],
+  "why": "91.169 defines what goes in the IFR flight plan, 91.173 requires it be filed for IFR in controlled airspace"
+ },
+ "IR.I.C.S4": {
+  "confidence": "low",
+  "section_why": "91.175(a) requires instrument approaches be flown per the prescribed procedure, which is what makes correct chart interpretation regulatory. Departure and arrival procedure interpretation is otherwise AIM material",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(a) requires instrument approaches be flown per the prescribed procedure, which is what makes correct chart interpretation regulatory. Departure and arrival procedure interpretation is otherwise AIM material"
+ },
+ "IR.I.C.S5": {
+  "confidence": "low",
+  "section_why": "91.9 requires operating within the AFM limitations, which is where a light airplane's flight into known icing prohibition lives. 91.527 is the direct icing operating rule but is limited to subpart F aircraft",
+  "sections": [
+   "91.9",
+   "91.527"
+  ],
+  "why": "91.9 requires operating within the AFM limitations, which is where a light airplane's flight into known icing prohibition lives. 91.527 is the direct icing operating rule but is limited to subpart F aircraft"
+ },
+ "IR.I.C.S6": {
+  "confidence": "high",
+  "section_why": "91.103(a) requires NOTAMs and all other available information concerning the flight, including runway and taxiway closures",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103(a) requires NOTAMs and all other available information concerning the flight, including runway and taxiway closures"
+ },
+ "IR.II.A.K1": {
+  "confidence": "low",
+  "section_why": "91.9 requires compliance with the AFM operating limitations that define what the ice protection system is approved for. 91.527 is the icing operating rule, limited to subpart F aircraft",
+  "sections": [
+   "91.9",
+   "91.527"
+  ],
+  "why": "91.9 requires compliance with the AFM operating limitations that define what the ice protection system is approved for. 91.527 is the icing operating rule, limited to subpart F aircraft"
+ },
+ "IR.II.A.K2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "flight control system design and operation is aircraft systems knowledge, no Part 91 section governs it"
+ },
+ "IR.II.A.R1": {
+  "confidence": "low",
+  "section_why": "91.527 is titled Operating in icing conditions and is the on-point rule, but applies only to large and turbine-powered multiengine airplanes. 91.9 carries the AFM icing limitation for everything else",
+  "sections": [
+   "91.527",
+   "91.9"
+  ],
+  "why": "91.527 is titled Operating in icing conditions and is the on-point rule, but applies only to large and turbine-powered multiengine airplanes. 91.9 carries the AFM icing limitation for everything else"
+ },
+ "IR.II.A.R2": {
+  "confidence": "low",
+  "section_why": "system limitations are AFM limitations enforced by 91.9. 91.527 is the direct icing rule with limited applicability",
+  "sections": [
+   "91.9",
+   "91.527"
+  ],
+  "why": "system limitations are AFM limitations enforced by 91.9. 91.527 is the direct icing rule with limited applicability"
+ },
+ "IR.II.A.R3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "no Part 91 section governs autopilot or automation use in instrument conditions for these operations"
+ },
+ "IR.II.A.S1": {
+  "confidence": "high",
+  "section_why": "the manufacturer's anti-ice and de-ice procedures are AFM material, and 91.9 requires operating in compliance with it",
+  "sections": [
+   "91.9"
+  ],
+  "why": "the manufacturer's anti-ice and de-ice procedures are AFM material, and 91.9 requires operating in compliance with it"
+ },
+ "IR.II.A.S2": {
+  "confidence": "high",
+  "section_why": "manufacturer AFCS procedures are AFM or supplement material, enforced through 91.9",
+  "sections": [
+   "91.9"
+  ],
+  "why": "manufacturer AFCS procedures are AFM or supplement material, enforced through 91.9"
+ },
+ "IR.II.B.K1": {
+  "confidence": "high",
+  "section_why": "91.205(b) and (d) list the instruments and equipment required for IFR, which defines the systems this element covers",
+  "sections": [
+   "91.205"
+  ],
+  "why": "91.205(b) and (d) list the instruments and equipment required for IFR, which defines the systems this element covers"
+ },
+ "IR.II.B.K1a": {
+  "confidence": "high",
+  "section_why": "91.205(b) and (d) require the pitot-static instruments, 91.411 sets the 24 month altimeter and static system test for IFR",
+  "sections": [
+   "91.205",
+   "91.411"
+  ],
+  "why": "91.205(b) and (d) require the pitot-static instruments, 91.411 sets the 24 month altimeter and static system test for IFR"
+ },
+ "IR.II.B.K1b": {
+  "confidence": "high",
+  "section_why": "91.205(d)(3) and (d)(4) require the gyroscopic rate of turn, attitude and direction indicators and their power source for IFR",
+  "sections": [
+   "91.205"
+  ],
+  "why": "91.205(d)(3) and (d)(4) require the gyroscopic rate of turn, attitude and direction indicators and their power source for IFR"
+ },
+ "IR.II.B.K1c": {
+  "confidence": "high",
+  "section_why": "91.205 covers the electrical and instrument requirements, 91.215 governs transponder equipment and use, 91.225 governs ADS-B Out equipment and use",
+  "sections": [
+   "91.205",
+   "91.215",
+   "91.225"
+  ],
+  "why": "91.205 covers the electrical and instrument requirements, 91.215 governs transponder equipment and use, 91.225 governs ADS-B Out equipment and use"
+ },
+ "IR.II.B.K1d": {
+  "confidence": "high",
+  "section_why": "91.205(b)(3) requires the magnetic direction indicator",
+  "sections": [
+   "91.205"
+  ],
+  "why": "91.205(b)(3) requires the magnetic direction indicator"
+ },
+ "IR.II.B.K2": {
+  "confidence": "high",
+  "section_why": "91.205(d)(2) requires navigation equipment appropriate to the facilities to be used, 91.171 is the VOR accuracy check that conditions its use for IFR",
+  "sections": [
+   "91.205",
+   "91.171"
+  ],
+  "why": "91.205(d)(2) requires navigation equipment appropriate to the facilities to be used, 91.171 is the VOR accuracy check that conditions its use for IFR"
+ },
+ "IR.II.B.K2a": {
+  "confidence": "high",
+  "section_why": "91.171 is the VOR equipment check required before IFR use, 91.205(d)(2) requires the navigation equipment itself",
+  "sections": [
+   "91.171",
+   "91.205"
+  ],
+  "why": "91.171 is the VOR equipment check required before IFR use, 91.205(d)(2) requires the navigation equipment itself"
+ },
+ "IR.II.B.K2b": {
+  "confidence": "low",
+  "section_why": "91.205(d)(2) is the only listed section reaching RNAV and GPS suitability. GPS and WAAS operational approval lives in AC 90-100 and the AIM, not in the carried CFR parts",
+  "sections": [
+   "91.205"
+  ],
+  "why": "91.205(d)(2) is the only listed section reaching RNAV and GPS suitability. GPS and WAAS operational approval lives in AC 90-100 and the AIM, not in the carried CFR parts"
+ },
+ "IR.II.B.K3": {
+  "confidence": "high",
+  "section_why": "91.21 governs portable electronic devices aboard aircraft operated under IFR, which is the regulatory basis for EFB use",
+  "sections": [
+   "91.21"
+  ],
+  "why": "91.21 governs portable electronic devices aboard aircraft operated under IFR, which is the regulatory basis for EFB use"
+ },
+ "IR.II.B.R1": {
+  "confidence": "high",
+  "sections": [],
+  "why": "automation monitoring and management is a human factors subject, no section in the list governs it"
+ },
+ "IR.II.B.R2": {
+  "confidence": "high",
+  "section_why": "91.205(d)(2) defines what counts as required and approved navigation equipment, 91.21 governs the non-installed portable devices on the other side of the distinction",
+  "sections": [
+   "91.205",
+   "91.21"
+  ],
+  "why": "91.205(d)(2) defines what counts as required and approved navigation equipment, 91.21 governs the non-installed portable devices on the other side of the distinction"
+ },
+ "IR.II.B.R3": {
+  "confidence": "low",
+  "section_why": "91.187 requires reporting navigation and communication equipment malfunctions under IFR in controlled airspace, 91.213 governs continued operation with the failed item",
+  "sections": [
+   "91.187",
+   "91.213"
+  ],
+  "why": "91.187 requires reporting navigation and communication equipment malfunctions under IFR in controlled airspace, 91.213 governs continued operation with the failed item"
+ },
+ "IR.II.B.R4": {
+  "confidence": "high",
+  "section_why": "91.21 is the portable electronic device rule that reaches EFB use on IFR flights",
+  "sections": [
+   "91.21"
+  ],
+  "why": "91.21 is the portable electronic device rule that reaches EFB use on IFR flights"
+ },
+ "IR.II.B.R5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "navigation database currency requirements come from AC 90-100, the AIM and the equipment AFMS, not from the carried CFR parts"
+ },
+ "IR.II.B.S1": {
+  "confidence": "high",
+  "section_why": "operating the required IFR instruments and navigation equipment under 91.205, with the 91.171 VOR check as the precondition to using VOR for IFR",
+  "sections": [
+   "91.205",
+   "91.171"
+  ],
+  "why": "operating the required IFR instruments and navigation equipment under 91.205, with the 91.171 VOR check as the precondition to using VOR for IFR"
+ },
+ "IR.II.B.S2": {
+  "confidence": "high",
+  "section_why": "an applicant supplied EFB is a portable electronic device under 91.21",
+  "sections": [
+   "91.21"
+  ],
+  "why": "an applicant supplied EFB is a portable electronic device under 91.21"
+ },
+ "IR.II.C.K1": {
+  "confidence": "high",
+  "section_why": "91.7 places the airworthiness determination on the PIC, 91.171 is the VOR check performed as part of the instrument flight deck check, 91.205 defines the equipment being checked",
+  "sections": [
+   "91.7",
+   "91.171",
+   "91.205"
+  ],
+  "why": "91.7 places the airworthiness determination on the PIC, 91.171 is the VOR check performed as part of the instrument flight deck check, 91.205 defines the equipment being checked"
+ },
+ "IR.II.C.K2": {
+  "confidence": "high",
+  "section_why": "91.205(d) is the IFR equipment list, 91.409 the annual and 100 hour inspections, 91.411 the altimeter and static system test, 91.413 the transponder test. 91.171 also applies and was dropped to stay within four",
+  "sections": [
+   "91.205",
+   "91.409",
+   "91.411",
+   "91.413"
+  ],
+  "why": "91.205(d) is the IFR equipment list, 91.409 the annual and 100 hour inspections, 91.411 the altimeter and static system test, 91.413 the transponder test. 91.171 also applies and was dropped to stay within four"
+ },
+ "IR.II.C.K3": {
+  "confidence": "high",
+  "section_why": "91.213 is the inoperative instruments and equipment rule including the MEL and the placard and record path, 91.405 requires the discrepancy record entry and placarding",
+  "sections": [
+   "91.213",
+   "91.405"
+  ],
+  "why": "91.213 is the inoperative instruments and equipment rule including the MEL and the placard and record path, 91.405 requires the discrepancy record entry and placarding"
+ },
+ "IR.II.C.R1": {
+  "confidence": "high",
+  "section_why": "91.213 governs whether the flight may proceed with the item inoperative, 91.205 determines whether the item was required in the first place",
+  "sections": [
+   "91.213",
+   "91.205"
+  ],
+  "why": "91.213 governs whether the flight may proceed with the item inoperative, 91.205 determines whether the item was required in the first place"
+ },
+ "IR.II.C.R2": {
+  "confidence": "low",
+  "section_why": "91.103 requires all available information concerning the flight, which is the closest regulatory hook for outdated publications. Database currency itself is not in the carried parts",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires all available information concerning the flight, which is the closest regulatory hook for outdated publications. Database currency itself is not in the carried parts"
+ },
+ "IR.II.C.S1": {
+  "confidence": "high",
+  "section_why": "91.7 requires the PIC to determine the aircraft is in condition for safe flight, 91.103 requires the preflight action, 91.205(d) sets what must be installed and working for IFR",
+  "sections": [
+   "91.7",
+   "91.103",
+   "91.205"
+  ],
+  "why": "91.7 requires the PIC to determine the aircraft is in condition for safe flight, 91.103 requires the preflight action, 91.205(d) sets what must be installed and working for IFR"
+ },
+ "IR.III.A.K1": {
+  "confidence": "high",
+  "section_why": "91.123 defines compliance with clearances and instructions and the deviation and reporting rules, 91.173 requires the clearance for IFR in controlled airspace, 91.183 covers the IFR communications duties across all phases",
+  "sections": [
+   "91.123",
+   "91.173",
+   "91.183"
+  ],
+  "why": "91.123 defines compliance with clearances and instructions and the deviation and reporting rules, 91.173 requires the clearance for IFR in controlled airspace, 91.183 covers the IFR communications duties across all phases"
+ },
+ "IR.III.A.K2": {
+  "confidence": "high",
+  "section_why": "91.3(b) is the emergency deviation authority and 91.3(c) the written report, 91.123(e) requires reporting the deviation to ATC as soon as possible",
+  "sections": [
+   "91.3",
+   "91.123"
+  ],
+  "why": "91.3(b) is the emergency deviation authority and 91.3(c) the written report, 91.123(e) requires reporting the deviation to ATC as soon as possible"
+ },
+ "IR.III.A.K3": {
+  "confidence": "high",
+  "section_why": "91.185 is the two-way radio communications failure rule, 91.183 requires the continuous listening watch and position reports that matter outside radar coverage, 91.187 requires malfunction reports",
+  "sections": [
+   "91.185",
+   "91.183",
+   "91.187"
+  ],
+  "why": "91.185 is the two-way radio communications failure rule, 91.183 requires the continuous listening watch and position reports that matter outside radar coverage, 91.187 requires malfunction reports"
+ },
+ "IR.III.A.R1": {
+  "confidence": "high",
+  "section_why": "91.123 makes the pilot responsible for complying with the clearance as issued, which is what makes an imperfectly understood clearance a hazard",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 makes the pilot responsible for complying with the clearance as issued, which is what makes an imperfectly understood clearance a hazard"
+ },
+ "IR.III.A.R2": {
+  "confidence": "high",
+  "section_why": "91.123(a) and (b) bar deviation from a clearance or instruction, 91.3 keeps final authority with the PIC when the clearance is wrong",
+  "sections": [
+   "91.123",
+   "91.3"
+  ],
+  "why": "91.123(a) and (b) bar deviation from a clearance or instruction, 91.3 keeps final authority with the PIC when the clearance is wrong"
+ },
+ "IR.III.A.R3": {
+  "confidence": "high",
+  "section_why": "91.123 permits requesting an amended clearance rather than accepting one the aircraft cannot fly, 91.3 places the accept or refuse decision on the PIC",
+  "sections": [
+   "91.123",
+   "91.3"
+  ],
+  "why": "91.123 permits requesting an amended clearance rather than accepting one the aircraft cannot fly, 91.3 places the accept or refuse decision on the PIC"
+ },
+ "IR.III.A.R4": {
+  "confidence": "high",
+  "section_why": "91.123 governs acting only on a clearance issued to your aircraft, 91.183 requires the continuous listening watch that surfaces the callsign confusion",
+  "sections": [
+   "91.123",
+   "91.183"
+  ],
+  "why": "91.123 governs acting only on a clearance issued to your aircraft, 91.183 requires the continuous listening watch that surfaces the callsign confusion"
+ },
+ "IR.III.A.S1": {
+  "confidence": "high",
+  "section_why": "copying, reading back and complying with a clearance is 91.123, on the frequency and communications terms of 91.183. Phraseology itself is AIM material",
+  "sections": [
+   "91.123",
+   "91.183"
+  ],
+  "why": "copying, reading back and complying with a clearance is 91.123, on the frequency and communications terms of 91.183. Phraseology itself is AIM material"
+ },
+ "IR.III.A.S2": {
+  "confidence": "high",
+  "section_why": "setting equipment in compliance with the clearance is 91.123, 91.215 governs transponder code operation, 91.183 governs the communications setup",
+  "sections": [
+   "91.123",
+   "91.215",
+   "91.183"
+  ],
+  "why": "setting equipment in compliance with the clearance is 91.123, 91.215 governs transponder code operation, 91.183 governs the communications setup"
+ },
+ "IR.III.A.S3": {
+  "confidence": "low",
+  "section_why": "91.103 requires all available information concerning the flight, the closest hook for publication currency. Chart currency is not directly regulated for Part 91 small aircraft",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires all available information concerning the flight, the closest hook for publication currency. Chart currency is not directly regulated for Part 91 small aircraft"
+ },
+ "IR.III.A.S4": {
+  "confidence": "high",
+  "section_why": "91.181 is the course to be flown rule that defines what intercepting and tracking means, 91.123 makes it a clearance compliance matter",
+  "sections": [
+   "91.181",
+   "91.123"
+  ],
+  "why": "91.181 is the course to be flown rule that defines what intercepting and tracking means, 91.123 makes it a clearance compliance matter"
+ },
+ "IR.III.A.S5": {
+  "confidence": "high",
+  "section_why": "91.181 requires operating along the centerline of the airway or the direct course, 91.123 requires holding the assigned altitude and heading. The ACS tolerances themselves are not regulatory",
+  "sections": [
+   "91.181",
+   "91.123"
+  ],
+  "why": "91.181 requires operating along the centerline of the airway or the direct course, 91.123 requires holding the assigned altitude and heading. The ACS tolerances themselves are not regulatory"
+ },
+ "IR.III.A.S6": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are FAA training constructs from the handbooks, no regulation governs them for Part 91 single pilot operations"
+ },
+ "IR.III.A.S7": {
+  "confidence": "high",
+  "sections": [],
+  "why": "no Part 91 checklist requirement reaches small aircraft. 91.503 requires operating information but applies only to large and turbine-powered multiengine airplanes"
+ },
+ "IR.III.B.K1": {
+  "confidence": "low",
+  "section_why": "91.183 supplies the IFR position and reporting duties. Holding pattern geometry, entry procedures and maximum holding speeds are AIM and TERPS material with no CFR counterpart, so the regulatory coverage of this element is thin",
+  "sections": [
+   "91.183"
+  ],
+  "why": "91.183 supplies the IFR position and reporting duties. Holding pattern geometry, entry procedures and maximum holding speeds are AIM and TERPS material with no CFR counterpart, so the regulatory coverage of this element is thin"
+ },
+ "IR.III.B.R1": {
+  "confidence": "high",
+  "section_why": "91.167 sets the IFR fuel requirement against which an unanticipated EFC time must be recalculated",
+  "sections": [
+   "91.167"
+  ],
+  "why": "91.167 sets the IFR fuel requirement against which an unanticipated EFC time must be recalculated"
+ },
+ "IR.III.B.R2": {
+  "confidence": "high",
+  "section_why": "91.167 defines the fuel floor that minimum fuel approaches, 91.3(b) is the emergency declaration authority",
+  "sections": [
+   "91.167",
+   "91.3"
+  ],
+  "why": "91.167 defines the fuel floor that minimum fuel approaches, 91.3(b) is the emergency declaration authority"
+ },
+ "IR.III.B.R3": {
+  "confidence": "low",
+  "section_why": "deteriorating destination weather is a fuel and alternate problem under 91.167 and 91.169. The decision to hold is otherwise unregulated",
+  "sections": [
+   "91.167",
+   "91.169"
+  ],
+  "why": "deteriorating destination weather is a fuel and alternate problem under 91.167 and 91.169. The decision to hold is otherwise unregulated"
+ },
+ "IR.III.B.R4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "holding entry and wind correction technique is AIM material, no CFR section governs it"
+ },
+ "IR.III.B.S1": {
+  "confidence": "high",
+  "sections": [],
+  "why": "holding entry procedures are recommended in the AIM, not required by regulation"
+ },
+ "IR.III.B.S2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "maximum holding speeds come from the AIM and TERPS. 91.117 governs speed below 10,000 feet and near airports, not holding speed, so nothing in the list fits"
+ },
+ "IR.III.B.S3": {
+  "confidence": "low",
+  "section_why": "entering the hold at the clearance limit is compliance with the ATC clearance under 91.123",
+  "sections": [
+   "91.123"
+  ],
+  "why": "entering the hold at the clearance limit is compliance with the ATC clearance under 91.123"
+ },
+ "IR.III.B.S3a": {
+  "confidence": "high",
+  "section_why": "published and assigned holding restrictions such as leg length reach the pilot through the clearance, which 91.123 requires be complied with",
+  "sections": [
+   "91.123"
+  ],
+  "why": "published and assigned holding restrictions such as leg length reach the pilot through the clearance, which 91.123 requires be complied with"
+ },
+ "IR.III.B.S4": {
+  "confidence": "high",
+  "section_why": "91.123 requires holding the assigned altitude, 91.181 governs course tracking. The ACS tolerances themselves are not regulatory",
+  "sections": [
+   "91.123",
+   "91.181"
+  ],
+  "why": "91.123 requires holding the assigned altitude, 91.181 governs course tracking. The ACS tolerances themselves are not regulatory"
+ },
+ "IR.III.B.S5": {
+  "confidence": "low",
+  "section_why": "91.181 is the course to be flown rule, the nearest regulatory basis for staying on the inbound course. Wind correction technique within the pattern is AIM material",
+  "sections": [
+   "91.181"
+  ],
+  "why": "91.181 is the course to be flown rule, the nearest regulatory basis for staying on the inbound course. Wind correction technique within the pattern is AIM material"
+ },
+ "IR.III.B.S6": {
+  "confidence": "high",
+  "sections": [],
+  "why": "use of an MFD or graphical display to monitor position is technique, no section in the list governs it"
+ },
+ "IR.III.B.S7": {
+  "confidence": "high",
+  "section_why": "91.183 sets the IFR reporting requirements, 91.123 requires compliance with the restrictions in the holding clearance",
+  "sections": [
+   "91.183",
+   "91.123"
+  ],
+  "why": "91.183 sets the IFR reporting requirements, 91.123 requires compliance with the restrictions in the holding clearance"
+ },
+ "IR.III.B.S8": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are training constructs, no regulation governs them"
+ }
 }

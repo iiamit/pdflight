@@ -1,0 +1,2468 @@
+{
+ "certificate": "atp",
+ "packet": "atp-a",
+ "areas": [
+  "I"
+ ],
+ "anchor_menu": {
+  "afh": {
+   "afh:ch01": "Introduction to Flight Training",
+   "afh:ch02": "Ground Operations",
+   "afh:ch03": "Basic Flight Maneuvers",
+   "afh:ch04": "Energy Management: Mastering Altitude and Airspeed Control",
+   "afh:ch05": "Maintaining Aircraft Control: Upset Prevention and Recovery",
+   "afh:ch06": "Takeoffs and Departure Climbs",
+   "afh:ch07": "Ground Reference Maneuvers",
+   "afh:ch08": "Airport Traffic Patterns",
+   "afh:ch09": "Approaches and Landings",
+   "afh:ch10": "Performance Maneuvers",
+   "afh:ch11": "Night Operations",
+   "afh:ch12": "Transition to Complex Airplanes",
+   "afh:ch13": "Transition to Multiengine Airplanes",
+   "afh:ch14": "Transition to Tailwheel Airplanes",
+   "afh:ch15": "Transition to Turbopropeller-Powered Airplanes",
+   "afh:ch16": "Transition to Jet-Powered Airplanes",
+   "afh:ch17": "Transition to Light Sport Airplanes (LSA)",
+   "afh:ch18": "Emergency Procedures"
+  },
+  "aim": {
+   "aim:ch01": "Air Navigation",
+   "aim:ch01-s01": "Section 1. Navigation Aids",
+   "aim:ch01-s02": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+   "aim:ch02": "Aeronautical Lighting and Other Airport",
+   "aim:ch02-s01": "Section 1. Airport Lighting Aids",
+   "aim:ch02-s02": "Section 2. Air Navigation and Obstruction Lighting",
+   "aim:ch02-s03": "Section 3. Airport Marking Aids and Signs",
+   "aim:ch03": "Airspace",
+   "aim:ch03-s01": "Section 1. General",
+   "aim:ch03-s02": "Section 2. Controlled Airspace",
+   "aim:ch03-s03": "Section 3. Class G Airspace",
+   "aim:ch03-s04": "Section 4. Special Use Airspace",
+   "aim:ch03-s05": "Section 5. Other Airspace Areas",
+   "aim:ch04": "Air Traffic Control",
+   "aim:ch04-s01": "Section 1. Services Available to Pilots",
+   "aim:ch04-s02": "Section 2. Radio Communications Phraseology and Techniques",
+   "aim:ch04-s03": "Section 3. Airport Operations",
+   "aim:ch04-s04": "Section 4. ATC Clearances and Aircraft Separation",
+   "aim:ch04-s05": "Section 5. Surveillance Systems",
+   "aim:ch04-s06": "Section 6. Operational Policy/Procedures for Reduced Vertical Separation Minimum (RVSM) in the Domestic U.S., Alaska, Of",
+   "aim:ch04-s07": "Section 7. Operational Policy/Procedures for the Gulf of America 50 NM Lateral Separation Initiative",
+   "aim:ch05": "Air Traffic Procedures",
+   "aim:ch05-s01": "Section 1. Preflight",
+   "aim:ch05-s02": "Section 2. Departure Procedures",
+   "aim:ch05-s03": "Section 3. En Route Procedures",
+   "aim:ch05-s04": "Section 4. Arrival Procedures",
+   "aim:ch05-s05": "Section 5. Pilot/Controller Roles and Responsibilities",
+   "aim:ch05-s06": "Section 6. National Security and Interception Procedures",
+   "aim:ch06": "Emergency Procedures",
+   "aim:ch06-s01": "Section 1. General",
+   "aim:ch06-s02": "Section 2. Emergency Services Available to Pilots",
+   "aim:ch06-s03": "Section 3. Distress and Urgency Procedures",
+   "aim:ch06-s04": "Section 4. Two‐way Radio Communications Failure",
+   "aim:ch06-s05": "Section 5. Aircraft Rescue and Fire Fighting Communications",
+   "aim:ch07": "Safety of Flight",
+   "aim:ch07-s01": "Section 1. Meteorology",
+   "aim:ch07-s02": "Section 2. Barometric Altimeter Errors and Setting Procedures",
+   "aim:ch07-s03": "Section 3. Cold Temperature Barometric Altimeter Errors, Setting Procedures and Cold Temperature Airports (CTA)",
+   "aim:ch07-s04": "Section 4. Wake Turbulence",
+   "aim:ch07-s05": "Section 5. Bird Hazards and Flight Over National Refuges, Parks, and Forests",
+   "aim:ch07-s06": "Section 6. Potential Flight Hazards",
+   "aim:ch07-s07": "Section 7. Safety, Accident, and Hazard Reports",
+   "aim:ch08": "Medical Facts for Pilots",
+   "aim:ch08-s01": "Section 1. Fitness for Flight",
+   "aim:ch09": "Aeronautical Charts and",
+   "aim:ch09-s01": "Section 1. Types of Charts Available",
+   "aim:ch10": "Helicopter Operations",
+   "aim:ch10-s01": "Section 1. Helicopter IFR Operations",
+   "aim:ch10-s02": "Section 2. Special Operations",
+   "aim:ch11": "Unmanned Aircraft Systems (UAS)",
+   "aim:ch11-s01": "Section 1. General",
+   "aim:ch11-s02": "Section 2. Small Unmanned Aircraft System (sUAS)",
+   "aim:ch11-s03": "Section 3. Large UAS (MGOW 55 Pounds or More)",
+   "aim:ch11-s04": "Section 4. Airspace Access for UAS",
+   "aim:ch11-s05": "Section 5. UAS Pilot Testing, Certification and Responsibilities",
+   "aim:ch11-s06": "Section 6. Advanced Air Mobility",
+   "aim:ch11-s07": "Section 7. UAS Operations on Airports",
+   "aim:ch11-s08": "Section 8. Other Information and Best Practices"
+  },
+  "aviation-weather": {
+   "aviation-weather:ch01": "1 Introduction",
+   "aviation-weather:ch02": "2 Aviation Weather Service Program",
+   "aviation-weather:ch03": "3 Overview of Aviation Weather Information",
+   "aviation-weather:ch04": "4 The Earth’s Atmosphere",
+   "aviation-weather:ch05": "5 Heat and Temperature",
+   "aviation-weather:ch06": "6 Water Vapor",
+   "aviation-weather:ch07": "7 Earth-Atmosphere Heat Imbalances",
+   "aviation-weather:ch08": "8 Atmospheric Pressure and Altimetry",
+   "aviation-weather:ch09": "9 Global Circulations and Jet Streams",
+   "aviation-weather:ch10": "10 Wind",
+   "aviation-weather:ch11": "11 Air Masses, Fronts, and the Wave Cyclone Model",
+   "aviation-weather:ch12": "12 Vertical Motion and Clouds",
+   "aviation-weather:ch13": "13 Atmospheric Stability",
+   "aviation-weather:ch14": "14 Precipitation",
+   "aviation-weather:ch15": "15 Weather Radar",
+   "aviation-weather:ch16": "16 Mountain Weather",
+   "aviation-weather:ch17": "17 Tropical Weather",
+   "aviation-weather:ch18": "18 Weather and Obstructions to Visibility",
+   "aviation-weather:ch19": "19 Turbulence",
+   "aviation-weather:ch20": "20 Icing",
+   "aviation-weather:ch21": "21 Arctic Weather",
+   "aviation-weather:ch22": "22 Thunderstorms",
+   "aviation-weather:ch23": "23 Space Weather",
+   "aviation-weather:ch24": "24 Observations",
+   "aviation-weather:ch25": "25 Analysis",
+   "aviation-weather:ch26": "26 Advisories",
+   "aviation-weather:ch27": "27 Forecasts",
+   "aviation-weather:ch28": "28 Aviation Weather Tools"
+  },
+  "iph": {
+   "iph:ch01": "Departure Procedures",
+   "iph:ch02": "En Route Operations",
+   "iph:ch03": "Arrivals",
+   "iph:ch04": "Approaches",
+   "iph:ch05": "Improvement Plans",
+   "iph:ch06": "Airborne Navigation Databases",
+   "iph:ch07": "Helicopter Instrument Procedures"
+  },
+  "phak": {
+   "phak:ch01": "Introduction To Flying",
+   "phak:ch02": "Aeronautical Decision-Making",
+   "phak:ch03": "Aircraft Construction",
+   "phak:ch04": "Principles of Flight",
+   "phak:ch05": "Aerodynamics",
+   "phak:ch06": "Flight Controls",
+   "phak:ch07": "Aircraft Systems",
+   "phak:ch08": "Flight",
+   "phak:ch09": "Flight Manuals and Other Documents",
+   "phak:ch10": "Weight and Balance",
+   "phak:ch11": "Aircraft Performance",
+   "phak:ch12": "Weather Theory",
+   "phak:ch13": "Aviation Weather Services",
+   "phak:ch14": "Airport Operations",
+   "phak:ch15": "Airspace",
+   "phak:ch16": "Navigation",
+   "phak:ch17": "Aeromedical Factors"
+  },
+  "risk-management": {
+   "risk-management:ch01": "Introduction to Risk Management",
+   "risk-management:ch02": "Chapter 2: Personal Minimums",
+   "risk-management:ch03": "Chapter 3: Identifying Hazards & Associated Risks",
+   "risk-management:ch04": "Chapter 4: Assessing Risk",
+   "risk-management:ch05": "Chapter 5: Mitigating Risk",
+   "risk-management:ch06": "Chapter 6: Threat and Error Management",
+   "risk-management:ch07": "Automation & Flight Path",
+   "risk-management:ch08": "Aeronautical Decision-Making in"
+  },
+  "seaplane": {
+   "seaplane:amphibious-gear": "In seaplanes equipped with retractable landing gear",
+   "seaplane:anchoring": "ANCHORING",
+   "seaplane:beaching": "BEACHING",
+   "seaplane:confined-area-landing": "CONFINED AREA LANDING",
+   "seaplane:confined-area-takeoffs": "CONFINED AREA TAKEOFFS",
+   "seaplane:controlled-weathervaning": "CONTROLLED WEATHERVANING",
+   "seaplane:crosswind-landing": "CROSSWIND LANDING",
+   "seaplane:crosswind-takeoffs": "CROSSWIND TAKEOFFS",
+   "seaplane:docking": "DOCKING",
+   "seaplane:downwind-landing": "DOWNWIND LANDING",
+   "seaplane:downwind-takeoffs": "DOWNWIND TAKEOFFS",
+   "seaplane:emergency-landing": "EMERGENCY LANDING",
+   "seaplane:glassy-water-landing": "GLASSY WATER LANDING",
+   "seaplane:glassy-water-takeoffs": "GLASSY WATER TAKEOFFS",
+   "seaplane:go-around": "GO-AROUND",
+   "seaplane:idling-position": "IDLING POSITION",
+   "seaplane:landing-area-reconnaissance": "LANDING AREA RECONNAISSANCE",
+   "seaplane:mooring": "MOORING",
+   "seaplane:multiengine-seaplanes": "MULTIENGINE SEAPLANES",
+   "seaplane:normal-landing": "NORMAL LANDING",
+   "seaplane:normal-takeoffs": "NORMAL TAKEOFFS",
+   "seaplane:planing-or-step-position": "PLANING OR STEP POSITION",
+   "seaplane:plowing-position": "PLOWING POSITION",
+   "seaplane:porpoising": "PORPOISING",
+   "seaplane:postflight-procedures": "POSTFLIGHT PROCEDURES",
+   "seaplane:preflight-inspection": "PREFLIGHT INSPECTION",
+   "seaplane:ramping": "RAMPING",
+   "seaplane:rough-water-landing": "ROUGH WATER LANDING",
+   "seaplane:rough-water-takeoffs": "ROUGH WATER TAKEOFFS",
+   "seaplane:sailing": "SAILING",
+   "seaplane:salt-water": "SALT WATER",
+   "seaplane:skipping": "SKIPPING",
+   "seaplane:starting-the-engine": "STARTING THE ENGINE",
+   "seaplane:takeoffs": "TAKEOFFS",
+   "seaplane:taxiing-and-sailing": "TAXIING AND SAILING",
+   "seaplane:turns": "TURNS",
+   "seaplane:using-water-rudders": "USING WATER RUDDERS"
+  },
+  "weight-balance": {
+   "weight-balance:ch01": "Weight and Balance Control",
+   "weight-balance:ch02": "Weight and Balance Theory",
+   "weight-balance:ch03": "Determining the Empty Weight Center of Gravity",
+   "weight-balance:ch04": "Light Sport Aircraft Weight",
+   "weight-balance:ch05": "Single-Engine Aircraft Weight",
+   "weight-balance:ch06": "Weight and Balance Computations",
+   "weight-balance:ch07": "Center of Gravity Change After",
+   "weight-balance:ch08": "Helicopter",
+   "weight-balance:ch09": "Commuter Category and Large Aircraft",
+   "weight-balance:ch10": "Use of Computer for Weight"
+  }
+ },
+ "elements": {
+  "AA.I.A.K1": {
+   "text": "Landing gear–extension/retraction system(s), indicators, float devices, brakes, antiskid, tires, nose- wheel steering, and shock absorbers.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch12",
+    "afh:ch16"
+   ]
+  },
+  "AA.I.A.K10": {
+   "text": "Ice protection–anti-ice, deice, pitot-static system protection, turbine inlet, propeller, windshield, airfoil surfaces, and other related components.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.K11": {
+   "text": "Crewmember and passenger equipment–oxygen system, survival gear, emergency exits, evacuation procedures and crew duties, quick donning oxygen mask for crewmembers, passenger oxygen system.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch18"
+   ]
+  },
+  "AA.I.A.K12": {
+   "text": "Flight controls–ailerons, elevator(s), rudder(s), control tabs, control boost/augmentation systems, flaps, spoilers, leading edge devices, speed brakes, stability augmentation system (e.g., yaw damper), and trim systems.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch12",
+    "afh:ch16"
+   ]
+  },
+  "AA.I.A.K13": {
+   "text": "Pitot-static system–associated instruments and the power source for those flight instruments. Operation and power sources for other flight instruments. 3",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.K14": {
+   "text": "Fire & smoke detection, protection, and suppression–powerplant, cargo and passenger compartments, lavatory, pneumatic and environmental, electrical/avionics, and batteries (on aircraft and personal electronic devices).",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch18"
+   ]
+  },
+  "AA.I.A.K15": {
+   "text": "Envelope protection–angle of attack warning and protection, and speed protection.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch05"
+   ]
+  },
+  "AA.I.A.K16": {
+   "text": "The contents of the Pilot Owner's Handbook (POH) or Airplane Flight Manual (AFM) with regard to the systems and components in the airplane.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.K17": {
+   "text": "How to use a Minimum Equipment List (MEL) and a Configuration Deviation List (CDL).",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.K2": {
+   "text": "Powerplant–controls and indications, induction system, carburetor and fuel injection, turbocharging, cooling, mounting points, turbine wheels, compressors, deicing, anti-icing, and other related components.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch15",
+    "afh:ch16"
+   ]
+  },
+  "AA.I.A.K3": {
+   "text": "Propellers–type, controls, feathering/unfeathering, auto-feather, negative torque sensing, synchronizing, synchrophasing, and thrust reverse, including uncommanded reverse procedures.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch13",
+    "afh:ch15"
+   ]
+  },
+  "AA.I.A.K4": {
+   "text": "Fuel system–capacity, drains, pumps, controls, indicators, cross-feeding, transferring, jettisoning, fuel grade, color and additives, fueling and defueling procedures, and fuel substitutions.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.K5": {
+   "text": "Oil system–capacity, allowable types of oil, quantities, and indicators.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.K6": {
+   "text": "Hydraulic system–capacity, pumps, pressure, reservoirs, allowable types of fluid, and regulators.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.K7": {
+   "text": "Electrical system–alternators, generators, batteries, circuit breakers and protection devices, controls, indicators, and external and auxiliary power sources and ratings.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.K8": {
+   "text": "Pneumatic and environmental systems–heating, cooling, ventilation, oxygen, pressurization, supply for ice protection systems, controls, indicators, and regulating devices.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch16"
+   ]
+  },
+  "AA.I.A.K9": {
+   "text": "Avionics and communications–autopilot, flight director, Electronic Flight Instrument Systems (EFIS), Flight Management System (FMS), Electronic Flight Bag (EFB), Radar, Inertial Navigation Systems (INS), Global Navigation Satellite System (GNSS), Space-Based Augmentation System (SBAS), Ground-Based",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "risk-management:ch07"
+   ]
+  },
+  "AA.I.A.R1": {
+   "text": "Detection of system malfunctions or failures.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch18"
+   ]
+  },
+  "AA.I.A.R2": {
+   "text": "Management of a system failure.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch18"
+   ]
+  },
+  "AA.I.A.R3": {
+   "text": "Monitoring and management of automated systems.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "risk-management:ch07"
+   ]
+  },
+  "AA.I.A.R4": {
+   "text": "Following checklists or procedures.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch02",
+    "risk-management:ch06"
+   ]
+  },
+  "AA.I.A.S1": {
+   "text": "Explain and describe the operation of the aircraft systems and components using correct terminology.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch15",
+    "afh:ch16"
+   ]
+  },
+  "AA.I.A.S2": {
+   "text": "Recall immediate action items or memory items, if appropriate.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch18"
+   ]
+  },
+  "AA.I.A.S3": {
+   "text": "Identify system or component limitations listed in the POH/AFM.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.S4": {
+   "text": "Demonstrate or describe, as appropriate, the process for deferring inoperative equipment (e.g., MEL) and using a CDL.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.S5": {
+   "text": "Comply with operations specifications, management specifications, and letters of authorization, if applicable.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.A.S6": {
+   "text": "Through the use of the appropriate checklists and normal and abnormal procedures, demonstrate the proper use of the aircraft systems, subsystems, and devices, as determined by the evaluator.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch02",
+    "afh:ch18"
+   ]
+  },
+  "AA.I.B.K1": {
+   "text": "Elements related to performance and limitations by explaining the use of charts, tables, and data to determine performance.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K2": {
+   "text": "How to determine the following, as applicable to the class sought:",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K2a": {
+   "text": "a. Accelerate-stop / accelerate-go distance",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K2b": {
+   "text": "b. Takeoff performance [e.g., balance field length and Velocity, Minimum Control (ground) (VMCG)] 4",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K2c": {
+   "text": "c. Climb performance",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K2d": {
+   "text": "d. Cruise performance (e.g., optimum and maximum operating altitudes)",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K2e": {
+   "text": "e. Descent performance",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K2f": {
+   "text": "f. Landing performance",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K2g": {
+   "text": "g. Performance with an inoperative powerplant for all phases of flight (AMEL, AMES)",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K2h": {
+   "text": "h. Weight and balance and how to shift weight",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K3": {
+   "text": "Factors affecting performance, including:",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K3a": {
+   "text": "a. Atmospheric conditions",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K3b": {
+   "text": "b. Pilot technique",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K3c": {
+   "text": "c. Aircraft configuration (e.g., flap setting)",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K3d": {
+   "text": "d. Airport environment (e.g., runway condition, land and hold short operations (LAHSO))",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K3e": {
+   "text": "e. Loading (e.g., center of gravity)",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K3f": {
+   "text": "f. Aircraft weight",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K4": {
+   "text": "Aerodynamics and how it relates to performance.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K5": {
+   "text": "Adverse effects of exceeding an airplane limitation or the aircraft operating envelope.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K6": {
+   "text": "Effects of icing on performance.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K7": {
+   "text": "Clean wing concept; deicing and anti-icing procedures, including use of appropriate deice fluid, hold- over tables, calculating hold-over times, and pre-takeoff contamination checks.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K8": {
+   "text": "Air carrier weight and balance systems (e.g., average weight program). Air Transport Pilot (ATP) (AMEL, AMES).",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.K9": {
+   "text": "Runway assessment and condition reporting and use of the Runway Condition Assessment Matrix (RCAM). (ATP)(AMEL, AMES).",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.R1": {
+   "text": "Use of performance charts, tables, and data.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.R2": {
+   "text": "Airplane limitations.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.R3": {
+   "text": "Possible differences between calculated performance and actual performance.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.R4": {
+   "text": "Airplane icing and its effect on performance and stall warning.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.R5": {
+   "text": "Runway excursions.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.S1": {
+   "text": "Describe the airspeeds used during specific phases of flight.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.S2": {
+   "text": "Describe the effects of meteorological conditions on performance for all phases of flight and correctly apply these factors to a specific chart, table, graph, or other performance data.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.S3": {
+   "text": "Describe the procedures for wing contamination recognition and any deice/anti-ice procedures prior to takeoff. 5",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.S4": {
+   "text": "Explain the adverse effects of airframe icing during all phases of flight. Describe any operating limitations for flight in icing conditions. If equipped, describe the procedures for deicing and anti-icing system use and their effects on performance.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.S5": {
+   "text": "Compute weight and balance, including practical techniques to resolve out-of-limits calculations for a representative scenario, as specified by the evaluator.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.S6": {
+   "text": "Determine the computed center-of-gravity is within the acceptable limits and the lateral fuel balance is within limits for takeoff and landing.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.B.S7": {
+   "text": "Demonstrate proficient use of appropriate performance charts, tables, graphs, or other data to determine airplane performance and limitations for all phases of flight.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane",
+    "weight-balance"
+   ],
+   "current": []
+  },
+  "AA.I.C.K1": {
+   "text": "Sources of weather data (e.g., National Weather Service, Flight Service) for flight planning purposes.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K2": {
+   "text": "Acceptable weather products and resources required for preflight planning, current and forecast weather for departure, en route, and arrival phases of flight such as:",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K2a": {
+   "text": "a. Airport Observations (METAR and SPECI) and Pilot Observations (PIREP)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K2b": {
+   "text": "b. Surface Analysis Chart, Ceiling and Visibility Chart (CVA)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K2c": {
+   "text": "c. Terminal Aerodrome Forecasts (TAF)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K2d": {
+   "text": "d. Graphical Forecasts for Aviation (GFA)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K2e": {
+   "text": "e. Wind and Temperature Aloft Forecast (FB)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K2f": {
+   "text": "f. Convective Outlook (AC)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K2g": {
+   "text": "g. Inflight Aviation Weather Advisories including Airmen's Meteorological Information (AIRMET), Significant Meteorological Information (SIGMET), and Convective SIGMET",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3": {
+   "text": "Meteorology applicable to the departure, en route, alternate, and destination for flights conducted under Instrument Flight Rules (IFR) to include expected climate and hazardous conditions such as:",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3a": {
+   "text": "a. Atmospheric composition and stability",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3b": {
+   "text": "b. Wind (e.g., windshear, mountain wave, factors affecting wind, etc.)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3c": {
+   "text": "c. Temperature and heat exchange",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3d": {
+   "text": "d. Moisture/precipitation",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3e": {
+   "text": "e. Weather system formation, including air masses and fronts 6",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3f": {
+   "text": "f. Clouds",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3g": {
+   "text": "g. Turbulence",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3h": {
+   "text": "h. Thunderstorms and microbursts",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3i": {
+   "text": "i. Icing and freezing level information",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3j": {
+   "text": "j. Fog/mist",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K3k": {
+   "text": "k. Frost",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.C.K3l": {
+   "text": "l. Obstructions to visibility (e.g., smoke, haze, volcanic ash, etc.)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K4": {
+   "text": "Flight deck displays of digital weather and aeronautical information, their use to navigate around weather, and equipment limitations.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.K5": {
+   "text": "Low-visibility operations (e.g., surface movement, category II and III approaches). (ATP)(AMEL, AMES).",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04"
+   ]
+  },
+  "AA.I.C.K6": {
+   "text": "Flight Risk Assessment Tools.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch04"
+   ]
+  },
+  "AA.I.C.R1": {
+   "text": "Weather conditions involved in departure and in-flight decision making, to include:",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch08"
+   ]
+  },
+  "AA.I.C.R1a": {
+   "text": "a. Circumstances requiring a change in course or destination",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch08"
+   ]
+  },
+  "AA.I.C.R1b": {
+   "text": "b. Known or forecast icing, winds or turbulence aloft, volcanic ash, destination weather, etc.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.R1c": {
+   "text": "c. Personal weather minimums",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch02"
+   ]
+  },
+  "AA.I.C.R1d": {
+   "text": "d. Operator specified or aircraft operational limitations, if applicable",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.C.R2": {
+   "text": "Use and limitations of:",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.C.R2a": {
+   "text": "a. Installed onboard weather equipment",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.R2b": {
+   "text": "b. Aviation weather reports and forecasts",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.R2c": {
+   "text": "c. Inflight weather resources",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s01",
+    "aim:ch07-s01"
+   ]
+  },
+  "AA.I.C.S1": {
+   "text": "Interpret weather information, apply principles of aeronautical decision-making, and use a Flight Risk Assessment Tool, if available.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch04",
+    "risk-management:ch08"
+   ]
+  },
+  "AA.I.D.K1": {
+   "text": "Aerodynamics of large transport category airplanes, including flight characteristics of swept wing airplanes (e.g., Mach buffet). 7",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch16",
+    "phak:ch05"
+   ]
+  },
+  "AA.I.D.K2": {
+   "text": "Energy management.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch04"
+   ]
+  },
+  "AA.I.D.K3": {
+   "text": "Relationship between Mach number, indicated airspeed, true airspeed, and change over altitudes.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch16",
+    "phak:ch08"
+   ]
+  },
+  "AA.I.D.K4": {
+   "text": "Load factor at high altitude and its effect on high and low speed operating margins.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch16"
+   ]
+  },
+  "AA.I.D.K5": {
+   "text": "Relationship between altitude capability, weight, and temperature.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch16",
+    "phak:ch11"
+   ]
+  },
+  "AA.I.D.K6": {
+   "text": "Maximum Operating Speed - Knots (VMO) / Maximum Operating Speed - Mach (MMO) convergence and stall angle of attack.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch16"
+   ]
+  },
+  "AA.I.D.K7": {
+   "text": "Maximum Lift over Drag Ratio (L/DMAX).",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch05"
+   ]
+  },
+  "AA.I.D.K8": {
+   "text": "Best range and best endurance.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch11"
+   ]
+  },
+  "AA.I.D.K9": {
+   "text": "Factors which contribute to airplane upsets at high altitude and upset prevention and recovery techniques.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch05"
+   ]
+  },
+  "AA.I.D.R1": {
+   "text": "Managing the airplane’s energy state.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch04"
+   ]
+  },
+  "AA.I.D.R2": {
+   "text": "High operating altitudes at high operational weights.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch16"
+   ]
+  },
+  "AA.I.D.R3": {
+   "text": "High altitude slow-downs and excursions behind the power curve.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch04",
+    "afh:ch16"
+   ]
+  },
+  "AA.I.D.R4": {
+   "text": "Turbulence at high altitude.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch16"
+   ]
+  },
+  "AA.I.D.S1": {
+   "text": "If a cruise altitude is reached, manage the airplane’s systems and energy state.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch04"
+   ]
+  },
+  "AA.I.E.K1": {
+   "text": "Turbine engines, thrust reversing systems, and system malfunctions.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K10": {
+   "text": "Elements associated with operating at complex and high traffic airports with emphasis on runway incursion prevention techniques.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K11": {
+   "text": "Professional responsibilities associated with being an ATP certificate holder and how to apply leadership skills as pilot-in-command.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K12": {
+   "text": "Crew resource management (CRM) principles and application in a multi-crew environment.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K13": {
+   "text": "Use of safety programs to manage risk across an organization (e.g., Threat and error management (TEM), or Aviation Safety Action Program (ASAP)).",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K14": {
+   "text": "Operations specifications.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K2": {
+   "text": "Airplane automation components (e.g., flight director, autopilot), their relationship to each other, and how to manage the automation for flight.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K3": {
+   "text": "Advanced navigation equipment (e.g., FMS, Required Navigation Performance (RNP), ADS-B, EFB, etc.) and how it is used inflight.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K4": {
+   "text": "Flightpath warning systems (e.g., Traffic Alert and Collision Avoidance Systems (TCAS), Terrain Awareness and Warning System (TAWS) and how to respond to a warning.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K5": {
+   "text": "Altitudes and conditions that require the use of oxygen masks.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K6": {
+   "text": "Causes and recognition of cabin pressure loss. 8",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K7": {
+   "text": "Appropriate rudder use in transport aircraft to avoid rudder reversal.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K8": {
+   "text": "Crew communications (e.g., sterile flight deck rules, briefings).",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.K9": {
+   "text": "Operational control.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.R1": {
+   "text": "Turbine engine and thrust reversing system malfunctions.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.R2": {
+   "text": "Managing automation and navigation equipment.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.R3": {
+   "text": "Responding to a flightpath warning system alert.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.R4": {
+   "text": "Loss of cabin pressure.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.R5": {
+   "text": "Crew coordination.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.E.S1": {
+   "text": "Apply CRM principles and use in a crew environment, as appropriate.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.F.K1": {
+   "text": "Causes, effects, recognition, and corrective actions associated with aeromedical and physiological issues, including:",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1a": {
+   "text": "a. Hypoxia",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1b": {
+   "text": "b. Hyperventilation",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1c": {
+   "text": "c. Middle ear and sinus problems",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1d": {
+   "text": "d. Spatial disorientation 9",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1e": {
+   "text": "e. Motion sickness",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1f": {
+   "text": "f. Carbon monoxide poisoning",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1g": {
+   "text": "g. Stress",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1h": {
+   "text": "h. Fatigue",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1i": {
+   "text": "i. Dehydration and nutrition",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1j": {
+   "text": "j. Hypothermia",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1k": {
+   "text": "k. Optical illusions",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K1l": {
+   "text": "l. Dissolved nitrogen in the bloodstream after scuba dives",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K2": {
+   "text": "Effects of alcohol, drugs, and over-the-counter medications.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.K3": {
+   "text": "Aeronautical Decision-Making (ADM) to include using Crew Resource Management (CRM) or Single- Pilot Resource Management (SRM), as appropriate.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch06",
+    "risk-management:ch08"
+   ]
+  },
+  "AA.I.F.K4": {
+   "text": "Components of self-assessment for determining fitness for flight.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01",
+    "risk-management:ch02"
+   ]
+  },
+  "AA.I.F.R1": {
+   "text": "Aeromedical and physiological issues.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.F.R2": {
+   "text": "Hazardous attitudes.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch08"
+   ]
+  },
+  "AA.I.F.R3": {
+   "text": "Distractions, task prioritization, loss of situational awareness, or disorientation.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch06"
+   ]
+  },
+  "AA.I.F.R4": {
+   "text": "Confirmation and expectation bias.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch06"
+   ]
+  },
+  "AA.I.F.S1": {
+   "text": "Perform a self-assessment and determine fitness for flight.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch08-s01"
+   ]
+  },
+  "AA.I.G.K1": {
+   "text": "14 CFR part 61, subparts A, B, and G.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.G.K2": {
+   "text": "14 CFR part 91 subparts A, B, C, F, G, H.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.G.K3": {
+   "text": "14 CFR part 117 (AMEL, AMES).",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.G.K4": {
+   "text": "14 CFR part 121 subparts A, G, K, M, O, T, U, V (AMEL, AMES). 10",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.G.K5": {
+   "text": "14 CFR part 135 subparts A, B, C, D, E, F, G (ASEL, ASES).",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.G.K6": {
+   "text": "49 CFR part 830.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.G.K7": {
+   "text": "14 CFR part 111 subparts A, D.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.G.R1": {
+   "text": "Lack of compliance with the applicable CFRs.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.G.S1": {
+   "text": "Apply the CFRs to the flight and operation.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "AA.I.H.K1": {
+   "text": "The characteristics of a water surface as affected by features, such as:",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.K1a": {
+   "text": "a. Size and location",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.K1b": {
+   "text": "b. Protected and unprotected areas",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.K1c": {
+   "text": "c. Surface wind",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.K1d": {
+   "text": "d. Direction and strength of water current",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.K1e": {
+   "text": "e. Floating and partially submerged debris",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.K1f": {
+   "text": "f. Sandbars, islands, and shoals",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.K1g": {
+   "text": "g. Vessel traffic and wakes",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.K1h": {
+   "text": "h. Other characteristics specific to the area",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.K1i": {
+   "text": "i. Direction and height of waves",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance",
+    "seaplane:rough-water-landing"
+   ]
+  },
+  "AA.I.H.K2": {
+   "text": "Float and hull construction, and its effect on seaplane performance.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:preflight-inspection"
+   ]
+  },
+  "AA.I.H.K3": {
+   "text": "Causes of porpoising and skipping, and the pilot action needed to prevent or correct these occurrences.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:porpoising",
+    "seaplane:skipping"
+   ]
+  },
+  "AA.I.H.K4": {
+   "text": "How to locate and identify seaplane bases on charts or in directories.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "aim:ch09-s01"
+   ]
+  },
+  "AA.I.H.K5": {
+   "text": "Operating restrictions at various bases.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.H.K6": {
+   "text": "Right-of-way, steering, and sailing rules pertinent to seaplane operation.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:sailing",
+    "seaplane:taxiing-and-sailing"
+   ]
+  },
+  "AA.I.H.K7": {
+   "text": "Marine navigation aids, such as buoys, beacons, lights, sound signals, and range markers.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.H.K8": {
+   "text": "Naval vessel protection zones.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.H.K9": {
+   "text": "No wake zones. 11",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.H.R1": {
+   "text": "Local conditions.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.R2": {
+   "text": "Impact of marine traffic.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.R3": {
+   "text": "Right-of-way and sailing rules pertinent to seaplane operations.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:sailing",
+    "seaplane:taxiing-and-sailing"
+   ]
+  },
+  "AA.I.H.R4": {
+   "text": "Limited services and assistance available at seaplane bases.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.H.S1": {
+   "text": "Explain how float and hull construction can affect seaplane performance.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:preflight-inspection"
+   ]
+  },
+  "AA.I.H.S2": {
+   "text": "Describe how to correct for porpoising and skipping.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:porpoising",
+    "seaplane:skipping"
+   ]
+  },
+  "AA.I.H.S3": {
+   "text": "Locate seaplane bases on charts or in directories and identify any restrictions.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "aim:ch09-s01"
+   ]
+  },
+  "AA.I.H.S4": {
+   "text": "Identify marine navigation aids.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.H.S5": {
+   "text": "Describe what naval vessel protection zones and no wake zones are.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": []
+  },
+  "AA.I.H.S6": {
+   "text": "Assess the water surface characteristics for the proposed flight.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:landing-area-reconnaissance"
+   ]
+  },
+  "AA.I.H.S7": {
+   "text": "Perform correct right-of-way, steering, and sailing operations. 12",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "seaplane:sailing",
+    "seaplane:taxiing-and-sailing",
+    "seaplane:using-water-rudders"
+   ]
+  }
+ }
+}

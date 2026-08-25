@@ -11,7 +11,7 @@ PYTHON ?= python
 
 .DEFAULT_GOAL := help
 .PHONY: help setup fetch fetch-check fetch-update discover-interps \
-        verify-interps check drift notes guide crosswalk crosswalk-stats review build assemble link         outline validate menus         index         resolve resolve-check cfr cfr-check         optimize         optimize-check fonts         fonts-check test clean
+        verify-interps check drift notes guide crosswalk crosswalk-stats review packets refine refine-apply build assemble link         outline validate menus         index         resolve resolve-check cfr cfr-check         optimize         optimize-check fonts         fonts-check test clean
 
 help:
 	@echo "PDFlight targets"
@@ -25,6 +25,9 @@ help:
 	@echo "  crosswalk         Seed the crosswalk from ACS References lines"
 	@echo "  crosswalk-stats   Crosswalk verification progress by certificate"
 	@echo "  review            Print the next Tasks to verify (CERT=private AREA=I)"
+	@echo "  packets           Build refinement packets (CERT=atp SPLIT=5)"
+	@echo "  refine            Validate proposals, write nothing"
+	@echo "  refine-apply      Apply validated proposals to the CSVs"
 	@echo "  guide             Everything from cold: fetch through validate"
 	@echo "  build             Re-run the assembly stages only. Assumes cfr,"
 	@echo "                    index, resolve and optimize have already run"
@@ -74,6 +77,25 @@ crosswalk:
 
 crosswalk-stats:
 	$(PYTHON) tools/crosswalk_review.py --stats
+
+# The refinement loop. `packets` writes the questions, an agent or a
+# reviewer writes the answers under crosswalk/proposals/, and `refine`
+# validates them before anything reaches a CSV. SPLIT is how many packets
+# to cut the certificate into. An Area of Operation is never split across
+# two: an agent that sees all of one proposes better chapters than one
+# that sees half.
+SPLIT ?= 4
+
+packets:
+	$(PYTHON) tools/refine_packets.py $(CERT) --split $(SPLIT)
+
+refine:
+	$(PYTHON) tools/refine_crosswalk.py --dir crosswalk/proposals
+	$(PYTHON) tools/refine_handbooks.py --dir crosswalk/proposals
+
+refine-apply:
+	$(PYTHON) tools/refine_crosswalk.py --dir crosswalk/proposals --apply
+	$(PYTHON) tools/refine_handbooks.py --dir crosswalk/proposals --apply
 
 CERT ?= private
 AREA ?=

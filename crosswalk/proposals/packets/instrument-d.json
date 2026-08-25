@@ -1,0 +1,916 @@
+{
+ "certificate": "instrument",
+ "packet": "instrument-d",
+ "areas": [
+  "VII",
+  "VIII"
+ ],
+ "anchor_menu": {
+  "afh": {
+   "afh:ch01": "Introduction to Flight Training",
+   "afh:ch02": "Ground Operations",
+   "afh:ch03": "Basic Flight Maneuvers",
+   "afh:ch04": "Energy Management: Mastering Altitude and Airspeed Control",
+   "afh:ch05": "Maintaining Aircraft Control: Upset Prevention and Recovery",
+   "afh:ch06": "Takeoffs and Departure Climbs",
+   "afh:ch07": "Ground Reference Maneuvers",
+   "afh:ch08": "Airport Traffic Patterns",
+   "afh:ch09": "Approaches and Landings",
+   "afh:ch10": "Performance Maneuvers",
+   "afh:ch11": "Night Operations",
+   "afh:ch12": "Transition to Complex Airplanes",
+   "afh:ch13": "Transition to Multiengine Airplanes",
+   "afh:ch14": "Transition to Tailwheel Airplanes",
+   "afh:ch15": "Transition to Turbopropeller-Powered Airplanes",
+   "afh:ch16": "Transition to Jet-Powered Airplanes",
+   "afh:ch17": "Transition to Light Sport Airplanes (LSA)",
+   "afh:ch18": "Emergency Procedures"
+  },
+  "aim": {
+   "aim:ch01": "Air Navigation",
+   "aim:ch01-s01": "Section 1. Navigation Aids",
+   "aim:ch01-s02": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+   "aim:ch02": "Aeronautical Lighting and Other Airport",
+   "aim:ch02-s01": "Section 1. Airport Lighting Aids",
+   "aim:ch02-s02": "Section 2. Air Navigation and Obstruction Lighting",
+   "aim:ch02-s03": "Section 3. Airport Marking Aids and Signs",
+   "aim:ch03": "Airspace",
+   "aim:ch03-s01": "Section 1. General",
+   "aim:ch03-s02": "Section 2. Controlled Airspace",
+   "aim:ch03-s03": "Section 3. Class G Airspace",
+   "aim:ch03-s04": "Section 4. Special Use Airspace",
+   "aim:ch03-s05": "Section 5. Other Airspace Areas",
+   "aim:ch04": "Air Traffic Control",
+   "aim:ch04-s01": "Section 1. Services Available to Pilots",
+   "aim:ch04-s02": "Section 2. Radio Communications Phraseology and Techniques",
+   "aim:ch04-s03": "Section 3. Airport Operations",
+   "aim:ch04-s04": "Section 4. ATC Clearances and Aircraft Separation",
+   "aim:ch04-s05": "Section 5. Surveillance Systems",
+   "aim:ch04-s06": "Section 6. Operational Policy/Procedures for Reduced Vertical Separation Minimum (RVSM) in the Domestic U.S., Alaska, Of",
+   "aim:ch04-s07": "Section 7. Operational Policy/Procedures for the Gulf of America 50 NM Lateral Separation Initiative",
+   "aim:ch05": "Air Traffic Procedures",
+   "aim:ch05-s01": "Section 1. Preflight",
+   "aim:ch05-s02": "Section 2. Departure Procedures",
+   "aim:ch05-s03": "Section 3. En Route Procedures",
+   "aim:ch05-s04": "Section 4. Arrival Procedures",
+   "aim:ch05-s05": "Section 5. Pilot/Controller Roles and Responsibilities",
+   "aim:ch05-s06": "Section 6. National Security and Interception Procedures",
+   "aim:ch06": "Emergency Procedures",
+   "aim:ch06-s01": "Section 1. General",
+   "aim:ch06-s02": "Section 2. Emergency Services Available to Pilots",
+   "aim:ch06-s03": "Section 3. Distress and Urgency Procedures",
+   "aim:ch06-s04": "Section 4. Two‐way Radio Communications Failure",
+   "aim:ch06-s05": "Section 5. Aircraft Rescue and Fire Fighting Communications",
+   "aim:ch07": "Safety of Flight",
+   "aim:ch07-s01": "Section 1. Meteorology",
+   "aim:ch07-s02": "Section 2. Barometric Altimeter Errors and Setting Procedures",
+   "aim:ch07-s03": "Section 3. Cold Temperature Barometric Altimeter Errors, Setting Procedures and Cold Temperature Airports (CTA)",
+   "aim:ch07-s04": "Section 4. Wake Turbulence",
+   "aim:ch07-s05": "Section 5. Bird Hazards and Flight Over National Refuges, Parks, and Forests",
+   "aim:ch07-s06": "Section 6. Potential Flight Hazards",
+   "aim:ch07-s07": "Section 7. Safety, Accident, and Hazard Reports",
+   "aim:ch08": "Medical Facts for Pilots",
+   "aim:ch08-s01": "Section 1. Fitness for Flight",
+   "aim:ch09": "Aeronautical Charts and",
+   "aim:ch09-s01": "Section 1. Types of Charts Available",
+   "aim:ch10": "Helicopter Operations",
+   "aim:ch10-s01": "Section 1. Helicopter IFR Operations",
+   "aim:ch10-s02": "Section 2. Special Operations",
+   "aim:ch11": "Unmanned Aircraft Systems (UAS)",
+   "aim:ch11-s01": "Section 1. General",
+   "aim:ch11-s02": "Section 2. Small Unmanned Aircraft System (sUAS)",
+   "aim:ch11-s03": "Section 3. Large UAS (MGOW 55 Pounds or More)",
+   "aim:ch11-s04": "Section 4. Airspace Access for UAS",
+   "aim:ch11-s05": "Section 5. UAS Pilot Testing, Certification and Responsibilities",
+   "aim:ch11-s06": "Section 6. Advanced Air Mobility",
+   "aim:ch11-s07": "Section 7. UAS Operations on Airports",
+   "aim:ch11-s08": "Section 8. Other Information and Best Practices"
+  },
+  "ifh": {
+   "ifh:ch01": "The National Airspace System",
+   "ifh:ch02": "The Air Traffic Control System",
+   "ifh:ch03": "Human Factors",
+   "ifh:ch04": "Aerodynamic Factors",
+   "ifh:ch05": "Flight Instruments",
+   "ifh:ch06": "Airplane Attitude Instrument Flying Using",
+   "ifh:ch07": "Airplane Basic Flight Maneuvers Using",
+   "ifh:ch08": "Helicopter Attitude Instrument Flying",
+   "ifh:ch09": "Navigation Systems",
+   "ifh:ch10": "IFR Flight",
+   "ifh:ch11": "Emergency Operations"
+  },
+  "iph": {
+   "iph:ch01": "Departure Procedures",
+   "iph:ch02": "En Route Operations",
+   "iph:ch03": "Arrivals",
+   "iph:ch04": "Approaches",
+   "iph:ch05": "Improvement Plans",
+   "iph:ch06": "Airborne Navigation Databases",
+   "iph:ch07": "Helicopter Instrument Procedures"
+  },
+  "phak": {
+   "phak:ch01": "Introduction To Flying",
+   "phak:ch02": "Aeronautical Decision-Making",
+   "phak:ch03": "Aircraft Construction",
+   "phak:ch04": "Principles of Flight",
+   "phak:ch05": "Aerodynamics",
+   "phak:ch06": "Flight Controls",
+   "phak:ch07": "Aircraft Systems",
+   "phak:ch08": "Flight",
+   "phak:ch09": "Flight Manuals and Other Documents",
+   "phak:ch10": "Weight and Balance",
+   "phak:ch11": "Aircraft Performance",
+   "phak:ch12": "Weather Theory",
+   "phak:ch13": "Aviation Weather Services",
+   "phak:ch14": "Airport Operations",
+   "phak:ch15": "Airspace",
+   "phak:ch16": "Navigation",
+   "phak:ch17": "Aeromedical Factors"
+  },
+  "risk-management": {
+   "risk-management:ch01": "Introduction to Risk Management",
+   "risk-management:ch02": "Chapter 2: Personal Minimums",
+   "risk-management:ch03": "Chapter 3: Identifying Hazards & Associated Risks",
+   "risk-management:ch04": "Chapter 4: Assessing Risk",
+   "risk-management:ch05": "Chapter 5: Mitigating Risk",
+   "risk-management:ch06": "Chapter 6: Threat and Error Management",
+   "risk-management:ch07": "Automation & Flight Path",
+   "risk-management:ch08": "Aeronautical Decision-Making in"
+  }
+ },
+ "elements": {
+  "IR.VII.A.K1": {
+   "text": "Procedures to follow in the event of lost communication during various phases of flight, including techniques for reestablishing communications, when it is acceptable to deviate from an instrument flight rules (IFR) clearance, and when to begin an approach at the destination.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch06-s04",
+    "ifh:ch11"
+   ]
+  },
+  "IR.VII.A.R1": {
+   "text": "Possible reasons for loss of communication.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch11"
+   ]
+  },
+  "IR.VII.A.R2": {
+   "text": "Deviation from procedures for lost communications.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch06-s04",
+    "ifh:ch11"
+   ]
+  },
+  "IR.VII.A.S1": {
+   "text": "Recognize a simulated loss of communication.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch11"
+   ]
+  },
+  "IR.VII.A.S2": {
+   "text": "Simulate actions to re-establish communication.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch06-s04",
+    "ifh:ch11"
+   ]
+  },
+  "IR.VII.A.S3": {
+   "text": "Determine whether to continue to flight plan destination or deviate.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch06-s04",
+    "ifh:ch11"
+   ]
+  },
+  "IR.VII.A.S4": {
+   "text": "Determine appropriate time to begin an approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch06-s04"
+   ]
+  },
+  "IR.VII.A.S5": {
+   "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch02",
+    "risk-management:ch08"
+   ]
+  },
+  "IR.VII.B.K1": {
+   "text": "Procedures used if engine failure occurs during straight-and-level flight and turns while on instruments.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VII.B.R1": {
+   "text": "Identification of the inoperative engine.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.R2": {
+   "text": "Inability to climb or maintain altitude with an inoperative engine.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.R3": {
+   "text": "Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT).",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch05",
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.R4": {
+   "text": "Distractions, task prioritization, loss of situational awareness, or disorientation.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch03",
+    "ifh:ch11",
+    "risk-management:ch06"
+   ]
+  },
+  "IR.VII.B.R5": {
+   "text": "Fuel management during single-engine operation. 21",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.R6": {
+   "text": "Configuring the aircraft.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.S1": {
+   "text": "Promptly recognize an engine failure and maintain positive aircraft control.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.S10": {
+   "text": "Maintain control and fly within the aircraft’s operating limitations.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.S11": {
+   "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch02",
+    "risk-management:ch08"
+   ]
+  },
+  "IR.VII.B.S2": {
+   "text": "Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine).",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.S3": {
+   "text": "Establish the best engine-inoperative airspeed and trim the airplane.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.S4": {
+   "text": "Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.S5": {
+   "text": "Verify the prescribed checklist procedures used for securing the inoperative engine.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.S6": {
+   "text": "Attempt to determine and resolve the reason for the engine failure.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.B.S7": {
+   "text": "Monitor engine functions and make necessary adjustments.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13",
+    "phak:ch07"
+   ]
+  },
+  "IR.VII.B.S8": {
+   "text": "Maintain the specified altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and the specified heading ±10°.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch06",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VII.B.S9": {
+   "text": "Assess the aircraft’s performance capability and decide an appropriate action to ensure a safe landing.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13",
+    "risk-management:ch08"
+   ]
+  },
+  "IR.VII.C.K1": {
+   "text": "Instrument approach procedures with one engine inoperative.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13",
+    "iph:ch04"
+   ]
+  },
+  "IR.VII.C.R1": {
+   "text": "Potential engine failure during approach and landing.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.R2": {
+   "text": "[Archived]",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.VII.C.R3": {
+   "text": "Configuring the airplane.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.R4": {
+   "text": "Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT). 22",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch05",
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.R5": {
+   "text": "Distractions, task prioritization, loss of situational awareness, or disorientation.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch03",
+    "ifh:ch11",
+    "risk-management:ch06"
+   ]
+  },
+  "IR.VII.C.R6": {
+   "text": "Performing a go-around/rejected landing with an engine failure.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.S1": {
+   "text": "Promptly recognize an engine failure and maintain positive aircraft control.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.S10": {
+   "text": "Maintain control and fly within the aircraft’s operating limitations.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.S11": {
+   "text": "Comply with the published criteria for the aircraft approach category if circling.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10",
+    "iph:ch04"
+   ]
+  },
+  "IR.VII.C.S12": {
+   "text": "Execute a landing.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.S13": {
+   "text": "Complete the appropriate checklist(s).",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.S14": {
+   "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch02",
+    "risk-management:ch08"
+   ]
+  },
+  "IR.VII.C.S2": {
+   "text": "Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine).",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.S3": {
+   "text": "Use flight controls in the proper combination as recommended by the manufacturer, or as required to maintain best performance, and trim as required.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.S4": {
+   "text": "Follow the manufacturer’s recommended emergency procedures and complete the appropriate checklist.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13"
+   ]
+  },
+  "IR.VII.C.S5": {
+   "text": "Monitor the operating engine and aircraft systems and make adjustments as necessary.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch13",
+    "phak:ch07"
+   ]
+  },
+  "IR.VII.C.S6": {
+   "text": "Request and follow an actual or a simulated air traffic control (ATC) clearance for an instrument approach.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10",
+    "iph:ch04"
+   ]
+  },
+  "IR.VII.C.S7": {
+   "text": "Maintain altitude ±100 feet or minimum sink rate if applicable, airspeed ±10 knots, and selected heading ±10°.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch06",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VII.C.S8": {
+   "text": "Establish a rate of descent that ensures arrival at the minimum descent altitude (MDA) or decision altitude (DA)/decision height (DH) with the airplane in a position from which a descent to a landing on the intended runway can be made, either straight in or circling as appropriate.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10",
+    "iph:ch04"
+   ]
+  },
+  "IR.VII.C.S9": {
+   "text": "On final approach segment, maintain vertical (as applicable) and lateral guidance within ¾-scale deflection.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10",
+    "iph:ch04"
+   ]
+  },
+  "IR.VII.D.K1": {
+   "text": "Recognizing if primary flight instruments are inaccurate or inoperative, and advising ATC or the evaluator.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "ifh:ch11"
+   ]
+  },
+  "IR.VII.D.K2": {
+   "text": "Possible failure modes of primary instruments and how to correct or minimize the effect of the loss.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "ifh:ch11",
+    "phak:ch08"
+   ]
+  },
+  "IR.VII.D.R1": {
+   "text": "Use of secondary flight displays when primary displays have failed.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VII.D.R2": {
+   "text": "Maintaining aircraft control.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch07",
+    "ifh:ch11"
+   ]
+  },
+  "IR.VII.D.R3": {
+   "text": "Distractions, task prioritization, loss of situational awareness, or disorientation.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch03",
+    "ifh:ch11",
+    "risk-management:ch06"
+   ]
+  },
+  "IR.VII.D.S1": {
+   "text": "Advise ATC or the evaluator if unable to comply with a clearance.",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch02",
+    "ifh:ch11"
+   ]
+  },
+  "IR.VII.D.S2": {
+   "text": "Complete a non-precision instrument approach without the use of the primary flight instruments using the skill elements of the non-precision approach Task (see Area of Operation VI, Task A).",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch07",
+    "ifh:ch10"
+   ]
+  },
+  "IR.VII.D.S3": {
+   "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 24",
+   "references": [
+    "afh",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch02",
+    "risk-management:ch08"
+   ]
+  },
+  "IR.VIII.A.K1": {
+   "text": "Procedures for documenting in-flight/postflight discrepancies.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch09"
+   ]
+  },
+  "IR.VIII.A.R1": {
+   "text": "Performance and documentation of postflight inspection and aircraft discrepancies.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch09"
+   ]
+  },
+  "IR.VIII.A.S1": {
+   "text": "Conduct a postflight inspection and document discrepancies and servicing requirements, if any. 25 Appendix 1: Practical Test Roles, Responsibilities, and Outcomes Instrument Rating – Airplane ACS (FAA-S-ACS-8C) Appendix 1: Practical Test Roles, Responsibilities, and Outcomes Eligibility Requirements",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch02",
+    "phak:ch09"
+   ]
+  }
+ }
+}

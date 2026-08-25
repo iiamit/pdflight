@@ -1,1022 +1,1359 @@
 {
-  "AA.I.A.K1": {
-    "sections": [],
-    "anchors": ["afh:ch12", "afh:ch16"],
-    "why": "AFH ch12 covers retractable landing gear systems and indicators in complex airplanes; ch16 covers jet gear, antiskid and brakes. Task cites no CFR part",
-    "confidence": "low"
-  },
-  "AA.I.A.K10": {
-    "sections": [],
-    "anchors": [],
-    "why": "No AFH, RMH or seaplane chapter covers airframe and engine ice protection systems as a system description. Not forcing a chapter",
-    "confidence": "high"
-  },
-  "AA.I.A.K11": {
-    "sections": [],
-    "anchors": ["afh:ch18"],
-    "why": "AFH ch18 Emergency Procedures is the only cited-handbook chapter touching emergency exits, evacuation and crew duties",
-    "confidence": "low"
-  },
-  "AA.I.A.K12": {
-    "sections": [],
-    "anchors": ["afh:ch12", "afh:ch16"],
-    "why": "AFH ch12 covers flaps and control systems on complex airplanes; ch16 covers jet spoilers, speed brakes, leading edge devices and yaw damper",
-    "confidence": "low"
-  },
-  "AA.I.A.K13": {
-    "sections": [],
-    "anchors": [],
-    "why": "Pitot-static systems and instrument power sources are PHAK ch8 material, and this Task does not cite PHAK",
-    "confidence": "high"
-  },
-  "AA.I.A.K14": {
-    "sections": [],
-    "anchors": ["afh:ch18"],
-    "why": "AFH ch18 covers in-flight fire detection and response; no cited chapter covers cargo, lavatory or battery suppression systems",
-    "confidence": "low"
-  },
-  "AA.I.A.K15": {
-    "sections": [],
-    "anchors": ["afh:ch05"],
-    "why": "AFH ch5 UPRT covers angle of attack awareness, stall warning and envelope protection systems",
-    "confidence": "high"
-  },
-  "AA.I.A.K16": {
-    "sections": [],
-    "anchors": [],
-    "why": "POH/AFM contents are PHAK ch9 material and PHAK is not cited by this Task",
-    "confidence": "high"
-  },
-  "AA.I.A.K17": {
-    "sections": [],
-    "anchors": [],
-    "why": "MEL and CDL use is governed by 91.213 and operations specifications, but this Task cites no CFR part and no cited handbook chapter covers it",
-    "confidence": "high"
-  },
-  "AA.I.A.K2": {
-    "sections": [],
-    "anchors": ["afh:ch15", "afh:ch16"],
-    "why": "AFH ch15 turbopropeller and ch16 jet transition chapters describe powerplant controls, indications and induction systems",
-    "confidence": "high"
-  },
-  "AA.I.A.K3": {
-    "sections": [],
-    "anchors": ["afh:ch13", "afh:ch15"],
-    "why": "AFH ch13 covers propeller feathering and unfeathering on multiengine airplanes; ch15 covers turboprop propeller control, beta and reverse",
-    "confidence": "high"
-  },
-  "AA.I.A.K4": {
-    "sections": [],
-    "anchors": [],
-    "why": "No cited handbook chapter describes fuel system capacity, cross-feed, transfer or jettison as a system",
-    "confidence": "high"
-  },
-  "AA.I.A.K5": {
-    "sections": [],
-    "anchors": [],
-    "why": "Oil system detail is airplane specific and not covered by any cited handbook chapter",
-    "confidence": "high"
-  },
-  "AA.I.A.K6": {
-    "sections": [],
-    "anchors": [],
-    "why": "Hydraulic system detail is airplane specific and not covered by any cited handbook chapter",
-    "confidence": "high"
-  },
-  "AA.I.A.K7": {
-    "sections": [],
-    "anchors": [],
-    "why": "Electrical system detail is PHAK ch7 material and PHAK is not cited by this Task",
-    "confidence": "high"
-  },
-  "AA.I.A.K8": {
-    "sections": [],
-    "anchors": ["afh:ch16"],
-    "why": "AFH ch16 covers jet pneumatic, bleed air, pressurization and environmental systems",
-    "confidence": "low"
-  },
-  "AA.I.A.K9": {
-    "sections": [],
-    "anchors": ["risk-management:ch07"],
-    "why": "RMH ch7 Automation and Flight Path Management covers autopilot, flight director, FMS and EFB use and limitations",
-    "confidence": "high"
-  },
-  "AA.I.A.R1": {
-    "sections": [],
-    "anchors": ["afh:ch18"],
-    "why": "AFH ch18 Emergency Procedures covers recognising system malfunctions and failures",
-    "confidence": "low"
-  },
-  "AA.I.A.R2": {
-    "sections": [],
-    "anchors": ["afh:ch18"],
-    "why": "AFH ch18 Emergency Procedures is the direct source on managing a system failure",
-    "confidence": "high"
-  },
-  "AA.I.A.R3": {
-    "sections": [],
-    "anchors": ["risk-management:ch07"],
-    "why": "RMH ch7 is the source on monitoring and managing automated systems",
-    "confidence": "high"
-  },
-  "AA.I.A.R4": {
-    "sections": [],
-    "anchors": ["afh:ch02", "risk-management:ch06"],
-    "why": "AFH ch2 Ground Operations covers checklist discipline; RMH ch6 Threat and Error Management covers procedural deviation",
-    "confidence": "low"
-  },
-  "AA.I.A.S1": {
-    "sections": [],
-    "anchors": ["afh:ch15", "afh:ch16"],
-    "why": "AFH ch15 and ch16 supply the systems terminology for turbopropeller and jet airplanes",
-    "confidence": "low"
-  },
-  "AA.I.A.S2": {
-    "sections": [],
-    "anchors": ["afh:ch18"],
-    "why": "AFH ch18 covers immediate action and memory items for emergencies",
-    "confidence": "low"
-  },
-  "AA.I.A.S3": {
-    "sections": [],
-    "anchors": [],
-    "why": "POH/AFM limitations are airplane specific; no cited handbook chapter covers them",
-    "confidence": "high"
-  },
-  "AA.I.A.S4": {
-    "sections": [],
-    "anchors": [],
-    "why": "MEL and CDL deferral process is not covered by any cited handbook chapter and this Task cites no CFR part",
-    "confidence": "high"
-  },
-  "AA.I.A.S5": {
-    "sections": [],
-    "anchors": [],
-    "why": "Operations specifications, management specifications and letters of authorization live in parts 119, 121 and 135, none cited by this Task",
-    "confidence": "high"
-  },
-  "AA.I.A.S6": {
-    "sections": [],
-    "anchors": ["afh:ch02", "afh:ch18"],
-    "why": "AFH ch2 covers normal checklist use; ch18 covers abnormal and emergency procedures",
-    "confidence": "low"
-  },
-  "AA.I.B.K1": {
-    "sections": ["91.103"],
-    "anchors": [],
-    "why": "91.103 requires the pilot to determine takeoff and landing distance data from approved performance information. Task cites no handbook",
-    "confidence": "high"
-  },
-  "AA.I.B.K2": {
-    "sections": ["91.103"],
-    "anchors": [],
-    "why": "Parent element; 91.103 is the general duty to determine performance figures before flight",
-    "confidence": "low"
-  },
-  "AA.I.B.K2a": {
-    "sections": [],
-    "anchors": [],
-    "why": "Accelerate-stop and accelerate-go distances come from part 25 certification data and part 121 or 135 performance rules, not from part 1 or part 91",
-    "confidence": "high"
-  },
-  "AA.I.B.K2b": {
-    "sections": ["1.2"],
-    "anchors": [],
-    "why": "1.2 defines the V-speed abbreviations, including minimum control speed, used in takeoff performance",
-    "confidence": "low"
-  },
-  "AA.I.B.K2c": {
-    "sections": [],
-    "anchors": [],
-    "why": "Climb performance determination is certification and operating-rule material outside parts 1 and 91",
-    "confidence": "high"
-  },
-  "AA.I.B.K2d": {
-    "sections": [],
-    "anchors": [],
-    "why": "Cruise performance and maximum operating altitude come from the AFM, not from parts 1 or 91",
-    "confidence": "high"
-  },
-  "AA.I.B.K2e": {
-    "sections": [],
-    "anchors": [],
-    "why": "Descent performance comes from the AFM, not from parts 1 or 91",
-    "confidence": "high"
-  },
-  "AA.I.B.K2f": {
-    "sections": ["91.103"],
-    "anchors": [],
-    "why": "91.103(b) requires runway lengths and landing distance data for the intended airports",
-    "confidence": "low"
-  },
-  "AA.I.B.K2g": {
-    "sections": [],
-    "anchors": [],
-    "why": "One-engine-inoperative performance for all phases is part 25 and part 121 or 135 material; no listed part 1 or part 91 section governs it",
-    "confidence": "high"
-  },
-  "AA.I.B.K2h": {
-    "sections": ["91.605"],
-    "anchors": [],
-    "why": "91.605 sets transport category airplane weight limitations, the part 91 rule closest to weight and balance determination",
-    "confidence": "low"
-  },
-  "AA.I.B.K3": {
-    "sections": [],
-    "anchors": [],
-    "why": "Parent heading for performance factors; no single section governs it",
-    "confidence": "high"
-  },
-  "AA.I.B.K3a": {
-    "sections": [],
-    "anchors": [],
-    "why": "Atmospheric effects on performance are aerodynamic, not regulatory. Task cites no handbook",
-    "confidence": "high"
-  },
-  "AA.I.B.K3b": {
-    "sections": [],
-    "anchors": [],
-    "why": "Pilot technique is not governed by a part 1 or part 91 section",
-    "confidence": "high"
-  },
-  "AA.I.B.K3c": {
-    "sections": [],
-    "anchors": [],
-    "why": "Configuration effects on performance come from the AFM, not from parts 1 or 91",
-    "confidence": "high"
-  },
-  "AA.I.B.K3d": {
-    "sections": [],
-    "anchors": [],
-    "why": "Runway condition and LAHSO are AIM and airport material; the AIM is not cited by this Task and no listed part 91 section covers it",
-    "confidence": "high"
-  },
-  "AA.I.B.K3e": {
-    "sections": [],
-    "anchors": [],
-    "why": "Center of gravity effects on performance come from the AFM loading limits, not from a listed section",
-    "confidence": "high"
-  },
-  "AA.I.B.K3f": {
-    "sections": ["91.605"],
-    "anchors": [],
-    "why": "91.605 constrains operating weights for transport category airplanes",
-    "confidence": "low"
-  },
-  "AA.I.B.K4": {
-    "sections": [],
-    "anchors": [],
-    "why": "Aerodynamics is handbook material and this Task cites no handbook",
-    "confidence": "high"
-  },
-  "AA.I.B.K5": {
-    "sections": ["91.9"],
-    "anchors": [],
-    "why": "91.9 requires operation within the AFM, marking and placard limitations",
-    "confidence": "high"
-  },
-  "AA.I.B.K6": {
-    "sections": ["91.527"],
-    "anchors": [],
-    "why": "91.527 governs operating in icing conditions and the performance consequences of contamination",
-    "confidence": "high"
-  },
-  "AA.I.B.K7": {
-    "sections": ["91.527"],
-    "anchors": [],
-    "why": "91.527 states the clean wing requirement and the pre-takeoff contamination check",
-    "confidence": "high"
-  },
-  "AA.I.B.K8": {
-    "sections": [],
-    "anchors": [],
-    "why": "Air carrier average weight programs live in part 121, which is deliberately out of this corpus",
-    "confidence": "high"
-  },
-  "AA.I.B.K9": {
-    "sections": [],
-    "anchors": [],
-    "why": "RCAM and runway condition reporting are advisory circular and AIM material; no listed part 1 or part 91 section covers them",
-    "confidence": "high"
-  },
-  "AA.I.B.R1": {
-    "sections": ["91.103"],
-    "anchors": [],
-    "why": "91.103 obliges the pilot to use the approved performance data before flight",
-    "confidence": "low"
-  },
-  "AA.I.B.R2": {
-    "sections": ["91.9"],
-    "anchors": [],
-    "why": "91.9 makes AFM operating limitations binding",
-    "confidence": "high"
-  },
-  "AA.I.B.R3": {
-    "sections": [],
-    "anchors": [],
-    "why": "The gap between book and actual performance is judgement, not a regulatory requirement in parts 1 or 91",
-    "confidence": "high"
-  },
-  "AA.I.B.R4": {
-    "sections": ["91.527"],
-    "anchors": [],
-    "why": "91.527 prohibits takeoff with frost, ice or snow adhering to critical surfaces and governs flight in icing",
-    "confidence": "high"
-  },
-  "AA.I.B.R5": {
-    "sections": [],
-    "anchors": [],
-    "why": "Runway excursion risk is not addressed by a listed part 1 or part 91 section",
-    "confidence": "high"
-  },
-  "AA.I.B.S1": {
-    "sections": ["1.2"],
-    "anchors": [],
-    "why": "1.2 is the regulatory definition list for the V-speed abbreviations used in each phase of flight",
-    "confidence": "high"
-  },
-  "AA.I.B.S2": {
-    "sections": ["91.103"],
-    "anchors": [],
-    "why": "91.103 requires applying the weather and field conditions to the performance data before flight",
-    "confidence": "low"
-  },
-  "AA.I.B.S3": {
-    "sections": ["91.527"],
-    "anchors": [],
-    "why": "91.527 sets the pre-takeoff contamination check and deice or anti-ice requirement",
-    "confidence": "high"
-  },
-  "AA.I.B.S4": {
-    "sections": ["91.527", "91.9"],
-    "anchors": [],
-    "why": "91.527 covers flight in icing conditions; 91.9 makes the AFM icing limitations binding",
-    "confidence": "high"
-  },
-  "AA.I.B.S5": {
-    "sections": [],
-    "anchors": [],
-    "why": "Computing weight and balance is a procedure, not a rule stated in parts 1 or 91",
-    "confidence": "high"
-  },
-  "AA.I.B.S6": {
-    "sections": ["91.9"],
-    "anchors": [],
-    "why": "91.9 requires operation within the AFM center of gravity and fuel balance limits",
-    "confidence": "low"
-  },
-  "AA.I.B.S7": {
-    "sections": ["91.103"],
-    "anchors": [],
-    "why": "91.103 is the regulatory hook for using performance data for all phases of the intended flight",
-    "confidence": "low"
-  },
-  "AA.I.C.K1": {
-    "sections": ["91.103"],
-    "anchors": ["aim:ch07-s01"],
-    "why": "91.103 requires gathering all available information including weather; AIM 7-1 describes the National Weather Service and Flight Service weather sources",
-    "confidence": "high"
-  },
-  "AA.I.C.K2": {
-    "sections": ["91.103"],
-    "anchors": ["aim:ch07-s01"],
-    "why": "Parent element on acceptable weather products; AIM 7-1 is the FAA list of them and 91.103 requires their use",
-    "confidence": "high"
-  },
-  "AA.I.C.K2a": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers surface aviation weather observations and pilot weather reports",
-    "confidence": "high"
-  },
-  "AA.I.C.K2b": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers the graphical products including surface analysis and ceiling and visibility depictions",
-    "confidence": "low"
-  },
-  "AA.I.C.K2c": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 describes the terminal aerodrome forecast",
-    "confidence": "high"
-  },
-  "AA.I.C.K2d": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 describes the Graphical Forecasts for Aviation",
-    "confidence": "high"
-  },
-  "AA.I.C.K2e": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 describes the wind and temperature aloft forecast",
-    "confidence": "high"
-  },
-  "AA.I.C.K2f": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 is the only cited-handbook location covering convective forecast products",
-    "confidence": "low"
-  },
-  "AA.I.C.K2g": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers inflight aviation weather advisories: AIRMET, SIGMET and Convective SIGMET",
-    "confidence": "high"
-  },
-  "AA.I.C.K3": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 Meteorology is the cited-handbook chapter for hazardous weather phenomena. PHAK is not cited by this Task",
-    "confidence": "high"
-  },
-  "AA.I.C.K3a": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 is the only cited source touching atmospheric stability",
-    "confidence": "low"
-  },
-  "AA.I.C.K3b": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers wind shear, low level wind shear alerting and mountain wave activity",
-    "confidence": "high"
-  },
-  "AA.I.C.K3c": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 is the only cited source touching temperature effects; heat exchange itself is PHAK material and PHAK is not cited",
-    "confidence": "low"
-  },
-  "AA.I.C.K3d": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers precipitation reporting and hazards",
-    "confidence": "low"
-  },
-  "AA.I.C.K3e": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 is the only cited source touching air mass and frontal weather",
-    "confidence": "low"
-  },
-  "AA.I.C.K3f": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers cloud reporting; cloud formation theory is PHAK material and PHAK is not cited",
-    "confidence": "low"
-  },
-  "AA.I.C.K3g": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers turbulence reporting criteria and clear air turbulence",
-    "confidence": "high"
-  },
-  "AA.I.C.K3h": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers thunderstorms, microbursts and thunderstorm avoidance",
-    "confidence": "high"
-  },
-  "AA.I.C.K3i": {
-    "sections": ["91.527"],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers icing types and freezing level products; 91.527 governs operating in icing conditions",
-    "confidence": "high"
-  },
-  "AA.I.C.K3j": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 is the cited source for visibility restrictions including fog and mist",
-    "confidence": "low"
-  },
-  "AA.I.C.K3k": {
-    "sections": ["91.527"],
-    "anchors": [],
-    "why": "91.527 addresses frost adhering to critical surfaces; no cited handbook chapter treats frost formation directly",
-    "confidence": "low"
-  },
-  "AA.I.C.K3l": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers obstructions to visibility including volcanic ash",
-    "confidence": "low"
-  },
-  "AA.I.C.K4": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers flight deck datalink weather displays and their currency and resolution limitations",
-    "confidence": "low"
-  },
-  "AA.I.C.K5": {
-    "sections": ["91.189"],
-    "anchors": ["aim:ch05-s04"],
-    "why": "91.189 is the general operating rule for Category II and III operations; AIM 5-4 covers the approach procedures and low-visibility minima",
-    "confidence": "low"
-  },
-  "AA.I.C.K6": {
-    "sections": [],
-    "anchors": ["risk-management:ch04"],
-    "why": "RMH ch4 Assessing Risk is the source on flight risk assessment tools",
-    "confidence": "high"
-  },
-  "AA.I.C.R1": {
-    "sections": ["91.103"],
-    "anchors": ["risk-management:ch08"],
-    "why": "Parent element on weather decision making; RMH ch8 covers in-flight ADM and 91.103 the preflight information duty",
-    "confidence": "high"
-  },
-  "AA.I.C.R1a": {
-    "sections": [],
-    "anchors": ["risk-management:ch08"],
-    "why": "RMH ch8 covers diversion and course change decisions in flight",
-    "confidence": "high"
-  },
-  "AA.I.C.R1b": {
-    "sections": ["91.527"],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers forecast icing, turbulence and volcanic ash hazards; 91.527 limits operation in icing",
-    "confidence": "low"
-  },
-  "AA.I.C.R1c": {
-    "sections": [],
-    "anchors": ["risk-management:ch02"],
-    "why": "RMH ch2 Personal Minimums is the direct source",
-    "confidence": "high"
-  },
-  "AA.I.C.R1d": {
-    "sections": ["91.9"],
-    "anchors": [],
-    "why": "91.9 makes AFM operating limitations binding; operator-specified limits sit outside the cited parts",
-    "confidence": "low"
-  },
-  "AA.I.C.R2": {
-    "sections": [],
-    "anchors": [],
-    "why": "Parent heading with no governing section or chapter of its own",
-    "confidence": "high"
-  },
-  "AA.I.C.R2a": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 covers onboard radar and datalink weather equipment limitations",
-    "confidence": "low"
-  },
-  "AA.I.C.R2b": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01"],
-    "why": "AIM 7-1 states the coverage and currency limitations of aviation weather reports and forecasts",
-    "confidence": "high"
-  },
-  "AA.I.C.R2c": {
-    "sections": [],
-    "anchors": ["aim:ch07-s01", "aim:ch04-s01"],
-    "why": "AIM 7-1 covers inflight weather advisory broadcasts; AIM 4-1 covers the ATC and Flight Service inflight weather services",
-    "confidence": "high"
-  },
-  "AA.I.C.S1": {
-    "sections": ["91.103"],
-    "anchors": ["risk-management:ch04", "risk-management:ch08"],
-    "why": "RMH ch4 covers flight risk assessment tools and ch8 in-flight ADM; 91.103 requires the preflight weather review",
-    "confidence": "high"
-  },
-  "AA.I.D.K1": {
-    "sections": [],
-    "anchors": ["afh:ch16", "phak:ch05"],
-    "why": "AFH ch16 Transition to Jet-Powered Airplanes covers swept wing characteristics and Mach buffet; PHAK ch5 Aerodynamics of Flight gives the underlying theory",
-    "confidence": "high"
-  },
-  "AA.I.D.K2": {
-    "sections": [],
-    "anchors": ["afh:ch04"],
-    "why": "AFH ch4 is Energy Management",
-    "confidence": "high"
-  },
-  "AA.I.D.K3": {
-    "sections": [],
-    "anchors": ["afh:ch16", "phak:ch08"],
-    "why": "AFH ch16 covers Mach number and airspeed relationships with altitude; PHAK ch8 Flight Instruments covers indicated versus true airspeed",
-    "confidence": "high"
-  },
-  "AA.I.D.K4": {
-    "sections": [],
-    "anchors": ["afh:ch16"],
-    "why": "AFH ch16 covers high altitude speed margins and the effect of load factor on them",
-    "confidence": "high"
-  },
-  "AA.I.D.K5": {
-    "sections": [],
-    "anchors": ["afh:ch16", "phak:ch11"],
-    "why": "AFH ch16 covers jet altitude capability; PHAK ch11 Aircraft Performance covers the weight and temperature relationship",
-    "confidence": "low"
-  },
-  "AA.I.D.K6": {
-    "sections": [],
-    "anchors": ["afh:ch16"],
-    "why": "AFH ch16 covers VMO/MMO and the convergence of high and low speed buffet at altitude",
-    "confidence": "high"
-  },
-  "AA.I.D.K7": {
-    "sections": [],
-    "anchors": ["phak:ch05"],
-    "why": "PHAK ch5 Aerodynamics of Flight covers the lift-to-drag ratio and L/DMAX",
-    "confidence": "high"
-  },
-  "AA.I.D.K8": {
-    "sections": [],
-    "anchors": ["phak:ch11"],
-    "why": "PHAK ch11 Aircraft Performance covers range and endurance",
-    "confidence": "high"
-  },
-  "AA.I.D.K9": {
-    "sections": [],
-    "anchors": ["afh:ch05"],
-    "why": "AFH ch5 is Upset Prevention and Recovery Training, which covers high altitude upset causes and recovery",
-    "confidence": "high"
-  },
-  "AA.I.D.R1": {
-    "sections": [],
-    "anchors": ["afh:ch04"],
-    "why": "AFH ch4 Energy Management is the direct source",
-    "confidence": "high"
-  },
-  "AA.I.D.R2": {
-    "sections": [],
-    "anchors": ["afh:ch16"],
-    "why": "AFH ch16 covers operating near the altitude ceiling at heavy weights",
-    "confidence": "low"
-  },
-  "AA.I.D.R3": {
-    "sections": [],
-    "anchors": ["afh:ch16", "afh:ch04"],
-    "why": "AFH ch16 covers high altitude slow-downs; ch4 covers operating behind the power curve as an energy problem",
-    "confidence": "low"
-  },
-  "AA.I.D.R4": {
-    "sections": [],
-    "anchors": ["afh:ch16"],
-    "why": "AFH ch16 covers turbulence penetration speed and high altitude turbulence",
-    "confidence": "low"
-  },
-  "AA.I.D.S1": {
-    "sections": [],
-    "anchors": ["afh:ch04"],
-    "why": "AFH ch4 Energy Management covers managing the airplane energy state in cruise",
-    "confidence": "high"
-  },
-  "AA.I.F.K1": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 Fitness for Flight is the cited-handbook source for aeromedical and physiological factors. PHAK ch17 is not available because PHAK is not cited by this Task",
-    "confidence": "high"
-  },
-  "AA.I.F.K1a": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers hypoxia types, symptoms and correction",
-    "confidence": "high"
-  },
-  "AA.I.F.K1b": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers hyperventilation",
-    "confidence": "high"
-  },
-  "AA.I.F.K1c": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers middle ear and sinus block",
-    "confidence": "high"
-  },
-  "AA.I.F.K1d": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers spatial disorientation and vestibular illusions",
-    "confidence": "high"
-  },
-  "AA.I.F.K1e": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers motion sickness",
-    "confidence": "high"
-  },
-  "AA.I.F.K1f": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers carbon monoxide poisoning",
-    "confidence": "high"
-  },
-  "AA.I.F.K1g": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers stress and its effect on pilot performance",
-    "confidence": "high"
-  },
-  "AA.I.F.K1h": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers fatigue, acute and chronic",
-    "confidence": "high"
-  },
-  "AA.I.F.K1i": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers dehydration and nutrition under fitness for flight",
-    "confidence": "low"
-  },
-  "AA.I.F.K1j": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 is the closest cited source; hypothermia is treated only briefly",
-    "confidence": "low"
-  },
-  "AA.I.F.K1k": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers vision and optical illusions in flight",
-    "confidence": "high"
-  },
-  "AA.I.F.K1l": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 gives the flight after scuba diving waiting times",
-    "confidence": "high"
-  },
-  "AA.I.F.K2": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers alcohol, drugs and over-the-counter medication. 91.17 would apply but this Task cites no CFR part",
-    "confidence": "high"
-  },
-  "AA.I.F.K3": {
-    "sections": [],
-    "anchors": ["risk-management:ch08", "risk-management:ch06"],
-    "why": "RMH ch8 covers aeronautical decision-making in flight; ch6 covers threat and error management, the basis of CRM and SRM",
-    "confidence": "high"
-  },
-  "AA.I.F.K4": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01", "risk-management:ch02"],
-    "why": "AIM 8-1 gives the fitness for flight self-assessment; RMH ch2 covers personal minimums",
-    "confidence": "high"
-  },
-  "AA.I.F.R1": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 is the cited source on aeromedical and physiological risk",
-    "confidence": "high"
-  },
-  "AA.I.F.R2": {
-    "sections": [],
-    "anchors": ["risk-management:ch08"],
-    "why": "RMH ch8 covers the hazardous attitudes and their antidotes",
-    "confidence": "low"
-  },
-  "AA.I.F.R3": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
-    "confidence": "high"
-  },
-  "AA.I.F.R4": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 covers confirmation and expectation bias as error sources",
-    "confidence": "low"
-  },
-  "AA.I.F.S1": {
-    "sections": [],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 provides the fitness for flight self-assessment",
-    "confidence": "high"
-  },
-  "AA.I.G.K1": {
-    "sections": ["61.3", "61.57", "61.167"],
-    "anchors": [],
-    "why": "61.3 and 61.57 are the subpart A certificate and recency rules; 61.167 states airline transport pilot privileges and limitations in subpart G",
-    "confidence": "high"
-  },
-  "AA.I.G.K2": {
-    "sections": ["91.3", "91.103", "91.205"],
-    "anchors": [],
-    "why": "91.3 is the subpart A authority rule, 91.103 the subpart B preflight rule, 91.205 the subpart C equipment rule",
-    "confidence": "high"
-  },
-  "AA.I.G.K3": {
-    "sections": [],
-    "anchors": [],
-    "why": "14 CFR part 117 flight and duty limitations is not in this corpus, and no part 91 or 135 section is an acceptable substitute",
-    "confidence": "high"
-  },
-  "AA.I.G.K4": {
-    "sections": [],
-    "anchors": [],
-    "why": "14 CFR part 121 is deliberately out of scope in this corpus. No substitute cited",
-    "confidence": "high"
-  },
-  "AA.I.G.K5": {
-    "sections": ["135.1", "135.77", "135.243"],
-    "anchors": [],
-    "why": "135.1 is subpart A applicability, 135.77 the subpart B operational control rule, 135.243 the subpart E pilot in command qualification rule",
-    "confidence": "high"
-  },
-  "AA.I.G.K6": {
-    "sections": [],
-    "anchors": [],
-    "why": "49 CFR part 830 is not listed in the packet CFR inventory, so no section can be cited",
-    "confidence": "high"
-  },
-  "AA.I.G.K7": {
-    "sections": [],
-    "anchors": [],
-    "why": "14 CFR part 111 is not in this corpus",
-    "confidence": "high"
-  },
-  "AA.I.G.R1": {
-    "sections": ["91.13", "61.3"],
-    "anchors": [],
-    "why": "91.13 prohibits careless or reckless operation; 61.3 makes operating without the required certificate a violation",
-    "confidence": "high"
-  },
-  "AA.I.G.S1": {
-    "sections": ["91.3", "91.103"],
-    "anchors": [],
-    "why": "91.3 makes the pilot in command responsible for applying the rules to the operation; 91.103 is the concrete preflight application",
-    "confidence": "high"
-  },
-  "AA.I.H.K1": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "The seaplane handbook reconnaissance section is the survey of water surface characteristics before landing. Task cites no CFR part",
-    "confidence": "high"
-  },
-  "AA.I.H.K1a": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance covers assessing the size and location of the landing area",
-    "confidence": "high"
-  },
-  "AA.I.H.K1b": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance covers sheltered versus exposed water",
-    "confidence": "low"
-  },
-  "AA.I.H.K1c": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance covers determining surface wind direction and strength from the water",
-    "confidence": "low"
-  },
-  "AA.I.H.K1d": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance covers reading water current direction and strength",
-    "confidence": "low"
-  },
-  "AA.I.H.K1e": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance covers inspecting the surface for floating and submerged debris",
-    "confidence": "high"
-  },
-  "AA.I.H.K1f": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance covers identifying sandbars, islands and shoals",
-    "confidence": "low"
-  },
-  "AA.I.H.K1g": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance covers vessel traffic and the waves their wakes produce",
-    "confidence": "low"
-  },
-  "AA.I.H.K1h": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Catch-all subelement; reconnaissance is the general survey procedure",
-    "confidence": "low"
-  },
-  "AA.I.H.K1i": {
-    "sections": [],
-    "anchors": ["seaplane:rough-water-landing", "seaplane:landing-area-reconnaissance"],
-    "why": "The rough water landing section covers wave direction and height and how to work with them; reconnaissance covers assessing them from the air",
-    "confidence": "high"
-  },
-  "AA.I.H.K2": {
-    "sections": [],
-    "anchors": ["seaplane:preflight-inspection"],
-    "why": "The preflight inspection section describes float and hull construction and condition. No anchor covers hull design effects on performance directly",
-    "confidence": "low"
-  },
-  "AA.I.H.K3": {
-    "sections": [],
-    "anchors": ["seaplane:porpoising", "seaplane:skipping"],
-    "why": "Named sections for both phenomena and their corrective actions",
-    "confidence": "high"
-  },
-  "AA.I.H.K4": {
-    "sections": [],
-    "anchors": ["aim:ch09-s01"],
-    "why": "AIM 9-1 lists the charts and publications in which seaplane bases are depicted",
-    "confidence": "low"
-  },
-  "AA.I.H.K5": {
-    "sections": [],
-    "anchors": [],
-    "why": "Operating restrictions at individual seaplane bases are local and not covered by any listed anchor",
-    "confidence": "high"
-  },
-  "AA.I.H.K6": {
-    "sections": [],
-    "anchors": ["seaplane:sailing", "seaplane:taxiing-and-sailing"],
-    "why": "The sailing and taxiing sections cover steering on the water and the rules for meeting other vessels",
-    "confidence": "high"
-  },
-  "AA.I.H.K7": {
-    "sections": [],
-    "anchors": [],
-    "why": "No listed seaplane or AIM anchor covers buoys, beacons, sound signals or range markers",
-    "confidence": "high"
-  },
-  "AA.I.H.K8": {
-    "sections": [],
-    "anchors": [],
-    "why": "Naval vessel protection zones are Coast Guard material with no listed anchor",
-    "confidence": "high"
-  },
-  "AA.I.H.K9": {
-    "sections": [],
-    "anchors": [],
-    "why": "No wake zones are local marine regulation with no listed anchor",
-    "confidence": "high"
-  },
-  "AA.I.H.R1": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance is where local water conditions are evaluated before committing",
-    "confidence": "low"
-  },
-  "AA.I.H.R2": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance covers reading marine traffic and its wakes before landing",
-    "confidence": "low"
-  },
-  "AA.I.H.R3": {
-    "sections": [],
-    "anchors": ["seaplane:sailing", "seaplane:taxiing-and-sailing"],
-    "why": "The sailing and taxiing sections cover right-of-way and manoeuvring among vessels",
-    "confidence": "high"
-  },
-  "AA.I.H.R4": {
-    "sections": [],
-    "anchors": [],
-    "why": "Limited services at seaplane bases is not covered by any listed anchor",
-    "confidence": "high"
-  },
-  "AA.I.H.S1": {
-    "sections": [],
-    "anchors": ["seaplane:preflight-inspection"],
-    "why": "The preflight inspection section is the only listed anchor describing float and hull construction",
-    "confidence": "low"
-  },
-  "AA.I.H.S2": {
-    "sections": [],
-    "anchors": ["seaplane:porpoising", "seaplane:skipping"],
-    "why": "Named sections give the corrective technique for each",
-    "confidence": "high"
-  },
-  "AA.I.H.S3": {
-    "sections": [],
-    "anchors": ["aim:ch09-s01"],
-    "why": "AIM 9-1 lists the charts and directories used to locate seaplane bases",
-    "confidence": "low"
-  },
-  "AA.I.H.S4": {
-    "sections": [],
-    "anchors": [],
-    "why": "No listed anchor covers marine navigation aids",
-    "confidence": "high"
-  },
-  "AA.I.H.S5": {
-    "sections": [],
-    "anchors": [],
-    "why": "No listed anchor covers naval vessel protection zones or no wake zones",
-    "confidence": "high"
-  },
-  "AA.I.H.S6": {
-    "sections": [],
-    "anchors": ["seaplane:landing-area-reconnaissance"],
-    "why": "Reconnaissance is the procedure for assessing water surface characteristics for the proposed landing",
-    "confidence": "high"
-  },
-  "AA.I.H.S7": {
-    "sections": [],
-    "anchors": ["seaplane:sailing", "seaplane:taxiing-and-sailing", "seaplane:using-water-rudders"],
-    "why": "Sailing, taxiing and water rudder use are the three named sections covering steering and manoeuvring on the water",
-    "confidence": "high"
-  }
+ "AA.I.A.K1": {
+  "anchors": [
+   "afh:ch12",
+   "afh:ch16"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch12 covers retractable landing gear systems and indicators in complex airplanes; ch16 covers jet gear, antiskid and brakes. Task cites no CFR part"
+ },
+ "AA.I.A.K10": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No AFH, RMH or seaplane chapter covers airframe and engine ice protection systems as a system description. Not forcing a chapter"
+ },
+ "AA.I.A.K11": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 Emergency Procedures is the only cited-handbook chapter touching emergency exits, evacuation and crew duties"
+ },
+ "AA.I.A.K12": {
+  "anchors": [
+   "afh:ch12",
+   "afh:ch16"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch12 covers flaps and control systems on complex airplanes; ch16 covers jet spoilers, speed brakes, leading edge devices and yaw damper"
+ },
+ "AA.I.A.K13": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Pitot-static systems and instrument power sources are PHAK ch8 material, and this Task does not cite PHAK"
+ },
+ "AA.I.A.K14": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers in-flight fire detection and response; no cited chapter covers cargo, lavatory or battery suppression systems"
+ },
+ "AA.I.A.K15": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 UPRT covers angle of attack awareness, stall warning and envelope protection systems"
+ },
+ "AA.I.A.K16": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "POH/AFM contents are PHAK ch9 material and PHAK is not cited by this Task"
+ },
+ "AA.I.A.K17": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "MEL and CDL use is governed by 91.213 and operations specifications, but this Task cites no CFR part and no cited handbook chapter covers it"
+ },
+ "AA.I.A.K2": {
+  "anchors": [
+   "afh:ch15",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch15 turbopropeller and ch16 jet transition chapters describe powerplant controls, indications and induction systems"
+ },
+ "AA.I.A.K3": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch15"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers propeller feathering and unfeathering on multiengine airplanes; ch15 covers turboprop propeller control, beta and reverse"
+ },
+ "AA.I.A.K4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No cited handbook chapter describes fuel system capacity, cross-feed, transfer or jettison as a system"
+ },
+ "AA.I.A.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Oil system detail is airplane specific and not covered by any cited handbook chapter"
+ },
+ "AA.I.A.K6": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Hydraulic system detail is airplane specific and not covered by any cited handbook chapter"
+ },
+ "AA.I.A.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Electrical system detail is PHAK ch7 material and PHAK is not cited by this Task"
+ },
+ "AA.I.A.K8": {
+  "anchors": [
+   "afh:ch16"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch16 covers jet pneumatic, bleed air, pressurization and environmental systems"
+ },
+ "AA.I.A.K9": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch7 Automation and Flight Path Management covers autopilot, flight director, FMS and EFB use and limitations"
+ },
+ "AA.I.A.R1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 Emergency Procedures covers recognising system malfunctions and failures"
+ },
+ "AA.I.A.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 Emergency Procedures is the direct source on managing a system failure"
+ },
+ "AA.I.A.R3": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch7 is the source on monitoring and managing automated systems"
+ },
+ "AA.I.A.R4": {
+  "anchors": [
+   "afh:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline; RMH ch6 Threat and Error Management covers procedural deviation"
+ },
+ "AA.I.A.S1": {
+  "anchors": [
+   "afh:ch15",
+   "afh:ch16"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch15 and ch16 supply the systems terminology for turbopropeller and jet airplanes"
+ },
+ "AA.I.A.S2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers immediate action and memory items for emergencies"
+ },
+ "AA.I.A.S3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "POH/AFM limitations are airplane specific; no cited handbook chapter covers them"
+ },
+ "AA.I.A.S4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "MEL and CDL deferral process is not covered by any cited handbook chapter and this Task cites no CFR part"
+ },
+ "AA.I.A.S5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Operations specifications, management specifications and letters of authorization live in parts 119, 121 and 135, none cited by this Task"
+ },
+ "AA.I.A.S6": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 covers normal checklist use; ch18 covers abnormal and emergency procedures"
+ },
+ "AA.I.B.K1": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.103 requires the pilot to determine takeoff and landing distance data from approved performance information. Task cites no handbook",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires the pilot to determine takeoff and landing distance data from approved performance information. Task cites no handbook"
+ },
+ "AA.I.B.K2": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "Parent element; 91.103 is the general duty to determine performance figures before flight",
+  "sections": [
+   "91.103"
+  ],
+  "why": "Parent element; 91.103 is the general duty to determine performance figures before flight"
+ },
+ "AA.I.B.K2a": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Accelerate-stop and accelerate-go distances come from part 25 certification data and part 121 or 135 performance rules, not from part 1 or part 91"
+ },
+ "AA.I.B.K2b": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "1.2 defines the V-speed abbreviations, including minimum control speed, used in takeoff performance",
+  "sections": [
+   "1.2"
+  ],
+  "why": "1.2 defines the V-speed abbreviations, including minimum control speed, used in takeoff performance"
+ },
+ "AA.I.B.K2c": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Climb performance determination is certification and operating-rule material outside parts 1 and 91"
+ },
+ "AA.I.B.K2d": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Cruise performance and maximum operating altitude come from the AFM, not from parts 1 or 91"
+ },
+ "AA.I.B.K2e": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Descent performance comes from the AFM, not from parts 1 or 91"
+ },
+ "AA.I.B.K2f": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.103(b) requires runway lengths and landing distance data for the intended airports",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103(b) requires runway lengths and landing distance data for the intended airports"
+ },
+ "AA.I.B.K2g": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "One-engine-inoperative performance for all phases is part 25 and part 121 or 135 material; no listed part 1 or part 91 section governs it"
+ },
+ "AA.I.B.K2h": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.605 sets transport category airplane weight limitations, the part 91 rule closest to weight and balance determination",
+  "sections": [
+   "91.605"
+  ],
+  "why": "91.605 sets transport category airplane weight limitations, the part 91 rule closest to weight and balance determination"
+ },
+ "AA.I.B.K3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Parent heading for performance factors; no single section governs it"
+ },
+ "AA.I.B.K3a": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Atmospheric effects on performance are aerodynamic, not regulatory. Task cites no handbook"
+ },
+ "AA.I.B.K3b": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Pilot technique is not governed by a part 1 or part 91 section"
+ },
+ "AA.I.B.K3c": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Configuration effects on performance come from the AFM, not from parts 1 or 91"
+ },
+ "AA.I.B.K3d": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Runway condition and LAHSO are AIM and airport material; the AIM is not cited by this Task and no listed part 91 section covers it"
+ },
+ "AA.I.B.K3e": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Center of gravity effects on performance come from the AFM loading limits, not from a listed section"
+ },
+ "AA.I.B.K3f": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.605 constrains operating weights for transport category airplanes",
+  "sections": [
+   "91.605"
+  ],
+  "why": "91.605 constrains operating weights for transport category airplanes"
+ },
+ "AA.I.B.K4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Aerodynamics is handbook material and this Task cites no handbook"
+ },
+ "AA.I.B.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.9 requires operation within the AFM, marking and placard limitations",
+  "sections": [
+   "91.9"
+  ],
+  "why": "91.9 requires operation within the AFM, marking and placard limitations"
+ },
+ "AA.I.B.K6": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.527 governs operating in icing conditions and the performance consequences of contamination",
+  "sections": [
+   "91.527"
+  ],
+  "why": "91.527 governs operating in icing conditions and the performance consequences of contamination"
+ },
+ "AA.I.B.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.527 states the clean wing requirement and the pre-takeoff contamination check",
+  "sections": [
+   "91.527"
+  ],
+  "why": "91.527 states the clean wing requirement and the pre-takeoff contamination check"
+ },
+ "AA.I.B.K8": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Air carrier average weight programs live in part 121, which is deliberately out of this corpus"
+ },
+ "AA.I.B.K9": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "RCAM and runway condition reporting are advisory circular and AIM material; no listed part 1 or part 91 section covers them"
+ },
+ "AA.I.B.R1": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.103 obliges the pilot to use the approved performance data before flight",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 obliges the pilot to use the approved performance data before flight"
+ },
+ "AA.I.B.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.9 makes AFM operating limitations binding",
+  "sections": [
+   "91.9"
+  ],
+  "why": "91.9 makes AFM operating limitations binding"
+ },
+ "AA.I.B.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "The gap between book and actual performance is judgement, not a regulatory requirement in parts 1 or 91"
+ },
+ "AA.I.B.R4": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.527 prohibits takeoff with frost, ice or snow adhering to critical surfaces and governs flight in icing",
+  "sections": [
+   "91.527"
+  ],
+  "why": "91.527 prohibits takeoff with frost, ice or snow adhering to critical surfaces and governs flight in icing"
+ },
+ "AA.I.B.R5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Runway excursion risk is not addressed by a listed part 1 or part 91 section"
+ },
+ "AA.I.B.S1": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "1.2 is the regulatory definition list for the V-speed abbreviations used in each phase of flight",
+  "sections": [
+   "1.2"
+  ],
+  "why": "1.2 is the regulatory definition list for the V-speed abbreviations used in each phase of flight"
+ },
+ "AA.I.B.S2": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.103 requires applying the weather and field conditions to the performance data before flight",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires applying the weather and field conditions to the performance data before flight"
+ },
+ "AA.I.B.S3": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.527 sets the pre-takeoff contamination check and deice or anti-ice requirement",
+  "sections": [
+   "91.527"
+  ],
+  "why": "91.527 sets the pre-takeoff contamination check and deice or anti-ice requirement"
+ },
+ "AA.I.B.S4": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.527 covers flight in icing conditions; 91.9 makes the AFM icing limitations binding",
+  "sections": [
+   "91.527",
+   "91.9"
+  ],
+  "why": "91.527 covers flight in icing conditions; 91.9 makes the AFM icing limitations binding"
+ },
+ "AA.I.B.S5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Computing weight and balance is a procedure, not a rule stated in parts 1 or 91"
+ },
+ "AA.I.B.S6": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.9 requires operation within the AFM center of gravity and fuel balance limits",
+  "sections": [
+   "91.9"
+  ],
+  "why": "91.9 requires operation within the AFM center of gravity and fuel balance limits"
+ },
+ "AA.I.B.S7": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.103 is the regulatory hook for using performance data for all phases of the intended flight",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 is the regulatory hook for using performance data for all phases of the intended flight"
+ },
+ "AA.I.C.K1": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "section_why": "91.103 requires gathering all available information including weather; AIM 7-1 describes the National Weather Service and Flight Service weather sources",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires gathering all available information including weather; AIM 7-1 describes the National Weather Service and Flight Service weather sources"
+ },
+ "AA.I.C.K2": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "section_why": "Parent element on acceptable weather products; AIM 7-1 is the FAA list of them and 91.103 requires their use",
+  "sections": [
+   "91.103"
+  ],
+  "why": "Parent element on acceptable weather products; AIM 7-1 is the FAA list of them and 91.103 requires their use"
+ },
+ "AA.I.C.K2a": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 covers surface aviation weather observations and pilot weather reports"
+ },
+ "AA.I.C.K2b": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 covers the graphical products including surface analysis and ceiling and visibility depictions"
+ },
+ "AA.I.C.K2c": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 describes the terminal aerodrome forecast"
+ },
+ "AA.I.C.K2d": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 describes the Graphical Forecasts for Aviation"
+ },
+ "AA.I.C.K2e": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 describes the wind and temperature aloft forecast"
+ },
+ "AA.I.C.K2f": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 is the only cited-handbook location covering convective forecast products"
+ },
+ "AA.I.C.K2g": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 covers inflight aviation weather advisories: AIRMET, SIGMET and Convective SIGMET"
+ },
+ "AA.I.C.K3": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 Meteorology is the cited-handbook chapter for hazardous weather phenomena. PHAK is not cited by this Task"
+ },
+ "AA.I.C.K3a": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 is the only cited source touching atmospheric stability"
+ },
+ "AA.I.C.K3b": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 covers wind shear, low level wind shear alerting and mountain wave activity"
+ },
+ "AA.I.C.K3c": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 is the only cited source touching temperature effects; heat exchange itself is PHAK material and PHAK is not cited"
+ },
+ "AA.I.C.K3d": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 covers precipitation reporting and hazards"
+ },
+ "AA.I.C.K3e": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 is the only cited source touching air mass and frontal weather"
+ },
+ "AA.I.C.K3f": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 covers cloud reporting; cloud formation theory is PHAK material and PHAK is not cited"
+ },
+ "AA.I.C.K3g": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 covers turbulence reporting criteria and clear air turbulence"
+ },
+ "AA.I.C.K3h": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 covers thunderstorms, microbursts and thunderstorm avoidance"
+ },
+ "AA.I.C.K3i": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "section_why": "AIM 7-1 covers icing types and freezing level products; 91.527 governs operating in icing conditions",
+  "sections": [
+   "91.527"
+  ],
+  "why": "AIM 7-1 covers icing types and freezing level products; 91.527 governs operating in icing conditions"
+ },
+ "AA.I.C.K3j": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 is the cited source for visibility restrictions including fog and mist"
+ },
+ "AA.I.C.K3k": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.527 addresses frost adhering to critical surfaces; no cited handbook chapter treats frost formation directly",
+  "sections": [
+   "91.527"
+  ],
+  "why": "91.527 addresses frost adhering to critical surfaces; no cited handbook chapter treats frost formation directly"
+ },
+ "AA.I.C.K3l": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 covers obstructions to visibility including volcanic ash"
+ },
+ "AA.I.C.K4": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 covers flight deck datalink weather displays and their currency and resolution limitations"
+ },
+ "AA.I.C.K5": {
+  "anchors": [
+   "aim:ch05-s04"
+  ],
+  "confidence": "low",
+  "section_why": "91.189 is the general operating rule for Category II and III operations; AIM 5-4 covers the approach procedures and low-visibility minima",
+  "sections": [
+   "91.189"
+  ],
+  "why": "91.189 is the general operating rule for Category II and III operations; AIM 5-4 covers the approach procedures and low-visibility minima"
+ },
+ "AA.I.C.K6": {
+  "anchors": [
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch4 Assessing Risk is the source on flight risk assessment tools"
+ },
+ "AA.I.C.R1": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "section_why": "Parent element on weather decision making; RMH ch8 covers in-flight ADM and 91.103 the preflight information duty",
+  "sections": [
+   "91.103"
+  ],
+  "why": "Parent element on weather decision making; RMH ch8 covers in-flight ADM and 91.103 the preflight information duty"
+ },
+ "AA.I.C.R1a": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch8 covers diversion and course change decisions in flight"
+ },
+ "AA.I.C.R1b": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "section_why": "AIM 7-1 covers forecast icing, turbulence and volcanic ash hazards; 91.527 limits operation in icing",
+  "sections": [
+   "91.527"
+  ],
+  "why": "AIM 7-1 covers forecast icing, turbulence and volcanic ash hazards; 91.527 limits operation in icing"
+ },
+ "AA.I.C.R1c": {
+  "anchors": [
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch2 Personal Minimums is the direct source"
+ },
+ "AA.I.C.R1d": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.9 makes AFM operating limitations binding; operator-specified limits sit outside the cited parts",
+  "sections": [
+   "91.9"
+  ],
+  "why": "91.9 makes AFM operating limitations binding; operator-specified limits sit outside the cited parts"
+ },
+ "AA.I.C.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Parent heading with no governing section or chapter of its own"
+ },
+ "AA.I.C.R2a": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 7-1 covers onboard radar and datalink weather equipment limitations"
+ },
+ "AA.I.C.R2b": {
+  "anchors": [
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 states the coverage and currency limitations of aviation weather reports and forecasts"
+ },
+ "AA.I.C.R2c": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aim:ch04-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 7-1 covers inflight weather advisory broadcasts; AIM 4-1 covers the ATC and Flight Service inflight weather services"
+ },
+ "AA.I.C.S1": {
+  "anchors": [
+   "risk-management:ch04",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "section_why": "RMH ch4 covers flight risk assessment tools and ch8 in-flight ADM; 91.103 requires the preflight weather review",
+  "sections": [
+   "91.103"
+  ],
+  "why": "RMH ch4 covers flight risk assessment tools and ch8 in-flight ADM; 91.103 requires the preflight weather review"
+ },
+ "AA.I.D.K1": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch16 Transition to Jet-Powered Airplanes covers swept wing characteristics and Mach buffet; PHAK ch5 Aerodynamics of Flight gives the underlying theory"
+ },
+ "AA.I.D.K2": {
+  "anchors": [
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch4 is Energy Management"
+ },
+ "AA.I.D.K3": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch16 covers Mach number and airspeed relationships with altitude; PHAK ch8 Flight Instruments covers indicated versus true airspeed"
+ },
+ "AA.I.D.K4": {
+  "anchors": [
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch16 covers high altitude speed margins and the effect of load factor on them"
+ },
+ "AA.I.D.K5": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch16 covers jet altitude capability; PHAK ch11 Aircraft Performance covers the weight and temperature relationship"
+ },
+ "AA.I.D.K6": {
+  "anchors": [
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch16 covers VMO/MMO and the convergence of high and low speed buffet at altitude"
+ },
+ "AA.I.D.K7": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics of Flight covers the lift-to-drag ratio and L/DMAX"
+ },
+ "AA.I.D.K8": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch11 Aircraft Performance covers range and endurance"
+ },
+ "AA.I.D.K9": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 is Upset Prevention and Recovery Training, which covers high altitude upset causes and recovery"
+ },
+ "AA.I.D.R1": {
+  "anchors": [
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch4 Energy Management is the direct source"
+ },
+ "AA.I.D.R2": {
+  "anchors": [
+   "afh:ch16"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch16 covers operating near the altitude ceiling at heavy weights"
+ },
+ "AA.I.D.R3": {
+  "anchors": [
+   "afh:ch16",
+   "afh:ch04"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch16 covers high altitude slow-downs; ch4 covers operating behind the power curve as an energy problem"
+ },
+ "AA.I.D.R4": {
+  "anchors": [
+   "afh:ch16"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch16 covers turbulence penetration speed and high altitude turbulence"
+ },
+ "AA.I.D.S1": {
+  "anchors": [
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch4 Energy Management covers managing the airplane energy state in cruise"
+ },
+ "AA.I.F.K1": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 Fitness for Flight is the cited-handbook source for aeromedical and physiological factors. PHAK ch17 is not available because PHAK is not cited by this Task"
+ },
+ "AA.I.F.K1a": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers hypoxia types, symptoms and correction"
+ },
+ "AA.I.F.K1b": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers hyperventilation"
+ },
+ "AA.I.F.K1c": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers middle ear and sinus block"
+ },
+ "AA.I.F.K1d": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers spatial disorientation and vestibular illusions"
+ },
+ "AA.I.F.K1e": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers motion sickness"
+ },
+ "AA.I.F.K1f": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers carbon monoxide poisoning"
+ },
+ "AA.I.F.K1g": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers stress and its effect on pilot performance"
+ },
+ "AA.I.F.K1h": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers fatigue, acute and chronic"
+ },
+ "AA.I.F.K1i": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 8-1 covers dehydration and nutrition under fitness for flight"
+ },
+ "AA.I.F.K1j": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 8-1 is the closest cited source; hypothermia is treated only briefly"
+ },
+ "AA.I.F.K1k": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers vision and optical illusions in flight"
+ },
+ "AA.I.F.K1l": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 gives the flight after scuba diving waiting times"
+ },
+ "AA.I.F.K2": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 covers alcohol, drugs and over-the-counter medication. 91.17 would apply but this Task cites no CFR part"
+ },
+ "AA.I.F.K3": {
+  "anchors": [
+   "risk-management:ch08",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch8 covers aeronautical decision-making in flight; ch6 covers threat and error management, the basis of CRM and SRM"
+ },
+ "AA.I.F.K4": {
+  "anchors": [
+   "aim:ch08-s01",
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 gives the fitness for flight self-assessment; RMH ch2 covers personal minimums"
+ },
+ "AA.I.F.R1": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 is the cited source on aeromedical and physiological risk"
+ },
+ "AA.I.F.R2": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch8 covers the hazardous attitudes and their antidotes"
+ },
+ "AA.I.F.R3": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.I.F.R4": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 covers confirmation and expectation bias as error sources"
+ },
+ "AA.I.F.S1": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 8-1 provides the fitness for flight self-assessment"
+ },
+ "AA.I.G.K1": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "61.3 and 61.57 are the subpart A certificate and recency rules; 61.167 states airline transport pilot privileges and limitations in subpart G",
+  "sections": [
+   "61.3",
+   "61.57",
+   "61.167"
+  ],
+  "why": "61.3 and 61.57 are the subpart A certificate and recency rules; 61.167 states airline transport pilot privileges and limitations in subpart G"
+ },
+ "AA.I.G.K2": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.3 is the subpart A authority rule, 91.103 the subpart B preflight rule, 91.205 the subpart C equipment rule",
+  "sections": [
+   "91.3",
+   "91.103",
+   "91.205"
+  ],
+  "why": "91.3 is the subpart A authority rule, 91.103 the subpart B preflight rule, 91.205 the subpart C equipment rule"
+ },
+ "AA.I.G.K3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "14 CFR part 117 flight and duty limitations is not in this corpus, and no part 91 or 135 section is an acceptable substitute"
+ },
+ "AA.I.G.K4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "14 CFR part 121 is deliberately out of scope in this corpus. No substitute cited"
+ },
+ "AA.I.G.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "135.1 is subpart A applicability, 135.77 the subpart B operational control rule, 135.243 the subpart E pilot in command qualification rule",
+  "sections": [
+   "135.1",
+   "135.77",
+   "135.243"
+  ],
+  "why": "135.1 is subpart A applicability, 135.77 the subpart B operational control rule, 135.243 the subpart E pilot in command qualification rule"
+ },
+ "AA.I.G.K6": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "49 CFR part 830 is not listed in the packet CFR inventory, so no section can be cited"
+ },
+ "AA.I.G.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "14 CFR part 111 is not in this corpus"
+ },
+ "AA.I.G.R1": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.13 prohibits careless or reckless operation; 61.3 makes operating without the required certificate a violation",
+  "sections": [
+   "91.13",
+   "61.3"
+  ],
+  "why": "91.13 prohibits careless or reckless operation; 61.3 makes operating without the required certificate a violation"
+ },
+ "AA.I.G.S1": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.3 makes the pilot in command responsible for applying the rules to the operation; 91.103 is the concrete preflight application",
+  "sections": [
+   "91.3",
+   "91.103"
+  ],
+  "why": "91.3 makes the pilot in command responsible for applying the rules to the operation; 91.103 is the concrete preflight application"
+ },
+ "AA.I.H.K1": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The seaplane handbook reconnaissance section is the survey of water surface characteristics before landing. Task cites no CFR part"
+ },
+ "AA.I.H.K1a": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Reconnaissance covers assessing the size and location of the landing area"
+ },
+ "AA.I.H.K1b": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Reconnaissance covers sheltered versus exposed water"
+ },
+ "AA.I.H.K1c": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Reconnaissance covers determining surface wind direction and strength from the water"
+ },
+ "AA.I.H.K1d": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Reconnaissance covers reading water current direction and strength"
+ },
+ "AA.I.H.K1e": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Reconnaissance covers inspecting the surface for floating and submerged debris"
+ },
+ "AA.I.H.K1f": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Reconnaissance covers identifying sandbars, islands and shoals"
+ },
+ "AA.I.H.K1g": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Reconnaissance covers vessel traffic and the waves their wakes produce"
+ },
+ "AA.I.H.K1h": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Catch-all subelement; reconnaissance is the general survey procedure"
+ },
+ "AA.I.H.K1i": {
+  "anchors": [
+   "seaplane:rough-water-landing",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The rough water landing section covers wave direction and height and how to work with them; reconnaissance covers assessing them from the air"
+ },
+ "AA.I.H.K2": {
+  "anchors": [
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The preflight inspection section describes float and hull construction and condition. No anchor covers hull design effects on performance directly"
+ },
+ "AA.I.H.K3": {
+  "anchors": [
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Named sections for both phenomena and their corrective actions"
+ },
+ "AA.I.H.K4": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 9-1 lists the charts and publications in which seaplane bases are depicted"
+ },
+ "AA.I.H.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Operating restrictions at individual seaplane bases are local and not covered by any listed anchor"
+ },
+ "AA.I.H.K6": {
+  "anchors": [
+   "seaplane:sailing",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The sailing and taxiing sections cover steering on the water and the rules for meeting other vessels"
+ },
+ "AA.I.H.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No listed seaplane or AIM anchor covers buoys, beacons, sound signals or range markers"
+ },
+ "AA.I.H.K8": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Naval vessel protection zones are Coast Guard material with no listed anchor"
+ },
+ "AA.I.H.K9": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No wake zones are local marine regulation with no listed anchor"
+ },
+ "AA.I.H.R1": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Reconnaissance is where local water conditions are evaluated before committing"
+ },
+ "AA.I.H.R2": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Reconnaissance covers reading marine traffic and its wakes before landing"
+ },
+ "AA.I.H.R3": {
+  "anchors": [
+   "seaplane:sailing",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The sailing and taxiing sections cover right-of-way and manoeuvring among vessels"
+ },
+ "AA.I.H.R4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Limited services at seaplane bases is not covered by any listed anchor"
+ },
+ "AA.I.H.S1": {
+  "anchors": [
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The preflight inspection section is the only listed anchor describing float and hull construction"
+ },
+ "AA.I.H.S2": {
+  "anchors": [
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Named sections give the corrective technique for each"
+ },
+ "AA.I.H.S3": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 9-1 lists the charts and directories used to locate seaplane bases"
+ },
+ "AA.I.H.S4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No listed anchor covers marine navigation aids"
+ },
+ "AA.I.H.S5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "No listed anchor covers naval vessel protection zones or no wake zones"
+ },
+ "AA.I.H.S6": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Reconnaissance is the procedure for assessing water surface characteristics for the proposed landing"
+ },
+ "AA.I.H.S7": {
+  "anchors": [
+   "seaplane:sailing",
+   "seaplane:taxiing-and-sailing",
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Sailing, taxiing and water rudder use are the three named sections covering steering and manoeuvring on the water"
+ }
 }

@@ -1,0 +1,1572 @@
+{
+ "certificate": "instrument",
+ "packet": "instrument-c",
+ "areas": [
+  "VI"
+ ],
+ "anchor_menu": {
+  "afh": {
+   "afh:ch01": "Introduction to Flight Training",
+   "afh:ch02": "Ground Operations",
+   "afh:ch03": "Basic Flight Maneuvers",
+   "afh:ch04": "Energy Management: Mastering Altitude and Airspeed Control",
+   "afh:ch05": "Maintaining Aircraft Control: Upset Prevention and Recovery",
+   "afh:ch06": "Takeoffs and Departure Climbs",
+   "afh:ch07": "Ground Reference Maneuvers",
+   "afh:ch08": "Airport Traffic Patterns",
+   "afh:ch09": "Approaches and Landings",
+   "afh:ch10": "Performance Maneuvers",
+   "afh:ch11": "Night Operations",
+   "afh:ch12": "Transition to Complex Airplanes",
+   "afh:ch13": "Transition to Multiengine Airplanes",
+   "afh:ch14": "Transition to Tailwheel Airplanes",
+   "afh:ch15": "Transition to Turbopropeller-Powered Airplanes",
+   "afh:ch16": "Transition to Jet-Powered Airplanes",
+   "afh:ch17": "Transition to Light Sport Airplanes (LSA)",
+   "afh:ch18": "Emergency Procedures"
+  },
+  "aim": {
+   "aim:ch01": "Air Navigation",
+   "aim:ch01-s01": "Section 1. Navigation Aids",
+   "aim:ch01-s02": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+   "aim:ch02": "Aeronautical Lighting and Other Airport",
+   "aim:ch02-s01": "Section 1. Airport Lighting Aids",
+   "aim:ch02-s02": "Section 2. Air Navigation and Obstruction Lighting",
+   "aim:ch02-s03": "Section 3. Airport Marking Aids and Signs",
+   "aim:ch03": "Airspace",
+   "aim:ch03-s01": "Section 1. General",
+   "aim:ch03-s02": "Section 2. Controlled Airspace",
+   "aim:ch03-s03": "Section 3. Class G Airspace",
+   "aim:ch03-s04": "Section 4. Special Use Airspace",
+   "aim:ch03-s05": "Section 5. Other Airspace Areas",
+   "aim:ch04": "Air Traffic Control",
+   "aim:ch04-s01": "Section 1. Services Available to Pilots",
+   "aim:ch04-s02": "Section 2. Radio Communications Phraseology and Techniques",
+   "aim:ch04-s03": "Section 3. Airport Operations",
+   "aim:ch04-s04": "Section 4. ATC Clearances and Aircraft Separation",
+   "aim:ch04-s05": "Section 5. Surveillance Systems",
+   "aim:ch04-s06": "Section 6. Operational Policy/Procedures for Reduced Vertical Separation Minimum (RVSM) in the Domestic U.S., Alaska, Of",
+   "aim:ch04-s07": "Section 7. Operational Policy/Procedures for the Gulf of America 50 NM Lateral Separation Initiative",
+   "aim:ch05": "Air Traffic Procedures",
+   "aim:ch05-s01": "Section 1. Preflight",
+   "aim:ch05-s02": "Section 2. Departure Procedures",
+   "aim:ch05-s03": "Section 3. En Route Procedures",
+   "aim:ch05-s04": "Section 4. Arrival Procedures",
+   "aim:ch05-s05": "Section 5. Pilot/Controller Roles and Responsibilities",
+   "aim:ch05-s06": "Section 6. National Security and Interception Procedures",
+   "aim:ch06": "Emergency Procedures",
+   "aim:ch06-s01": "Section 1. General",
+   "aim:ch06-s02": "Section 2. Emergency Services Available to Pilots",
+   "aim:ch06-s03": "Section 3. Distress and Urgency Procedures",
+   "aim:ch06-s04": "Section 4. Two‐way Radio Communications Failure",
+   "aim:ch06-s05": "Section 5. Aircraft Rescue and Fire Fighting Communications",
+   "aim:ch07": "Safety of Flight",
+   "aim:ch07-s01": "Section 1. Meteorology",
+   "aim:ch07-s02": "Section 2. Barometric Altimeter Errors and Setting Procedures",
+   "aim:ch07-s03": "Section 3. Cold Temperature Barometric Altimeter Errors, Setting Procedures and Cold Temperature Airports (CTA)",
+   "aim:ch07-s04": "Section 4. Wake Turbulence",
+   "aim:ch07-s05": "Section 5. Bird Hazards and Flight Over National Refuges, Parks, and Forests",
+   "aim:ch07-s06": "Section 6. Potential Flight Hazards",
+   "aim:ch07-s07": "Section 7. Safety, Accident, and Hazard Reports",
+   "aim:ch08": "Medical Facts for Pilots",
+   "aim:ch08-s01": "Section 1. Fitness for Flight",
+   "aim:ch09": "Aeronautical Charts and",
+   "aim:ch09-s01": "Section 1. Types of Charts Available",
+   "aim:ch10": "Helicopter Operations",
+   "aim:ch10-s01": "Section 1. Helicopter IFR Operations",
+   "aim:ch10-s02": "Section 2. Special Operations",
+   "aim:ch11": "Unmanned Aircraft Systems (UAS)",
+   "aim:ch11-s01": "Section 1. General",
+   "aim:ch11-s02": "Section 2. Small Unmanned Aircraft System (sUAS)",
+   "aim:ch11-s03": "Section 3. Large UAS (MGOW 55 Pounds or More)",
+   "aim:ch11-s04": "Section 4. Airspace Access for UAS",
+   "aim:ch11-s05": "Section 5. UAS Pilot Testing, Certification and Responsibilities",
+   "aim:ch11-s06": "Section 6. Advanced Air Mobility",
+   "aim:ch11-s07": "Section 7. UAS Operations on Airports",
+   "aim:ch11-s08": "Section 8. Other Information and Best Practices"
+  },
+  "ifh": {
+   "ifh:ch01": "The National Airspace System",
+   "ifh:ch02": "The Air Traffic Control System",
+   "ifh:ch03": "Human Factors",
+   "ifh:ch04": "Aerodynamic Factors",
+   "ifh:ch05": "Flight Instruments",
+   "ifh:ch06": "Airplane Attitude Instrument Flying Using",
+   "ifh:ch07": "Airplane Basic Flight Maneuvers Using",
+   "ifh:ch08": "Helicopter Attitude Instrument Flying",
+   "ifh:ch09": "Navigation Systems",
+   "ifh:ch10": "IFR Flight",
+   "ifh:ch11": "Emergency Operations"
+  },
+  "iph": {
+   "iph:ch01": "Departure Procedures",
+   "iph:ch02": "En Route Operations",
+   "iph:ch03": "Arrivals",
+   "iph:ch04": "Approaches",
+   "iph:ch05": "Improvement Plans",
+   "iph:ch06": "Airborne Navigation Databases",
+   "iph:ch07": "Helicopter Instrument Procedures"
+  },
+  "phak": {
+   "phak:ch01": "Introduction To Flying",
+   "phak:ch02": "Aeronautical Decision-Making",
+   "phak:ch03": "Aircraft Construction",
+   "phak:ch04": "Principles of Flight",
+   "phak:ch05": "Aerodynamics",
+   "phak:ch06": "Flight Controls",
+   "phak:ch07": "Aircraft Systems",
+   "phak:ch08": "Flight",
+   "phak:ch09": "Flight Manuals and Other Documents",
+   "phak:ch10": "Weight and Balance",
+   "phak:ch11": "Aircraft Performance",
+   "phak:ch12": "Weather Theory",
+   "phak:ch13": "Aviation Weather Services",
+   "phak:ch14": "Airport Operations",
+   "phak:ch15": "Airspace",
+   "phak:ch16": "Navigation",
+   "phak:ch17": "Aeromedical Factors"
+  },
+  "risk-management": {
+   "risk-management:ch01": "Introduction to Risk Management",
+   "risk-management:ch02": "Chapter 2: Personal Minimums",
+   "risk-management:ch03": "Chapter 3: Identifying Hazards & Associated Risks",
+   "risk-management:ch04": "Chapter 4: Assessing Risk",
+   "risk-management:ch05": "Chapter 5: Mitigating Risk",
+   "risk-management:ch06": "Chapter 6: Threat and Error Management",
+   "risk-management:ch07": "Automation & Flight Path",
+   "risk-management:ch08": "Aeronautical Decision-Making in"
+  }
+ },
+ "elements": {
+  "IR.VI.A.K1": {
+   "text": "Procedures and limitations associated with a non-precision approach, including the differences between Localizer Performance (LP) and Lateral Navigation (LNAV) approach guidance.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "ifh:ch10",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.A.K2": {
+   "text": "Navigation system indications and annunciations expected during an area navigation (RNAV) approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s02",
+    "iph:ch04",
+    "iph:ch06"
+   ]
+  },
+  "IR.VI.A.K3": {
+   "text": "Ground-based and satellite-based navigation systems used for a non-precision approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s01",
+    "aim:ch01-s02",
+    "ifh:ch09"
+   ]
+  },
+  "IR.VI.A.K4": {
+   "text": "A stabilized approach, including energy management concepts.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch04",
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.A.R1": {
+   "text": "Deviating from the assigned approach procedure.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "iph:ch04",
+    "risk-management:ch06"
+   ]
+  },
+  "IR.VI.A.R2": {
+   "text": "Selecting a navigation frequency.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch09"
+   ]
+  },
+  "IR.VI.A.R3": {
+   "text": "Management of automated navigation and autoflight systems.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch07"
+   ]
+  },
+  "IR.VI.A.R4": {
+   "text": "Aircraft configuration during an approach and missed approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.A.R5": {
+   "text": "An unstable approach, including excessive descent rates.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.A.R6": {
+   "text": "Deteriorating weather conditions on approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01",
+    "risk-management:ch03"
+   ]
+  },
+  "IR.VI.A.R7": {
+   "text": "Operating below the minimum descent altitude (MDA) without proper visual references.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.A.S1": {
+   "text": "Accomplish the non-precision instrument approaches selected by the evaluator.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.A.S10": {
+   "text": "Adjust the published MDA and visibility criteria for the aircraft approach category, as appropriate, for factors that include Notices of Air Missions (NOTAMs), inoperative aircraft or navigation equipment, or inoperative visual aids associated with the landing environment, etc.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.A.S11": {
+   "text": "Establish a stabilized descent to the appropriate altitude.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VI.A.S12": {
+   "text": "For the final approach segment, maintain no more than ¾ scale CDI deflection, airspeed ±10 knots, and altitude, if applicable, above MDA +100/-0 feet to the Visual Descent Point (VDP) or missed approach point (MAP).",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.A.S13": {
+   "text": "Assess if the required visual references are available, and either initiate the missed approach procedure or continue for landing.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.A.S14": {
+   "text": "Use a multi-function display (MFD) and other graphical navigation displays, if installed, to monitor position, track wind drift, and to maintain situational awareness.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "risk-management:ch07"
+   ]
+  },
+  "IR.VI.A.S15": {
+   "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch08"
+   ]
+  },
+  "IR.VI.A.S2": {
+   "text": "Establish two-way communications with air traffic control (ATC) appropriate for the phase of flight or approach segment, and use proper communication phraseology.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s02"
+   ]
+  },
+  "IR.VI.A.S3": {
+   "text": "Select, tune, identify, and confirm the operational status of navigation equipment to be used for the approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s01",
+    "ifh:ch09"
+   ]
+  },
+  "IR.VI.A.S4": {
+   "text": "Comply with all clearances issued by ATC or the evaluator.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s04"
+   ]
+  },
+  "IR.VI.A.S5": {
+   "text": "Recognize if any flight instrumentation is inaccurate or inoperative, and take appropriate action.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "ifh:ch11"
+   ]
+  },
+  "IR.VI.A.S6": {
+   "text": "Advise ATC or the evaluator if unable to comply with a clearance.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s04",
+    "aim:ch05-s05"
+   ]
+  },
+  "IR.VI.A.S7": {
+   "text": "Complete the appropriate checklist(s). 15",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.VI.A.S8": {
+   "text": "Establish the appropriate aircraft configuration and airspeed considering meteorological and operating conditions.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.A.S9": {
+   "text": "Maintain altitude ±100 feet, selected heading ±10°, airspeed ±10 knots, no more than ¾ scale CDI deflection, and accurately track radials, courses, or bearings, prior to beginning the final approach segment.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch06",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VI.B.K1": {
+   "text": "Procedures and limitations associated with a precision approach, including determining required descent rates and adjusting minimums in the case of inoperative equipment.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "ifh:ch10"
+   ]
+  },
+  "IR.VI.B.K2": {
+   "text": "Navigation system displays, annunciations, and modes of operation.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "ifh:ch09"
+   ]
+  },
+  "IR.VI.B.K3": {
+   "text": "Ground-based and satellite-based navigation systems (orientation, course determination, equipment, tests and regulations, interference, appropriate use of navigation data, signal integrity).",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s01",
+    "aim:ch01-s02",
+    "ifh:ch09"
+   ]
+  },
+  "IR.VI.B.K4": {
+   "text": "A stabilized approach, including energy management concepts.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch04",
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.B.R1": {
+   "text": "Deviating from the assigned approach procedure.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10",
+    "risk-management:ch06"
+   ]
+  },
+  "IR.VI.B.R2": {
+   "text": "Selecting a navigation frequency.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch09"
+   ]
+  },
+  "IR.VI.B.R3": {
+   "text": "Management of automated navigation and autoflight systems.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch07"
+   ]
+  },
+  "IR.VI.B.R4": {
+   "text": "Aircraft configuration during an approach and missed approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.B.R5": {
+   "text": "An unstable approach, including excessive descent rates. 16",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.B.R6": {
+   "text": "Deteriorating weather conditions on approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01",
+    "risk-management:ch03"
+   ]
+  },
+  "IR.VI.B.R7": {
+   "text": "Continuing to descend below the Decision Altitude (DA)/Decision Height (DH) when the required visual references are not visible.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "ifh:ch10"
+   ]
+  },
+  "IR.VI.B.S1": {
+   "text": "Accomplish the precision instrument approach(es) selected by the evaluator.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch09",
+    "ifh:ch10"
+   ]
+  },
+  "IR.VI.B.S10": {
+   "text": "Adjust the published DA/DH and visibility criteria for the aircraft approach category, as appropriate, to account for NOTAMS, inoperative aircraft or navigation equipment, or inoperative visual aids associated with the landing environment.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "ifh:ch10"
+   ]
+  },
+  "IR.VI.B.S11": {
+   "text": "Establish a predetermined rate of descent at the point where vertical guidance begins, which approximates that required for the aircraft to follow the vertical guidance.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch07",
+    "ifh:ch10"
+   ]
+  },
+  "IR.VI.B.S12": {
+   "text": "Maintain a stabilized final approach from the final approach fix (FAF) to DA/DH allowing no more than ¾-scale deflection of either the vertical or lateral guidance indications, and maintain the desired airspeed ±10 knots.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "ifh:ch10"
+   ]
+  },
+  "IR.VI.B.S13": {
+   "text": "Immediately initiate the missed approach procedure when at the DA/DH, and the required visual references for the runway are not unmistakably visible and identifiable.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10"
+   ]
+  },
+  "IR.VI.B.S14": {
+   "text": "Transition to a normal landing approach (missed approach for seaplanes) only when the airplane is in a position from which a descent to a landing on the runway can be made at a normal rate of descent using normal maneuvering.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.B.S15": {
+   "text": "Maintain a stabilized visual flight path from the DA/DH to the runway aiming point where a normal landing may be accomplished within the touchdown zone.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.B.S16": {
+   "text": "Use a multi-function display (MFD) and other graphical navigation displays, if installed, to monitor position, track wind drift, and to maintain situational awareness.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "risk-management:ch07"
+   ]
+  },
+  "IR.VI.B.S17": {
+   "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch08"
+   ]
+  },
+  "IR.VI.B.S2": {
+   "text": "Establish two-way communications with air traffic control (ATC) appropriate for the phase of flight or approach segment, and use proper communication phraseology.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s02"
+   ]
+  },
+  "IR.VI.B.S3": {
+   "text": "Select, tune, identify, and confirm the operational status of navigation equipment to be used for the approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s01",
+    "ifh:ch09"
+   ]
+  },
+  "IR.VI.B.S4": {
+   "text": "Comply with all clearances issued by ATC or the evaluator.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s04"
+   ]
+  },
+  "IR.VI.B.S5": {
+   "text": "Recognize if any flight instrumentation is inaccurate or inoperative, and take appropriate action.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "ifh:ch11"
+   ]
+  },
+  "IR.VI.B.S6": {
+   "text": "Advise ATC or the evaluator if unable to comply with a clearance.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s04",
+    "aim:ch05-s05"
+   ]
+  },
+  "IR.VI.B.S7": {
+   "text": "Complete the appropriate checklist(s).",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.VI.B.S8": {
+   "text": "Establish the appropriate aircraft configuration and airspeed considering meteorological and operating conditions.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.B.S9": {
+   "text": "Maintain altitude ±100 feet, selected heading ±10°, airspeed ±10 knots, no more than ¾ scale CDI deflection, and accurately track radials, courses, or bearings, prior to beginning the final approach segment.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch06",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VI.C.K1": {
+   "text": "Elements related to missed approach procedures and limitations associated with standard instrument approaches, including while using a flight management system (FMS) or autopilot, if equipped.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "ifh:ch10",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.C.R1": {
+   "text": "Deviations from prescribed procedures or ATC instructions.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s04",
+    "risk-management:ch06"
+   ]
+  },
+  "IR.VI.C.R2": {
+   "text": "Holding, diverting, or electing to fly the approach again.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10",
+    "iph:ch03"
+   ]
+  },
+  "IR.VI.C.R3": {
+   "text": "Aircraft configuration during an approach and missed approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.C.R4": {
+   "text": "Factors that might lead to executing a missed approach procedure before the MAP or to a go-around below DA, DH, or MDA, as applicable.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.C.R5": {
+   "text": "Management of automated navigation and autoflight systems.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch07"
+   ]
+  },
+  "IR.VI.C.S1": {
+   "text": "Promptly initiate the missed approach procedure and report it to ATC.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.C.S10": {
+   "text": "Request ATC clearance to attempt another approach, proceed to the alternate airport, holding fix, or other clearance limit, as appropriate, or as directed by the evaluator.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "iph:ch03"
+   ]
+  },
+  "IR.VI.C.S2": {
+   "text": "Apply the appropriate power setting for the flight condition and establish a pitch attitude necessary to obtain the desired performance.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "ifh:ch06"
+   ]
+  },
+  "IR.VI.C.S3": {
+   "text": "Configure the airplane in accordance with airplane manufacturer’s instructions, establish a positive rate of climb, and accelerate to the appropriate airspeed, ±10 knots.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VI.C.S4": {
+   "text": "Follow the recommended checklist items appropriate to the missed approach/go-around procedure.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.C.S5": {
+   "text": "Comply with the published or alternate missed approach procedure.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.C.S6": {
+   "text": "Advise ATC or the evaluator if unable to comply with a clearance, restriction, or climb gradient.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s04",
+    "aim:ch05-s05"
+   ]
+  },
+  "IR.VI.C.S7": {
+   "text": "Maintain the recommended airspeed ±10 knots; heading, course, or bearing ±10°; and altitude(s) ±100 feet during the missed approach procedure.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch06",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VI.C.S8": {
+   "text": "Use an MFD and other graphical navigation displays, if installed, to monitor position and track to help navigate the missed approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "risk-management:ch07"
+   ]
+  },
+  "IR.VI.C.S9": {
+   "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch08"
+   ]
+  },
+  "IR.VI.D.K1": {
+   "text": "Elements related to circling approach procedures and limitations, including approach categories and related airspeed restrictions.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s04",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.R1": {
+   "text": "Prescribed circling approach procedures.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.R2": {
+   "text": "Executing a circling approach at night or with marginal visibility.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch11",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.R3": {
+   "text": "Losing visual contact with an identifiable part of the airport.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.R4": {
+   "text": "Management of automated navigation and autoflight systems.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch07"
+   ]
+  },
+  "IR.VI.D.R5": {
+   "text": "Management of altitude, airspeed, or distance while circling.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.R6": {
+   "text": "Low altitude maneuvering, including stall, spin, or controlled flight into terrain (CFIT).",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch05",
+    "risk-management:ch03"
+   ]
+  },
+  "IR.VI.D.R7": {
+   "text": "Executing a missed approach after the MAP while circling.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.S1": {
+   "text": "Comply with the circling approach procedure considering turbulence, windshear, and the maneuvering capability and approach category of the aircraft.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.S2": {
+   "text": "Confirm the direction of traffic and adhere to all restrictions and instructions issued by ATC or the evaluator.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s03",
+    "aim:ch04-s04"
+   ]
+  },
+  "IR.VI.D.S3": {
+   "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch08"
+   ]
+  },
+  "IR.VI.D.S4": {
+   "text": "Establish the approach and landing configuration. Maintain a stabilized approach and a descent rate that ensures arrival at the MDA, or the preselected circling altitude above the MDA, prior to the missed approach point.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.S5": {
+   "text": "Maintain airspeed ±10 knots, desired heading/track ±10°, and altitude +100/-0 feet until descending below the MDA or the preselected circling altitude above the MDA.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch06",
+    "ifh:ch07"
+   ]
+  },
+  "IR.VI.D.S6": {
+   "text": "Visually maneuver to a base or downwind leg appropriate for the landing runway and environmental conditions.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch08",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.S7": {
+   "text": "If a missed approach occurs, turn in the appropriate direction using the correct procedure and appropriately configure the airplane.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.D.S8": {
+   "text": "If landing, initiate a stabilized descent. Touch down on the first one-third of the selected runway without excessive maneuvering, without exceeding the normal operating limits of the airplane, and without exceeding 30° of bank.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.E.K1": {
+   "text": "Elements related to the pilot’s responsibilities, and the environmental, operational, and meteorological factors that affect landing from a straight-in or circling approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "iph:ch04"
+   ]
+  },
+  "IR.VI.E.K2": {
+   "text": "Airport signs, markings, and lighting, including approach lighting systems.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch02-s01",
+    "aim:ch02-s03",
+    "phak:ch14"
+   ]
+  },
+  "IR.VI.E.K3": {
+   "text": "Appropriate landing profiles and aircraft configurations.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.E.R1": {
+   "text": "Attempting to land from an unstable approach.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.E.R2": {
+   "text": "Flying below the glidepath.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "aim:ch02-s01"
+   ]
+  },
+  "IR.VI.E.R3": {
+   "text": "Transitioning from instrument to visual references for landing.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "ifh:ch10"
+   ]
+  },
+  "IR.VI.E.R4": {
+   "text": "Aircraft configuration for landing.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.E.S1": {
+   "text": "Transition at the DA/DH, MDA, or visual descent point (VDP) to a visual flight condition, allowing for safe visual maneuvering and a normal landing.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09",
+    "ifh:ch10"
+   ]
+  },
+  "IR.VI.E.S2": {
+   "text": "Adhere to all ATC or evaluator advisories, such as NOTAMs, windshear, wake turbulence, runway surface, and other operational considerations.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s03",
+    "aim:ch07-s04"
+   ]
+  },
+  "IR.VI.E.S3": {
+   "text": "Complete the appropriate checklist(s).",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.VI.E.S4": {
+   "text": "Maintain positive airplane control throughout the landing maneuver.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch09"
+   ]
+  },
+  "IR.VI.E.S5": {
+   "text": "Use single-pilot resource management (SRM) or crew resource management (CRM), as appropriate. 20",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch08"
+   ]
+  }
+ }
+}

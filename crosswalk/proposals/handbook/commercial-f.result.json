@@ -1,1183 +1,1187 @@
 {
-  "CA.VII.A.K1": {
-    "sections": [],
-    "anchors": [
-      "phak:ch05",
-      "afh:ch05"
-    ],
-    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
-    "confidence": "high"
-  },
-  "CA.VII.A.R1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Inadvertent slow flight and flight into the stall warning is the loss of control case in AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.A.R2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "phak:ch05"
-    ],
-    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.A.R3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03",
-      "phak:ch05"
-    ],
-    "why": "Coordinated flight is taught in AFH ch3; the yaw and adverse aerodynamics are PHAK ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.A.R4": {
-    "sections": [],
-    "anchors": [
-      "phak:ch12",
-      "phak:ch11"
-    ],
-    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.A.R5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03"
-    ],
-    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.A.R6": {
-    "sections": [],
-    "anchors": [
-      "phak:ch02",
-      "risk-management:ch06"
-    ],
-    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
-    "confidence": "high"
-  },
-  "CA.VII.A.S1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03"
-    ],
-    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
-    "confidence": "high"
-  },
-  "CA.VII.A.S2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The AGL floor for slow flight and stall work is set in AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.A.S3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Flying just above the stall warning threshold is the AFH ch5 slow flight standard.",
-    "confidence": "high"
-  },
-  "CA.VII.A.S4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "afh:ch03"
-    ],
-    "why": "Straight and level, turns, climbs, and descents at slow flight are AFH ch5, on ch3 basic technique.",
-    "confidence": "high"
-  },
-  "CA.VII.A.S5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The altitude, heading, airspeed, and bank tolerances are the AFH ch5 slow flight standard.",
-    "confidence": "high"
-  },
-  "CA.VII.B.K1": {
-    "sections": [],
-    "anchors": [
-      "phak:ch05",
-      "afh:ch05"
-    ],
-    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
-    "confidence": "high"
-  },
-  "CA.VII.B.K2": {
-    "sections": [],
-    "anchors": [
-      "phak:ch05",
-      "afh:ch05"
-    ],
-    "why": "Stall characteristics by design and the sight, sound, and feel cues are PHAK ch5 and AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.B.K3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Factors leading to a power-off stall and how to prevent it are in AFH ch5 Upset Prevention and Recovery.",
-    "confidence": "high"
-  },
-  "CA.VII.B.K4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
-    "confidence": "high"
-  },
-  "CA.VII.B.R1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Inadvertent power-off stall, spin, and loss of control is the subject of AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.B.R2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "phak:ch05"
-    ],
-    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.B.R3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Stall warnings during normal operations are discussed in AFH ch5, but not as a named topic.",
-    "confidence": "low"
-  },
-  "CA.VII.B.R4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
-    "confidence": "high"
-  },
-  "CA.VII.B.R5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Secondary, accelerated, cross-control, and related stall variants are all covered in AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.B.R6": {
-    "sections": [],
-    "anchors": [
-      "phak:ch12",
-      "phak:ch11"
-    ],
-    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.B.R7": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03"
-    ],
-    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.B.R8": {
-    "sections": [],
-    "anchors": [
-      "phak:ch02",
-      "risk-management:ch06"
-    ],
-    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03"
-    ],
-    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S10": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "afh:ch03"
-    ],
-    "why": "Returning to the assigned altitude, heading, and airspeed is the ch5 recovery on ch3 technique.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The AGL floor for stall work is set in AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "afh:ch03"
-    ],
-    "why": "Approach or landing configuration and coordination for the stall entry are AFH ch5, on ch3 technique.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The stabilized descent that sets up the power-off stall is the AFH ch5 entry.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The transition from the landing attitude into the stall is the AFH ch5 power-off stall.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S6": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The heading and bank tolerances held to the stall are the AFH ch5 standard.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S7": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S8": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Recovery at the first indication or after the full stall is AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.B.S9": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "afh:ch06"
-    ],
-    "why": "Post-recovery configuration and acceleration to Vx or Vy is AFH ch5 into the ch6 climb.",
-    "confidence": "high"
-  },
-  "CA.VII.C.K1": {
-    "sections": [],
-    "anchors": [
-      "phak:ch05",
-      "afh:ch05"
-    ],
-    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
-    "confidence": "high"
-  },
-  "CA.VII.C.K2": {
-    "sections": [],
-    "anchors": [
-      "phak:ch05",
-      "afh:ch05"
-    ],
-    "why": "Stall characteristics by design and the sight, sound, and feel cues are PHAK ch5 and AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.C.K3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Factors leading to a power-on stall and how to prevent it are in AFH ch5 Upset Prevention and Recovery.",
-    "confidence": "high"
-  },
-  "CA.VII.C.K4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
-    "confidence": "high"
-  },
-  "CA.VII.C.R1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Inadvertent power-on stall, spin, and loss of control is the subject of AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.C.R2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "phak:ch05"
-    ],
-    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.C.R3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Stall warnings during normal operations are discussed in AFH ch5, but not as a named topic.",
-    "confidence": "low"
-  },
-  "CA.VII.C.R4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
-    "confidence": "high"
-  },
-  "CA.VII.C.R5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Secondary, accelerated, elevator trim, and cross-control stalls are all covered in AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.C.R6": {
-    "sections": [],
-    "anchors": [
-      "phak:ch12",
-      "phak:ch11"
-    ],
-    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.C.R7": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03"
-    ],
-    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.C.R8": {
-    "sections": [],
-    "anchors": [
-      "phak:ch02",
-      "risk-management:ch06"
-    ],
-    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03"
-    ],
-    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S10": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "afh:ch03"
-    ],
-    "why": "Returning to the assigned altitude, heading, and airspeed is the ch5 recovery on ch3 technique.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The AGL floor for stall work is set in AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "afh:ch03"
-    ],
-    "why": "Takeoff, departure, or cruise configuration and coordination are AFH ch5, on ch3 technique.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The minimum 65 percent power setting is part of the AFH ch5 power-on stall entry.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The transition from the departure attitude into the stall is the AFH ch5 power-on stall.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S6": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The heading and bank tolerances held to the stall are the AFH ch5 standard.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S7": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S8": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Recovery at the first indication or after the full stall is AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.C.S9": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "afh:ch06"
-    ],
-    "why": "Post-recovery configuration and acceleration to Vx or Vy is AFH ch5 into the ch6 climb.",
-    "confidence": "high"
-  },
-  "CA.VII.D.K1": {
-    "sections": [],
-    "anchors": [
-      "phak:ch05",
-      "afh:ch05"
-    ],
-    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
-    "confidence": "high"
-  },
-  "CA.VII.D.K2": {
-    "sections": [],
-    "anchors": [
-      "phak:ch05",
-      "afh:ch05"
-    ],
-    "why": "Stall characteristics by design and the sight, sound, and feel cues are PHAK ch5 and AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.D.K3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "phak:ch05"
-    ],
-    "why": "Factors leading to an accelerated stall are AFH ch5, with the load factor relationship in PHAK ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.D.K4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
-    "confidence": "high"
-  },
-  "CA.VII.D.R1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Inadvertent accelerated stall, spin, and loss of control is the subject of AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.D.R2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "phak:ch05"
-    ],
-    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.D.R3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Stall warnings during normal operations are discussed in AFH ch5, but not as a named topic.",
-    "confidence": "low"
-  },
-  "CA.VII.D.R4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter.",
-    "confidence": "high"
-  },
-  "CA.VII.D.R5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Secondary stalls, cross-control stalls, and spins are all covered in AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.D.R6": {
-    "sections": [],
-    "anchors": [
-      "phak:ch12",
-      "phak:ch11"
-    ],
-    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.D.R7": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03"
-    ],
-    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.D.R8": {
-    "sections": [],
-    "anchors": [
-      "phak:ch02",
-      "risk-management:ch06"
-    ],
-    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
-    "confidence": "high"
-  },
-  "CA.VII.D.S1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03"
-    ],
-    "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan.",
-    "confidence": "high"
-  },
-  "CA.VII.D.S2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The 3,000 foot AGL floor for accelerated stall work is set in AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.D.S3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Entry configuration is part of the AFH ch5 accelerated stall setup but is evaluator specified.",
-    "confidence": "low"
-  },
-  "CA.VII.D.S4": {
-    "sections": [],
-    "anchors": [
-      "phak:ch05",
-      "phak:ch09"
-    ],
-    "why": "The Va ceiling on entry speed is PHAK ch5 Aerodynamics, read against the flight manual limits in PHAK ch9.",
-    "confidence": "high"
-  },
-  "CA.VII.D.S5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "The coordinated 45 degree bank with increasing back pressure to the stall is the AFH ch5 accelerated stall.",
-    "confidence": "high"
-  },
-  "CA.VII.D.S6": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard.",
-    "confidence": "high"
-  },
-  "CA.VII.D.S7": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "phak:ch09"
-    ],
-    "why": "Recovery per the manufacturer procedure is AFH ch5 read against the flight manual in PHAK ch9.",
-    "confidence": "high"
-  },
-  "CA.VII.D.S8": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "afh:ch06"
-    ],
-    "why": "Post-recovery configuration and acceleration to Vx or Vy is AFH ch5 into the ch6 climb.",
-    "confidence": "high"
-  },
-  "CA.VII.D.S9": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "afh:ch03"
-    ],
-    "why": "Returning to the assigned altitude, heading, and airspeed is the ch5 recovery on ch3 technique.",
-    "confidence": "high"
-  },
-  "CA.VII.E.K1": {
-    "sections": [],
-    "anchors": [
-      "phak:ch05",
-      "afh:ch05"
-    ],
-    "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them.",
-    "confidence": "high"
-  },
-  "CA.VII.E.K2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Spin cause and the entry, incipient, and developed phases are described in AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.E.K3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "AFH ch5 Upset Prevention and Recovery carries the spin recovery procedure.",
-    "confidence": "high"
-  },
-  "CA.VII.E.R1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "Factors leading to an inadvertent spin and loss of control are the subject of AFH ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.E.R2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05",
-      "phak:ch05"
-    ],
-    "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5.",
-    "confidence": "high"
-  },
-  "CA.VII.E.R3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch05"
-    ],
-    "why": "AFH ch5 Upset Prevention and Recovery carries the spin recovery procedure.",
-    "confidence": "high"
-  },
-  "CA.VII.E.R4": {
-    "sections": [],
-    "anchors": [
-      "phak:ch12",
-      "phak:ch11"
-    ],
-    "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.E.R5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch03"
-    ],
-    "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.VII.E.R6": {
-    "sections": [],
-    "anchors": [
-      "phak:ch02",
-      "risk-management:ch06"
-    ],
-    "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.K1": {
-    "sections": [
-      "91.211"
-    ],
-    "anchors": [
-      "phak:ch17"
-    ],
-    "why": "91.211 is the supplemental oxygen requirement for crew and passengers; PHAK ch17 Aeromedical Factors explains why the altitudes are set where they are.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.K2": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "Parent heading. PHAK ch17 and AIM 8-1 are the shared entry for the sub-elements.",
-    "confidence": "low"
-  },
-  "CA.VIII.A.K2a": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "Impairment with altitude is covered in PHAK ch17 Aeromedical Factors and AIM 8-1 Fitness for Flight.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.K2b": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "Hypoxia symptoms are covered in both PHAK ch17 and AIM 8-1.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.K2c": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "Time of useful consciousness is tabulated in PHAK ch17 and AIM 8-1.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.K3": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "Parent heading. PHAK ch7 Aircraft Systems is the shared entry for the oxygen system sub-elements.",
-    "confidence": "low"
-  },
-  "CA.VIII.A.K3a": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "Continuous flow, demand, and pressure demand oxygen systems are described in PHAK ch7 Aircraft Systems.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.K3b": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "Aviator's breathing oxygen and how it differs from other grades is in PHAK ch7 Aircraft Systems.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.K3c": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07",
-      "aim:ch08-s01"
-    ],
-    "why": "Handling precautions are in PHAK ch7; AIM 8-1 adds the physiological cautions.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.R1": {
-    "sections": [
-      "91.211"
-    ],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "91.211 sets the altitude thresholds that make high altitude flight a risk; PHAK ch17 and AIM 8-1 cover the physiology.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.R2": {
-    "sections": [
-      "91.211"
-    ],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "91.211 is the rule governing when oxygen must be used; the equipment itself is PHAK ch7.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.R3": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "Compressed gas cylinder handling is touched on in PHAK ch7 Aircraft Systems but is not a named topic.",
-    "confidence": "low"
-  },
-  "CA.VIII.A.R4": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "Combustion risk in an oxygen-rich environment is touched on in PHAK ch7 but is not a named topic.",
-    "confidence": "low"
-  },
-  "CA.VIII.A.S1": {
-    "sections": [
-      "91.211"
-    ],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "91.211 fixes the duration that must be carried; the system capacity is PHAK ch7.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.S2": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "Operating installed or portable oxygen equipment is PHAK ch7 Aircraft Systems.",
-    "confidence": "high"
-  },
-  "CA.VIII.A.S3": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "No Part 91 section requires an oxygen briefing for a light airplane, so no section is asserted. The equipment being briefed is PHAK ch7.",
-    "confidence": "low"
-  },
-  "CA.VIII.A.S4": {
-    "sections": [],
-    "anchors": [
-      "phak:ch02",
-      "risk-management:ch08"
-    ],
-    "why": "PHAK ch2 is ADM including CRM and SRM; Risk Management ch8 is decision-making in flight.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.K1": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "Cabin pressurization and its failure modes are described in PHAK ch7 Aircraft Systems.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.K2": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "Parent heading. PHAK ch17 and AIM 8-1 are the shared entry for the sub-elements.",
-    "confidence": "low"
-  },
-  "CA.VIII.B.K2a": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "Impairment with altitude is covered in PHAK ch17 Aeromedical Factors and AIM 8-1 Fitness for Flight.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.K2b": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "Hypoxia symptoms are covered in both PHAK ch17 and AIM 8-1.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.K2c": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "Time of useful consciousness is tabulated in PHAK ch17 and AIM 8-1.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.K2d": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "Rapid decompression effects on crew and passengers are covered in PHAK ch17 and AIM 8-1.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.R1": {
-    "sections": [],
-    "anchors": [
-      "phak:ch17",
-      "aim:ch08-s01"
-    ],
-    "why": "High altitude physiological risk is PHAK ch17 Aeromedical Factors and AIM 8-1 Fitness for Flight.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.R2": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07",
-      "afh:ch18"
-    ],
-    "why": "Pressurization failure is a PHAK ch7 system malfunction handled as an AFH ch18 emergency.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.S1": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07"
-    ],
-    "why": "Operating the pressurization system is PHAK ch7 Aircraft Systems.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.S2": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07",
-      "afh:ch18"
-    ],
-    "why": "Responding to a simulated pressurization malfunction is the PHAK ch7 system in the AFH ch18 emergency.",
-    "confidence": "high"
-  },
-  "CA.VIII.B.S3": {
-    "sections": [],
-    "anchors": [
-      "phak:ch07",
-      "phak:ch17"
-    ],
-    "why": "The oxygen equipment being briefed is PHAK ch7; the reason for it is PHAK ch17.",
-    "confidence": "low"
-  },
-  "CA.VIII.B.S4": {
-    "sections": [],
-    "anchors": [
-      "phak:ch02",
-      "risk-management:ch08"
-    ],
-    "why": "PHAK ch2 is ADM including CRM and SRM; Risk Management ch8 is decision-making in flight.",
-    "confidence": "high"
-  },
-  "CA.XI.A.K1": {
-    "sections": [],
-    "anchors": [
-      "afh:ch02"
-    ],
-    "why": "Shutdown, securing, and postflight inspection are AFH ch2 Ground Operations.",
-    "confidence": "high"
-  },
-  "CA.XI.A.K2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch02",
-      "phak:ch09"
-    ],
-    "why": "Recording discrepancies is AFH ch2 practice; the maintenance record itself is PHAK ch9 Flight Manuals and Other Documents.",
-    "confidence": "low"
-  },
-  "CA.XI.A.R1": {
-    "sections": [],
-    "anchors": [
-      "risk-management:ch06"
-    ],
-    "why": "Distraction management during shutdown is Threat and Error Management. Coverage is generic.",
-    "confidence": "low"
-  },
-  "CA.XI.A.R2": {
-    "sections": [],
-    "anchors": [],
-    "why": "Element is archived. Nothing to link.",
-    "confidence": "high"
-  },
-  "CA.XI.A.R3": {
-    "sections": [],
-    "anchors": [],
-    "why": "Airport specific security procedures are not covered by any handbook on this Task's References line. The AIM is not cited here.",
-    "confidence": "high"
-  },
-  "CA.XI.A.R4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch02"
-    ],
-    "why": "Ramp safety around passengers and propellers is part of AFH ch2 Ground Operations.",
-    "confidence": "low"
-  },
-  "CA.XI.A.S1": {
-    "sections": [],
-    "anchors": [],
-    "why": "Element is archived. Nothing to link.",
-    "confidence": "high"
-  },
-  "CA.XI.A.S2": {
-    "sections": [],
-    "anchors": [
-      "afh:ch02"
-    ],
-    "why": "Parking clear of persons and property is AFH ch2 Ground Operations.",
-    "confidence": "high"
-  },
-  "CA.XI.A.S3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch02"
-    ],
-    "why": "AFH ch2 Ground Operations covers checklist discipline.",
-    "confidence": "high"
-  },
-  "CA.XI.A.S4": {
-    "sections": [],
-    "anchors": [
-      "afh:ch02"
-    ],
-    "why": "The postflight inspection and discrepancy write-up are AFH ch2 Ground Operations.",
-    "confidence": "high"
-  },
-  "CA.XI.A.S5": {
-    "sections": [],
-    "anchors": [
-      "afh:ch02"
-    ],
-    "why": "Securing and tying down the airplane is AFH ch2 Ground Operations.",
-    "confidence": "high"
-  },
-  "CA.XI.B.K1": {
-    "sections": [],
-    "anchors": [
-      "seaplane:mooring"
-    ],
-    "why": "Exact topic match.",
-    "confidence": "high"
-  },
-  "CA.XI.B.K2": {
-    "sections": [],
-    "anchors": [
-      "seaplane:docking"
-    ],
-    "why": "Exact topic match.",
-    "confidence": "high"
-  },
-  "CA.XI.B.K3": {
-    "sections": [],
-    "anchors": [
-      "seaplane:anchoring"
-    ],
-    "why": "Exact topic match.",
-    "confidence": "high"
-  },
-  "CA.XI.B.K4": {
-    "sections": [],
-    "anchors": [
-      "seaplane:beaching",
-      "seaplane:ramping"
-    ],
-    "why": "The element names both beaching and ramping, and each has its own anchor.",
-    "confidence": "high"
-  },
-  "CA.XI.B.K5": {
-    "sections": [],
-    "anchors": [
-      "seaplane:postflight-procedures",
-      "afh:ch02"
-    ],
-    "why": "Postflight procedures on water are the exact topic; the discrepancy write-up is AFH ch2 Ground Operations.",
-    "confidence": "high"
-  },
-  "CA.XI.B.R1": {
-    "sections": [],
-    "anchors": [
-      "risk-management:ch06"
-    ],
-    "why": "Distraction management during shutdown is Threat and Error Management. Coverage is generic.",
-    "confidence": "low"
-  },
-  "CA.XI.B.R2": {
-    "sections": [],
-    "anchors": [],
-    "why": "Element is archived. Nothing to link.",
-    "confidence": "high"
-  },
-  "CA.XI.B.R3": {
-    "sections": [],
-    "anchors": [],
-    "why": "Seaplane base specific security procedures are not covered by any handbook on this Task's References line.",
-    "confidence": "high"
-  },
-  "CA.XI.B.R4": {
-    "sections": [],
-    "anchors": [
-      "seaplane:ramping",
-      "seaplane:docking"
-    ],
-    "why": "Passenger movement happens at the ramp or dock, so those two topics carry it. Neither treats passenger handling directly.",
-    "confidence": "low"
-  },
-  "CA.XI.B.S1": {
-    "sections": [],
-    "anchors": [
-      "seaplane:anchoring"
-    ],
-    "why": "Anchor site selection, ground tackle, and scope are the anchoring topic.",
-    "confidence": "high"
-  },
-  "CA.XI.B.S2": {
-    "sections": [],
-    "anchors": [
-      "seaplane:docking",
-      "seaplane:mooring",
-      "seaplane:beaching",
-      "seaplane:ramping"
-    ],
-    "why": "The element names dock, mooring buoy, beach, and ramp, and each is an exact topic match.",
-    "confidence": "high"
-  },
-  "CA.XI.B.S3": {
-    "sections": [],
-    "anchors": [
-      "afh:ch02",
-      "seaplane:postflight-procedures"
-    ],
-    "why": "Checklist discipline is AFH ch2; the water postflight sequence is the Seaplane topic.",
-    "confidence": "high"
-  },
-  "CA.XI.B.S4": {
-    "sections": [],
-    "anchors": [
-      "seaplane:postflight-procedures"
-    ],
-    "why": "The postflight inspection on water is the exact topic.",
-    "confidence": "high"
-  },
-  "CA.XI.B.S5": {
-    "sections": [],
-    "anchors": [
-      "seaplane:mooring",
-      "seaplane:anchoring",
-      "afh:ch02"
-    ],
-    "why": "Securing against wind, waves, and water level change is mooring and anchoring; the amphibious-on-land case is AFH ch2 Ground Operations.",
-    "confidence": "high"
-  }
+ "CA.VII.A.K1": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them."
+ },
+ "CA.VII.A.R1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Inadvertent slow flight and flight into the stall warning is the loss of control case in AFH ch5."
+ },
+ "CA.VII.A.R2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5."
+ },
+ "CA.VII.A.R3": {
+  "anchors": [
+   "afh:ch03",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Coordinated flight is taught in AFH ch3; the yaw and adverse aerodynamics are PHAK ch5."
+ },
+ "CA.VII.A.R4": {
+  "anchors": [
+   "phak:ch12",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line."
+ },
+ "CA.VII.A.R5": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line."
+ },
+ "CA.VII.A.R6": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management."
+ },
+ "CA.VII.A.S1": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan."
+ },
+ "CA.VII.A.S2": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The AGL floor for slow flight and stall work is set in AFH ch5."
+ },
+ "CA.VII.A.S3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Flying just above the stall warning threshold is the AFH ch5 slow flight standard."
+ },
+ "CA.VII.A.S4": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Straight and level, turns, climbs, and descents at slow flight are AFH ch5, on ch3 basic technique."
+ },
+ "CA.VII.A.S5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The altitude, heading, airspeed, and bank tolerances are the AFH ch5 slow flight standard."
+ },
+ "CA.VII.B.K1": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them."
+ },
+ "CA.VII.B.K2": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Stall characteristics by design and the sight, sound, and feel cues are PHAK ch5 and AFH ch5."
+ },
+ "CA.VII.B.K3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Factors leading to a power-off stall and how to prevent it are in AFH ch5 Upset Prevention and Recovery."
+ },
+ "CA.VII.B.K4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter."
+ },
+ "CA.VII.B.R1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Inadvertent power-off stall, spin, and loss of control is the subject of AFH ch5."
+ },
+ "CA.VII.B.R2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5."
+ },
+ "CA.VII.B.R3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Stall warnings during normal operations are discussed in AFH ch5, but not as a named topic."
+ },
+ "CA.VII.B.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter."
+ },
+ "CA.VII.B.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Secondary, accelerated, cross-control, and related stall variants are all covered in AFH ch5."
+ },
+ "CA.VII.B.R6": {
+  "anchors": [
+   "phak:ch12",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line."
+ },
+ "CA.VII.B.R7": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line."
+ },
+ "CA.VII.B.R8": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management."
+ },
+ "CA.VII.B.S1": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan."
+ },
+ "CA.VII.B.S10": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Returning to the assigned altitude, heading, and airspeed is the ch5 recovery on ch3 technique."
+ },
+ "CA.VII.B.S2": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The AGL floor for stall work is set in AFH ch5."
+ },
+ "CA.VII.B.S3": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Approach or landing configuration and coordination for the stall entry are AFH ch5, on ch3 technique."
+ },
+ "CA.VII.B.S4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The stabilized descent that sets up the power-off stall is the AFH ch5 entry."
+ },
+ "CA.VII.B.S5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The transition from the landing attitude into the stall is the AFH ch5 power-off stall."
+ },
+ "CA.VII.B.S6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The heading and bank tolerances held to the stall are the AFH ch5 standard."
+ },
+ "CA.VII.B.S7": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard."
+ },
+ "CA.VII.B.S8": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Recovery at the first indication or after the full stall is AFH ch5."
+ },
+ "CA.VII.B.S9": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Post-recovery configuration and acceleration to Vx or Vy is AFH ch5 into the ch6 climb."
+ },
+ "CA.VII.C.K1": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them."
+ },
+ "CA.VII.C.K2": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Stall characteristics by design and the sight, sound, and feel cues are PHAK ch5 and AFH ch5."
+ },
+ "CA.VII.C.K3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Factors leading to a power-on stall and how to prevent it are in AFH ch5 Upset Prevention and Recovery."
+ },
+ "CA.VII.C.K4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter."
+ },
+ "CA.VII.C.R1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Inadvertent power-on stall, spin, and loss of control is the subject of AFH ch5."
+ },
+ "CA.VII.C.R2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5."
+ },
+ "CA.VII.C.R3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Stall warnings during normal operations are discussed in AFH ch5, but not as a named topic."
+ },
+ "CA.VII.C.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter."
+ },
+ "CA.VII.C.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Secondary, accelerated, elevator trim, and cross-control stalls are all covered in AFH ch5."
+ },
+ "CA.VII.C.R6": {
+  "anchors": [
+   "phak:ch12",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line."
+ },
+ "CA.VII.C.R7": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line."
+ },
+ "CA.VII.C.R8": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management."
+ },
+ "CA.VII.C.S1": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan."
+ },
+ "CA.VII.C.S10": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Returning to the assigned altitude, heading, and airspeed is the ch5 recovery on ch3 technique."
+ },
+ "CA.VII.C.S2": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The AGL floor for stall work is set in AFH ch5."
+ },
+ "CA.VII.C.S3": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Takeoff, departure, or cruise configuration and coordination are AFH ch5, on ch3 technique."
+ },
+ "CA.VII.C.S4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The minimum 65 percent power setting is part of the AFH ch5 power-on stall entry."
+ },
+ "CA.VII.C.S5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The transition from the departure attitude into the stall is the AFH ch5 power-on stall."
+ },
+ "CA.VII.C.S6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The heading and bank tolerances held to the stall are the AFH ch5 standard."
+ },
+ "CA.VII.C.S7": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard."
+ },
+ "CA.VII.C.S8": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Recovery at the first indication or after the full stall is AFH ch5."
+ },
+ "CA.VII.C.S9": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Post-recovery configuration and acceleration to Vx or Vy is AFH ch5 into the ch6 climb."
+ },
+ "CA.VII.D.K1": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them."
+ },
+ "CA.VII.D.K2": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Stall characteristics by design and the sight, sound, and feel cues are PHAK ch5 and AFH ch5."
+ },
+ "CA.VII.D.K3": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Factors leading to an accelerated stall are AFH ch5, with the load factor relationship in PHAK ch5."
+ },
+ "CA.VII.D.K4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter."
+ },
+ "CA.VII.D.R1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Inadvertent accelerated stall, spin, and loss of control is the subject of AFH ch5."
+ },
+ "CA.VII.D.R2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5."
+ },
+ "CA.VII.D.R3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Stall warnings during normal operations are discussed in AFH ch5, but not as a named topic."
+ },
+ "CA.VII.D.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery is the stall recovery chapter."
+ },
+ "CA.VII.D.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Secondary stalls, cross-control stalls, and spins are all covered in AFH ch5."
+ },
+ "CA.VII.D.R6": {
+  "anchors": [
+   "phak:ch12",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line."
+ },
+ "CA.VII.D.R7": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line."
+ },
+ "CA.VII.D.R8": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management."
+ },
+ "CA.VII.D.S1": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers carries the clearing procedure and visual scan."
+ },
+ "CA.VII.D.S2": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The 3,000 foot AGL floor for accelerated stall work is set in AFH ch5."
+ },
+ "CA.VII.D.S3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Entry configuration is part of the AFH ch5 accelerated stall setup but is evaluator specified."
+ },
+ "CA.VII.D.S4": {
+  "anchors": [
+   "phak:ch05",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The Va ceiling on entry speed is PHAK ch5 Aerodynamics, read against the flight manual limits in PHAK ch9."
+ },
+ "CA.VII.D.S5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The coordinated 45 degree bank with increasing back pressure to the stall is the AFH ch5 accelerated stall."
+ },
+ "CA.VII.D.S6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Acknowledging the first stall cue is the AFH ch5 recognition standard."
+ },
+ "CA.VII.D.S7": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Recovery per the manufacturer procedure is AFH ch5 read against the flight manual in PHAK ch9."
+ },
+ "CA.VII.D.S8": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Post-recovery configuration and acceleration to Vx or Vy is AFH ch5 into the ch6 climb."
+ },
+ "CA.VII.D.S9": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Returning to the assigned altitude, heading, and airspeed is the ch5 recovery on ch3 technique."
+ },
+ "CA.VII.E.K1": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics carries angle of attack, load factor, and the stall relationships; AFH ch5 Upset Prevention and Recovery applies them."
+ },
+ "CA.VII.E.K2": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Spin cause and the entry, incipient, and developed phases are described in AFH ch5."
+ },
+ "CA.VII.E.K3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery carries the spin recovery procedure."
+ },
+ "CA.VII.E.R1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Factors leading to an inadvertent spin and loss of control are the subject of AFH ch5."
+ },
+ "CA.VII.E.R2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Buffet and stall warning behavior is AFH ch5 Upset Prevention and Recovery, with the aerodynamic cause in PHAK ch5."
+ },
+ "CA.VII.E.R3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery carries the spin recovery procedure."
+ },
+ "CA.VII.E.R4": {
+  "anchors": [
+   "phak:ch12",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Turbulence and microbursts are PHAK ch12 Weather Theory; high density altitude performance loss is PHAK ch11. The Aviation Weather Handbook is not on this Task's References line."
+ },
+ "CA.VII.E.R5": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers carries collision avoidance and the visual scan. The AIM is not on this Task's References line."
+ },
+ "CA.VII.E.R6": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 Aeronautical Decision-Making covers task prioritization and situational awareness; Risk Management ch6 is Threat and Error Management."
+ },
+ "CA.VIII.A.K1": {
+  "anchors": [
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "section_why": "91.211 is the supplemental oxygen requirement for crew and passengers; PHAK ch17 Aeromedical Factors explains why the altitudes are set where they are.",
+  "sections": [
+   "91.211"
+  ],
+  "why": "91.211 is the supplemental oxygen requirement for crew and passengers; PHAK ch17 Aeromedical Factors explains why the altitudes are set where they are."
+ },
+ "CA.VIII.A.K2": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Parent heading. PHAK ch17 and AIM 8-1 are the shared entry for the sub-elements."
+ },
+ "CA.VIII.A.K2a": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Impairment with altitude is covered in PHAK ch17 Aeromedical Factors and AIM 8-1 Fitness for Flight."
+ },
+ "CA.VIII.A.K2b": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Hypoxia symptoms are covered in both PHAK ch17 and AIM 8-1."
+ },
+ "CA.VIII.A.K2c": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Time of useful consciousness is tabulated in PHAK ch17 and AIM 8-1."
+ },
+ "CA.VIII.A.K3": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Parent heading. PHAK ch7 Aircraft Systems is the shared entry for the oxygen system sub-elements."
+ },
+ "CA.VIII.A.K3a": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Continuous flow, demand, and pressure demand oxygen systems are described in PHAK ch7 Aircraft Systems."
+ },
+ "CA.VIII.A.K3b": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Aviator's breathing oxygen and how it differs from other grades is in PHAK ch7 Aircraft Systems."
+ },
+ "CA.VIII.A.K3c": {
+  "anchors": [
+   "phak:ch07",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Handling precautions are in PHAK ch7; AIM 8-1 adds the physiological cautions."
+ },
+ "CA.VIII.A.R1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "section_why": "91.211 sets the altitude thresholds that make high altitude flight a risk; PHAK ch17 and AIM 8-1 cover the physiology.",
+  "sections": [
+   "91.211"
+  ],
+  "why": "91.211 sets the altitude thresholds that make high altitude flight a risk; PHAK ch17 and AIM 8-1 cover the physiology."
+ },
+ "CA.VIII.A.R2": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "section_why": "91.211 is the rule governing when oxygen must be used; the equipment itself is PHAK ch7.",
+  "sections": [
+   "91.211"
+  ],
+  "why": "91.211 is the rule governing when oxygen must be used; the equipment itself is PHAK ch7."
+ },
+ "CA.VIII.A.R3": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Compressed gas cylinder handling is touched on in PHAK ch7 Aircraft Systems but is not a named topic."
+ },
+ "CA.VIII.A.R4": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Combustion risk in an oxygen-rich environment is touched on in PHAK ch7 but is not a named topic."
+ },
+ "CA.VIII.A.S1": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "section_why": "91.211 fixes the duration that must be carried; the system capacity is PHAK ch7.",
+  "sections": [
+   "91.211"
+  ],
+  "why": "91.211 fixes the duration that must be carried; the system capacity is PHAK ch7."
+ },
+ "CA.VIII.A.S2": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Operating installed or portable oxygen equipment is PHAK ch7 Aircraft Systems."
+ },
+ "CA.VIII.A.S3": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "No Part 91 section requires an oxygen briefing for a light airplane, so no section is asserted. The equipment being briefed is PHAK ch7."
+ },
+ "CA.VIII.A.S4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 is ADM including CRM and SRM; Risk Management ch8 is decision-making in flight."
+ },
+ "CA.VIII.B.K1": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Cabin pressurization and its failure modes are described in PHAK ch7 Aircraft Systems."
+ },
+ "CA.VIII.B.K2": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Parent heading. PHAK ch17 and AIM 8-1 are the shared entry for the sub-elements."
+ },
+ "CA.VIII.B.K2a": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Impairment with altitude is covered in PHAK ch17 Aeromedical Factors and AIM 8-1 Fitness for Flight."
+ },
+ "CA.VIII.B.K2b": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Hypoxia symptoms are covered in both PHAK ch17 and AIM 8-1."
+ },
+ "CA.VIII.B.K2c": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Time of useful consciousness is tabulated in PHAK ch17 and AIM 8-1."
+ },
+ "CA.VIII.B.K2d": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Rapid decompression effects on crew and passengers are covered in PHAK ch17 and AIM 8-1."
+ },
+ "CA.VIII.B.R1": {
+  "anchors": [
+   "phak:ch17",
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "High altitude physiological risk is PHAK ch17 Aeromedical Factors and AIM 8-1 Fitness for Flight."
+ },
+ "CA.VIII.B.R2": {
+  "anchors": [
+   "phak:ch07",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Pressurization failure is a PHAK ch7 system malfunction handled as an AFH ch18 emergency."
+ },
+ "CA.VIII.B.S1": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Operating the pressurization system is PHAK ch7 Aircraft Systems."
+ },
+ "CA.VIII.B.S2": {
+  "anchors": [
+   "phak:ch07",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Responding to a simulated pressurization malfunction is the PHAK ch7 system in the AFH ch18 emergency."
+ },
+ "CA.VIII.B.S3": {
+  "anchors": [
+   "phak:ch07",
+   "phak:ch17"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The oxygen equipment being briefed is PHAK ch7; the reason for it is PHAK ch17."
+ },
+ "CA.VIII.B.S4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch2 is ADM including CRM and SRM; Risk Management ch8 is decision-making in flight."
+ },
+ "CA.XI.A.K1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Shutdown, securing, and postflight inspection are AFH ch2 Ground Operations."
+ },
+ "CA.XI.A.K2": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch09"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Recording discrepancies is AFH ch2 practice; the maintenance record itself is PHAK ch9 Flight Manuals and Other Documents."
+ },
+ "CA.XI.A.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Distraction management during shutdown is Threat and Error Management. Coverage is generic."
+ },
+ "CA.XI.A.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived. Nothing to link."
+ },
+ "CA.XI.A.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Airport specific security procedures are not covered by any handbook on this Task's References line. The AIM is not cited here."
+ },
+ "CA.XI.A.R4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Ramp safety around passengers and propellers is part of AFH ch2 Ground Operations."
+ },
+ "CA.XI.A.S1": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived. Nothing to link."
+ },
+ "CA.XI.A.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Parking clear of persons and property is AFH ch2 Ground Operations."
+ },
+ "CA.XI.A.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline."
+ },
+ "CA.XI.A.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The postflight inspection and discrepancy write-up are AFH ch2 Ground Operations."
+ },
+ "CA.XI.A.S5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Securing and tying down the airplane is AFH ch2 Ground Operations."
+ },
+ "CA.XI.B.K1": {
+  "anchors": [
+   "seaplane:mooring"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Exact topic match."
+ },
+ "CA.XI.B.K2": {
+  "anchors": [
+   "seaplane:docking"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Exact topic match."
+ },
+ "CA.XI.B.K3": {
+  "anchors": [
+   "seaplane:anchoring"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Exact topic match."
+ },
+ "CA.XI.B.K4": {
+  "anchors": [
+   "seaplane:beaching",
+   "seaplane:ramping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The element names both beaching and ramping, and each has its own anchor."
+ },
+ "CA.XI.B.K5": {
+  "anchors": [
+   "seaplane:postflight-procedures",
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Postflight procedures on water are the exact topic; the discrepancy write-up is AFH ch2 Ground Operations."
+ },
+ "CA.XI.B.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Distraction management during shutdown is Threat and Error Management. Coverage is generic."
+ },
+ "CA.XI.B.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived. Nothing to link."
+ },
+ "CA.XI.B.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Seaplane base specific security procedures are not covered by any handbook on this Task's References line."
+ },
+ "CA.XI.B.R4": {
+  "anchors": [
+   "seaplane:ramping",
+   "seaplane:docking"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Passenger movement happens at the ramp or dock, so those two topics carry it. Neither treats passenger handling directly."
+ },
+ "CA.XI.B.S1": {
+  "anchors": [
+   "seaplane:anchoring"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Anchor site selection, ground tackle, and scope are the anchoring topic."
+ },
+ "CA.XI.B.S2": {
+  "anchors": [
+   "seaplane:docking",
+   "seaplane:mooring",
+   "seaplane:beaching",
+   "seaplane:ramping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The element names dock, mooring buoy, beach, and ramp, and each is an exact topic match."
+ },
+ "CA.XI.B.S3": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:postflight-procedures"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Checklist discipline is AFH ch2; the water postflight sequence is the Seaplane topic."
+ },
+ "CA.XI.B.S4": {
+  "anchors": [
+   "seaplane:postflight-procedures"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The postflight inspection on water is the exact topic."
+ },
+ "CA.XI.B.S5": {
+  "anchors": [
+   "seaplane:mooring",
+   "seaplane:anchoring",
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Securing against wind, waves, and water level change is mooring and anchoring; the amphibious-on-land case is AFH ch2 Ground Operations."
+ }
 }

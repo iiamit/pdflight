@@ -223,3 +223,37 @@ def test_pinned_anchors_stay_rare():
     pinned = [r for r, e in anchors.items() if e["strategy"] == "pinned"]
     assert len(pinned) <= max(2, len(anchors) // 20), \
         "too many pinned anchors: %s" % pinned
+
+
+# ---------------------------------------------------------------------------
+# the handbook search helper
+# ---------------------------------------------------------------------------
+
+import handbook_search as HS  # noqa: E402
+
+
+def test_owner_picks_the_anchor_whose_range_contains_the_page():
+    """A hit belongs to the last anchor at or before it, never the nearest.
+
+    Rounding to the nearest anchor would attribute the first page of a chapter
+    to the chapter before it, which is exactly the off-by-one that makes a
+    proposal look right and land a page early.
+    """
+    found = [(10, "phak:ch01", "One"), (40, "phak:ch02", "Two"),
+             (90, "phak:ch03", "Three")]
+    assert HS.owner(found, 10)[1] == "phak:ch01"
+    assert HS.owner(found, 39)[1] == "phak:ch01"
+    assert HS.owner(found, 40)[1] == "phak:ch02"
+    assert HS.owner(found, 89)[1] == "phak:ch02"
+    assert HS.owner(found, 400)[1] == "phak:ch03"
+
+
+def test_owner_reports_nothing_above_the_first_anchor():
+    """Front matter is not chapter one.
+
+    A hit in an unanchored stretch has to report as unanchored. Attaching it
+    to the nearest chapter that happens to have an anchor is how a table of
+    contents entry becomes a citation.
+    """
+    found = [(10, "phak:ch01", "One")]
+    assert HS.owner(found, 9) is None

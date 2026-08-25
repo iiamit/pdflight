@@ -1,938 +1,1307 @@
 {
-  "AA.II.A.K1": {
-    "sections": ["61.53"],
-    "anchors": ["aim:ch08-s01"],
-    "why": "61.53 is the self-grounding rule for medical deficiency; AIM 8-1 Fitness for Flight gives the self-assessment method",
-    "confidence": "high"
-  },
-  "AA.II.A.K2": {
-    "sections": ["91.7", "91.203"],
-    "anchors": [],
-    "why": "91.7 makes the pilot responsible for determining airworthiness; 91.203 lists the documents that must be aboard",
-    "confidence": "high"
-  },
-  "AA.II.A.K2a": {
-    "sections": ["91.203"],
-    "anchors": [],
-    "why": "91.203 requires an appropriate airworthiness certificate and registration certificate aboard the aircraft",
-    "confidence": "high"
-  },
-  "AA.II.A.K2b": {
-    "sections": ["91.9"],
-    "anchors": [],
-    "why": "91.9 requires the current approved flight manual, markings and placards and prohibits operating outside them",
-    "confidence": "high"
-  },
-  "AA.II.A.K2c": {
-    "sections": ["91.213", "135.179"],
-    "anchors": [],
-    "why": "91.213 governs MEL use and inoperative equipment under part 91; 135.179 is the equivalent rule for part 135 operations",
-    "confidence": "high"
-  },
-  "AA.II.A.K2d": {
-    "sections": ["135.185"],
-    "anchors": [],
-    "why": "135.185 requires current empty weight and center of gravity data for the airplane. Part 91 has no equivalent document rule",
-    "confidence": "low"
-  },
-  "AA.II.A.K2e": {
-    "sections": ["91.409", "91.411", "91.417"],
-    "anchors": [],
-    "why": "91.409 sets required inspections, 91.411 the altimeter and altitude reporting tests, 91.417 the maintenance records that evidence them",
-    "confidence": "high"
-  },
-  "AA.II.A.K3": {
-    "sections": ["43.3", "43.9"],
-    "anchors": [],
-    "why": "43.3 authorizes a certificated pilot to perform preventive maintenance on aircraft they operate; 43.9 sets the required record entry",
-    "confidence": "high"
-  },
-  "AA.II.A.K4": {
-    "sections": ["91.7", "91.103"],
-    "anchors": [],
-    "why": "91.7 makes preflight determination of airworthiness the pilot's duty; 91.103 requires familiarity with all available information for the flight",
-    "confidence": "high"
-  },
-  "AA.II.A.K4a": {
-    "sections": [],
-    "anchors": [],
-    "why": "The specific inspection items come from the manufacturer checklist, not from a regulation or from the AIM",
-    "confidence": "high"
-  },
-  "AA.II.A.K4b": {
-    "sections": [],
-    "anchors": [],
-    "why": "The reason for checking each item is airplane specific; no cited section or AIM chapter covers it",
-    "confidence": "high"
-  },
-  "AA.II.A.K4c": {
-    "sections": [],
-    "anchors": [],
-    "why": "Defect detection technique is handbook material and this Task cites only the AIM among handbooks",
-    "confidence": "high"
-  },
-  "AA.II.A.K4d": {
-    "sections": ["91.7", "91.203"],
-    "anchors": [],
-    "why": "These are the regulations associated with the preflight inspection: airworthiness determination and required documents",
-    "confidence": "high"
-  },
-  "AA.II.A.K5": {
-    "sections": ["91.103"],
-    "anchors": ["aim:ch05-s01"],
-    "why": "91.103 requires weather, runway and alternate information for the flight; AIM 5-1 Preflight covers route selection and the information sources",
-    "confidence": "high"
-  },
-  "AA.II.A.K6": {
-    "sections": ["91.503", "135.83"],
-    "anchors": ["aim:ch09-s01"],
-    "why": "91.503 requires current charts and navigation data aboard large and turbine airplanes; 135.83 is the part 135 equivalent; AIM 9-1 lists the chart products and their currency cycles",
-    "confidence": "high"
-  },
-  "AA.II.A.K7": {
-    "sections": ["119.7", "119.43"],
-    "anchors": [],
-    "why": "119.7 defines operations specifications and their force; 119.43 obliges the certificate holder to keep and comply with them",
-    "confidence": "high"
-  },
-  "AA.II.A.R1": {
-    "sections": ["61.53"],
-    "anchors": ["aim:ch08-s01"],
-    "why": "AIM 8-1 covers the human performance factors that affect fitness for flight; 61.53 is the regulatory consequence",
-    "confidence": "high"
-  },
-  "AA.II.A.R2": {
-    "sections": ["91.213", "135.179"],
-    "anchors": [],
-    "why": "Both sections set what may be deferred and what grounds the aircraft when equipment is found inoperative before flight",
-    "confidence": "high"
-  },
-  "AA.II.A.R3": {
-    "sections": ["91.103"],
-    "anchors": ["aim:ch07-s06"],
-    "why": "91.103 is the preflight information duty; AIM 7-6 Potential Flight Hazards covers terrain, obstacle and environmental risk",
-    "confidence": "low"
-  },
-  "AA.II.A.R4": {
-    "sections": [],
-    "anchors": [],
-    "why": "External pressure is ADM material from the Risk Management Handbook, which this Task does not cite",
-    "confidence": "high"
-  },
-  "AA.II.A.R5": {
-    "sections": [],
-    "anchors": ["aim:ch05-s06"],
-    "why": "AIM 5-6 National Security and Interception Procedures is the only cited-handbook location covering aviation security",
-    "confidence": "low"
-  },
-  "AA.II.A.S1": {
-    "sections": ["91.7"],
-    "anchors": [],
-    "why": "91.7 is the regulatory basis for the preflight inspection; checklist content is airplane specific",
-    "confidence": "low"
-  },
-  "AA.II.A.S2": {
-    "sections": [],
-    "anchors": [],
-    "why": "Ground crew coordination around doors, hatches and control surfaces is not addressed by any cited section or AIM chapter",
-    "confidence": "high"
-  },
-  "AA.II.A.S3": {
-    "sections": ["91.213", "135.65"],
-    "anchors": [],
-    "why": "91.213 governs acknowledging and placarding deferred items; 135.65 requires reporting mechanical irregularities found before flight",
-    "confidence": "high"
-  },
-  "AA.II.A.S4": {
-    "sections": ["91.7", "135.71"],
-    "anchors": [],
-    "why": "91.7 places the airworthiness determination on the pilot in command; 135.71 is the part 135 airworthiness check before flight",
-    "confidence": "high"
-  },
-  "AA.II.A.S5": {
-    "sections": ["119.43", "119.49"],
-    "anchors": [],
-    "why": "119.43 requires compliance with the operations specifications; 119.49 states what they contain",
-    "confidence": "low"
-  },
-  "AA.II.A.S6": {
-    "sections": ["91.103"],
-    "anchors": ["aim:ch07-s06"],
-    "why": "91.103 requires assessing weather, runway lengths and alternates; AIM 7-6 covers terrain and airspace hazards",
-    "confidence": "low"
-  },
-  "AA.II.A.S7": {
-    "sections": ["91.527", "135.227"],
-    "anchors": [],
-    "why": "91.527 prohibits takeoff with frost, ice or snow adhering to critical surfaces; 135.227 is the part 135 icing operating limitation",
-    "confidence": "high"
-  },
-  "AA.II.B.K1": {
-    "sections": [],
-    "anchors": ["afh:ch02", "afh:ch16"],
-    "why": "AFH ch2 Ground Operations covers engine starting including external power; ch16 covers jet and APU start procedures. Task cites no CFR part",
-    "confidence": "high"
-  },
-  "AA.II.B.K2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 Ground Operations covers starting in cold, hot and flooded conditions",
-    "confidence": "high"
-  },
-  "AA.II.B.K3": {
-    "sections": [],
-    "anchors": ["afh:ch02", "afh:ch18"],
-    "why": "AFH ch2 covers hot and hung start recognition; ch18 Emergency Procedures covers engine fire during start",
-    "confidence": "high"
-  },
-  "AA.II.B.K4": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 Ground Operations covers ramp signals and coordination with ground personnel",
-    "confidence": "high"
-  },
-  "AA.II.B.R1": {
-    "sections": [],
-    "anchors": ["afh:ch02", "afh:ch18"],
-    "why": "AFH ch2 covers start malfunctions; ch18 covers the emergency response if one becomes a fire",
-    "confidence": "low"
-  },
-  "AA.II.B.R2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 covers propeller arc and turbine intake and exhaust hazard areas",
-    "confidence": "high"
-  },
-  "AA.II.B.R3": {
-    "sections": [],
-    "anchors": ["risk-management:ch08"],
-    "why": "RMH ch8 Aeronautical Decision-Making in Flight covers judgement where no published procedure exists",
-    "confidence": "low"
-  },
-  "AA.II.B.R4": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 covers clearing the area, ramp traffic and foreign object debris before start",
-    "confidence": "high"
-  },
-  "AA.II.B.S1": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 Ground Operations is the source for before-start, start and after-start ground safety",
-    "confidence": "high"
-  },
-  "AA.II.B.S2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 covers use of ground crew and standard hand signals",
-    "confidence": "high"
-  },
-  "AA.II.B.S3": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 covers checklist discipline around the start sequence",
-    "confidence": "high"
-  },
-  "AA.II.B.S4": {
-    "sections": [],
-    "anchors": ["afh:ch02", "afh:ch18"],
-    "why": "AFH ch2 gives the abnormal start responses; ch18 covers escalation to an emergency",
-    "confidence": "low"
-  },
-  "AA.II.C.K1": {
-    "sections": ["91.103"],
-    "anchors": ["aim:ch09-s01", "aim:ch05-s01"],
-    "why": "91.103 requires all available information for the flight; AIM 9-1 covers the Chart Supplement and airport diagrams, AIM 5-1 covers NOTAMs",
-    "confidence": "high"
-  },
-  "AA.II.C.K10": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 Airport Operations covers low visibility surface movement and taxi disorientation avoidance",
-    "confidence": "high"
-  },
-  "AA.II.C.K11": {
-    "sections": [],
-    "anchors": [],
-    "why": "Single-engine taxi is airplane and operator specific; no cited section or AIM chapter covers it",
-    "confidence": "high"
-  },
-  "AA.II.C.K2": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.123 requires compliance with ATC clearances and instructions; AIM 4-3 covers taxi clearances and published taxi routes",
-    "confidence": "high"
-  },
-  "AA.II.C.K3": {
-    "sections": [],
-    "anchors": ["aim:ch02-s03", "aim:ch02-s01"],
-    "why": "AIM 2-3 covers airport markings and signs; AIM 2-1 covers airport lighting aids",
-    "confidence": "high"
-  },
-  "AA.II.C.K4": {
-    "sections": ["91.209"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.209 sets the aircraft lighting requirement; AIM 4-3 gives the recommended exterior lighting practice during surface movement",
-    "confidence": "high"
-  },
-  "AA.II.C.K5": {
-    "sections": [],
-    "anchors": [],
-    "why": "Push-back procedures are operator specific and are not covered by a cited section or AIM chapter",
-    "confidence": "high"
-  },
-  "AA.II.C.K6": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 covers taxi route planning, hot spots and flight deck procedures before taxi",
-    "confidence": "high"
-  },
-  "AA.II.C.K7": {
-    "sections": [],
-    "anchors": ["aim:ch04-s02", "aim:ch04-s03"],
-    "why": "AIM 4-2 gives radio phraseology; AIM 4-3 covers towered and nontowered airport communication procedures",
-    "confidence": "high"
-  },
-  "AA.II.C.K8": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.123 makes an explicit clearance necessary to enter or cross a runway; AIM 4-3 gives the runway crossing procedure",
-    "confidence": "high"
-  },
-  "AA.II.C.K9": {
-    "sections": ["91.209"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.209 requires lighted position lights at night; AIM 4-3 covers night surface movement",
-    "confidence": "low"
-  },
-  "AA.II.C.R1": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
-    "confidence": "high"
-  },
-  "AA.II.C.R2": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 covers confirmation and expectation bias as an error source",
-    "confidence": "high"
-  },
-  "AA.II.C.R3": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 covers managing an unexpected change as a threat",
-    "confidence": "low"
-  },
-  "AA.II.C.R4": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 covers interrupted procedures and the errors they produce",
-    "confidence": "low"
-  },
-  "AA.II.C.R5": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 covers the hazards of low visibility surface movement",
-    "confidence": "low"
-  },
-  "AA.II.C.R6": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 covers runway incursion avoidance; 91.123 is the clearance compliance rule that a runway incursion breaks",
-    "confidence": "high"
-  },
-  "AA.II.C.S1": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.123 requires reading back and complying with the taxi clearance; AIM 4-3 gives the record and review procedure",
-    "confidence": "high"
-  },
-  "AA.II.C.S2": {
-    "sections": [],
-    "anchors": ["aim:ch09-s01"],
-    "why": "AIM 9-1 covers the airport diagram and taxi chart products",
-    "confidence": "high"
-  },
-  "AA.II.C.S3": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch02-s03"],
-    "why": "91.123 requires compliance with ATC instructions; AIM 2-3 covers hold lines, ILS critical area markings and taxiway markings",
-    "confidence": "high"
-  },
-  "AA.II.C.S4": {
-    "sections": [],
-    "anchors": [],
-    "why": "Crew coordination and checklist timing during taxi is operator specific; no cited section or chapter governs it",
-    "confidence": "high"
-  },
-  "AA.II.C.S5": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 covers maintaining situational awareness against threats and errors",
-    "confidence": "low"
-  },
-  "AA.II.C.S6": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 covers taxi speed, braking and separation from aircraft, vehicles and persons",
-    "confidence": "low"
-  },
-  "AA.II.C.S7": {
-    "sections": [],
-    "anchors": [],
-    "why": "The day versus night taxi comparison is a demonstration requirement, not content in a cited section or chapter",
-    "confidence": "high"
-  },
-  "AA.II.C.S8": {
-    "sections": ["91.209"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.209 is the lighting requirement; AIM 4-3 gives the recommended exterior lighting practice by phase of surface movement",
-    "confidence": "high"
-  },
-  "AA.II.C.S9": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 states the hazards of low visibility surface operations",
-    "confidence": "low"
-  },
-  "AA.II.D.K1": {
-    "sections": ["91.103"],
-    "anchors": ["aim:ch09-s01"],
-    "why": "91.103 requires all available information for the flight; AIM 9-1 covers the Chart Supplement and airport diagram products that also list seaplane bases",
-    "confidence": "high"
-  },
-  "AA.II.D.K2": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.123 requires compliance with taxi clearances where ATC is involved; AIM 4-3 covers taxi instructions",
-    "confidence": "high"
-  },
-  "AA.II.D.K3": {
-    "sections": [],
-    "anchors": ["aim:ch02-s03"],
-    "why": "AIM 2-3 covers airport markings, signs and signals. Seaplane base specific markings are not covered by a cited handbook",
-    "confidence": "high"
-  },
-  "AA.II.D.K4": {
-    "sections": ["91.209"],
-    "anchors": [],
-    "why": "91.209 sets the position and anticollision light requirement for day and night operation",
-    "confidence": "high"
-  },
-  "AA.II.D.K5": {
-    "sections": [],
-    "anchors": [],
-    "why": "Sailing technique lives in the seaplane handbook, which this Task does not cite. Not substituting from the AIM",
-    "confidence": "high"
-  },
-  "AA.II.D.K6": {
-    "sections": [],
-    "anchors": [],
-    "why": "Choosing a sailing course is seaplane handbook material and the seaplane handbook is not cited by this Task",
-    "confidence": "high"
-  },
-  "AA.II.D.K7": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "Parent element; AIM 4-3 Airport Operations is the general surface movement procedure reference",
-    "confidence": "low"
-  },
-  "AA.II.D.K7a": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 covers route planning and flight deck preparation before surface movement",
-    "confidence": "low"
-  },
-  "AA.II.D.K7b": {
-    "sections": [],
-    "anchors": ["aim:ch04-s02"],
-    "why": "AIM 4-2 gives the radio communication phraseology used at towered and nontowered locations",
-    "confidence": "high"
-  },
-  "AA.II.D.K7c": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.123 requires an explicit clearance to enter or cross a runway; AIM 4-3 gives the procedure",
-    "confidence": "high"
-  },
-  "AA.II.D.K7d": {
-    "sections": ["91.209"],
-    "anchors": [],
-    "why": "91.209 governs lighting for night operation. Night sailing technique is seaplane handbook material, which this Task does not cite",
-    "confidence": "low"
-  },
-  "AA.II.D.K7e": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 covers low visibility surface movement",
-    "confidence": "low"
-  },
-  "AA.II.D.R1": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
-    "confidence": "high"
-  },
-  "AA.II.D.R2": {
-    "sections": [],
-    "anchors": [],
-    "why": "Porpoising and skipping are covered only in the seaplane handbook, which this Task does not cite",
-    "confidence": "high"
-  },
-  "AA.II.D.R3": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 covers interrupted procedures and the errors they produce",
-    "confidence": "low"
-  },
-  "AA.II.D.R4": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 covers the hazards of low visibility surface movement",
-    "confidence": "low"
-  },
-  "AA.II.D.R5": {
-    "sections": ["91.115"],
-    "anchors": [],
-    "why": "91.115 is the right-of-way rule for water operations, which governs meeting vessels and other aircraft on the water",
-    "confidence": "high"
-  },
-  "AA.II.D.R6": {
-    "sections": [],
-    "anchors": [],
-    "why": "Amphibious gear position is seaplane handbook and airplane specific material; the seaplane handbook is not cited by this Task",
-    "confidence": "high"
-  },
-  "AA.II.D.R7": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 covers confirmation and expectation bias",
-    "confidence": "high"
-  },
-  "AA.II.D.S1": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch04-s03"],
-    "why": "91.123 requires read back and compliance with the taxi clearance; AIM 4-3 gives the review procedure",
-    "confidence": "high"
-  },
-  "AA.II.D.S10": {
-    "sections": [],
-    "anchors": [],
-    "why": "Steering and maneuvering on the water is seaplane handbook material, which this Task does not cite",
-    "confidence": "high"
-  },
-  "AA.II.D.S11": {
-    "sections": [],
-    "anchors": [],
-    "why": "Selecting the most favorable taxi or sailing course is seaplane handbook material, not cited by this Task",
-    "confidence": "high"
-  },
-  "AA.II.D.S12": {
-    "sections": [],
-    "anchors": [],
-    "why": "A day versus night demonstration requirement with no content in a cited section or chapter",
-    "confidence": "high"
-  },
-  "AA.II.D.S13": {
-    "sections": ["91.209"],
-    "anchors": [],
-    "why": "91.209 sets the exterior lighting requirement for day and night operation",
-    "confidence": "high"
-  },
-  "AA.II.D.S14": {
-    "sections": [],
-    "anchors": ["aim:ch04-s03"],
-    "why": "AIM 4-3 states the hazards of low visibility surface operations",
-    "confidence": "low"
-  },
-  "AA.II.D.S2": {
-    "sections": [],
-    "anchors": ["aim:ch09-s01"],
-    "why": "AIM 9-1 covers the chart products used during surface movement",
-    "confidence": "high"
-  },
-  "AA.II.D.S3": {
-    "sections": ["91.123"],
-    "anchors": ["aim:ch02-s03"],
-    "why": "91.123 requires compliance with ATC clearances; AIM 2-3 covers taxiway and airport markings, signals and signs",
-    "confidence": "high"
-  },
-  "AA.II.D.S4": {
-    "sections": ["91.115"],
-    "anchors": [],
-    "why": "91.115 governs right-of-way among vessels and aircraft when leaving a dock, buoy, beach or ramp. Departure technique itself is seaplane handbook material, not cited here",
-    "confidence": "low"
-  },
-  "AA.II.D.S5": {
-    "sections": [],
-    "anchors": [],
-    "why": "Crew coordination and checklist timing during taxi or sailing is operator specific",
-    "confidence": "high"
-  },
-  "AA.II.D.S6": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 covers maintaining situational awareness against threats and errors",
-    "confidence": "low"
-  },
-  "AA.II.D.S7": {
-    "sections": ["91.115"],
-    "anchors": [],
-    "why": "91.115 is the right-of-way rule for water operations and defines the violation this skill avoids",
-    "confidence": "high"
-  },
-  "AA.II.D.S8": {
-    "sections": [],
-    "anchors": [],
-    "why": "Control, water rudder and power positioning and porpoising correction are seaplane handbook material, which this Task does not cite",
-    "confidence": "high"
-  },
-  "AA.II.D.S9": {
-    "sections": [],
-    "anchors": [],
-    "why": "Idle, plow and step taxi technique is seaplane handbook material, which this Task does not cite",
-    "confidence": "high"
-  },
-  "AA.II.E.K1": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 Ground Operations covers the before takeoff check and the purpose of its items. Task cites no CFR part",
-    "confidence": "high"
-  },
-  "AA.II.E.K1a": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 explains why each before takeoff item is checked",
-    "confidence": "high"
-  },
-  "AA.II.E.K1b": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 covers recognising a malfunction during the before takeoff check",
-    "confidence": "low"
-  },
-  "AA.II.E.K1c": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 is the source for confirming the airplane is in safe operating condition before takeoff",
-    "confidence": "high"
-  },
-  "AA.II.E.K2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 covers the pre-takeoff contamination check. Holdover tables themselves are not in any cited handbook",
-    "confidence": "low"
-  },
-  "AA.II.E.K3": {
-    "sections": [],
-    "anchors": ["afh:ch06"],
-    "why": "AFH ch6 Takeoffs and Departure Climbs covers crosswind, contaminated surface and reduced visibility takeoff considerations",
-    "confidence": "high"
-  },
-  "AA.II.E.K4": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 covers the departure briefing content as part of the before takeoff check",
-    "confidence": "low"
-  },
-  "AA.II.E.R1": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 Threat and Error Management covers division of attention during procedures",
-    "confidence": "low"
-  },
-  "AA.II.E.R2": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 covers managing an unexpected change as a threat",
-    "confidence": "low"
-  },
-  "AA.II.E.R3": {
-    "sections": [],
-    "anchors": ["phak:ch11"],
-    "why": "PHAK ch11 Aircraft Performance is the source for deriving takeoff speeds from performance data",
-    "confidence": "low"
-  },
-  "AA.II.E.R4": {
-    "sections": [],
-    "anchors": ["risk-management:ch07"],
-    "why": "RMH ch7 Automation and Flight Path Management covers setting and verifying navigation and communication equipment",
-    "confidence": "low"
-  },
-  "AA.II.E.R5": {
-    "sections": [],
-    "anchors": ["risk-management:ch07"],
-    "why": "RMH ch7 is the direct source on configuring and monitoring autopilot and flight director",
-    "confidence": "high"
-  },
-  "AA.II.E.R6": {
-    "sections": [],
-    "anchors": ["afh:ch06"],
-    "why": "AFH ch6 covers adverse surface and wind conditions affecting the takeoff decision",
-    "confidence": "low"
-  },
-  "AA.II.E.R7": {
-    "sections": [],
-    "anchors": ["afh:ch18", "afh:ch13"],
-    "why": "AFH ch18 Emergency Procedures covers powerplant failure during takeoff; ch13 covers the multiengine takeoff failure decision and its operational factors",
-    "confidence": "high"
-  },
-  "AA.II.E.S1": {
-    "sections": [],
-    "anchors": ["phak:ch11"],
-    "why": "PHAK ch11 Aircraft Performance is the source for computing takeoff performance for actual conditions",
-    "confidence": "high"
-  },
-  "AA.II.E.S2": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 covers before takeoff checklist discipline and timing",
-    "confidence": "high"
-  },
-  "AA.II.E.S3": {
-    "sections": [],
-    "anchors": ["afh:ch02"],
-    "why": "AFH ch2 covers verifying systems are within operating range during the before takeoff check",
-    "confidence": "low"
-  },
-  "AA.II.E.S4": {
-    "sections": [],
-    "anchors": ["risk-management:ch07"],
-    "why": "RMH ch7 covers configuring flight director, autopilot and navigation equipment. The V-speeds themselves come from the AFM",
-    "confidence": "low"
-  },
-  "AA.II.E.S5": {
-    "sections": [],
-    "anchors": ["afh:ch18"],
-    "why": "AFH ch18 Emergency Procedures supplies the emergency and abnormal takeoff cases the briefing must cover",
-    "confidence": "high"
-  },
-  "AA.II.E.S6": {
-    "sections": [],
-    "anchors": [],
-    "why": "Interpreting a takeoff and departure clearance is AIM material, and this Task does not cite the AIM",
-    "confidence": "high"
-  },
-  "AA.IV.A.K1": {
-    "sections": [],
-    "anchors": ["afh:ch04"],
-    "why": "AFH ch4 is Energy Management: Mastering Altitude and Airspeed Control. Task cites no CFR part",
-    "confidence": "high"
-  },
-  "AA.IV.A.K2": {
-    "sections": [],
-    "anchors": ["afh:ch10", "phak:ch05"],
-    "why": "AFH ch10 Performance Maneuvers contains the steep turn; PHAK ch5 Aerodynamics of Flight gives the underlying theory",
-    "confidence": "high"
-  },
-  "AA.IV.A.K2a": {
-    "sections": [],
-    "anchors": ["afh:ch03"],
-    "why": "AFH ch3 Basic Flight Maneuvers covers coordinated turns and the use of rudder",
-    "confidence": "high"
-  },
-  "AA.IV.A.K2b": {
-    "sections": [],
-    "anchors": ["afh:ch10"],
-    "why": "AFH ch10 covers the overbanking tendency encountered in steep turns",
-    "confidence": "high"
-  },
-  "AA.IV.A.K2c": {
-    "sections": [],
-    "anchors": ["phak:ch05"],
-    "why": "PHAK ch5 covers maneuvering speed and its variation with weight",
-    "confidence": "high"
-  },
-  "AA.IV.A.K2d": {
-    "sections": [],
-    "anchors": ["phak:ch05", "afh:ch05"],
-    "why": "PHAK ch5 covers load factor and the accelerated stall speed relationship; AFH ch5 covers accelerated stall recognition and recovery",
-    "confidence": "high"
-  },
-  "AA.IV.A.K2e": {
-    "sections": [],
-    "anchors": ["phak:ch05"],
-    "why": "PHAK ch5 covers rate and radius of turn as functions of bank and airspeed",
-    "confidence": "high"
-  },
-  "AA.IV.A.R1": {
-    "sections": [],
-    "anchors": ["phak:ch17"],
-    "why": "PHAK ch17 Aeromedical Factors covers spatial disorientation and vestibular illusions in instrument conditions",
-    "confidence": "high"
-  },
-  "AA.IV.A.R2": {
-    "sections": [],
-    "anchors": [],
-    "why": "Collision avoidance and terrain clearance are AIM and regulation material; this Task cites neither the AIM nor a CFR part",
-    "confidence": "high"
-  },
-  "AA.IV.A.R3": {
-    "sections": [],
-    "anchors": ["afh:ch05"],
-    "why": "AFH ch5 Upset Prevention and Recovery covers low altitude loss of control, stall and spin risk",
-    "confidence": "high"
-  },
-  "AA.IV.A.R4": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
-    "confidence": "high"
-  },
-  "AA.IV.A.R5": {
-    "sections": [],
-    "anchors": ["afh:ch03"],
-    "why": "AFH ch3 covers coordination and the consequences of slipping or skidding turns",
-    "confidence": "low"
-  },
-  "AA.IV.A.S1": {
-    "sections": [],
-    "anchors": [],
-    "why": "The 3,000 foot AGL entry floor is an ACS standard, not content in a cited chapter",
-    "confidence": "high"
-  },
-  "AA.IV.A.S2": {
-    "sections": [],
-    "anchors": ["afh:ch10"],
-    "why": "AFH ch10 gives the steep turn entry airspeed guidance relative to maneuvering speed",
-    "confidence": "low"
-  },
-  "AA.IV.A.S3": {
-    "sections": [],
-    "anchors": ["afh:ch10"],
-    "why": "AFH ch10 Performance Maneuvers describes the steep turn technique and bank management",
-    "confidence": "high"
-  },
-  "AA.IV.A.S4": {
-    "sections": [],
-    "anchors": ["afh:ch10"],
-    "why": "AFH ch10 covers reversing the steep turn and the rollout and reentry technique",
-    "confidence": "low"
-  },
-  "AA.IV.A.S5": {
-    "sections": [],
-    "anchors": ["afh:ch10"],
-    "why": "AFH ch10 covers the pitch, bank and power coordination needed to hold altitude in a steep turn",
-    "confidence": "low"
-  },
-  "AA.IV.A.S6": {
-    "sections": [],
-    "anchors": ["afh:ch10"],
-    "why": "AFH ch10 describes holding altitude, airspeed and bank and rolling out on a heading. The numeric tolerances are ACS standards",
-    "confidence": "low"
-  },
-  "AA.IV.A.S7": {
-    "sections": [],
-    "anchors": ["afh:ch05"],
-    "why": "AFH ch5 covers recognising an impending stall or developing upset before it becomes one",
-    "confidence": "low"
-  },
-  "AA.IV.B.K1": {
-    "sections": [],
-    "anchors": ["ifh:ch07"],
-    "why": "IFH ch7 Airplane Basic Flight Maneuvers contains the unusual attitude recovery procedures, including partial panel. Task cites no CFR part",
-    "confidence": "high"
-  },
-  "AA.IV.B.K2": {
-    "sections": [],
-    "anchors": ["phak:ch17", "phak:ch08"],
-    "why": "PHAK ch17 Aeromedical Factors covers the physiological causes including spatial disorientation; PHAK ch8 Flight Instruments covers instrument and system failure as a cause",
-    "confidence": "low"
-  },
-  "AA.IV.B.K3": {
-    "sections": [],
-    "anchors": ["phak:ch05"],
-    "why": "PHAK ch5 Aerodynamics of Flight covers the flight envelope, load factor limits and the Vg diagram",
-    "confidence": "high"
-  },
-  "AA.IV.B.K4": {
-    "sections": [],
-    "anchors": ["phak:ch05"],
-    "why": "PHAK ch5 covers how wing design and thrust line placement affect control response. Engine location effects on recovery are largely airplane specific",
-    "confidence": "low"
-  },
-  "AA.IV.B.R1": {
-    "sections": [],
-    "anchors": ["risk-management:ch06", "phak:ch17"],
-    "why": "RMH ch6 covers task saturation, stress and distraction; PHAK ch17 covers spatial disorientation, together the LOC-I precursors listed",
-    "confidence": "high"
-  },
-  "AA.IV.B.R2": {
-    "sections": [],
-    "anchors": [],
-    "why": "Element is archived and carries no content to map",
-    "confidence": "high"
-  },
-  "AA.IV.B.R3": {
-    "sections": [],
-    "anchors": ["phak:ch05"],
-    "why": "PHAK ch5 covers the operating envelope and the load factor limits that constrain a recovery",
-    "confidence": "high"
-  },
-  "AA.IV.B.R4": {
-    "sections": [],
-    "anchors": ["ifh:ch06"],
-    "why": "IFH ch6 Airplane Attitude Instrument Flying covers the cross-check and instrument interpretation",
-    "confidence": "high"
-  },
-  "AA.IV.B.R5": {
-    "sections": [],
-    "anchors": ["ifh:ch07"],
-    "why": "IFH ch7 covers recognising and assessing a nose-high or nose-low unusual attitude before acting",
-    "confidence": "high"
-  },
-  "AA.IV.B.R6": {
-    "sections": [],
-    "anchors": ["ifh:ch07"],
-    "why": "IFH ch7 covers control input errors that aggravate rather than correct an unusual attitude",
-    "confidence": "low"
-  },
-  "AA.IV.B.R7": {
-    "sections": [],
-    "anchors": ["ifh:ch06"],
-    "why": "IFH ch6 is the source on control application by reference to instruments alone",
-    "confidence": "high"
-  },
-  "AA.IV.B.R8": {
-    "sections": [],
-    "anchors": [],
-    "why": "Collision hazard mitigation is AIM material and this Task cites neither the AIM nor a CFR part",
-    "confidence": "high"
-  },
-  "AA.IV.B.R9": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
-    "confidence": "high"
-  },
-  "AA.IV.B.S1": {
-    "sections": [],
-    "anchors": ["ifh:ch07", "ifh:ch06"],
-    "why": "IFH ch7 gives the nose-high and nose-low recovery sequence; ch6 gives the cross-check used to identify the attitude",
-    "confidence": "high"
-  },
-  "AA.IV.C.K1": {
-    "sections": [],
-    "anchors": [],
-    "why": "The specific flight characteristics are selected from the AFM for the airplane used on the test; no cited handbook chapter covers them generically",
-    "confidence": "high"
-  },
-  "AA.IV.C.R1": {
-    "sections": [],
-    "anchors": [],
-    "why": "Airplane specific characteristics and their procedures come from the AFM, not from a cited handbook chapter",
-    "confidence": "high"
-  },
-  "AA.IV.C.R2": {
-    "sections": [],
-    "anchors": ["risk-management:ch06"],
-    "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness",
-    "confidence": "high"
-  },
-  "AA.IV.C.S1": {
-    "sections": [],
-    "anchors": ["afh:ch05"],
-    "why": "AFH ch5 Upset Prevention and Recovery covers entering, operating within and recovering from unusual flight situations",
-    "confidence": "low"
-  }
+ "AA.II.A.K1": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "section_why": "61.53 is the self-grounding rule for medical deficiency; AIM 8-1 Fitness for Flight gives the self-assessment method",
+  "sections": [
+   "61.53"
+  ],
+  "why": "61.53 is the self-grounding rule for medical deficiency; AIM 8-1 Fitness for Flight gives the self-assessment method"
+ },
+ "AA.II.A.K2": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.7 makes the pilot responsible for determining airworthiness; 91.203 lists the documents that must be aboard",
+  "sections": [
+   "91.7",
+   "91.203"
+  ],
+  "why": "91.7 makes the pilot responsible for determining airworthiness; 91.203 lists the documents that must be aboard"
+ },
+ "AA.II.A.K2a": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.203 requires an appropriate airworthiness certificate and registration certificate aboard the aircraft",
+  "sections": [
+   "91.203"
+  ],
+  "why": "91.203 requires an appropriate airworthiness certificate and registration certificate aboard the aircraft"
+ },
+ "AA.II.A.K2b": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.9 requires the current approved flight manual, markings and placards and prohibits operating outside them",
+  "sections": [
+   "91.9"
+  ],
+  "why": "91.9 requires the current approved flight manual, markings and placards and prohibits operating outside them"
+ },
+ "AA.II.A.K2c": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.213 governs MEL use and inoperative equipment under part 91; 135.179 is the equivalent rule for part 135 operations",
+  "sections": [
+   "91.213",
+   "135.179"
+  ],
+  "why": "91.213 governs MEL use and inoperative equipment under part 91; 135.179 is the equivalent rule for part 135 operations"
+ },
+ "AA.II.A.K2d": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "135.185 requires current empty weight and center of gravity data for the airplane. Part 91 has no equivalent document rule",
+  "sections": [
+   "135.185"
+  ],
+  "why": "135.185 requires current empty weight and center of gravity data for the airplane. Part 91 has no equivalent document rule"
+ },
+ "AA.II.A.K2e": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.409 sets required inspections, 91.411 the altimeter and altitude reporting tests, 91.417 the maintenance records that evidence them",
+  "sections": [
+   "91.409",
+   "91.411",
+   "91.417"
+  ],
+  "why": "91.409 sets required inspections, 91.411 the altimeter and altitude reporting tests, 91.417 the maintenance records that evidence them"
+ },
+ "AA.II.A.K3": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "43.3 authorizes a certificated pilot to perform preventive maintenance on aircraft they operate; 43.9 sets the required record entry",
+  "sections": [
+   "43.3",
+   "43.9"
+  ],
+  "why": "43.3 authorizes a certificated pilot to perform preventive maintenance on aircraft they operate; 43.9 sets the required record entry"
+ },
+ "AA.II.A.K4": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.7 makes preflight determination of airworthiness the pilot's duty; 91.103 requires familiarity with all available information for the flight",
+  "sections": [
+   "91.7",
+   "91.103"
+  ],
+  "why": "91.7 makes preflight determination of airworthiness the pilot's duty; 91.103 requires familiarity with all available information for the flight"
+ },
+ "AA.II.A.K4a": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "The specific inspection items come from the manufacturer checklist, not from a regulation or from the AIM"
+ },
+ "AA.II.A.K4b": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "The reason for checking each item is airplane specific; no cited section or AIM chapter covers it"
+ },
+ "AA.II.A.K4c": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Defect detection technique is handbook material and this Task cites only the AIM among handbooks"
+ },
+ "AA.II.A.K4d": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "These are the regulations associated with the preflight inspection: airworthiness determination and required documents",
+  "sections": [
+   "91.7",
+   "91.203"
+  ],
+  "why": "These are the regulations associated with the preflight inspection: airworthiness determination and required documents"
+ },
+ "AA.II.A.K5": {
+  "anchors": [
+   "aim:ch05-s01"
+  ],
+  "confidence": "high",
+  "section_why": "91.103 requires weather, runway and alternate information for the flight; AIM 5-1 Preflight covers route selection and the information sources",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires weather, runway and alternate information for the flight; AIM 5-1 Preflight covers route selection and the information sources"
+ },
+ "AA.II.A.K6": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "section_why": "91.503 requires current charts and navigation data aboard large and turbine airplanes; 135.83 is the part 135 equivalent; AIM 9-1 lists the chart products and their currency cycles",
+  "sections": [
+   "91.503",
+   "135.83"
+  ],
+  "why": "91.503 requires current charts and navigation data aboard large and turbine airplanes; 135.83 is the part 135 equivalent; AIM 9-1 lists the chart products and their currency cycles"
+ },
+ "AA.II.A.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "119.7 defines operations specifications and their force; 119.43 obliges the certificate holder to keep and comply with them",
+  "sections": [
+   "119.7",
+   "119.43"
+  ],
+  "why": "119.7 defines operations specifications and their force; 119.43 obliges the certificate holder to keep and comply with them"
+ },
+ "AA.II.A.R1": {
+  "anchors": [
+   "aim:ch08-s01"
+  ],
+  "confidence": "high",
+  "section_why": "AIM 8-1 covers the human performance factors that affect fitness for flight; 61.53 is the regulatory consequence",
+  "sections": [
+   "61.53"
+  ],
+  "why": "AIM 8-1 covers the human performance factors that affect fitness for flight; 61.53 is the regulatory consequence"
+ },
+ "AA.II.A.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "Both sections set what may be deferred and what grounds the aircraft when equipment is found inoperative before flight",
+  "sections": [
+   "91.213",
+   "135.179"
+  ],
+  "why": "Both sections set what may be deferred and what grounds the aircraft when equipment is found inoperative before flight"
+ },
+ "AA.II.A.R3": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "low",
+  "section_why": "91.103 is the preflight information duty; AIM 7-6 Potential Flight Hazards covers terrain, obstacle and environmental risk",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 is the preflight information duty; AIM 7-6 Potential Flight Hazards covers terrain, obstacle and environmental risk"
+ },
+ "AA.II.A.R4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "External pressure is ADM material from the Risk Management Handbook, which this Task does not cite"
+ },
+ "AA.II.A.R5": {
+  "anchors": [
+   "aim:ch05-s06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 5-6 National Security and Interception Procedures is the only cited-handbook location covering aviation security"
+ },
+ "AA.II.A.S1": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.7 is the regulatory basis for the preflight inspection; checklist content is airplane specific",
+  "sections": [
+   "91.7"
+  ],
+  "why": "91.7 is the regulatory basis for the preflight inspection; checklist content is airplane specific"
+ },
+ "AA.II.A.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Ground crew coordination around doors, hatches and control surfaces is not addressed by any cited section or AIM chapter"
+ },
+ "AA.II.A.S3": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.213 governs acknowledging and placarding deferred items; 135.65 requires reporting mechanical irregularities found before flight",
+  "sections": [
+   "91.213",
+   "135.65"
+  ],
+  "why": "91.213 governs acknowledging and placarding deferred items; 135.65 requires reporting mechanical irregularities found before flight"
+ },
+ "AA.II.A.S4": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.7 places the airworthiness determination on the pilot in command; 135.71 is the part 135 airworthiness check before flight",
+  "sections": [
+   "91.7",
+   "135.71"
+  ],
+  "why": "91.7 places the airworthiness determination on the pilot in command; 135.71 is the part 135 airworthiness check before flight"
+ },
+ "AA.II.A.S5": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "119.43 requires compliance with the operations specifications; 119.49 states what they contain",
+  "sections": [
+   "119.43",
+   "119.49"
+  ],
+  "why": "119.43 requires compliance with the operations specifications; 119.49 states what they contain"
+ },
+ "AA.II.A.S6": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "low",
+  "section_why": "91.103 requires assessing weather, runway lengths and alternates; AIM 7-6 covers terrain and airspace hazards",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires assessing weather, runway lengths and alternates; AIM 7-6 covers terrain and airspace hazards"
+ },
+ "AA.II.A.S7": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.527 prohibits takeoff with frost, ice or snow adhering to critical surfaces; 135.227 is the part 135 icing operating limitation",
+  "sections": [
+   "91.527",
+   "135.227"
+  ],
+  "why": "91.527 prohibits takeoff with frost, ice or snow adhering to critical surfaces; 135.227 is the part 135 icing operating limitation"
+ },
+ "AA.II.B.K1": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers engine starting including external power; ch16 covers jet and APU start procedures. Task cites no CFR part"
+ },
+ "AA.II.B.K2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers starting in cold, hot and flooded conditions"
+ },
+ "AA.II.B.K3": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers hot and hung start recognition; ch18 Emergency Procedures covers engine fire during start"
+ },
+ "AA.II.B.K4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers ramp signals and coordination with ground personnel"
+ },
+ "AA.II.B.R1": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 covers start malfunctions; ch18 covers the emergency response if one becomes a fire"
+ },
+ "AA.II.B.R2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers propeller arc and turbine intake and exhaust hazard areas"
+ },
+ "AA.II.B.R3": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch8 Aeronautical Decision-Making in Flight covers judgement where no published procedure exists"
+ },
+ "AA.II.B.R4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers clearing the area, ramp traffic and foreign object debris before start"
+ },
+ "AA.II.B.S1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations is the source for before-start, start and after-start ground safety"
+ },
+ "AA.II.B.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers use of ground crew and standard hand signals"
+ },
+ "AA.II.B.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers checklist discipline around the start sequence"
+ },
+ "AA.II.B.S4": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 gives the abnormal start responses; ch18 covers escalation to an emergency"
+ },
+ "AA.II.C.K1": {
+  "anchors": [
+   "aim:ch09-s01",
+   "aim:ch05-s01"
+  ],
+  "confidence": "high",
+  "section_why": "91.103 requires all available information for the flight; AIM 9-1 covers the Chart Supplement and airport diagrams, AIM 5-1 covers NOTAMs",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires all available information for the flight; AIM 9-1 covers the Chart Supplement and airport diagrams, AIM 5-1 covers NOTAMs"
+ },
+ "AA.II.C.K10": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 Airport Operations covers low visibility surface movement and taxi disorientation avoidance"
+ },
+ "AA.II.C.K11": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Single-engine taxi is airplane and operator specific; no cited section or AIM chapter covers it"
+ },
+ "AA.II.C.K2": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.123 requires compliance with ATC clearances and instructions; AIM 4-3 covers taxi clearances and published taxi routes",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC clearances and instructions; AIM 4-3 covers taxi clearances and published taxi routes"
+ },
+ "AA.II.C.K3": {
+  "anchors": [
+   "aim:ch02-s03",
+   "aim:ch02-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 2-3 covers airport markings and signs; AIM 2-1 covers airport lighting aids"
+ },
+ "AA.II.C.K4": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.209 sets the aircraft lighting requirement; AIM 4-3 gives the recommended exterior lighting practice during surface movement",
+  "sections": [
+   "91.209"
+  ],
+  "why": "91.209 sets the aircraft lighting requirement; AIM 4-3 gives the recommended exterior lighting practice during surface movement"
+ },
+ "AA.II.C.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Push-back procedures are operator specific and are not covered by a cited section or AIM chapter"
+ },
+ "AA.II.C.K6": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 covers taxi route planning, hot spots and flight deck procedures before taxi"
+ },
+ "AA.II.C.K7": {
+  "anchors": [
+   "aim:ch04-s02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 gives radio phraseology; AIM 4-3 covers towered and nontowered airport communication procedures"
+ },
+ "AA.II.C.K8": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.123 makes an explicit clearance necessary to enter or cross a runway; AIM 4-3 gives the runway crossing procedure",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 makes an explicit clearance necessary to enter or cross a runway; AIM 4-3 gives the runway crossing procedure"
+ },
+ "AA.II.C.K9": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "section_why": "91.209 requires lighted position lights at night; AIM 4-3 covers night surface movement",
+  "sections": [
+   "91.209"
+  ],
+  "why": "91.209 requires lighted position lights at night; AIM 4-3 covers night surface movement"
+ },
+ "AA.II.C.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.II.C.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 covers confirmation and expectation bias as an error source"
+ },
+ "AA.II.C.R3": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 covers managing an unexpected change as a threat"
+ },
+ "AA.II.C.R4": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 covers interrupted procedures and the errors they produce"
+ },
+ "AA.II.C.R5": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 4-3 covers the hazards of low visibility surface movement"
+ },
+ "AA.II.C.R6": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "AIM 4-3 covers runway incursion avoidance; 91.123 is the clearance compliance rule that a runway incursion breaks",
+  "sections": [
+   "91.123"
+  ],
+  "why": "AIM 4-3 covers runway incursion avoidance; 91.123 is the clearance compliance rule that a runway incursion breaks"
+ },
+ "AA.II.C.S1": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.123 requires reading back and complying with the taxi clearance; AIM 4-3 gives the record and review procedure",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires reading back and complying with the taxi clearance; AIM 4-3 gives the record and review procedure"
+ },
+ "AA.II.C.S2": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 9-1 covers the airport diagram and taxi chart products"
+ },
+ "AA.II.C.S3": {
+  "anchors": [
+   "aim:ch02-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.123 requires compliance with ATC instructions; AIM 2-3 covers hold lines, ILS critical area markings and taxiway markings",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC instructions; AIM 2-3 covers hold lines, ILS critical area markings and taxiway markings"
+ },
+ "AA.II.C.S4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Crew coordination and checklist timing during taxi is operator specific; no cited section or chapter governs it"
+ },
+ "AA.II.C.S5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 covers maintaining situational awareness against threats and errors"
+ },
+ "AA.II.C.S6": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 4-3 covers taxi speed, braking and separation from aircraft, vehicles and persons"
+ },
+ "AA.II.C.S7": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "The day versus night taxi comparison is a demonstration requirement, not content in a cited section or chapter"
+ },
+ "AA.II.C.S8": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.209 is the lighting requirement; AIM 4-3 gives the recommended exterior lighting practice by phase of surface movement",
+  "sections": [
+   "91.209"
+  ],
+  "why": "91.209 is the lighting requirement; AIM 4-3 gives the recommended exterior lighting practice by phase of surface movement"
+ },
+ "AA.II.C.S9": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 4-3 states the hazards of low visibility surface operations"
+ },
+ "AA.II.D.K1": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "section_why": "91.103 requires all available information for the flight; AIM 9-1 covers the Chart Supplement and airport diagram products that also list seaplane bases",
+  "sections": [
+   "91.103"
+  ],
+  "why": "91.103 requires all available information for the flight; AIM 9-1 covers the Chart Supplement and airport diagram products that also list seaplane bases"
+ },
+ "AA.II.D.K2": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.123 requires compliance with taxi clearances where ATC is involved; AIM 4-3 covers taxi instructions",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with taxi clearances where ATC is involved; AIM 4-3 covers taxi instructions"
+ },
+ "AA.II.D.K3": {
+  "anchors": [
+   "aim:ch02-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 2-3 covers airport markings, signs and signals. Seaplane base specific markings are not covered by a cited handbook"
+ },
+ "AA.II.D.K4": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.209 sets the position and anticollision light requirement for day and night operation",
+  "sections": [
+   "91.209"
+  ],
+  "why": "91.209 sets the position and anticollision light requirement for day and night operation"
+ },
+ "AA.II.D.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Sailing technique lives in the seaplane handbook, which this Task does not cite. Not substituting from the AIM"
+ },
+ "AA.II.D.K6": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Choosing a sailing course is seaplane handbook material and the seaplane handbook is not cited by this Task"
+ },
+ "AA.II.D.K7": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Parent element; AIM 4-3 Airport Operations is the general surface movement procedure reference"
+ },
+ "AA.II.D.K7a": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 4-3 covers route planning and flight deck preparation before surface movement"
+ },
+ "AA.II.D.K7b": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 gives the radio communication phraseology used at towered and nontowered locations"
+ },
+ "AA.II.D.K7c": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.123 requires an explicit clearance to enter or cross a runway; AIM 4-3 gives the procedure",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires an explicit clearance to enter or cross a runway; AIM 4-3 gives the procedure"
+ },
+ "AA.II.D.K7d": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.209 governs lighting for night operation. Night sailing technique is seaplane handbook material, which this Task does not cite",
+  "sections": [
+   "91.209"
+  ],
+  "why": "91.209 governs lighting for night operation. Night sailing technique is seaplane handbook material, which this Task does not cite"
+ },
+ "AA.II.D.K7e": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 4-3 covers low visibility surface movement"
+ },
+ "AA.II.D.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.II.D.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Porpoising and skipping are covered only in the seaplane handbook, which this Task does not cite"
+ },
+ "AA.II.D.R3": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 covers interrupted procedures and the errors they produce"
+ },
+ "AA.II.D.R4": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 4-3 covers the hazards of low visibility surface movement"
+ },
+ "AA.II.D.R5": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.115 is the right-of-way rule for water operations, which governs meeting vessels and other aircraft on the water",
+  "sections": [
+   "91.115"
+  ],
+  "why": "91.115 is the right-of-way rule for water operations, which governs meeting vessels and other aircraft on the water"
+ },
+ "AA.II.D.R6": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Amphibious gear position is seaplane handbook and airplane specific material; the seaplane handbook is not cited by this Task"
+ },
+ "AA.II.D.R7": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 covers confirmation and expectation bias"
+ },
+ "AA.II.D.S1": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.123 requires read back and compliance with the taxi clearance; AIM 4-3 gives the review procedure",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires read back and compliance with the taxi clearance; AIM 4-3 gives the review procedure"
+ },
+ "AA.II.D.S10": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Steering and maneuvering on the water is seaplane handbook material, which this Task does not cite"
+ },
+ "AA.II.D.S11": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Selecting the most favorable taxi or sailing course is seaplane handbook material, not cited by this Task"
+ },
+ "AA.II.D.S12": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "A day versus night demonstration requirement with no content in a cited section or chapter"
+ },
+ "AA.II.D.S13": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.209 sets the exterior lighting requirement for day and night operation",
+  "sections": [
+   "91.209"
+  ],
+  "why": "91.209 sets the exterior lighting requirement for day and night operation"
+ },
+ "AA.II.D.S14": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 4-3 states the hazards of low visibility surface operations"
+ },
+ "AA.II.D.S2": {
+  "anchors": [
+   "aim:ch09-s01"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 9-1 covers the chart products used during surface movement"
+ },
+ "AA.II.D.S3": {
+  "anchors": [
+   "aim:ch02-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.123 requires compliance with ATC clearances; AIM 2-3 covers taxiway and airport markings, signals and signs",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123 requires compliance with ATC clearances; AIM 2-3 covers taxiway and airport markings, signals and signs"
+ },
+ "AA.II.D.S4": {
+  "anchors": [],
+  "confidence": "low",
+  "section_why": "91.115 governs right-of-way among vessels and aircraft when leaving a dock, buoy, beach or ramp. Departure technique itself is seaplane handbook material, not cited here",
+  "sections": [
+   "91.115"
+  ],
+  "why": "91.115 governs right-of-way among vessels and aircraft when leaving a dock, buoy, beach or ramp. Departure technique itself is seaplane handbook material, not cited here"
+ },
+ "AA.II.D.S5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Crew coordination and checklist timing during taxi or sailing is operator specific"
+ },
+ "AA.II.D.S6": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 covers maintaining situational awareness against threats and errors"
+ },
+ "AA.II.D.S7": {
+  "anchors": [],
+  "confidence": "high",
+  "section_why": "91.115 is the right-of-way rule for water operations and defines the violation this skill avoids",
+  "sections": [
+   "91.115"
+  ],
+  "why": "91.115 is the right-of-way rule for water operations and defines the violation this skill avoids"
+ },
+ "AA.II.D.S8": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Control, water rudder and power positioning and porpoising correction are seaplane handbook material, which this Task does not cite"
+ },
+ "AA.II.D.S9": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Idle, plow and step taxi technique is seaplane handbook material, which this Task does not cite"
+ },
+ "AA.II.E.K1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers the before takeoff check and the purpose of its items. Task cites no CFR part"
+ },
+ "AA.II.E.K1a": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 explains why each before takeoff item is checked"
+ },
+ "AA.II.E.K1b": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 covers recognising a malfunction during the before takeoff check"
+ },
+ "AA.II.E.K1c": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 is the source for confirming the airplane is in safe operating condition before takeoff"
+ },
+ "AA.II.E.K2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 covers the pre-takeoff contamination check. Holdover tables themselves are not in any cited handbook"
+ },
+ "AA.II.E.K3": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch6 Takeoffs and Departure Climbs covers crosswind, contaminated surface and reduced visibility takeoff considerations"
+ },
+ "AA.II.E.K4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 covers the departure briefing content as part of the before takeoff check"
+ },
+ "AA.II.E.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers division of attention during procedures"
+ },
+ "AA.II.E.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 covers managing an unexpected change as a threat"
+ },
+ "AA.II.E.R3": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch11 Aircraft Performance is the source for deriving takeoff speeds from performance data"
+ },
+ "AA.II.E.R4": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch7 Automation and Flight Path Management covers setting and verifying navigation and communication equipment"
+ },
+ "AA.II.E.R5": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch7 is the direct source on configuring and monitoring autopilot and flight director"
+ },
+ "AA.II.E.R6": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch6 covers adverse surface and wind conditions affecting the takeoff decision"
+ },
+ "AA.II.E.R7": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 Emergency Procedures covers powerplant failure during takeoff; ch13 covers the multiengine takeoff failure decision and its operational factors"
+ },
+ "AA.II.E.S1": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch11 Aircraft Performance is the source for computing takeoff performance for actual conditions"
+ },
+ "AA.II.E.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers before takeoff checklist discipline and timing"
+ },
+ "AA.II.E.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 covers verifying systems are within operating range during the before takeoff check"
+ },
+ "AA.II.E.S4": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch7 covers configuring flight director, autopilot and navigation equipment. The V-speeds themselves come from the AFM"
+ },
+ "AA.II.E.S5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 Emergency Procedures supplies the emergency and abnormal takeoff cases the briefing must cover"
+ },
+ "AA.II.E.S6": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Interpreting a takeoff and departure clearance is AIM material, and this Task does not cite the AIM"
+ },
+ "AA.IV.A.K1": {
+  "anchors": [
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch4 is Energy Management: Mastering Altitude and Airspeed Control. Task cites no CFR part"
+ },
+ "AA.IV.A.K2": {
+  "anchors": [
+   "afh:ch10",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch10 Performance Maneuvers contains the steep turn; PHAK ch5 Aerodynamics of Flight gives the underlying theory"
+ },
+ "AA.IV.A.K2a": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch3 Basic Flight Maneuvers covers coordinated turns and the use of rudder"
+ },
+ "AA.IV.A.K2b": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch10 covers the overbanking tendency encountered in steep turns"
+ },
+ "AA.IV.A.K2c": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 covers maneuvering speed and its variation with weight"
+ },
+ "AA.IV.A.K2d": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 covers load factor and the accelerated stall speed relationship; AFH ch5 covers accelerated stall recognition and recovery"
+ },
+ "AA.IV.A.K2e": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 covers rate and radius of turn as functions of bank and airspeed"
+ },
+ "AA.IV.A.R1": {
+  "anchors": [
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch17 Aeromedical Factors covers spatial disorientation and vestibular illusions in instrument conditions"
+ },
+ "AA.IV.A.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision avoidance and terrain clearance are AIM and regulation material; this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.IV.A.R3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery covers low altitude loss of control, stall and spin risk"
+ },
+ "AA.IV.A.R4": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.IV.A.R5": {
+  "anchors": [
+   "afh:ch03"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch3 covers coordination and the consequences of slipping or skidding turns"
+ },
+ "AA.IV.A.S1": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "The 3,000 foot AGL entry floor is an ACS standard, not content in a cited chapter"
+ },
+ "AA.IV.A.S2": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch10 gives the steep turn entry airspeed guidance relative to maneuvering speed"
+ },
+ "AA.IV.A.S3": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch10 Performance Maneuvers describes the steep turn technique and bank management"
+ },
+ "AA.IV.A.S4": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch10 covers reversing the steep turn and the rollout and reentry technique"
+ },
+ "AA.IV.A.S5": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch10 covers the pitch, bank and power coordination needed to hold altitude in a steep turn"
+ },
+ "AA.IV.A.S6": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch10 describes holding altitude, airspeed and bank and rolling out on a heading. The numeric tolerances are ACS standards"
+ },
+ "AA.IV.A.S7": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch5 covers recognising an impending stall or developing upset before it becomes one"
+ },
+ "AA.IV.B.K1": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch7 Airplane Basic Flight Maneuvers contains the unusual attitude recovery procedures, including partial panel. Task cites no CFR part"
+ },
+ "AA.IV.B.K2": {
+  "anchors": [
+   "phak:ch17",
+   "phak:ch08"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch17 Aeromedical Factors covers the physiological causes including spatial disorientation; PHAK ch8 Flight Instruments covers instrument and system failure as a cause"
+ },
+ "AA.IV.B.K3": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics of Flight covers the flight envelope, load factor limits and the Vg diagram"
+ },
+ "AA.IV.B.K4": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch5 covers how wing design and thrust line placement affect control response. Engine location effects on recovery are largely airplane specific"
+ },
+ "AA.IV.B.R1": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 covers task saturation, stress and distraction; PHAK ch17 covers spatial disorientation, together the LOC-I precursors listed"
+ },
+ "AA.IV.B.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived and carries no content to map"
+ },
+ "AA.IV.B.R3": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 covers the operating envelope and the load factor limits that constrain a recovery"
+ },
+ "AA.IV.B.R4": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch6 Airplane Attitude Instrument Flying covers the cross-check and instrument interpretation"
+ },
+ "AA.IV.B.R5": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch7 covers recognising and assessing a nose-high or nose-low unusual attitude before acting"
+ },
+ "AA.IV.B.R6": {
+  "anchors": [
+   "ifh:ch07"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "IFH ch7 covers control input errors that aggravate rather than correct an unusual attitude"
+ },
+ "AA.IV.B.R7": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch6 is the source on control application by reference to instruments alone"
+ },
+ "AA.IV.B.R8": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision hazard mitigation is AIM material and this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.IV.B.R9": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.IV.B.S1": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch7 gives the nose-high and nose-low recovery sequence; ch6 gives the cross-check used to identify the attitude"
+ },
+ "AA.IV.C.K1": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "The specific flight characteristics are selected from the AFM for the airplane used on the test; no cited handbook chapter covers them generically"
+ },
+ "AA.IV.C.R1": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Airplane specific characteristics and their procedures come from the AFM, not from a cited handbook chapter"
+ },
+ "AA.IV.C.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.IV.C.S1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery covers entering, operating within and recovering from unusual flight situations"
+ }
 }

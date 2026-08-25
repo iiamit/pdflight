@@ -1,180 +1,1150 @@
 {
-  "IR.V.A.K1": {"sections": ["91.171", "91.181", "91.205"], "why": "VOR accuracy check required before IFR use, course to be flown along airway centerline or direct course, and required IFR navigation equipment", "confidence": "high"},
-  "IR.V.A.K2": {"sections": ["91.205", "91.181"], "why": "91.205(d)(2) requires navigation equipment suitable for the route flown, which is the regulatory hook for GNSS suitability, RAIM and WAAS. Database currency and interference are handled by AC 90-100/90-105 and the AFM supplement, not Part 91", "confidence": "low"},
-  "IR.V.A.R1": {"sections": [], "why": "Autoflight and FMS management is technique and ADM. Part 91 imposes no autopilot use requirement on a single-pilot Part 91 operation", "confidence": "high"},
-  "IR.V.A.R2": {"sections": [], "why": "Task saturation and disorientation are human factors covered in the IFH and PHAK, not regulation", "confidence": "high"},
-  "IR.V.A.R3": {"sections": ["91.205"], "why": "91.205(d)(2) requires navigation equipment suitable for the route, which is the only regulatory statement about navigation system capability. The specific limitations come from the AFM supplement", "confidence": "low"},
-  "IR.V.A.S1": {"sections": ["91.171"], "why": "VOR equipment check required within the preceding 30 days for IFR operation, including the check log entry", "confidence": "high"},
-  "IR.V.A.S10": {"sections": [], "why": "SRM and CRM are Aviation Instructor's Handbook and PHAK material, not regulated", "confidence": "high"},
-  "IR.V.A.S2": {"sections": [], "why": "Position determination is technique, described in the Instrument Flying Handbook", "confidence": "high"},
-  "IR.V.A.S3": {"sections": [], "why": "Setting and orienting to a course is technique, not regulated", "confidence": "high"},
-  "IR.V.A.S4": {"sections": ["91.181"], "why": "91.181 fixes the course that must be flown, which is what an intercept establishes. Intercept angle itself is technique", "confidence": "low"},
-  "IR.V.A.S5": {"sections": [], "why": "ACS performance tolerances, not regulatory limits", "confidence": "high"},
-  "IR.V.A.S6": {"sections": ["91.181"], "why": "Requirement to operate along the centerline of the airway or the direct course between navigational aids or fixes", "confidence": "high"},
-  "IR.V.A.S7": {"sections": ["91.187"], "why": "PIC under IFR in controlled airspace must report navigation, approach or communication equipment malfunctions to ATC as soon as practical", "confidence": "high"},
-  "IR.V.A.S8": {"sections": [], "why": "MFD interpretation is equipment technique, not regulated", "confidence": "high"},
-  "IR.V.A.S9": {"sections": [], "why": "Autopilot use is not regulated for Part 91 single-pilot operations", "confidence": "high"},
-
-  "IR.V.B.K1": {"sections": ["91.123", "91.177"], "why": "DPs and STARs are complied with as ATC clearances under 91.123. 91.177 sets the minimum IFR altitudes the procedure altitudes must respect. Climb gradient design criteria are in TERPS, which this corpus excludes", "confidence": "low"},
-  "IR.V.B.K2": {"sections": ["91.3", "91.123", "91.183"], "why": "PIC final authority, compliance with ATC clearances and instructions, and required IFR position and status reports", "confidence": "high"},
-  "IR.V.B.R1": {"sections": ["91.123", "91.183"], "why": "Compliance with clearances and instructions, and the IFR communication requirements", "confidence": "high"},
-  "IR.V.B.R2": {"sections": ["91.221"], "why": "91.221 is the only Part 91 rule on traffic alert and collision avoidance equipment and its use. TIS and ADS-B In traffic display limitations are AIM material", "confidence": "low"},
-  "IR.V.B.R3": {"sections": ["91.113"], "why": "91.113(b) vigilance to see and avoid other aircraft, which applies in VMC regardless of flight plan", "confidence": "high"},
-  "IR.V.B.S1": {"sections": ["91.205", "91.171"], "why": "Required communication and navigation equipment for IFR, plus the VOR check before IFR use", "confidence": "low"},
-  "IR.V.B.S10": {"sections": [], "why": "SRM and CRM are handbook material, not regulated", "confidence": "high"},
-  "IR.V.B.S2": {"sections": [], "why": "Checklist discipline is technique. Part 91 mandates checklist use only for large and turbine-powered aircraft under subpart F", "confidence": "high"},
-  "IR.V.B.S3": {"sections": ["91.103"], "why": "Preflight action requires the PIC to become familiar with all available information concerning the flight, which is the hook for current charts and publications", "confidence": "low"},
-  "IR.V.B.S4": {"sections": ["91.123", "91.183"], "why": "Timely compliance with ATC instructions and the required two-way IFR communications", "confidence": "high"},
-  "IR.V.B.S5": {"sections": ["91.181", "91.123"], "why": "Course to be flown, and compliance with the route in the clearance", "confidence": "high"},
-  "IR.V.B.S6": {"sections": ["91.123"], "why": "Charted procedures are complied with as issued clearances and instructions", "confidence": "high"},
-  "IR.V.B.S7": {"sections": [], "why": "ACS performance tolerances, not regulatory limits", "confidence": "high"},
-  "IR.V.B.S8": {"sections": [], "why": "In-flight weather interpretation is Aviation Weather Handbook material. 91.103 covers preflight weather only", "confidence": "high"},
-  "IR.V.B.S9": {"sections": [], "why": "Datalink weather display use and latency are AIM and AC 00-63 material, not Part 91", "confidence": "high"},
-
-  "IR.VI.A.K1": {"sections": ["91.175"], "why": "91.175(a) requires use of a prescribed standard instrument approach procedure, and (c) governs operation below MDA. LP versus LNAV guidance differences are AIM and chart material", "confidence": "high"},
-  "IR.VI.A.K2": {"sections": [], "why": "Annunciations and mode behavior are avionics specific, documented in the AFM supplement and AIM, not regulation", "confidence": "high"},
-  "IR.VI.A.K3": {"sections": ["91.205", "91.171"], "why": "Required IFR navigation equipment and the VOR accuracy check. System operating principles are handbook material", "confidence": "low"},
-  "IR.VI.A.K4": {"sections": [], "why": "Stabilized approach and energy management are Instrument Flying Handbook concepts, not regulated for Part 91", "confidence": "high"},
-  "IR.VI.A.R1": {"sections": ["91.123", "91.175"], "why": "Deviating from the cleared approach is a clearance deviation under 91.123 and a departure from the prescribed procedure required by 91.175(a)", "confidence": "high"},
-  "IR.VI.A.R2": {"sections": [], "why": "Selecting and confirming a frequency is technique. 91.171 covers only the periodic VOR accuracy check, not per-approach tuning", "confidence": "high"},
-  "IR.VI.A.R3": {"sections": [], "why": "Autoflight management is technique, not regulated", "confidence": "high"},
-  "IR.VI.A.R4": {"sections": [], "why": "Configuration is manufacturer AFM material", "confidence": "high"},
-  "IR.VI.A.R5": {"sections": [], "why": "Stability criteria and descent rate limits are handbook and SOP material, not Part 91", "confidence": "high"},
-  "IR.VI.A.R6": {"sections": ["91.175"], "why": "Deteriorating weather bears on the flight visibility and visual reference requirements in 91.175(c) that permit continuing below MDA", "confidence": "low"},
-  "IR.VI.A.R7": {"sections": ["91.175"], "why": "91.175(c) prohibits operating below MDA unless the required visual references are distinctly visible and the aircraft is continuously in a position for a normal landing", "confidence": "high"},
-  "IR.VI.A.S1": {"sections": ["91.175"], "why": "91.175(a) requires the approach be flown as the prescribed standard instrument approach procedure", "confidence": "high"},
-  "IR.VI.A.S10": {"sections": ["91.175", "91.213"], "why": "Landing minimums and the visibility requirement come from 91.175(c) and (d). Inoperative aircraft equipment is governed by 91.213(d). Inoperative ground component adjustments come from the chart inoperative components table", "confidence": "high"},
-  "IR.VI.A.S11": {"sections": ["91.175"], "why": "MDA is the regulatory floor the descent is flown to under 91.175(c). The stabilized profile itself is technique", "confidence": "low"},
-  "IR.VI.A.S12": {"sections": ["91.175"], "why": "The -0 feet side of the MDA tolerance is the 91.175(c) prohibition on descending below MDA. CDI and airspeed tolerances are ACS only", "confidence": "low"},
-  "IR.VI.A.S13": {"sections": ["91.175"], "why": "91.175(c) lists the visual references required to continue, and 91.175(e) requires the missed approach when they are not available", "confidence": "high"},
-  "IR.VI.A.S14": {"sections": [], "why": "MFD use is technique, not regulated", "confidence": "high"},
-  "IR.VI.A.S15": {"sections": [], "why": "SRM and CRM are handbook material", "confidence": "high"},
-  "IR.VI.A.S2": {"sections": ["91.183"], "why": "IFR communications requirements. Phraseology itself is AIM material", "confidence": "high"},
-  "IR.VI.A.S3": {"sections": ["91.171", "91.205"], "why": "VOR accuracy check before IFR use, and the requirement for navigation equipment suitable for the route and procedure", "confidence": "high"},
-  "IR.VI.A.S4": {"sections": ["91.123"], "why": "Compliance with ATC clearances and instructions", "confidence": "high"},
-  "IR.VI.A.S5": {"sections": ["91.187", "91.213"], "why": "Malfunction must be reported to ATC under 91.187, and continued operation with inoperative equipment is governed by 91.213", "confidence": "high"},
-  "IR.VI.A.S6": {"sections": ["91.123"], "why": "91.123(a) requires the pilot to inform ATC when unable to comply with a clearance or instruction", "confidence": "high"},
-  "IR.VI.A.S7": {"sections": [], "why": "Checklist use is technique for light aircraft under Part 91 subpart A and B", "confidence": "high"},
-  "IR.VI.A.S8": {"sections": [], "why": "Configuration and approach speed are AFM material", "confidence": "high"},
-  "IR.VI.A.S9": {"sections": ["91.181"], "why": "Accurate tracking of radials, courses and bearings is the 91.181 requirement. The numeric tolerances are ACS only", "confidence": "low"},
-
-  "IR.VI.B.K1": {"sections": ["91.175", "91.213"], "why": "Prescribed procedure and DA/DH rules in 91.175, and inoperative equipment handling in 91.213(d). Descent rate computation is handbook material", "confidence": "high"},
-  "IR.VI.B.K2": {"sections": [], "why": "Display, annunciation and mode behavior are avionics specific, not regulated", "confidence": "high"},
-  "IR.VI.B.K3": {"sections": ["91.171", "91.205"], "why": "VOR accuracy check and required IFR navigation equipment. Signal integrity and interference are AIM and AC material", "confidence": "low"},
-  "IR.VI.B.K4": {"sections": [], "why": "Stabilized approach and energy management are handbook concepts", "confidence": "high"},
-  "IR.VI.B.R1": {"sections": ["91.123", "91.175"], "why": "Clearance deviation under 91.123 and departure from the prescribed procedure required by 91.175(a)", "confidence": "high"},
-  "IR.VI.B.R2": {"sections": [], "why": "Frequency selection is technique", "confidence": "high"},
-  "IR.VI.B.R3": {"sections": [], "why": "Autoflight management is technique", "confidence": "high"},
-  "IR.VI.B.R4": {"sections": [], "why": "Configuration is AFM material", "confidence": "high"},
-  "IR.VI.B.R5": {"sections": [], "why": "Stability criteria are handbook and SOP material", "confidence": "high"},
-  "IR.VI.B.R6": {"sections": ["91.175"], "why": "Deteriorating weather bears on the flight visibility requirement in 91.175(c) for continuing below DA/DH", "confidence": "low"},
-  "IR.VI.B.R7": {"sections": ["91.175"], "why": "91.175(c) prohibits descent below DA/DH without the listed visual references and the required flight visibility", "confidence": "high"},
-  "IR.VI.B.S1": {"sections": ["91.175"], "why": "91.175(a) requires the approach be flown as the prescribed standard instrument approach procedure", "confidence": "high"},
-  "IR.VI.B.S10": {"sections": ["91.175", "91.213"], "why": "DA/DH and visibility requirements under 91.175(c) and (d), and inoperative aircraft equipment under 91.213(d)", "confidence": "high"},
-  "IR.VI.B.S11": {"sections": [], "why": "Establishing a descent rate matching the glidepath is technique", "confidence": "high"},
-  "IR.VI.B.S12": {"sections": ["91.175"], "why": "DA/DH is the regulatory decision point under 91.175(c). Deflection and airspeed tolerances are ACS only", "confidence": "low"},
-  "IR.VI.B.S13": {"sections": ["91.175"], "why": "91.175(e) requires an immediate missed approach when the required visual references are not distinctly visible at DA/DH", "confidence": "high"},
-  "IR.VI.B.S14": {"sections": ["91.175"], "why": "91.175(c)(1) permits continuing only when the aircraft is continuously in a position from which a descent to landing on the intended runway can be made at a normal rate of descent using normal maneuvers", "confidence": "high"},
-  "IR.VI.B.S15": {"sections": ["91.175"], "why": "91.175(c)(1) ties the visual segment to a normal descent to the touchdown zone. The stabilized path itself is technique", "confidence": "low"},
-  "IR.VI.B.S16": {"sections": [], "why": "MFD use is technique", "confidence": "high"},
-  "IR.VI.B.S17": {"sections": [], "why": "SRM and CRM are handbook material", "confidence": "high"},
-  "IR.VI.B.S2": {"sections": ["91.183"], "why": "IFR communications requirements", "confidence": "high"},
-  "IR.VI.B.S3": {"sections": ["91.171", "91.205"], "why": "VOR accuracy check before IFR use and required IFR navigation equipment", "confidence": "high"},
-  "IR.VI.B.S4": {"sections": ["91.123"], "why": "Compliance with ATC clearances and instructions", "confidence": "high"},
-  "IR.VI.B.S5": {"sections": ["91.187", "91.213"], "why": "Malfunction reporting to ATC and inoperative instrument and equipment rules", "confidence": "high"},
-  "IR.VI.B.S6": {"sections": ["91.123"], "why": "91.123(a) requires notifying ATC when unable to comply", "confidence": "high"},
-  "IR.VI.B.S7": {"sections": [], "why": "Checklist use is technique for light aircraft under Part 91", "confidence": "high"},
-  "IR.VI.B.S8": {"sections": [], "why": "Configuration and airspeed are AFM material", "confidence": "high"},
-  "IR.VI.B.S9": {"sections": ["91.181"], "why": "Accurate tracking of radials, courses and bearings is the 91.181 requirement. Numeric tolerances are ACS only", "confidence": "low"},
-
-  "IR.VI.C.K1": {"sections": ["91.175"], "why": "91.175(e) prescribes when a missed approach is required and that the published procedure be followed. FMS and autopilot behavior is avionics material", "confidence": "high"},
-  "IR.VI.C.R1": {"sections": ["91.123", "91.175"], "why": "Deviating from the published missed approach or ATC instruction violates 91.123 and 91.175(a) and (e)", "confidence": "high"},
-  "IR.VI.C.R2": {"sections": ["91.167"], "why": "The decision to hold, divert or reattempt is constrained by the IFR fuel reserve requirement in 91.167. The decision itself is ADM", "confidence": "low"},
-  "IR.VI.C.R3": {"sections": [], "why": "Configuration is AFM material", "confidence": "high"},
-  "IR.VI.C.R4": {"sections": ["91.175"], "why": "An early missed approach is permitted and a go-around below DA/MDA is required by 91.175(c) and (e) when references are lost. The triggering factors are ADM", "confidence": "low"},
-  "IR.VI.C.R5": {"sections": [], "why": "Autoflight management is technique", "confidence": "high"},
-  "IR.VI.C.S1": {"sections": ["91.175", "91.183"], "why": "91.175(e) requires prompt execution of the missed approach, and 91.183 requires reporting to ATC", "confidence": "high"},
-  "IR.VI.C.S10": {"sections": ["91.123", "91.183"], "why": "Any subsequent approach, alternate or holding fix must be requested and complied with as an ATC clearance under 91.123, using the IFR communication requirements of 91.183", "confidence": "low"},
-  "IR.VI.C.S2": {"sections": [], "why": "Power and pitch for the go-around are technique and AFM material", "confidence": "high"},
-  "IR.VI.C.S3": {"sections": [], "why": "Configuration per manufacturer instructions is AFM material", "confidence": "high"},
-  "IR.VI.C.S4": {"sections": [], "why": "Checklist use is technique for light aircraft under Part 91", "confidence": "high"},
-  "IR.VI.C.S5": {"sections": ["91.175", "91.123"], "why": "91.175(e) requires flying the published missed approach. An alternate missed approach is an ATC instruction under 91.123", "confidence": "high"},
-  "IR.VI.C.S6": {"sections": ["91.123"], "why": "91.123(a) requires notifying ATC when unable to comply with a clearance or instruction", "confidence": "high"},
-  "IR.VI.C.S7": {"sections": [], "why": "ACS performance tolerances, not regulatory limits", "confidence": "high"},
-  "IR.VI.C.S8": {"sections": [], "why": "MFD use is technique", "confidence": "high"},
-  "IR.VI.C.S9": {"sections": [], "why": "SRM and CRM are handbook material", "confidence": "high"},
-
-  "IR.VI.D.K1": {"sections": ["91.175"], "why": "91.175(a) requires the prescribed procedure and (c) and (e) govern circling minimums and the circling missed approach. Approach category speed ranges are defined in Part 97, which this corpus excludes", "confidence": "high"},
-  "IR.VI.D.R1": {"sections": ["91.175"], "why": "Circling is flown under the prescribed procedure and the 91.175(c) visual reference and MDA requirements", "confidence": "low"},
-  "IR.VI.D.R2": {"sections": ["91.175"], "why": "Night and marginal visibility circling still requires the 91.175(c) flight visibility and continuous visual reference. The added risk is handbook material", "confidence": "low"},
-  "IR.VI.D.R3": {"sections": ["91.175"], "why": "91.175(e)(2) requires a missed approach whenever an identifiable part of the airport is not distinctly visible while circling", "confidence": "high"},
-  "IR.VI.D.R4": {"sections": [], "why": "Autoflight management is technique", "confidence": "high"},
-  "IR.VI.D.R5": {"sections": [], "why": "Circling altitude, speed and radius management is technique and TERPS design, not Part 91", "confidence": "high"},
-  "IR.VI.D.R6": {"sections": [], "why": "Low altitude maneuvering, stall, spin and CFIT risk are handbook material. 91.119 minimum safe altitudes expressly does not apply when landing", "confidence": "high"},
-  "IR.VI.D.R7": {"sections": ["91.175"], "why": "91.175(e)(2) governs the missed approach initiated while circling, including the climbing turn toward the landing runway", "confidence": "high"},
-  "IR.VI.D.S1": {"sections": ["91.175"], "why": "The circling maneuver is flown within the prescribed procedure under 91.175(a) and the MDA and visibility rules in (c). Turbulence and windshear allowance is technique", "confidence": "low"},
-  "IR.VI.D.S2": {"sections": ["91.123", "91.126"], "why": "ATC restrictions are complied with under 91.123. Traffic pattern direction at a non-towered airport comes from 91.126(b), and 91.127 applies the same rule in Class E surface areas. Flagging the 91.126 addition since it was not in the original Part 91 pointer", "confidence": "low"},
-  "IR.VI.D.S3": {"sections": [], "why": "SRM and CRM are handbook material", "confidence": "high"},
-  "IR.VI.D.S4": {"sections": ["91.175"], "why": "MDA and the circling altitude floor come from 91.175(c). Configuration and stabilization are technique", "confidence": "low"},
-  "IR.VI.D.S5": {"sections": ["91.175"], "why": "The -0 feet floor is the 91.175(c) MDA prohibition. The other tolerances are ACS only", "confidence": "low"},
-  "IR.VI.D.S6": {"sections": [], "why": "Visual maneuvering to base or downwind is technique", "confidence": "high"},
-  "IR.VI.D.S7": {"sections": ["91.175"], "why": "91.175(e)(2) prescribes the initial climbing turn toward the landing runway and continuing to the missed approach course", "confidence": "high"},
-  "IR.VI.D.S8": {"sections": [], "why": "Touchdown point, maneuvering and bank limits are ACS tolerances and AFM limits, not Part 91", "confidence": "high"},
-
-  "IR.VI.E.K1": {"sections": ["91.3", "91.175"], "why": "PIC final authority for the landing decision, and the 91.175(c) conditions that must exist to continue to a landing. Environmental and meteorological factors themselves are handbook material", "confidence": "low"},
-  "IR.VI.E.K2": {"sections": ["91.175"], "why": "The approach light system and the other runway lighting and marking cues are enumerated in 91.175(c)(3) as the required visual references. Sign, marking and lighting design is AIM chapter 2 material", "confidence": "low"},
-  "IR.VI.E.K3": {"sections": [], "why": "Landing profiles and configurations are AFM and handbook material", "confidence": "high"},
-  "IR.VI.E.R1": {"sections": ["91.175"], "why": "91.175(c)(1) requires the aircraft be continuously in a position for a normal rate of descent using normal maneuvers, which is the regulatory expression of a stable approach", "confidence": "low"},
-  "IR.VI.E.R2": {"sections": [], "why": "Glidepath adherence for light aircraft is technique. The Part 91 glide slope rule in 91.129(e) applies only to large or turbine-powered airplanes at towered airports", "confidence": "high"},
-  "IR.VI.E.R3": {"sections": ["91.175"], "why": "91.175(c) defines the visual references and flight visibility required to transition from instrument to visual for landing", "confidence": "high"},
-  "IR.VI.E.R4": {"sections": [], "why": "Landing configuration is AFM material", "confidence": "high"},
-  "IR.VI.E.S1": {"sections": ["91.175"], "why": "91.175(c) governs the transition below DA/DH or MDA to visual conditions for a normal landing", "confidence": "high"},
-  "IR.VI.E.S2": {"sections": ["91.123", "91.103"], "why": "ATC advisories and instructions are complied with under 91.123, and NOTAM review is required by 91.103(a). Wake turbulence and windshear avoidance is AIM material", "confidence": "low"},
-  "IR.VI.E.S3": {"sections": [], "why": "Checklist use is technique for light aircraft under Part 91", "confidence": "high"},
-  "IR.VI.E.S4": {"sections": [], "why": "Landing control is technique", "confidence": "high"},
-  "IR.VI.E.S5": {"sections": [], "why": "SRM and CRM are handbook material", "confidence": "high"},
-
-  "IR.VII.A.K1": {"sections": ["91.185", "91.3"], "why": "91.185 prescribes the route, altitude and leave-clearance-limit rules for two-way radio communications failure, including when to begin the approach. 91.3(b) supports deviation in an emergency", "confidence": "high"},
-  "IR.VII.A.R1": {"sections": [], "why": "Causes of radio failure are equipment and technique. Part 91 addresses the response, not the cause", "confidence": "high"},
-  "IR.VII.A.R2": {"sections": ["91.185"], "why": "91.185 is the prescribed lost communications procedure that a deviation departs from", "confidence": "high"},
-  "IR.VII.A.S1": {"sections": [], "why": "Recognizing the failure is technique", "confidence": "high"},
-  "IR.VII.A.S2": {"sections": [], "why": "Re-establishing communications by alternate frequency, relay or transponder code is AIM material, not Part 91", "confidence": "high"},
-  "IR.VII.A.S3": {"sections": ["91.185"], "why": "91.185(b) and (c) fix the route and destination decision after communications failure", "confidence": "high"},
-  "IR.VII.A.S4": {"sections": ["91.185"], "why": "91.185(c)(3) fixes when to leave the clearance limit and begin descent and approach", "confidence": "high"},
-  "IR.VII.A.S5": {"sections": [], "why": "SRM and CRM are handbook material", "confidence": "high"},
-
-  "IR.VII.C.K1": {"sections": ["91.175"], "why": "The approach is still flown as the prescribed standard instrument approach procedure under 91.175. Single-engine approach technique and performance are AFM and Airplane Flying Handbook material", "confidence": "low"},
-  "IR.VII.C.R1": {"sections": [], "why": "Engine failure risk during approach is handbook and AFM material", "confidence": "high"},
-  "IR.VII.C.R2": {"sections": [], "why": "Element is marked [Archived] in the ACS and has no content to map", "confidence": "high"},
-  "IR.VII.C.R3": {"sections": [], "why": "Configuration is AFM material", "confidence": "high"},
-  "IR.VII.C.R4": {"sections": [], "why": "Low altitude maneuvering, stall, spin and CFIT risk are handbook material", "confidence": "high"},
-  "IR.VII.C.R5": {"sections": [], "why": "Task saturation and disorientation are human factors, not regulation", "confidence": "high"},
-  "IR.VII.C.R6": {"sections": [], "why": "Single-engine go-around risk is AFM and handbook material", "confidence": "high"},
-  "IR.VII.C.S1": {"sections": [], "why": "Recognizing the failure and maintaining control is technique", "confidence": "high"},
-  "IR.VII.C.S10": {"sections": ["91.9"], "why": "91.9(a) prohibits operating outside the operating limitations in the approved flight manual, markings and placards", "confidence": "high"},
-  "IR.VII.C.S11": {"sections": ["91.175"], "why": "Circling minimums and the visual reference requirements are in 91.175(c) and (e). The approach category speed ranges themselves are in Part 97, which this corpus excludes", "confidence": "high"},
-  "IR.VII.C.S12": {"sections": [], "why": "Executing the landing is technique", "confidence": "high"},
-  "IR.VII.C.S13": {"sections": [], "why": "Checklist use is technique for light aircraft under Part 91", "confidence": "high"},
-  "IR.VII.C.S14": {"sections": [], "why": "SRM and CRM are handbook material", "confidence": "high"},
-  "IR.VII.C.S2": {"sections": [], "why": "Engine shutdown and simulated feathering are AFM procedures. 91.109 covers dual controls, safety pilots and ATP flight tests but contains no simulated engine failure provision, so nothing in the list fits", "confidence": "high"},
-  "IR.VII.C.S3": {"sections": [], "why": "Control and trim technique per manufacturer recommendation, AFM material", "confidence": "high"},
-  "IR.VII.C.S4": {"sections": [], "why": "Manufacturer emergency procedures are AFM material", "confidence": "high"},
-  "IR.VII.C.S5": {"sections": [], "why": "Systems monitoring is technique", "confidence": "high"},
-  "IR.VII.C.S6": {"sections": ["91.123", "91.183"], "why": "The approach clearance must be requested and complied with under 91.123 using the IFR communications of 91.183", "confidence": "low"},
-  "IR.VII.C.S7": {"sections": [], "why": "ACS performance tolerances, not regulatory limits", "confidence": "high"},
-  "IR.VII.C.S8": {"sections": ["91.175"], "why": "91.175(c)(1) requires arrival at MDA or DA/DH in a position from which a normal descent to landing can be made", "confidence": "high"},
-  "IR.VII.C.S9": {"sections": [], "why": "Deflection tolerance on final is an ACS standard, not a regulatory limit", "confidence": "high"},
-
-  "IR.VII.D.K1": {"sections": ["91.187", "91.213"], "why": "91.187 requires reporting instrument and navigation malfunctions to ATC under IFR in controlled airspace, and 91.213 governs operating with inoperative equipment", "confidence": "high"},
-  "IR.VII.D.K2": {"sections": ["91.205"], "why": "91.205(d) enumerates the instruments required for IFR, which defines what a primary instrument loss means. Failure modes themselves are handbook material", "confidence": "low"},
-  "IR.VII.D.R1": {"sections": [], "why": "Secondary and standby display use is avionics and technique material", "confidence": "high"},
-  "IR.VII.D.R2": {"sections": [], "why": "Partial panel aircraft control is technique from the Instrument Flying Handbook", "confidence": "high"},
-  "IR.VII.D.R3": {"sections": [], "why": "Task saturation and disorientation are human factors, not regulation", "confidence": "high"},
-  "IR.VII.D.S1": {"sections": ["91.123", "91.187"], "why": "91.123(a) requires notifying ATC when unable to comply, and 91.187 requires reporting the malfunction that caused it", "confidence": "high"},
-  "IR.VII.D.S2": {"sections": ["91.175"], "why": "The partial panel approach is still flown as the prescribed standard instrument approach procedure under 91.175. The partial panel technique is handbook material", "confidence": "low"},
-  "IR.VII.D.S3": {"sections": [], "why": "SRM and CRM are handbook material", "confidence": "high"},
-
-  "IR.VIII.A.K1": {"sections": ["91.7", "91.213", "91.405", "91.417"], "why": "91.7(b) requires the PIC to discontinue flight when unairworthy, 91.405(a) requires discrepancies be corrected between flights or recorded, 91.405(c) requires inoperative items be placarded, 91.213(d) governs flight with them inoperative, and 91.417 sets the maintenance record requirements", "confidence": "high"},
-  "IR.VIII.A.R1": {"sections": ["91.7", "91.405"], "why": "PIC responsibility for determining airworthiness, and the owner or operator duty to have discrepancies repaired or recorded", "confidence": "high"},
-  "IR.VIII.A.S1": {"sections": ["91.405", "91.417", "91.213"], "why": "Recording and correcting discrepancies under 91.405, the maintenance record requirements of 91.417, and the placarding and deferral rules of 91.213(d)", "confidence": "high"}
+ "IR.V.A.K1": {
+  "confidence": "high",
+  "section_why": "VOR accuracy check required before IFR use, course to be flown along airway centerline or direct course, and required IFR navigation equipment",
+  "sections": [
+   "91.171",
+   "91.181",
+   "91.205"
+  ],
+  "why": "VOR accuracy check required before IFR use, course to be flown along airway centerline or direct course, and required IFR navigation equipment"
+ },
+ "IR.V.A.K2": {
+  "confidence": "low",
+  "section_why": "91.205(d)(2) requires navigation equipment suitable for the route flown, which is the regulatory hook for GNSS suitability, RAIM and WAAS. Database currency and interference are handled by AC 90-100/90-105 and the AFM supplement, not Part 91",
+  "sections": [
+   "91.205",
+   "91.181"
+  ],
+  "why": "91.205(d)(2) requires navigation equipment suitable for the route flown, which is the regulatory hook for GNSS suitability, RAIM and WAAS. Database currency and interference are handled by AC 90-100/90-105 and the AFM supplement, not Part 91"
+ },
+ "IR.V.A.R1": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Autoflight and FMS management is technique and ADM. Part 91 imposes no autopilot use requirement on a single-pilot Part 91 operation"
+ },
+ "IR.V.A.R2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Task saturation and disorientation are human factors covered in the IFH and PHAK, not regulation"
+ },
+ "IR.V.A.R3": {
+  "confidence": "low",
+  "section_why": "91.205(d)(2) requires navigation equipment suitable for the route, which is the only regulatory statement about navigation system capability. The specific limitations come from the AFM supplement",
+  "sections": [
+   "91.205"
+  ],
+  "why": "91.205(d)(2) requires navigation equipment suitable for the route, which is the only regulatory statement about navigation system capability. The specific limitations come from the AFM supplement"
+ },
+ "IR.V.A.S1": {
+  "confidence": "high",
+  "section_why": "VOR equipment check required within the preceding 30 days for IFR operation, including the check log entry",
+  "sections": [
+   "91.171"
+  ],
+  "why": "VOR equipment check required within the preceding 30 days for IFR operation, including the check log entry"
+ },
+ "IR.V.A.S10": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are Aviation Instructor's Handbook and PHAK material, not regulated"
+ },
+ "IR.V.A.S2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Position determination is technique, described in the Instrument Flying Handbook"
+ },
+ "IR.V.A.S3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Setting and orienting to a course is technique, not regulated"
+ },
+ "IR.V.A.S4": {
+  "confidence": "low",
+  "section_why": "91.181 fixes the course that must be flown, which is what an intercept establishes. Intercept angle itself is technique",
+  "sections": [
+   "91.181"
+  ],
+  "why": "91.181 fixes the course that must be flown, which is what an intercept establishes. Intercept angle itself is technique"
+ },
+ "IR.V.A.S5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "ACS performance tolerances, not regulatory limits"
+ },
+ "IR.V.A.S6": {
+  "confidence": "high",
+  "section_why": "Requirement to operate along the centerline of the airway or the direct course between navigational aids or fixes",
+  "sections": [
+   "91.181"
+  ],
+  "why": "Requirement to operate along the centerline of the airway or the direct course between navigational aids or fixes"
+ },
+ "IR.V.A.S7": {
+  "confidence": "high",
+  "section_why": "PIC under IFR in controlled airspace must report navigation, approach or communication equipment malfunctions to ATC as soon as practical",
+  "sections": [
+   "91.187"
+  ],
+  "why": "PIC under IFR in controlled airspace must report navigation, approach or communication equipment malfunctions to ATC as soon as practical"
+ },
+ "IR.V.A.S8": {
+  "confidence": "high",
+  "sections": [],
+  "why": "MFD interpretation is equipment technique, not regulated"
+ },
+ "IR.V.A.S9": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Autopilot use is not regulated for Part 91 single-pilot operations"
+ },
+ "IR.V.B.K1": {
+  "confidence": "low",
+  "section_why": "DPs and STARs are complied with as ATC clearances under 91.123. 91.177 sets the minimum IFR altitudes the procedure altitudes must respect. Climb gradient design criteria are in TERPS, which this corpus excludes",
+  "sections": [
+   "91.123",
+   "91.177"
+  ],
+  "why": "DPs and STARs are complied with as ATC clearances under 91.123. 91.177 sets the minimum IFR altitudes the procedure altitudes must respect. Climb gradient design criteria are in TERPS, which this corpus excludes"
+ },
+ "IR.V.B.K2": {
+  "confidence": "high",
+  "section_why": "PIC final authority, compliance with ATC clearances and instructions, and required IFR position and status reports",
+  "sections": [
+   "91.3",
+   "91.123",
+   "91.183"
+  ],
+  "why": "PIC final authority, compliance with ATC clearances and instructions, and required IFR position and status reports"
+ },
+ "IR.V.B.R1": {
+  "confidence": "high",
+  "section_why": "Compliance with clearances and instructions, and the IFR communication requirements",
+  "sections": [
+   "91.123",
+   "91.183"
+  ],
+  "why": "Compliance with clearances and instructions, and the IFR communication requirements"
+ },
+ "IR.V.B.R2": {
+  "confidence": "low",
+  "section_why": "91.221 is the only Part 91 rule on traffic alert and collision avoidance equipment and its use. TIS and ADS-B In traffic display limitations are AIM material",
+  "sections": [
+   "91.221"
+  ],
+  "why": "91.221 is the only Part 91 rule on traffic alert and collision avoidance equipment and its use. TIS and ADS-B In traffic display limitations are AIM material"
+ },
+ "IR.V.B.R3": {
+  "confidence": "high",
+  "section_why": "91.113(b) vigilance to see and avoid other aircraft, which applies in VMC regardless of flight plan",
+  "sections": [
+   "91.113"
+  ],
+  "why": "91.113(b) vigilance to see and avoid other aircraft, which applies in VMC regardless of flight plan"
+ },
+ "IR.V.B.S1": {
+  "confidence": "low",
+  "section_why": "Required communication and navigation equipment for IFR, plus the VOR check before IFR use",
+  "sections": [
+   "91.205",
+   "91.171"
+  ],
+  "why": "Required communication and navigation equipment for IFR, plus the VOR check before IFR use"
+ },
+ "IR.V.B.S10": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are handbook material, not regulated"
+ },
+ "IR.V.B.S2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Checklist discipline is technique. Part 91 mandates checklist use only for large and turbine-powered aircraft under subpart F"
+ },
+ "IR.V.B.S3": {
+  "confidence": "low",
+  "section_why": "Preflight action requires the PIC to become familiar with all available information concerning the flight, which is the hook for current charts and publications",
+  "sections": [
+   "91.103"
+  ],
+  "why": "Preflight action requires the PIC to become familiar with all available information concerning the flight, which is the hook for current charts and publications"
+ },
+ "IR.V.B.S4": {
+  "confidence": "high",
+  "section_why": "Timely compliance with ATC instructions and the required two-way IFR communications",
+  "sections": [
+   "91.123",
+   "91.183"
+  ],
+  "why": "Timely compliance with ATC instructions and the required two-way IFR communications"
+ },
+ "IR.V.B.S5": {
+  "confidence": "high",
+  "section_why": "Course to be flown, and compliance with the route in the clearance",
+  "sections": [
+   "91.181",
+   "91.123"
+  ],
+  "why": "Course to be flown, and compliance with the route in the clearance"
+ },
+ "IR.V.B.S6": {
+  "confidence": "high",
+  "section_why": "Charted procedures are complied with as issued clearances and instructions",
+  "sections": [
+   "91.123"
+  ],
+  "why": "Charted procedures are complied with as issued clearances and instructions"
+ },
+ "IR.V.B.S7": {
+  "confidence": "high",
+  "sections": [],
+  "why": "ACS performance tolerances, not regulatory limits"
+ },
+ "IR.V.B.S8": {
+  "confidence": "high",
+  "sections": [],
+  "why": "In-flight weather interpretation is Aviation Weather Handbook material. 91.103 covers preflight weather only"
+ },
+ "IR.V.B.S9": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Datalink weather display use and latency are AIM and AC 00-63 material, not Part 91"
+ },
+ "IR.VI.A.K1": {
+  "confidence": "high",
+  "section_why": "91.175(a) requires use of a prescribed standard instrument approach procedure, and (c) governs operation below MDA. LP versus LNAV guidance differences are AIM and chart material",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(a) requires use of a prescribed standard instrument approach procedure, and (c) governs operation below MDA. LP versus LNAV guidance differences are AIM and chart material"
+ },
+ "IR.VI.A.K2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Annunciations and mode behavior are avionics specific, documented in the AFM supplement and AIM, not regulation"
+ },
+ "IR.VI.A.K3": {
+  "confidence": "low",
+  "section_why": "Required IFR navigation equipment and the VOR accuracy check. System operating principles are handbook material",
+  "sections": [
+   "91.205",
+   "91.171"
+  ],
+  "why": "Required IFR navigation equipment and the VOR accuracy check. System operating principles are handbook material"
+ },
+ "IR.VI.A.K4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Stabilized approach and energy management are Instrument Flying Handbook concepts, not regulated for Part 91"
+ },
+ "IR.VI.A.R1": {
+  "confidence": "high",
+  "section_why": "Deviating from the cleared approach is a clearance deviation under 91.123 and a departure from the prescribed procedure required by 91.175(a)",
+  "sections": [
+   "91.123",
+   "91.175"
+  ],
+  "why": "Deviating from the cleared approach is a clearance deviation under 91.123 and a departure from the prescribed procedure required by 91.175(a)"
+ },
+ "IR.VI.A.R2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Selecting and confirming a frequency is technique. 91.171 covers only the periodic VOR accuracy check, not per-approach tuning"
+ },
+ "IR.VI.A.R3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Autoflight management is technique, not regulated"
+ },
+ "IR.VI.A.R4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Configuration is manufacturer AFM material"
+ },
+ "IR.VI.A.R5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Stability criteria and descent rate limits are handbook and SOP material, not Part 91"
+ },
+ "IR.VI.A.R6": {
+  "confidence": "low",
+  "section_why": "Deteriorating weather bears on the flight visibility and visual reference requirements in 91.175(c) that permit continuing below MDA",
+  "sections": [
+   "91.175"
+  ],
+  "why": "Deteriorating weather bears on the flight visibility and visual reference requirements in 91.175(c) that permit continuing below MDA"
+ },
+ "IR.VI.A.R7": {
+  "confidence": "high",
+  "section_why": "91.175(c) prohibits operating below MDA unless the required visual references are distinctly visible and the aircraft is continuously in a position for a normal landing",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) prohibits operating below MDA unless the required visual references are distinctly visible and the aircraft is continuously in a position for a normal landing"
+ },
+ "IR.VI.A.S1": {
+  "confidence": "high",
+  "section_why": "91.175(a) requires the approach be flown as the prescribed standard instrument approach procedure",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(a) requires the approach be flown as the prescribed standard instrument approach procedure"
+ },
+ "IR.VI.A.S10": {
+  "confidence": "high",
+  "section_why": "Landing minimums and the visibility requirement come from 91.175(c) and (d). Inoperative aircraft equipment is governed by 91.213(d). Inoperative ground component adjustments come from the chart inoperative components table",
+  "sections": [
+   "91.175",
+   "91.213"
+  ],
+  "why": "Landing minimums and the visibility requirement come from 91.175(c) and (d). Inoperative aircraft equipment is governed by 91.213(d). Inoperative ground component adjustments come from the chart inoperative components table"
+ },
+ "IR.VI.A.S11": {
+  "confidence": "low",
+  "section_why": "MDA is the regulatory floor the descent is flown to under 91.175(c). The stabilized profile itself is technique",
+  "sections": [
+   "91.175"
+  ],
+  "why": "MDA is the regulatory floor the descent is flown to under 91.175(c). The stabilized profile itself is technique"
+ },
+ "IR.VI.A.S12": {
+  "confidence": "low",
+  "section_why": "The -0 feet side of the MDA tolerance is the 91.175(c) prohibition on descending below MDA. CDI and airspeed tolerances are ACS only",
+  "sections": [
+   "91.175"
+  ],
+  "why": "The -0 feet side of the MDA tolerance is the 91.175(c) prohibition on descending below MDA. CDI and airspeed tolerances are ACS only"
+ },
+ "IR.VI.A.S13": {
+  "confidence": "high",
+  "section_why": "91.175(c) lists the visual references required to continue, and 91.175(e) requires the missed approach when they are not available",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) lists the visual references required to continue, and 91.175(e) requires the missed approach when they are not available"
+ },
+ "IR.VI.A.S14": {
+  "confidence": "high",
+  "sections": [],
+  "why": "MFD use is technique, not regulated"
+ },
+ "IR.VI.A.S15": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are handbook material"
+ },
+ "IR.VI.A.S2": {
+  "confidence": "high",
+  "section_why": "IFR communications requirements. Phraseology itself is AIM material",
+  "sections": [
+   "91.183"
+  ],
+  "why": "IFR communications requirements. Phraseology itself is AIM material"
+ },
+ "IR.VI.A.S3": {
+  "confidence": "high",
+  "section_why": "VOR accuracy check before IFR use, and the requirement for navigation equipment suitable for the route and procedure",
+  "sections": [
+   "91.171",
+   "91.205"
+  ],
+  "why": "VOR accuracy check before IFR use, and the requirement for navigation equipment suitable for the route and procedure"
+ },
+ "IR.VI.A.S4": {
+  "confidence": "high",
+  "section_why": "Compliance with ATC clearances and instructions",
+  "sections": [
+   "91.123"
+  ],
+  "why": "Compliance with ATC clearances and instructions"
+ },
+ "IR.VI.A.S5": {
+  "confidence": "high",
+  "section_why": "Malfunction must be reported to ATC under 91.187, and continued operation with inoperative equipment is governed by 91.213",
+  "sections": [
+   "91.187",
+   "91.213"
+  ],
+  "why": "Malfunction must be reported to ATC under 91.187, and continued operation with inoperative equipment is governed by 91.213"
+ },
+ "IR.VI.A.S6": {
+  "confidence": "high",
+  "section_why": "91.123(a) requires the pilot to inform ATC when unable to comply with a clearance or instruction",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123(a) requires the pilot to inform ATC when unable to comply with a clearance or instruction"
+ },
+ "IR.VI.A.S7": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Checklist use is technique for light aircraft under Part 91 subpart A and B"
+ },
+ "IR.VI.A.S8": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Configuration and approach speed are AFM material"
+ },
+ "IR.VI.A.S9": {
+  "confidence": "low",
+  "section_why": "Accurate tracking of radials, courses and bearings is the 91.181 requirement. The numeric tolerances are ACS only",
+  "sections": [
+   "91.181"
+  ],
+  "why": "Accurate tracking of radials, courses and bearings is the 91.181 requirement. The numeric tolerances are ACS only"
+ },
+ "IR.VI.B.K1": {
+  "confidence": "high",
+  "section_why": "Prescribed procedure and DA/DH rules in 91.175, and inoperative equipment handling in 91.213(d). Descent rate computation is handbook material",
+  "sections": [
+   "91.175",
+   "91.213"
+  ],
+  "why": "Prescribed procedure and DA/DH rules in 91.175, and inoperative equipment handling in 91.213(d). Descent rate computation is handbook material"
+ },
+ "IR.VI.B.K2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Display, annunciation and mode behavior are avionics specific, not regulated"
+ },
+ "IR.VI.B.K3": {
+  "confidence": "low",
+  "section_why": "VOR accuracy check and required IFR navigation equipment. Signal integrity and interference are AIM and AC material",
+  "sections": [
+   "91.171",
+   "91.205"
+  ],
+  "why": "VOR accuracy check and required IFR navigation equipment. Signal integrity and interference are AIM and AC material"
+ },
+ "IR.VI.B.K4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Stabilized approach and energy management are handbook concepts"
+ },
+ "IR.VI.B.R1": {
+  "confidence": "high",
+  "section_why": "Clearance deviation under 91.123 and departure from the prescribed procedure required by 91.175(a)",
+  "sections": [
+   "91.123",
+   "91.175"
+  ],
+  "why": "Clearance deviation under 91.123 and departure from the prescribed procedure required by 91.175(a)"
+ },
+ "IR.VI.B.R2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Frequency selection is technique"
+ },
+ "IR.VI.B.R3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Autoflight management is technique"
+ },
+ "IR.VI.B.R4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Configuration is AFM material"
+ },
+ "IR.VI.B.R5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Stability criteria are handbook and SOP material"
+ },
+ "IR.VI.B.R6": {
+  "confidence": "low",
+  "section_why": "Deteriorating weather bears on the flight visibility requirement in 91.175(c) for continuing below DA/DH",
+  "sections": [
+   "91.175"
+  ],
+  "why": "Deteriorating weather bears on the flight visibility requirement in 91.175(c) for continuing below DA/DH"
+ },
+ "IR.VI.B.R7": {
+  "confidence": "high",
+  "section_why": "91.175(c) prohibits descent below DA/DH without the listed visual references and the required flight visibility",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) prohibits descent below DA/DH without the listed visual references and the required flight visibility"
+ },
+ "IR.VI.B.S1": {
+  "confidence": "high",
+  "section_why": "91.175(a) requires the approach be flown as the prescribed standard instrument approach procedure",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(a) requires the approach be flown as the prescribed standard instrument approach procedure"
+ },
+ "IR.VI.B.S10": {
+  "confidence": "high",
+  "section_why": "DA/DH and visibility requirements under 91.175(c) and (d), and inoperative aircraft equipment under 91.213(d)",
+  "sections": [
+   "91.175",
+   "91.213"
+  ],
+  "why": "DA/DH and visibility requirements under 91.175(c) and (d), and inoperative aircraft equipment under 91.213(d)"
+ },
+ "IR.VI.B.S11": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Establishing a descent rate matching the glidepath is technique"
+ },
+ "IR.VI.B.S12": {
+  "confidence": "low",
+  "section_why": "DA/DH is the regulatory decision point under 91.175(c). Deflection and airspeed tolerances are ACS only",
+  "sections": [
+   "91.175"
+  ],
+  "why": "DA/DH is the regulatory decision point under 91.175(c). Deflection and airspeed tolerances are ACS only"
+ },
+ "IR.VI.B.S13": {
+  "confidence": "high",
+  "section_why": "91.175(e) requires an immediate missed approach when the required visual references are not distinctly visible at DA/DH",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) requires an immediate missed approach when the required visual references are not distinctly visible at DA/DH"
+ },
+ "IR.VI.B.S14": {
+  "confidence": "high",
+  "section_why": "91.175(c)(1) permits continuing only when the aircraft is continuously in a position from which a descent to landing on the intended runway can be made at a normal rate of descent using normal maneuvers",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c)(1) permits continuing only when the aircraft is continuously in a position from which a descent to landing on the intended runway can be made at a normal rate of descent using normal maneuvers"
+ },
+ "IR.VI.B.S15": {
+  "confidence": "low",
+  "section_why": "91.175(c)(1) ties the visual segment to a normal descent to the touchdown zone. The stabilized path itself is technique",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c)(1) ties the visual segment to a normal descent to the touchdown zone. The stabilized path itself is technique"
+ },
+ "IR.VI.B.S16": {
+  "confidence": "high",
+  "sections": [],
+  "why": "MFD use is technique"
+ },
+ "IR.VI.B.S17": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are handbook material"
+ },
+ "IR.VI.B.S2": {
+  "confidence": "high",
+  "section_why": "IFR communications requirements",
+  "sections": [
+   "91.183"
+  ],
+  "why": "IFR communications requirements"
+ },
+ "IR.VI.B.S3": {
+  "confidence": "high",
+  "section_why": "VOR accuracy check before IFR use and required IFR navigation equipment",
+  "sections": [
+   "91.171",
+   "91.205"
+  ],
+  "why": "VOR accuracy check before IFR use and required IFR navigation equipment"
+ },
+ "IR.VI.B.S4": {
+  "confidence": "high",
+  "section_why": "Compliance with ATC clearances and instructions",
+  "sections": [
+   "91.123"
+  ],
+  "why": "Compliance with ATC clearances and instructions"
+ },
+ "IR.VI.B.S5": {
+  "confidence": "high",
+  "section_why": "Malfunction reporting to ATC and inoperative instrument and equipment rules",
+  "sections": [
+   "91.187",
+   "91.213"
+  ],
+  "why": "Malfunction reporting to ATC and inoperative instrument and equipment rules"
+ },
+ "IR.VI.B.S6": {
+  "confidence": "high",
+  "section_why": "91.123(a) requires notifying ATC when unable to comply",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123(a) requires notifying ATC when unable to comply"
+ },
+ "IR.VI.B.S7": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Checklist use is technique for light aircraft under Part 91"
+ },
+ "IR.VI.B.S8": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Configuration and airspeed are AFM material"
+ },
+ "IR.VI.B.S9": {
+  "confidence": "low",
+  "section_why": "Accurate tracking of radials, courses and bearings is the 91.181 requirement. Numeric tolerances are ACS only",
+  "sections": [
+   "91.181"
+  ],
+  "why": "Accurate tracking of radials, courses and bearings is the 91.181 requirement. Numeric tolerances are ACS only"
+ },
+ "IR.VI.C.K1": {
+  "confidence": "high",
+  "section_why": "91.175(e) prescribes when a missed approach is required and that the published procedure be followed. FMS and autopilot behavior is avionics material",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e) prescribes when a missed approach is required and that the published procedure be followed. FMS and autopilot behavior is avionics material"
+ },
+ "IR.VI.C.R1": {
+  "confidence": "high",
+  "section_why": "Deviating from the published missed approach or ATC instruction violates 91.123 and 91.175(a) and (e)",
+  "sections": [
+   "91.123",
+   "91.175"
+  ],
+  "why": "Deviating from the published missed approach or ATC instruction violates 91.123 and 91.175(a) and (e)"
+ },
+ "IR.VI.C.R2": {
+  "confidence": "low",
+  "section_why": "The decision to hold, divert or reattempt is constrained by the IFR fuel reserve requirement in 91.167. The decision itself is ADM",
+  "sections": [
+   "91.167"
+  ],
+  "why": "The decision to hold, divert or reattempt is constrained by the IFR fuel reserve requirement in 91.167. The decision itself is ADM"
+ },
+ "IR.VI.C.R3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Configuration is AFM material"
+ },
+ "IR.VI.C.R4": {
+  "confidence": "low",
+  "section_why": "An early missed approach is permitted and a go-around below DA/MDA is required by 91.175(c) and (e) when references are lost. The triggering factors are ADM",
+  "sections": [
+   "91.175"
+  ],
+  "why": "An early missed approach is permitted and a go-around below DA/MDA is required by 91.175(c) and (e) when references are lost. The triggering factors are ADM"
+ },
+ "IR.VI.C.R5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Autoflight management is technique"
+ },
+ "IR.VI.C.S1": {
+  "confidence": "high",
+  "section_why": "91.175(e) requires prompt execution of the missed approach, and 91.183 requires reporting to ATC",
+  "sections": [
+   "91.175",
+   "91.183"
+  ],
+  "why": "91.175(e) requires prompt execution of the missed approach, and 91.183 requires reporting to ATC"
+ },
+ "IR.VI.C.S10": {
+  "confidence": "low",
+  "section_why": "Any subsequent approach, alternate or holding fix must be requested and complied with as an ATC clearance under 91.123, using the IFR communication requirements of 91.183",
+  "sections": [
+   "91.123",
+   "91.183"
+  ],
+  "why": "Any subsequent approach, alternate or holding fix must be requested and complied with as an ATC clearance under 91.123, using the IFR communication requirements of 91.183"
+ },
+ "IR.VI.C.S2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Power and pitch for the go-around are technique and AFM material"
+ },
+ "IR.VI.C.S3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Configuration per manufacturer instructions is AFM material"
+ },
+ "IR.VI.C.S4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Checklist use is technique for light aircraft under Part 91"
+ },
+ "IR.VI.C.S5": {
+  "confidence": "high",
+  "section_why": "91.175(e) requires flying the published missed approach. An alternate missed approach is an ATC instruction under 91.123",
+  "sections": [
+   "91.175",
+   "91.123"
+  ],
+  "why": "91.175(e) requires flying the published missed approach. An alternate missed approach is an ATC instruction under 91.123"
+ },
+ "IR.VI.C.S6": {
+  "confidence": "high",
+  "section_why": "91.123(a) requires notifying ATC when unable to comply with a clearance or instruction",
+  "sections": [
+   "91.123"
+  ],
+  "why": "91.123(a) requires notifying ATC when unable to comply with a clearance or instruction"
+ },
+ "IR.VI.C.S7": {
+  "confidence": "high",
+  "sections": [],
+  "why": "ACS performance tolerances, not regulatory limits"
+ },
+ "IR.VI.C.S8": {
+  "confidence": "high",
+  "sections": [],
+  "why": "MFD use is technique"
+ },
+ "IR.VI.C.S9": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are handbook material"
+ },
+ "IR.VI.D.K1": {
+  "confidence": "high",
+  "section_why": "91.175(a) requires the prescribed procedure and (c) and (e) govern circling minimums and the circling missed approach. Approach category speed ranges are defined in Part 97, which this corpus excludes",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(a) requires the prescribed procedure and (c) and (e) govern circling minimums and the circling missed approach. Approach category speed ranges are defined in Part 97, which this corpus excludes"
+ },
+ "IR.VI.D.R1": {
+  "confidence": "low",
+  "section_why": "Circling is flown under the prescribed procedure and the 91.175(c) visual reference and MDA requirements",
+  "sections": [
+   "91.175"
+  ],
+  "why": "Circling is flown under the prescribed procedure and the 91.175(c) visual reference and MDA requirements"
+ },
+ "IR.VI.D.R2": {
+  "confidence": "low",
+  "section_why": "Night and marginal visibility circling still requires the 91.175(c) flight visibility and continuous visual reference. The added risk is handbook material",
+  "sections": [
+   "91.175"
+  ],
+  "why": "Night and marginal visibility circling still requires the 91.175(c) flight visibility and continuous visual reference. The added risk is handbook material"
+ },
+ "IR.VI.D.R3": {
+  "confidence": "high",
+  "section_why": "91.175(e)(2) requires a missed approach whenever an identifiable part of the airport is not distinctly visible while circling",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e)(2) requires a missed approach whenever an identifiable part of the airport is not distinctly visible while circling"
+ },
+ "IR.VI.D.R4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Autoflight management is technique"
+ },
+ "IR.VI.D.R5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Circling altitude, speed and radius management is technique and TERPS design, not Part 91"
+ },
+ "IR.VI.D.R6": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Low altitude maneuvering, stall, spin and CFIT risk are handbook material. 91.119 minimum safe altitudes expressly does not apply when landing"
+ },
+ "IR.VI.D.R7": {
+  "confidence": "high",
+  "section_why": "91.175(e)(2) governs the missed approach initiated while circling, including the climbing turn toward the landing runway",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e)(2) governs the missed approach initiated while circling, including the climbing turn toward the landing runway"
+ },
+ "IR.VI.D.S1": {
+  "confidence": "low",
+  "section_why": "The circling maneuver is flown within the prescribed procedure under 91.175(a) and the MDA and visibility rules in (c). Turbulence and windshear allowance is technique",
+  "sections": [
+   "91.175"
+  ],
+  "why": "The circling maneuver is flown within the prescribed procedure under 91.175(a) and the MDA and visibility rules in (c). Turbulence and windshear allowance is technique"
+ },
+ "IR.VI.D.S2": {
+  "confidence": "low",
+  "section_why": "ATC restrictions are complied with under 91.123. Traffic pattern direction at a non-towered airport comes from 91.126(b), and 91.127 applies the same rule in Class E surface areas. Flagging the 91.126 addition since it was not in the original Part 91 pointer",
+  "sections": [
+   "91.123",
+   "91.126"
+  ],
+  "why": "ATC restrictions are complied with under 91.123. Traffic pattern direction at a non-towered airport comes from 91.126(b), and 91.127 applies the same rule in Class E surface areas. Flagging the 91.126 addition since it was not in the original Part 91 pointer"
+ },
+ "IR.VI.D.S3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are handbook material"
+ },
+ "IR.VI.D.S4": {
+  "confidence": "low",
+  "section_why": "MDA and the circling altitude floor come from 91.175(c). Configuration and stabilization are technique",
+  "sections": [
+   "91.175"
+  ],
+  "why": "MDA and the circling altitude floor come from 91.175(c). Configuration and stabilization are technique"
+ },
+ "IR.VI.D.S5": {
+  "confidence": "low",
+  "section_why": "The -0 feet floor is the 91.175(c) MDA prohibition. The other tolerances are ACS only",
+  "sections": [
+   "91.175"
+  ],
+  "why": "The -0 feet floor is the 91.175(c) MDA prohibition. The other tolerances are ACS only"
+ },
+ "IR.VI.D.S6": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Visual maneuvering to base or downwind is technique"
+ },
+ "IR.VI.D.S7": {
+  "confidence": "high",
+  "section_why": "91.175(e)(2) prescribes the initial climbing turn toward the landing runway and continuing to the missed approach course",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(e)(2) prescribes the initial climbing turn toward the landing runway and continuing to the missed approach course"
+ },
+ "IR.VI.D.S8": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Touchdown point, maneuvering and bank limits are ACS tolerances and AFM limits, not Part 91"
+ },
+ "IR.VI.E.K1": {
+  "confidence": "low",
+  "section_why": "PIC final authority for the landing decision, and the 91.175(c) conditions that must exist to continue to a landing. Environmental and meteorological factors themselves are handbook material",
+  "sections": [
+   "91.3",
+   "91.175"
+  ],
+  "why": "PIC final authority for the landing decision, and the 91.175(c) conditions that must exist to continue to a landing. Environmental and meteorological factors themselves are handbook material"
+ },
+ "IR.VI.E.K2": {
+  "confidence": "low",
+  "section_why": "The approach light system and the other runway lighting and marking cues are enumerated in 91.175(c)(3) as the required visual references. Sign, marking and lighting design is AIM chapter 2 material",
+  "sections": [
+   "91.175"
+  ],
+  "why": "The approach light system and the other runway lighting and marking cues are enumerated in 91.175(c)(3) as the required visual references. Sign, marking and lighting design is AIM chapter 2 material"
+ },
+ "IR.VI.E.K3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Landing profiles and configurations are AFM and handbook material"
+ },
+ "IR.VI.E.R1": {
+  "confidence": "low",
+  "section_why": "91.175(c)(1) requires the aircraft be continuously in a position for a normal rate of descent using normal maneuvers, which is the regulatory expression of a stable approach",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c)(1) requires the aircraft be continuously in a position for a normal rate of descent using normal maneuvers, which is the regulatory expression of a stable approach"
+ },
+ "IR.VI.E.R2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Glidepath adherence for light aircraft is technique. The Part 91 glide slope rule in 91.129(e) applies only to large or turbine-powered airplanes at towered airports"
+ },
+ "IR.VI.E.R3": {
+  "confidence": "high",
+  "section_why": "91.175(c) defines the visual references and flight visibility required to transition from instrument to visual for landing",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) defines the visual references and flight visibility required to transition from instrument to visual for landing"
+ },
+ "IR.VI.E.R4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Landing configuration is AFM material"
+ },
+ "IR.VI.E.S1": {
+  "confidence": "high",
+  "section_why": "91.175(c) governs the transition below DA/DH or MDA to visual conditions for a normal landing",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c) governs the transition below DA/DH or MDA to visual conditions for a normal landing"
+ },
+ "IR.VI.E.S2": {
+  "confidence": "low",
+  "section_why": "ATC advisories and instructions are complied with under 91.123, and NOTAM review is required by 91.103(a). Wake turbulence and windshear avoidance is AIM material",
+  "sections": [
+   "91.123",
+   "91.103"
+  ],
+  "why": "ATC advisories and instructions are complied with under 91.123, and NOTAM review is required by 91.103(a). Wake turbulence and windshear avoidance is AIM material"
+ },
+ "IR.VI.E.S3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Checklist use is technique for light aircraft under Part 91"
+ },
+ "IR.VI.E.S4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Landing control is technique"
+ },
+ "IR.VI.E.S5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are handbook material"
+ },
+ "IR.VII.A.K1": {
+  "confidence": "high",
+  "section_why": "91.185 prescribes the route, altitude and leave-clearance-limit rules for two-way radio communications failure, including when to begin the approach. 91.3(b) supports deviation in an emergency",
+  "sections": [
+   "91.185",
+   "91.3"
+  ],
+  "why": "91.185 prescribes the route, altitude and leave-clearance-limit rules for two-way radio communications failure, including when to begin the approach. 91.3(b) supports deviation in an emergency"
+ },
+ "IR.VII.A.R1": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Causes of radio failure are equipment and technique. Part 91 addresses the response, not the cause"
+ },
+ "IR.VII.A.R2": {
+  "confidence": "high",
+  "section_why": "91.185 is the prescribed lost communications procedure that a deviation departs from",
+  "sections": [
+   "91.185"
+  ],
+  "why": "91.185 is the prescribed lost communications procedure that a deviation departs from"
+ },
+ "IR.VII.A.S1": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Recognizing the failure is technique"
+ },
+ "IR.VII.A.S2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Re-establishing communications by alternate frequency, relay or transponder code is AIM material, not Part 91"
+ },
+ "IR.VII.A.S3": {
+  "confidence": "high",
+  "section_why": "91.185(b) and (c) fix the route and destination decision after communications failure",
+  "sections": [
+   "91.185"
+  ],
+  "why": "91.185(b) and (c) fix the route and destination decision after communications failure"
+ },
+ "IR.VII.A.S4": {
+  "confidence": "high",
+  "section_why": "91.185(c)(3) fixes when to leave the clearance limit and begin descent and approach",
+  "sections": [
+   "91.185"
+  ],
+  "why": "91.185(c)(3) fixes when to leave the clearance limit and begin descent and approach"
+ },
+ "IR.VII.A.S5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are handbook material"
+ },
+ "IR.VII.C.K1": {
+  "confidence": "low",
+  "section_why": "The approach is still flown as the prescribed standard instrument approach procedure under 91.175. Single-engine approach technique and performance are AFM and Airplane Flying Handbook material",
+  "sections": [
+   "91.175"
+  ],
+  "why": "The approach is still flown as the prescribed standard instrument approach procedure under 91.175. Single-engine approach technique and performance are AFM and Airplane Flying Handbook material"
+ },
+ "IR.VII.C.R1": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Engine failure risk during approach is handbook and AFM material"
+ },
+ "IR.VII.C.R2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is marked [Archived] in the ACS and has no content to map"
+ },
+ "IR.VII.C.R3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Configuration is AFM material"
+ },
+ "IR.VII.C.R4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Low altitude maneuvering, stall, spin and CFIT risk are handbook material"
+ },
+ "IR.VII.C.R5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Task saturation and disorientation are human factors, not regulation"
+ },
+ "IR.VII.C.R6": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Single-engine go-around risk is AFM and handbook material"
+ },
+ "IR.VII.C.S1": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Recognizing the failure and maintaining control is technique"
+ },
+ "IR.VII.C.S10": {
+  "confidence": "high",
+  "section_why": "91.9(a) prohibits operating outside the operating limitations in the approved flight manual, markings and placards",
+  "sections": [
+   "91.9"
+  ],
+  "why": "91.9(a) prohibits operating outside the operating limitations in the approved flight manual, markings and placards"
+ },
+ "IR.VII.C.S11": {
+  "confidence": "high",
+  "section_why": "Circling minimums and the visual reference requirements are in 91.175(c) and (e). The approach category speed ranges themselves are in Part 97, which this corpus excludes",
+  "sections": [
+   "91.175"
+  ],
+  "why": "Circling minimums and the visual reference requirements are in 91.175(c) and (e). The approach category speed ranges themselves are in Part 97, which this corpus excludes"
+ },
+ "IR.VII.C.S12": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Executing the landing is technique"
+ },
+ "IR.VII.C.S13": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Checklist use is technique for light aircraft under Part 91"
+ },
+ "IR.VII.C.S14": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are handbook material"
+ },
+ "IR.VII.C.S2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Engine shutdown and simulated feathering are AFM procedures. 91.109 covers dual controls, safety pilots and ATP flight tests but contains no simulated engine failure provision, so nothing in the list fits"
+ },
+ "IR.VII.C.S3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Control and trim technique per manufacturer recommendation, AFM material"
+ },
+ "IR.VII.C.S4": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Manufacturer emergency procedures are AFM material"
+ },
+ "IR.VII.C.S5": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Systems monitoring is technique"
+ },
+ "IR.VII.C.S6": {
+  "confidence": "low",
+  "section_why": "The approach clearance must be requested and complied with under 91.123 using the IFR communications of 91.183",
+  "sections": [
+   "91.123",
+   "91.183"
+  ],
+  "why": "The approach clearance must be requested and complied with under 91.123 using the IFR communications of 91.183"
+ },
+ "IR.VII.C.S7": {
+  "confidence": "high",
+  "sections": [],
+  "why": "ACS performance tolerances, not regulatory limits"
+ },
+ "IR.VII.C.S8": {
+  "confidence": "high",
+  "section_why": "91.175(c)(1) requires arrival at MDA or DA/DH in a position from which a normal descent to landing can be made",
+  "sections": [
+   "91.175"
+  ],
+  "why": "91.175(c)(1) requires arrival at MDA or DA/DH in a position from which a normal descent to landing can be made"
+ },
+ "IR.VII.C.S9": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Deflection tolerance on final is an ACS standard, not a regulatory limit"
+ },
+ "IR.VII.D.K1": {
+  "confidence": "high",
+  "section_why": "91.187 requires reporting instrument and navigation malfunctions to ATC under IFR in controlled airspace, and 91.213 governs operating with inoperative equipment",
+  "sections": [
+   "91.187",
+   "91.213"
+  ],
+  "why": "91.187 requires reporting instrument and navigation malfunctions to ATC under IFR in controlled airspace, and 91.213 governs operating with inoperative equipment"
+ },
+ "IR.VII.D.K2": {
+  "confidence": "low",
+  "section_why": "91.205(d) enumerates the instruments required for IFR, which defines what a primary instrument loss means. Failure modes themselves are handbook material",
+  "sections": [
+   "91.205"
+  ],
+  "why": "91.205(d) enumerates the instruments required for IFR, which defines what a primary instrument loss means. Failure modes themselves are handbook material"
+ },
+ "IR.VII.D.R1": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Secondary and standby display use is avionics and technique material"
+ },
+ "IR.VII.D.R2": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Partial panel aircraft control is technique from the Instrument Flying Handbook"
+ },
+ "IR.VII.D.R3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "Task saturation and disorientation are human factors, not regulation"
+ },
+ "IR.VII.D.S1": {
+  "confidence": "high",
+  "section_why": "91.123(a) requires notifying ATC when unable to comply, and 91.187 requires reporting the malfunction that caused it",
+  "sections": [
+   "91.123",
+   "91.187"
+  ],
+  "why": "91.123(a) requires notifying ATC when unable to comply, and 91.187 requires reporting the malfunction that caused it"
+ },
+ "IR.VII.D.S2": {
+  "confidence": "low",
+  "section_why": "The partial panel approach is still flown as the prescribed standard instrument approach procedure under 91.175. The partial panel technique is handbook material",
+  "sections": [
+   "91.175"
+  ],
+  "why": "The partial panel approach is still flown as the prescribed standard instrument approach procedure under 91.175. The partial panel technique is handbook material"
+ },
+ "IR.VII.D.S3": {
+  "confidence": "high",
+  "sections": [],
+  "why": "SRM and CRM are handbook material"
+ },
+ "IR.VIII.A.K1": {
+  "confidence": "high",
+  "section_why": "91.7(b) requires the PIC to discontinue flight when unairworthy, 91.405(a) requires discrepancies be corrected between flights or recorded, 91.405(c) requires inoperative items be placarded, 91.213(d) governs flight with them inoperative, and 91.417 sets the maintenance record requirements",
+  "sections": [
+   "91.7",
+   "91.213",
+   "91.405",
+   "91.417"
+  ],
+  "why": "91.7(b) requires the PIC to discontinue flight when unairworthy, 91.405(a) requires discrepancies be corrected between flights or recorded, 91.405(c) requires inoperative items be placarded, 91.213(d) governs flight with them inoperative, and 91.417 sets the maintenance record requirements"
+ },
+ "IR.VIII.A.R1": {
+  "confidence": "high",
+  "section_why": "PIC responsibility for determining airworthiness, and the owner or operator duty to have discrepancies repaired or recorded",
+  "sections": [
+   "91.7",
+   "91.405"
+  ],
+  "why": "PIC responsibility for determining airworthiness, and the owner or operator duty to have discrepancies repaired or recorded"
+ },
+ "IR.VIII.A.S1": {
+  "confidence": "high",
+  "section_why": "Recording and correcting discrepancies under 91.405, the maintenance record requirements of 91.417, and the placarding and deferral rules of 91.213(d)",
+  "sections": [
+   "91.405",
+   "91.417",
+   "91.213"
+  ],
+  "why": "Recording and correcting discrepancies under 91.405, the maintenance record requirements of 91.417, and the placarding and deferral rules of 91.213(d)"
+ }
 }

@@ -1,242 +1,1965 @@
 {
-  "AA.V.A.K1": {"sections": [], "anchors": ["phak:ch05", "afh:ch05"], "why": "PHAK ch5 Aerodynamics covers angle of attack, load factor and the stall speed relationship; AFH ch5 applies it to the takeoff and departure configuration. No CFR part cited by this Task", "confidence": "high"},
-  "AA.V.A.K2": {"sections": [], "anchors": ["afh:ch05", "phak:ch05"], "why": "AFH ch5 covers impending and full stall cues by sight, sound and feel; PHAK ch5 covers how design affects stall behavior", "confidence": "high"},
-  "AA.V.A.K3": {"sections": [], "anchors": ["afh:ch05", "afh:ch06"], "why": "AFH ch5 covers the situations that lead to a departure stall and their prevention; ch6 covers the takeoff and departure climb phase itself", "confidence": "high"},
-  "AA.V.A.K4": {"sections": [], "anchors": ["risk-management:ch07", "afh:ch16"], "why": "RMH ch7 Automation and Flight Path Management covers autopilot and autothrottle modes and unexpected disconnects; AFH ch16 covers jet envelope protection", "confidence": "high"},
-  "AA.V.A.K5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 gives the stall recovery template: reduce angle of attack first, then level the wings and add power", "confidence": "high"},
-  "AA.V.A.R1": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 Upset Prevention and Recovery covers the precursors to an inadvertent stall, spin and loss of control", "confidence": "high"},
-  "AA.V.A.R2": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers stall warning devices, what they sense and where they can mislead", "confidence": "high"},
-  "AA.V.A.R3": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers recognising and acting on the first stall warning", "confidence": "high"},
-  "AA.V.A.R4": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 gives the stall recovery procedure and the errors that defeat it", "confidence": "high"},
-  "AA.V.A.R5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers secondary, accelerated, elevator trim and cross-control stalls", "confidence": "high"},
-  "AA.V.A.R6": {"sections": [], "anchors": ["phak:ch11", "phak:ch12"], "why": "PHAK ch11 covers density altitude effect on performance margin; ch12 Weather Theory covers turbulence and microbursts", "confidence": "low"},
-  "AA.V.A.R7": {"sections": [], "anchors": [], "why": "Collision avoidance and terrain clearance are AIM material, and this Task cites neither the AIM nor a CFR part", "confidence": "high"},
-  "AA.V.A.R8": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.V.A.S1": {"sections": [], "anchors": ["afh:ch10"], "why": "AFH ch10 Performance Maneuvers covers clearing turns and choosing a maneuvering altitude. The specific 3,000 foot AGL floor is an ACS standard", "confidence": "low"},
-  "AA.V.A.S2": {"sections": [], "anchors": [], "why": "Element is archived and carries no content to map", "confidence": "high"},
-  "AA.V.A.S3": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers establishing the configuration and holding coordinated flight through the approach to the stall", "confidence": "low"},
-  "AA.V.A.S4": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers the entry to an impending stall with pitch, bank and power, manually or coupled", "confidence": "high"},
-  "AA.V.A.S5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers acknowledging the cue and recovering at the first indication rather than at the full stall", "confidence": "high"},
-  "AA.V.A.S6": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 gives the stall recovery sequence the POH procedure elaborates", "confidence": "high"},
-  "AA.V.A.S7": {"sections": [], "anchors": ["afh:ch05", "afh:ch06"], "why": "AFH ch5 covers the clean up after recovery; ch6 covers gear and flap retraction on a positive rate of climb", "confidence": "low"},
-  "AA.V.B.K1": {"sections": [], "anchors": ["phak:ch05", "afh:ch05"], "why": "PHAK ch5 Aerodynamics covers angle of attack, load factor and the stall speed relationship; AFH ch5 applies it to the clean configuration", "confidence": "high"},
-  "AA.V.B.K2": {"sections": [], "anchors": ["afh:ch05", "phak:ch05"], "why": "AFH ch5 covers impending and full stall cues by sight, sound and feel; PHAK ch5 covers how design affects stall behavior", "confidence": "high"},
-  "AA.V.B.K3": {"sections": [], "anchors": ["afh:ch05", "afh:ch16"], "why": "AFH ch5 covers the situations that lead to a cruise stall and their prevention; ch16 covers the high altitude cruise case", "confidence": "high"},
-  "AA.V.B.K4": {"sections": [], "anchors": ["risk-management:ch07", "afh:ch16"], "why": "RMH ch7 covers autopilot and autothrottle modes and unexpected disconnects; AFH ch16 covers jet envelope protection", "confidence": "high"},
-  "AA.V.B.K5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 gives the stall recovery template: reduce angle of attack first, then level the wings and add power", "confidence": "high"},
-  "AA.V.B.K6": {"sections": [], "anchors": ["afh:ch16", "phak:ch11"], "why": "AFH ch16 covers thrust available and control effectiveness at high altitude; PHAK ch11 covers the underlying performance loss", "confidence": "high"},
-  "AA.V.B.R1": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers the precursors to an inadvertent stall, spin and loss of control in cruise", "confidence": "high"},
-  "AA.V.B.R2": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers stall warning devices, what they sense and where they can mislead", "confidence": "high"},
-  "AA.V.B.R3": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers recognising and acting on the first stall warning", "confidence": "high"},
-  "AA.V.B.R4": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 gives the stall recovery procedure and the errors that defeat it", "confidence": "high"},
-  "AA.V.B.R5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers secondary, accelerated, elevator trim and cross-control stalls", "confidence": "high"},
-  "AA.V.B.R6": {"sections": [], "anchors": ["phak:ch11", "phak:ch12"], "why": "PHAK ch11 covers density altitude effect on cruise performance margin; ch12 Weather Theory covers turbulence and microbursts", "confidence": "low"},
-  "AA.V.B.R7": {"sections": [], "anchors": [], "why": "Collision avoidance and terrain clearance are AIM material, and this Task cites neither the AIM nor a CFR part", "confidence": "high"},
-  "AA.V.B.R8": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.V.B.S1": {"sections": [], "anchors": ["afh:ch10"], "why": "AFH ch10 Performance Maneuvers covers clearing turns and choosing a maneuvering altitude. The specific 3,000 foot AGL floor is an ACS standard", "confidence": "low"},
-  "AA.V.B.S2": {"sections": [], "anchors": [], "why": "Element is archived and carries no content to map", "confidence": "high"},
-  "AA.V.B.S3": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers holding coordinated flight through the approach to the stall", "confidence": "low"},
-  "AA.V.B.S4": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers the entry to an impending stall with pitch, bank and power, manually or coupled", "confidence": "high"},
-  "AA.V.B.S5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers acknowledging the cue and recovering at the first indication rather than at the full stall", "confidence": "high"},
-  "AA.V.B.S6": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 gives the stall recovery sequence the POH procedure elaborates", "confidence": "high"},
-  "AA.V.B.S7": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers returning to the assigned flight path after the recovery without a secondary stall", "confidence": "low"},
-  "AA.V.C.K1": {"sections": [], "anchors": ["phak:ch05", "afh:ch05"], "why": "PHAK ch5 Aerodynamics covers angle of attack, load factor and the stall speed relationship; AFH ch5 applies it to the landing configuration", "confidence": "high"},
-  "AA.V.C.K2": {"sections": [], "anchors": ["afh:ch05", "phak:ch05"], "why": "AFH ch5 covers impending and full stall cues by sight, sound and feel; PHAK ch5 covers how design affects stall behavior", "confidence": "high"},
-  "AA.V.C.K3": {"sections": [], "anchors": ["afh:ch05", "afh:ch09"], "why": "AFH ch5 covers the situations that lead to a landing configuration stall; ch9 Approaches and Landings covers the phase they occur in", "confidence": "high"},
-  "AA.V.C.K4": {"sections": [], "anchors": ["risk-management:ch07", "afh:ch16"], "why": "RMH ch7 covers autopilot and autothrottle modes and unexpected disconnects; AFH ch16 covers jet envelope protection", "confidence": "high"},
-  "AA.V.C.K5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 gives the stall recovery template: reduce angle of attack first, then level the wings and add power", "confidence": "high"},
-  "AA.V.C.R1": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers the precursors to an inadvertent stall, spin and loss of control during landing", "confidence": "high"},
-  "AA.V.C.R2": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers stall warning devices, what they sense and where they can mislead", "confidence": "high"},
-  "AA.V.C.R3": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers recognising and acting on the first stall warning", "confidence": "high"},
-  "AA.V.C.R4": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 gives the stall recovery procedure and the errors that defeat it", "confidence": "high"},
-  "AA.V.C.R5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers secondary, accelerated, elevator trim and cross-control stalls", "confidence": "high"},
-  "AA.V.C.R6": {"sections": [], "anchors": ["phak:ch11", "phak:ch12"], "why": "PHAK ch11 covers density altitude effect on landing performance margin; ch12 Weather Theory covers turbulence, icing and microbursts", "confidence": "low"},
-  "AA.V.C.R7": {"sections": [], "anchors": ["afh:ch05", "afh:ch09"], "why": "AFH ch5 covers the reduced recovery margin at low altitude; ch9 covers the approach and landing where it arises", "confidence": "high"},
-  "AA.V.C.R8": {"sections": [], "anchors": [], "why": "Collision avoidance and terrain clearance are AIM material, and this Task cites neither the AIM nor a CFR part", "confidence": "high"},
-  "AA.V.C.R9": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.V.C.S1": {"sections": [], "anchors": ["afh:ch10"], "why": "AFH ch10 Performance Maneuvers covers clearing turns and choosing a maneuvering altitude. The specific 3,000 foot AGL floor is an ACS standard", "confidence": "low"},
-  "AA.V.C.S2": {"sections": [], "anchors": [], "why": "Element is archived and carries no content to map", "confidence": "high"},
-  "AA.V.C.S3": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers establishing the landing configuration and holding coordinated flight through the approach to the stall", "confidence": "low"},
-  "AA.V.C.S4": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers the entry to an impending stall with pitch, bank and power, manually or coupled", "confidence": "high"},
-  "AA.V.C.S5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers acknowledging the cue and recovering at the first indication rather than at the full stall", "confidence": "high"},
-  "AA.V.C.S6": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 gives the stall recovery sequence the POH procedure elaborates", "confidence": "high"},
-  "AA.V.C.S7": {"sections": [], "anchors": ["afh:ch05", "afh:ch06"], "why": "AFH ch5 covers the clean up after recovery; ch6 covers gear and flap retraction on a positive rate of climb", "confidence": "low"},
-  "AA.VII.A.K1": {"sections": ["91.3"], "anchors": ["aim:ch06-s03"], "why": "91.3(b) gives the pilot in command emergency authority; AIM 6-3 Distress and Urgency Procedures covers declaring and selecting a landing location", "confidence": "high"},
-  "AA.VII.A.K2": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 Emergency Procedures covers the emergency descent and the conditions that force one", "confidence": "high"},
-  "AA.VII.A.K3": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers the causes and handling of inflight fire and smoke", "confidence": "high"},
-  "AA.VII.A.K4": {"sections": ["91.211"], "anchors": ["afh:ch16", "phak:ch17"], "why": "91.211 sets the supplemental oxygen requirement a decompression invokes; AFH ch16 covers pressurization failure and PHAK ch17 the hypoxia that follows", "confidence": "high"},
-  "AA.VII.A.K5": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers the conditions that make an evacuation necessary after an emergency landing", "confidence": "low"},
-  "AA.VII.A.K6": {"sections": ["91.527"], "anchors": ["phak:ch12"], "why": "91.527 prohibits continued flight into icing beyond the airplane certification; PHAK ch12 Weather Theory covers the icing conditions themselves", "confidence": "high"},
-  "AA.VII.A.R1": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers choosing between memory items and checklist procedures under time pressure", "confidence": "high"},
-  "AA.VII.A.R2": {"sections": [], "anchors": ["risk-management:ch06", "afh:ch18"], "why": "RMH ch6 covers compounding threats; AFH ch18 covers handling more than one abnormality at once", "confidence": "low"},
-  "AA.VII.A.R3": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers altitude, wind, terrain and obstruction assessment in an emergency", "confidence": "low"},
-  "AA.VII.A.R4": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.VII.A.S1": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 is the general source for describing an emergency procedure", "confidence": "low"},
-  "AA.VII.A.S2": {"sections": [], "anchors": ["afh:ch18"], "why": "Parent element; AFH ch18 Emergency Procedures covers the listed situations", "confidence": "high"},
-  "AA.VII.A.S2a": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 gives the emergency descent procedure and its configuration and speed", "confidence": "high"},
-  "AA.VII.A.S2b": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 gives the inflight fire and smoke procedures", "confidence": "high"},
-  "AA.VII.A.S2c": {"sections": ["91.211"], "anchors": ["afh:ch16"], "why": "AFH ch16 covers pressurization failure and the descent it requires; 91.211 sets the oxygen requirement", "confidence": "high"},
-  "AA.VII.A.S2d": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers evacuation after an emergency landing", "confidence": "low"},
-  "AA.VII.A.S2e": {"sections": ["91.527"], "anchors": ["phak:ch12"], "why": "91.527 governs operating in icing; PHAK ch12 covers recognising airframe icing and its effects", "confidence": "high"},
-  "AA.VII.A.S2f": {"sections": [], "anchors": [], "why": "Deliberately open ended: the remaining procedures are whatever the AFM or POH for the test airplane lists", "confidence": "high"},
-  "AA.VII.A.S3": {"sections": [], "anchors": ["phak:ch08"], "why": "PHAK ch8 Flight Instruments covers the standby and backup instrumentation and partial panel indications. The IFH is not cited by this Task", "confidence": "low"},
-  "AA.VII.A.S4": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination", "confidence": "low"},
-  "AA.VII.A.S5": {"sections": ["91.3"], "anchors": ["aim:ch06-s03"], "why": "AIM 6-3 gives the distress and urgency phraseology and priority handling; 91.3(b) covers reporting a deviation taken under emergency authority", "confidence": "high"},
-  "AA.VII.B.K1": {"sections": [], "anchors": ["afh:ch18", "afh:ch13"], "why": "AFH ch18 gives the engine failure on takeoff procedure; ch13 gives the multiengine reference airspeeds and the continue or reject decision. No CFR part cited by this Task", "confidence": "high"},
-  "AA.VII.B.K2": {"sections": [], "anchors": ["afh:ch13", "phak:ch11"], "why": "AFH ch13 covers sideslip, bank angle and rudder input with an engine out; PHAK ch11 covers runway length, surface and density altitude effects", "confidence": "high"},
-  "AA.VII.B.R1": {"sections": [], "anchors": ["afh:ch13", "afh:ch18"], "why": "AFH ch13 covers preflight planning for the takeoff failure decision; ch18 covers the procedures planned for", "confidence": "high"},
-  "AA.VII.B.R2": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers briefing a threat in advance so the crew acts on a shared plan", "confidence": "low"},
-  "AA.VII.B.R3": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers choosing between memory items and checklist procedures under time pressure", "confidence": "high"},
-  "AA.VII.B.R4": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers identifying the failed engine by rudder pressure and instrument confirmation before acting", "confidence": "high"},
-  "AA.VII.B.R5": {"sections": [], "anchors": ["afh:ch13", "phak:ch11"], "why": "AFH ch13 covers single engine climb capability and the drift down that follows; PHAK ch11 covers the performance data behind it", "confidence": "high"},
-  "AA.VII.B.R6": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers altitude, wind, terrain and obstruction assessment in an emergency", "confidence": "low"},
-  "AA.VII.B.R7": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors", "confidence": "high"},
-  "AA.VII.B.R8": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.VII.B.S1": {"sections": [], "anchors": ["afh:ch18", "afh:ch13"], "why": "AFH ch18 covers maintaining control first; ch13 covers the powerplant control handling that follows", "confidence": "high"},
-  "AA.VII.B.S2": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers the straight ahead power off descent when the failure occurs below a safe turnback altitude", "confidence": "high"},
-  "AA.VII.B.S3": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers continuing the takeoff when the airplane can reach a safe speed and altitude on the remaining engine", "confidence": "high"},
-  "AA.VII.B.S4": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers the control combination, bank into the operating engine and airspeed control in the single engine climb", "confidence": "high"},
-  "AA.VII.B.S5": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers directional control and heading maintenance after an engine failure", "confidence": "high"},
-  "AA.VII.B.S6": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination", "confidence": "low"},
-  "AA.VII.B.S7": {"sections": [], "anchors": [], "why": "ATC communication is AIM material and this Task does not cite the AIM", "confidence": "high"},
-  "AA.VII.C.K1": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 Emergency Procedures gives the immediate action items for an emergency approach and landing. No CFR part cited by this Task", "confidence": "high"},
-  "AA.VII.C.K2": {"sections": [], "anchors": ["afh:ch18", "phak:ch11"], "why": "Parent element on airspeed; AFH ch18 covers glide speed and PHAK ch11 the glide performance data", "confidence": "low"},
-  "AA.VII.C.K2a": {"sections": [], "anchors": ["afh:ch18", "phak:ch11"], "why": "AFH ch18 covers establishing best glide speed; PHAK ch11 covers the glide ratio and distance it produces", "confidence": "high"},
-  "AA.VII.C.K2b": {"sections": [], "anchors": ["phak:ch05", "afh:ch18"], "why": "PHAK ch5 Aerodynamics distinguishes the maximum lift over drag speed from the minimum power speed; AFH ch18 applies the difference to a forced landing", "confidence": "low"},
-  "AA.VII.C.K2c": {"sections": [], "anchors": ["afh:ch18", "phak:ch11"], "why": "AFH ch18 covers adjusting glide speed for wind; PHAK ch11 covers the effect of wind on glide distance over the ground", "confidence": "low"},
-  "AA.VII.C.K3": {"sections": [], "anchors": ["phak:ch11", "phak:ch12"], "why": "PHAK ch11 covers density altitude and wind effect on the approach; ch12 Weather Theory covers the conditions themselves", "confidence": "low"},
-  "AA.VII.C.K4": {"sections": [], "anchors": ["afh:ch04", "afh:ch09"], "why": "AFH ch4 Energy Management supplies the energy concepts; ch9 defines the stabilized approach", "confidence": "high"},
-  "AA.VII.C.K5": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers ELT activation and survival equipment after a forced landing. The AIM, which covers ELT operation in detail, is not cited by this Task", "confidence": "low"},
-  "AA.VII.C.K6": {"sections": [], "anchors": [], "why": "ATC services to aircraft in distress are AIM material and this Task does not cite the AIM", "confidence": "high"},
-  "AA.VII.C.R1": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers judging altitude, wind, terrain and gliding distance against the available landing area", "confidence": "high"},
-  "AA.VII.C.R2": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers committing to a flight path and the risk of changing it late", "confidence": "low"},
-  "AA.VII.C.R3": {"sections": [], "anchors": [], "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part", "confidence": "high"},
-  "AA.VII.C.R4": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers when to extend gear and flaps during a forced landing approach", "confidence": "low"},
-  "AA.VII.C.R5": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors", "confidence": "high"},
-  "AA.VII.C.R6": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.VII.C.R7": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers the forced landing case where the landing area cannot be seen until late", "confidence": "low"},
-  "AA.VII.C.S1": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers recognising a powerplant failure from the instruments and the airplane response", "confidence": "high"},
-  "AA.VII.C.S2": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers troubleshooting the cause and judging whether a restart is worth the altitude", "confidence": "high"},
-  "AA.VII.C.S3": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 puts aircraft control ahead of every other action in an emergency", "confidence": "low"},
-  "AA.VII.C.S4": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers establishing and holding best glide airspeed", "confidence": "high"},
-  "AA.VII.C.S5": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers configuring the airplane for the forced landing per the POH", "confidence": "low"},
-  "AA.VII.C.S6": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers selecting a landing area against altitude, wind, terrain and glide distance", "confidence": "high"},
-  "AA.VII.C.S7": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers flying a pattern to the selected landing area that preserves energy and options", "confidence": "high"},
-  "AA.VII.C.S8": {"sections": [], "anchors": ["afh:ch18", "afh:ch02"], "why": "AFH ch18 gives the emergency checklist items; ch2 covers checklist discipline", "confidence": "low"},
-  "AA.VII.C.S9": {"sections": [], "anchors": [], "why": "ATC communication is AIM material and this Task does not cite the AIM", "confidence": "high"},
-  "AA.VII.D.K1": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 Transition to Multiengine Airplanes covers single engine controllability, asymmetric thrust and the drag penalty of a windmilling propeller. No CFR part cited by this Task", "confidence": "high"},
-  "AA.VII.D.K2": {"sections": [], "anchors": ["afh:ch18", "afh:ch13"], "why": "AFH ch18 covers airstart procedures and when to attempt one; ch13 covers unfeathering a propeller", "confidence": "high"},
-  "AA.VII.D.R1": {"sections": [], "anchors": ["afh:ch13", "afh:ch18"], "why": "AFH ch13 covers the multiengine failure case; ch18 the general emergency response", "confidence": "low"},
-  "AA.VII.D.R2": {"sections": [], "anchors": ["afh:ch13", "afh:ch18"], "why": "AFH ch13 covers securing versus restarting the failed engine; ch18 covers the restart attempt itself", "confidence": "high"},
-  "AA.VII.D.R3": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers diagnosing the cause before committing to a shutdown or a restart", "confidence": "low"},
-  "AA.VII.D.R4": {"sections": [], "anchors": [], "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part", "confidence": "high"},
-  "AA.VII.D.R5": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers drag reduction: feathering, gear and flaps up, and the bank into the operating engine", "confidence": "low"},
-  "AA.VII.D.R6": {"sections": [], "anchors": ["afh:ch13", "afh:ch05"], "why": "AFH ch13 covers minimum control speed and the loss of control it produces; ch5 covers the stall and spin that follow", "confidence": "high"},
-  "AA.VII.D.R7": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.VII.D.S1": {"sections": [], "anchors": ["afh:ch13", "afh:ch18"], "why": "AFH ch13 covers identifying and verifying the failed engine; ch18 covers the memory items and control priority", "confidence": "high"},
-  "AA.VII.D.S2": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 gives the feathering and shutdown sequence for a failed engine", "confidence": "high"},
-  "AA.VII.D.S3": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers the rudder, bank and trim combination that gives best single engine performance", "confidence": "high"},
-  "AA.VII.D.S4": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers diagnosing the failure and judging whether a restart is viable", "confidence": "high"},
-  "AA.VII.D.S5": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers protecting the operating engine from exceeding its limits at high power", "confidence": "low"},
-  "AA.VII.D.S6": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers holding airspeed, altitude and heading on one engine within the airplane capability", "confidence": "low"},
-  "AA.VII.D.S7": {"sections": [], "anchors": ["afh:ch18", "afh:ch13"], "why": "AFH ch18 gives the airstart procedure; ch13 covers unfeathering and bringing the engine back on line", "confidence": "high"},
-  "AA.VII.D.S8": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers selecting the nearest suitable landing site after a failure", "confidence": "low"},
-  "AA.VII.D.S9": {"sections": [], "anchors": [], "why": "ATC communication is AIM material and this Task does not cite the AIM", "confidence": "high"},
-  "AA.VII.E.K1": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers single engine controllability while maneuvering to land. No CFR part cited by this Task", "confidence": "high"},
-  "AA.VII.E.K2": {"sections": [], "anchors": ["afh:ch13", "afh:ch09"], "why": "AFH ch13 covers the single engine go-around and why it may not be available; ch9 gives the go-around itself", "confidence": "high"},
-  "AA.VII.E.K3": {"sections": [], "anchors": ["afh:ch18"], "why": "AFH ch18 covers weighing runway length, surface, weather and services when choosing a diversion airport", "confidence": "low"},
-  "AA.VII.E.R1": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers planning the single engine approach before the airplane is committed", "confidence": "high"},
-  "AA.VII.E.R2": {"sections": [], "anchors": [], "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part", "confidence": "high"},
-  "AA.VII.E.R3": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers delaying gear and flap extension on a single engine approach to preserve the go-around option", "confidence": "low"},
-  "AA.VII.E.R4": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors", "confidence": "high"},
-  "AA.VII.E.R5": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.VII.E.R6": {"sections": [], "anchors": ["afh:ch13", "afh:ch09"], "why": "AFH ch13 covers the single engine go-around and the point past which it is not achievable; ch9 gives the maneuver", "confidence": "high"},
-  "AA.VII.E.S1": {"sections": [], "anchors": ["afh:ch13", "afh:ch18"], "why": "AFH ch13 covers identifying and verifying the failed engine; ch18 covers the memory items and control priority", "confidence": "high"},
-  "AA.VII.E.S10": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers the touchdown attitude, speed and aiming point technique", "confidence": "high"},
-  "AA.VII.E.S11": {"sections": [], "anchors": [], "why": "Water touchdown technique is seaplane handbook material and this Task cites only AFH, PHAK and the Risk Management Handbook", "confidence": "high"},
-  "AA.VII.E.S12": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers the landing roll, braking and directional control to a stop", "confidence": "high"},
-  "AA.VII.E.S13": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 Ground Operations covers the after landing checklist and crew coordination", "confidence": "low"},
-  "AA.VII.E.S2": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 gives the simulated feathering and shutdown sequence and the crew coordination around it", "confidence": "high"},
-  "AA.VII.E.S3": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers the control combination and configuration that give best single engine performance", "confidence": "high"},
-  "AA.VII.E.S4": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers protecting the operating engine from exceeding its limits at high power", "confidence": "low"},
-  "AA.VII.E.S5": {"sections": [], "anchors": [], "why": "ATC communication is AIM material and this Task does not cite the AIM", "confidence": "high"},
-  "AA.VII.E.S6": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers holding altitude, airspeed and course before the final approach segment", "confidence": "low"},
-  "AA.VII.E.S7": {"sections": [], "anchors": ["afh:ch09", "afh:ch04"], "why": "AFH ch9 gives the approach configuration and airspeed; ch4 gives the energy management that keeps it stabilized", "confidence": "high"},
-  "AA.VII.E.S8": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers directional control and crosswind correction through the approach and landing", "confidence": "high"},
-  "AA.VII.E.S9": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers the round out, touchdown and after landing control application", "confidence": "high"},
-  "AA.VII.F.K1": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers single engine controllability while maneuvering to land. No CFR part cited by this Task", "confidence": "high"},
-  "AA.VII.F.K2": {"sections": [], "anchors": ["iph:ch04", "ifh:ch11"], "why": "IPH ch4 Approaches covers the missed approach segment and its climb gradient; IFH ch11 Emergency Operations covers flying it with an engine out", "confidence": "high"},
-  "AA.VII.F.K3": {"sections": [], "anchors": ["ifh:ch11", "iph:ch04"], "why": "IFH ch11 covers diverting after a failure; IPH ch4 covers the approach minimums that make an airport suitable", "confidence": "low"},
-  "AA.VII.F.R1": {"sections": [], "anchors": ["ifh:ch11", "afh:ch13"], "why": "IFH ch11 covers planning for a failure in IFR conditions; AFH ch13 covers the single engine handling it requires", "confidence": "high"},
-  "AA.VII.F.R2": {"sections": [], "anchors": [], "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part", "confidence": "high"},
-  "AA.VII.F.R3": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers delaying gear and flap extension on a single engine approach to preserve the missed approach option", "confidence": "low"},
-  "AA.VII.F.R4": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors", "confidence": "high"},
-  "AA.VII.F.R5": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.VII.F.R6": {"sections": [], "anchors": ["afh:ch13", "iph:ch04"], "why": "AFH ch13 covers the single engine landing; IPH ch4 covers the transition from the instrument approach to it", "confidence": "low"},
-  "AA.VII.F.R7": {"sections": [], "anchors": ["iph:ch04", "ifh:ch11"], "why": "IPH ch4 covers the missed approach climb requirement; IFH ch11 covers whether one engine can meet it", "confidence": "high"},
-  "AA.VII.F.R8": {"sections": [], "anchors": ["ifh:ch11"], "why": "IFH ch11 Emergency Operations covers maneuvering in IMC after a powerplant failure", "confidence": "high"},
-  "AA.VII.F.S1": {"sections": [], "anchors": ["afh:ch13", "ifh:ch11"], "why": "AFH ch13 covers identifying and verifying the failed engine; IFH ch11 covers doing it while on instruments", "confidence": "high"},
-  "AA.VII.F.S10": {"sections": [], "anchors": ["iph:ch04"], "why": "IPH ch4 Approaches covers approach category, inoperative components and the DA/DH and visibility adjustments they require", "confidence": "high"},
-  "AA.VII.F.S11": {"sections": [], "anchors": ["iph:ch04", "ifh:ch10"], "why": "IPH ch4 covers the descent at the vertical guidance intercept; IFH ch10 IFR Flight covers computing the rate for the groundspeed", "confidence": "high"},
-  "AA.VII.F.S12": {"sections": [], "anchors": ["iph:ch04", "ifh:ch10"], "why": "IPH ch4 covers flying the vertically guided approach; IFH ch10 covers holding course and glidepath within tolerance", "confidence": "high"},
-  "AA.VII.F.S13": {"sections": [], "anchors": ["iph:ch04", "ifh:ch10"], "why": "IPH ch4 covers the final approach segment from the FAF to the DA/DH; IFH ch10 covers the tracking precision required", "confidence": "high"},
-  "AA.VII.F.S14": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers directional control and crosswind correction through the approach and landing", "confidence": "high"},
-  "AA.VII.F.S15": {"sections": [], "anchors": ["iph:ch04"], "why": "IPH ch4 gives the visual reference requirement at DA/DH and the immediate missed approach when it is not met", "confidence": "high"},
-  "AA.VII.F.S16": {"sections": [], "anchors": ["afh:ch09", "iph:ch04"], "why": "AFH ch9 covers the round out and touchdown control application; IPH ch4 covers the missed approach alternative", "confidence": "high"},
-  "AA.VII.F.S2": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 gives the simulated feathering and shutdown sequence and the crew coordination around it", "confidence": "high"},
-  "AA.VII.F.S3": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers the control combination and configuration that give best single engine performance", "confidence": "high"},
-  "AA.VII.F.S4": {"sections": [], "anchors": ["afh:ch13"], "why": "AFH ch13 covers protecting the operating engine from exceeding its limits at high power", "confidence": "low"},
-  "AA.VII.F.S5": {"sections": [], "anchors": ["ifh:ch02"], "why": "IFH ch2 The Air Traffic Control System covers IFR radio communication with ATC. The AIM is not cited by this Task", "confidence": "low"},
-  "AA.VII.F.S6": {"sections": [], "anchors": ["ifh:ch11"], "why": "IFH ch11 Emergency Operations covers diverting to the nearest suitable airport after a failure", "confidence": "low"},
-  "AA.VII.F.S7": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination", "confidence": "low"},
-  "AA.VII.F.S8": {"sections": [], "anchors": ["afh:ch13", "iph:ch04"], "why": "AFH ch13 gives the single engine approach configuration and speed; IPH ch4 covers adapting it to the approach flown", "confidence": "low"},
-  "AA.VII.F.S9": {"sections": [], "anchors": ["ifh:ch10"], "why": "IFH ch10 IFR Flight covers holding altitude, airspeed, heading and course before the final approach segment", "confidence": "high"},
-  "AA.VII.G.K1": {"sections": [], "anchors": ["phak:ch06", "afh:ch18"], "why": "PHAK ch6 Flight Controls covers flaps and leading edge devices and what their loss changes; AFH ch18 covers the malfunction case. No CFR part cited by this Task", "confidence": "high"},
-  "AA.VII.G.K2": {"sections": [], "anchors": ["afh:ch16"], "why": "AFH ch16 covers the tire speed, brake energy and structural limits that constrain a high speed landing", "confidence": "low"},
-  "AA.VII.G.K3": {"sections": [], "anchors": ["phak:ch11"], "why": "PHAK ch11 Aircraft Performance covers computing landing distance required against distance available", "confidence": "high"},
-  "AA.VII.G.R1": {"sections": [], "anchors": ["afh:ch18", "phak:ch06"], "why": "AFH ch18 covers the no flap and asymmetric flap approach hazards; PHAK ch6 covers the roll asymmetry a split flap produces", "confidence": "high"},
-  "AA.VII.G.R2": {"sections": [], "anchors": ["afh:ch09", "phak:ch11"], "why": "AFH ch9 covers runway selection for wind and surface; PHAK ch11 supplies the increased landing distance required", "confidence": "high"},
-  "AA.VII.G.R3": {"sections": [], "anchors": ["phak:ch14"], "why": "PHAK ch14 Airport Operations covers wake turbulence and its avoidance. The AIM is not cited by this Task", "confidence": "high"},
-  "AA.VII.G.R4": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers the go-around decision and execution from the approach", "confidence": "high"},
-  "AA.VII.G.R5": {"sections": [], "anchors": [], "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part", "confidence": "high"},
-  "AA.VII.G.R6": {"sections": [], "anchors": ["afh:ch05"], "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors", "confidence": "high"},
-  "AA.VII.G.R7": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness", "confidence": "high"},
-  "AA.VII.G.S1": {"sections": [], "anchors": ["afh:ch18", "phak:ch06"], "why": "AFH ch18 covers recognising the malfunction; PHAK ch6 covers the control system behavior that identifies which device failed", "confidence": "low"},
-  "AA.VII.G.S10": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers the landing roll, braking and directional control to a stop", "confidence": "high"},
-  "AA.VII.G.S2": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination", "confidence": "low"},
-  "AA.VII.G.S3": {"sections": [], "anchors": ["phak:ch11"], "why": "PHAK ch11 supplies the landing distance that determines which runway is long enough. ATC communication is AIM material, not cited here", "confidence": "low"},
-  "AA.VII.G.S4": {"sections": [], "anchors": ["phak:ch11"], "why": "PHAK ch11 covers deriving approach and landing speeds from the performance data for the actual configuration", "confidence": "high"},
-  "AA.VII.G.S5": {"sections": [], "anchors": ["afh:ch09", "afh:ch04"], "why": "AFH ch9 gives the approach configuration, airspeed and trim; ch4 gives the energy management that keeps it stabilized", "confidence": "high"},
-  "AA.VII.G.S6": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers touchdown point selection for wind, surface and obstructions", "confidence": "high"},
-  "AA.VII.G.S7": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers the round out, touchdown and after landing control application", "confidence": "high"},
-  "AA.VII.G.S8": {"sections": [], "anchors": ["afh:ch09"], "why": "AFH ch9 covers the touchdown attitude, speed and aiming point technique", "confidence": "high"},
-  "AA.VII.G.S9": {"sections": [], "anchors": [], "why": "Water touchdown technique is seaplane handbook material and this Task cites only AFH, PHAK and the Risk Management Handbook", "confidence": "high"},
-  "AA.VIII.A.K1": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 Ground Operations covers parking, shutdown, postflight inspection and securing. No CFR part cited by this Task", "confidence": "high"},
-  "AA.VIII.A.K2": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 covers recording discrepancies and servicing needs found after flight", "confidence": "low"},
-  "AA.VIII.A.R1": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction during low workload phases where vigilance drops", "confidence": "high"},
-  "AA.VIII.A.R2": {"sections": [], "anchors": [], "why": "Element is archived and carries no content to map", "confidence": "high"},
-  "AA.VIII.A.R3": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 covers propeller arc, turbine intake and exhaust hazard areas on the ramp", "confidence": "high"},
-  "AA.VIII.A.R4": {"sections": [], "anchors": ["aim:ch05-s06"], "why": "AIM 5-6 National Security and Interception Procedures is the only cited-handbook location covering aviation security requirements", "confidence": "low"},
-  "AA.VIII.A.R5": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 covers ramp safety around passengers and ground personnel", "confidence": "low"},
-  "AA.VIII.A.S1": {"sections": [], "anchors": ["aim:ch04-s03"], "why": "AIM 4-3 Airport Operations gives the runway incursion avoidance procedures after landing", "confidence": "high"},
-  "AA.VIII.A.S2": {"sections": [], "anchors": ["aim:ch04-s02", "aim:ch04-s03"], "why": "AIM 4-2 gives the radio phraseology; AIM 4-3 covers complying with ATC surface movement instructions", "confidence": "high"},
-  "AA.VIII.A.S3": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 covers the after landing checklist and when to run it relative to clearing the runway", "confidence": "high"},
-  "AA.VIII.A.S4": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 covers selecting a parking position clear of persons, property and jet blast", "confidence": "high"},
-  "AA.VIII.A.S5": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 covers the postflight inspection and recording discrepancies and servicing requirements", "confidence": "high"},
-  "AA.VIII.A.S6": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 covers chocking, tying down and securing the airplane", "confidence": "high"},
-  "AA.VIII.B.K1": {"sections": [], "anchors": ["seaplane:mooring"], "why": "Named section for seaplane mooring. No CFR part cited by this Task", "confidence": "high"},
-  "AA.VIII.B.K2": {"sections": [], "anchors": ["seaplane:docking"], "why": "Named section for seaplane docking", "confidence": "high"},
-  "AA.VIII.B.K3": {"sections": [], "anchors": ["seaplane:anchoring"], "why": "Named section for seaplane anchoring", "confidence": "high"},
-  "AA.VIII.B.K4": {"sections": [], "anchors": ["seaplane:beaching", "seaplane:ramping"], "why": "Named sections for beaching and for ramping, the two halves this element pairs", "confidence": "high"},
-  "AA.VIII.B.R1": {"sections": [], "anchors": ["risk-management:ch06"], "why": "RMH ch6 Threat and Error Management covers distraction during low workload phases where vigilance drops", "confidence": "high"},
-  "AA.VIII.B.R2": {"sections": [], "anchors": [], "why": "Element is archived and carries no content to map", "confidence": "high"},
-  "AA.VIII.B.R3": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 Ground Operations covers propeller arc, turbine intake and exhaust hazard areas", "confidence": "high"},
-  "AA.VIII.B.R4": {"sections": [], "anchors": ["aim:ch05-s06"], "why": "AIM 5-6 National Security and Interception Procedures is the only cited-handbook location covering aviation security requirements", "confidence": "low"},
-  "AA.VIII.B.R5": {"sections": [], "anchors": ["seaplane:docking", "afh:ch02"], "why": "The docking section covers getting people off the airplane onto a dock safely; AFH ch2 covers ramp safety generally", "confidence": "low"},
-  "AA.VIII.B.S1": {"sections": [], "anchors": ["aim:ch04-s02"], "why": "AIM 4-2 gives the radio communication phraseology and technique", "confidence": "high"},
-  "AA.VIII.B.S2": {"sections": [], "anchors": ["seaplane:anchoring"], "why": "The anchoring section covers site selection for depth, tide and wind and the ground tackle required", "confidence": "high"},
-  "AA.VIII.B.S3": {"sections": [], "anchors": ["seaplane:docking", "seaplane:mooring", "seaplane:beaching"], "why": "The three named sections give the approach direction and speed for a dock, a mooring buoy and a beach or ramp", "confidence": "high"},
-  "AA.VIII.B.S4": {"sections": [], "anchors": ["afh:ch02"], "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination", "confidence": "low"},
-  "AA.VIII.B.S5": {"sections": [], "anchors": ["seaplane:anchoring", "seaplane:mooring", "seaplane:beaching", "seaplane:ramping"], "why": "The element names four securing methods and each has its own named section covering wind, wave and water level effects", "confidence": "high"},
-  "AA.VIII.B.S6": {"sections": [], "anchors": ["seaplane:postflight-procedures"], "why": "Named section for seaplane postflight procedures and inspection", "confidence": "high"}
+ "AA.V.A.K1": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics covers angle of attack, load factor and the stall speed relationship; AFH ch5 applies it to the takeoff and departure configuration. No CFR part cited by this Task"
+ },
+ "AA.V.A.K2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers impending and full stall cues by sight, sound and feel; PHAK ch5 covers how design affects stall behavior"
+ },
+ "AA.V.A.K3": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers the situations that lead to a departure stall and their prevention; ch6 covers the takeoff and departure climb phase itself"
+ },
+ "AA.V.A.K4": {
+  "anchors": [
+   "risk-management:ch07",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch7 Automation and Flight Path Management covers autopilot and autothrottle modes and unexpected disconnects; AFH ch16 covers jet envelope protection"
+ },
+ "AA.V.A.K5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 gives the stall recovery template: reduce angle of attack first, then level the wings and add power"
+ },
+ "AA.V.A.R1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 Upset Prevention and Recovery covers the precursors to an inadvertent stall, spin and loss of control"
+ },
+ "AA.V.A.R2": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers stall warning devices, what they sense and where they can mislead"
+ },
+ "AA.V.A.R3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers recognising and acting on the first stall warning"
+ },
+ "AA.V.A.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 gives the stall recovery procedure and the errors that defeat it"
+ },
+ "AA.V.A.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers secondary, accelerated, elevator trim and cross-control stalls"
+ },
+ "AA.V.A.R6": {
+  "anchors": [
+   "phak:ch11",
+   "phak:ch12"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch11 covers density altitude effect on performance margin; ch12 Weather Theory covers turbulence and microbursts"
+ },
+ "AA.V.A.R7": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision avoidance and terrain clearance are AIM material, and this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.V.A.R8": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.V.A.S1": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch10 Performance Maneuvers covers clearing turns and choosing a maneuvering altitude. The specific 3,000 foot AGL floor is an ACS standard"
+ },
+ "AA.V.A.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived and carries no content to map"
+ },
+ "AA.V.A.S3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch5 covers establishing the configuration and holding coordinated flight through the approach to the stall"
+ },
+ "AA.V.A.S4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers the entry to an impending stall with pitch, bank and power, manually or coupled"
+ },
+ "AA.V.A.S5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers acknowledging the cue and recovering at the first indication rather than at the full stall"
+ },
+ "AA.V.A.S6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 gives the stall recovery sequence the POH procedure elaborates"
+ },
+ "AA.V.A.S7": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch5 covers the clean up after recovery; ch6 covers gear and flap retraction on a positive rate of climb"
+ },
+ "AA.V.B.K1": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics covers angle of attack, load factor and the stall speed relationship; AFH ch5 applies it to the clean configuration"
+ },
+ "AA.V.B.K2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers impending and full stall cues by sight, sound and feel; PHAK ch5 covers how design affects stall behavior"
+ },
+ "AA.V.B.K3": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers the situations that lead to a cruise stall and their prevention; ch16 covers the high altitude cruise case"
+ },
+ "AA.V.B.K4": {
+  "anchors": [
+   "risk-management:ch07",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch7 covers autopilot and autothrottle modes and unexpected disconnects; AFH ch16 covers jet envelope protection"
+ },
+ "AA.V.B.K5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 gives the stall recovery template: reduce angle of attack first, then level the wings and add power"
+ },
+ "AA.V.B.K6": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch16 covers thrust available and control effectiveness at high altitude; PHAK ch11 covers the underlying performance loss"
+ },
+ "AA.V.B.R1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers the precursors to an inadvertent stall, spin and loss of control in cruise"
+ },
+ "AA.V.B.R2": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers stall warning devices, what they sense and where they can mislead"
+ },
+ "AA.V.B.R3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers recognising and acting on the first stall warning"
+ },
+ "AA.V.B.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 gives the stall recovery procedure and the errors that defeat it"
+ },
+ "AA.V.B.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers secondary, accelerated, elevator trim and cross-control stalls"
+ },
+ "AA.V.B.R6": {
+  "anchors": [
+   "phak:ch11",
+   "phak:ch12"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch11 covers density altitude effect on cruise performance margin; ch12 Weather Theory covers turbulence and microbursts"
+ },
+ "AA.V.B.R7": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision avoidance and terrain clearance are AIM material, and this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.V.B.R8": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.V.B.S1": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch10 Performance Maneuvers covers clearing turns and choosing a maneuvering altitude. The specific 3,000 foot AGL floor is an ACS standard"
+ },
+ "AA.V.B.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived and carries no content to map"
+ },
+ "AA.V.B.S3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch5 covers holding coordinated flight through the approach to the stall"
+ },
+ "AA.V.B.S4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers the entry to an impending stall with pitch, bank and power, manually or coupled"
+ },
+ "AA.V.B.S5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers acknowledging the cue and recovering at the first indication rather than at the full stall"
+ },
+ "AA.V.B.S6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 gives the stall recovery sequence the POH procedure elaborates"
+ },
+ "AA.V.B.S7": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch5 covers returning to the assigned flight path after the recovery without a secondary stall"
+ },
+ "AA.V.C.K1": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics covers angle of attack, load factor and the stall speed relationship; AFH ch5 applies it to the landing configuration"
+ },
+ "AA.V.C.K2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers impending and full stall cues by sight, sound and feel; PHAK ch5 covers how design affects stall behavior"
+ },
+ "AA.V.C.K3": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers the situations that lead to a landing configuration stall; ch9 Approaches and Landings covers the phase they occur in"
+ },
+ "AA.V.C.K4": {
+  "anchors": [
+   "risk-management:ch07",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch7 covers autopilot and autothrottle modes and unexpected disconnects; AFH ch16 covers jet envelope protection"
+ },
+ "AA.V.C.K5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 gives the stall recovery template: reduce angle of attack first, then level the wings and add power"
+ },
+ "AA.V.C.R1": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers the precursors to an inadvertent stall, spin and loss of control during landing"
+ },
+ "AA.V.C.R2": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers stall warning devices, what they sense and where they can mislead"
+ },
+ "AA.V.C.R3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers recognising and acting on the first stall warning"
+ },
+ "AA.V.C.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 gives the stall recovery procedure and the errors that defeat it"
+ },
+ "AA.V.C.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers secondary, accelerated, elevator trim and cross-control stalls"
+ },
+ "AA.V.C.R6": {
+  "anchors": [
+   "phak:ch11",
+   "phak:ch12"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch11 covers density altitude effect on landing performance margin; ch12 Weather Theory covers turbulence, icing and microbursts"
+ },
+ "AA.V.C.R7": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers the reduced recovery margin at low altitude; ch9 covers the approach and landing where it arises"
+ },
+ "AA.V.C.R8": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision avoidance and terrain clearance are AIM material, and this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.V.C.R9": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.V.C.S1": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch10 Performance Maneuvers covers clearing turns and choosing a maneuvering altitude. The specific 3,000 foot AGL floor is an ACS standard"
+ },
+ "AA.V.C.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived and carries no content to map"
+ },
+ "AA.V.C.S3": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch5 covers establishing the landing configuration and holding coordinated flight through the approach to the stall"
+ },
+ "AA.V.C.S4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers the entry to an impending stall with pitch, bank and power, manually or coupled"
+ },
+ "AA.V.C.S5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers acknowledging the cue and recovering at the first indication rather than at the full stall"
+ },
+ "AA.V.C.S6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 gives the stall recovery sequence the POH procedure elaborates"
+ },
+ "AA.V.C.S7": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch5 covers the clean up after recovery; ch6 covers gear and flap retraction on a positive rate of climb"
+ },
+ "AA.VII.A.K1": {
+  "anchors": [
+   "aim:ch06-s03"
+  ],
+  "confidence": "high",
+  "section_why": "91.3(b) gives the pilot in command emergency authority; AIM 6-3 Distress and Urgency Procedures covers declaring and selecting a landing location",
+  "sections": [
+   "91.3"
+  ],
+  "why": "91.3(b) gives the pilot in command emergency authority; AIM 6-3 Distress and Urgency Procedures covers declaring and selecting a landing location"
+ },
+ "AA.VII.A.K2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 Emergency Procedures covers the emergency descent and the conditions that force one"
+ },
+ "AA.VII.A.K3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers the causes and handling of inflight fire and smoke"
+ },
+ "AA.VII.A.K4": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "section_why": "91.211 sets the supplemental oxygen requirement a decompression invokes; AFH ch16 covers pressurization failure and PHAK ch17 the hypoxia that follows",
+  "sections": [
+   "91.211"
+  ],
+  "why": "91.211 sets the supplemental oxygen requirement a decompression invokes; AFH ch16 covers pressurization failure and PHAK ch17 the hypoxia that follows"
+ },
+ "AA.VII.A.K5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers the conditions that make an evacuation necessary after an emergency landing"
+ },
+ "AA.VII.A.K6": {
+  "anchors": [
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "section_why": "91.527 prohibits continued flight into icing beyond the airplane certification; PHAK ch12 Weather Theory covers the icing conditions themselves",
+  "sections": [
+   "91.527"
+  ],
+  "why": "91.527 prohibits continued flight into icing beyond the airplane certification; PHAK ch12 Weather Theory covers the icing conditions themselves"
+ },
+ "AA.VII.A.R1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers choosing between memory items and checklist procedures under time pressure"
+ },
+ "AA.VII.A.R2": {
+  "anchors": [
+   "risk-management:ch06",
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 covers compounding threats; AFH ch18 covers handling more than one abnormality at once"
+ },
+ "AA.VII.A.R3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers altitude, wind, terrain and obstruction assessment in an emergency"
+ },
+ "AA.VII.A.R4": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.VII.A.S1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 is the general source for describing an emergency procedure"
+ },
+ "AA.VII.A.S2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Parent element; AFH ch18 Emergency Procedures covers the listed situations"
+ },
+ "AA.VII.A.S2a": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 gives the emergency descent procedure and its configuration and speed"
+ },
+ "AA.VII.A.S2b": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 gives the inflight fire and smoke procedures"
+ },
+ "AA.VII.A.S2c": {
+  "anchors": [
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "section_why": "AFH ch16 covers pressurization failure and the descent it requires; 91.211 sets the oxygen requirement",
+  "sections": [
+   "91.211"
+  ],
+  "why": "AFH ch16 covers pressurization failure and the descent it requires; 91.211 sets the oxygen requirement"
+ },
+ "AA.VII.A.S2d": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers evacuation after an emergency landing"
+ },
+ "AA.VII.A.S2e": {
+  "anchors": [
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "section_why": "91.527 governs operating in icing; PHAK ch12 covers recognising airframe icing and its effects",
+  "sections": [
+   "91.527"
+  ],
+  "why": "91.527 governs operating in icing; PHAK ch12 covers recognising airframe icing and its effects"
+ },
+ "AA.VII.A.S2f": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Deliberately open ended: the remaining procedures are whatever the AFM or POH for the test airplane lists"
+ },
+ "AA.VII.A.S3": {
+  "anchors": [
+   "phak:ch08"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch8 Flight Instruments covers the standby and backup instrumentation and partial panel indications. The IFH is not cited by this Task"
+ },
+ "AA.VII.A.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination"
+ },
+ "AA.VII.A.S5": {
+  "anchors": [
+   "aim:ch06-s03"
+  ],
+  "confidence": "high",
+  "section_why": "AIM 6-3 gives the distress and urgency phraseology and priority handling; 91.3(b) covers reporting a deviation taken under emergency authority",
+  "sections": [
+   "91.3"
+  ],
+  "why": "AIM 6-3 gives the distress and urgency phraseology and priority handling; 91.3(b) covers reporting a deviation taken under emergency authority"
+ },
+ "AA.VII.B.K1": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 gives the engine failure on takeoff procedure; ch13 gives the multiengine reference airspeeds and the continue or reject decision. No CFR part cited by this Task"
+ },
+ "AA.VII.B.K2": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers sideslip, bank angle and rudder input with an engine out; PHAK ch11 covers runway length, surface and density altitude effects"
+ },
+ "AA.VII.B.R1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers preflight planning for the takeoff failure decision; ch18 covers the procedures planned for"
+ },
+ "AA.VII.B.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers briefing a threat in advance so the crew acts on a shared plan"
+ },
+ "AA.VII.B.R3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers choosing between memory items and checklist procedures under time pressure"
+ },
+ "AA.VII.B.R4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers identifying the failed engine by rudder pressure and instrument confirmation before acting"
+ },
+ "AA.VII.B.R5": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers single engine climb capability and the drift down that follows; PHAK ch11 covers the performance data behind it"
+ },
+ "AA.VII.B.R6": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers altitude, wind, terrain and obstruction assessment in an emergency"
+ },
+ "AA.VII.B.R7": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors"
+ },
+ "AA.VII.B.R8": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.VII.B.S1": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers maintaining control first; ch13 covers the powerplant control handling that follows"
+ },
+ "AA.VII.B.S2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers the straight ahead power off descent when the failure occurs below a safe turnback altitude"
+ },
+ "AA.VII.B.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers continuing the takeoff when the airplane can reach a safe speed and altitude on the remaining engine"
+ },
+ "AA.VII.B.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers the control combination, bank into the operating engine and airspeed control in the single engine climb"
+ },
+ "AA.VII.B.S5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers directional control and heading maintenance after an engine failure"
+ },
+ "AA.VII.B.S6": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination"
+ },
+ "AA.VII.B.S7": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "ATC communication is AIM material and this Task does not cite the AIM"
+ },
+ "AA.VII.C.K1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 Emergency Procedures gives the immediate action items for an emergency approach and landing. No CFR part cited by this Task"
+ },
+ "AA.VII.C.K2": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "Parent element on airspeed; AFH ch18 covers glide speed and PHAK ch11 the glide performance data"
+ },
+ "AA.VII.C.K2a": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers establishing best glide speed; PHAK ch11 covers the glide ratio and distance it produces"
+ },
+ "AA.VII.C.K2b": {
+  "anchors": [
+   "phak:ch05",
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch5 Aerodynamics distinguishes the maximum lift over drag speed from the minimum power speed; AFH ch18 applies the difference to a forced landing"
+ },
+ "AA.VII.C.K2c": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers adjusting glide speed for wind; PHAK ch11 covers the effect of wind on glide distance over the ground"
+ },
+ "AA.VII.C.K3": {
+  "anchors": [
+   "phak:ch11",
+   "phak:ch12"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch11 covers density altitude and wind effect on the approach; ch12 Weather Theory covers the conditions themselves"
+ },
+ "AA.VII.C.K4": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch4 Energy Management supplies the energy concepts; ch9 defines the stabilized approach"
+ },
+ "AA.VII.C.K5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers ELT activation and survival equipment after a forced landing. The AIM, which covers ELT operation in detail, is not cited by this Task"
+ },
+ "AA.VII.C.K6": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "ATC services to aircraft in distress are AIM material and this Task does not cite the AIM"
+ },
+ "AA.VII.C.R1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers judging altitude, wind, terrain and gliding distance against the available landing area"
+ },
+ "AA.VII.C.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers committing to a flight path and the risk of changing it late"
+ },
+ "AA.VII.C.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.VII.C.R4": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers when to extend gear and flaps during a forced landing approach"
+ },
+ "AA.VII.C.R5": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors"
+ },
+ "AA.VII.C.R6": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.VII.C.R7": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers the forced landing case where the landing area cannot be seen until late"
+ },
+ "AA.VII.C.S1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers recognising a powerplant failure from the instruments and the airplane response"
+ },
+ "AA.VII.C.S2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers troubleshooting the cause and judging whether a restart is worth the altitude"
+ },
+ "AA.VII.C.S3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 puts aircraft control ahead of every other action in an emergency"
+ },
+ "AA.VII.C.S4": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers establishing and holding best glide airspeed"
+ },
+ "AA.VII.C.S5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers configuring the airplane for the forced landing per the POH"
+ },
+ "AA.VII.C.S6": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers selecting a landing area against altitude, wind, terrain and glide distance"
+ },
+ "AA.VII.C.S7": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers flying a pattern to the selected landing area that preserves energy and options"
+ },
+ "AA.VII.C.S8": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 gives the emergency checklist items; ch2 covers checklist discipline"
+ },
+ "AA.VII.C.S9": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "ATC communication is AIM material and this Task does not cite the AIM"
+ },
+ "AA.VII.D.K1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 Transition to Multiengine Airplanes covers single engine controllability, asymmetric thrust and the drag penalty of a windmilling propeller. No CFR part cited by this Task"
+ },
+ "AA.VII.D.K2": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers airstart procedures and when to attempt one; ch13 covers unfeathering a propeller"
+ },
+ "AA.VII.D.R1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 covers the multiengine failure case; ch18 the general emergency response"
+ },
+ "AA.VII.D.R2": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers securing versus restarting the failed engine; ch18 covers the restart attempt itself"
+ },
+ "AA.VII.D.R3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers diagnosing the cause before committing to a shutdown or a restart"
+ },
+ "AA.VII.D.R4": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.VII.D.R5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 covers drag reduction: feathering, gear and flaps up, and the bank into the operating engine"
+ },
+ "AA.VII.D.R6": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers minimum control speed and the loss of control it produces; ch5 covers the stall and spin that follow"
+ },
+ "AA.VII.D.R7": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.VII.D.S1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers identifying and verifying the failed engine; ch18 covers the memory items and control priority"
+ },
+ "AA.VII.D.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 gives the feathering and shutdown sequence for a failed engine"
+ },
+ "AA.VII.D.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers the rudder, bank and trim combination that gives best single engine performance"
+ },
+ "AA.VII.D.S4": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers diagnosing the failure and judging whether a restart is viable"
+ },
+ "AA.VII.D.S5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 covers protecting the operating engine from exceeding its limits at high power"
+ },
+ "AA.VII.D.S6": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 covers holding airspeed, altitude and heading on one engine within the airplane capability"
+ },
+ "AA.VII.D.S7": {
+  "anchors": [
+   "afh:ch18",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 gives the airstart procedure; ch13 covers unfeathering and bringing the engine back on line"
+ },
+ "AA.VII.D.S8": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers selecting the nearest suitable landing site after a failure"
+ },
+ "AA.VII.D.S9": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "ATC communication is AIM material and this Task does not cite the AIM"
+ },
+ "AA.VII.E.K1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers single engine controllability while maneuvering to land. No CFR part cited by this Task"
+ },
+ "AA.VII.E.K2": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers the single engine go-around and why it may not be available; ch9 gives the go-around itself"
+ },
+ "AA.VII.E.K3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers weighing runway length, surface, weather and services when choosing a diversion airport"
+ },
+ "AA.VII.E.R1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers planning the single engine approach before the airplane is committed"
+ },
+ "AA.VII.E.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.VII.E.R3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 covers delaying gear and flap extension on a single engine approach to preserve the go-around option"
+ },
+ "AA.VII.E.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors"
+ },
+ "AA.VII.E.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.VII.E.R6": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers the single engine go-around and the point past which it is not achievable; ch9 gives the maneuver"
+ },
+ "AA.VII.E.S1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers identifying and verifying the failed engine; ch18 covers the memory items and control priority"
+ },
+ "AA.VII.E.S10": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers the touchdown attitude, speed and aiming point technique"
+ },
+ "AA.VII.E.S11": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Water touchdown technique is seaplane handbook material and this Task cites only AFH, PHAK and the Risk Management Handbook"
+ },
+ "AA.VII.E.S12": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers the landing roll, braking and directional control to a stop"
+ },
+ "AA.VII.E.S13": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers the after landing checklist and crew coordination"
+ },
+ "AA.VII.E.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 gives the simulated feathering and shutdown sequence and the crew coordination around it"
+ },
+ "AA.VII.E.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers the control combination and configuration that give best single engine performance"
+ },
+ "AA.VII.E.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 covers protecting the operating engine from exceeding its limits at high power"
+ },
+ "AA.VII.E.S5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "ATC communication is AIM material and this Task does not cite the AIM"
+ },
+ "AA.VII.E.S6": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch9 covers holding altitude, airspeed and course before the final approach segment"
+ },
+ "AA.VII.E.S7": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 gives the approach configuration and airspeed; ch4 gives the energy management that keeps it stabilized"
+ },
+ "AA.VII.E.S8": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers directional control and crosswind correction through the approach and landing"
+ },
+ "AA.VII.E.S9": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers the round out, touchdown and after landing control application"
+ },
+ "AA.VII.F.K1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers single engine controllability while maneuvering to land. No CFR part cited by this Task"
+ },
+ "AA.VII.F.K2": {
+  "anchors": [
+   "iph:ch04",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch4 Approaches covers the missed approach segment and its climb gradient; IFH ch11 Emergency Operations covers flying it with an engine out"
+ },
+ "AA.VII.F.K3": {
+  "anchors": [
+   "ifh:ch11",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "IFH ch11 covers diverting after a failure; IPH ch4 covers the approach minimums that make an airport suitable"
+ },
+ "AA.VII.F.R1": {
+  "anchors": [
+   "ifh:ch11",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch11 covers planning for a failure in IFR conditions; AFH ch13 covers the single engine handling it requires"
+ },
+ "AA.VII.F.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.VII.F.R3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 covers delaying gear and flap extension on a single engine approach to preserve the missed approach option"
+ },
+ "AA.VII.F.R4": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors"
+ },
+ "AA.VII.F.R5": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.VII.F.R6": {
+  "anchors": [
+   "afh:ch13",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 covers the single engine landing; IPH ch4 covers the transition from the instrument approach to it"
+ },
+ "AA.VII.F.R7": {
+  "anchors": [
+   "iph:ch04",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch4 covers the missed approach climb requirement; IFH ch11 covers whether one engine can meet it"
+ },
+ "AA.VII.F.R8": {
+  "anchors": [
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch11 Emergency Operations covers maneuvering in IMC after a powerplant failure"
+ },
+ "AA.VII.F.S1": {
+  "anchors": [
+   "afh:ch13",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers identifying and verifying the failed engine; IFH ch11 covers doing it while on instruments"
+ },
+ "AA.VII.F.S10": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch4 Approaches covers approach category, inoperative components and the DA/DH and visibility adjustments they require"
+ },
+ "AA.VII.F.S11": {
+  "anchors": [
+   "iph:ch04",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch4 covers the descent at the vertical guidance intercept; IFH ch10 IFR Flight covers computing the rate for the groundspeed"
+ },
+ "AA.VII.F.S12": {
+  "anchors": [
+   "iph:ch04",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch4 covers flying the vertically guided approach; IFH ch10 covers holding course and glidepath within tolerance"
+ },
+ "AA.VII.F.S13": {
+  "anchors": [
+   "iph:ch04",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch4 covers the final approach segment from the FAF to the DA/DH; IFH ch10 covers the tracking precision required"
+ },
+ "AA.VII.F.S14": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers directional control and crosswind correction through the approach and landing"
+ },
+ "AA.VII.F.S15": {
+  "anchors": [
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IPH ch4 gives the visual reference requirement at DA/DH and the immediate missed approach when it is not met"
+ },
+ "AA.VII.F.S16": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers the round out and touchdown control application; IPH ch4 covers the missed approach alternative"
+ },
+ "AA.VII.F.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 gives the simulated feathering and shutdown sequence and the crew coordination around it"
+ },
+ "AA.VII.F.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch13 covers the control combination and configuration that give best single engine performance"
+ },
+ "AA.VII.F.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 covers protecting the operating engine from exceeding its limits at high power"
+ },
+ "AA.VII.F.S5": {
+  "anchors": [
+   "ifh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "IFH ch2 The Air Traffic Control System covers IFR radio communication with ATC. The AIM is not cited by this Task"
+ },
+ "AA.VII.F.S6": {
+  "anchors": [
+   "ifh:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "IFH ch11 Emergency Operations covers diverting to the nearest suitable airport after a failure"
+ },
+ "AA.VII.F.S7": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination"
+ },
+ "AA.VII.F.S8": {
+  "anchors": [
+   "afh:ch13",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch13 gives the single engine approach configuration and speed; IPH ch4 covers adapting it to the approach flown"
+ },
+ "AA.VII.F.S9": {
+  "anchors": [
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "IFH ch10 IFR Flight covers holding altitude, airspeed, heading and course before the final approach segment"
+ },
+ "AA.VII.G.K1": {
+  "anchors": [
+   "phak:ch06",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch6 Flight Controls covers flaps and leading edge devices and what their loss changes; AFH ch18 covers the malfunction case. No CFR part cited by this Task"
+ },
+ "AA.VII.G.K2": {
+  "anchors": [
+   "afh:ch16"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch16 covers the tire speed, brake energy and structural limits that constrain a high speed landing"
+ },
+ "AA.VII.G.K3": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch11 Aircraft Performance covers computing landing distance required against distance available"
+ },
+ "AA.VII.G.R1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch18 covers the no flap and asymmetric flap approach hazards; PHAK ch6 covers the roll asymmetry a split flap produces"
+ },
+ "AA.VII.G.R2": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers runway selection for wind and surface; PHAK ch11 supplies the increased landing distance required"
+ },
+ "AA.VII.G.R3": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch14 Airport Operations covers wake turbulence and its avoidance. The AIM is not cited by this Task"
+ },
+ "AA.VII.G.R4": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers the go-around decision and execution from the approach"
+ },
+ "AA.VII.G.R5": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Collision avoidance is AIM material and this Task cites neither the AIM nor a CFR part"
+ },
+ "AA.VII.G.R6": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch5 covers low altitude loss of control, stall, spin and CFIT precursors"
+ },
+ "AA.VII.G.R7": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction, task prioritization and loss of situational awareness"
+ },
+ "AA.VII.G.S1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch18 covers recognising the malfunction; PHAK ch6 covers the control system behavior that identifies which device failed"
+ },
+ "AA.VII.G.S10": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers the landing roll, braking and directional control to a stop"
+ },
+ "AA.VII.G.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination"
+ },
+ "AA.VII.G.S3": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "PHAK ch11 supplies the landing distance that determines which runway is long enough. ATC communication is AIM material, not cited here"
+ },
+ "AA.VII.G.S4": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "PHAK ch11 covers deriving approach and landing speeds from the performance data for the actual configuration"
+ },
+ "AA.VII.G.S5": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 gives the approach configuration, airspeed and trim; ch4 gives the energy management that keeps it stabilized"
+ },
+ "AA.VII.G.S6": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers touchdown point selection for wind, surface and obstructions"
+ },
+ "AA.VII.G.S7": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers the round out, touchdown and after landing control application"
+ },
+ "AA.VII.G.S8": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch9 covers the touchdown attitude, speed and aiming point technique"
+ },
+ "AA.VII.G.S9": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Water touchdown technique is seaplane handbook material and this Task cites only AFH, PHAK and the Risk Management Handbook"
+ },
+ "AA.VIII.A.K1": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers parking, shutdown, postflight inspection and securing. No CFR part cited by this Task"
+ },
+ "AA.VIII.A.K2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 covers recording discrepancies and servicing needs found after flight"
+ },
+ "AA.VIII.A.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction during low workload phases where vigilance drops"
+ },
+ "AA.VIII.A.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived and carries no content to map"
+ },
+ "AA.VIII.A.R3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers propeller arc, turbine intake and exhaust hazard areas on the ramp"
+ },
+ "AA.VIII.A.R4": {
+  "anchors": [
+   "aim:ch05-s06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 5-6 National Security and Interception Procedures is the only cited-handbook location covering aviation security requirements"
+ },
+ "AA.VIII.A.R5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 covers ramp safety around passengers and ground personnel"
+ },
+ "AA.VIII.A.S1": {
+  "anchors": [
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-3 Airport Operations gives the runway incursion avoidance procedures after landing"
+ },
+ "AA.VIII.A.S2": {
+  "anchors": [
+   "aim:ch04-s02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 gives the radio phraseology; AIM 4-3 covers complying with ATC surface movement instructions"
+ },
+ "AA.VIII.A.S3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers the after landing checklist and when to run it relative to clearing the runway"
+ },
+ "AA.VIII.A.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers selecting a parking position clear of persons, property and jet blast"
+ },
+ "AA.VIII.A.S5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers the postflight inspection and recording discrepancies and servicing requirements"
+ },
+ "AA.VIII.A.S6": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 covers chocking, tying down and securing the airplane"
+ },
+ "AA.VIII.B.K1": {
+  "anchors": [
+   "seaplane:mooring"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Named section for seaplane mooring. No CFR part cited by this Task"
+ },
+ "AA.VIII.B.K2": {
+  "anchors": [
+   "seaplane:docking"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Named section for seaplane docking"
+ },
+ "AA.VIII.B.K3": {
+  "anchors": [
+   "seaplane:anchoring"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Named section for seaplane anchoring"
+ },
+ "AA.VIII.B.K4": {
+  "anchors": [
+   "seaplane:beaching",
+   "seaplane:ramping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Named sections for beaching and for ramping, the two halves this element pairs"
+ },
+ "AA.VIII.B.R1": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "RMH ch6 Threat and Error Management covers distraction during low workload phases where vigilance drops"
+ },
+ "AA.VIII.B.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "sections": [],
+  "why": "Element is archived and carries no content to map"
+ },
+ "AA.VIII.B.R3": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers propeller arc, turbine intake and exhaust hazard areas"
+ },
+ "AA.VIII.B.R4": {
+  "anchors": [
+   "aim:ch05-s06"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AIM 5-6 National Security and Interception Procedures is the only cited-handbook location covering aviation security requirements"
+ },
+ "AA.VIII.B.R5": {
+  "anchors": [
+   "seaplane:docking",
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "The docking section covers getting people off the airplane onto a dock safely; AFH ch2 covers ramp safety generally"
+ },
+ "AA.VIII.B.S1": {
+  "anchors": [
+   "aim:ch04-s02"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "AIM 4-2 gives the radio communication phraseology and technique"
+ },
+ "AA.VIII.B.S2": {
+  "anchors": [
+   "seaplane:anchoring"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The anchoring section covers site selection for depth, tide and wind and the ground tackle required"
+ },
+ "AA.VIII.B.S3": {
+  "anchors": [
+   "seaplane:docking",
+   "seaplane:mooring",
+   "seaplane:beaching"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The three named sections give the approach direction and speed for a dock, a mooring buoy and a beach or ramp"
+ },
+ "AA.VIII.B.S4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "sections": [],
+  "why": "AFH ch2 Ground Operations covers checklist discipline and crew coordination"
+ },
+ "AA.VIII.B.S5": {
+  "anchors": [
+   "seaplane:anchoring",
+   "seaplane:mooring",
+   "seaplane:beaching",
+   "seaplane:ramping"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "The element names four securing methods and each has its own named section covering wind, wave and water level effects"
+ },
+ "AA.VIII.B.S6": {
+  "anchors": [
+   "seaplane:postflight-procedures"
+  ],
+  "confidence": "high",
+  "sections": [],
+  "why": "Named section for seaplane postflight procedures and inspection"
+ }
 }

@@ -1,0 +1,1550 @@
+{
+ "certificate": "instrument",
+ "packet": "instrument-a",
+ "areas": [
+  "I",
+  "II"
+ ],
+ "anchor_menu": {
+  "afh": {
+   "afh:ch01": "Introduction to Flight Training",
+   "afh:ch02": "Ground Operations",
+   "afh:ch03": "Basic Flight Maneuvers",
+   "afh:ch04": "Energy Management: Mastering Altitude and Airspeed Control",
+   "afh:ch05": "Maintaining Aircraft Control: Upset Prevention and Recovery",
+   "afh:ch06": "Takeoffs and Departure Climbs",
+   "afh:ch07": "Ground Reference Maneuvers",
+   "afh:ch08": "Airport Traffic Patterns",
+   "afh:ch09": "Approaches and Landings",
+   "afh:ch10": "Performance Maneuvers",
+   "afh:ch11": "Night Operations",
+   "afh:ch12": "Transition to Complex Airplanes",
+   "afh:ch13": "Transition to Multiengine Airplanes",
+   "afh:ch14": "Transition to Tailwheel Airplanes",
+   "afh:ch15": "Transition to Turbopropeller-Powered Airplanes",
+   "afh:ch16": "Transition to Jet-Powered Airplanes",
+   "afh:ch17": "Transition to Light Sport Airplanes (LSA)",
+   "afh:ch18": "Emergency Procedures"
+  },
+  "aim": {
+   "aim:ch01": "Air Navigation",
+   "aim:ch01-s01": "Section 1. Navigation Aids",
+   "aim:ch01-s02": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
+   "aim:ch02": "Aeronautical Lighting and Other Airport",
+   "aim:ch02-s01": "Section 1. Airport Lighting Aids",
+   "aim:ch02-s02": "Section 2. Air Navigation and Obstruction Lighting",
+   "aim:ch02-s03": "Section 3. Airport Marking Aids and Signs",
+   "aim:ch03": "Airspace",
+   "aim:ch03-s01": "Section 1. General",
+   "aim:ch03-s02": "Section 2. Controlled Airspace",
+   "aim:ch03-s03": "Section 3. Class G Airspace",
+   "aim:ch03-s04": "Section 4. Special Use Airspace",
+   "aim:ch03-s05": "Section 5. Other Airspace Areas",
+   "aim:ch04": "Air Traffic Control",
+   "aim:ch04-s01": "Section 1. Services Available to Pilots",
+   "aim:ch04-s02": "Section 2. Radio Communications Phraseology and Techniques",
+   "aim:ch04-s03": "Section 3. Airport Operations",
+   "aim:ch04-s04": "Section 4. ATC Clearances and Aircraft Separation",
+   "aim:ch04-s05": "Section 5. Surveillance Systems",
+   "aim:ch04-s06": "Section 6. Operational Policy/Procedures for Reduced Vertical Separation Minimum (RVSM) in the Domestic U.S., Alaska, Of",
+   "aim:ch04-s07": "Section 7. Operational Policy/Procedures for the Gulf of America 50 NM Lateral Separation Initiative",
+   "aim:ch05": "Air Traffic Procedures",
+   "aim:ch05-s01": "Section 1. Preflight",
+   "aim:ch05-s02": "Section 2. Departure Procedures",
+   "aim:ch05-s03": "Section 3. En Route Procedures",
+   "aim:ch05-s04": "Section 4. Arrival Procedures",
+   "aim:ch05-s05": "Section 5. Pilot/Controller Roles and Responsibilities",
+   "aim:ch05-s06": "Section 6. National Security and Interception Procedures",
+   "aim:ch06": "Emergency Procedures",
+   "aim:ch06-s01": "Section 1. General",
+   "aim:ch06-s02": "Section 2. Emergency Services Available to Pilots",
+   "aim:ch06-s03": "Section 3. Distress and Urgency Procedures",
+   "aim:ch06-s04": "Section 4. Two‐way Radio Communications Failure",
+   "aim:ch06-s05": "Section 5. Aircraft Rescue and Fire Fighting Communications",
+   "aim:ch07": "Safety of Flight",
+   "aim:ch07-s01": "Section 1. Meteorology",
+   "aim:ch07-s02": "Section 2. Barometric Altimeter Errors and Setting Procedures",
+   "aim:ch07-s03": "Section 3. Cold Temperature Barometric Altimeter Errors, Setting Procedures and Cold Temperature Airports (CTA)",
+   "aim:ch07-s04": "Section 4. Wake Turbulence",
+   "aim:ch07-s05": "Section 5. Bird Hazards and Flight Over National Refuges, Parks, and Forests",
+   "aim:ch07-s06": "Section 6. Potential Flight Hazards",
+   "aim:ch07-s07": "Section 7. Safety, Accident, and Hazard Reports",
+   "aim:ch08": "Medical Facts for Pilots",
+   "aim:ch08-s01": "Section 1. Fitness for Flight",
+   "aim:ch09": "Aeronautical Charts and",
+   "aim:ch09-s01": "Section 1. Types of Charts Available",
+   "aim:ch10": "Helicopter Operations",
+   "aim:ch10-s01": "Section 1. Helicopter IFR Operations",
+   "aim:ch10-s02": "Section 2. Special Operations",
+   "aim:ch11": "Unmanned Aircraft Systems (UAS)",
+   "aim:ch11-s01": "Section 1. General",
+   "aim:ch11-s02": "Section 2. Small Unmanned Aircraft System (sUAS)",
+   "aim:ch11-s03": "Section 3. Large UAS (MGOW 55 Pounds or More)",
+   "aim:ch11-s04": "Section 4. Airspace Access for UAS",
+   "aim:ch11-s05": "Section 5. UAS Pilot Testing, Certification and Responsibilities",
+   "aim:ch11-s06": "Section 6. Advanced Air Mobility",
+   "aim:ch11-s07": "Section 7. UAS Operations on Airports",
+   "aim:ch11-s08": "Section 8. Other Information and Best Practices"
+  },
+  "aviation-weather": {
+   "aviation-weather:ch01": "1 Introduction",
+   "aviation-weather:ch02": "2 Aviation Weather Service Program",
+   "aviation-weather:ch03": "3 Overview of Aviation Weather Information",
+   "aviation-weather:ch04": "4 The Earth’s Atmosphere",
+   "aviation-weather:ch05": "5 Heat and Temperature",
+   "aviation-weather:ch06": "6 Water Vapor",
+   "aviation-weather:ch07": "7 Earth-Atmosphere Heat Imbalances",
+   "aviation-weather:ch08": "8 Atmospheric Pressure and Altimetry",
+   "aviation-weather:ch09": "9 Global Circulations and Jet Streams",
+   "aviation-weather:ch10": "10 Wind",
+   "aviation-weather:ch11": "11 Air Masses, Fronts, and the Wave Cyclone Model",
+   "aviation-weather:ch12": "12 Vertical Motion and Clouds",
+   "aviation-weather:ch13": "13 Atmospheric Stability",
+   "aviation-weather:ch14": "14 Precipitation",
+   "aviation-weather:ch15": "15 Weather Radar",
+   "aviation-weather:ch16": "16 Mountain Weather",
+   "aviation-weather:ch17": "17 Tropical Weather",
+   "aviation-weather:ch18": "18 Weather and Obstructions to Visibility",
+   "aviation-weather:ch19": "19 Turbulence",
+   "aviation-weather:ch20": "20 Icing",
+   "aviation-weather:ch21": "21 Arctic Weather",
+   "aviation-weather:ch22": "22 Thunderstorms",
+   "aviation-weather:ch23": "23 Space Weather",
+   "aviation-weather:ch24": "24 Observations",
+   "aviation-weather:ch25": "25 Analysis",
+   "aviation-weather:ch26": "26 Advisories",
+   "aviation-weather:ch27": "27 Forecasts",
+   "aviation-weather:ch28": "28 Aviation Weather Tools"
+  },
+  "ifh": {
+   "ifh:ch01": "The National Airspace System",
+   "ifh:ch02": "The Air Traffic Control System",
+   "ifh:ch03": "Human Factors",
+   "ifh:ch04": "Aerodynamic Factors",
+   "ifh:ch05": "Flight Instruments",
+   "ifh:ch06": "Airplane Attitude Instrument Flying Using",
+   "ifh:ch07": "Airplane Basic Flight Maneuvers Using",
+   "ifh:ch08": "Helicopter Attitude Instrument Flying",
+   "ifh:ch09": "Navigation Systems",
+   "ifh:ch10": "IFR Flight",
+   "ifh:ch11": "Emergency Operations"
+  },
+  "iph": {
+   "iph:ch01": "Departure Procedures",
+   "iph:ch02": "En Route Operations",
+   "iph:ch03": "Arrivals",
+   "iph:ch04": "Approaches",
+   "iph:ch05": "Improvement Plans",
+   "iph:ch06": "Airborne Navigation Databases",
+   "iph:ch07": "Helicopter Instrument Procedures"
+  },
+  "phak": {
+   "phak:ch01": "Introduction To Flying",
+   "phak:ch02": "Aeronautical Decision-Making",
+   "phak:ch03": "Aircraft Construction",
+   "phak:ch04": "Principles of Flight",
+   "phak:ch05": "Aerodynamics",
+   "phak:ch06": "Flight Controls",
+   "phak:ch07": "Aircraft Systems",
+   "phak:ch08": "Flight",
+   "phak:ch09": "Flight Manuals and Other Documents",
+   "phak:ch10": "Weight and Balance",
+   "phak:ch11": "Aircraft Performance",
+   "phak:ch12": "Weather Theory",
+   "phak:ch13": "Aviation Weather Services",
+   "phak:ch14": "Airport Operations",
+   "phak:ch15": "Airspace",
+   "phak:ch16": "Navigation",
+   "phak:ch17": "Aeromedical Factors"
+  },
+  "risk-management": {
+   "risk-management:ch01": "Introduction to Risk Management",
+   "risk-management:ch02": "Chapter 2: Personal Minimums",
+   "risk-management:ch03": "Chapter 3: Identifying Hazards & Associated Risks",
+   "risk-management:ch04": "Chapter 4: Assessing Risk",
+   "risk-management:ch05": "Chapter 5: Mitigating Risk",
+   "risk-management:ch06": "Chapter 6: Threat and Error Management",
+   "risk-management:ch07": "Automation & Flight Path",
+   "risk-management:ch08": "Aeronautical Decision-Making in"
+  }
+ },
+ "elements": {
+  "IR.I.A.K1": {
+   "text": "Certification requirements, recency of experience, and recordkeeping.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch01"
+   ]
+  },
+  "IR.I.A.K2": {
+   "text": "Privileges and limitations.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch01"
+   ]
+  },
+  "IR.I.A.K3": {
+   "text": "Part 68 BasicMed privileges and limitations.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch01"
+   ]
+  },
+  "IR.I.A.R1": {
+   "text": "Proficiency versus currency.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch02"
+   ]
+  },
+  "IR.I.A.R2": {
+   "text": "Personal minimums.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch02"
+   ]
+  },
+  "IR.I.A.R3": {
+   "text": "Fitness for flight and physiological factors that might affect the pilot’s ability to fly under instrument conditions.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch03",
+    "phak:ch17"
+   ]
+  },
+  "IR.I.A.R4": {
+   "text": "Flying unfamiliar aircraft or operating with unfamiliar flight display systems and avionics.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch07",
+    "risk-management:ch07"
+   ]
+  },
+  "IR.I.A.S1": {
+   "text": "Apply requirements to act as pilot-in-command (PIC) under Instrument Flight Rules (IFR) in a scenario given by the evaluator.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch01"
+   ]
+  },
+  "IR.I.B.K1": {
+   "text": "Sources of weather data (e.g., National Weather Service, Flight Service) for flight planning purposes.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch02",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.K2": {
+   "text": "Acceptable weather products and resources required for preflight planning, current and forecast weather for departure, en route, and arrival phases of flight such as:",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch03",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.K2a": {
+   "text": "a. Airport Observations (METAR and SPECI) and Pilot Observations (PIREP)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch24",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.K2b": {
+   "text": "b. Surface Analysis Chart, Ceiling and Visibility Chart (CVA)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch25",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.K2c": {
+   "text": "c. Terminal Aerodrome Forecasts (TAF)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch27",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.K2d": {
+   "text": "d. Graphical Forecasts for Aviation (GFA) 3",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch27",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.K2e": {
+   "text": "e. Wind and Temperature Aloft Forecast (FB)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch27",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.K2f": {
+   "text": "f. Convective Outlook (AC)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch27",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.K2g": {
+   "text": "g. Inflight Aviation Weather Advisories including Airmen's Meteorological Information (AIRMET), Significant Meteorological Information (SIGMET), and Convective SIGMET",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01",
+    "aviation-weather:ch26",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.K3": {
+   "text": "Meteorology applicable to the departure, en route, alternate, and destination for flights conducted under Instrument Flight Rules (IFR) to include expected climate and hazardous conditions such as:",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch04",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3a": {
+   "text": "a. Atmospheric composition and stability",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch04",
+    "aviation-weather:ch13",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3b": {
+   "text": "b. Wind (e.g., windshear, mountain wave, factors affecting wind, etc.)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch10",
+    "aviation-weather:ch16",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3c": {
+   "text": "c. Temperature and heat exchange",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch05",
+    "aviation-weather:ch07"
+   ]
+  },
+  "IR.I.B.K3d": {
+   "text": "d. Moisture/precipitation",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch06",
+    "aviation-weather:ch14"
+   ]
+  },
+  "IR.I.B.K3e": {
+   "text": "e. Weather system formation, including air masses and fronts",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch11",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3f": {
+   "text": "f. Clouds",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch12",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3g": {
+   "text": "g. Turbulence",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch19",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3h": {
+   "text": "h. Thunderstorms and microbursts",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch22",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3i": {
+   "text": "i. Icing and freezing level information",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch20",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3j": {
+   "text": "j. Fog/mist",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch18",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3k": {
+   "text": "k. Frost",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch20",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K3l": {
+   "text": "l. Obstructions to visibility (e.g., smoke, haze, volcanic ash, etc.)",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch18",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.K4": {
+   "text": "Flight deck instrument displays of digital weather and aeronautical information.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch28",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.R1": {
+   "text": "Making the go/no-go and continue/divert decisions, including:",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch08"
+   ]
+  },
+  "IR.I.B.R1a": {
+   "text": "a. Circumstances that would make diversion prudent",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch02",
+    "risk-management:ch08"
+   ]
+  },
+  "IR.I.B.R1b": {
+   "text": "b. Personal weather minimums",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch02"
+   ]
+  },
+  "IR.I.B.R1c": {
+   "text": "c. Hazardous weather conditions, including known or forecast icing or turbulence aloft",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch19",
+    "aviation-weather:ch20",
+    "risk-management:ch03"
+   ]
+  },
+  "IR.I.B.R2": {
+   "text": "Use and limitations of:",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.I.B.R2a": {
+   "text": "a. Installed onboard weather equipment",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch15",
+    "aviation-weather:ch28",
+    "phak:ch13"
+   ]
+  },
+  "IR.I.B.R2b": {
+   "text": "b. Aviation weather reports and forecasts",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch03",
+    "aviation-weather:ch27"
+   ]
+  },
+  "IR.I.B.R2c": {
+   "text": "c. Inflight weather resources",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01",
+    "aviation-weather:ch26",
+    "aviation-weather:ch28"
+   ]
+  },
+  "IR.I.B.S1": {
+   "text": "Use available aviation weather resources to obtain an adequate weather briefing.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch07-s01",
+    "aviation-weather:ch02",
+    "aviation-weather:ch03"
+   ]
+  },
+  "IR.I.B.S2": {
+   "text": "Analyze the implications of at least three of the conditions listed in K3a through K3l, using actual weather or weather conditions provided by the evaluator.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aviation-weather:ch03",
+    "phak:ch12"
+   ]
+  },
+  "IR.I.B.S3": {
+   "text": "Correlate weather information to make a go/no-go decision. 4",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch02",
+    "risk-management:ch08"
+   ]
+  },
+  "IR.I.B.S4": {
+   "text": "Determine whether an alternate airport is required, and, if required, whether the selected alternate airport meets regulatory requirements.",
+   "references": [
+    "afh",
+    "aim",
+    "aviation-weather",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01"
+   ]
+  },
+  "IR.I.C.K1": {
+   "text": "Route planning, including consideration of:",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K1a": {
+   "text": "a. Available navigational facilities",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s01",
+    "ifh:ch09"
+   ]
+  },
+  "IR.I.C.K1b": {
+   "text": "b. Special use airspace",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch03-s04",
+    "ifh:ch01"
+   ]
+  },
+  "IR.I.C.K1c": {
+   "text": "c. Preferred routes",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K1d": {
+   "text": "d. Primary and alternate airports",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K1e": {
+   "text": "e. Enroute charts",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch09-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K1f": {
+   "text": "f. Chart Supplements",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch09-s01"
+   ]
+  },
+  "IR.I.C.K1g": {
+   "text": "g. NOTAMS",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01"
+   ]
+  },
+  "IR.I.C.K1h": {
+   "text": "h. Terminal Procedures Publications (TPP)",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch09-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K2": {
+   "text": "Altitude selection accounting for terrain and obstacles, glide distance of airplane, IFR cruising altitudes, effect of wind, and oxygen requirements.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s03",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K3": {
+   "text": "Calculating:",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K3a": {
+   "text": "a. Time, climb and descent rates, course, distance, heading, true airspeed, and groundspeed",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K3b": {
+   "text": "b. Estimated time of arrival, including conversion to universal coordinated time (UTC)",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K3c": {
+   "text": "c. Fuel requirements, including reserve",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K4": {
+   "text": "Elements of an IFR flight plan.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.K5": {
+   "text": "Procedures for activating and closing an IFR flight plan in controlled and uncontrolled airspace.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.R1": {
+   "text": "Pilot.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch03"
+   ]
+  },
+  "IR.I.C.R2": {
+   "text": "Aircraft.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch03"
+   ]
+  },
+  "IR.I.C.R3": {
+   "text": "Environment (e.g., weather, airports, airspace, terrain, obstacles).",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch03"
+   ]
+  },
+  "IR.I.C.R4": {
+   "text": "External pressures.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch03"
+   ]
+  },
+  "IR.I.C.R5": {
+   "text": "Limitations of air traffic control (ATC) services.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s01",
+    "ifh:ch02"
+   ]
+  },
+  "IR.I.C.R6": {
+   "text": "Limitations of electronic planning applications and programs. 5",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch07"
+   ]
+  },
+  "IR.I.C.R7": {
+   "text": "Fuel planning.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.S1": {
+   "text": "Prepare, present, and explain a cross-country flight plan assigned by the evaluator including a risk analysis based on real time weather, which includes calculating time en route and fuel considering factors such as power settings, operating altitude, wind, fuel reserve requirements, and weight and",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.S2": {
+   "text": "Recalculate fuel reserves based on a scenario provided by the evaluator.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.S3": {
+   "text": "Create a navigation plan and simulate filing an IFR flight plan.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.S4": {
+   "text": "Interpret departure, arrival, en route, and approach procedures with reference to appropriate and current charts.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch09-s01",
+    "ifh:ch10"
+   ]
+  },
+  "IR.I.C.S5": {
+   "text": "Recognize simulated wing contamination due to airframe icing and demonstrate knowledge of the adverse effects of airframe icing during pre-takeoff, takeoff, cruise, and landing phases of flight as well as the corrective actions.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch04"
+   ]
+  },
+  "IR.I.C.S6": {
+   "text": "Apply pertinent information from appropriate and current aeronautical charts, Chart Supplements; Notices to Air Missions (NOTAMs) relative to airport, runway and taxiway closures; and other flight publications. 6",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "iph",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch05-s01",
+    "aim:ch09-s01"
+   ]
+  },
+  "IR.II.A.K1": {
+   "text": "The general operational characteristics and limitations of applicable anti-icing and deicing systems, including airframe, propeller, intake, fuel, and pitot-static systems.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch04",
+    "phak:ch07"
+   ]
+  },
+  "IR.II.A.K2": {
+   "text": "Flight control systems.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch06"
+   ]
+  },
+  "IR.II.A.R1": {
+   "text": "Operations in icing conditions.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch04",
+    "risk-management:ch03"
+   ]
+  },
+  "IR.II.A.R2": {
+   "text": "Limitations of anti-icing and deicing systems.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch04",
+    "phak:ch07"
+   ]
+  },
+  "IR.II.A.R3": {
+   "text": "Use of automated systems in instrument conditions.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch07",
+    "risk-management:ch07"
+   ]
+  },
+  "IR.II.A.S1": {
+   "text": "Demonstrate familiarity with anti- or de-icing procedures or information published by the manufacturer specific to the aircraft used on the practical test.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch04",
+    "phak:ch09"
+   ]
+  },
+  "IR.II.A.S2": {
+   "text": "Demonstrate familiarity with the automatic flight control system (AFCS) procedures or information published by the manufacturer specific to the aircraft used on the practical test, if applicable.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch07",
+    "phak:ch09",
+    "risk-management:ch07"
+   ]
+  },
+  "IR.II.B.K1": {
+   "text": "Operation of the aircraft’s applicable flight instrument system(s), including:",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.II.B.K1a": {
+   "text": "a. Pitot-static instrument system and associated instruments",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.II.B.K1b": {
+   "text": "b. Gyroscopic/electric/vacuum instrument system and associated instruments",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.II.B.K1c": {
+   "text": "c. Electrical systems, electronic flight instrument displays [primary flight display (PFD), multi- function display (MFD)], transponder and automatic dependent surveillance - broadcast (ADS-B)",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch04-s05"
+   ]
+  },
+  "IR.II.B.K1d": {
+   "text": "d. Magnetic compass",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.II.B.K2": {
+   "text": "Operation of the aircraft’s applicable navigation system(s), including:",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s01",
+    "aim:ch01-s02"
+   ]
+  },
+  "IR.II.B.K2a": {
+   "text": "a. Very high frequency (VHF) Omnidirectional Range (VOR), distance measuring equipment (DME), instrument landing system (ILS), marker beacon receiver/indicators 7",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s01"
+   ]
+  },
+  "IR.II.B.K2b": {
+   "text": "b. Area navigation (RNAV), global positioning system (GPS), Wide Area Augmentation System (WAAS), flight management system (FMS), autopilot",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s01",
+    "aim:ch01-s02"
+   ]
+  },
+  "IR.II.B.K3": {
+   "text": "Use of an electronic flight bag (EFB), if used.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.II.B.R1": {
+   "text": "Monitoring and management of automated systems.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch07"
+   ]
+  },
+  "IR.II.B.R2": {
+   "text": "Difference between approved and non-approved navigation devices.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s02"
+   ]
+  },
+  "IR.II.B.R3": {
+   "text": "Modes of flight and navigation instruments, including failure conditions.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s02",
+    "risk-management:ch07"
+   ]
+  },
+  "IR.II.B.R4": {
+   "text": "Use of an electronic flight bag.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch07"
+   ]
+  },
+  "IR.II.B.R5": {
+   "text": "Use of navigation databases.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s02"
+   ]
+  },
+  "IR.II.B.S1": {
+   "text": "Operate and manage installed instruments and navigation equipment.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "aim:ch01-s01",
+    "aim:ch01-s02"
+   ]
+  },
+  "IR.II.B.S2": {
+   "text": "Operate and manage an applicant supplied electronic flight bag (EFB), if used.",
+   "references": [
+    "afh",
+    "aim",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": []
+  },
+  "IR.II.C.K1": {
+   "text": "Purpose of performing an instrument flight deck check and how to detect possible defects.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch05",
+    "ifh:ch10"
+   ]
+  },
+  "IR.II.C.K2": {
+   "text": "IFR airworthiness, including aircraft inspection requirements and required equipment for IFR flight.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "ifh:ch10",
+    "phak:ch09"
+   ]
+  },
+  "IR.II.C.K3": {
+   "text": "Required procedures, documentation, and limitations of flying with inoperative equipment.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch09"
+   ]
+  },
+  "IR.II.C.R1": {
+   "text": "Operating with inoperative equipment.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "phak:ch09",
+    "risk-management:ch03"
+   ]
+  },
+  "IR.II.C.R2": {
+   "text": "Operating with outdated navigation publications or databases.",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "risk-management:ch03"
+   ]
+  },
+  "IR.II.C.S1": {
+   "text": "Perform preflight inspection by following the checklist appropriate to the aircraft and determine if the aircraft is in a condition for safe instrument flight. 8",
+   "references": [
+    "afh",
+    "ifh",
+    "phak",
+    "risk-management"
+   ],
+   "current": [
+    "afh:ch02",
+    "ifh:ch10"
+   ]
+  }
+ }
+}
