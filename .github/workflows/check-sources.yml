@@ -50,7 +50,8 @@ jobs:
           python tools/check_sources.py --check | tee check.log
           {
             echo "build=$(grep -oP '^build=\K.*' check.log | tail -1)"
-            echo "reason=$(grep -v '^build=' check.log | tail -1)"
+            echo "pending=$(grep -oP '^pending=\K.*' check.log | tail -1)"
+            echo "reason=$(grep -vE '^(build|pending)=' check.log | tail -1)"
           } >> "$GITHUB_OUTPUT"
 
       - name: Save the pending queue
@@ -60,14 +61,27 @@ jobs:
           path: state
           key: pending-${{ github.run_id }}
 
+      # An issue labelled `drift` that stays open reading "no pending changes"
+      # is a false alarm on the one signal that decides releases, and a signal
+      # you learn to ignore is worse than none. So the issue exists only while
+      # the queue does: opened on the first sighting, edited in place while the
+      # changes wait out the debounce, closed when a release clears them.
       - name: Update the drift issue
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          python tools/check_sources.py --issue > issue.md
           number=$(gh issue list --state open --label drift \
             --json number,title \
             --jq '.[] | select(.title == "Source drift") | .number' | head -1)
+          if [ "${{ steps.drift.outputs.pending }}" = "0" ]; then
+            if [ -n "$number" ]; then
+              gh issue close "$number" --reason completed \
+                --comment "The pending queue is empty. The lock is current."
+            fi
+            echo "No pending changes. Nothing to report."
+            exit 0
+          fi
+          python tools/check_sources.py --issue > issue.md
           if [ -n "$number" ]; then
             gh issue edit "$number" --body-file issue.md
           else

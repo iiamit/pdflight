@@ -264,7 +264,15 @@ def decide(pending, moment=None):
 
 
 def issue_body(pending, moment=None):
-    """The drift issue, rewritten in place rather than reopened each time."""
+    """The drift issue body.
+
+    Rendered only when something is actually pending. An issue labelled `drift`
+    sitting open saying "no pending changes" is a false alarm on the one signal
+    that decides releases, and a signal you learn to ignore is worse than no
+    signal at all. The workflow closes the issue when the queue empties and
+    opens a fresh one for the next episode, so an open issue always means real
+    drift.
+    """
     build, reason = decide(pending, moment)
     changes = pending.get("changes") or {}
     lines = ["<!-- pdflight:drift -->",
@@ -332,6 +340,7 @@ def run(argv, client_factory=None, sources_path=M.SOURCES, lock_path=M.LOCK,
         build, reason = decide(pending, moment)
         out.write("%s\n" % reason)
         out.write("build=%s\n" % ("true" if build else "false"))
+        out.write("pending=%d\n" % len(pending.get("changes") or {}))
         return EXIT_OK
 
     if not args.check:
@@ -360,6 +369,7 @@ def run(argv, client_factory=None, sources_path=M.SOURCES, lock_path=M.LOCK,
                  len(pending["changes"]), tier1))
     out.write("%s\n" % reason)
     out.write("build=%s\n" % ("true" if build else "false"))
+    out.write("pending=%d\n" % len(pending["changes"]))
     return EXIT_OK
 
 

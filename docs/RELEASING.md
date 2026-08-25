@@ -31,6 +31,13 @@ The `drift` label must exist for the issue step to work:
 gh label create drift --description "Upstream source changed" --color FFB168
 ```
 
+**An open drift issue always means real drift.** `check-sources` opens one on
+the first sighting, edits it in place while the changes wait out the debounce,
+and closes it once a release clears the queue. A clean run touches nothing. An
+issue that sat open reading "no pending changes" would be a false alarm on the
+one signal that decides releases, and a signal you learn to ignore is worse
+than no signal.
+
 ## The three workflows
 
 | Workflow | Trigger | Does |
