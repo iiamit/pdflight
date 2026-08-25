@@ -1,0 +1,904 @@
+{
+ "IR.VI.A.K1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 Approaches carries LP and LNAV minima, AIM 5-4 and IFH ch10 the procedure. PHAK has LNAV only in its glossary, AFH and RMH have none"
+ },
+ "IR.VI.A.K2": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "iph:ch04",
+   "iph:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch09 Navigation Systems holds the RAIM and annunciation text (40 hits). AFH, PHAK and RMH have no RNAV annunciation content"
+ },
+ "IR.VI.A.K3": {
+  "anchors": [
+   "aim:ch01-s01",
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "iph:ch04",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 Navigation holds VOR and GPS, IPH ch04 the RNAV and GPS approaches. AFH and RMH have no navigation system chapter"
+ },
+ "IR.VI.A.K4": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 covers the stabilized approach, AIM 5-4 states the stabilized approach criteria. PHAK never uses the phrase, IFH and RMH have no fit"
+ },
+ "IR.VI.A.R1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 Arrival Procedures and IFH ch10 cover flying the cleared approach and deviating from it. AFH and PHAK have no instrument approach chapter"
+ },
+ "IR.VI.A.R2": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "iph:ch04",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "AIM 1-1 Navigation Aids and PHAK ch16 cover tuning and identifying navaids, IPH ch04 the approach frequencies. AFH and RMH have none"
+ },
+ "IR.VI.A.R3": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch05",
+   "iph:ch04",
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers automation management, IFH ch05 and IPH ch04 autopilot use on approach, AIM 5-4 coupled approaches. No AFH chapter fits"
+ },
+ "IR.VI.A.R4": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch07",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 and IFH ch07 both cover approach configuration. AIM, PHAK and RMH have no chapter on configuring for an approach"
+ },
+ "IR.VI.A.R5": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 carries the stabilized approach text and AIM 5-4 the criteria. IFH, PHAK and RMH have no unstable approach chapter"
+ },
+ "IR.VI.A.R6": {
+  "anchors": [
+   "aim:ch07-s01",
+   "iph:ch04",
+   "phak:ch13",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch13 Aviation Weather Services covers in-flight weather updates, IPH ch04 approach weather minimums. AFH and IFH have no fitting chapter"
+ },
+ "IR.VI.A.R7": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers MDA and the required visual references. AFH, PHAK and RMH have no chapter on descent below MDA"
+ },
+ "IR.VI.A.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 Arrival Procedures is the AIM's approach section. AFH, PHAK and RMH have no non-precision approach chapter"
+ },
+ "IR.VI.A.S10": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch01",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch01 holds the approach chart minimums, MDA and approach category text. AFH, PHAK and RMH carry no minimums adjustment content"
+ },
+ "IR.VI.A.S11": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch05-s04",
+   "ifh:ch07",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 covers the stabilized descent on approach and AIM 5-4 the criteria. PHAK and RMH have no stabilized descent chapter"
+ },
+ "IR.VI.A.S12": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 and AIM 5-4 both cover MDA, the VDP and the missed approach point. AFH, PHAK and RMH have no final segment chapter"
+ },
+ "IR.VI.A.S13": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers the visual reference decision at the MAP. AFH ch09 is a visual approach chapter, PHAK and RMH have nothing on it"
+ },
+ "IR.VI.A.S14": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch08 Flight Instruments holds the PFD and MFD text. AIM, AFH and IPH have no MFD chapter, IPH mentions MFD once and not in ch04"
+ },
+ "IR.VI.A.S15": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 and AFH ch02 both carry resource management sections. AIM has no SRM or CRM text at all, IFH and IPH have none worth pointing at"
+ },
+ "IR.VI.A.S2": {
+  "anchors": [
+   "aim:ch04-s02",
+   "ifh:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "IFH ch02 The Air Traffic Control System and PHAK ch14 both cover radio communication and phraseology. AFH, IPH and RMH have no fit"
+ },
+ "IR.VI.A.S3": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "iph:ch04",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 lists the approach frequencies and PHAK ch16 covers tuning and identifying navaids. AFH and RMH have no navigation chapter"
+ },
+ "IR.VI.A.S4": {
+  "anchors": [
+   "aim:ch04-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 and IPH ch04 are the heaviest clearance chapters in their books. AFH, PHAK and RMH have no ATC clearance chapter"
+ },
+ "IR.VI.A.S5": {
+  "anchors": [
+   "ifh:ch05",
+   "ifh:ch11",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch08 Flight Instruments covers pitot static and gyroscopic instrument failures. AIM, AFH, IPH and RMH have no instrument failure chapter"
+ },
+ "IR.VI.A.S6": {
+  "anchors": [
+   "aim:ch04-s04",
+   "aim:ch05-s05",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers clearance compliance and advising ATC. AFH, IPH, PHAK and RMH have no chapter on refusing a clearance"
+ },
+ "IR.VI.A.S7": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 uses the approach and landing checklist, PHAK ch09 Flight Manuals covers checklists as documents. AIM, IFH, IPH and RMH have no fit"
+ },
+ "IR.VI.A.S8": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch07",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 and IFH ch07 cover approach configuration and airspeed. AIM, PHAK and RMH have no chapter on configuring for an approach"
+ },
+ "IR.VI.A.S9": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and ch07 are the attitude instrument flying chapters. No AFH, AIM, IPH, PHAK or RMH chapter treats instrument flying tolerances"
+ },
+ "IR.VI.B.K1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 carries the inoperative components and visibility minimums text. AFH, PHAK and RMH have no precision approach chapter"
+ },
+ "IR.VI.B.K2": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch05",
+   "ifh:ch09",
+   "iph:ch04",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 covers RNAV modes and annunciations, PHAK ch16 the navigation displays, AIM 1-2 PBN. AFH and RMH have no fit"
+ },
+ "IR.VI.B.K3": {
+  "anchors": [
+   "aim:ch01-s01",
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "iph:ch04",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 Navigation holds VOR and GPS, IPH ch04 the approach navigation systems. AFH and RMH have no navigation chapter"
+ },
+ "IR.VI.B.K4": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 covers the stabilized approach and AIM 5-4 the criteria. PHAK never uses the phrase, IFH and RMH have no fit"
+ },
+ "IR.VI.B.R1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 and IPH ch04 cover flying the cleared approach as published. AFH and PHAK have no instrument approach chapter"
+ },
+ "IR.VI.B.R2": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "iph:ch04",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "AIM 1-1 Navigation Aids and PHAK ch16 cover tuning and identifying navaids, IPH ch04 the approach frequencies. AFH and RMH have none"
+ },
+ "IR.VI.B.R3": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch05",
+   "iph:ch04",
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers automation management, IFH ch05 and IPH ch04 autopilot use on approach, AIM 5-4 coupled approaches. No AFH chapter fits"
+ },
+ "IR.VI.B.R4": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch07",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 and IFH ch07 both cover approach configuration. AIM, PHAK and RMH have no chapter on configuring for an approach"
+ },
+ "IR.VI.B.R5": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 carries the stabilized approach text and AIM 5-4 the criteria. IFH, PHAK and RMH have no unstable approach chapter"
+ },
+ "IR.VI.B.R6": {
+  "anchors": [
+   "aim:ch07-s01",
+   "iph:ch04",
+   "phak:ch13",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch13 Aviation Weather Services covers in-flight weather updates, IPH ch04 approach weather minimums. AFH and IFH have no fitting chapter"
+ },
+ "IR.VI.B.R7": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 covers DA and DH and the required visual references. AFH, PHAK and RMH have no chapter on descent below DA"
+ },
+ "IR.VI.B.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch09",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 Approaches and AIM 5-4 are the precision approach chapters. AFH, PHAK and RMH have no instrument approach content"
+ },
+ "IR.VI.B.S10": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 carries the inoperative components table and visibility minimums. AFH, PHAK and RMH have no minimums adjustment content"
+ },
+ "IR.VI.B.S11": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 covers the descent rate on the glidepath. AFH, AIM, PHAK and RMH have no chapter on the vertical guidance descent rate"
+ },
+ "IR.VI.B.S12": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 covers the stabilized final segment from the FAF. AIM, PHAK and RMH have no chapter on final approach tolerances"
+ },
+ "IR.VI.B.S13": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 and AIM 5-4 both cover the missed approach at DA and DH. AFH, PHAK and RMH have no missed approach chapter"
+ },
+ "IR.VI.B.S14": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers the transition to visual references for landing. AIM, IPH, PHAK and RMH have no chapter on the visual landing transition"
+ },
+ "IR.VI.B.S15": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 holds the aiming point and touchdown zone text. AIM, IFH, IPH, PHAK and RMH have no chapter on the visual flight path to touchdown"
+ },
+ "IR.VI.B.S16": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch08 Flight Instruments holds the PFD and MFD text. AFH, AIM and IPH have no MFD chapter"
+ },
+ "IR.VI.B.S17": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 and AFH ch02 both carry resource management sections. AIM has no SRM or CRM text at all, IFH and IPH have none worth pointing at"
+ },
+ "IR.VI.B.S2": {
+  "anchors": [
+   "aim:ch04-s02",
+   "ifh:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "IFH ch02 The Air Traffic Control System and PHAK ch14 both cover radio communication and phraseology. AFH, IPH and RMH have no fit"
+ },
+ "IR.VI.B.S3": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "iph:ch04",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 lists the approach frequencies and PHAK ch16 covers tuning and identifying navaids. AFH and RMH have no navigation chapter"
+ },
+ "IR.VI.B.S4": {
+  "anchors": [
+   "aim:ch04-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 and IPH ch04 are the heaviest clearance chapters in their books. AFH, PHAK and RMH have no ATC clearance chapter"
+ },
+ "IR.VI.B.S5": {
+  "anchors": [
+   "ifh:ch05",
+   "ifh:ch11",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch08 Flight Instruments covers pitot static and gyroscopic instrument failures. AIM, AFH, IPH and RMH have no instrument failure chapter"
+ },
+ "IR.VI.B.S6": {
+  "anchors": [
+   "aim:ch04-s04",
+   "aim:ch05-s05",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers clearance compliance and advising ATC. AFH, IPH, PHAK and RMH have no chapter on refusing a clearance"
+ },
+ "IR.VI.B.S7": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 uses the approach and landing checklist, PHAK ch09 Flight Manuals covers checklists as documents. AIM, IFH, IPH and RMH have no fit"
+ },
+ "IR.VI.B.S8": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch07",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 and IFH ch07 cover approach configuration and airspeed. AIM, PHAK and RMH have no chapter on configuring for an approach"
+ },
+ "IR.VI.B.S9": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and ch07 are the attitude instrument flying chapters. No AFH, AIM, IPH, PHAK or RMH chapter treats instrument flying tolerances"
+ },
+ "IR.VI.C.K1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 and AIM 5-4 carry the missed approach procedures. AFH names a missed approach once, PHAK and RMH never, so no chapter there"
+ },
+ "IR.VI.C.R1": {
+  "anchors": [
+   "aim:ch04-s04",
+   "ifh:ch10",
+   "iph:ch04",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 and IPH ch04 cover complying with the published procedure and ATC instructions. AFH and PHAK have no instrument procedures chapter"
+ },
+ "IR.VI.C.R2": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch03",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-3 En Route Procedures holds holding, PHAK ch02 and RMH ch08 the diversion decision. AFH has no fit"
+ },
+ "IR.VI.C.R3": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch07",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 and IFH ch07 both cover approach and missed approach configuration. AIM, PHAK and RMH have no fit"
+ },
+ "IR.VI.C.R4": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 and IFH ch10 cover an early missed approach and the go-around below minimums. PHAK and RMH have no missed approach content"
+ },
+ "IR.VI.C.R5": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch05",
+   "iph:ch04",
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers automation management, IFH ch05 and IPH ch04 autopilot use on approach, AIM 5-4 coupled approaches. No AFH chapter fits"
+ },
+ "IR.VI.C.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers initiating the missed approach and reporting it. AFH, PHAK and RMH have no missed approach chapter"
+ },
+ "IR.VI.C.S10": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch03"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers requesting another approach or proceeding to the alternate. AFH, PHAK and RMH have no fit"
+ },
+ "IR.VI.C.S2": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 go-around and IFH ch06 pitch and power already cover this. AIM, IPH, PHAK and RMH have no chapter on go-around pitch and power"
+ },
+ "IR.VI.C.S3": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch07",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 covers configuring and climbing on the missed approach. AIM, PHAK and RMH have no fit"
+ },
+ "IR.VI.C.S4": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 carries the go-around checklist items, PHAK ch09 Flight Manuals covers checklists. AIM, IFH, IPH and RMH have no fit"
+ },
+ "IR.VI.C.S5": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 Arrival Procedures holds the published missed approach text. AFH, PHAK and RMH have no missed approach content"
+ },
+ "IR.VI.C.S6": {
+  "anchors": [
+   "aim:ch04-s04",
+   "aim:ch05-s05",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers clearance compliance and advising ATC. AFH, IPH, PHAK and RMH have no chapter on refusing a clearance or climb gradient"
+ },
+ "IR.VI.C.S7": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and ch07 are the attitude instrument flying chapters. No AFH, AIM, IPH, PHAK or RMH chapter treats instrument flying tolerances"
+ },
+ "IR.VI.C.S8": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch08 Flight Instruments holds the PFD and MFD text. AFH, AIM and IPH have no MFD chapter"
+ },
+ "IR.VI.C.S9": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 and AFH ch02 both carry resource management sections. AIM has no SRM or CRM text at all, IFH and IPH have none worth pointing at"
+ },
+ "IR.VI.D.K1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers the circling approach and approach categories. AFH, PHAK and RMH never discuss circling"
+ },
+ "IR.VI.D.R1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the circling procedures and IFH ch10 the circling approach. AFH, PHAK and RMH never discuss circling"
+ },
+ "IR.VI.D.R2": {
+  "anchors": [
+   "afh:ch11",
+   "aim:ch05-s04",
+   "iph:ch04",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 covers night vision and the visual illusions that make a night circle risky, AIM 5-4 the circling visibility minimums. IFH and RMH have no fit"
+ },
+ "IR.VI.D.R3": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 gives the missed approach when visual contact is lost while circling, IFH ch10 the circling approach. AFH, PHAK and RMH have no fit"
+ },
+ "IR.VI.D.R4": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch05",
+   "iph:ch04",
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers automation management, IFH ch05 and IPH ch04 autopilot use on approach, AIM 5-4 coupled approaches. No AFH chapter fits"
+ },
+ "IR.VI.D.R5": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 gives the circling area radii by approach category. AFH, IFH, PHAK and RMH have no chapter on circling altitude and distance"
+ },
+ "IR.VI.D.R6": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch04",
+   "iph:ch04",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 Aerodynamics and IFH ch04 Aerodynamic Factors hold the stall and spin text, IPH ch04 the CFIT risk while circling. AIM has two CFIT hits only"
+ },
+ "IR.VI.D.R7": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 and IFH ch10 both cover the missed approach from a circling maneuver. AFH, PHAK and RMH never discuss circling"
+ },
+ "IR.VI.D.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers circling and windshear, AIM 5-4 the approach category maneuvering limits. AFH, PHAK and RMH have no fit"
+ },
+ "IR.VI.D.S2": {
+  "anchors": [
+   "afh:ch08",
+   "aim:ch04-s03",
+   "aim:ch04-s04",
+   "iph:ch04",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch08 Airport Traffic Patterns and PHAK ch14 cover traffic direction, IPH ch04 the circling direction. IFH and RMH have no fit"
+ },
+ "IR.VI.D.S3": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 and AFH ch02 both carry resource management sections. AIM has no SRM or CRM text at all, IFH and IPH have none worth pointing at"
+ },
+ "IR.VI.D.S4": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers the descent to MDA on a circling approach. AIM, PHAK and RMH have no chapter on the circling descent"
+ },
+ "IR.VI.D.S5": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and ch07 are the attitude instrument flying chapters. No AFH, AIM, IPH, PHAK or RMH chapter treats instrument flying tolerances"
+ },
+ "IR.VI.D.S6": {
+  "anchors": [
+   "afh:ch08",
+   "aim:ch05-s04",
+   "iph:ch04",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers the traffic pattern legs, AIM 5-4 the circling maneuver. IFH and RMH have no fit"
+ },
+ "IR.VI.D.S7": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 gives the turn toward the airport on a circling missed approach, IFH ch10 the circling approach. AFH, PHAK and RMH have no fit"
+ },
+ "IR.VI.D.S8": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 Approaches and Landings is the only chapter here covering the landing itself. AIM, IFH, IPH, PHAK and RMH cover no landing technique"
+ },
+ "IR.VI.E.K1": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 and AIM 5-4 cover the transition to landing and its weather and operational factors. PHAK and RMH have no fitting chapter"
+ },
+ "IR.VI.E.K2": {
+  "anchors": [
+   "aim:ch02-s01",
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 and AIM 2-1 and 2-3 already cover signs, markings and approach lighting. AFH has no markings text, IPH names approach lighting twice, RMH none"
+ },
+ "IR.VI.E.K3": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 Approaches and Landings holds the landing profiles and configurations. AIM, IFH, IPH, PHAK and RMH cover no landing profile"
+ },
+ "IR.VI.E.R1": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 carries the stabilized approach text and AIM 5-4 the criteria. IFH, PHAK and RMH have no unstable approach chapter"
+ },
+ "IR.VI.E.R2": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch02-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers VASI and PAPI glidepath indications. IFH, IPH and RMH have no chapter on flying below the glidepath"
+ },
+ "IR.VI.E.R3": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 and IPH ch04 cover the required visual references at minimums. PHAK and RMH have no chapter on the instrument to visual transition"
+ },
+ "IR.VI.E.R4": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 Approaches and Landings holds the landing configuration text. AIM, IFH, IPH, PHAK and RMH cover no landing configuration"
+ },
+ "IR.VI.E.S1": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 and IPH ch04 cover the DA, MDA and VDP transition to visual. PHAK and RMH have no fitting chapter"
+ },
+ "IR.VI.E.S2": {
+  "anchors": [
+   "aim:ch04-s03",
+   "aim:ch07-s04",
+   "ifh:ch10",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers windshear and wake turbulence in IFR flight, PHAK ch14 wake turbulence avoidance. AFH, IPH and RMH have no fit"
+ },
+ "IR.VI.E.S3": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 uses the approach and landing checklist, PHAK ch09 Flight Manuals covers checklists as documents. AIM, IFH, IPH and RMH have no fit"
+ },
+ "IR.VI.E.S4": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 Approaches and Landings is the only chapter here covering airplane control in the landing. AIM, IFH, IPH, PHAK and RMH have none"
+ },
+ "IR.VI.E.S5": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 and AFH ch02 both carry resource management sections. AIM has no SRM or CRM text at all, IFH and IPH have none worth pointing at"
+ }
+}

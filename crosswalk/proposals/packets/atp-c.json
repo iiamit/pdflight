@@ -30,7 +30,7 @@
    "aim:ch01": "Air Navigation",
    "aim:ch01-s01": "Section 1. Navigation Aids",
    "aim:ch01-s02": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
-   "aim:ch02": "Aeronautical Lighting and Other Airport",
+   "aim:ch02": "Aeronautical Lighting and Other Airport Visual Aids",
    "aim:ch02-s01": "Section 1. Airport Lighting Aids",
    "aim:ch02-s02": "Section 2. Air Navigation and Obstruction Lighting",
    "aim:ch02-s03": "Section 3. Airport Marking Aids and Signs",
@@ -71,7 +71,7 @@
    "aim:ch07-s07": "Section 7. Safety, Accident, and Hazard Reports",
    "aim:ch08": "Medical Facts for Pilots",
    "aim:ch08-s01": "Section 1. Fitness for Flight",
-   "aim:ch09": "Aeronautical Charts and",
+   "aim:ch09": "Aeronautical Charts and Related Publications",
    "aim:ch09-s01": "Section 1. Types of Charts Available",
    "aim:ch10": "Helicopter Operations",
    "aim:ch10-s01": "Section 1. Helicopter IFR Operations",
@@ -92,8 +92,8 @@
    "ifh:ch03": "Human Factors",
    "ifh:ch04": "Aerodynamic Factors",
    "ifh:ch05": "Flight Instruments",
-   "ifh:ch06": "Airplane Attitude Instrument Flying Using",
-   "ifh:ch07": "Airplane Basic Flight Maneuvers Using",
+   "ifh:ch06": "Airplane Attitude Instrument Flying Using Analog Instrumentation and an Electronic Flight Display",
+   "ifh:ch07": "Airplane Basic Flight Maneuvers Using Analog Instrumentation and an Electronic Flight Display",
    "ifh:ch08": "Helicopter Attitude Instrument Flying",
    "ifh:ch09": "Navigation Systems",
    "ifh:ch10": "IFR Flight",
@@ -107,7 +107,7 @@
    "phak:ch05": "Aerodynamics",
    "phak:ch06": "Flight Controls",
    "phak:ch07": "Aircraft Systems",
-   "phak:ch08": "Flight",
+   "phak:ch08": "Flight Instruments",
    "phak:ch09": "Flight Manuals and Other Documents",
    "phak:ch10": "Weight and Balance",
    "phak:ch11": "Aircraft Performance",
@@ -126,7 +126,7 @@
    "risk-management:ch05": "Chapter 5: Mitigating Risk",
    "risk-management:ch06": "Chapter 6: Threat and Error Management",
    "risk-management:ch07": "Automation & Flight Path",
-   "risk-management:ch08": "Aeronautical Decision-Making in"
+   "risk-management:ch08": "Aeronautical Decision-Making in Flight"
   },
   "seaplane": {
    "seaplane:amphibious-gear": "In seaplanes equipped with retractable landing gear",
@@ -179,11 +179,11 @@
    ],
    "current": [
     "afh:ch06",
-    "phak:ch11"
+    "phak:ch11",
+    "seaplane:takeoffs"
    ],
    "gaps": [
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.K2": {
@@ -212,12 +212,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "phak:ch11",
+    "seaplane:normal-takeoffs"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.K4": {
@@ -229,10 +229,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch11",
     "phak:ch14"
    ],
    "gaps": [
-    "afh",
     "risk-management",
     "seaplane"
    ]
@@ -247,10 +247,10 @@
    ],
    "current": [
     "afh:ch06",
-    "phak:ch11"
+    "phak:ch11",
+    "risk-management:ch03"
    ],
    "gaps": [
-    "risk-management",
     "seaplane"
    ]
   },
@@ -263,10 +263,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "phak:ch14"
    ],
    "gaps": [
-    "afh",
     "risk-management",
     "seaplane"
    ]
@@ -316,12 +316,12 @@
    ],
    "current": [
     "afh:ch13",
-    "afh:ch18"
+    "afh:ch18",
+    "seaplane:emergency-landing"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.R4": {
@@ -333,10 +333,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "phak:ch06"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -350,10 +350,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch08"
+    "afh:ch08",
+    "phak:ch14"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -367,11 +367,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
     "seaplane"
    ]
   },
@@ -384,11 +384,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "seaplane"
    ]
   },
@@ -401,10 +401,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -418,12 +418,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "seaplane:takeoffs"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.S11": {
@@ -452,12 +452,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "seaplane:normal-takeoffs"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.S13": {
@@ -469,12 +469,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "seaplane:normal-takeoffs"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.S14": {
@@ -504,12 +504,12 @@
    ],
    "current": [
     "afh:ch06",
-    "afh:ch12"
+    "afh:ch12",
+    "phak:ch07",
+    "seaplane:amphibious-gear"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.S16": {
@@ -521,10 +521,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "phak:ch14"
    ],
    "gaps": [
-    "afh",
     "risk-management",
     "seaplane"
    ]
@@ -538,10 +538,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "phak:ch14"
    ],
    "gaps": [
-    "afh",
     "risk-management",
     "seaplane"
    ]
@@ -555,10 +555,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -571,10 +571,11 @@
     "risk-management",
     "seaplane"
    ],
-   "current": [],
+   "current": [
+    "phak:ch14"
+   ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -588,12 +589,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "phak:ch14",
+    "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.S4": {
@@ -622,12 +623,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "seaplane:crosswind-takeoffs"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.S6": {
@@ -639,12 +640,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "phak:ch14",
+    "seaplane:taxiing-and-sailing"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.A.S7": {
@@ -711,10 +712,10 @@
    ],
    "current": [
     "afh:ch04",
-    "afh:ch09"
+    "afh:ch09",
+    "aim:ch05-s04"
    ],
    "gaps": [
-    "aim",
     "phak",
     "risk-management",
     "seaplane"
@@ -731,12 +732,12 @@
    ],
    "current": [
     "afh:ch09",
-    "phak:ch11"
+    "phak:ch11",
+    "seaplane:normal-landing"
    ],
    "gaps": [
     "aim",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.B.K3": {
@@ -749,13 +750,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:crosswind-landing"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.B.K4": {
@@ -768,12 +769,12 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch11",
     "aim:ch02-s01",
     "aim:ch02-s03",
     "phak:ch14"
    ],
    "gaps": [
-    "afh",
     "risk-management",
     "seaplane"
    ]
@@ -789,12 +790,12 @@
    ],
    "current": [
     "afh:ch09",
-    "phak:ch11"
+    "phak:ch11",
+    "risk-management:ch03",
+    "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
-    "aim",
-    "risk-management",
-    "seaplane"
+    "aim"
    ]
   },
   "AA.III.B.R2": {
@@ -807,11 +808,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "aim:ch07-s04",
     "phak:ch14"
    ],
    "gaps": [
-    "afh",
     "risk-management",
     "seaplane"
    ]
@@ -826,13 +827,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "aim:ch05-s04",
+    "seaplane:go-around"
    ],
    "gaps": [
-    "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.B.R4": {
@@ -845,11 +846,11 @@
     "seaplane"
    ],
    "current": [
-    "aim:ch04-s03"
+    "aim:ch04-s03",
+    "phak:ch14"
    ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -865,10 +866,10 @@
    ],
    "current": [
     "afh:ch08",
-    "aim:ch04-s03"
+    "aim:ch04-s03",
+    "phak:ch14"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -883,12 +884,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
    "gaps": [
     "aim",
-    "phak",
-    "risk-management",
     "seaplane"
    ]
   },
@@ -902,12 +903,12 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
     "aim",
-    "phak",
     "seaplane"
    ]
   },
@@ -921,11 +922,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
     "aim",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -940,11 +941,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "aim:ch02-s03",
+    "phak:ch14"
    ],
    "gaps": [
-    "aim",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -979,10 +980,10 @@
    ],
    "current": [
     "afh:ch09",
+    "aim:ch04-s03",
     "phak:ch11"
    ],
    "gaps": [
-    "aim",
     "risk-management",
     "seaplane"
    ]
@@ -998,11 +999,11 @@
    ],
    "current": [
     "afh:ch09",
-    "afh:ch16"
+    "afh:ch16",
+    "phak:ch11"
    ],
    "gaps": [
     "aim",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -1017,13 +1018,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "aim:ch05-s04",
+    "seaplane:go-around"
    ],
    "gaps": [
-    "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.B.S15": {
@@ -1036,11 +1037,11 @@
     "seaplane"
    ],
    "current": [
-    "aim:ch04-s03"
+    "afh:ch01",
+    "aim:ch04-s03",
+    "phak:ch14"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -1055,11 +1056,11 @@
     "seaplane"
    ],
    "current": [
-    "aim:ch04-s02"
+    "aim:ch04-s02",
+    "phak:ch14"
    ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -1075,10 +1076,10 @@
    ],
    "current": [
     "afh:ch08",
-    "aim:ch04-s03"
+    "aim:ch04-s03",
+    "phak:ch14"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -1093,11 +1094,11 @@
     "seaplane"
    ],
    "current": [
-    "aim:ch04-s03"
+    "afh:ch01",
+    "aim:ch04-s03",
+    "phak:ch14"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -1112,13 +1113,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "phak:ch14",
+    "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
     "aim",
-    "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.B.S6": {
@@ -1131,13 +1132,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.B.S7": {
@@ -1151,13 +1152,13 @@
    ],
    "current": [
     "afh:ch04",
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:normal-landing"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.B.S8": {
@@ -1170,13 +1171,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:crosswind-landing"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.B.S9": {
@@ -1189,13 +1190,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:normal-landing"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.C.K1": {
@@ -1207,11 +1208,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "phak:ch11",
     "seaplane:glassy-water-takeoffs"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -1225,11 +1226,11 @@
    ],
    "current": [
     "afh:ch06",
-    "phak:ch11"
+    "phak:ch11",
+    "seaplane:glassy-water-takeoffs"
    ],
    "gaps": [
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.C.K3": {
@@ -1241,10 +1242,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:glassy-water-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -1275,13 +1276,12 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "phak:ch11",
+    "risk-management:ch03",
     "seaplane:landing-area-reconnaissance"
    ],
-   "gaps": [
-    "afh",
-    "risk-management"
-   ]
+   "gaps": []
   },
   "AA.III.C.R2": {
    "text": "Abnormal operations, including planning for:",
@@ -1327,12 +1327,12 @@
    ],
    "current": [
     "afh:ch13",
-    "afh:ch18"
+    "afh:ch18",
+    "seaplane:emergency-landing"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.C.R3": {
@@ -1361,11 +1361,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
     "seaplane"
    ]
   },
@@ -1378,11 +1378,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "seaplane"
    ]
   },
@@ -1412,10 +1412,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -1465,12 +1465,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "seaplane:glassy-water-takeoffs"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.C.S13": {
@@ -1482,16 +1482,33 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "phak:ch06"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
   },
   "AA.III.C.S14": {
    "text": "Follow noise abatement procedures, as practicable.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch06",
+    "phak:ch14"
+   ],
+   "gaps": [
+    "risk-management",
+    "seaplane"
+   ]
+  },
+  "AA.III.C.S2": {
+   "text": "Make radio calls as appropriate.",
    "references": [
     "afh",
     "phak",
@@ -1507,22 +1524,6 @@
     "seaplane"
    ]
   },
-  "AA.III.C.S2": {
-   "text": "Make radio calls as appropriate.",
-   "references": [
-    "afh",
-    "phak",
-    "risk-management",
-    "seaplane"
-   ],
-   "current": [],
-   "gaps": [
-    "afh",
-    "phak",
-    "risk-management",
-    "seaplane"
-   ]
-  },
   "AA.III.C.S3": {
    "text": "Position the flight controls for the existing wind, if applicable.",
    "references": [
@@ -1532,10 +1533,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:crosswind-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -1566,10 +1567,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -1600,10 +1601,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -1669,11 +1670,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "phak:ch11",
     "seaplane:glassy-water-landing"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -1737,13 +1738,13 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
+    "risk-management:ch03",
     "seaplane:glassy-water-landing",
     "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
-    "afh",
-    "phak",
-    "risk-management"
+    "phak"
    ]
   },
   "AA.III.D.R2": {
@@ -1755,10 +1756,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:go-around"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -1789,11 +1790,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
     "seaplane"
    ]
   },
@@ -1806,11 +1807,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "seaplane"
    ]
   },
@@ -1840,10 +1841,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -1856,10 +1857,11 @@
     "risk-management",
     "seaplane"
    ],
-   "current": [],
+   "current": [
+    "phak:ch14"
+   ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -1909,10 +1911,10 @@
    ],
    "current": [
     "afh:ch09",
+    "phak:ch06",
     "seaplane:glassy-water-landing"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -1926,12 +1928,12 @@
    ],
    "current": [
     "afh:ch04",
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:glassy-water-landing"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.D.S7": {
@@ -1943,10 +1945,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:glassy-water-landing"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -1960,10 +1962,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:glassy-water-landing"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -1995,11 +1997,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "phak:ch11",
     "seaplane:rough-water-takeoffs"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -2013,11 +2015,11 @@
    ],
    "current": [
     "afh:ch06",
-    "phak:ch11"
+    "phak:ch11",
+    "seaplane:rough-water-takeoffs"
    ],
    "gaps": [
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.E.K3": {
@@ -2029,10 +2031,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:rough-water-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2063,13 +2065,13 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
+    "risk-management:ch03",
     "seaplane:landing-area-reconnaissance",
     "seaplane:rough-water-takeoffs"
    ],
    "gaps": [
-    "afh",
-    "phak",
-    "risk-management"
+    "phak"
    ]
   },
   "AA.III.E.R2": {
@@ -2116,12 +2118,12 @@
    ],
    "current": [
     "afh:ch13",
-    "afh:ch18"
+    "afh:ch18",
+    "seaplane:emergency-landing"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.E.R3": {
@@ -2150,11 +2152,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
     "seaplane"
    ]
   },
@@ -2167,11 +2169,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "seaplane"
    ]
   },
@@ -2201,10 +2203,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -2237,10 +2239,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:rough-water-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2254,10 +2256,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "phak:ch06"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -2271,16 +2273,33 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "seaplane:rough-water-takeoffs"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.E.S14": {
    "text": "Follow noise abatement procedures, as practicable.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch06",
+    "phak:ch14"
+   ],
+   "gaps": [
+    "risk-management",
+    "seaplane"
+   ]
+  },
+  "AA.III.E.S2": {
+   "text": "Make radio calls as appropriate.",
    "references": [
     "afh",
     "phak",
@@ -2296,22 +2315,6 @@
     "seaplane"
    ]
   },
-  "AA.III.E.S2": {
-   "text": "Make radio calls as appropriate.",
-   "references": [
-    "afh",
-    "phak",
-    "risk-management",
-    "seaplane"
-   ],
-   "current": [],
-   "gaps": [
-    "afh",
-    "phak",
-    "risk-management",
-    "seaplane"
-   ]
-  },
   "AA.III.E.S3": {
    "text": "Position the flight controls for the existing wind, if applicable.",
    "references": [
@@ -2321,10 +2324,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:crosswind-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2355,10 +2358,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2389,10 +2392,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:rough-water-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2458,11 +2461,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "phak:ch11",
     "seaplane:rough-water-landing"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -2526,13 +2529,13 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
+    "risk-management:ch03",
     "seaplane:landing-area-reconnaissance",
     "seaplane:rough-water-landing"
    ],
    "gaps": [
-    "afh",
-    "phak",
-    "risk-management"
+    "phak"
    ]
   },
   "AA.III.F.R2": {
@@ -2544,10 +2547,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:go-around"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2578,11 +2581,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
     "seaplane"
    ]
   },
@@ -2595,11 +2598,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "seaplane"
    ]
   },
@@ -2629,10 +2632,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -2662,10 +2665,11 @@
     "risk-management",
     "seaplane"
    ],
-   "current": [],
+   "current": [
+    "phak:ch14"
+   ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -2715,10 +2719,10 @@
    ],
    "current": [
     "afh:ch09",
+    "phak:ch06",
     "seaplane:rough-water-landing"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -2731,12 +2735,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:rough-water-landing"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.F.S7": {
@@ -2748,10 +2752,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:rough-water-landing"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2782,11 +2786,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:go-around",
     "seaplane:rough-water-landing"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2800,11 +2804,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "phak:ch11",
     "seaplane:confined-area-takeoffs"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -2818,11 +2822,11 @@
    ],
    "current": [
     "afh:ch06",
-    "phak:ch11"
+    "phak:ch11",
+    "seaplane:confined-area-takeoffs"
    ],
    "gaps": [
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.G.K3": {
@@ -2834,10 +2838,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:confined-area-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2869,10 +2873,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:confined-area-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -2886,13 +2890,13 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
+    "risk-management:ch03",
     "seaplane:confined-area-takeoffs",
     "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
-    "afh",
-    "phak",
-    "risk-management"
+    "phak"
    ]
   },
   "AA.III.G.R2": {
@@ -2939,12 +2943,12 @@
    ],
    "current": [
     "afh:ch13",
-    "afh:ch18"
+    "afh:ch18",
+    "seaplane:emergency-landing"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.G.R3": {
@@ -2973,11 +2977,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
     "seaplane"
    ]
   },
@@ -2990,11 +2994,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "seaplane"
    ]
   },
@@ -3024,10 +3028,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -3061,10 +3065,10 @@
    ],
    "current": [
     "afh:ch06",
+    "phak:ch11",
     "seaplane:confined-area-takeoffs"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -3077,10 +3081,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "phak:ch11"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -3094,10 +3098,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "phak:ch11"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -3111,16 +3115,33 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch06"
+    "afh:ch06",
+    "phak:ch06"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
   },
   "AA.III.G.S15": {
    "text": "Follow noise abatement procedures, as practicable.",
+   "references": [
+    "afh",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch06",
+    "phak:ch14"
+   ],
+   "gaps": [
+    "risk-management",
+    "seaplane"
+   ]
+  },
+  "AA.III.G.S2": {
+   "text": "Make radio calls as appropriate.",
    "references": [
     "afh",
     "phak",
@@ -3136,22 +3157,6 @@
     "seaplane"
    ]
   },
-  "AA.III.G.S2": {
-   "text": "Make radio calls as appropriate.",
-   "references": [
-    "afh",
-    "phak",
-    "risk-management",
-    "seaplane"
-   ],
-   "current": [],
-   "gaps": [
-    "afh",
-    "phak",
-    "risk-management",
-    "seaplane"
-   ]
-  },
   "AA.III.G.S3": {
    "text": "Position the flight controls for the existing wind, if applicable.",
    "references": [
@@ -3161,10 +3166,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:crosswind-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -3195,11 +3200,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:confined-area-takeoffs",
     "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -3230,10 +3235,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch06",
     "seaplane:confined-area-takeoffs"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -3299,11 +3304,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "phak:ch11",
     "seaplane:confined-area-landing"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -3316,10 +3321,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:confined-area-landing"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -3350,13 +3355,13 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
+    "risk-management:ch03",
     "seaplane:confined-area-landing",
     "seaplane:landing-area-reconnaissance"
    ],
    "gaps": [
-    "afh",
-    "phak",
-    "risk-management"
+    "phak"
    ]
   },
   "AA.III.H.R2": {
@@ -3368,10 +3373,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:go-around"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -3402,11 +3407,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
     "seaplane"
    ]
   },
@@ -3419,11 +3424,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "seaplane"
    ]
   },
@@ -3471,10 +3476,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -3487,10 +3492,11 @@
     "risk-management",
     "seaplane"
    ],
-   "current": [],
+   "current": [
+    "phak:ch14"
+   ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -3540,10 +3546,10 @@
    ],
    "current": [
     "afh:ch09",
+    "phak:ch06",
     "seaplane:confined-area-landing"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -3556,12 +3562,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:confined-area-landing"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.H.S7": {
@@ -3573,10 +3579,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:confined-area-landing"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -3590,10 +3596,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:confined-area-landing"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -3607,10 +3613,10 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch09",
     "seaplane:crosswind-landing"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -3713,10 +3719,10 @@
    ],
    "current": [
     "afh:ch06",
-    "phak:ch11"
+    "phak:ch11",
+    "risk-management:ch03"
    ],
    "gaps": [
-    "risk-management",
     "seaplane"
    ]
   },
@@ -3730,12 +3736,12 @@
    ],
    "current": [
     "afh:ch13",
-    "afh:ch18"
+    "afh:ch18",
+    "seaplane:emergency-landing"
    ],
    "gaps": [
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.I.R3": {
@@ -3764,10 +3770,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "phak:ch11"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -3798,11 +3804,11 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
-    "phak",
     "seaplane"
    ]
   },
@@ -3851,10 +3857,10 @@
    ],
    "current": [
     "afh:ch06",
-    "afh:ch18"
+    "afh:ch18",
+    "phak:ch11"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -3868,10 +3874,10 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -3887,10 +3893,10 @@
    ],
    "current": [
     "afh:ch04",
-    "afh:ch09"
+    "afh:ch09",
+    "aim:ch05-s04"
    ],
    "gaps": [
-    "aim",
     "phak",
     "risk-management",
     "seaplane"
@@ -3907,12 +3913,12 @@
    ],
    "current": [
     "afh:ch09",
-    "phak:ch11"
+    "phak:ch11",
+    "seaplane:go-around"
    ],
    "gaps": [
     "aim",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.J.K3": {
@@ -3926,13 +3932,14 @@
    ],
    "current": [
     "afh:ch06",
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:crosswind-landing",
+    "seaplane:crosswind-takeoffs"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.J.K4": {
@@ -3946,16 +3953,54 @@
    ],
    "current": [
     "afh:ch09",
-    "aim:ch04-s03"
+    "aim:ch04-s03",
+    "phak:ch14",
+    "seaplane:go-around"
    ],
    "gaps": [
-    "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.J.K5": {
    "text": "Go-around/rejected landing procedures, the importance of a timely decision, and appropriate airspeed/ V-speeds for the maneuver. 29",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch09",
+    "aim:ch05-s04",
+    "seaplane:go-around"
+   ],
+   "gaps": [
+    "phak",
+    "risk-management"
+   ]
+  },
+  "AA.III.J.R1": {
+   "text": "Delayed recognition of the need for a go-around/rejected landing.",
+   "references": [
+    "afh",
+    "aim",
+    "phak",
+    "risk-management",
+    "seaplane"
+   ],
+   "current": [
+    "afh:ch09",
+    "risk-management:ch08",
+    "seaplane:go-around"
+   ],
+   "gaps": [
+    "aim",
+    "phak"
+   ]
+  },
+  "AA.III.J.R2": {
+   "text": "Delayed performance of a go-around at low altitude.",
    "references": [
     "afh",
     "aim",
@@ -3973,44 +4018,6 @@
     "risk-management"
    ]
   },
-  "AA.III.J.R1": {
-   "text": "Delayed recognition of the need for a go-around/rejected landing.",
-   "references": [
-    "afh",
-    "aim",
-    "phak",
-    "risk-management",
-    "seaplane"
-   ],
-   "current": [
-    "afh:ch09",
-    "risk-management:ch08"
-   ],
-   "gaps": [
-    "aim",
-    "phak",
-    "seaplane"
-   ]
-  },
-  "AA.III.J.R2": {
-   "text": "Delayed performance of a go-around at low altitude.",
-   "references": [
-    "afh",
-    "aim",
-    "phak",
-    "risk-management",
-    "seaplane"
-   ],
-   "current": [
-    "afh:ch09"
-   ],
-   "gaps": [
-    "aim",
-    "phak",
-    "risk-management",
-    "seaplane"
-   ]
-  },
   "AA.III.J.R3": {
    "text": "Power application.",
    "references": [
@@ -4021,13 +4028,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:go-around"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.J.R4": {
@@ -4040,13 +4047,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:go-around"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.J.R5": {
@@ -4060,10 +4067,10 @@
    ],
    "current": [
     "afh:ch08",
-    "aim:ch04-s03"
+    "aim:ch04-s03",
+    "phak:ch14"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -4078,12 +4085,12 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
    "gaps": [
     "aim",
-    "phak",
-    "risk-management",
     "seaplane"
    ]
   },
@@ -4097,12 +4104,12 @@
     "seaplane"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
    "gaps": [
-    "afh",
     "aim",
-    "phak",
     "seaplane"
    ]
   },
@@ -4116,11 +4123,11 @@
     "seaplane"
    ],
    "current": [
-    "aim:ch04-s03"
+    "aim:ch04-s03",
+    "phak:ch14"
    ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -4135,13 +4142,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:go-around"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.J.S2": {
@@ -4154,13 +4161,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:go-around"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.J.S3": {
@@ -4174,13 +4181,13 @@
    ],
    "current": [
     "afh:ch06",
-    "afh:ch09"
+    "afh:ch09",
+    "seaplane:go-around"
    ],
    "gaps": [
     "aim",
     "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.J.S4": {
@@ -4193,13 +4200,13 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch09"
+    "afh:ch09",
+    "phak:ch06",
+    "seaplane:go-around"
    ],
    "gaps": [
     "aim",
-    "phak",
-    "risk-management",
-    "seaplane"
+    "risk-management"
    ]
   },
   "AA.III.J.S5": {
@@ -4212,11 +4219,11 @@
     "seaplane"
    ],
    "current": [
-    "aim:ch04-s02"
+    "aim:ch04-s02",
+    "phak:ch14"
    ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -4232,10 +4239,10 @@
    ],
    "current": [
     "afh:ch08",
-    "aim:ch04-s03"
+    "aim:ch04-s03",
+    "phak:ch14"
    ],
    "gaps": [
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -4250,11 +4257,11 @@
     "seaplane"
    ],
    "current": [
-    "afh:ch02"
+    "afh:ch02",
+    "phak:ch02"
    ],
    "gaps": [
     "aim",
-    "phak",
     "risk-management",
     "seaplane"
    ]
@@ -4297,10 +4304,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch03"
+    "afh:ch03",
+    "phak:ch06"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -4312,10 +4319,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch10"
+    "afh:ch10",
+    "phak:ch05"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -4327,10 +4334,10 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch10",
     "phak:ch05"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -4357,10 +4364,10 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch03",
     "phak:ch05"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -4372,10 +4379,10 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch05",
     "phak:ch17"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -4386,10 +4393,11 @@
     "phak",
     "risk-management"
    ],
-   "current": [],
+   "current": [
+    "afh:ch01",
+    "phak:ch17"
+   ],
    "gaps": [
-    "afh",
-    "phak",
     "risk-management"
    ]
   },
@@ -4401,12 +4409,11 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05",
+    "risk-management:ch03"
    ],
-   "gaps": [
-    "phak",
-    "risk-management"
-   ]
+   "gaps": []
   },
   "AA.IV.A.R4": {
    "text": "Distractions, task prioritization, loss of situational awareness, or disorientation.",
@@ -4416,12 +4423,11 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
-   "gaps": [
-    "afh",
-    "phak"
-   ]
+   "gaps": []
   },
   "AA.IV.A.R5": {
    "text": "Uncoordinated flight.",
@@ -4431,10 +4437,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch03"
+    "afh:ch03",
+    "phak:ch06"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -4445,9 +4451,10 @@
     "phak",
     "risk-management"
    ],
-   "current": [],
+   "current": [
+    "afh:ch10"
+   ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -4460,10 +4467,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch10"
+    "afh:ch10",
+    "phak:ch05"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -4475,10 +4482,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch10"
+    "afh:ch10",
+    "phak:ch08"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -4535,10 +4542,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch05"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -4565,11 +4572,11 @@
     "risk-management"
    ],
    "current": [
+    "ifh:ch03",
     "phak:ch08",
     "phak:ch17"
    ],
    "gaps": [
-    "ifh",
     "risk-management"
    ]
   },
@@ -4581,10 +4588,10 @@
     "risk-management"
    ],
    "current": [
+    "ifh:ch04",
     "phak:ch05"
    ],
    "gaps": [
-    "ifh",
     "risk-management"
    ]
   },
@@ -4596,10 +4603,10 @@
     "risk-management"
    ],
    "current": [
+    "ifh:ch04",
     "phak:ch05"
    ],
    "gaps": [
-    "ifh",
     "risk-management"
    ]
   },
@@ -4611,12 +4618,11 @@
     "risk-management"
    ],
    "current": [
+    "ifh:ch03",
     "phak:ch17",
     "risk-management:ch06"
    ],
-   "gaps": [
-    "ifh"
-   ]
+   "gaps": []
   },
   "AA.IV.B.R2": {
    "text": "[Archived]",
@@ -4640,10 +4646,10 @@
     "risk-management"
    ],
    "current": [
+    "ifh:ch04",
     "phak:ch05"
    ],
    "gaps": [
-    "ifh",
     "risk-management"
    ]
   },
@@ -4655,10 +4661,10 @@
     "risk-management"
    ],
    "current": [
-    "ifh:ch06"
+    "ifh:ch06",
+    "phak:ch08"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -4700,10 +4706,10 @@
     "risk-management"
    ],
    "current": [
-    "ifh:ch06"
+    "ifh:ch06",
+    "phak:ch08"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -4729,12 +4735,11 @@
     "risk-management"
    ],
    "current": [
+    "ifh:ch03",
+    "phak:ch02",
     "risk-management:ch06"
    ],
-   "gaps": [
-    "ifh",
-    "phak"
-   ]
+   "gaps": []
   },
   "AA.IV.B.S1": {
    "text": "Use proper instrument cross-check and interpretation to identify an unusual attitude (including both nose-high and nose-low) in flight, and apply the appropriate flight control, power input, and aircraft configuration in the correct sequence, to return to a stabilized level flight attitude.",
@@ -4745,10 +4750,10 @@
    ],
    "current": [
     "ifh:ch06",
-    "ifh:ch07"
+    "ifh:ch07",
+    "phak:ch08"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   },
@@ -4759,10 +4764,11 @@
     "phak",
     "risk-management"
    ],
-   "current": [],
+   "current": [
+    "phak:ch09"
+   ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management"
    ]
   },
@@ -4773,10 +4779,11 @@
     "phak",
     "risk-management"
    ],
-   "current": [],
+   "current": [
+    "phak:ch09"
+   ],
    "gaps": [
     "afh",
-    "phak",
     "risk-management"
    ]
   },
@@ -4788,12 +4795,11 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch05",
+    "phak:ch02",
     "risk-management:ch06"
    ],
-   "gaps": [
-    "afh",
-    "phak"
-   ]
+   "gaps": []
   },
   "AA.IV.C.S1": {
    "text": "Use proper techniques, checklists, and procedures to enter into, operate within, and recover from specific flight situations, as applicable. 33",
@@ -4803,10 +4809,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch05"
+    "afh:ch05",
+    "phak:ch02"
    ],
    "gaps": [
-    "phak",
     "risk-management"
    ]
   }

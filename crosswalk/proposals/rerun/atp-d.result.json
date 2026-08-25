@@ -1,0 +1,2281 @@
+{
+ "AA.V.A.K1": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "Current anchors hold the aerodynamics text. The RMH covers the risk process, not stall aerodynamics, so it stays at document level"
+ },
+ "AA.V.A.K2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "Current anchors hold the aerodynamics text. The RMH covers the risk process, not stall aerodynamics, so it stays at document level"
+ },
+ "AA.V.A.K3": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch06",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall aerodynamics text (166 hits), RMH ch03 identifies stall and loss-of-control hazards (17 hits, pp19-25)"
+ },
+ "AA.V.A.K4": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch06 holds the autopilot text (15 hits, p160); no other PHAK chapter treats autoflight or envelope protection"
+ },
+ "AA.V.A.K5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.A.R1": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall aerodynamics text (166 hits), RMH ch03 identifies stall and loss-of-control hazards (17 hits, pp19-25)"
+ },
+ "AA.V.A.R2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.A.R3": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.A.R4": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.A.R5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.A.R6": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch11",
+   "phak:ch12",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 covers turbulence, wind shear, and microbursts as upset causes (pp106-127); RMH ch03 lists turbulence, icing, and density altitude as hazards"
+ },
+ "AA.V.A.R7": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch01 and PHAK ch14 hold each book's collision avoidance and visual scanning text; RMH ch03 lists collision and terrain hazards (19 hits)"
+ },
+ "AA.V.A.R8": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 covers distraction and lost situational awareness in upsets (10 hits); PHAK ch02 is the ADM chapter (27 hits)"
+ },
+ "AA.V.A.S1": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "why": "No PHAK chapter covers clearing the area or maneuver entry altitude, and the RMH has no stall-practice text, so both stay at document level"
+ },
+ "AA.V.A.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Archived element with no content to match a chapter against, so every reference stays at document level"
+ },
+ "AA.V.A.S3": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.A.S4": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.A.S5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.A.S6": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.A.S7": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch06",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.K1": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "Current anchors hold the aerodynamics text. The RMH covers the risk process, not stall aerodynamics, so it stays at document level"
+ },
+ "AA.V.B.K2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "Current anchors hold the aerodynamics text. The RMH covers the risk process, not stall aerodynamics, so it stays at document level"
+ },
+ "AA.V.B.K3": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch16",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall aerodynamics text (166 hits), RMH ch03 identifies stall and loss-of-control hazards (17 hits, pp19-25)"
+ },
+ "AA.V.B.K4": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch06 holds the autopilot text (15 hits, p160); no other PHAK chapter treats autoflight or envelope protection"
+ },
+ "AA.V.B.K5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.K6": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "Current anchors hold the aerodynamics text. The RMH covers the risk process, not stall aerodynamics, so it stays at document level"
+ },
+ "AA.V.B.R1": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall aerodynamics text (166 hits), RMH ch03 identifies stall and loss-of-control hazards (17 hits, pp19-25)"
+ },
+ "AA.V.B.R2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.R3": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.R4": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.R5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.R6": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch11",
+   "phak:ch12",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 covers turbulence, wind shear, and microbursts as upset causes (pp106-127); RMH ch03 lists turbulence, icing, and density altitude as hazards"
+ },
+ "AA.V.B.R7": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch01 and PHAK ch14 hold each book's collision avoidance and visual scanning text; RMH ch03 lists collision and terrain hazards (19 hits)"
+ },
+ "AA.V.B.R8": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 covers distraction and lost situational awareness in upsets (10 hits); PHAK ch02 is the ADM chapter (27 hits)"
+ },
+ "AA.V.B.S1": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "why": "No PHAK chapter covers clearing the area or maneuver entry altitude, and the RMH has no stall-practice text, so both stay at document level"
+ },
+ "AA.V.B.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Archived element with no content to match a chapter against, so every reference stays at document level"
+ },
+ "AA.V.B.S3": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.S4": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.S5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.S6": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.B.S7": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.K1": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "Current anchors hold the aerodynamics text. The RMH covers the risk process, not stall aerodynamics, so it stays at document level"
+ },
+ "AA.V.C.K2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "Current anchors hold the aerodynamics text. The RMH covers the risk process, not stall aerodynamics, so it stays at document level"
+ },
+ "AA.V.C.K3": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch09",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall aerodynamics text (166 hits), RMH ch03 identifies stall and loss-of-control hazards (17 hits, pp19-25)"
+ },
+ "AA.V.C.K4": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch06 holds the autopilot text (15 hits, p160); no other PHAK chapter treats autoflight or envelope protection"
+ },
+ "AA.V.C.K5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.R1": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall aerodynamics text (166 hits), RMH ch03 identifies stall and loss-of-control hazards (17 hits, pp19-25)"
+ },
+ "AA.V.C.R2": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.R3": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.R4": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.R5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.R6": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch11",
+   "phak:ch12",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 covers turbulence, wind shear, and microbursts as upset causes (pp106-127); RMH ch03 lists turbulence, icing, and density altitude as hazards"
+ },
+ "AA.V.C.R7": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch09",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall aerodynamics text (166 hits), RMH ch03 identifies stall and loss-of-control hazards (17 hits, pp19-25)"
+ },
+ "AA.V.C.R8": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch01 and PHAK ch14 hold each book's collision avoidance and visual scanning text; RMH ch03 lists collision and terrain hazards (19 hits)"
+ },
+ "AA.V.C.R9": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 covers distraction and lost situational awareness in upsets (10 hits); PHAK ch02 is the ADM chapter (27 hits)"
+ },
+ "AA.V.C.S1": {
+  "anchors": [
+   "afh:ch10"
+  ],
+  "confidence": "high",
+  "why": "No PHAK chapter covers clearing the area or maneuver entry altitude, and the RMH has no stall-practice text, so both stay at document level"
+ },
+ "AA.V.C.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Archived element with no content to match a chapter against, so every reference stays at document level"
+ },
+ "AA.V.C.S3": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.S4": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.S5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.S6": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.V.C.S7": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch06",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stall warning, recovery, and accelerated stalls (166 stall hits, 120 load factor hits). RMH treats process, not stall technique"
+ },
+ "AA.VI.A.K1": {
+  "anchors": [
+   "afh:ch06",
+   "aim:ch05-s02",
+   "iph:ch01",
+   "phak:ch14",
+   "seaplane:takeoffs"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers runway lighting, surface, and wake turbulence; AIM 5-2 covers takeoff minimums and obstacles; seaplane TAKEOFFS covers the water path"
+ },
+ "AA.VI.A.R1": {
+  "anchors": [
+   "afh:ch06",
+   "iph:ch01",
+   "phak:ch11",
+   "seaplane:takeoffs"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch11 holds runway length and takeoff distance (37 hits); seaplane TAKEOFFS covers takeoff path and surface selection"
+ },
+ "AA.VI.A.R2": {
+  "anchors": [
+   "afh:ch06",
+   "aim:ch07-s04",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the wake turbulence section (p360); AFH ch06 covers wake turbulence on takeoff (p133)"
+ },
+ "AA.VI.A.R3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "Parent line with no content of its own. AFH ch18 carries the abnormal-operations text; the remaining references stay at document level"
+ },
+ "AA.VI.A.R3a": {
+  "anchors": [
+   "afh:ch06",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch06 and ch18 hold the rejected takeoff text. No AIM, IFH, IPH, PHAK, RMH, or seaplane chapter treats it, so those stay at document level"
+ },
+ "AA.VI.A.R3b": {
+  "anchors": [
+   "afh:ch18",
+   "ifh:ch11",
+   "iph:ch01"
+  ],
+  "confidence": "low",
+  "why": "IPH ch01 covers departure alternate minimums for the case where the departure airport is below approach minimums"
+ },
+ "AA.VI.A.R4": {
+  "anchors": [
+   "afh:ch01",
+   "aim:ch07-s06",
+   "iph:ch01",
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "IPH ch01 covers see and avoid on departure (9 hits); AFH ch01 and PHAK ch14 hold each book's collision avoidance text; RMH ch03 lists collision hazards"
+ },
+ "AA.VI.A.R5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall and spin text; RMH ch03 identifies loss of control and terrain hazards (17 and 19 hits)"
+ },
+ "AA.VI.A.R6": {
+  "anchors": [
+   "aim:ch08-s01",
+   "ifh:ch03",
+   "phak:ch17",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 holds the spatial disorientation text (15 hits, p425); AIM 8-1 Fitness for Flight covers disorientation and illusions"
+ },
+ "AA.VI.A.S1": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.A.S10": {
+  "anchors": [
+   "afh:ch06",
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and AFH ch06 carry the rotation and instrument transition text. No chapter in the gap documents covers these tolerances"
+ },
+ "AA.VI.A.S11": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and AFH ch06 carry the rotation and instrument transition text. No chapter in the gap documents covers these tolerances"
+ },
+ "AA.VI.A.S12": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and AFH ch06 carry the rotation and instrument transition text. No chapter in the gap documents covers these tolerances"
+ },
+ "AA.VI.A.S13": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the ATC clearance and instruction text (68 hits, p342)"
+ },
+ "AA.VI.A.S14": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.A.S2": {
+  "anchors": [
+   "ifh:ch05",
+   "iph:ch06",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch08 is the flight instruments chapter (25 hits, p203)"
+ },
+ "AA.VI.A.S3": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the radio communication procedures and phraseology text (p336)"
+ },
+ "AA.VI.A.S4": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14",
+   "seaplane:takeoffs"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 covers runway identification and incursion avoidance (16 hits, p346); seaplane TAKEOFFS covers the water takeoff path"
+ },
+ "AA.VI.A.S5": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch06",
+   "seaplane:crosswind-takeoffs"
+  ],
+  "confidence": "high",
+  "why": "Seaplane CROSSWIND TAKEOFFS covers control position for the existing wind on the water"
+ },
+ "AA.VI.A.S6": {
+  "anchors": [
+   "afh:ch06",
+   "aim:ch04-s03",
+   "phak:ch14",
+   "seaplane:normal-takeoffs"
+  ],
+  "confidence": "low",
+  "why": "AIM 4-3 Airport Operations and PHAK ch14 both cover taxi into position, runway alignment, and incursion avoidance"
+ },
+ "AA.VI.A.S7": {
+  "anchors": [
+   "ifh:ch06",
+   "iph:ch01"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and IPH ch01 carry the instrument takeoff text. No AFH, AIM, PHAK, RMH, or seaplane chapter treats simulated IMC at 100 feet"
+ },
+ "AA.VI.A.S8": {
+  "anchors": [
+   "afh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch06 holds the takeoff roll text. The centerline call is ASEL and AMEL only, so no seaplane chapter applies and the rest stay at document level"
+ },
+ "AA.VI.A.S9": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch07 holds the engine instrument text (43 hits, p165)"
+ },
+ "AA.VI.B.K1": {
+  "anchors": [
+   "aim:ch05-s02",
+   "ifh:ch01",
+   "iph:ch01"
+  ],
+  "confidence": "low",
+  "why": "IFH ch01 covers departure procedures and the chart products in its NAS survey (14 hits, p31). No AFH, PHAK, or RMH chapter treats ODPs or SIDs"
+ },
+ "AA.VI.B.K2": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "iph:ch06",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "AIM 1-2 is the PBN and RNAV section; PHAK ch16 holds the GPS and FMS text (81 hits, p409)"
+ },
+ "AA.VI.B.K3": {
+  "anchors": [
+   "aim:ch04-s01",
+   "aim:ch05-s05",
+   "ifh:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers ATC services, pilot and controller roles, and radio procedure (68 hits, p342)"
+ },
+ "AA.VI.B.K4": {
+  "anchors": [
+   "aim:ch06-s04",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 has the only lost communication text in the gap documents (p357); the IFH returns no hit for communication failure"
+ },
+ "AA.VI.B.K5": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 is the navigation chapter and holds the ground-based and satellite-based system text (81 hits)"
+ },
+ "AA.VI.B.R1": {
+  "anchors": [
+   "aim:ch05-s02",
+   "iph:ch01"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-2 Departure Procedures holds the published-procedure and climb gradient text (36 hits, p349)"
+ },
+ "AA.VI.B.R2": {
+  "anchors": [
+   "aim:ch04-s05",
+   "aim:ch07-s06",
+   "ifh:ch05",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 covers traffic advisory equipment and its limits (14 hits, p97); PHAK ch14 holds the see and avoid text"
+ },
+ "AA.VI.B.R3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 names automation management as an ADM topic (p43) and is the only PHAK chapter that treats it"
+ },
+ "AA.VI.B.S1": {
+  "anchors": [
+   "aim:ch05-s02",
+   "ifh:ch09",
+   "iph:ch01",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-2 covers selecting a departure procedure; PHAK ch16 covers identifying and using the associated navigation facilities"
+ },
+ "AA.VI.B.S2": {
+  "anchors": [
+   "ifh:ch09",
+   "iph:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch09 Navigation Systems holds the FMS and flight director programming text"
+ },
+ "AA.VI.B.S3": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.B.S4": {
+  "anchors": [
+   "aim:ch09-s01",
+   "ifh:ch09",
+   "iph:ch06"
+  ],
+  "confidence": "low",
+  "why": "IFH ch09 covers navigation databases and their currency"
+ },
+ "AA.VI.B.S5": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the two-way communication, phraseology, and ATC compliance text (68 hits, p342)"
+ },
+ "AA.VI.B.S6": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers course, radial, and bearing interception; AIM 1-1 covers the navigation aids they are flown from"
+ },
+ "AA.VI.B.S7": {
+  "anchors": [
+   "aim:ch05-s02",
+   "iph:ch01"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-2 Departure Procedures holds the charted departure procedure text"
+ },
+ "AA.VI.B.S8": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch16 covers tracking a course, radial, or bearing. The tolerances themselves are ACS values with no handbook chapter"
+ },
+ "AA.VI.B.S9": {
+  "anchors": [
+   "aim:ch05-s02",
+   "iph:ch01",
+   "iph:ch02"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-2 covers the departure phase through the transition to en route"
+ },
+ "AA.VI.C.K1": {
+  "anchors": [
+   "aim:ch09-s01",
+   "ifh:ch01",
+   "iph:ch03"
+  ],
+  "confidence": "low",
+  "why": "IFH ch01 surveys the chart products of the NAS, including arrival charts. No AFH, PHAK, or RMH chapter treats STARs"
+ },
+ "AA.VI.C.K2": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "iph:ch06",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "AIM 1-2 is the PBN and RNAV section; PHAK ch16 holds the GPS and FMS text (81 hits)"
+ },
+ "AA.VI.C.K3": {
+  "anchors": [
+   "aim:ch05-s05",
+   "ifh:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers ATC services, pilot and controller roles, and radio procedure (68 hits, p342)"
+ },
+ "AA.VI.C.K4": {
+  "anchors": [
+   "aim:ch06-s04",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 has the only lost communication text in the gap documents (p357); the IFH returns no hit for communication failure"
+ },
+ "AA.VI.C.K5": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 is the navigation chapter and holds the ground-based and satellite-based system text (81 hits)"
+ },
+ "AA.VI.C.R1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the ATC clearance, instruction, and compliance text (68 hits, p342)"
+ },
+ "AA.VI.C.R2": {
+  "anchors": [
+   "aim:ch04-s05",
+   "ifh:ch05",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 covers traffic advisory equipment and its limits (14 hits, p97); PHAK ch14 holds the see and avoid text"
+ },
+ "AA.VI.C.R3": {
+  "anchors": [
+   "afh:ch01",
+   "aim:ch07-s06",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 and AFH ch01 hold each book's see and avoid and visual scanning text"
+ },
+ "AA.VI.C.R4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 names automation management as an ADM topic (p43) and is the only PHAK chapter that treats it"
+ },
+ "AA.VI.C.R5": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the ATC clearance, instruction, and compliance text (68 hits, p342)"
+ },
+ "AA.VI.C.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch09",
+   "iph:ch03",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 Arrival Procedures covers the arrival's navigation facilities; PHAK ch16 covers identifying and tuning them"
+ },
+ "AA.VI.C.S10": {
+  "anchors": [
+   "ifh:ch06",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch16 covers tracking a course, radial, or bearing. The tolerances themselves are ACS values with no handbook chapter"
+ },
+ "AA.VI.C.S2": {
+  "anchors": [
+   "ifh:ch09",
+   "iph:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch09 Navigation Systems holds the FMS and flight director programming text"
+ },
+ "AA.VI.C.S3": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.C.S4": {
+  "anchors": [
+   "aim:ch09-s01",
+   "ifh:ch09",
+   "iph:ch06"
+  ],
+  "confidence": "low",
+  "why": "IFH ch09 covers navigation databases and their currency"
+ },
+ "AA.VI.C.S5": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the two-way communication, phraseology, and ATC compliance text (68 hits, p342)"
+ },
+ "AA.VI.C.S6": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers course, radial, and bearing interception; AIM 1-1 covers the navigation aids they are flown from"
+ },
+ "AA.VI.C.S7": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch03"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 Arrival Procedures holds the charted arrival procedure text"
+ },
+ "AA.VI.C.S8": {
+  "anchors": [
+   "aim:ch04-s04",
+   "iph:ch03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-4 holds the speed adjustment and airspeed restriction text (19 hits, p280)"
+ },
+ "AA.VI.C.S9": {
+  "anchors": [
+   "afh:ch04",
+   "iph:ch03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch04 and IPH ch03 carry the descent rate text. No AIM, IFH, PHAK, or RMH chapter treats descent rates on an arrival"
+ },
+ "AA.VI.D.K1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch09",
+   "iph:ch04",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 covers approach minima and the LP and LNAV lines; PHAK ch16 covers the WAAS and RNAV service that produces them"
+ },
+ "AA.VI.D.K2": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "AIM 1-2 covers RNP accuracy values and RNAV annunciations; PHAK ch16 covers the GPS displays"
+ },
+ "AA.VI.D.K3": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 is the navigation chapter and holds the ground-based and satellite-based system text (81 hits)"
+ },
+ "AA.VI.D.K4": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the stabilized approach text (10 hits, p149); AIM 5-4 carries the stabilized approach advisory (p400)"
+ },
+ "AA.VI.D.R1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 Arrival Procedures covers compliance with the assigned approach procedure"
+ },
+ "AA.VI.D.R2": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers selecting and identifying navigation frequencies; AIM 1-1 is the navigation aids section"
+ },
+ "AA.VI.D.R3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 names automation management as an ADM topic (p43) and is the only PHAK chapter that treats it"
+ },
+ "AA.VI.D.R4": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "IFH ch10 IFR Flight covers approach and missed approach configuration"
+ },
+ "AA.VI.D.R5": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the stabilized approach text and the descent rate limits an unstable approach breaks (10 hits, p149)"
+ },
+ "AA.VI.D.R6": {
+  "anchors": [
+   "phak:ch13",
+   "risk-management:ch08"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch13 covers the weather services a crew uses to see conditions deteriorate. No AFH, AIM, IFH, or IPH chapter treats the decision"
+ },
+ "AA.VI.D.R7": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the visual reference requirement for descent below MDA (108 missed approach hits, p396)"
+ },
+ "AA.VI.D.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 IFR Flight flies the approach end to end; AIM 5-4 holds the instrument approach procedure text (30 hits, p393)"
+ },
+ "AA.VI.D.S10": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the inoperative components table and the approach category minima adjustments"
+ },
+ "AA.VI.D.S11": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the stabilized descent text (10 stabilized approach hits, p149)"
+ },
+ "AA.VI.D.S12": {
+  "anchors": [
+   "ifh:ch06",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and IPH ch04 carry the final segment text. The deflection and airspeed values are ACS tolerances with no chapter in the gap documents"
+ },
+ "AA.VI.D.S13": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the missed approach and visual reference text (108 hits, p396); IFH ch10 flies the missed approach"
+ },
+ "AA.VI.D.S14": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16",
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch16 covers moving map and graphical navigation displays (81 hits)"
+ },
+ "AA.VI.D.S2": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the two-way communication, phraseology, and ATC compliance text (68 hits, p342)"
+ },
+ "AA.VI.D.S3": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers selecting, tuning, and identifying navigation equipment (81 hits)"
+ },
+ "AA.VI.D.S4": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 holds the ATC clearance and pilot response text (68 hits, p342)"
+ },
+ "AA.VI.D.S5": {
+  "anchors": [
+   "ifh:ch05",
+   "ifh:ch07",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch08 is the flight instruments chapter and covers instrument failure indications (25 hits, p203)"
+ },
+ "AA.VI.D.S6": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 holds the ATC clearance and pilot response text (68 hits, p342)"
+ },
+ "AA.VI.D.S7": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.D.S8": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch10"
+  ],
+  "confidence": "low",
+  "why": "IFH ch10 covers approach configuration and airspeed for the conditions"
+ },
+ "AA.VI.D.S9": {
+  "anchors": [
+   "ifh:ch06",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch16 covers tracking a course, radial, or bearing. The tolerances themselves are ACS values with no handbook chapter"
+ },
+ "AA.VI.E.K1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 holds the precision approach and inoperative equipment minima text; IFH ch10 covers required descent rates"
+ },
+ "AA.VI.E.K2": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "AIM 1-2 covers RNAV modes and annunciations; PHAK ch16 covers the navigation displays that show them"
+ },
+ "AA.VI.E.K3": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 is the navigation chapter and holds the ground-based and satellite-based system text (81 hits)"
+ },
+ "AA.VI.E.K4": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the stabilized approach text (10 hits, p149); AIM 5-4 carries the stabilized approach advisory (p400)"
+ },
+ "AA.VI.E.R1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 Arrival Procedures covers compliance with the assigned approach procedure"
+ },
+ "AA.VI.E.R2": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers selecting and identifying navigation frequencies; AIM 1-1 is the navigation aids section"
+ },
+ "AA.VI.E.R3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 names automation management as an ADM topic (p43) and is the only PHAK chapter that treats it"
+ },
+ "AA.VI.E.R4": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "IFH ch10 IFR Flight covers approach and missed approach configuration"
+ },
+ "AA.VI.E.R5": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the stabilized approach text and the descent rate limits an unstable approach breaks (10 hits, p149)"
+ },
+ "AA.VI.E.R6": {
+  "anchors": [
+   "phak:ch13",
+   "risk-management:ch08"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch13 covers the weather services a crew uses to see conditions deteriorate. No AFH, AIM, IFH, or IPH chapter treats the decision"
+ },
+ "AA.VI.E.R7": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the visual reference requirement for descent below DA and DH (108 missed approach hits, p396)"
+ },
+ "AA.VI.E.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 IFR Flight flies the approach end to end; AIM 5-4 holds the instrument approach procedure text (30 hits, p393)"
+ },
+ "AA.VI.E.S10": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the inoperative components table and the approach category minima adjustments"
+ },
+ "AA.VI.E.S11": {
+  "anchors": [
+   "afh:ch04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "IFH ch10 covers establishing the descent rate that holds the vertical guidance"
+ },
+ "AA.VI.E.S12": {
+  "anchors": [
+   "ifh:ch06",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and IPH ch04 carry the final segment text. The deflection and airspeed values are ACS tolerances with no chapter in the gap documents"
+ },
+ "AA.VI.E.S13": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the missed approach and visual reference text (108 hits, p396); IFH ch10 flies the missed approach"
+ },
+ "AA.VI.E.S14": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16",
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch16 covers moving map and graphical navigation displays (81 hits)"
+ },
+ "AA.VI.E.S2": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the two-way communication, phraseology, and ATC compliance text (68 hits, p342)"
+ },
+ "AA.VI.E.S3": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers selecting, tuning, and identifying navigation equipment (81 hits)"
+ },
+ "AA.VI.E.S4": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 holds the ATC clearance and pilot response text (68 hits, p342)"
+ },
+ "AA.VI.E.S5": {
+  "anchors": [
+   "ifh:ch05",
+   "ifh:ch07",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch08 is the flight instruments chapter and covers instrument failure indications (25 hits, p203)"
+ },
+ "AA.VI.E.S6": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 holds the ATC clearance and pilot response text (68 hits, p342)"
+ },
+ "AA.VI.E.S7": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.E.S8": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch10"
+  ],
+  "confidence": "low",
+  "why": "IFH ch10 covers approach configuration and airspeed for the conditions"
+ },
+ "AA.VI.E.S9": {
+  "anchors": [
+   "ifh:ch06",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch16 covers tracking a course, radial, or bearing. The tolerances themselves are ACS values with no handbook chapter"
+ },
+ "AA.VI.F.K1": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 covers the runway environment, surface, and lighting factors that affect the landing"
+ },
+ "AA.VI.F.K2": {
+  "anchors": [
+   "aim:ch02-s01",
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 and AIM 2-1 and 2-3 already hold the lighting and marking text. The AFH, IFH, IPH, and RMH have no chapter on airport lighting"
+ },
+ "AA.VI.F.R1": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 holds the landing distance and runway length text (46 hits, p261)"
+ },
+ "AA.VI.F.R10": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the missed approach text (108 hits, p396)"
+ },
+ "AA.VI.F.R11": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the LAHSO text (28 hits, p338)"
+ },
+ "AA.VI.F.R2": {
+  "anchors": [
+   "aim:ch07-s04",
+   "iph:ch04",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the wake turbulence section (p360); IPH ch04 covers wake turbulence on approach (6 hits, p196)"
+ },
+ "AA.VI.F.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Archived element with no content to match a chapter against, so every reference stays at document level"
+ },
+ "AA.VI.F.R3a": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Archived element with no content to match a chapter against, so every reference stays at document level"
+ },
+ "AA.VI.F.R3b": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Archived element with no content to match a chapter against, so every reference stays at document level"
+ },
+ "AA.VI.F.R4": {
+  "anchors": [
+   "afh:ch01",
+   "aim:ch07-s06",
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 and AFH ch01 hold each book's collision avoidance text; RMH ch03 lists collision and terrain hazards (19 hits)"
+ },
+ "AA.VI.F.R5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall and spin text; RMH ch03 identifies loss of control and terrain hazards (17 and 19 hits)"
+ },
+ "AA.VI.F.R6": {
+  "anchors": [
+   "aim:ch08-s01",
+   "ifh:ch03",
+   "phak:ch17",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 holds the spatial disorientation text (15 hits, p425); AIM 8-1 Fitness for Flight covers disorientation and illusions"
+ },
+ "AA.VI.F.R7": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the stabilized approach text and the descent rate limits an unstable approach breaks (10 hits, p149)"
+ },
+ "AA.VI.F.R8": {
+  "anchors": [
+   "aim:ch01-s01",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "AIM 1-1 holds the ILS glide slope text, which is where flying below the glidepath is described"
+ },
+ "AA.VI.F.R9": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 covers the transition from instrument to visual references at the approach minimum"
+ },
+ "AA.VI.F.S1": {
+  "anchors": [
+   "ifh:ch06",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 and IPH ch04 carry the final segment text. The airspeed and deflection values are ACS tolerances with no chapter in the gap documents"
+ },
+ "AA.VI.F.S2": {
+  "anchors": [
+   "aim:ch04-s01",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 covers NOTAMs, braking conditions, and the runway advisories ATC issues"
+ },
+ "AA.VI.F.S3": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.F.S4": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the runway marking text, including aiming point and touchdown zone markings"
+ },
+ "AA.VI.F.S5": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 carries the landing rollout and braking text. No AIM, IFH, IPH, PHAK, or RMH chapter treats it"
+ },
+ "AA.VI.F.S6": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 is the ADM chapter and holds the SRM and CRM text"
+ },
+ "AA.VI.F.S7": {
+  "anchors": [
+   "afh:ch01",
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the runway incursion avoidance text (16 hits, p346); AFH ch01 covers incursion avoidance in ground operations (7 hits, p31)"
+ },
+ "AA.VI.G.K1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the circling approach and approach category text (14 hits, p422); IFH ch10 covers the circling maneuver"
+ },
+ "AA.VI.G.R1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the circling approach and circling missed approach text (14 circling hits, p422)"
+ },
+ "AA.VI.G.R2": {
+  "anchors": [
+   "iph:ch04",
+   "phak:ch17",
+   "risk-management:ch04"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch17 holds the night vision and night illusion text (30 hits, p439), which is what makes a night circle marginal"
+ },
+ "AA.VI.G.R3": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 covers losing the airport in sight while circling and the missed approach it forces"
+ },
+ "AA.VI.G.R4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 names automation management as an ADM topic (p43) and is the only PHAK chapter that treats it"
+ },
+ "AA.VI.G.R5": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch06",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the circling text, including altitude and distance control and the descent to MDA (59 circling hits, p142)"
+ },
+ "AA.VI.G.R6": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall and spin text; RMH ch03 identifies loss of control and terrain hazards (17 and 19 hits)"
+ },
+ "AA.VI.G.R7": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the circling approach and circling missed approach text (14 circling hits, p422)"
+ },
+ "AA.VI.G.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 covers the circling maneuver and its approach category radii"
+ },
+ "AA.VI.G.S2": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 covers traffic direction and ATC instructions in the airport environment"
+ },
+ "AA.VI.G.S3": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.G.S4": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the circling text, including altitude and distance control and the descent to MDA (59 circling hits, p142)"
+ },
+ "AA.VI.G.S5": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch06 carries the instrument tolerance text. The values are ACS tolerances with no chapter in the gap documents"
+ },
+ "AA.VI.G.S6": {
+  "anchors": [
+   "afh:ch08",
+   "afh:ch09",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 covers traffic pattern legs and the airport environment the circle maneuvers within"
+ },
+ "AA.VI.G.S7": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the circling missed approach text, including the turn toward the airport"
+ },
+ "AA.VI.H.K1": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 covers the runway environment, surface, and lighting factors that affect the landing"
+ },
+ "AA.VI.H.K2": {
+  "anchors": [
+   "aim:ch02-s01",
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 and AIM 2-1 and 2-3 already hold the lighting and marking text. The AFH, IFH, IPH, and RMH have no chapter on airport lighting"
+ },
+ "AA.VI.H.R1": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 holds the landing distance and runway length text (46 hits, p261)"
+ },
+ "AA.VI.H.R2": {
+  "anchors": [
+   "aim:ch07-s04",
+   "iph:ch04",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the wake turbulence section (p360); IPH ch04 covers wake turbulence on approach (6 hits, p196)"
+ },
+ "AA.VI.H.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Archived element with no content to match a chapter against, so every reference stays at document level"
+ },
+ "AA.VI.H.R3a": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Archived element with no content to match a chapter against, so every reference stays at document level"
+ },
+ "AA.VI.H.R3b": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Archived element with no content to match a chapter against, so every reference stays at document level"
+ },
+ "AA.VI.H.R4": {
+  "anchors": [
+   "afh:ch01",
+   "aim:ch07-s06",
+   "phak:ch14",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 and AFH ch01 hold each book's collision avoidance text; RMH ch03 lists collision and terrain hazards (19 hits)"
+ },
+ "AA.VI.H.R5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 holds the stall and spin text; RMH ch03 identifies loss of control and terrain hazards (17 and 19 hits)"
+ },
+ "AA.VI.H.R6": {
+  "anchors": [
+   "aim:ch08-s01",
+   "ifh:ch03",
+   "phak:ch17",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 holds the spatial disorientation text (15 hits, p425); AIM 8-1 Fitness for Flight covers disorientation and illusions"
+ },
+ "AA.VI.H.R7": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 holds the stabilized approach text and the descent rate limits an unstable approach breaks (10 hits, p149)"
+ },
+ "AA.VI.H.R8": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the missed approach text (108 hits, p396)"
+ },
+ "AA.VI.H.R9": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the LAHSO text (28 hits, p338)"
+ },
+ "AA.VI.H.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the circling radius and airport-in-sight text (14 circling hits, p422)"
+ },
+ "AA.VI.H.S10": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 is the ADM chapter and holds the SRM and CRM text"
+ },
+ "AA.VI.H.S11": {
+  "anchors": [
+   "afh:ch01",
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the runway incursion avoidance text (16 hits, p346); AFH ch01 covers incursion avoidance in ground operations (7 hits, p31)"
+ },
+ "AA.VI.H.S2": {
+  "anchors": [
+   "aim:ch04-s01",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 covers NOTAMs, braking conditions, and the runway advisories ATC issues"
+ },
+ "AA.VI.H.S3": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.H.S4": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and IFH ch06 carry the circling and landing text. No AIM, IPH, PHAK, or RMH chapter treats these control inputs"
+ },
+ "AA.VI.H.S5": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and IFH ch06 carry the circling and landing text. No AIM, IPH, PHAK, or RMH chapter treats these control inputs"
+ },
+ "AA.VI.H.S6": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and IFH ch06 carry the circling and landing text. No AIM, IPH, PHAK, or RMH chapter treats these control inputs"
+ },
+ "AA.VI.H.S7": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch07-s06",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the scanning and collision avoidance text for the landing runway and its surroundings"
+ },
+ "AA.VI.H.S8": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds the runway marking text, including aiming point and touchdown zone markings"
+ },
+ "AA.VI.H.S9": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 carries the landing rollout and braking text. No AIM, IFH, IPH, PHAK, or RMH chapter treats it"
+ },
+ "AA.VI.I.K1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch07",
+   "iph:ch04",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the missed approach text (108 hits, p396); PHAK ch08 covers the standby and backup instruments"
+ },
+ "AA.VI.I.K2": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch09",
+   "iph:ch04",
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 covers standard approach limitations; IFH ch09 covers FMS and autopilot behavior on an approach"
+ },
+ "AA.VI.I.R1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 covers the missed approach point, the go-around below minimums, and the procedures a deviation departs from"
+ },
+ "AA.VI.I.R2": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04",
+   "risk-management:ch08"
+  ],
+  "confidence": "low",
+  "why": "IFH ch10 covers holding, diverting, and a second approach; AIM 5-4 covers the clearance required for each"
+ },
+ "AA.VI.I.R3": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "IFH ch10 IFR Flight covers approach and missed approach configuration"
+ },
+ "AA.VI.I.R4": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-4 covers the missed approach point, the go-around below minimums, and the procedures a deviation departs from"
+ },
+ "AA.VI.I.R5": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 names automation management as an ADM topic (p43) and is the only PHAK chapter that treats it"
+ },
+ "AA.VI.I.S1": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the missed approach procedure and reporting text (108 hits, p396); IFH ch10 flies it"
+ },
+ "AA.VI.I.S10": {
+  "anchors": [
+   "phak:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch06 holds the autopilot text (15 hits, p160), which is the only autoflight treatment in the gap documents"
+ },
+ "AA.VI.I.S11": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04",
+   "risk-management:ch08"
+  ],
+  "confidence": "low",
+  "why": "IFH ch10 covers holding, diverting, and a second approach; AIM 5-4 covers the clearance required for each"
+ },
+ "AA.VI.I.S2": {
+  "anchors": [
+   "afh:ch09",
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and IFH ch06 carry the go-around and climb text. No AIM, IPH, PHAK, or RMH chapter treats these actions"
+ },
+ "AA.VI.I.S3": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and IFH ch06 carry the go-around and climb text. No AIM, IPH, PHAK, or RMH chapter treats these actions"
+ },
+ "AA.VI.I.S4": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination as ADM (40 checklist hits). No other gap document has a checklist chapter"
+ },
+ "AA.VI.I.S5": {
+  "anchors": [
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-4 holds the missed approach procedure and reporting text (108 hits, p396); IFH ch10 flies it"
+ },
+ "AA.VI.I.S6": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 holds the ATC clearance and pilot response text (68 hits, p342)"
+ },
+ "AA.VI.I.S7": {
+  "anchors": [
+   "ifh:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and IFH ch06 carry the go-around and climb text. No AIM, IPH, PHAK, or RMH chapter treats these actions"
+ },
+ "AA.VI.I.S8": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16",
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch16 covers moving map and graphical navigation displays (81 hits)"
+ },
+ "AA.VI.I.S9": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 is the ADM chapter and holds the SRM and CRM text"
+ },
+ "AA.VI.J.K1": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 En Route Operations holds the holding text, including entries, speeds, and wind correction (72 hits, p92)"
+ },
+ "AA.VI.J.K2": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "confidence": "low",
+  "why": "AIM 5-3 holds the holding and EFC text (68 hits, p362); IFH ch10 covers holding fuel planning"
+ },
+ "AA.VI.J.K3": {
+  "anchors": [
+   "aim:ch06-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 6-3 already carries the declaration. No AFH, IFH, IPH, PHAK, or RMH chapter treats minimum fuel, so those stay at document level"
+ },
+ "AA.VI.J.K4": {
+  "anchors": [
+   "ifh:ch09",
+   "iph:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "why": "IFH ch09 Navigation Systems covers autopilot and FMS use, including a programmed hold"
+ },
+ "AA.VI.J.R1": {
+  "anchors": [
+   "iph:ch02",
+   "risk-management:ch04"
+  ],
+  "confidence": "low",
+  "why": "IPH ch02 holds the EFC and holding endurance text (9 EFC hits, p110)"
+ },
+ "AA.VI.J.R2": {
+  "anchors": [
+   "aim:ch05-s05",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-5 holds the minimum fuel advisory text (6 hits, p469)"
+ },
+ "AA.VI.J.R3": {
+  "anchors": [
+   "phak:ch13",
+   "risk-management:ch08"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch13 covers the weather services that show a destination going down, which is what forces the hold"
+ },
+ "AA.VI.J.R4": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 En Route Operations holds the holding text, including entries, speeds, and wind correction (72 hits, p92)"
+ },
+ "AA.VI.J.R5": {
+  "anchors": [
+   "aim:ch07-s01",
+   "ifh:ch04",
+   "phak:ch12"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch12 holds the structural icing text (14 hits, p299). IPH ch02 already carries holding, so the icing half is the gap"
+ },
+ "AA.VI.J.R6": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 names automation management as an ADM topic (p43) and is the only PHAK chapter that treats it"
+ },
+ "AA.VI.J.S1": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers identifying navigation aids; AIM 1-1 is the navigation aids section"
+ },
+ "AA.VI.J.S2": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 En Route Operations holds the holding text, including entries, speeds, and wind correction (72 hits, p92)"
+ },
+ "AA.VI.J.S3": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 holds the holding speed and leg length text (72 hits, p92); IFH ch10 covers the same pattern restrictions (27 hits, p295)"
+ },
+ "AA.VI.J.S4": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 holds the holding speed and leg length text (72 hits, p92); IFH ch10 covers the same pattern restrictions (27 hits, p295)"
+ },
+ "AA.VI.J.S5": {
+  "anchors": [
+   "aim:ch05-s03",
+   "iph:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "IPH ch02 covers holding reports; PHAK ch14 holds the general ATC reporting and radio procedure text"
+ },
+ "AA.VI.J.S6": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 En Route Operations holds the holding text, including entries, speeds, and wind correction (72 hits, p92)"
+ },
+ "AA.VI.J.S7": {
+  "anchors": [
+   "ifh:ch06",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch16 covers tracking a course, radial, or bearing. The tolerances themselves are ACS values with no handbook chapter"
+ },
+ "AA.VI.J.S8": {
+  "anchors": [
+   "ifh:ch09",
+   "iph:ch06",
+   "risk-management:ch07"
+  ],
+  "confidence": "low",
+  "why": "IFH ch09 Navigation Systems covers autopilot and FMS use, including a programmed hold"
+ },
+ "AA.VI.J.S9": {
+  "anchors": [
+   "iph:ch02",
+   "risk-management:ch04"
+  ],
+  "confidence": "low",
+  "why": "IPH ch02 holds the EFC and holding endurance text (9 EFC hits, p110)"
+ }
+}

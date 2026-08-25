@@ -407,3 +407,88 @@ def test_packets_are_reproducible():
                      if p.name.startswith("%s-" % certificate)])
         RP.write(certificate, count)
         assert path.read_bytes() == before, "%s is not reproducible" % path.name
+
+
+import refine_handbooks as RH  # noqa: E402
+
+
+def test_a_drop_removes_the_row_it_names():
+    """A reviewer who finds an unsupported anchor must be able to remove it.
+
+    The tool only ever added, so a drop was accepted in prose and silently
+    ignored. PHAK ch11 kept carrying two ATP best glide elements despite the
+    chapter containing no instance of the word.
+    """
+    rows = [
+        {"source_ref": "AA.VII.C.K2a", "target_ref": "phak:ch11",
+         "relation": "explanation", "confidence": "verified", "note": "",
+         "element_text": "best glide speed"},
+        {"source_ref": "AA.VII.C.K2a", "target_ref": "afh:ch18",
+         "relation": "explanation", "confidence": "verified", "note": "",
+         "element_text": "best glide speed"},
+    ]
+    accepted = {"AA.VII.C.K2a": {"anchors": [], "drop": ["phak:ch11"],
+                                 "why": "no glide text in ch11",
+                                 "confidence": "high"}}
+    out, _replaced = RH.apply_to(rows, accepted, {"afh:ch18": "afh"})
+    targets = [row["target_ref"] for row in out]
+    assert "phak:ch11" not in targets
+    assert "afh:ch18" in targets, "a drop must not take the rest with it"
+
+
+def test_a_drop_of_something_not_applied_is_reported_not_silent():
+    """Naming an anchor the element does not carry has to surface.
+
+    Silently accepting it would let a typo read as a completed removal.
+    """
+    rows_by_cert = {"atp": [
+        {"source_ref": "AA.I.A.K1", "target_ref": "phak",
+         "relation": "explanation", "confidence": "auto", "note": "",
+         "element_text": "x"},
+    ]}
+    proposals = {"atp-a": ("atp", {"AA.I.A.K1": {
+        "anchors": [], "drop": ["phak:ch99"], "confidence": "high"}})}
+    _accepted, report = RH.validate(proposals, {"phak:ch15": "phak"},
+                                    rows_by_cert)
+    assert report["dropped"] == 0
+    assert report["stale_drop"] == [("atp-a", "AA.I.A.K1", "phak:ch99")]
+
+
+def test_dropping_the_last_chapter_falls_back_to_the_whole_book():
+    """A drop removes a chapter, never the handbook.
+
+    The document-level row was replaced when the chapter went in, so removing
+    the last chapter of a document would leave the element citing nothing from
+    a handbook its Task does cite. That happened to the two ATP best glide
+    elements: dropping PHAK ch11 left them with no PHAK at all.
+    """
+    rows = [
+        {"source_ref": "AA.VII.C.K2a", "target_ref": "phak:ch11",
+         "relation": "explanation", "confidence": "verified", "note": "",
+         "element_text": "best glide speed"},
+        {"source_ref": "AA.VII.C.K2a", "target_ref": "afh:ch18",
+         "relation": "explanation", "confidence": "verified", "note": "",
+         "element_text": "best glide speed"},
+    ]
+    accepted = {"AA.VII.C.K2a": {"anchors": [], "drop": ["phak:ch11"],
+                                 "why": "", "confidence": "high"}}
+    out, _replaced = RH.apply_to(rows, accepted, {"afh:ch18": "afh"})
+    targets = [row["target_ref"] for row in out]
+    assert "phak:ch11" not in targets
+    assert "phak" in targets, "the handbook must come back at document level"
+
+
+def test_a_surviving_chapter_blocks_the_fallback():
+    """Falling back while another chapter of the same book stands would
+    duplicate the document at two levels at once."""
+    rows = [
+        {"source_ref": "X.1", "target_ref": "phak:ch11", "relation": "explanation",
+         "confidence": "verified", "note": "", "element_text": "x"},
+        {"source_ref": "X.1", "target_ref": "phak:ch07", "relation": "explanation",
+         "confidence": "verified", "note": "", "element_text": "x"},
+    ]
+    accepted = {"X.1": {"anchors": [], "drop": ["phak:ch11"], "why": "",
+                        "confidence": "high"}}
+    out, _replaced = RH.apply_to(rows, accepted, {})
+    targets = [row["target_ref"] for row in out]
+    assert targets == ["phak:ch07"], targets

@@ -1,0 +1,957 @@
+{
+ "AA.II.A.K1": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 carries IMSAFE self-assessment, RMH ch03 identifies pilot hazards. No AFH, weather or seaplane chapter treats self-assessment"
+ },
+ "AA.II.A.K2": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 Flight Manuals and Other Documents holds the required-documents set, AFH ch02 is the preflight assessment chapter"
+ },
+ "AA.II.A.K2a": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 holds airworthiness and registration certificates, 18 hits. No AFH, AIM, weather, risk or seaplane chapter covers them"
+ },
+ "AA.II.A.K2b": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 is the flight manual and operating limitations chapter. Nothing in AFH, AIM, weather, risk or seaplane matches"
+ },
+ "AA.II.A.K2c": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 is the only cited chapter that names the Minimum Equipment List. No other document carries MEL, CDL or KOEL"
+ },
+ "AA.II.A.K2d": {
+  "anchors": [
+   "phak:ch10"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch10 Weight and Balance is the weight and balance data chapter. No other cited document has a chapter on it"
+ },
+ "AA.II.A.K2e": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 carries 100-hour, annual and airworthiness directive records, 14 hits. Dispatch release appears in no cited handbook"
+ },
+ "AA.II.A.K3": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 holds preventive maintenance, 15 hits. No AFH, AIM, weather, risk or seaplane chapter treats it"
+ },
+ "AA.II.A.K4": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 Ground Operations is the preflight inspection chapter, 13 hits, and the seaplane handbook has a PREFLIGHT INSPECTION section"
+ },
+ "AA.II.A.K4a": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 walks the inspection item by item and the seaplane PREFLIGHT INSPECTION section adds float and rigging items"
+ },
+ "AA.II.A.K4b": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 gives the reason behind each preflight item. No PHAK, AIM, weather or risk chapter explains the walkaround"
+ },
+ "AA.II.A.K4c": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 covers detecting defects on the walkaround, the seaplane section covers float leaks and corrosion"
+ },
+ "AA.II.A.K4d": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 carries the airworthiness and inspection regulations behind the preflight. AFH ch02 describes the walkaround, not the rules"
+ },
+ "AA.II.A.K5": {
+  "anchors": [
+   "aim:ch05-s01",
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 PAVE environment and route selection, RMH ch03 identifies weather and terrain hazards. Aviation Weather has no environment chapter"
+ },
+ "AA.II.A.K6": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 Navigation holds navigation database currency and Chart Supplement use, 14 database hits. No other cited chapter treats data currency"
+ },
+ "AA.II.A.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Operations specifications appear in no chapter of AFH, AIM, Aviation Weather, PHAK, the Risk Management Handbook or the seaplane handbook"
+ },
+ "AA.II.A.R1": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the human performance chapter, RMH ch03 identifies pilot hazards. No AFH, weather or seaplane chapter fits"
+ },
+ "AA.II.A.R2": {
+  "anchors": [
+   "phak:ch09",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 covers inoperative equipment and the MEL, RMH ch03 treats equipment as a hazard category. AFH names it once, too thin for a chapter"
+ },
+ "AA.II.A.R3": {
+  "anchors": [
+   "aim:ch07-s06",
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 PAVE environment, RMH ch03 identifies weather, terrain and airspace hazards. Aviation Weather has no single environment chapter"
+ },
+ "AA.II.A.R4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 PAVE external pressures, 29 hits, and RMH ch05 mitigates them, 10 hits. No AFH, AIM, weather or seaplane chapter treats them"
+ },
+ "AA.II.A.R5": {
+  "anchors": [
+   "aim:ch05-s06",
+   "phak:ch15"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch15 Airspace carries TFRs and security airspace, 14 hits. No AFH, weather, risk or seaplane chapter covers aviation security"
+ },
+ "AA.II.A.S1": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch07",
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 is the preflight inspection chapter, PHAK ch07 covers the systems being checked, the seaplane handbook has PREFLIGHT INSPECTION"
+ },
+ "AA.II.A.S2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 Ground Operations covers ground crew coordination and hand signals. No AIM, PHAK, weather, risk or seaplane chapter treats it"
+ },
+ "AA.II.A.S3": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 covers MEL limitations and maintenance record entries. No AFH, AIM, weather, risk or seaplane chapter fits"
+ },
+ "AA.II.A.S4": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 defines airworthiness and condition for safe flight, AFH ch02 is the preflight assessment that determines it"
+ },
+ "AA.II.A.S5": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Operations specifications appear in no chapter of the cited documents, the same finding as K7. No chapter fits"
+ },
+ "AA.II.A.S6": {
+  "anchors": [
+   "aim:ch07-s06",
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 PAVE environment, RMH ch03 identifies weather, airport and airspace hazards. Aviation Weather has no single environment chapter"
+ },
+ "AA.II.A.S7": {
+  "anchors": [
+   "aviation-weather:ch20",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "Aviation Weather ch20 Icing, 96 hits, and PHAK ch07 covers deice and anti-ice systems, 42 hits. AFH treats deicing only in the multiengine chapter"
+ },
+ "AA.II.B.K1": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch16",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 Aircraft Systems holds starter and ignition, 31 hits. No AIM or risk management chapter covers powerplant start"
+ },
+ "AA.II.B.K2": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers starting under hot, cold and flooded conditions. AIM and the Risk Management Handbook have no start chapter"
+ },
+ "AA.II.B.K3": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers start malfunctions in the starter and ignition systems. No AIM or risk management chapter fits"
+ },
+ "AA.II.B.K4": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "low",
+  "why": "AIM 4-3 Airport Operations carries engine start and ground vehicle coordination, though thinly. PHAK and the RMH have no chapter for it"
+ },
+ "AA.II.B.R1": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers start malfunctions in the starter and ignition systems. No AIM or risk management chapter fits"
+ },
+ "AA.II.B.R2": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 covers prop and jet blast hazards, PHAK ch07 covers propeller and turbine systems. No risk management chapter fits"
+ },
+ "AA.II.B.R3": {
+  "anchors": [
+   "risk-management:ch08",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 Aeronautical Decision-Making covers judgment where no checklist exists, 40 checklist hits. No AFH or AIM chapter fits"
+ },
+ "AA.II.B.R4": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 covers ground vehicles and foreign object debris on the ramp. PHAK and the RMH have no ramp safety chapter"
+ },
+ "AA.II.B.S1": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 is the ground operations chapter, AIM 4-3 covers ramp and ground vehicle safety. No PHAK or risk management chapter fits"
+ },
+ "AA.II.B.S2": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 covers marshalling and ground crew signals, AIM 4-3 covers ground vehicle operations. No PHAK or risk chapter fits"
+ },
+ "AA.II.B.S3": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination, 40 hits. AIM and the RMH have no start checklist chapter"
+ },
+ "AA.II.B.S4": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers start malfunctions in the starter and ignition systems. No AIM or risk management chapter fits"
+ },
+ "AA.II.C.K1": {
+  "anchors": [
+   "aim:ch05-s01",
+   "aim:ch09-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 Airport Operations holds Chart Supplement and NOTAM use, 17 and 13 hits. AFH and the RMH have no chart chapter"
+ },
+ "AA.II.C.K10": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers low visibility taxi and SMGCS, 5 hits. AFH names it once in ch11, too thin for a chapter, and the RMH has none"
+ },
+ "AA.II.C.K11": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 Transition to Multiengine Airplanes covers single-engine taxi with differential power, 5 hits. No AIM, PHAK or RMH chapter fits"
+ },
+ "AA.II.C.K2": {
+  "anchors": [
+   "aim:ch04-s03",
+   "afh:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 Ground Operations and PHAK ch14 Airport Operations both cover taxi clearances and routes, 44 and 178 taxi hits"
+ },
+ "AA.II.C.K3": {
+  "anchors": [
+   "aim:ch02-s01",
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds airport markings, signs and lighting, 111 taxiway hits. AFH has no markings chapter and the RMH none"
+ },
+ "AA.II.C.K4": {
+  "anchors": [
+   "aim:ch04-s03",
+   "afh:ch11",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "AFH ch11 Night Operations covers exterior lighting, 9 hits, PHAK ch07 covers the lighting systems. No risk management chapter fits"
+ },
+ "AA.II.C.K5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "low",
+  "why": "AFH ch02 Ground Operations is the only cited chapter with pushback and marshalling content, and it is thin. AIM, PHAK and RMH have none"
+ },
+ "AA.II.C.K6": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers taxi route planning and hot spots. AFH ch02 covers taxi technique, not flight deck planning, and the RMH has no chapter"
+ },
+ "AA.II.C.K7": {
+  "anchors": [
+   "aim:ch04-s02",
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers towered and nontowered communications. No AFH or risk management chapter treats radio procedure"
+ },
+ "AA.II.C.K8": {
+  "anchors": [
+   "aim:ch04-s03",
+   "afh:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers runway crossing and hold lines, 16 runway incursion hits, AFH ch02 covers the taxi technique"
+ },
+ "AA.II.C.K9": {
+  "anchors": [
+   "aim:ch04-s03",
+   "afh:ch11",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch11 Night Operations covers night taxi, 20 taxi hits, PHAK ch14 covers airport lighting at night"
+ },
+ "AA.II.C.R1": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers situational awareness and task management, 23 hits. AFH and AIM have no chapter on distraction"
+ },
+ "AA.II.C.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "RMH ch06 holds expectation and confirmation bias, 10 hits. PHAK never uses the word bias, and AFH and AIM have no chapter for it"
+ },
+ "AA.II.C.R3": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "RMH ch06 Threat and Error Management covers a late change as an error trap. No AFH, AIM or PHAK chapter treats a taxi route change"
+ },
+ "AA.II.C.R4": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "RMH ch06 covers checklist errors, 11 hits, PHAK ch02 covers checklist discipline, 40 hits. AFH and AIM have no chapter for it"
+ },
+ "AA.II.C.R5": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers low visibility taxi and SMGCS, 5 hits. AFH and the RMH have no low visibility chapter"
+ },
+ "AA.II.C.R6": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds runway incursion, 16 hits. AFH treats incursions in its introduction chapter, not a taxi chapter, so AFH stays whole book"
+ },
+ "AA.II.C.S1": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers taxi clearance readback and airport diagram review. No AFH or RMH chapter fits"
+ },
+ "AA.II.C.S2": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers airport diagrams and the Chart Supplement, 17 hits. AFH and the RMH have no chart chapter"
+ },
+ "AA.II.C.S3": {
+  "anchors": [
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers hold lines, ILS critical areas and taxiway markings, 111 hits. AFH and the RMH have no markings chapter"
+ },
+ "AA.II.C.S4": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 covers the taxi checklist flow, 14 hits, PHAK ch02 covers checklist and crew coordination. AIM and the RMH have no chapter"
+ },
+ "AA.II.C.S5": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers situational awareness, 23 hits. AFH and AIM have no chapter on it"
+ },
+ "AA.II.C.S6": {
+  "anchors": [
+   "aim:ch04-s03",
+   "afh:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 covers taxi speed and brake use, 38 brake hits, PHAK ch14 covers separation on the movement area"
+ },
+ "AA.II.C.S7": {
+  "anchors": [
+   "aim:ch04-s03",
+   "afh:ch11",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch11 Night Operations covers night taxi, PHAK ch14 covers airport lighting at night. No RMH chapter fits"
+ },
+ "AA.II.C.S8": {
+  "anchors": [
+   "aim:ch04-s03",
+   "afh:ch11",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "AFH ch11 covers exterior lighting use at night, 9 hits, PHAK ch07 covers the lighting systems. No RMH chapter fits"
+ },
+ "AA.II.C.S9": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers low visibility taxi hazards and SMGCS. AFH and the RMH have no chapter on it"
+ },
+ "AA.II.D.K1": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 Airport Operations covers the Chart Supplement and airport diagrams, 17 hits. The seaplane handbook has no chart section"
+ },
+ "AA.II.D.K2": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane TAXIING AND SAILING covers water taxi, PHAK ch14 covers taxi clearances. No AFH or RMH chapter fits"
+ },
+ "AA.II.D.K3": {
+  "anchors": [
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 holds airport markings, signs and lighting. The seaplane handbook has no markings section, AFH and the RMH none"
+ },
+ "AA.II.D.K4": {
+  "anchors": [
+   "aim:ch04-s03",
+   "afh:ch11",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "AFH ch11 Night Operations covers exterior lighting, PHAK ch07 covers the lighting systems. The seaplane handbook barely mentions night"
+ },
+ "AA.II.D.K5": {
+  "anchors": [
+   "seaplane:sailing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane SAILING is the sailing technique section, 6 hits. No AFH, AIM, PHAK or RMH chapter covers sailing a seaplane"
+ },
+ "AA.II.D.K6": {
+  "anchors": [
+   "seaplane:sailing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane SAILING covers choosing a sailing course for wind and current. No AFH, AIM, PHAK or RMH chapter fits"
+ },
+ "AA.II.D.K7": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane TAXIING AND SAILING plus PHAK ch14 Airport Operations. AFH and the RMH have no chapter for base procedures"
+ },
+ "AA.II.D.K7a": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane TAXIING AND SAILING covers planning the water route before moving, PHAK ch14 covers land taxi planning"
+ },
+ "AA.II.D.K7b": {
+  "anchors": [
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers towered and nontowered communications. The seaplane handbook has no communications section, AFH and the RMH none"
+ },
+ "AA.II.D.K7c": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers runway crossing and hold lines, 16 runway incursion hits. Land runway crossing is absent from the seaplane handbook"
+ },
+ "AA.II.D.K7d": {
+  "anchors": [
+   "afh:ch11",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch11 Night Operations covers night taxi, 20 hits. The seaplane handbook names night only in passing, so it stays at document level"
+ },
+ "AA.II.D.K7e": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers low visibility taxi and SMGCS. No seaplane section, AFH or RMH chapter treats low visibility"
+ },
+ "AA.II.D.R1": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers situational awareness, 23 hits. AFH, AIM and the seaplane handbook have no chapter on distraction"
+ },
+ "AA.II.D.R2": {
+  "anchors": [
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "why": "Seaplane PORPOISING and SKIPPING are the two named sections, 8 hits each. No AFH, AIM, PHAK or RMH chapter treats either"
+ },
+ "AA.II.D.R3": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "RMH ch06 covers checklist errors, PHAK ch02 covers checklist discipline. AFH, AIM and the seaplane handbook have no chapter"
+ },
+ "AA.II.D.R4": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers low visibility taxi, 5 SMGCS hits. No seaplane section, AFH or RMH chapter fits"
+ },
+ "AA.II.D.R5": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch14 covers traffic and right of way on the movement area. Vessel traffic is scattered across the seaplane handbook, no section holds it"
+ },
+ "AA.II.D.R6": {
+  "anchors": [
+   "seaplane:amphibious-gear"
+  ],
+  "confidence": "high",
+  "why": "The seaplane amphibious gear section covers gear position for water against land. No AFH, AIM, PHAK or RMH chapter fits"
+ },
+ "AA.II.D.R7": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "RMH ch06 holds expectation and confirmation bias, 10 hits. PHAK never uses the word bias, and AFH, AIM and seaplane have none"
+ },
+ "AA.II.D.S1": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers taxi clearance readback and airport diagram review. No seaplane, AFH or RMH chapter fits"
+ },
+ "AA.II.D.S10": {
+  "anchors": [
+   "seaplane:turns",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane TURNS covers steering on the water, 9 hits, TAXIING AND SAILING covers holding a course. No AFH, AIM, PHAK or RMH chapter fits"
+ },
+ "AA.II.D.S11": {
+  "anchors": [
+   "seaplane:sailing",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane SAILING covers choosing the most favorable course for wind and current, TAXIING AND SAILING covers following it"
+ },
+ "AA.II.D.S12": {
+  "anchors": [
+   "afh:ch11",
+   "aim:ch04-s03",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "high",
+  "why": "AFH ch11 covers night taxi, 20 hits, seaplane TAXIING AND SAILING covers the water technique. No PHAK or RMH chapter fits"
+ },
+ "AA.II.D.S13": {
+  "anchors": [
+   "afh:ch11",
+   "aim:ch04-s03",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "AFH ch11 covers exterior lighting at night, 9 hits, PHAK ch07 covers the lighting systems. The seaplane handbook has no lighting section"
+ },
+ "AA.II.D.S14": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers low visibility taxi hazards and SMGCS. No seaplane section, AFH or RMH chapter treats it"
+ },
+ "AA.II.D.S2": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers airport diagrams and the Chart Supplement. The seaplane handbook has no chart section"
+ },
+ "AA.II.D.S3": {
+  "anchors": [
+   "aim:ch02-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers hold lines and taxiway markings, 111 hits. Seaplane base signals have no section in the seaplane handbook"
+ },
+ "AA.II.D.S4": {
+  "anchors": [
+   "seaplane:docking",
+   "seaplane:mooring"
+  ],
+  "confidence": "high",
+  "why": "Seaplane DOCKING and MOORING cover leaving a dock, buoy, beach or ramp with wind and current. No AFH, AIM, PHAK or RMH chapter fits"
+ },
+ "AA.II.D.S5": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 covers the taxi checklist flow, PHAK ch02 covers checklist and crew coordination. The seaplane handbook has no checklist section"
+ },
+ "AA.II.D.S6": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers situational awareness, 23 hits. AFH, AIM and the seaplane handbook have no chapter on it"
+ },
+ "AA.II.D.S7": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane TAXIING AND SAILING covers water speed and separation, AFH ch02 covers taxi control and brakes. No PHAK or RMH chapter fits"
+ },
+ "AA.II.D.S8": {
+  "anchors": [
+   "seaplane:using-water-rudders",
+   "seaplane:porpoising",
+   "seaplane:sailing"
+  ],
+  "confidence": "high",
+  "why": "Seaplane USING WATER RUDDERS, PORPOISING and SAILING cover control, flap and rudder position on the step and while sailing"
+ },
+ "AA.II.D.S9": {
+  "anchors": [
+   "seaplane:idling-position",
+   "seaplane:plowing-position",
+   "seaplane:planing-or-step-position"
+  ],
+  "confidence": "high",
+  "why": "The three named seaplane taxi positions, idling, plowing and planing or step, each have a section. No AFH, AIM, PHAK or RMH chapter fits"
+ },
+ "AA.II.E.K1": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 holds the before takeoff check, PHAK ch02 covers checklist discipline, 40 hits. No RMH chapter or seaplane section fits"
+ },
+ "AA.II.E.K1a": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 gives the reason behind each before takeoff item, PHAK ch02 covers checklist discipline. No RMH or seaplane section fits"
+ },
+ "AA.II.E.K1b": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 Aircraft Systems explains the indications that reveal a malfunction during the run-up. No RMH chapter or seaplane section fits"
+ },
+ "AA.II.E.K1c": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 defines airworthiness and condition for safe flight, AFH ch02 is the before takeoff check that confirms it"
+ },
+ "AA.II.E.K2": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers deice and anti-ice systems, 42 hits. Holdover time appears in no cited chapter and the seaplane handbook has none"
+ },
+ "AA.II.E.K3": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 Aircraft Performance holds takeoff performance and distance, 42 hits. No RMH chapter or seaplane section covers it"
+ },
+ "AA.II.E.K4": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 holds the takeoff briefing and V-speed setting. No PHAK chapter, RMH chapter or seaplane section covers briefing content"
+ },
+ "AA.II.E.R1": {
+  "anchors": [
+   "risk-management:ch06",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers task management and situational awareness, 23 hits. AFH and the seaplane handbook have no chapter on divided attention"
+ },
+ "AA.II.E.R2": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "RMH ch06 Threat and Error Management covers a late runway change as an error trap. No AFH, PHAK or seaplane section treats it"
+ },
+ "AA.II.E.R3": {
+  "anchors": [
+   "phak:ch11",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "why": "AFH ch16 Transition to Jet-Powered Airplanes holds V1 and rotation speeds, 29 hits. PHAK never uses the term V-speed"
+ },
+ "AA.II.E.R4": {
+  "anchors": [
+   "risk-management:ch07",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 Navigation covers setting navigation receivers and databases, 14 hits. No AFH chapter or seaplane section fits"
+ },
+ "AA.II.E.R5": {
+  "anchors": [
+   "risk-management:ch07",
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch06 Flight Controls covers autopilot and flight director, 15 hits. AFH treats autopilot only inside the multiengine chapter"
+ },
+ "AA.II.E.R6": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers how snow, ice and wind change takeoff performance, 42 hits. No RMH chapter or seaplane section treats it"
+ },
+ "AA.II.E.R7": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers takeoff distance, surface and obstacle performance, 42 hits. No RMH chapter or seaplane section treats it"
+ },
+ "AA.II.E.S1": {
+  "anchors": [
+   "phak:ch11",
+   "afh:ch06",
+   "seaplane:takeoffs"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 and AFH ch06 cover takeoff performance, seaplane TAKEOFFS covers the water run. No RMH chapter fits"
+ },
+ "AA.II.E.S2": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 holds the before takeoff checklist, PHAK ch02 covers checklist and crew coordination. No RMH or seaplane section fits"
+ },
+ "AA.II.E.S3": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 Aircraft Systems gives the operating ranges and limitations checked during run-up. No RMH or seaplane section fits"
+ },
+ "AA.II.E.S4": {
+  "anchors": [
+   "risk-management:ch07",
+   "afh:ch16",
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch16 holds V-speeds, 29 hits, PHAK ch06 covers autopilot and flight director, 15 hits. No seaplane section fits"
+ },
+ "AA.II.E.S5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 Emergency Procedures backs the abnormal and emergency briefing. No PHAK chapter, RMH chapter or seaplane section covers it"
+ },
+ "AA.II.E.S6": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 Airport Operations covers ATC clearances, 64 hits. AFH names clearances twice, and no RMH or seaplane section fits"
+ }
+}

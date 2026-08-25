@@ -112,7 +112,7 @@ def validate(proposals, inventory, rows_by_cert):
     accepted = collections.defaultdict(dict)
     report = {"checked": 0, "elements": 0, "empty": 0, "low": 0, "anchors": 0,
               "unknown_anchor": [], "unknown_element": [], "wrong_doc": [],
-              "already": 0, "broken": []}
+              "already": 0, "broken": [], "dropped": 0, "stale_drop": []}
 
     for name, (certificate, mapping) in sorted(proposals.items()):
         if "__error__" in mapping:
@@ -149,11 +149,28 @@ def validate(proposals, inventory, rows_by_cert):
 
             if entry.get("confidence") == "low":
                 report["low"] += 1
-            if not proposed:
+
+            settled_here = settled.get(code, set())
+
+            # A reviewer may find an anchor the text does not support. The
+            # tool only ever added, so a drop was accepted in prose and
+            # silently ignored: PHAK ch11 kept carrying two ATP best glide
+            # elements despite the chapter containing no instance of the word.
+            # This runs before the empty check, because removing a wrong
+            # anchor and adding nothing is a complete answer on its own.
+            drop = []
+            for ref in entry.get("drop") or []:
+                if ref in settled_here:
+                    drop.append(ref)
+                else:
+                    report["stale_drop"].append((name, code, ref))
+            report["dropped"] += len(drop)
+
+            if not proposed and not drop:
                 report["empty"] += 1
                 continue
 
-            good, settled_here = [], settled.get(code, set())
+            good = []
             for ref in proposed:
                 doc = inventory.get(ref)
                 if doc is None:
@@ -175,14 +192,27 @@ def validate(proposals, inventory, rows_by_cert):
                     continue
                 good.append(ref)
 
-            if good:
+            if good or drop:
                 report["elements"] += 1
                 report["anchors"] += len(good)
-                accepted[certificate][code] = {
-                    "anchors": good,
-                    "why": (entry.get("why") or "").strip()[:160],
-                    "confidence": entry.get("confidence", "high"),
-                }
+                # Two packets can both name one element: the rerun resplit
+                # the certificate, so an element can sit in atp-a here and
+                # atp-b in the first sweep. Overwriting would discard
+                # whichever sorted first.
+                current = accepted[certificate].setdefault(code, {
+                    "anchors": [], "drop": [], "why": "", "confidence": "high",
+                })
+                for ref in good:
+                    if ref not in current["anchors"]:
+                        current["anchors"].append(ref)
+                for ref in drop:
+                    if ref not in current["drop"]:
+                        current["drop"].append(ref)
+                why = (entry.get("why") or "").strip()[:160]
+                if why and not current["why"]:
+                    current["why"] = why
+                if entry.get("confidence") == "low":
+                    current["confidence"] = "low"
     return accepted, report
 
 
@@ -203,18 +233,46 @@ def relation_for(ref, doc):
 def apply_to(rows, accepted, inventory):
     """Replace a document-level row with the chapter rows that refine it."""
     replaced = 0
-    drop = set()
+    supersede, remove = set(), set()
     for code, entry in accepted.items():
         for ref in entry["anchors"]:
-            drop.add((code, inventory[ref]))
+            supersede.add((code, inventory[ref]))
+        for ref in entry.get("drop") or []:
+            remove.add((code, ref))
 
     out = []
     for row in rows:
         key = (row["source_ref"], row["target_ref"])
-        if ":" not in row["target_ref"] and key in drop:
+        if key in remove:
+            continue
+        if ":" not in row["target_ref"] and key in supersede:
             replaced += 1
             continue
         out.append(row)
+
+    # Dropping a chapter must not drop the handbook. The document-level row
+    # was replaced when the chapter went in, so removing the last chapter of
+    # a document would leave the element citing nothing from a handbook its
+    # Task does cite. Fall back to the whole book, which is where the
+    # bootstrap had it.
+    restored = 0
+    for code, ref in sorted(remove):
+        doc = ref.split(":")[0]
+        if any(r["source_ref"] == code and r["target_ref"].split(":")[0] == doc
+               for r in out):
+            continue
+        template = next((r for r in rows if r["source_ref"] == code), None)
+        if template is None:
+            continue
+        out.append({
+            "source_ref": code,
+            "target_ref": doc,
+            "relation": relation_for(doc, doc),
+            "confidence": "auto",
+            "note": "from the Task References line",
+            "element_text": template["element_text"],
+        })
+        restored += 1
 
     for code, entry in accepted.items():
         template = next((r for r in rows if r["source_ref"] == code), None)
@@ -269,6 +327,9 @@ def run(argv, directory=None, root=CROSSWALK, out=sys.stdout):
     out.write("proposals checked      %d\n" % report["checked"])
     out.write("elements refined       %d\n" % report["elements"])
     out.write("chapter anchors        %d\n" % report["anchors"])
+    if report.get("dropped"):
+        out.write("anchors dropped        %d  (the text did not support them)\n"
+                  % report["dropped"])
     out.write("left at document level %d  (no chapter beats the whole book)\n"
               % report["empty"])
     out.write("flagged low confidence %d\n" % report["low"])
@@ -278,7 +339,8 @@ def run(argv, directory=None, root=CROSSWALK, out=sys.stdout):
     for key, title in (("broken", "UNREADABLE proposal file"),
                        ("unknown_anchor", "REJECTED, anchor does not resolve"),
                        ("wrong_doc", "REJECTED, handbook not cited by the Task"),
-                       ("unknown_element", "REJECTED, element has no such row")):
+                       ("unknown_element", "REJECTED, element has no such row"),
+                       ("stale_drop", "IGNORED drop, anchor is not applied")):
         rows = report[key]
         if not rows:
             continue

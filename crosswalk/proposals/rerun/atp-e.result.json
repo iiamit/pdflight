@@ -1,0 +1,1414 @@
+{
+ "AA.VII.A.K1": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch06-s03",
+   "seaplane:emergency-landing"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers declaring an emergency and picking a landing site, Seaplane EMERGENCY LANDING covers a water site. PHAK and RMH have no such chapter"
+ },
+ "AA.VII.A.K2": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch06-s01",
+   "phak:ch07"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch07 carries pressurization and engine systems, AIM 6-1 names emergency descent. No RMH or Seaplane chapter fits"
+ },
+ "AA.VII.A.K3": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers the fuel, electrical and exhaust systems behind inflight fire. AIM, RMH and Seaplane have no fire chapter"
+ },
+ "AA.VII.A.K4": {
+  "anchors": [
+   "afh:ch16",
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "AIM 8-1 Fitness for Flight covers decompression and hypoxia. RMH and Seaplane have no chapter on it"
+ },
+ "AA.VII.A.K5": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch06-s05"
+  ],
+  "confidence": "high",
+  "why": "AIM 6-5 covers evacuation and ARFF communication. PHAK names evacuation once in ch02, too thin, and RMH and Seaplane not at all"
+ },
+ "AA.VII.A.K6": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch07-s06",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers action when icing exceeds capability, AIM 7-6 covers airframe icing. RMH and Seaplane are silent"
+ },
+ "AA.VII.A.R1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 covers the AFM emergency procedures section and its checklists. AIM, RMH and Seaplane have no checklist chapter"
+ },
+ "AA.VII.A.R2": {
+  "anchors": [
+   "afh:ch18",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 and RMH ch06 already carry multiple failures. No AIM, PHAK or Seaplane chapter treats compound abnormalities"
+ },
+ "AA.VII.A.R3": {
+  "anchors": [
+   "afh:ch18",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "RMH ch03 identifies terrain and obstruction hazards. PHAK, AIM and Seaplane have no chapter on emergency terrain and wind considerations"
+ },
+ "AA.VII.A.R4": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers situational awareness, workload and distraction, AFH ch05 covers distraction-induced loss of control. AIM and Seaplane silent"
+ },
+ "AA.VII.A.S1": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch06-s01",
+   "phak:ch09"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch09 covers the AFM emergency procedures section, AIM 6-1 covers general emergency conduct. RMH and Seaplane have no chapter"
+ },
+ "AA.VII.A.S2": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch06-s01",
+   "phak:ch09"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch09 covers the AFM emergency procedures section, AIM 6-1 covers general emergency conduct. RMH and Seaplane have no chapter"
+ },
+ "AA.VII.A.S2a": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch06-s01"
+  ],
+  "confidence": "low",
+  "why": "AIM 6-1 names emergency descent and AFH ch18 already carries the maneuver. PHAK, RMH and Seaplane have no emergency descent chapter"
+ },
+ "AA.VII.A.S2b": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers the fuel, electrical and exhaust systems behind inflight fire. AIM, RMH and Seaplane have no fire chapter"
+ },
+ "AA.VII.A.S2c": {
+  "anchors": [
+   "afh:ch16",
+   "aim:ch08-s01",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers pressurization, AIM 8-1 covers decompression physiology. RMH and Seaplane are silent"
+ },
+ "AA.VII.A.S2d": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch06-s05"
+  ],
+  "confidence": "high",
+  "why": "AIM 6-5 is the only chapter here that covers evacuation. PHAK, RMH and Seaplane have none"
+ },
+ "AA.VII.A.S2e": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch07-s06",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers inflight icing action, AIM 7-6 covers airframe icing. RMH and Seaplane are silent"
+ },
+ "AA.VII.A.S2f": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 is the AFM/POH chapter this element points at, AFH ch18 covers the emergencies it lists. AIM, RMH and Seaplane have none"
+ },
+ "AA.VII.A.S3": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 covers partial panel and backup instrument flying. AIM, RMH and Seaplane have no standby instrument chapter"
+ },
+ "AA.VII.A.S4": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers crew resource management and checklist discipline. AIM, RMH and Seaplane have no crew coordination chapter"
+ },
+ "AA.VII.A.S5": {
+  "anchors": [
+   "afh:ch18",
+   "aim:ch06-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers emergency ATC calls, PHAK ch14 covers radio communication. RMH and Seaplane have no chapter"
+ },
+ "AA.VII.B.K1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 carries takeoff performance and engine-out reference airspeeds. RMH has no chapter on the procedure"
+ },
+ "AA.VII.B.K2": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and PHAK ch11 already cover the performance factors. No RMH chapter treats takeoff performance"
+ },
+ "AA.VII.B.R1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18",
+   "phak:ch11",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers runway length, surface and density altitude, RMH ch03 identifies powerplant failure as a hazard"
+ },
+ "AA.VII.B.R2": {
+  "anchors": [
+   "afh:ch13",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers the multiengine takeoff briefing. PHAK has no crew briefing chapter"
+ },
+ "AA.VII.B.R3": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 covers the AFM emergency procedures and their checklists. RMH has no checklist chapter"
+ },
+ "AA.VII.B.R4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers identifying the inoperative engine. PHAK and RMH have no chapter on it"
+ },
+ "AA.VII.B.R5": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and PHAK ch11 already cover single-engine climb performance. RMH has no performance chapter"
+ },
+ "AA.VII.B.R6": {
+  "anchors": [
+   "afh:ch18",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "RMH ch03 identifies terrain and obstruction hazards. PHAK has no chapter on emergency terrain and wind considerations"
+ },
+ "AA.VII.B.R7": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stalls and spins, RMH ch04 assesses CFIT. AFH ch05 already carries the loss of control material"
+ },
+ "AA.VII.B.R8": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers workload, distraction and situational awareness, AFH ch05 covers distraction-induced loss of control"
+ },
+ "AA.VII.B.S1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and ch18 already carry the control and powerplant actions. No PHAK or RMH chapter covers them"
+ },
+ "AA.VII.B.S2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already carries the straight-ahead power-off descent. PHAK and RMH have no chapter on it"
+ },
+ "AA.VII.B.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries the continued takeoff. PHAK and RMH have no chapter on it"
+ },
+ "AA.VII.B.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries the engine-out climb and trim technique. PHAK and RMH have no chapter on it"
+ },
+ "AA.VII.B.S5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries directional control after a failure. PHAK and RMH have no chapter on it"
+ },
+ "AA.VII.B.S6": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers crew resource management and checklist use. RMH has no checklist chapter"
+ },
+ "AA.VII.B.S7": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers emergency ATC calls, PHAK ch14 covers radio communication. RMH has none"
+ },
+ "AA.VII.C.K1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 covers the AFM emergency procedures and immediate action items. RMH has no checklist chapter"
+ },
+ "AA.VII.C.K2": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 and PHAK ch11 already carry glide airspeed. No RMH chapter treats airspeed"
+ },
+ "AA.VII.C.K2a": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "drop": [
+   "phak:ch11"
+  ],
+  "why": "AFH ch18 covers establishing best glide speed. PHAK ch11 dropped: the chapter contains no instance of the word glide, the only PHAK passage is a case study in c"
+ },
+ "AA.VII.C.K2b": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 and PHAK ch05 already carry glide versus minimum sink. No RMH chapter treats airspeed"
+ },
+ "AA.VII.C.K2c": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "drop": [
+   "phak:ch11"
+  ],
+  "why": "AFH ch18 covers adjusting glide speed for wind. PHAK ch11 dropped: the chapter contains no instance of the word glide, the only PHAK passage is a case study in "
+ },
+ "AA.VII.C.K3": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch11",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers the emergency approach and landing in the conditions found. RMH has no weather chapter"
+ },
+ "AA.VII.C.K4": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch04 and ch09 carry energy management and the stabilized approach. PHAK never uses the term and RMH has no chapter"
+ },
+ "AA.VII.C.K5": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 covers ELT requirements, testing and battery rules. AFH ch18 already carries the emergency side, RMH has none"
+ },
+ "AA.VII.C.K6": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers ATC handling of an aircraft in distress. PHAK and RMH have no chapter on distress services"
+ },
+ "AA.VII.C.R1": {
+  "anchors": [
+   "afh:ch18",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "RMH ch03 identifies terrain and obstruction hazards. PHAK has no chapter on gliding distance considerations"
+ },
+ "AA.VII.C.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers the flightpath to the chosen landing area. PHAK and RMH have no chapter"
+ },
+ "AA.VII.C.R3": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch01 holds the collision avoidance, scanning and clearing material, PHAK ch14 covers collision avoidance. RMH names it only in passing"
+ },
+ "AA.VII.C.R4": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers configuring for the forced landing. PHAK and RMH have no chapter"
+ },
+ "AA.VII.C.R5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stalls and spins, RMH ch04 assesses CFIT. AFH ch05 already carries the loss of control material"
+ },
+ "AA.VII.C.R6": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers workload, distraction and situational awareness, AFH ch05 covers distraction-induced loss of control"
+ },
+ "AA.VII.C.R7": {
+  "anchors": [
+   "afh:ch18",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "RMH ch03 identifies IMC as a hazard. PHAK has no chapter on powerplant failure in IMC"
+ },
+ "AA.VII.C.S1": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers recognizing the failure. PHAK and RMH have no chapter"
+ },
+ "AA.VII.C.S2": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers the engine and fuel systems a pilot checks when diagnosing a failure. RMH has no chapter"
+ },
+ "AA.VII.C.S3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers positive control through the maneuver. PHAK and RMH have no chapter"
+ },
+ "AA.VII.C.S4": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already carries best glide airspeed. PHAK puts glide only in a ch07 case study and RMH has no chapter"
+ },
+ "AA.VII.C.S5": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers configuring per the POH. PHAK and RMH have no chapter"
+ },
+ "AA.VII.C.S6": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers selecting the landing area. PHAK and RMH have no chapter"
+ },
+ "AA.VII.C.S7": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers the flightpath to the landing area. PHAK and RMH have no chapter"
+ },
+ "AA.VII.C.S8": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch18",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 covers the AFM emergency checklists. RMH has no checklist chapter"
+ },
+ "AA.VII.C.S9": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers emergency ATC calls, PHAK ch14 covers radio communication. RMH has none"
+ },
+ "AA.VII.D.K1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers engine-out handling and drag reduction. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.K2": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and ch18 already carry restart procedure. PHAK and RMH have no restart chapter"
+ },
+ "AA.VII.D.R1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and ch18 already carry powerplant failure. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.R2": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and ch18 already carry failure handling and restart. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.R3": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers the engine and fuel systems used to diagnose a failure. RMH has no chapter"
+ },
+ "AA.VII.D.R4": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch01 holds collision avoidance, scanning and clearing, PHAK ch14 covers collision avoidance. RMH names it only in passing"
+ },
+ "AA.VII.D.R5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers configuring with an engine out. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.R6": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch13",
+   "phak:ch05",
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stalls and spins, RMH ch04 assesses CFIT. AFH ch05 and ch13 already carry the loss of control material"
+ },
+ "AA.VII.D.R7": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers workload, distraction and situational awareness, AFH ch05 covers distraction-induced loss of control"
+ },
+ "AA.VII.D.S1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and ch18 already carry recognition and memory items. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries feathering and shutdown checklists. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries engine-out control and trim. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.S4": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers the engine systems a pilot checks before attempting a restart. RMH has no chapter"
+ },
+ "AA.VII.D.S5": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers operating limits on the good engine. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.S6": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries the engine-out tolerances. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.S7": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and ch18 already carry the restart procedure. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.S8": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers selecting the nearest suitable airport. PHAK and RMH have no chapter"
+ },
+ "AA.VII.D.S9": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers emergency ATC calls, PHAK ch14 covers radio communication. RMH has none"
+ },
+ "AA.VII.E.K1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers engine-out handling to a landing. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.K2": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and ch13 already carry the engine-out go-around. PHAK names it twice in ch14 and RMH not at all"
+ },
+ "AA.VII.E.K3": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers choosing a suitable airport. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.R1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers planning for a failure on approach. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.R2": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch01 holds collision avoidance, scanning and clearing, PHAK ch14 covers collision avoidance. RMH names it only in passing"
+ },
+ "AA.VII.E.R3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers configuring with an engine out. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.R4": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stalls and spins, RMH ch04 assesses CFIT. AFH ch05 already carries the loss of control material"
+ },
+ "AA.VII.E.R5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers workload, distraction and situational awareness, AFH ch05 covers distraction-induced loss of control"
+ },
+ "AA.VII.E.R6": {
+  "anchors": [
+   "afh:ch09",
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and ch13 already carry the engine-out go-around. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S1": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and ch18 already carry recognition and memory items. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S10": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already carries the touchdown point tolerance. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S11": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 covers the water landing touchdown attitude. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S12": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already covers rollout braking and control. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S13": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers crew resource management and checklist use. RMH has no checklist chapter"
+ },
+ "AA.VII.E.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries feathering and shutdown checklists. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries engine-out control and configuration. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers operating limits on the good engine. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S5": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers emergency ATC calls, PHAK ch14 covers radio communication. RMH has none"
+ },
+ "AA.VII.E.S6": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already carries the approach tolerances. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S7": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch04 and ch09 already carry the stabilized approach. PHAK never uses the term and RMH has no chapter"
+ },
+ "AA.VII.E.S8": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already carries crosswind correction on landing. PHAK and RMH have no chapter"
+ },
+ "AA.VII.E.S9": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already carries control application through touchdown. PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.K1": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers engine-out handling. IFH, IPH, PHAK and RMH have no chapter on it"
+ },
+ "AA.VII.F.K2": {
+  "anchors": [
+   "afh:ch13",
+   "ifh:ch11",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers the engine-out go-around and missed approach. PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.K3": {
+  "anchors": [
+   "afh:ch18",
+   "ifh:ch11",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers choosing a suitable airport. PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.R1": {
+  "anchors": [
+   "afh:ch13",
+   "ifh:ch11",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "RMH ch03 identifies powerplant failure as a hazard. IPH treats inoperative equipment, not engines, and PHAK has no chapter"
+ },
+ "AA.VII.F.R2": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch01 holds collision avoidance, scanning and clearing, PHAK ch14 covers collision avoidance. IPH and RMH have no chapter"
+ },
+ "AA.VII.F.R3": {
+  "anchors": [
+   "afh:ch13",
+   "ifh:ch11"
+  ],
+  "confidence": "low",
+  "why": "IFH ch11 covers configuring after a failure in IMC. IPH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.R4": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch04",
+   "phak:ch05",
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch04 and PHAK ch05 cover stalls and spins, RMH ch04 assesses CFIT. IPH has no chapter"
+ },
+ "AA.VII.F.R5": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "IFH ch03 Human Factors and PHAK ch02 cover awareness and workload, AFH ch05 covers distraction-induced loss of control. IPH has none"
+ },
+ "AA.VII.F.R6": {
+  "anchors": [
+   "afh:ch13",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and IPH ch04 already carry the engine-out landing. IFH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.R7": {
+  "anchors": [
+   "afh:ch13",
+   "ifh:ch11",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers the engine-out missed approach. PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.R8": {
+  "anchors": [
+   "afh:ch13",
+   "ifh:ch11",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers engine-out maneuvering, RMH ch03 identifies IMC as a hazard. IPH and PHAK have no chapter"
+ },
+ "AA.VII.F.S1": {
+  "anchors": [
+   "afh:ch13",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and IFH ch11 already carry recognition and memory items. IPH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S10": {
+  "anchors": [
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "low",
+  "why": "IFH ch10 covers approach minimums and inoperative equipment adjustments. AFH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S11": {
+  "anchors": [
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 and IPH ch04 already carry the descent at glidepath intercept. AFH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S12": {
+  "anchors": [
+   "afh:ch04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch04 covers energy management for a stabilized approach. PHAK never uses the term and RMH has no chapter"
+ },
+ "AA.VII.F.S13": {
+  "anchors": [
+   "afh:ch04",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch04 covers energy management on the final approach segment. PHAK never uses the term and RMH has no chapter"
+ },
+ "AA.VII.F.S14": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already carries crosswind correction on landing. IFH puts crosswind in navigation, not landing, and IPH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S15": {
+  "anchors": [
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers the missed approach decision at DA/DH. AFH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S16": {
+  "anchors": [
+   "afh:ch09",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and IPH ch04 already carry touchdown and missed approach control. IFH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S2": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries feathering and shutdown checklists. IFH, IPH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S3": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already carries engine-out control and configuration. IFH, IPH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S4": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 already covers operating limits on the good engine. IFH, IPH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S5": {
+  "anchors": [
+   "ifh:ch02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers radio communication. AFH, IPH and RMH add nothing beyond IFH ch02"
+ },
+ "AA.VII.F.S6": {
+  "anchors": [
+   "afh:ch18",
+   "ifh:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 covers proceeding to the nearest suitable airport. IPH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S7": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers crew resource management and checklist use. IFH, IPH and RMH have no chapter"
+ },
+ "AA.VII.F.S8": {
+  "anchors": [
+   "afh:ch13",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and IPH ch04 already carry configuration and airspeed on approach. IFH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.F.S9": {
+  "anchors": [
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 covers the initial and intermediate approach segments this element tracks. AFH, PHAK and RMH have no chapter"
+ },
+ "AA.VII.G.K1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 and PHAK ch06 already carry flap malfunction handling. RMH has no chapter on it"
+ },
+ "AA.VII.G.K2": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch11 carries the tire and brake limits that bound a high speed landing. RMH has no chapter"
+ },
+ "AA.VII.G.K3": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch16 works required landing distance and runway selection. RMH has no chapter"
+ },
+ "AA.VII.G.R1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 and PHAK ch06 already carry asymmetric and no flap landings. RMH has no chapter"
+ },
+ "AA.VII.G.R2": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 and PHAK ch11 already carry runway selection and landing distance. RMH has no chapter"
+ },
+ "AA.VII.G.R3": {
+  "anchors": [
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 already covers wake turbulence. AFH scatters it across five chapters with no owning chapter and RMH names it twice"
+ },
+ "AA.VII.G.R4": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already covers the go-around. PHAK names it twice in ch14 and RMH not at all"
+ },
+ "AA.VII.G.R5": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AFH ch01 holds collision avoidance, scanning and clearing, PHAK ch14 covers collision avoidance. RMH names it only in passing"
+ },
+ "AA.VII.G.R6": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05",
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers stalls and spins, RMH ch04 assesses CFIT. AFH ch05 already carries the loss of control material"
+ },
+ "AA.VII.G.R7": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers workload, distraction and situational awareness, AFH ch05 covers distraction-induced loss of control"
+ },
+ "AA.VII.G.S1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 and PHAK ch06 already carry identifying a flap malfunction. RMH has no chapter"
+ },
+ "AA.VII.G.S10": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already covers rollout braking and control. PHAK and RMH have no chapter"
+ },
+ "AA.VII.G.S2": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers crew resource management and checklist use. RMH has no checklist chapter"
+ },
+ "AA.VII.G.S3": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch16 covers landing distance and picking a runway long enough. RMH has no chapter"
+ },
+ "AA.VII.G.S4": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch16 works the approach and landing V-speeds. RMH has no chapter"
+ },
+ "AA.VII.G.S5": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch04 and ch09 already carry the stabilized approach and configuration. PHAK never uses the term and RMH has no chapter"
+ },
+ "AA.VII.G.S6": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already covers picking a touchdown point. PHAK and RMH have no chapter"
+ },
+ "AA.VII.G.S7": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already carries control application through touchdown. PHAK and RMH have no chapter"
+ },
+ "AA.VII.G.S8": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 already carries the touchdown point tolerance. PHAK and RMH have no chapter"
+ },
+ "AA.VII.G.S9": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "high",
+  "why": "AFH ch09 covers the water touchdown attitude. PHAK and RMH have no chapter"
+ },
+ "AA.VIII.A.K1": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 covers ramp and parking operations. PHAK and RMH have no postflight chapter"
+ },
+ "AA.VIII.A.K2": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 already covers documenting discrepancies. AIM, PHAK and RMH have no chapter on it"
+ },
+ "AA.VIII.A.R1": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers distraction and workload, AFH ch02 covers distraction during ground operations. AIM has no chapter"
+ },
+ "AA.VIII.A.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Element is archived, so no anchor is proposed for any of its references"
+ },
+ "AA.VIII.A.R3": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 covers jet blast and propeller hazards on the ramp. PHAK and RMH have no chapter"
+ },
+ "AA.VIII.A.R4": {
+  "anchors": [
+   "aim:ch05-s06"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-6 already covers security procedures. AFH, PHAK and RMH have no airport security chapter"
+ },
+ "AA.VIII.A.R5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 already covers passenger movement on the ramp. AIM, PHAK and RMH have no chapter"
+ },
+ "AA.VIII.A.S1": {
+  "anchors": [
+   "afh:ch01",
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers runway incursion avoidance, AFH ch01 holds the incursion avoidance material. RMH has no chapter"
+ },
+ "AA.VIII.A.S2": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s02",
+   "aim:ch04-s03",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers radio communication, AFH ch02 covers ATC calls on the ground. RMH has no chapter"
+ },
+ "AA.VIII.A.S3": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination. AIM and RMH have no chapter"
+ },
+ "AA.VIII.A.S4": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 covers parking and ramp operations. PHAK and RMH have no chapter"
+ },
+ "AA.VIII.A.S5": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 already covers the postflight inspection. AIM, PHAK and RMH have no chapter"
+ },
+ "AA.VIII.A.S6": {
+  "anchors": [
+   "afh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 already covers securing the airplane. AIM, PHAK and RMH have no chapter"
+ },
+ "AA.VIII.B.K1": {
+  "anchors": [
+   "seaplane:mooring"
+  ],
+  "confidence": "high",
+  "why": "Seaplane MOORING already covers it. AFH, AIM, PHAK and RMH have no mooring chapter"
+ },
+ "AA.VIII.B.K2": {
+  "anchors": [
+   "seaplane:docking"
+  ],
+  "confidence": "high",
+  "why": "Seaplane DOCKING already covers it. AFH, AIM, PHAK and RMH have no docking chapter"
+ },
+ "AA.VIII.B.K3": {
+  "anchors": [
+   "seaplane:anchoring"
+  ],
+  "confidence": "high",
+  "why": "Seaplane ANCHORING already covers it. AFH, AIM, PHAK and RMH have no anchoring chapter"
+ },
+ "AA.VIII.B.K4": {
+  "anchors": [
+   "seaplane:beaching",
+   "seaplane:ramping"
+  ],
+  "confidence": "high",
+  "why": "Seaplane BEACHING and RAMPING already cover it. AFH, AIM, PHAK and RMH have no chapter on it"
+ },
+ "AA.VIII.B.R1": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers distraction and workload, AFH ch02 covers distraction during ground operations. AIM and Seaplane have no chapter"
+ },
+ "AA.VIII.B.R2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Element is archived, so no anchor is proposed for any of its references"
+ },
+ "AA.VIII.B.R3": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 covers propeller and jet blast hazards. PHAK, RMH and the Seaplane handbook have no chapter on it"
+ },
+ "AA.VIII.B.R4": {
+  "anchors": [
+   "aim:ch05-s06"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-6 already covers security. AFH, PHAK, RMH and Seaplane have no chapter"
+ },
+ "AA.VIII.B.R5": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:docking"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 and Seaplane DOCKING already cover it. AIM, PHAK and RMH have no chapter"
+ },
+ "AA.VIII.B.S1": {
+  "anchors": [
+   "afh:ch02",
+   "aim:ch04-s02",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers radio communication, AFH ch02 covers ATC calls on the ground. RMH and Seaplane have no chapter"
+ },
+ "AA.VIII.B.S2": {
+  "anchors": [
+   "seaplane:anchoring"
+  ],
+  "confidence": "high",
+  "why": "Seaplane ANCHORING already covers site and anchor selection. AFH, AIM, PHAK and RMH have no chapter"
+ },
+ "AA.VIII.B.S3": {
+  "anchors": [
+   "seaplane:beaching",
+   "seaplane:docking",
+   "seaplane:mooring"
+  ],
+  "confidence": "high",
+  "why": "Seaplane BEACHING, DOCKING and MOORING already cover the approach. AFH, AIM, PHAK and RMH have no chapter"
+ },
+ "AA.VIII.B.S4": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers checklist discipline and crew coordination. AIM, RMH and Seaplane have no chapter"
+ },
+ "AA.VIII.B.S5": {
+  "anchors": [
+   "seaplane:anchoring",
+   "seaplane:beaching",
+   "seaplane:mooring",
+   "seaplane:ramping"
+  ],
+  "confidence": "high",
+  "why": "Seaplane ANCHORING, BEACHING, MOORING and RAMPING already cover securing. AFH, AIM, PHAK and RMH have no chapter"
+ },
+ "AA.VIII.B.S6": {
+  "anchors": [
+   "afh:ch02",
+   "seaplane:postflight-procedures"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 covers the postflight inspection and discrepancy write-up. AIM, PHAK and RMH have no chapter"
+ }
+}

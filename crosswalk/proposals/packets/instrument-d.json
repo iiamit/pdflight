@@ -30,7 +30,7 @@
    "aim:ch01": "Air Navigation",
    "aim:ch01-s01": "Section 1. Navigation Aids",
    "aim:ch01-s02": "Section 2. Performance-Based Navigation (PBN) and Area Navigation (RNAV)",
-   "aim:ch02": "Aeronautical Lighting and Other Airport",
+   "aim:ch02": "Aeronautical Lighting and Other Airport Visual Aids",
    "aim:ch02-s01": "Section 1. Airport Lighting Aids",
    "aim:ch02-s02": "Section 2. Air Navigation and Obstruction Lighting",
    "aim:ch02-s03": "Section 3. Airport Marking Aids and Signs",
@@ -71,7 +71,7 @@
    "aim:ch07-s07": "Section 7. Safety, Accident, and Hazard Reports",
    "aim:ch08": "Medical Facts for Pilots",
    "aim:ch08-s01": "Section 1. Fitness for Flight",
-   "aim:ch09": "Aeronautical Charts and",
+   "aim:ch09": "Aeronautical Charts and Related Publications",
    "aim:ch09-s01": "Section 1. Types of Charts Available",
    "aim:ch10": "Helicopter Operations",
    "aim:ch10-s01": "Section 1. Helicopter IFR Operations",
@@ -92,8 +92,8 @@
    "ifh:ch03": "Human Factors",
    "ifh:ch04": "Aerodynamic Factors",
    "ifh:ch05": "Flight Instruments",
-   "ifh:ch06": "Airplane Attitude Instrument Flying Using",
-   "ifh:ch07": "Airplane Basic Flight Maneuvers Using",
+   "ifh:ch06": "Airplane Attitude Instrument Flying Using Analog Instrumentation and an Electronic Flight Display",
+   "ifh:ch07": "Airplane Basic Flight Maneuvers Using Analog Instrumentation and an Electronic Flight Display",
    "ifh:ch08": "Helicopter Attitude Instrument Flying",
    "ifh:ch09": "Navigation Systems",
    "ifh:ch10": "IFR Flight",
@@ -116,7 +116,7 @@
    "phak:ch05": "Aerodynamics",
    "phak:ch06": "Flight Controls",
    "phak:ch07": "Aircraft Systems",
-   "phak:ch08": "Flight",
+   "phak:ch08": "Flight Instruments",
    "phak:ch09": "Flight Manuals and Other Documents",
    "phak:ch10": "Weight and Balance",
    "phak:ch11": "Aircraft Performance",
@@ -135,7 +135,7 @@
    "risk-management:ch05": "Chapter 5: Mitigating Risk",
    "risk-management:ch06": "Chapter 6: Threat and Error Management",
    "risk-management:ch07": "Automation & Flight Path",
-   "risk-management:ch08": "Aeronautical Decision-Making in"
+   "risk-management:ch08": "Aeronautical Decision-Making in Flight"
   }
  },
  "elements": {
@@ -151,12 +151,12 @@
    ],
    "current": [
     "aim:ch06-s04",
-    "ifh:ch11"
+    "ifh:ch11",
+    "iph:ch02",
+    "phak:ch14"
    ],
    "gaps": [
     "afh",
-    "iph",
-    "phak",
     "risk-management"
    ]
   },
@@ -171,12 +171,12 @@
     "risk-management"
    ],
    "current": [
-    "ifh:ch11"
+    "aim:ch06-s04",
+    "ifh:ch11",
+    "iph:ch02"
    ],
    "gaps": [
     "afh",
-    "aim",
-    "iph",
     "phak",
     "risk-management"
    ]
@@ -193,11 +193,11 @@
    ],
    "current": [
     "aim:ch06-s04",
-    "ifh:ch11"
+    "ifh:ch11",
+    "iph:ch02"
    ],
    "gaps": [
     "afh",
-    "iph",
     "phak",
     "risk-management"
    ]
@@ -213,13 +213,13 @@
     "risk-management"
    ],
    "current": [
-    "ifh:ch11"
+    "aim:ch06-s04",
+    "ifh:ch11",
+    "iph:ch02",
+    "phak:ch14"
    ],
    "gaps": [
     "afh",
-    "aim",
-    "iph",
-    "phak",
     "risk-management"
    ]
   },
@@ -235,12 +235,12 @@
    ],
    "current": [
     "aim:ch06-s04",
-    "ifh:ch11"
+    "ifh:ch11",
+    "iph:ch02",
+    "phak:ch14"
    ],
    "gaps": [
     "afh",
-    "iph",
-    "phak",
     "risk-management"
    ]
   },
@@ -256,11 +256,11 @@
    ],
    "current": [
     "aim:ch06-s04",
-    "ifh:ch11"
+    "ifh:ch11",
+    "iph:ch02"
    ],
    "gaps": [
     "afh",
-    "iph",
     "phak",
     "risk-management"
    ]
@@ -276,12 +276,12 @@
     "risk-management"
    ],
    "current": [
-    "aim:ch06-s04"
+    "aim:ch06-s04",
+    "ifh:ch10",
+    "iph:ch04"
    ],
    "gaps": [
     "afh",
-    "ifh",
-    "iph",
     "phak",
     "risk-management"
    ]
@@ -297,13 +297,13 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch02",
+    "ifh:ch03",
     "phak:ch02",
     "risk-management:ch08"
    ],
    "gaps": [
-    "afh",
     "aim",
-    "ifh",
     "iph"
    ]
   },
@@ -350,11 +350,11 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "phak:ch11"
    ],
    "gaps": [
     "ifh",
-    "phak",
     "risk-management"
    ]
   },
@@ -368,11 +368,11 @@
    ],
    "current": [
     "afh:ch05",
-    "afh:ch13"
+    "afh:ch13",
+    "phak:ch05"
    ],
    "gaps": [
     "ifh",
-    "phak",
     "risk-management"
    ]
   },
@@ -385,14 +385,13 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch05",
     "ifh:ch03",
     "ifh:ch11",
+    "phak:ch02",
     "risk-management:ch06"
    ],
-   "gaps": [
-    "afh",
-    "phak"
-   ]
+   "gaps": []
   },
   "IR.VII.B.R5": {
    "text": "Fuel management during single-engine operation. 21",
@@ -403,11 +402,11 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "phak:ch07"
    ],
    "gaps": [
     "ifh",
-    "phak",
     "risk-management"
    ]
   },
@@ -420,10 +419,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch07"
    ],
    "gaps": [
-    "ifh",
     "phak",
     "risk-management"
    ]
@@ -437,10 +436,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch07"
    ],
    "gaps": [
-    "ifh",
     "phak",
     "risk-management"
    ]
@@ -454,10 +453,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch07"
    ],
    "gaps": [
-    "ifh",
     "phak",
     "risk-management"
    ]
@@ -471,13 +470,12 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch02",
+    "ifh:ch03",
     "phak:ch02",
     "risk-management:ch08"
    ],
-   "gaps": [
-    "afh",
-    "ifh"
-   ]
+   "gaps": []
   },
   "IR.VII.B.S2": {
    "text": "Set the engine controls, reduce drag, identify and verify the inoperative engine, and simulate feathering of the propeller on the inoperative engine (evaluator should then establish zero thrust on the inoperative engine).",
@@ -488,11 +486,11 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "phak:ch07"
    ],
    "gaps": [
     "ifh",
-    "phak",
     "risk-management"
    ]
   },
@@ -505,10 +503,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch07"
    ],
    "gaps": [
-    "ifh",
     "phak",
     "risk-management"
    ]
@@ -522,10 +520,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch07"
    ],
    "gaps": [
-    "ifh",
     "phak",
     "risk-management"
    ]
@@ -539,11 +537,11 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch11",
+    "phak:ch09"
    ],
    "gaps": [
-    "ifh",
-    "phak",
     "risk-management"
    ]
   },
@@ -556,11 +554,11 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "phak:ch07"
    ],
    "gaps": [
     "ifh",
-    "phak",
     "risk-management"
    ]
   },
@@ -590,11 +588,11 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch13",
     "ifh:ch06",
     "ifh:ch07"
    ],
    "gaps": [
-    "afh",
     "phak",
     "risk-management"
    ]
@@ -609,11 +607,11 @@
    ],
    "current": [
     "afh:ch13",
+    "phak:ch11",
     "risk-management:ch08"
    ],
    "gaps": [
-    "ifh",
-    "phak"
+    "ifh"
    ]
   },
   "IR.VII.C.K1": {
@@ -627,10 +625,10 @@
    ],
    "current": [
     "afh:ch13",
+    "ifh:ch10",
     "iph:ch04"
    ],
    "gaps": [
-    "ifh",
     "phak",
     "risk-management"
    ]
@@ -645,11 +643,11 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "iph:ch04"
    ],
    "gaps": [
     "ifh",
-    "iph",
     "phak",
     "risk-management"
    ]
@@ -682,11 +680,11 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch07",
+    "iph:ch04"
    ],
    "gaps": [
-    "ifh",
-    "iph",
     "phak",
     "risk-management"
    ]
@@ -702,12 +700,12 @@
    ],
    "current": [
     "afh:ch05",
-    "afh:ch13"
+    "afh:ch13",
+    "iph:ch04",
+    "phak:ch05"
    ],
    "gaps": [
     "ifh",
-    "iph",
-    "phak",
     "risk-management"
    ]
   },
@@ -721,15 +719,14 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch05",
     "ifh:ch03",
     "ifh:ch11",
+    "iph:ch04",
+    "phak:ch02",
     "risk-management:ch06"
    ],
-   "gaps": [
-    "afh",
-    "iph",
-    "phak"
-   ]
+   "gaps": []
   },
   "IR.VII.C.R6": {
    "text": "Performing a go-around/rejected landing with an engine failure.",
@@ -742,11 +739,11 @@
    ],
    "current": [
     "afh:ch09",
-    "afh:ch13"
+    "afh:ch13",
+    "iph:ch04"
    ],
    "gaps": [
     "ifh",
-    "iph",
     "phak",
     "risk-management"
    ]
@@ -761,10 +758,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch07"
    ],
    "gaps": [
-    "ifh",
     "iph",
     "phak",
     "risk-management"
@@ -780,10 +777,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch07"
    ],
    "gaps": [
-    "ifh",
     "iph",
     "phak",
     "risk-management"
@@ -819,11 +816,11 @@
    ],
    "current": [
     "afh:ch09",
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch10",
+    "iph:ch04"
    ],
    "gaps": [
-    "ifh",
-    "iph",
     "phak",
     "risk-management"
    ]
@@ -838,12 +835,12 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch11",
+    "phak:ch09"
    ],
    "gaps": [
-    "ifh",
     "iph",
-    "phak",
     "risk-management"
    ]
   },
@@ -857,12 +854,12 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch02",
+    "ifh:ch03",
     "phak:ch02",
     "risk-management:ch08"
    ],
    "gaps": [
-    "afh",
-    "ifh",
     "iph"
    ]
   },
@@ -876,12 +873,12 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "phak:ch07"
    ],
    "gaps": [
     "ifh",
     "iph",
-    "phak",
     "risk-management"
    ]
   },
@@ -895,10 +892,10 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch07"
    ],
    "gaps": [
-    "ifh",
     "iph",
     "phak",
     "risk-management"
@@ -914,12 +911,12 @@
     "risk-management"
    ],
    "current": [
-    "afh:ch13"
+    "afh:ch13",
+    "ifh:ch11",
+    "phak:ch09"
    ],
    "gaps": [
-    "ifh",
     "iph",
-    "phak",
     "risk-management"
    ]
   },
@@ -971,11 +968,11 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch13",
     "ifh:ch06",
     "ifh:ch07"
    ],
    "gaps": [
-    "afh",
     "iph",
     "phak",
     "risk-management"
@@ -1030,12 +1027,12 @@
    ],
    "current": [
     "ifh:ch05",
-    "ifh:ch11"
+    "ifh:ch11",
+    "phak:ch08"
    ],
    "gaps": [
     "afh",
     "iph",
-    "phak",
     "risk-management"
    ]
   },
@@ -1070,13 +1067,13 @@
    ],
    "current": [
     "ifh:ch05",
-    "ifh:ch07"
+    "ifh:ch07",
+    "phak:ch08",
+    "risk-management:ch07"
    ],
    "gaps": [
     "afh",
-    "iph",
-    "phak",
-    "risk-management"
+    "iph"
    ]
   },
   "IR.VII.D.R2": {
@@ -1089,11 +1086,11 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch05",
     "ifh:ch07",
     "ifh:ch11"
    ],
    "gaps": [
-    "afh",
     "iph",
     "phak",
     "risk-management"
@@ -1109,15 +1106,14 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch05",
     "ifh:ch03",
     "ifh:ch11",
+    "iph:ch04",
+    "phak:ch02",
     "risk-management:ch06"
    ],
-   "gaps": [
-    "afh",
-    "iph",
-    "phak"
-   ]
+   "gaps": []
   },
   "IR.VII.D.S1": {
    "text": "Advise ATC or the evaluator if unable to comply with a clearance.",
@@ -1130,11 +1126,11 @@
    ],
    "current": [
     "ifh:ch02",
-    "ifh:ch11"
+    "ifh:ch11",
+    "iph:ch04"
    ],
    "gaps": [
     "afh",
-    "iph",
     "phak",
     "risk-management"
    ]
@@ -1150,12 +1146,12 @@
    ],
    "current": [
     "ifh:ch07",
-    "ifh:ch10"
+    "ifh:ch10",
+    "iph:ch04",
+    "phak:ch08"
    ],
    "gaps": [
     "afh",
-    "iph",
-    "phak",
     "risk-management"
    ]
   },
@@ -1169,12 +1165,12 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch02",
+    "ifh:ch03",
     "phak:ch02",
     "risk-management:ch08"
    ],
    "gaps": [
-    "afh",
-    "ifh",
     "iph"
    ]
   },
@@ -1186,10 +1182,10 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch02",
     "phak:ch09"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },
@@ -1201,10 +1197,10 @@
     "risk-management"
    ],
    "current": [
+    "afh:ch02",
     "phak:ch09"
    ],
    "gaps": [
-    "afh",
     "risk-management"
    ]
   },

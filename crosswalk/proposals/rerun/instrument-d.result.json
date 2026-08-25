@@ -2,167 +2,196 @@
  "IR.VII.A.K1": {
   "anchors": [
    "aim:ch06-s04",
-   "ifh:ch11"
+   "ifh:ch11",
+   "iph:ch02",
+   "phak:ch14"
   ],
   "confidence": "high",
-  "why": "AIM 6-4 Two-way Radio Communications Failure gives the route, altitude and clearance-limit rules; IFH ch11 covers the airborne response"
+  "why": "IPH ch02 carries the densest lost-comm route and altitude text, PHAK ch14 the radio-failure and light-gun procedures. AFH and RMH have no lost-comm text"
  },
  "IR.VII.A.R1": {
   "anchors": [
-   "ifh:ch11"
+   "aim:ch06-s04",
+   "ifh:ch11",
+   "iph:ch02"
   ],
   "confidence": "high",
-  "why": "IFH ch11 Emergency Operations is the only chapter that treats communication and equipment failure causes in flight"
+  "why": "AIM 6-4 and IPH ch02 give the failure causes and procedures. AFH and RMH have no lost-comm text; PHAK covers tower light signals, not causes"
  },
  "IR.VII.A.R2": {
   "anchors": [
    "aim:ch06-s04",
-   "ifh:ch11"
+   "ifh:ch11",
+   "iph:ch02"
   ],
   "confidence": "high",
-  "why": "AIM 6-4 states when deviation from the clearance is authorized; IFH ch11 covers the pilot decision"
+  "why": "IPH ch02 En Route Operations states when a lost-comm clearance deviation is authorized. AFH, PHAK and RMH carry no lost-comm deviation text"
  },
  "IR.VII.A.S1": {
   "anchors": [
-   "ifh:ch11"
+   "aim:ch06-s04",
+   "ifh:ch11",
+   "iph:ch02",
+   "phak:ch14"
   ],
   "confidence": "high",
-  "why": "IFH ch11 Emergency Operations covers recognizing and confirming a radio failure"
+  "why": "AIM 6-4 and IPH ch02 define the failure, PHAK ch14 covers recognizing a tower radio failure. AFH and RMH have no lost-comm text at all"
  },
  "IR.VII.A.S2": {
   "anchors": [
    "aim:ch06-s04",
-   "ifh:ch11"
+   "ifh:ch11",
+   "iph:ch02",
+   "phak:ch14"
   ],
   "confidence": "high",
-  "why": "AIM 6-4 and IFH ch11 both give the steps for re-establishing contact after a radio failure"
+  "why": "PHAK ch14 has the light-gun signals and tower radio-failure steps, IPH ch02 the en route attempts. AFH and RMH carry nothing on lost communications"
  },
  "IR.VII.A.S3": {
   "anchors": [
    "aim:ch06-s04",
-   "ifh:ch11"
+   "ifh:ch11",
+   "iph:ch02"
   ],
   "confidence": "high",
-  "why": "AIM 6-4 sets the route and destination rules for lost comms; IFH ch11 covers the in-flight decision"
+  "why": "IPH ch02 covers the continue-or-deviate rules en route. PHAK, AFH and RMH have no lost-comm decision text, so they stay at document level"
  },
  "IR.VII.A.S4": {
   "anchors": [
-   "aim:ch06-s04"
+   "aim:ch06-s04",
+   "ifh:ch10",
+   "iph:ch04"
   ],
   "confidence": "high",
-  "why": "AIM 6-4 is where the leave-the-clearance-limit and ETA rules for beginning the approach are stated"
+  "why": "IFH ch10 IFR Flight and IPH ch04 Approaches both carry the lost-comm approach timing. AFH, PHAK and RMH have none"
  },
  "IR.VII.A.S5": {
   "anchors": [
+   "afh:ch02",
+   "ifh:ch03",
    "phak:ch02",
    "risk-management:ch08"
   ],
   "confidence": "high",
-  "why": "PHAK ch02 Aeronautical Decision-Making and Risk Management ch08 both carry the SRM and CRM material"
+  "why": "AFH ch02 and IFH ch03 hold each book's SRM and ADM block. IPH has no resource-management text and the AIM none, so both stay whole-book"
  },
  "IR.VII.B.K1": {
   "anchors": [
    "afh:ch13",
-   "ifh:ch06",
    "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 Transition to Multiengine Airplanes holds the engine-out procedures; IFH ch06 and ch07 cover straight-and-level and turns on instruments"
+  "why": "AFH ch13 and IFH ch07 cover engine-out control on instruments. PHAK has no engine-out procedure chapter and RMH none, so both stay whole-book"
  },
  "IR.VII.B.R1": {
   "anchors": [
    "afh:ch13"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers identifying and verifying the inoperative engine, confirmed by the dead-foot and verify passages"
+  "why": "AFH ch13 is the only chapter that treats identifying the failed engine. Searched IFH, PHAK and RMH for inoperative engine and found no chapter fit"
  },
  "IR.VII.B.R2": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "phak:ch11"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers single-engine service ceiling, drift-down and the inability to hold altitude"
+  "why": "PHAK ch11 Aircraft Performance carries the climb performance and service ceiling text. IFH and RMH have no chapter on single-engine climb capability"
  },
  "IR.VII.B.R3": {
   "anchors": [
    "afh:ch05",
-   "afh:ch13"
+   "afh:ch13",
+   "phak:ch05"
   ],
   "confidence": "high",
-  "why": "AFH ch05 Upset Prevention and Recovery carries the stall and spin material; AFH ch13 covers Vmc rollover at low altitude"
+  "why": "PHAK ch05 Aerodynamics holds the stall and spin text. IFH treats CFIT only in passing and RMH spreads it across chapters, so both stay whole-book"
  },
  "IR.VII.B.R4": {
   "anchors": [
+   "afh:ch05",
    "ifh:ch03",
    "ifh:ch11",
+   "phak:ch02",
    "risk-management:ch06"
   ],
   "confidence": "high",
-  "why": "IFH ch03 Human Factors covers spatial disorientation, IFH ch11 loss of situational awareness, Risk Management ch06 threat and error management"
+  "why": "PHAK ch02 and AFH ch05 both carry dense situational-awareness and distraction text. RMH ch06 Threat and Error Management already applied"
  },
  "IR.VII.B.R5": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "phak:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 is where crossfeed and single-engine fuel management are treated"
+  "why": "PHAK ch07 Aircraft Systems holds the fuel system and management text. IFH has one passing mention and RMH treats fuel only as a risk example"
  },
  "IR.VII.B.R6": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers gear, flap and cowl flap configuration with an engine inoperative"
+  "why": "IFH ch07 covers configuration changes while flying on instruments. PHAK has no configuration chapter and RMH none, so both stay whole-book"
  },
  "IR.VII.B.S1": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers prompt recognition of the failure and maintaining directional control"
+  "why": "IFH ch07 is the instrument aircraft-control chapter and carries the engine-failure control text. PHAK and RMH have no equivalent chapter"
  },
  "IR.VII.B.S10": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers control of the airplane within Vmc and single-engine limitations"
+  "why": "IFH ch07 covers instrument aircraft control within limits. PHAK and RMH have no chapter on engine-out control limits"
  },
  "IR.VII.B.S11": {
   "anchors": [
+   "afh:ch02",
+   "ifh:ch03",
    "phak:ch02",
    "risk-management:ch08"
   ],
   "confidence": "high",
-  "why": "PHAK ch02 Aeronautical Decision-Making and Risk Management ch08 both carry the SRM and CRM material"
+  "why": "AFH ch02 and IFH ch03 hold each book's SRM and ADM block, confirmed by searching for single-pilot resource management in both"
  },
  "IR.VII.B.S2": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "phak:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 holds the feathering and zero-thrust passages and the identify, verify, feather sequence"
+  "why": "PHAK ch07 Aircraft Systems covers propeller and engine controls including feathering. IFH and RMH have no such chapter"
  },
  "IR.VII.B.S3": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers Vyse, the best single-engine airspeed, and trimming for it"
+  "why": "IFH ch07 covers airspeed control and trim on instruments. PHAK and RMH carry no engine-inoperative airspeed text"
  },
  "IR.VII.B.S4": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers the bank and rudder combination that gives best single-engine performance"
+  "why": "IFH ch07 covers control and trim technique on instruments. PHAK and RMH have no chapter on engine-out control inputs"
  },
  "IR.VII.B.S5": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch11",
+   "phak:ch09"
   ],
   "confidence": "high",
-  "why": "AFH ch13 carries the securing-the-engine checklist discussion"
+  "why": "PHAK ch09 covers AFM checklists, IFH ch11 emergency checklist use. RMH checklists are risk checklists not aircraft ones, so it stays whole-book"
  },
  "IR.VII.B.S6": {
   "anchors": [
@@ -170,7 +199,7 @@
    "phak:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers troubleshooting the failure; PHAK ch07 Aircraft Systems explains the engine indications behind it"
+  "why": "PHAK ch07 Aircraft Systems covers engine instruments and failure symptoms. IFH and RMH have no diagnostic chapter"
  },
  "IR.VII.B.S7": {
   "anchors": [
@@ -178,89 +207,103 @@
    "phak:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers operating-engine management; PHAK ch07 Aircraft Systems explains the engine instruments being monitored"
+  "why": "PHAK ch07 engine instruments already applied. IFH and RMH have no chapter on monitoring engine functions, so both stay at document level"
  },
  "IR.VII.B.S8": {
   "anchors": [
+   "afh:ch13",
    "ifh:ch06",
    "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "IFH ch06 and ch07 are the attitude instrument flying chapters that set altitude, airspeed and heading control"
+  "why": "IFH ch06 and ch07 hold the instrument tolerance work, AFH ch13 holding altitude and heading with one engine out. PHAK and RMH have no tolerance text"
  },
  "IR.VII.B.S9": {
   "anchors": [
    "afh:ch13",
+   "phak:ch11",
    "risk-management:ch08"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers single-engine performance capability; Risk Management ch08 covers the decision to divert or land"
+  "why": "PHAK ch11 Aircraft Performance covers assessing climb and landing capability. IFH has no performance chapter, so it stays at document level"
  },
  "IR.VII.C.K1": {
+  "anchors": [
+   "afh:ch13",
+   "ifh:ch10",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 IFR Flight covers approach procedures, IPH ch04 already applied. PHAK has no instrument approach chapter and RMH none"
+ },
+ "IR.VII.C.R1": {
   "anchors": [
    "afh:ch13",
    "iph:ch04"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers the engine-inoperative approach; IPH ch04 Approaches is the source for the approach procedure itself"
- },
- "IR.VII.C.R1": {
-  "anchors": [
-   "afh:ch13"
-  ],
-  "confidence": "high",
-  "why": "AFH ch13 covers engine failure during the approach and landing phase of a multiengine flight"
+  "why": "IPH ch04 Approaches is the approach and landing chapter, AFH ch13 carries the engine-out case. IFH, PHAK and RMH add no chapter-level treatment"
  },
  "IR.VII.C.R2": {
   "anchors": [],
   "confidence": "high",
-  "why": "Element is archived, so no chapter applies. The document-level rows stay"
+  "why": "Element is archived and carries no text, so no chapter in any referenced document can be grounded"
  },
  "IR.VII.C.R3": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch07",
+   "iph:ch04"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers gear and flap configuration with an engine inoperative on approach"
+  "why": "IPH ch04 covers approach configuration and IFH ch07 configuration changes on instruments. PHAK and RMH have no configuration chapter"
  },
  "IR.VII.C.R4": {
   "anchors": [
    "afh:ch05",
-   "afh:ch13"
+   "afh:ch13",
+   "iph:ch04",
+   "phak:ch05"
   ],
   "confidence": "high",
-  "why": "AFH ch05 Upset Prevention and Recovery carries the stall and spin material; AFH ch13 covers Vmc rollover at low altitude"
+  "why": "PHAK ch05 holds the stall and spin text, IPH ch04 the CFIT-on-approach text. IFH mentions CFIT only in passing and RMH spreads it, so both stay whole-book"
  },
  "IR.VII.C.R5": {
   "anchors": [
+   "afh:ch05",
    "ifh:ch03",
    "ifh:ch11",
+   "iph:ch04",
+   "phak:ch02",
    "risk-management:ch06"
   ],
   "confidence": "high",
-  "why": "IFH ch03 Human Factors covers spatial disorientation, IFH ch11 loss of situational awareness, Risk Management ch06 threat and error management"
+  "why": "PHAK ch02 and AFH ch05 carry the situational-awareness and distraction text, IPH ch04 approach workload. RMH ch06 already applied"
  },
  "IR.VII.C.R6": {
   "anchors": [
    "afh:ch09",
-   "afh:ch13"
+   "afh:ch13",
+   "iph:ch04"
   ],
   "confidence": "high",
-  "why": "AFH ch09 Approaches and Landings holds the go-around and rejected landing material; AFH ch13 covers it with one engine out"
+  "why": "IPH ch04 Approaches holds the missed approach and go-around text. IFH, PHAK and RMH have no engine-out go-around chapter"
  },
  "IR.VII.C.S1": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers prompt recognition of the failure and maintaining directional control"
+  "why": "IFH ch07 is the instrument aircraft-control chapter. IPH, PHAK and RMH have no chapter on recognizing an engine failure"
  },
  "IR.VII.C.S10": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers control of the airplane within Vmc and single-engine limitations"
+  "why": "IFH ch07 covers instrument aircraft control within limits. IPH, PHAK and RMH have no chapter on engine-out control limits"
  },
  "IR.VII.C.S11": {
   "anchors": [
@@ -268,51 +311,61 @@
    "iph:ch04"
   ],
   "confidence": "high",
-  "why": "IPH ch04 holds the aircraft approach category and circling criteria; IFH ch10 covers the circling approach"
+  "why": "IPH ch04 holds the circling and approach category criteria, IFH ch10 the circling procedure. AFH, PHAK and RMH have no such chapter"
  },
  "IR.VII.C.S12": {
   "anchors": [
    "afh:ch09",
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch10",
+   "iph:ch04"
   ],
   "confidence": "high",
-  "why": "AFH ch09 Approaches and Landings covers the landing; AFH ch13 covers it with one engine inoperative"
+  "why": "IPH ch04 and IFH ch10 cover the landing off an instrument approach, AFH ch09 already applied. PHAK and RMH add nothing at chapter level"
  },
  "IR.VII.C.S13": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch11",
+   "phak:ch09"
   ],
   "confidence": "high",
-  "why": "AFH ch13 carries the multiengine emergency and securing checklist discussion"
+  "why": "PHAK ch09 covers AFM checklists and IFH ch11 emergency checklist use. IPH and RMH have no aircraft checklist chapter"
  },
  "IR.VII.C.S14": {
   "anchors": [
+   "afh:ch02",
+   "ifh:ch03",
    "phak:ch02",
    "risk-management:ch08"
   ],
   "confidence": "high",
-  "why": "PHAK ch02 Aeronautical Decision-Making and Risk Management ch08 both carry the SRM and CRM material"
+  "why": "AFH ch02 and IFH ch03 hold each book's SRM and ADM block. IPH has no resource-management text, so it stays at document level"
  },
  "IR.VII.C.S2": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "phak:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 holds the feathering and zero-thrust passages and the identify, verify, feather sequence"
+  "why": "PHAK ch07 Aircraft Systems covers propeller and engine controls including feathering. IFH, IPH and RMH have no such chapter"
  },
  "IR.VII.C.S3": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers the bank and rudder combination that gives best single-engine performance"
+  "why": "IFH ch07 covers control and trim technique on instruments. IPH, PHAK and RMH have no chapter on engine-out control inputs"
  },
  "IR.VII.C.S4": {
   "anchors": [
-   "afh:ch13"
+   "afh:ch13",
+   "ifh:ch11",
+   "phak:ch09"
   ],
   "confidence": "high",
-  "why": "AFH ch13 carries the multiengine emergency checklist discussion"
+  "why": "PHAK ch09 covers AFM emergency procedures and checklists, IFH ch11 emergency checklist use. IPH and RMH have no aircraft checklist chapter"
  },
  "IR.VII.C.S5": {
   "anchors": [
@@ -320,7 +373,7 @@
    "phak:ch07"
   ],
   "confidence": "high",
-  "why": "AFH ch13 covers operating-engine management; PHAK ch07 Aircraft Systems explains the engine instruments being monitored"
+  "why": "PHAK ch07 engine instruments already applied. IFH, IPH and RMH have no chapter on monitoring engine and aircraft systems"
  },
  "IR.VII.C.S6": {
   "anchors": [
@@ -328,15 +381,16 @@
    "iph:ch04"
   ],
   "confidence": "high",
-  "why": "IFH ch10 IFR Flight covers requesting and flying an approach clearance; IPH ch04 Approaches carries the procedure detail"
+  "why": "IFH ch10 and IPH ch04 carry the approach clearance text. AFH, PHAK and RMH have no instrument clearance chapter, so they stay whole-book"
  },
  "IR.VII.C.S7": {
   "anchors": [
+   "afh:ch13",
    "ifh:ch06",
    "ifh:ch07"
   ],
   "confidence": "high",
-  "why": "IFH ch06 and ch07 are the attitude instrument flying chapters that set altitude, airspeed and heading control"
+  "why": "IFH ch06 and ch07 hold the instrument tolerance work, AFH ch13 engine-out altitude and heading control. IPH, PHAK and RMH have no tolerance text"
  },
  "IR.VII.C.S8": {
   "anchors": [
@@ -344,7 +398,7 @@
    "iph:ch04"
   ],
   "confidence": "high",
-  "why": "IPH ch04 Approaches carries MDA and DA/DH and the descent to landing; IFH ch10 IFR Flight covers flying the approach"
+  "why": "IFH ch10 and IPH ch04 carry the MDA and DA descent text. AFH, PHAK and RMH have no instrument approach chapter"
  },
  "IR.VII.C.S9": {
   "anchors": [
@@ -352,15 +406,16 @@
    "iph:ch04"
   ],
   "confidence": "high",
-  "why": "IPH ch04 Approaches covers final segment lateral and vertical guidance; IFH ch10 IFR Flight covers tracking it"
+  "why": "IFH ch10 and IPH ch04 carry the course deviation and vertical guidance text. AFH, PHAK and RMH have no approach guidance chapter"
  },
  "IR.VII.D.K1": {
   "anchors": [
    "ifh:ch05",
-   "ifh:ch11"
+   "ifh:ch11",
+   "phak:ch08"
   ],
   "confidence": "high",
-  "why": "IFH ch05 Flight Instruments covers erroneous indications; IFH ch11 Emergency Operations covers recognizing the failure and telling ATC"
+  "why": "PHAK ch08 Flight Instruments carries the pitot-static and instrument failure symptoms. AFH, IPH and RMH have no instrument failure chapter"
  },
  "IR.VII.D.K2": {
   "anchors": [
@@ -369,63 +424,75 @@
    "phak:ch08"
   ],
   "confidence": "high",
-  "why": "IFH ch05 and PHAK ch08 cover pitot-static and gyro failure modes; IFH ch11 covers minimizing the effect in flight"
+  "why": "IFH ch05 and PHAK ch08 already carry the failure modes. AFH, IPH and RMH have no chapter on primary instrument failure modes"
  },
  "IR.VII.D.R1": {
   "anchors": [
    "ifh:ch05",
-   "ifh:ch07"
+   "ifh:ch07",
+   "phak:ch08",
+   "risk-management:ch07"
   ],
   "confidence": "high",
-  "why": "IFH ch05 Flight Instruments describes the standby and secondary displays; IFH ch07 covers flying on them"
+  "why": "PHAK ch08 covers primary and standby flight displays, RMH ch07 automation and flight path management. AFH and IPH have no display failure chapter"
  },
  "IR.VII.D.R2": {
   "anchors": [
+   "afh:ch05",
    "ifh:ch07",
    "ifh:ch11"
   ],
   "confidence": "high",
-  "why": "IFH ch07 covers partial-panel basic flight maneuvers; IFH ch11 Emergency Operations covers control after an instrument failure"
+  "why": "AFH ch05 Upset Prevention and Recovery is the aircraft-control chapter and names partial panel. IPH, PHAK and RMH have no equivalent"
  },
  "IR.VII.D.R3": {
   "anchors": [
+   "afh:ch05",
    "ifh:ch03",
    "ifh:ch11",
+   "iph:ch04",
+   "phak:ch02",
    "risk-management:ch06"
   ],
   "confidence": "high",
-  "why": "IFH ch03 Human Factors covers spatial disorientation, IFH ch11 loss of situational awareness, Risk Management ch06 threat and error management"
+  "why": "PHAK ch02 and AFH ch05 carry the situational-awareness and distraction text, IPH ch04 approach workload. RMH ch06 already applied"
  },
  "IR.VII.D.S1": {
   "anchors": [
-   "ifh:ch10",
-   "ifh:ch11"
+   "ifh:ch02",
+   "ifh:ch11",
+   "iph:ch04"
   ],
   "confidence": "high",
-  "why": "IFH ch11 covers advising ATC of a malfunction and IFH ch10 carries the advise-ATC and unable text. IFH ch02 dropped, no such text there"
+  "why": "IPH ch04 carries the advise-ATC and unable-to-comply text on approach, IFH ch02 already applied. AFH, PHAK and RMH have none"
  },
  "IR.VII.D.S2": {
   "anchors": [
    "ifh:ch07",
-   "ifh:ch10"
+   "ifh:ch10",
+   "iph:ch04",
+   "phak:ch08"
   ],
   "confidence": "high",
-  "why": "IFH ch07 covers partial-panel maneuvering; IFH ch10 IFR Flight covers the non-precision approach itself"
+  "why": "IPH ch04 Approaches is the non-precision approach chapter and PHAK ch08 the instrument failure chapter. AFH and RMH have no equivalent"
  },
  "IR.VII.D.S3": {
   "anchors": [
+   "afh:ch02",
+   "ifh:ch03",
    "phak:ch02",
    "risk-management:ch08"
   ],
   "confidence": "high",
-  "why": "PHAK ch02 Aeronautical Decision-Making and Risk Management ch08 both carry the SRM and CRM material"
+  "why": "AFH ch02 and IFH ch03 hold each book's SRM and ADM block. IPH has no resource-management text, so it stays at document level"
  },
  "IR.VIII.A.K1": {
   "anchors": [
+   "afh:ch02",
    "phak:ch09"
   ],
   "confidence": "high",
-  "why": "PHAK ch09 Flight Manuals and Other Documents is where discrepancy and maintenance record documentation is treated"
+  "why": "AFH ch02 Ground Operations carries the postflight and discrepancy text. RMH has no postflight or maintenance chapter, so it stays whole-book"
  },
  "IR.VIII.A.R1": {
   "anchors": [
@@ -433,7 +500,7 @@
    "phak:ch09"
   ],
   "confidence": "high",
-  "why": "AFH ch02 Ground Operations covers the post-flight inspection; PHAK ch09 covers documenting the discrepancy"
+  "why": "AFH ch02 Ground Operations covers the postflight inspection. RMH has no postflight chapter, so it stays at document level"
  },
  "IR.VIII.A.S1": {
   "anchors": [
@@ -441,6 +508,6 @@
    "phak:ch09"
   ],
   "confidence": "high",
-  "why": "AFH ch02 Ground Operations covers post-flight inspection and securing; PHAK ch09 covers recording discrepancies and servicing"
+  "why": "AFH ch02 and PHAK ch09 already applied. RMH has no postflight or discrepancy chapter, so it stays at document level"
  }
 }

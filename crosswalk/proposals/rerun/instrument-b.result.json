@@ -1,0 +1,737 @@
+{
+ "IR.III.A.K1": {
+  "anchors": [
+   "aim:ch04-s04",
+   "aim:ch05-s05",
+   "ifh:ch10",
+   "iph:ch01",
+   "phak:ch14"
+  ],
+  "why": "IPH ch01 holds the clearance void time and clearance delivery text; PHAK ch14 carries the ATC clearance and pilot/controller text. No AFH or RMH chapter fits",
+  "confidence": "high"
+ },
+ "IR.III.A.K2": {
+  "anchors": [
+   "aim:ch06-s01",
+   "ifh:ch11"
+  ],
+  "why": "Searched emergency authority in AFH, IPH, PHAK and RMH and found no hit in any of them, so those four stay at document level",
+  "confidence": "high"
+ },
+ "IR.III.A.K3": {
+  "anchors": [
+   "aim:ch06-s04",
+   "ifh:ch11",
+   "iph:ch01"
+  ],
+  "why": "IPH ch01 covers lost communication after departure. PHAK has one incidental hit and AFH none, so both stay at document level",
+  "confidence": "high"
+ },
+ "IR.III.A.R1": {
+  "anchors": [
+   "aim:ch04-s02",
+   "aim:ch05-s05",
+   "ifh:ch02",
+   "phak:ch14"
+  ],
+  "why": "IFH ch02 is the ATC system chapter and carries clearance readback; PHAK ch14 has the read back text. No IPH, AFH or RMH chapter treats misunderstood clearances",
+  "confidence": "high"
+ },
+ "IR.III.A.R2": {
+  "anchors": [
+   "aim:ch04-s04",
+   "aim:ch05-s05",
+   "ifh:ch02"
+  ],
+  "why": "IFH ch02 carries the bulk of the clearance text, including questioning a clearance. AFH, IPH, PHAK and RMH have no chapter on incorrect clearances",
+  "confidence": "high"
+ },
+ "IR.III.A.R3": {
+  "anchors": [
+   "aim:ch05-s05",
+   "ifh:ch02"
+  ],
+  "why": "IFH ch02 covers accepting or refusing a clearance against aircraft capability. No PHAK, IPH, AFH or RMH chapter is about clearance versus performance",
+  "confidence": "low"
+ },
+ "IR.III.A.R4": {
+  "anchors": [
+   "aim:ch04-s02",
+   "ifh:ch02"
+  ],
+  "why": "IFH ch02 is where call sign use appears. Searched similar call sign in PHAK and RMH with no hit, so those stay at document level",
+  "confidence": "low"
+ },
+ "IR.III.A.S1": {
+  "anchors": [
+   "aim:ch04-s02",
+   "aim:ch04-s04",
+   "ifh:ch10",
+   "phak:ch14"
+  ],
+  "why": "IFH ch10 and PHAK ch14 both hold the read back and phraseology text. IPH readback hits are scattered across chapters, AFH has none",
+  "confidence": "high"
+ },
+ "IR.III.A.S2": {
+  "anchors": [
+   "aim:ch01-s01",
+   "aim:ch04-s05",
+   "ifh:ch09",
+   "iph:ch01",
+   "phak:ch16"
+  ],
+  "why": "IFH ch09 covers tuning and identifying, IPH ch01 holds the transponder code text, PHAK ch16 covers navigation receiver identification",
+  "confidence": "high"
+ },
+ "IR.III.A.S3": {
+  "anchors": [
+   "aim:ch09-s01",
+   "iph:ch06",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 is the aeronautical chart chapter and IPH ch06 covers database effective dates and currency. IFH chart hits are incidental",
+  "confidence": "high"
+ },
+ "IR.III.A.S4": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 carries the intercepting a course and radial text. AIM interception hits land in the national security section, which is a different subject",
+  "confidence": "high"
+ },
+ "IR.III.A.S5": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "Tolerances are an ACS standard. No AFH, AIM, IPH, PHAK or RMH chapter treats holding airspeed and CDI limits, so those stay at document level",
+  "confidence": "high"
+ },
+ "IR.III.A.S6": {
+  "anchors": [
+   "afh:ch02",
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "why": "PHAK ch02 is the SRM chapter; AFH puts its resource management section in ch02 despite the ground operations title. AIM and IPH have no SRM text at all",
+  "confidence": "high"
+ },
+ "IR.III.A.S7": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch09"
+  ],
+  "why": "PHAK ch09 covers the AFM checklists. AIM, IFH and IPH checklist hits are incidental, and RMH checklists are risk tools rather than phase of flight ones",
+  "confidence": "high"
+ },
+ "IR.III.B.K1": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "why": "Searched holding pattern in AFH, PHAK and RMH: no hit in AFH, and the PHAK hits fall in the back matter, so all three stay at document level",
+  "confidence": "high"
+ },
+ "IR.III.B.R1": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "why": "IPH ch02 holds the expect further clearance and fuel reserve text. PHAK fuel reserve is one passing line and AFH and RMH have no chapter on it",
+  "confidence": "high"
+ },
+ "IR.III.B.R2": {
+  "anchors": [
+   "aim:ch06-s03",
+   "ifh:ch11",
+   "iph:ch02",
+   "risk-management:ch03"
+  ],
+  "why": "IPH ch02 carries the fuel reserve discussion and RMH ch03 works fuel exhaustion as a hazard scenario. No AFH or PHAK chapter fits",
+  "confidence": "low"
+ },
+ "IR.III.B.R3": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "risk-management:ch08"
+  ],
+  "why": "IFH ch10 covers holding and alternate planning against deteriorating weather. AFH, IPH and PHAK have no chapter on what drives a hold",
+  "confidence": "low"
+ },
+ "IR.III.B.R4": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "why": "IPH ch02 is the holding chapter and covers entry and wind correction. AFH, PHAK and RMH have no holding text",
+  "confidence": "high"
+ },
+ "IR.III.B.S1": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "why": "Searched holding pattern in AFH, PHAK and RMH and found nothing usable, so those three stay at document level",
+  "confidence": "high"
+ },
+ "IR.III.B.S2": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "why": "IFH ch10 and IPH ch02 are the two holding chapters and both give holding speeds by altitude. AFH, PHAK and RMH have none",
+  "confidence": "high"
+ },
+ "IR.III.B.S3": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "why": "IPH ch02 covers arrival at the holding fix and entry. AFH, PHAK and RMH carry no holding text",
+  "confidence": "high"
+ },
+ "IR.III.B.S3a": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "why": "IFH ch10 and IPH ch02 both give holding leg lengths and restrictions. AFH, PHAK and RMH have no holding text",
+  "confidence": "high"
+ },
+ "IR.III.B.S4": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "Tolerances are an ACS standard. No AFH, AIM, IPH, PHAK or RMH chapter treats them, so those stay at document level",
+  "confidence": "high"
+ },
+ "IR.III.B.S5": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "why": "IPH ch02 covers wind correction and timing in the hold. AFH, PHAK and RMH have no holding text",
+  "confidence": "high"
+ },
+ "IR.III.B.S6": {
+  "anchors": [
+   "ifh:ch07",
+   "ifh:ch09",
+   "risk-management:ch07"
+  ],
+  "why": "RMH ch07 covers automation and flight path monitoring, which is what an MFD is doing here. AIM, AFH, IPH and PHAK have no chapter on MFD monitoring",
+  "confidence": "low"
+ },
+ "IR.III.B.S7": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "why": "IFH ch10 and IPH ch02 both give holding position reports and ATC restrictions. AFH, PHAK and RMH have no holding text",
+  "confidence": "high"
+ },
+ "IR.III.B.S8": {
+  "anchors": [
+   "afh:ch02",
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "why": "PHAK ch02 is the SRM chapter and AFH keeps its resource management section in ch02. AIM and IPH have no SRM text",
+  "confidence": "high"
+ },
+ "IR.IV.A.K1": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "Searched attitude instrument and instrument cross-check in AFH, IPH and RMH: IPH and RMH have no hit and the AFH hits are its emergency IMC section",
+  "confidence": "high"
+ },
+ "IR.IV.A.K2": {
+  "anchors": [
+   "ifh:ch05",
+   "ifh:ch06",
+   "phak:ch08"
+  ],
+  "why": "PHAK ch08 is the flight instruments chapter and is already assigned. AFH, IPH and RMH have no chapter on pitch, bank and power instruments",
+  "confidence": "high"
+ },
+ "IR.IV.A.K3": {
+  "anchors": [
+   "ifh:ch05",
+   "ifh:ch11",
+   "phak:ch08"
+  ],
+  "why": "AFH, IPH and RMH carry no chapter on normal and abnormal instrument indications, so those three stay at document level",
+  "confidence": "high"
+ },
+ "IR.IV.A.R1": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch17"
+  ],
+  "why": "Searched cross-check in RMH with no hit, and IPH and AFH have no physiology chapter, so those three stay at document level",
+  "confidence": "high"
+ },
+ "IR.IV.A.R2": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch17"
+  ],
+  "why": "AFH illusion text sits in ch11 Night Operations, which is a VFR night chapter and the wrong target here. IPH and RMH have no hit",
+  "confidence": "high"
+ },
+ "IR.IV.A.R3": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08",
+   "risk-management:ch03",
+   "risk-management:ch07"
+  ],
+  "why": "IFH ch05 and PHAK ch08 are the flight display and avionics chapters. AFH transition chapters are type specific and IPH has no fit",
+  "confidence": "low"
+ },
+ "IR.IV.A.S1": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "Tolerances are an ACS standard. No AFH, IPH, PHAK or RMH chapter treats them, so those stay at document level",
+  "confidence": "high"
+ },
+ "IR.IV.A.S2": {
+  "anchors": [
+   "ifh:ch06",
+   "phak:ch08"
+  ],
+  "why": "PHAK ch08 carries the instrument scan and cross-check passage. AFH, IPH and RMH have no cross-check text at all",
+  "confidence": "low"
+ },
+ "IR.IV.B.K1": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch07"
+  ],
+  "why": "Searched unusual attitude in PHAK and RMH: PHAK has one passing hit and RMH none, so both stay at document level",
+  "confidence": "high"
+ },
+ "IR.IV.B.K2": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch03",
+   "ifh:ch11",
+   "phak:ch17",
+   "risk-management:ch03"
+  ],
+  "why": "PHAK ch17 covers the physiological causes and RMH ch03 identifies loss of control hazards, which are the causal factors this element names",
+  "confidence": "low"
+ },
+ "IR.IV.B.K3": {
+  "anchors": [
+   "afh:ch18",
+   "ifh:ch11"
+  ],
+  "why": "IFH ch11 holds the inadvertent IMC text. PHAK inadvertent hits are unrelated and RMH has one passing mention, so both stay at document level",
+  "confidence": "high"
+ },
+ "IR.IV.B.K4": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch05",
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "why": "IFH ch05 is where the autopilot and flight director text lives, and AFH ch05 covers autopilot use during an upset",
+  "confidence": "high"
+ },
+ "IR.IV.B.R1": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "why": "PHAK ch02 covers stress, workload and task saturation, which are the situations this element lists",
+  "confidence": "high"
+ },
+ "IR.IV.B.R2": {
+  "anchors": [],
+  "why": "Element is archived in the ACS and has no content to link. No anchor proposed for any of the four referenced documents",
+  "confidence": "high"
+ },
+ "IR.IV.B.R3": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch04",
+   "phak:ch05"
+  ],
+  "why": "PHAK ch05 carries the load factor, maneuvering speed and flight envelope text. RMH has no envelope hit at all",
+  "confidence": "high"
+ },
+ "IR.IV.B.R4": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07",
+   "phak:ch08"
+  ],
+  "why": "PHAK ch08 is the flight instruments chapter. AFH and RMH have no chapter on reading flight instruments",
+  "confidence": "high"
+ },
+ "IR.IV.B.R5": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch07"
+  ],
+  "why": "Searched unusual attitude in PHAK and RMH and found nothing that assesses one, so both stay at document level",
+  "confidence": "high"
+ },
+ "IR.IV.B.R6": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch07"
+  ],
+  "why": "No PHAK or RMH chapter treats control input errors. PHAK ch06 is about control system design, not pilot input error, so it would be a wrong target",
+  "confidence": "high"
+ },
+ "IR.IV.B.R7": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "Control by sole reference to instruments is an IFH subject. AFH, PHAK and RMH have no chapter on it, so those stay at document level",
+  "confidence": "high"
+ },
+ "IR.IV.B.R8": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch05",
+   "phak:ch14"
+  ],
+  "why": "IFH ch05 holds the traffic display, TCAS and ADS-B text. RMH mentions collision only as a generic hazard example, so it stays at document level",
+  "confidence": "high"
+ },
+ "IR.IV.B.R9": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch03",
+   "ifh:ch11",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "why": "PHAK ch02 covers distraction, task management and situational awareness; AFH ch05 treats distraction as an upset cause",
+  "confidence": "high"
+ },
+ "IR.IV.B.S1": {
+  "anchors": [
+   "afh:ch05",
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "Searched unusual attitude and recovery in PHAK and RMH and found no chapter that teaches the recovery, so both stay at document level",
+  "confidence": "high"
+ },
+ "IR.IV.B.S2": {
+  "anchors": [
+   "afh:ch02",
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "why": "IFH ch03 is the human factors chapter and AFH keeps its resource management section in ch02 despite the ground operations title",
+  "confidence": "high"
+ },
+ "IR.V.A.K1": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 is the navigation chapter and holds the VOR, orientation and course intercept text. IPH arc text sits in its approach chapter, the wrong target",
+  "confidence": "high"
+ },
+ "IR.V.A.K2": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "iph:ch06",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 carries the GPS, WAAS and RAIM text. AFH has four passing GPS mentions and RMH none, so both stay at document level",
+  "confidence": "high"
+ },
+ "IR.V.A.R1": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "why": "PHAK ch02 holds the automation management section. AIM, AFH and IPH have no chapter on managing autoflight",
+  "confidence": "high"
+ },
+ "IR.V.A.R2": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "why": "PHAK ch02 covers distraction, task management and situational awareness. AIM, AFH and IPH have no chapter on it",
+  "confidence": "high"
+ },
+ "IR.V.A.R3": {
+  "anchors": [
+   "aim:ch01-s01",
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "iph:ch06",
+   "phak:ch16"
+  ],
+  "why": "IPH ch06 covers navigation database limitations and PHAK ch16 covers receiver and NAVAID limitations. AFH and RMH have neither",
+  "confidence": "high"
+ },
+ "IR.V.A.S1": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "iph:ch06",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 holds the VOR accuracy check and IPH ch06 covers database currency, which is how the equivalent RNAV check is made",
+  "confidence": "high"
+ },
+ "IR.V.A.S10": {
+  "anchors": [
+   "afh:ch02",
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "why": "IFH ch03 is the human factors chapter and AFH keeps its resource management section in ch02. AIM and IPH have no SRM text",
+  "confidence": "high"
+ },
+ "IR.V.A.S2": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 covers position determination relative to a facility and AIM ch01-s01 covers NAVAID use. AFH, IPH and RMH have no fit",
+  "confidence": "high"
+ },
+ "IR.V.A.S3": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 carries the course setting and intercept text. AIM, AFH, IPH and RMH have no chapter on it",
+  "confidence": "high"
+ },
+ "IR.V.A.S4": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 holds the intercepting a course and radial passage. AIM interception hits land in the national security section, a different subject",
+  "confidence": "high"
+ },
+ "IR.V.A.S5": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "Tolerances are an ACS standard. No AIM, AFH, IPH, PHAK or RMH chapter treats them, so those stay at document level",
+  "confidence": "high"
+ },
+ "IR.V.A.S6": {
+  "anchors": [
+   "ifh:ch09",
+   "iph:ch04",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 covers CDI tracking and IPH ch04 is where the IPH DME arc text sits, which this element names explicitly",
+  "confidence": "low"
+ },
+ "IR.V.A.S7": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "ifh:ch11",
+   "phak:ch16"
+  ],
+  "why": "AIM ch01-s01 covers NAVAID monitoring and failure indications and PHAK ch16 covers receiver flags. AFH, IPH and RMH have no fit",
+  "confidence": "low"
+ },
+ "IR.V.A.S8": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08",
+   "risk-management:ch07"
+  ],
+  "why": "PHAK ch08 covers the PFD and MFD displays. AIM, AFH and IPH have no chapter on using a graphical display for situational awareness",
+  "confidence": "low"
+ },
+ "IR.V.A.S9": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch06",
+   "risk-management:ch07"
+  ],
+  "why": "PHAK keeps its autopilot section in ch06 Flight Controls. AIM, AFH and IPH have no chapter on autopilot course intercepts",
+  "confidence": "low"
+ },
+ "IR.V.B.K1": {
+  "anchors": [
+   "aim:ch05-s02",
+   "aim:ch05-s03",
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch01",
+   "iph:ch03"
+  ],
+  "why": "IPH ch01 holds the departure procedures and climb gradients, IPH ch03 the STARs, IFH ch10 both. AFH, PHAK and RMH have no DP or STAR text",
+  "confidence": "high"
+ },
+ "IR.V.B.K2": {
+  "anchors": [
+   "aim:ch04-s01",
+   "aim:ch04-s02",
+   "aim:ch05-s05",
+   "ifh:ch02",
+   "phak:ch14"
+  ],
+  "why": "IFH ch02 is the ATC system chapter and PHAK ch14 carries the pilot/controller and radio communication text. IPH, AFH and RMH have no fit",
+  "confidence": "high"
+ },
+ "IR.V.B.R1": {
+  "anchors": [
+   "aim:ch04-s04",
+   "aim:ch05-s05",
+   "ifh:ch02"
+  ],
+  "why": "IFH ch02 covers ATC communication and complying with a clearance. AFH, IPH, PHAK and RMH have no chapter on procedural compliance",
+  "confidence": "high"
+ },
+ "IR.V.B.R2": {
+  "anchors": [
+   "aim:ch04-s05",
+   "ifh:ch05",
+   "phak:ch14"
+  ],
+  "why": "IFH ch05 and PHAK ch14 both cover TCAS, TIS and ADS-B traffic display and their limits. AFH, IPH and RMH have no fit",
+  "confidence": "high"
+ },
+ "IR.V.B.R3": {
+  "anchors": [
+   "aim:ch05-s05",
+   "phak:ch14"
+  ],
+  "why": "PHAK ch14 carries the see and avoid text. AFH collision avoidance sits in its traffic pattern chapter, which is the wrong target for an IFR task",
+  "confidence": "high"
+ },
+ "IR.V.B.S1": {
+  "anchors": [
+   "aim:ch01-s01",
+   "aim:ch04-s02",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "why": "IFH ch09 covers tuning and identifying a facility and PHAK ch16 covers selecting navigation aids. AFH, IPH and RMH have no fit",
+  "confidence": "high"
+ },
+ "IR.V.B.S10": {
+  "anchors": [
+   "afh:ch02",
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "why": "PHAK ch02 is the SRM chapter, IFH ch03 the human factors chapter, and AFH keeps its resource management section in ch02. AIM and IPH have no SRM text",
+  "confidence": "high"
+ },
+ "IR.V.B.S2": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch09"
+  ],
+  "why": "This element had no anchor at all. AFH ch02 and PHAK ch09 hold the checklist text; AIM, IFH, IPH and RMH checklist hits are incidental or risk tools",
+  "confidence": "high"
+ },
+ "IR.V.B.S3": {
+  "anchors": [
+   "aim:ch09-s01",
+   "iph:ch06",
+   "phak:ch16"
+  ],
+  "why": "PHAK ch16 is the aeronautical chart chapter and IPH ch06 covers database effective dates. IFH chart hits are incidental",
+  "confidence": "high"
+ },
+ "IR.V.B.S4": {
+  "anchors": [
+   "aim:ch04-s02",
+   "aim:ch04-s04",
+   "ifh:ch02",
+   "phak:ch14"
+  ],
+  "why": "IFH ch02 and PHAK ch14 both carry two-way communication and phraseology. AFH, IPH and RMH have no fit",
+  "confidence": "high"
+ },
+ "IR.V.B.S5": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "why": "IFH ch09 and PHAK ch16 both carry the course intercept text. AFH, IPH and RMH have no chapter on intercepting a radial or bearing",
+  "confidence": "high"
+ },
+ "IR.V.B.S6": {
+  "anchors": [
+   "aim:ch05-s02",
+   "aim:ch05-s04",
+   "ifh:ch10",
+   "iph:ch01",
+   "iph:ch03"
+  ],
+  "why": "IPH ch01 covers charted departures and ch03 charted arrivals; IFH ch10 covers both. AFH, PHAK and RMH have no charted procedure text",
+  "confidence": "high"
+ },
+ "IR.V.B.S7": {
+  "anchors": [
+   "ifh:ch06",
+   "ifh:ch07"
+  ],
+  "why": "This element had no anchor at all. IFH ch06 and ch07 hold the altitude, heading and CDI tracking text used for every other tolerance element in this task",
+  "confidence": "high"
+ },
+ "IR.V.B.S8": {
+  "anchors": [
+   "aim:ch07-s01",
+   "ifh:ch10",
+   "phak:ch13"
+  ],
+  "why": "PHAK ch13 is the aviation weather services chapter and IFH ch10 covers updating weather en route. AFH, IPH and RMH have no fit",
+  "confidence": "high"
+ },
+ "IR.V.B.S9": {
+  "anchors": [
+   "aim:ch07-s01",
+   "ifh:ch05",
+   "phak:ch13"
+  ],
+  "why": "PHAK ch13 carries the datalink weather text and IFH ch05 covers the cockpit weather display. AFH, IPH and RMH have no fit",
+  "confidence": "high"
+ }
+}

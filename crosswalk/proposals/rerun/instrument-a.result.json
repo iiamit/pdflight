@@ -1,0 +1,871 @@
+{
+ "IR.I.A.K1": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch01"
+  ],
+  "confidence": "low",
+  "why": "AFH ch01 covers pilot certificates, logbooks and recency; PHAK ch01 kept. IFH and RMH have no certification chapter, so both stay at book level"
+ },
+ "IR.I.A.K2": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "high",
+  "why": "Searched AFH, IFH and RMH for privileges and limitations and found only scattered mentions, so no chapter fits. PHAK ch01 kept"
+ },
+ "IR.I.A.K3": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "high",
+  "why": "BasicMed returns no hit in AFH, IFH or RMH, so those stay at book level. PHAK ch01 kept"
+ },
+ "IR.I.A.R1": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch02"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch02 treats currency versus proficiency in the ADM discussion; RMH ch02 kept. AFH and IFH return one currency hit each, so neither fits"
+ },
+ "IR.I.A.R2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 holds the personal minimums checklist; RMH ch02 kept. AFH and IFH have no personal minimums material"
+ },
+ "IR.I.A.R3": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch17",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "RMH ch03 carries the IMSAFE and fitness for flight discussion; IFH ch03 and PHAK ch17 kept. AFH returns no hit for fitness for flight"
+ },
+ "IR.I.A.R4": {
+  "anchors": [
+   "ifh:ch07",
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers automation and unfamiliar equipment; IFH ch07 and RMH ch07 kept. AFH has no hit for unfamiliar aircraft or flight displays"
+ },
+ "IR.I.A.S1": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch01 kept. Searched AFH, IFH and RMH for certificate, recency and 61.57 and found no chapter on IFR PIC requirements"
+ },
+ "IR.I.B.K1": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch02",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 Meteorology covers Flight Service and the weather briefing sources. AFH and RMH have no weather product chapter"
+ },
+ "IR.I.B.K2": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch03",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 Meteorology is the AIM catalogue of weather products and briefings. AFH and RMH have no weather product chapter"
+ },
+ "IR.I.B.K2a": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch24",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 carries METAR and PIREP format and use, 106 hits. AFH and RMH have no weather product chapter"
+ },
+ "IR.I.B.K2b": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch25",
+   "phak:ch13"
+  ],
+  "confidence": "low",
+  "why": "AIM 7-1 mentions surface analysis and ceiling and visibility products, but only four hits, so confidence is low. AFH and RMH have none"
+ },
+ "IR.I.B.K2c": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch27",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 covers TAF format and use, 52 hits. AFH and RMH have no weather product chapter"
+ },
+ "IR.I.B.K2d": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch27",
+   "phak:ch13"
+  ],
+  "confidence": "low",
+  "why": "AIM 7-1 names the Graphical Forecast for Aviation, but only twice, so confidence is low. AFH and RMH have none"
+ },
+ "IR.I.B.K2e": {
+  "anchors": [
+   "aviation-weather:ch27",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AIM returns one winds and temperatures aloft hit and it sits in an RVSM section, so no AIM chapter fits. AFH and RMH have none"
+ },
+ "IR.I.B.K2f": {
+  "anchors": [
+   "aviation-weather:ch27",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "Convective outlook returns no hit anywhere in the AIM, so no AIM chapter fits. AFH and RMH have no weather product chapter"
+ },
+ "IR.I.B.K2g": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch26",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1, AvWx ch26 and PHAK ch13 kept. AFH and RMH have no chapter on inflight advisories"
+ },
+ "IR.I.B.K3": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch04",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 Meteorology covers the hazards this element lists. AFH and RMH have no meteorology chapter"
+ },
+ "IR.I.B.K3a": {
+  "anchors": [
+   "aviation-weather:ch04",
+   "aviation-weather:ch13",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch04 and ch13 and PHAK ch12 kept. AIM returns only twelve stability or lapse rate hits, too thin to anchor; AFH and RMH have none"
+ },
+ "IR.I.B.K3b": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch10",
+   "aviation-weather:ch16",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 carries wind shear and microburst, 114 hits. AFH and RMH have no wind chapter"
+ },
+ "IR.I.B.K3c": {
+  "anchors": [
+   "aviation-weather:ch05",
+   "aviation-weather:ch07",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch12 Weather Theory covers temperature and heat exchange, 80 hits. AIM temperature hits are altimetry, not heat exchange; AFH and RMH have none"
+ },
+ "IR.I.B.K3d": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch06",
+   "aviation-weather:ch14",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch12 covers moisture and precipitation, 71 hits, and AIM 7-1 carries precipitation and dew point, 122 hits. AFH and RMH have none"
+ },
+ "IR.I.B.K3e": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch11",
+   "phak:ch12"
+  ],
+  "confidence": "low",
+  "why": "AIM 7-1 discusses air masses and fronts, but only seventeen hits, so confidence is low. AFH and RMH have none"
+ },
+ "IR.I.B.K3f": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch12",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 carries cloud types and coverage, 90 hits. AFH and RMH have no cloud material"
+ },
+ "IR.I.B.K3g": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch19",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 covers turbulence reporting and avoidance, 74 hits. AFH turbulence hits sit in upset recovery, not weather; RMH has none"
+ },
+ "IR.I.B.K3h": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch22",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 covers thunderstorm avoidance, 97 hits. AFH and RMH have no thunderstorm chapter"
+ },
+ "IR.I.B.K3i": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch20",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 covers icing and freezing level reporting, 72 hits. AFH icing hits sit in the multiengine chapter; RMH has none"
+ },
+ "IR.I.B.K3j": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch18",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 covers fog and restricted visibility, seventeen hits. AFH and RMH have none"
+ },
+ "IR.I.B.K3k": {
+  "anchors": [
+   "aviation-weather:ch20",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "Frost returns one AIM hit, too thin to anchor. AvWx ch20 and PHAK ch12 kept; AFH and RMH have no frost material"
+ },
+ "IR.I.B.K3l": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch18",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 covers volcanic ash, haze and smoke as obstructions, 35 hits. AFH and RMH have none"
+ },
+ "IR.I.B.K4": {
+  "anchors": [
+   "aim:ch04-s05",
+   "aviation-weather:ch28",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-5 Surveillance Systems holds FIS-B and the cockpit weather display. AFH and RMH have no digital weather display material"
+ },
+ "IR.I.B.R1": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers the go/no-go and divert decision, fourteen hits; RMH ch08 kept. AFH, AIM and AvWx have no decision chapter"
+ },
+ "IR.I.B.R1a": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 and RMH ch08 kept. AFH, AIM and AvWx have no chapter on when diversion is prudent"
+ },
+ "IR.I.B.R1b": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 holds the personal minimums checklist; RMH ch02 kept. AFH, AIM and AvWx have no personal minimums material"
+ },
+ "IR.I.B.R1c": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch19",
+   "aviation-weather:ch20",
+   "phak:ch12",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch12 covers icing and turbulence hazards and AIM 7-1 covers their reporting. AFH icing sits in the multiengine chapter, so it stays at book level"
+ },
+ "IR.I.B.R2": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch03",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch03 states the limitations of weather information, PHAK ch13 covers the services, AIM 7-1 the products. AFH and RMH have none"
+ },
+ "IR.I.B.R2a": {
+  "anchors": [
+   "aim:ch04-s05",
+   "aviation-weather:ch15",
+   "aviation-weather:ch28",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-5 Surveillance Systems covers FIS-B onboard weather and its limits. AFH and RMH have no onboard weather equipment material"
+ },
+ "IR.I.B.R2b": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch03",
+   "aviation-weather:ch27",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch13 Aviation Weather Services covers reports and forecasts and AIM 7-1 their use. AFH and RMH have none"
+ },
+ "IR.I.B.R2c": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch26",
+   "aviation-weather:ch28",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch13 covers inflight weather resources including datalink products. AFH and RMH have no inflight weather material"
+ },
+ "IR.I.B.S1": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch02",
+   "aviation-weather:ch03",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch13 covers obtaining a weather briefing. AFH returns two briefing hits and RMH none, so both stay at book level"
+ },
+ "IR.I.B.S2": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch03",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-1 Meteorology covers the hazard conditions K3a through K3l name. AFH and RMH have no meteorology chapter"
+ },
+ "IR.I.B.S3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 and RMH ch08 kept. AFH and AIM have no go/no-go chapter and AvWx ch03 only mentions decision in passing"
+ },
+ "IR.I.B.S4": {
+  "anchors": [
+   "aim:ch05-s01"
+  ],
+  "confidence": "high",
+  "why": "AIM 5-1 kept. Alternate airport returns three PHAK hits, six AvWx hits in the tools chapter and one RMH hit, so none of those fits"
+ },
+ "IR.I.C.K1": {
+  "anchors": [
+   "aim:ch05-s01",
+   "ifh:ch10",
+   "iph:ch02",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 En Route Operations covers route planning and PHAK ch16 covers flight planning. AFH and RMH have no route planning chapter"
+ },
+ "IR.I.C.K1a": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "iph:ch02",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 covers en route navigation facilities and PHAK ch16 Navigation covers the aids themselves. AFH and RMH have none"
+ },
+ "IR.I.C.K1b": {
+  "anchors": [
+   "aim:ch03-s04",
+   "ifh:ch01",
+   "phak:ch15"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch15 Airspace covers special use airspace. IPH hits sit in ch05 Improvement Plans, which is the wrong subject, so IPH stays at book level"
+ },
+ "IR.I.C.K1c": {
+  "anchors": [
+   "aim:ch05-s01",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 covers preferred and published routes. Preferred route returns no PHAK hit, and AFH and RMH have no route planning material"
+ },
+ "IR.I.C.K1d": {
+  "anchors": [
+   "aim:ch05-s01",
+   "ifh:ch10",
+   "iph:ch01"
+  ],
+  "confidence": "high",
+  "why": "IPH ch01 carries the alternate airport requirements, thirteen hits. PHAK returns three weak hits, and AFH and RMH have none"
+ },
+ "IR.I.C.K1e": {
+  "anchors": [
+   "aim:ch09-s01",
+   "ifh:ch10",
+   "iph:ch02",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 covers en route charts, 26 hits, and PHAK ch16 covers chart use. AFH and RMH have no chart chapter"
+ },
+ "IR.I.C.K1f": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers the Chart Supplement, seventeen hits. IFH returns no hit at all, IPH hits are scattered, and AFH and RMH have none"
+ },
+ "IR.I.C.K1g": {
+  "anchors": [
+   "aim:ch05-s01",
+   "phak:ch01"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch01 covers the NOTAM system, 42 hits. IPH hits sit in ch05 Improvement Plans, IFH hits are scattered, AFH and RMH have none"
+ },
+ "IR.I.C.K1h": {
+  "anchors": [
+   "aim:ch09-s01",
+   "ifh:ch10",
+   "iph:ch01"
+  ],
+  "confidence": "high",
+  "why": "IPH ch01 covers the Terminal Procedures Publication, thirteen hits. PHAK hits are index only, and AFH and RMH have none"
+ },
+ "IR.I.C.K2": {
+  "anchors": [
+   "aim:ch05-s03",
+   "ifh:ch10",
+   "iph:ch02"
+  ],
+  "confidence": "high",
+  "why": "IPH ch02 covers MEA and IFR cruising altitude selection, 103 hits. PHAK splits altitude, glide and oxygen across chapters, so it stays at book level"
+ },
+ "IR.I.C.K3": {
+  "anchors": [
+   "ifh:ch10",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 Navigation holds the flight planning computations. IPH, AIM, AFH and RMH have no calculation chapter"
+ },
+ "IR.I.C.K3a": {
+  "anchors": [
+   "ifh:ch10",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers true airspeed, groundspeed and wind correction, nineteen hits. IPH, AIM, AFH and RMH have no calculation chapter"
+ },
+ "IR.I.C.K3b": {
+  "anchors": [
+   "ifh:ch10",
+   "phak:ch16"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch16 carries the flight log and time computations, but estimated time of arrival returns only scattered hits, so confidence is low"
+ },
+ "IR.I.C.K3c": {
+  "anchors": [
+   "aim:ch05-s01",
+   "ifh:ch10",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers fuel planning and reserves in the flight planning section, 57 fuel hits. AIM returns no fuel requirement hit at all"
+ },
+ "IR.I.C.K4": {
+  "anchors": [
+   "aim:ch05-s01",
+   "ifh:ch10",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 walks through filing a flight plan, 24 hits; AIM 5-1 and IFH ch10 kept. IPH, AFH and RMH have no flight plan chapter"
+ },
+ "IR.I.C.K5": {
+  "anchors": [
+   "aim:ch05-s01",
+   "ifh:ch10",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers activating and closing a flight plan; AIM 5-1 and IFH ch10 kept. IPH, AFH and RMH have none"
+ },
+ "IR.I.C.R1": {
+  "anchors": [
+   "ifh:ch03",
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 holds the PAVE pilot element and IFH ch03 Human Factors covers pilot condition; RMH ch03 kept. AIM, IPH and AFH have none"
+ },
+ "IR.I.C.R2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 holds the PAVE aircraft element, twelve PAVE hits; RMH ch03 kept. AIM, IFH, IPH and AFH have no risk model chapter"
+ },
+ "IR.I.C.R3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 holds the PAVE environment element; RMH ch03 kept. AIM, IFH, IPH and AFH have no risk model chapter"
+ },
+ "IR.I.C.R4": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 holds the PAVE external pressures element; RMH ch03 kept. AIM, IFH, IPH and AFH have no risk model chapter"
+ },
+ "IR.I.C.R5": {
+  "anchors": [
+   "aim:ch04-s01",
+   "ifh:ch02"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-1 and IFH ch02 kept. PHAK returns one ATC services hit per chapter and IPH none, so neither has a chapter on ATC limitations"
+ },
+ "IR.I.C.R6": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "RMH ch07 kept. EFB returns one AIM hit, two IFH, two PHAK and one AFH hit, and IPH ch06 is avionics databases, not planning apps"
+ },
+ "IR.I.C.R7": {
+  "anchors": [
+   "ifh:ch10",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers fuel planning and reserves, 57 hits; IFH ch10 kept. AIM has no fuel requirement hit, and IPH fuel hits are scattered"
+ },
+ "IR.I.C.S1": {
+  "anchors": [
+   "ifh:ch10",
+   "iph:ch02",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers building the cross-country plan and IPH ch02 the en route leg; IFH ch10 kept. AIM, AFH and RMH have none"
+ },
+ "IR.I.C.S2": {
+  "anchors": [
+   "ifh:ch10",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers fuel reserve computation, 57 fuel hits; IFH ch10 kept. AIM, IPH, AFH and RMH have no fuel chapter"
+ },
+ "IR.I.C.S3": {
+  "anchors": [
+   "aim:ch05-s01",
+   "ifh:ch10",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 covers building a navigation log and filing; AIM 5-1 and IFH ch10 kept. IPH, AFH and RMH have none"
+ },
+ "IR.I.C.S4": {
+  "anchors": [
+   "aim:ch09-s01",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "why": "AIM 9-1 and IFH ch10 kept. This element spans departure, arrival, en route and approach, which is all four IPH chapters, so no single IPH chapter fits"
+ },
+ "IR.I.C.S5": {
+  "anchors": [
+   "aim:ch07-s01",
+   "ifh:ch04",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers ice control systems and icing effects, 68 hits, and AIM 7-1 covers icing reports. AFH icing sits in the multiengine chapter"
+ },
+ "IR.I.C.S6": {
+  "anchors": [
+   "aim:ch05-s01",
+   "aim:ch09-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 covers Chart Supplement and NOTAM use, seventeen and thirteen hits. IFH returns no Chart Supplement hit, and IPH hits are scattered"
+ },
+ "IR.II.A.K1": {
+  "anchors": [
+   "ifh:ch04",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch04 and PHAK ch07 kept. AFH icing hits sit in ch13 Transition to Multiengine, the wrong subject, and RMH has no systems chapter"
+ },
+ "IR.II.A.K2": {
+  "anchors": [
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch06 kept. AFH control surface hits sit in upset recovery and emergencies, IFH treats flight controls only as technique, and RMH has none"
+ },
+ "IR.II.A.R1": {
+  "anchors": [
+   "ifh:ch04",
+   "phak:ch07",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers operating the ice control systems and icing effects, 68 icing hits; IFH ch04 and RMH ch03 kept. AFH has no icing chapter"
+ },
+ "IR.II.A.R2": {
+  "anchors": [
+   "ifh:ch04",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch04 and PHAK ch07 kept. AFH icing hits sit in the multiengine chapter and RMH has no systems chapter, so both stay at book level"
+ },
+ "IR.II.A.R3": {
+  "anchors": [
+   "ifh:ch07",
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers automation management, 41 hits; IFH ch07 and RMH ch07 kept. AFH autopilot hits are scattered across upset and multiengine"
+ },
+ "IR.II.A.S1": {
+  "anchors": [
+   "ifh:ch04",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "IFH ch04 and PHAK ch09 kept. AFH icing hits sit in the multiengine chapter and RMH has no systems chapter"
+ },
+ "IR.II.A.S2": {
+  "anchors": [
+   "ifh:ch07",
+   "phak:ch09",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch07, PHAK ch09 and RMH ch07 kept. AFH autopilot hits are scattered across upset recovery and the multiengine chapter, so no chapter fits"
+ },
+ "IR.II.B.K1": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 and PHAK ch08 are the flight instrument chapters. AIM has no instrument system material, and AFH and RMH have none"
+ },
+ "IR.II.B.K1a": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 covers the pitot-static system, 44 hits, and PHAK ch08 covers it, 76 hits. AIM, AFH and RMH have no pitot-static material"
+ },
+ "IR.II.B.K1b": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 covers gyroscopic instruments, 49 hits, and PHAK ch08 covers them, 61 hits. AIM, AFH and RMH have none"
+ },
+ "IR.II.B.K1c": {
+  "anchors": [
+   "aim:ch04-s05",
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 and PHAK ch08 cover PFD and MFD displays and transponder indications; AIM 4-5 kept. AFH and RMH have none"
+ },
+ "IR.II.B.K1d": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 covers the magnetic compass, 32 hits, and PHAK ch08 covers it, nineteen hits. AIM, AFH and RMH have none"
+ },
+ "IR.II.B.K2": {
+  "anchors": [
+   "aim:ch01-s01",
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IFH ch09 Navigation Systems and PHAK ch16 Navigation are the navigation chapters; AIM 1-1 and 1-2 kept. AFH and RMH have none"
+ },
+ "IR.II.B.K2a": {
+  "anchors": [
+   "aim:ch01-s01",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IFH ch09 covers VOR, DME and ILS, 134 hits, and PHAK ch16 covers them, 139 hits. AFH and RMH have no navigation chapter"
+ },
+ "IR.II.B.K2b": {
+  "anchors": [
+   "aim:ch01-s01",
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IFH ch09 covers RNAV, GPS, WAAS and FMS, 199 hits, and PHAK ch16 covers them, 53 hits. AFH and RMH have none"
+ },
+ "IR.II.B.K3": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "EFB returns one AIM hit, two IFH, two PHAK, one AFH and two RMH hits, so no chapter in any referenced document covers it"
+ },
+ "IR.II.B.R1": {
+  "anchors": [
+   "ifh:ch05",
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers automation management, 41 hits, and IFH ch05 covers autopilot modes, 24 hits; RMH ch07 kept. AIM and AFH have none"
+ },
+ "IR.II.B.R2": {
+  "anchors": [
+   "aim:ch01-s02"
+  ],
+  "confidence": "high",
+  "why": "AIM 1-2 kept. Approved for IFR returns one IFH hit and no PHAK hit, so neither has a chapter on approved versus non-approved devices"
+ },
+ "IR.II.B.R3": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch05",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 covers instrument and autopilot modes and their failure indications; AIM 1-2 and RMH ch07 kept. AFH and PHAK have no failure mode chapter"
+ },
+ "IR.II.B.R4": {
+  "anchors": [
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "RMH ch07 kept. EFB returns one AIM hit, two IFH, two PHAK and one AFH hit, so no chapter in those documents covers it"
+ },
+ "IR.II.B.R5": {
+  "anchors": [
+   "aim:ch01-s02",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IFH ch09 covers navigation databases, 29 hits, and PHAK ch16 covers them, fourteen hits; AIM 1-2 kept. AFH and RMH have none"
+ },
+ "IR.II.B.S1": {
+  "anchors": [
+   "aim:ch01-s01",
+   "aim:ch01-s02",
+   "ifh:ch05",
+   "ifh:ch09",
+   "phak:ch16"
+  ],
+  "confidence": "high",
+  "why": "IFH ch05 covers the instruments, IFH ch09 and PHAK ch16 the navigation equipment; AIM 1-1 and 1-2 kept. AFH and RMH have none"
+ },
+ "IR.II.B.S2": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "EFB returns one AIM hit, two IFH, two PHAK, one AFH and two RMH hits, so no chapter in any referenced document covers it"
+ },
+ "IR.II.C.K1": {
+  "anchors": [
+   "afh:ch02",
+   "ifh:ch05",
+   "ifh:ch10"
+  ],
+  "confidence": "high",
+  "why": "AFH ch02 Ground Operations covers the preflight and before-takeoff instrument checks, sixteen hits; IFH ch05 and ch10 kept. RMH has none"
+ },
+ "IR.II.C.K2": {
+  "anchors": [
+   "ifh:ch10",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 and PHAK ch09 kept. AFH airworthiness hits sit in the multiengine and light sport chapters, and RMH has no airworthiness chapter"
+ },
+ "IR.II.C.K3": {
+  "anchors": [
+   "ifh:ch10",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers flying with inoperative equipment and the MEL, eleven hits; PHAK ch09 kept. AFH hits sit in transition chapters and RMH has none"
+ },
+ "IR.II.C.R1": {
+  "anchors": [
+   "ifh:ch10",
+   "phak:ch09",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "IFH ch10 covers inoperative equipment in IFR flight, eleven hits; PHAK ch09 and RMH ch03 kept. AFH hits sit in the transition chapters"
+ },
+ "IR.II.C.R2": {
+  "anchors": [
+   "ifh:ch09",
+   "phak:ch16",
+   "risk-management:ch03"
+  ],
+  "confidence": "high",
+  "why": "IFH ch09 covers database currency, 29 hits, and PHAK ch16 covers it, fourteen hits; RMH ch03 kept. AFH has no database material"
+ },
+ "IR.II.C.S1": {
+  "anchors": [
+   "afh:ch02",
+   "ifh:ch10",
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 covers using the checklist and flight manual for preflight, fourteen hits; AFH ch02 and IFH ch10 kept. RMH has no preflight chapter"
+ }
+}

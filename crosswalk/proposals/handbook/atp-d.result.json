@@ -846,12 +846,11 @@
  },
  "AA.VII.C.K2a": {
   "anchors": [
-   "afh:ch18",
-   "phak:ch11"
+   "afh:ch18"
   ],
   "confidence": "high",
   "sections": [],
-  "why": "AFH ch18 covers establishing best glide speed; PHAK ch11 covers the glide ratio and distance it produces"
+  "why": "AFH ch18 covers best glide speed and the effect of wind on it. PHAK ch11 removed: the chapter has no glide text"
  },
  "AA.VII.C.K2b": {
   "anchors": [
@@ -864,12 +863,11 @@
  },
  "AA.VII.C.K2c": {
   "anchors": [
-   "afh:ch18",
-   "phak:ch11"
+   "afh:ch18"
   ],
   "confidence": "low",
   "sections": [],
-  "why": "AFH ch18 covers adjusting glide speed for wind; PHAK ch11 covers the effect of wind on glide distance over the ground"
+  "why": "AFH ch18 covers best glide speed and the effect of wind on it. PHAK ch11 removed: the chapter has no glide text"
  },
  "AA.VII.C.K3": {
   "anchors": [

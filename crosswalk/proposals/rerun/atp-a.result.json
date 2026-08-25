@@ -1,0 +1,1506 @@
+{
+ "AA.I.A.K1": {
+  "anchors": [
+   "afh:ch12",
+   "afh:ch16",
+   "phak:ch07",
+   "seaplane:amphibious-gear"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 carries landing gear, brakes and tires; seaplane amphibious-gear is the retractable gear passage. No risk management chapter fits"
+ },
+ "AA.I.A.K10": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers anti-ice and deice systems; AFH ch13 carries the multiengine ice protection text. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K11": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers oxygen systems including quick-donning masks and passenger supply. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K12": {
+  "anchors": [
+   "afh:ch12",
+   "afh:ch16",
+   "phak:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch06 Flight Controls is the primary and secondary control chapter, trim, flaps and spoilers included. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K13": {
+  "anchors": [
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch08 Flight is the pitot-static and flight instrument chapter. AFH has no systems chapter, so it stays at book level"
+ },
+ "AA.I.A.K14": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers fire and smoke. PHAK, risk management and seaplane have no fire protection chapter, so all three stay at book level"
+ },
+ "AA.I.A.K15": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 Aerodynamics carries stall angle of attack and stall warning. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K16": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 Flight Manuals and Other Documents is the POH and AFM chapter. AFH, risk management and seaplane stay at book level"
+ },
+ "AA.I.A.K17": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 carries the MEL and CDL text. The single AFH mention is not a treatment, so AFH stays at book level"
+ },
+ "AA.I.A.K2": {
+  "anchors": [
+   "afh:ch15",
+   "afh:ch16",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 Aircraft Systems covers powerplant controls, induction, carburetion, injection and turbocharging. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K3": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch15",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 Aircraft Systems covers propeller types, controls and feathering. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K4": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 holds the fuel system text; AFH ch02 Ground Operations covers fueling, defueling and fuel grade. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K5": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers oil capacity and indicators; AFH ch02 Ground Operations covers oil servicing. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K6": {
+  "anchors": [
+   "afh:ch12",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 and AFH ch12 Transition to Complex Airplanes both carry the hydraulic system text. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K7": {
+  "anchors": [
+   "afh:ch15",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers alternators, generators and circuit protection; AFH ch15 covers turboprop electrical. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K8": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 Aircraft Systems covers pressurization, environmental and oxygen systems. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.K9": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch16",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 Navigation covers GNSS, SBAS and RNAV; AFH ch16 covers jet EFIS and FMS. Risk management ch07 stays for automation"
+ },
+ "AA.I.A.R1": {
+  "anchors": [
+   "afh:ch18",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 covers the indications that reveal a system malfunction. AFH ch18 stays. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.R2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 Emergency Procedures already carries failure management. No PHAK, risk management or seaplane chapter treats it, so those stay at book level"
+ },
+ "AA.I.A.R3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers automation management and autopilot monitoring. Risk management ch07 stays. AFH and seaplane have no automation chapter"
+ },
+ "AA.I.A.R4": {
+  "anchors": [
+   "afh:ch02",
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 carries the checklist discipline text. Seaplane has no checklist chapter, so it stays at book level"
+ },
+ "AA.I.A.S1": {
+  "anchors": [
+   "afh:ch15",
+   "afh:ch16",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 Aircraft Systems supplies the system terminology. No risk management or seaplane chapter fits"
+ },
+ "AA.I.A.S2": {
+  "anchors": [
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch18 already covers memory items. No PHAK, risk management or seaplane chapter treats immediate action items, so those stay at book level"
+ },
+ "AA.I.A.S3": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 is the POH and AFM limitations chapter. AFH, risk management and seaplane have no equivalent"
+ },
+ "AA.I.A.S4": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 carries the MEL and CDL deferral text. AFH, risk management and seaplane stay at book level"
+ },
+ "AA.I.A.S5": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch09 names operations specifications and letters of authorization, but only in passing, so the fit is weak. Nothing else covers them"
+ },
+ "AA.I.A.S6": {
+  "anchors": [
+   "afh:ch02",
+   "afh:ch18",
+   "phak:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers checklist use for normal and abnormal procedures. Seaplane has no checklist chapter, so it stays at book level"
+ },
+ "AA.I.B.K1": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 Aircraft Performance is the chart, table and data chapter. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K2": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 Aircraft Performance carries the performance determination methods. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K2a": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and ch16 carry accelerate-stop and accelerate-go. PHAK has no such text, so PHAK stays at book level"
+ },
+ "AA.I.B.K2b": {
+  "anchors": [
+   "afh:ch13",
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 and ch16 carry balanced field length and VMCG; PHAK ch11 covers takeoff performance charts. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K2c": {
+  "anchors": [
+   "afh:ch13",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers climb performance; AFH ch13 carries multiengine climb performance. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K2d": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers cruise performance and service ceiling; AFH ch16 covers jet optimum and maximum altitudes. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K2e": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers descent performance; AFH ch16 covers jet descent planning. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K2f": {
+  "anchors": [
+   "afh:ch09",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers landing performance and runway condition; AFH ch09 Approaches and Landings covers landing distance. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K2g": {
+  "anchors": [
+   "afh:ch13"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 Transition to Multiengine Airplanes is the engine-inoperative performance chapter. PHAK has no equivalent"
+ },
+ "AA.I.B.K2h": {
+  "anchors": [
+   "phak:ch10",
+   "weight-balance:ch02",
+   "weight-balance:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch10 and W and B ch02 carry weight shift computation; W and B ch09 covers large aircraft loading. AFH and AIM stay at book level"
+ },
+ "AA.I.B.K3": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 Aircraft Performance lists the factors affecting performance. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K3a": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 carries density altitude and the atmospheric performance factors. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K3b": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers the pilot technique variation between book and actual performance. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K3c": {
+  "anchors": [
+   "afh:ch06",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers configuration effects on performance; AFH ch06 covers flap setting on takeoff. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K3d": {
+  "anchors": [
+   "aim:ch04-s03",
+   "phak:ch11",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 Airport Operations carries LAHSO and runway condition; PHAK ch14 covers LAHSO and ch11 contaminated runways"
+ },
+ "AA.I.B.K3e": {
+  "anchors": [
+   "phak:ch10",
+   "weight-balance:ch01"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch10 Weight and Balance and W and B ch01 cover CG limits and loading. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K3f": {
+  "anchors": [
+   "phak:ch10",
+   "weight-balance:ch01"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch10 and W and B ch01 cover weight limits and their effect on performance. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K4": {
+  "anchors": [
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 Aerodynamics carries lift, drag and the L/D relationship behind performance. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K5": {
+  "anchors": [
+   "afh:ch05",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 covers load factor and limit exceedance; AFH ch05 covers envelope excursions and upset. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.K6": {
+  "anchors": [
+   "afh:ch13",
+   "aim:ch07-s01"
+  ],
+  "confidence": "low",
+  "why": "AFH ch13 carries airframe icing and its performance penalty; AIM 7-1 Meteorology covers aircraft icing. PHAK icing text sits in weather"
+ },
+ "AA.I.B.K7": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards carries ground deicing, anti-icing and holdover. No AFH or PHAK chapter mentions holdover times"
+ },
+ "AA.I.B.K8": {
+  "anchors": [
+   "weight-balance:ch09"
+  ],
+  "confidence": "high",
+  "why": "W and B ch09 Commuter Category and Large Aircraft is the air carrier average weight chapter. The rest stay at book level"
+ },
+ "AA.I.B.K9": {
+  "anchors": [
+   "afh:ch09",
+   "aim:ch04-s03"
+  ],
+  "confidence": "high",
+  "why": "AIM 4-3 Airport Operations carries runway condition reporting and braking action; AFH ch09 covers braking action on landing"
+ },
+ "AA.I.B.R1": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 Aircraft Performance is the chart use chapter. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.R2": {
+  "anchors": [
+   "phak:ch09",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch09 carries the AFM limitations section and ch11 the performance limits. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.R3": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers why actual performance differs from computed performance. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.R4": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch13",
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 covers airframe icing performance loss, AFH ch05 icing effect on stall warning, AIM 7-1 aircraft icing"
+ },
+ "AA.I.B.R5": {
+  "anchors": [
+   "afh:ch09"
+  ],
+  "confidence": "low",
+  "why": "AFH ch09 carries braking action and directional control on landing. No chapter in any reference uses the phrase runway excursion"
+ },
+ "AA.I.B.S1": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers the performance airspeeds; AFH ch16 carries the jet V-speeds by phase of flight. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.S2": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 covers density altitude, humidity and temperature applied to performance charts. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.S3": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards carries wing contamination and pre-takeoff contamination checks. No AFH or PHAK chapter covers deice fluid"
+ },
+ "AA.I.B.S4": {
+  "anchors": [
+   "afh:ch13",
+   "aim:ch07-s01"
+  ],
+  "confidence": "high",
+  "why": "AFH ch13 carries airframe icing effects and deice system use; AIM 7-1 Meteorology covers icing in all phases"
+ },
+ "AA.I.B.S5": {
+  "anchors": [
+   "phak:ch10",
+   "weight-balance:ch09"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch10 covers weight and balance computation and shifting; W and B ch09 covers large aircraft loading. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.S6": {
+  "anchors": [
+   "phak:ch10",
+   "weight-balance:ch09"
+  ],
+  "confidence": "high",
+  "why": "W and B ch09 covers commuter and large aircraft CG and lateral balance; PHAK ch10 covers CG limits. Seaplane and risk management have no fit"
+ },
+ "AA.I.B.S7": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 Aircraft Performance is the chart and graph chapter. Seaplane and risk management have no fit"
+ },
+ "AA.I.C.K1": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch02",
+   "aviation-weather:ch03",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch02 is the Aviation Weather Service Program and ch03 the product overview; PHAK ch13 covers sources. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K2": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch03",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch03 Overview of Aviation Weather Information lists the products; PHAK ch13 covers the same set. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K2a": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch24",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch24 Observations carries METAR, SPECI and PIREP; PHAK ch13 decodes them. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K2b": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch25",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch25 Analysis carries the surface analysis chart and Ceiling and Visibility Analysis; PHAK ch13 covers charts. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K2c": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch27",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch27 Forecasts carries the TAF; PHAK ch13 decodes it. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K2d": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch03",
+   "aviation-weather:ch28",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "The GFA text sits in AvWx ch03 and ch28 Aviation Weather Tools rather than ch27; PHAK ch13 covers it too. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K2e": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch27",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch27 Forecasts carries the wind and temperature aloft forecast; PHAK ch13 decodes FB. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K2f": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch27",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch27 Forecasts carries the convective outlook; PHAK ch13 covers it. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K2g": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch26",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch26 Advisories is the AIRMET, SIGMET and Convective SIGMET chapter; PHAK ch13 decodes them. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch04",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch04 The Earth Atmosphere and PHAK ch12 Weather Theory are the meteorology chapters. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3a": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch04",
+   "aviation-weather:ch13",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch04 covers atmospheric composition and ch13 the stability text; PHAK ch12 covers both. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3b": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch10",
+   "aviation-weather:ch16",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch10 Wind and ch16 Mountain Weather carry windshear and mountain wave; PHAK ch12 covers wind. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3c": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch05",
+   "aviation-weather:ch07",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch05 Heat and Temperature and ch07 Heat Imbalances carry heat exchange; PHAK ch12 covers temperature. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3d": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch06",
+   "aviation-weather:ch14",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch06 Water Vapor and ch14 Precipitation carry moisture; PHAK ch12 covers both. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3e": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch11",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch11 Air Masses, Fronts, and the Wave Cyclone Model is the chapter; PHAK ch12 covers air masses. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3f": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch12",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch12 Vertical Motion and Clouds is the cloud chapter; PHAK ch12 covers cloud types. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3g": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch19",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch19 Turbulence is the chapter; PHAK ch12 covers turbulence. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3h": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch22",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch22 Thunderstorms carries the microburst text; PHAK ch12 covers thunderstorms. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3i": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch20",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch20 Icing carries freezing level and icing types; PHAK ch12 covers structural icing. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3j": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch18",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch18 Weather and Obstructions to Visibility carries fog and mist; PHAK ch12 covers fog. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K3k": {
+  "anchors": [
+   "aviation-weather:ch06",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "Frost is treated under AvWx ch06 Water Vapor, not the icing chapter; PHAK ch12 covers frost. AIM has no frost text"
+ },
+ "AA.I.C.K3l": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch18",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch18 Obstructions to Visibility carries smoke, haze and volcanic ash; PHAK ch12 covers them. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K4": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch28",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch28 Aviation Weather Tools covers flight deck displays and their limits; PHAK ch13 covers datalink weather. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.K5": {
+  "anchors": [
+   "aim:ch05-s04",
+   "iph:ch04"
+  ],
+  "confidence": "high",
+  "why": "IPH ch04 Approaches carries the Category II and III and low visibility text. AIM 5-4 stays. No AvWx, AFH or PHAK chapter fits"
+ },
+ "AA.I.C.K6": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch04"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 Aeronautical Decision-Making covers risk assessment tools. Risk management ch04 stays. AvWx, AFH, AIM and IPH have no fit"
+ },
+ "AA.I.C.R1": {
+  "anchors": [
+   "aim:ch07-s01",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers in-flight weather decision making and AIM 7-1 the weather itself. Risk management ch08 stays. AFH and IPH have no fit"
+ },
+ "AA.I.C.R1a": {
+  "anchors": [
+   "aim:ch07-s01",
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers diverting and changing the plan; AIM 7-1 the weather driving it. Risk management ch08 stays. AFH and IPH have no fit"
+ },
+ "AA.I.C.R1b": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch19",
+   "aviation-weather:ch20",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch20 Icing and ch19 Turbulence carry forecast icing and turbulence aloft; PHAK ch12 covers both. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.R1c": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 covers personal minimums as part of ADM. Risk management ch02 stays. AvWx, AFH, AIM and IPH have no fit"
+ },
+ "AA.I.C.R1d": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch09 Flight Manuals and Other Documents carries aircraft operating limitations. Nothing in AvWx, AFH, AIM or IPH fits"
+ },
+ "AA.I.C.R2": {
+  "anchors": [
+   "aviation-weather:ch03",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch03 and PHAK ch13 cover the products and their limitations. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.R2a": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch28",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch28 Aviation Weather Tools covers onboard weather equipment limits; PHAK ch13 covers datalink and radar. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.R2b": {
+  "anchors": [
+   "aim:ch07-s01",
+   "aviation-weather:ch24",
+   "aviation-weather:ch27",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch24 Observations and ch27 Forecasts carry reports and forecasts; PHAK ch13 covers their limits. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.R2c": {
+  "anchors": [
+   "aim:ch04-s01",
+   "aim:ch07-s01",
+   "aviation-weather:ch28",
+   "phak:ch13"
+  ],
+  "confidence": "high",
+  "why": "AvWx ch28 Aviation Weather Tools covers inflight weather resources; PHAK ch13 covers datalink. AFH and IPH have no weather chapter"
+ },
+ "AA.I.C.S1": {
+  "anchors": [
+   "aviation-weather:ch03",
+   "phak:ch02",
+   "phak:ch13",
+   "risk-management:ch04",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch13 supplies weather interpretation and ch02 the ADM; AvWx ch03 the product overview. Risk management ch04 and ch08 stay"
+ },
+ "AA.I.D.K1": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH ch16 and PHAK ch05 already carry swept wing and Mach buffet. Risk management has no fit"
+ },
+ "AA.I.D.K2": {
+  "anchors": [
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch04 Energy Management already carries it. PHAK names energy management twice in passing and has no chapter for it. Risk management has no fit"
+ },
+ "AA.I.D.K3": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch08"
+  ],
+  "confidence": "high",
+  "why": "AFH ch16 and PHAK ch08 already carry Mach, IAS and TAS. Risk management has no fit"
+ },
+ "AA.I.D.K4": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 Aerodynamics is the load factor chapter. AFH ch16 stays. Risk management has no fit"
+ },
+ "AA.I.D.K5": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "AFH ch16 and PHAK ch11 already carry altitude, weight and temperature. Risk management has no fit"
+ },
+ "AA.I.D.K6": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch05 carries critical Mach number and stall angle of attack convergence. AFH ch16 stays. Risk management has no fit"
+ },
+ "AA.I.D.K7": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH ch16 Transition to Jet-Powered Airplanes carries L/DMAX. PHAK ch05 stays. Risk management has no fit"
+ },
+ "AA.I.D.K8": {
+  "anchors": [
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 already carries best range and best endurance. AFH never uses either term, so AFH stays at book level. Risk management has no fit"
+ },
+ "AA.I.D.K9": {
+  "anchors": [
+   "afh:ch05"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 Upset Prevention and Recovery already carries it. PHAK has no upset chapter. Risk management has no fit"
+ },
+ "AA.I.D.R1": {
+  "anchors": [
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch04 Energy Management already carries it. PHAK has no energy management chapter. Risk management has no fit"
+ },
+ "AA.I.D.R2": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 carries service and absolute ceiling against weight. AFH ch16 stays. Risk management has no fit"
+ },
+ "AA.I.D.R3": {
+  "anchors": [
+   "afh:ch04",
+   "afh:ch16",
+   "phak:ch11"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch11 carries the region of reversed command. AFH ch04 and ch16 stay. Risk management has no fit"
+ },
+ "AA.I.D.R4": {
+  "anchors": [
+   "afh:ch16",
+   "phak:ch12"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch12 Weather Theory is the turbulence chapter. AFH ch16 stays. Risk management has no fit"
+ },
+ "AA.I.D.S1": {
+  "anchors": [
+   "afh:ch04"
+  ],
+  "confidence": "high",
+  "why": "AFH ch04 Energy Management already carries it. PHAK has no energy management chapter. Risk management has no fit"
+ },
+ "AA.I.E.K1": {
+  "anchors": [
+   "afh:ch15",
+   "afh:ch16",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "AFH ch15 and ch16 carry turbine engines and thrust reversing; PHAK ch07 covers turbine systems. Risk management has no fit"
+ },
+ "AA.I.E.K10": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 Airport Operations is the runway incursion chapter; AFH ch01 carries the incursion avoidance text. Risk management has no fit"
+ },
+ "AA.I.E.K11": {
+  "anchors": [
+   "phak:ch01"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch01 Introduction To Flying carries pilot-in-command authority and responsibility. AFH and risk management have no fit"
+ },
+ "AA.I.E.K12": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "Risk management ch08 ADM carries CRM; PHAK ch02 covers CRM and SRM. AFH has no CRM chapter"
+ },
+ "AA.I.E.K13": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "Risk management ch06 Threat and Error Management is the TEM chapter. AFH and PHAK have no safety program chapter"
+ },
+ "AA.I.E.K14": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch09 Flight Manuals and Other Documents names operations specifications, but only in passing. AFH never uses the term"
+ },
+ "AA.I.E.K2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "Risk management ch07 Automation and Flight Path is the automation chapter; PHAK ch02 covers autopilot and flight director use"
+ },
+ "AA.I.E.K3": {
+  "anchors": [
+   "phak:ch16",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch16 Navigation carries RNAV, ADS-B and FMS; risk management ch07 covers managing them inflight. AFH has no avionics chapter"
+ },
+ "AA.I.E.K4": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "No AFH, PHAK or risk management chapter treats TCAS or TAWS; the hits are single passing mentions. All three stay at book level"
+ },
+ "AA.I.E.K5": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 carries the oxygen requirement altitudes and mask use. AFH and risk management have no fit"
+ },
+ "AA.I.E.K6": {
+  "anchors": [
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 carries pressurization, cabin altitude and decompression. AFH and risk management have no fit"
+ },
+ "AA.I.E.K7": {
+  "anchors": [
+   "afh:ch05",
+   "afh:ch16"
+  ],
+  "confidence": "high",
+  "why": "AFH ch05 Upset Prevention and Recovery carries the rudder use and reversal caution; AFH ch16 covers jet rudder limits"
+ },
+ "AA.I.E.K8": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "low",
+  "why": "Risk management ch06 Threat and Error Management carries the sterile flight deck and briefing text, though only briefly"
+ },
+ "AA.I.E.K9": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Operational control is a part 119 and part 121 concept. AFH never uses the term and no PHAK or risk management chapter treats it"
+ },
+ "AA.I.E.R1": {
+  "anchors": [
+   "afh:ch15",
+   "afh:ch18"
+  ],
+  "confidence": "high",
+  "why": "AFH ch15 carries turboprop engine malfunctions and ch18 Emergency Procedures the turbine failure and reverser text"
+ },
+ "AA.I.E.R2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch07"
+  ],
+  "confidence": "high",
+  "why": "Risk management ch07 Automation and Flight Path covers automation management; PHAK ch02 covers autopilot monitoring"
+ },
+ "AA.I.E.R3": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "No AFH, PHAK or risk management chapter treats flightpath warning system alerts. All three stay at book level"
+ },
+ "AA.I.E.R4": {
+  "anchors": [
+   "afh:ch15",
+   "phak:ch07"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch07 carries decompression and cabin altitude; AFH ch15 covers turboprop pressurization and oxygen. Risk management has no fit"
+ },
+ "AA.I.E.R5": {
+  "anchors": [
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "Risk management ch08 ADM carries crew coordination and CRM. AFH and PHAK have no crew coordination chapter"
+ },
+ "AA.I.E.S1": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "Risk management ch08 ADM carries CRM application; PHAK ch02 covers CRM and SRM. AFH has no CRM chapter"
+ },
+ "AA.I.F.K1": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1a": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1b": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1c": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1d": {
+  "anchors": [
+   "afh:ch11",
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 carries spatial disorientation; AFH ch11 Night Operations carries the disorientation text. Risk management has no fit"
+ },
+ "AA.I.F.K1e": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1f": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1g": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1h": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1i": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1j": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K1k": {
+  "anchors": [
+   "afh:ch11",
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 carries optical illusions; AFH ch11 Night Operations carries the landing illusions. Risk management has no fit"
+ },
+ "AA.I.F.K1l": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K2": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors carries alcohol, drugs and over-the-counter medication. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.K3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch06",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 Aeronautical Decision-Making covers ADM, CRM and SRM. Risk management ch06 and ch08 stay. AFH and AIM have no ADM chapter"
+ },
+ "AA.I.F.K4": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17",
+   "risk-management:ch02"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 carries the fitness for flight self-assessment. AIM 8-1 and risk management ch02 stay. AFH has no fit"
+ },
+ "AA.I.F.R1": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.F.R2": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch08"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 is the hazardous attitudes chapter. Risk management ch08 stays. AFH and AIM have no fit"
+ },
+ "AA.I.F.R3": {
+  "anchors": [
+   "phak:ch02",
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch02 carries situational awareness, task management and distraction. Risk management ch06 stays. AFH and AIM have no fit"
+ },
+ "AA.I.F.R4": {
+  "anchors": [
+   "risk-management:ch06"
+  ],
+  "confidence": "high",
+  "why": "PHAK never uses the word bias and no AFH or AIM chapter treats it. Risk management ch06 already covers it, so the rest stay at book level"
+ },
+ "AA.I.F.S1": {
+  "anchors": [
+   "aim:ch08-s01",
+   "phak:ch17"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch17 Aeromedical Factors is the chapter for this item. AIM 8-1 stays. AFH and risk management have no fit"
+ },
+ "AA.I.G.K1": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch01"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch01 and AFH ch01 both carry pilot certification and the part 61 requirements. Risk management has no regulatory chapter"
+ },
+ "AA.I.G.K2": {
+  "anchors": [
+   "phak:ch09"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch09 carries the part 91 documents, inspections and equipment requirements, though it is not a regulations chapter"
+ },
+ "AA.I.G.K3": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Part 117 flight and duty limits appear in no AFH, PHAK or risk management chapter. All three stay at book level"
+ },
+ "AA.I.G.K4": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Part 121 appears in no AFH, PHAK or risk management chapter. All three stay at book level"
+ },
+ "AA.I.G.K5": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Part 135 appears in no AFH, PHAK or risk management chapter. All three stay at book level"
+ },
+ "AA.I.G.K6": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "PHAK ch01 names the NTSB twice in passing and 49 CFR 830 has no chapter in any of these three books. All stay at book level"
+ },
+ "AA.I.G.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Part 111 appears in no AFH, PHAK or risk management chapter. All three stay at book level"
+ },
+ "AA.I.G.R1": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "No AFH, PHAK or risk management chapter treats regulatory non-compliance as its subject. All three stay at book level"
+ },
+ "AA.I.G.S1": {
+  "anchors": [
+   "afh:ch01",
+   "phak:ch01"
+  ],
+  "confidence": "low",
+  "why": "PHAK ch01 and AFH ch01 carry the regulatory framework a pilot applies to a flight. Risk management has no regulatory chapter"
+ },
+ "AA.I.H.K1": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K1a": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K1b": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K1c": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K1d": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K1e": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K1f": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K1g": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K1h": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K1i": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance",
+   "seaplane:rough-water-landing"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Potential Flight Hazards holds the Seaplane Safety paragraph on water surface, wind and traffic. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K2": {
+  "anchors": [
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "high",
+  "why": "Seaplane preflight-inspection already carries float and hull construction. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K3": {
+  "anchors": [
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "why": "Seaplane porpoising and skipping already carry it. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.K4": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 Airport Operations covers the Chart Supplement and names seaplane bases. AIM 9-1 stays. The seaplane handbook has no chart text"
+ },
+ "AA.I.H.K5": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "why": "AIM 7-6 Seaplane Safety and the seaplane reconnaissance passage both touch base restrictions, but neither treats them fully"
+ },
+ "AA.I.H.K6": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:sailing",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "low",
+  "why": "AIM 7-6 Seaplane Safety covers vessel traffic and right of way. Seaplane sailing and taxiing-and-sailing stay. AFH and PHAK have no fit"
+ },
+ "AA.I.H.K7": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "No chapter covers marine navigation aids. The seaplane handbook hits on buoy are all buoyancy, and nothing else fits"
+ },
+ "AA.I.H.K8": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "Naval vessel protection zones appear nowhere in the seaplane handbook, AIM, PHAK, AFH or risk management. All stay at book level"
+ },
+ "AA.I.H.K9": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "why": "The seaplane landing area reconnaissance passage is the only text naming wake zones, and only once. Nothing else fits"
+ },
+ "AA.I.H.R1": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Seaplane Safety covers local water and wind conditions. Seaplane landing area reconnaissance stays. AFH and PHAK have no fit"
+ },
+ "AA.I.H.R2": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Seaplane Safety covers vessel traffic and wakes. Seaplane landing area reconnaissance stays. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.R3": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:sailing",
+   "seaplane:taxiing-and-sailing"
+  ],
+  "confidence": "low",
+  "why": "AIM 7-6 Seaplane Safety touches right of way with vessels. Seaplane sailing and taxiing-and-sailing stay. AFH and PHAK have no fit"
+ },
+ "AA.I.H.R4": {
+  "anchors": [
+   "aim:ch07-s06"
+  ],
+  "confidence": "low",
+  "why": "AIM 7-6 Seaplane Safety is the only text on seaplane base facilities, and it is brief. The seaplane handbook has none"
+ },
+ "AA.I.H.S1": {
+  "anchors": [
+   "seaplane:preflight-inspection"
+  ],
+  "confidence": "high",
+  "why": "Seaplane preflight-inspection already carries float and hull construction. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.S2": {
+  "anchors": [
+   "seaplane:porpoising",
+   "seaplane:skipping"
+  ],
+  "confidence": "high",
+  "why": "Seaplane porpoising and skipping already carry the corrections. AFH, PHAK and risk management have no water ops chapter"
+ },
+ "AA.I.H.S3": {
+  "anchors": [
+   "aim:ch09-s01",
+   "phak:ch14"
+  ],
+  "confidence": "high",
+  "why": "PHAK ch14 Airport Operations covers the Chart Supplement entries that carry seaplane base restrictions. AIM 9-1 stays"
+ },
+ "AA.I.H.S4": {
+  "anchors": [],
+  "confidence": "high",
+  "why": "No chapter covers marine navigation aids in any referenced document, so all of them stay at book level"
+ },
+ "AA.I.H.S5": {
+  "anchors": [
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "low",
+  "why": "Only the seaplane landing area reconnaissance passage names wake zones. Naval vessel protection zones appear in no referenced document"
+ },
+ "AA.I.H.S6": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:landing-area-reconnaissance"
+  ],
+  "confidence": "high",
+  "why": "AIM 7-6 Seaplane Safety covers assessing the water surface before landing. Seaplane landing area reconnaissance stays. AFH and PHAK have no fit"
+ },
+ "AA.I.H.S7": {
+  "anchors": [
+   "aim:ch07-s06",
+   "seaplane:sailing",
+   "seaplane:taxiing-and-sailing",
+   "seaplane:using-water-rudders"
+  ],
+  "confidence": "low",
+  "why": "AIM 7-6 Seaplane Safety covers operating around vessels. Seaplane sailing, taxiing-and-sailing and water rudders stay. AFH has no fit"
+ }
+}
